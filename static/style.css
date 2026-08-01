@@ -1,0 +1,321 @@
+/* ============================================================
+   The Going Concern — shared stylesheet
+   Plain CSS, light/dark themes, print-friendly.
+   Fourth in the series after The Quantum Quartet (sienna),
+   The Bridge (amber) and No Such Form (indigo). Same skeleton,
+   ledger-green palette, and a counter-case motif in place of
+   the proof ledger.
+   ============================================================ */
+
+:root {
+  /* light theme (default) */
+  --bg:            #fbfaf7;
+  --bg-raised:     #ffffff;
+  --ink:           #1b1c19;
+  --ink-soft:      #464a44;
+  --ink-faint:     #767b73;
+  --rule:          #e3e1d9;
+  --accent:        #2f5d3a;   /* ledger green */
+  --accent-soft:   #6d9077;
+  --link:          #2c5a39;
+  --link-hover:    #17361f;
+  --works:         #2f6048;   /* the case that worked */
+  --fails:         #a04f2a;   /* the counter-case */
+  --code-bg:       #f1efe8;
+  --max:           44rem;
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --sans:  system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:          #141613;
+    --bg-raised:   #1c201b;
+    --ink:         #e9e9e2;
+    --ink-soft:    #bfc1b8;
+    --ink-faint:   #8b8e85;
+    --rule:        #313630;
+    --accent:      #8dc39c;
+    --accent-soft: #68906f;
+    --link:        #9ecfab;
+    --link-hover:  #c4e6cd;
+    --works:       #7cc0a0;
+    --fails:       #e0a077;
+    --code-bg:     #23271f;
+  }
+}
+
+/* explicit toggle wins over OS preference in both directions */
+:root[data-theme="light"] {
+  --bg:#fbfaf7; --bg-raised:#ffffff; --ink:#1b1c19; --ink-soft:#464a44;
+  --ink-faint:#767b73; --rule:#e3e1d9; --accent:#2f5d3a; --accent-soft:#6d9077;
+  --link:#2c5a39; --link-hover:#17361f; --works:#2f6048; --fails:#a04f2a;
+  --code-bg:#f1efe8;
+}
+:root[data-theme="dark"] {
+  --bg:#141613; --bg-raised:#1c201b; --ink:#e9e9e2; --ink-soft:#bfc1b8;
+  --ink-faint:#8b8e85; --rule:#313630; --accent:#8dc39c; --accent-soft:#68906f;
+  --link:#9ecfab; --link-hover:#c4e6cd; --works:#7cc0a0; --fails:#e0a077;
+  --code-bg:#23271f;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.125rem;
+  line-height: 1.62;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- layout ---- */
+.wrap { max-width: var(--max); margin: 0 auto; padding: 0 1.25rem; }
+
+.site-header {
+  border-bottom: 1px solid var(--rule);
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  position: sticky; top: 0; z-index: 10;
+  backdrop-filter: saturate(1.4) blur(6px);
+}
+.site-header .wrap {
+  display: flex; align-items: center; gap: 1rem;
+  padding-top: .7rem; padding-bottom: .7rem;
+}
+.brand {
+  font-family: var(--sans);
+  font-weight: 700; letter-spacing: .02em;
+  font-size: .95rem; text-transform: uppercase;
+  color: var(--ink); text-decoration: none; white-space: nowrap;
+}
+.brand span { color: var(--accent); }
+.site-nav { margin-left: auto; display: flex; align-items: center; gap: 1.1rem; }
+.site-nav a { font-family: var(--sans); font-size: .85rem; color: var(--ink-soft); text-decoration: none; }
+.site-nav a:hover { color: var(--link-hover); }
+
+.theme-toggle {
+  font-family: var(--sans); font-size: .85rem;
+  background: transparent; border: 1px solid var(--rule);
+  color: var(--ink-soft); border-radius: 999px;
+  padding: .28rem .7rem; cursor: pointer; line-height: 1;
+}
+.theme-toggle:hover { border-color: var(--accent-soft); color: var(--ink); }
+
+main { padding: 2.6rem 0 4rem; }
+
+/* ---- typography ---- */
+h1, h2, h3 { font-family: var(--sans); line-height: 1.22; color: var(--ink); }
+h1 { font-size: 2.1rem; font-weight: 800; letter-spacing: -.01em; margin: 0 0 .4rem; }
+h2 { font-size: 1.4rem; font-weight: 700; margin: 2.6rem 0 .8rem; }
+h3 { font-size: 1.08rem; font-weight: 700; margin: 1.8rem 0 .5rem; }
+
+p { margin: 0 0 1.1rem; }
+a { color: var(--link); text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: .5px; }
+a:hover { color: var(--link-hover); }
+
+strong { color: var(--ink); }
+em { color: var(--ink-soft); }
+
+ul, ol { margin: 0 0 1.1rem; padding-left: 1.4rem; }
+li { margin-bottom: .35rem; }
+
+blockquote {
+  margin: 1.4rem 0; padding: .2rem 0 .2rem 1.2rem;
+  border-left: 3px solid var(--accent-soft);
+  color: var(--ink-soft); font-style: italic;
+}
+
+code, kbd {
+  font-family: ui-monospace, "SF Mono", "Cascadia Code", "Fira Code", Menlo, Consolas, monospace;
+  font-size: .86em; background: var(--code-bg); padding: .1em .38em; border-radius: 4px;
+}
+pre { background: var(--code-bg); padding: 1rem 1.1rem; border-radius: 8px; overflow-x: auto; line-height: 1.5; }
+pre code { background: none; padding: 0; font-size: .8rem; }
+
+hr { border: none; border-top: 1px solid var(--rule); margin: 2.4rem 0; }
+
+table { border-collapse: collapse; width: 100%; font-family: var(--sans); font-size: .92rem; }
+.table-scroll { overflow-x: auto; margin: 1.4rem 0; }
+th, td { text-align: left; padding: .5rem .7rem; border-bottom: 1px solid var(--rule); }
+th { font-weight: 700; color: var(--ink); font-size: .8rem; letter-spacing: .04em; text-transform: uppercase; }
+
+/* ---- eyebrow / lede ---- */
+.kicker {
+  font-family: var(--sans); font-size: .78rem; font-weight: 700;
+  letter-spacing: .14em; text-transform: uppercase; color: var(--accent);
+  margin: 0 0 .6rem;
+}
+.lede { font-size: 1.28rem; line-height: 1.5; color: var(--ink-soft); margin: 0 0 1.6rem; }
+
+/* ---- the decision strip (top of each chapter) ---- */
+.decision {
+  border: 1px solid var(--rule); border-left: 3px solid var(--accent);
+  border-radius: 8px; background: var(--bg-raised);
+  padding: .9rem 1.1rem; margin: 1.6rem 0 2rem;
+  font-family: var(--sans); font-size: .95rem;
+}
+.decision .tag {
+  font-size: .7rem; font-weight: 700; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--accent); display: block; margin-bottom: .3rem;
+}
+
+/* ---- moves (the four sections of a chapter) ---- */
+.move { scroll-margin-top: 4rem; }
+.move > h2 { display: flex; align-items: baseline; gap: .6rem; }
+.move > h2 .num {
+  font-size: .72rem; font-weight: 700; letter-spacing: .1em;
+  color: var(--bg); background: var(--accent);
+  border-radius: 999px; padding: .18em .6em; font-family: var(--sans);
+  position: relative; top: -.15em; white-space: nowrap;
+}
+
+/* ---- the case: a named company, dated, with numbers ---- */
+.case {
+  margin: 1.5rem 0; padding: 1rem 1.15rem;
+  border: 1px solid var(--rule); border-left: 3px solid var(--works);
+  border-radius: 8px; background: var(--bg-raised);
+}
+.case .case-head {
+  font-family: var(--sans); font-size: .7rem; font-weight: 700;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--works);
+  margin: 0 0 .5rem;
+}
+.case .case-head .who { color: var(--ink); letter-spacing: .02em; text-transform: none; font-size: 1.24em; }
+.case p:last-child { margin-bottom: 0; }
+
+/* the numbers strip inside a case */
+.figures {
+  display: flex; flex-wrap: wrap; gap: .35rem 1.6rem;
+  margin: .9rem 0 .2rem; padding-top: .8rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--sans);
+}
+.figures div { flex: 1 1 7rem; min-width: 0; }
+.figures dt, .figures .k {
+  display: block; font-size: .66rem; font-weight: 700; letter-spacing: .09em;
+  text-transform: uppercase; color: var(--ink-faint); margin-bottom: .1rem;
+}
+.figures dd, .figures .v {
+  display: block; margin: 0; font-size: 1.05rem; font-weight: 700; color: var(--ink);
+}
+
+/* ---- the counter-case: same advice, bad outcome ---- */
+.counter {
+  margin: 2.2rem 0; padding: 1rem 1.15rem;
+  border: 1px solid var(--rule); border-left: 3px solid var(--fails);
+  border-radius: 8px; background: var(--bg-raised);
+}
+.counter .case-head {
+  font-family: var(--sans); font-size: .7rem; font-weight: 700;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--fails);
+  margin: 0 0 .5rem;
+}
+.counter .case-head .who { color: var(--ink); letter-spacing: .02em; text-transform: none; font-size: 1.24em; }
+.counter .figures dd, .counter .figures .v { color: var(--ink); }
+.counter p:last-child { margin-bottom: 0; }
+
+/* ---- Monday: the concrete action ---- */
+.monday {
+  margin: 2.6rem 0 0; padding: 1.1rem 1.2rem;
+  border: 1px solid var(--rule); border-radius: 10px;
+  background: var(--bg-raised); font-family: var(--sans);
+}
+.monday h2 {
+  font-size: .78rem; font-weight: 700; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--ink-faint);
+  margin: 0 0 .9rem; border-bottom: 1px solid var(--rule); padding-bottom: .5rem;
+}
+.monday ol { margin: 0 0 .2rem; padding-left: 1.3rem; font-size: .95rem; line-height: 1.5; }
+.monday li { margin-bottom: .55rem; color: var(--ink-soft); }
+.monday li strong { color: var(--ink); }
+
+/* ---- reading list at the foot of a chapter ---- */
+.reading {
+  margin: 1.6rem 0 0; font-family: var(--sans); font-size: .9rem;
+  color: var(--ink-soft);
+}
+.reading h2 {
+  font-size: .72rem; font-weight: 700; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--ink-faint); margin: 0 0 .6rem;
+}
+.reading ul { list-style: none; margin: 0; padding: 0; }
+.reading li { margin-bottom: .45rem; padding-left: 1.1rem; position: relative; line-height: 1.45; }
+.reading li::before { content: "→"; position: absolute; left: 0; color: var(--accent-soft); }
+.reading .src { color: var(--ink-faint); font-size: .92em; }
+
+/* ---- standing caveat banner ---- */
+.fence {
+  margin: 1.6rem 0 2rem; padding: .85rem 1.1rem;
+  border: 1px dashed var(--fails); border-radius: 8px;
+  font-family: var(--sans); font-size: .9rem; color: var(--ink-soft);
+}
+.fence strong { color: var(--fails); }
+
+/* ---- unverified figure mark ---- */
+.unverified {
+  display: inline-block;
+  font-family: var(--sans); font-size: .62rem; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase;
+  color: var(--fails); border: 1px solid var(--fails); border-radius: 999px;
+  padding: .02em .42em; margin-left: .3em; white-space: nowrap;
+  vertical-align: super; line-height: 1.35;
+}
+.unverified::before { content: "unverified"; }
+
+/* ---- table of contents (landing) ---- */
+.part { margin: 2.4rem 0; }
+.part-head { font-family: var(--sans); font-size: .82rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); border-bottom: 1px solid var(--rule); padding-bottom: .4rem; margin-bottom: .3rem; }
+.part-q { font-family: var(--sans); font-size: 1.16rem; font-weight: 700; color: var(--ink); margin: .7rem 0 .3rem; }
+.part-intro { font-family: var(--sans); font-size: .92rem; line-height: 1.5; color: var(--ink-soft); margin: .3rem 0 1rem; max-width: 42rem; }
+.toc { list-style: none; margin: 0; padding: 0; }
+.toc li { border-bottom: 1px solid var(--rule); margin: 0; }
+.toc a, .toc .stub { display: block; padding: .85rem .2rem; color: inherit; text-decoration: none; }
+.toc a:hover { background: var(--bg-raised); }
+.toc .stub { cursor: default; opacity: .62; }
+.toc .n { font-family: var(--sans); font-size: .8rem; color: var(--ink-faint); margin-right: .7rem; }
+.toc .ttl { font-weight: 600; }
+.toc .adds { display: block; margin-top: .2rem; font-size: .92rem; color: var(--ink-soft); font-family: var(--sans); }
+.toc .adds .co { color: var(--works); font-weight: 600; }
+.toc .adds .vs { color: var(--fails); font-weight: 600; }
+.toc .soon { font-family: var(--sans); font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-faint); border: 1px solid var(--rule); border-radius: 999px; padding: .1em .5em; margin-left: .5rem; }
+
+/* ---- prev/next footer nav ---- */
+.chapter-nav {
+  display: flex; justify-content: space-between; gap: 1rem;
+  margin-top: 3rem; padding-top: 1.4rem; border-top: 1px solid var(--rule);
+  font-family: var(--sans); font-size: .9rem;
+}
+.chapter-nav a { text-decoration: none; color: var(--ink-soft); max-width: 45%; }
+.chapter-nav a:hover { color: var(--link-hover); }
+.chapter-nav .dir { display: block; font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-faint); }
+.chapter-nav .next { text-align: right; margin-left: auto; }
+
+.site-footer { border-top: 1px solid var(--rule); color: var(--ink-faint); font-family: var(--sans); font-size: .82rem; }
+.site-footer .wrap { padding: 1.6rem 1.25rem 2.4rem; }
+
+img, svg { max-width: 100%; }
+
+/* ---- responsive ---- */
+@media (max-width: 34rem) {
+  body { font-size: 1.06rem; }
+  h1 { font-size: 1.7rem; }
+  .lede { font-size: 1.14rem; }
+  .figures { gap: .8rem 1rem; }
+  .figures div { flex-basis: 45%; }
+}
+
+/* ---- print ---- */
+@media print {
+  :root { --bg:#fff; --bg-raised:#fff; --ink:#000; --ink-soft:#222; --ink-faint:#555; --rule:#ccc; }
+  .site-header, .theme-toggle, .site-nav, .chapter-nav, .site-footer { display: none !important; }
+  body { font-size: 11pt; color: #000; background: #fff; }
+  main { padding: 0; }
+  a { color: #000; text-decoration: none; }
+  .move > h2 .num { color: #000; background: none; border: 1px solid #000; }
+  .case, .counter, .monday, .decision, .fence { border: 1px solid #000; break-inside: avoid; }
+}

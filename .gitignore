@@ -1,0 +1,19 @@
+# Source material — read locally, never redistributed.
+sources/
+books/
+*.pdf
+*.epub
+*.mobi
+*.djvu
+
+# Scratch
+scratch/
+notes-private/
+*.tmp
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
