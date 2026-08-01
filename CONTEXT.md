@@ -72,6 +72,16 @@ survivor who ignored the advice count. **Do not.** Hold the definition and carry
 - **ch. 01** — needs a business that stayed deliberately cheap and variable, exactly as the chapter
   recommends, and lost its market to someone who committed to fixed capacity early and won on scale.
   The Instacart block was mislabelled as a counter-case in the first draft and is now an `.aftermath`.
+- **ch. 05** — the Gymdesk block is a real counter-case, but only to the *threshold* advice: Galperin
+  went full time with no customers, so he did not follow the chapter's central recommendation at all.
+  Still owed: someone who cleared a conservative evidence bar — repeat paid revenue covering their
+  floor — resigned, and failed. Caught on review one commit after the policy in §3 was written, which
+  is a fair measure of how easily this device slides.
+
+**The recurring failure to watch for:** the pull is always to call a nearly-fitting case a
+counter-case, because the alternative is an admission. Both chapters so far have done it. Check the
+label against the chapter's *central* advice, not against whatever advice the case happens to
+counter.
 
 Structural markup already in `static/style.css`:
 

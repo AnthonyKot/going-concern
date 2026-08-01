@@ -123,5 +123,5 @@ argument. `CONTEXT.md §8` keeps the table of what got caught.
 
 ## Status
 
-Scaffold complete. Chapter 1 written and verified; 27 to go. See `CONTEXT.md` for the chapter
+Scaffold complete. Chapters 1 and 5 written and verified — 48 claims between them; 26 to go. See `CONTEXT.md` for the chapter
 register.
