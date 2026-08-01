@@ -14,7 +14,7 @@ These were settled at the outset and should not be relitigated without a reason.
 | Sourcing | **Company cases first.** Each chapter is anchored on a real, named, dated company. Business books appear only in the reading list. | The subject has no canon the way quantum mechanics does. Comparing eight business books would inherit their collective blind spots. Companies are checkable; frameworks are not. |
 | Audience | **The experienced developer going out on their own.** ~40, fifteen-plus years salaried, Netherlands or similar. Self-funded, heading for 1–20 people, still doing the work. | Underserved, and unusually shaped: arrives fluent in systems, constraints, iteration and measurement, illiterate in demand, distribution, selling, pricing and cash. Also old enough to have a mortgage, which changes every risk calculation in the book. |
 | Jurisdiction | **General argument, Dutch specifics quarantined** in `On Dutch ground` boxes. | Employment law, invoicing, dismissal and side-work rules genuinely change the answer, and a reader who cannot act on a chapter has not been helped. Quarantining keeps the general argument portable and stops law from rotting the prose. |
-| Chapter length | **1,800–2,500 words.** ~55k total. | Long enough for a real case with numbers, short enough to finish standing up. Matches the sibling volume's essays. |
+| Chapter length | **1,800–2,500 words** as written; both finished chapters overran (01: 2,958, 05: 2,606). | Long enough for a real case with numbers, short enough to finish standing up. **Open:** two of two exceeded the ceiling, which is evidence the estimate was low rather than that the chapters are padded — but ch. 01 at nearly 3,000 should be trimmed or the ceiling formally raised to 3,000. Do not let it drift further without deciding. |
 | Honesty mechanism | **The counter-case**, not a ledger. | The sibling volume tracked formal debts because a proof has them. A business book's equivalent failure is advice that works until it doesn't. Show that, don't tally it. |
 
 ## 2. The spine
@@ -158,7 +158,7 @@ Legend: ☐ not started · ◐ drafted · ☑ written and sourced
 | 02 | Talking to People Who Will Lie to You | — | — | ☐ |
 | 03 | Selling It Before It Exists | Fitbit preorders (2008) | Coolest Cooler (2014–19) | ☐ |
 | 04 | Deciding Not To | — | — | ☐ |
-| 05 | Leaving Well | — | — | ☐ 🇳🇱 |
+| 05 | Leaving Well | Bingo Card Creator (2006–2010) | Gymdesk — the runway said stop | ☑ 21 claims 🇳🇱 |
 
 🇳🇱 marks a chapter that needs an `On Dutch ground` box.
 
