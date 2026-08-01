@@ -296,6 +296,45 @@ th { font-weight: 700; color: var(--ink); font-size: .8rem; letter-spacing: .04e
 }
 .unverified::before { content: "unverified"; }
 
+/* ---- the one action on the page ---- */
+.start-reading {
+  display: inline-block; margin: .4rem 0 .2rem;
+  font-family: var(--sans); font-size: .95rem; font-weight: 600;
+  color: var(--bg); background: var(--accent);
+  border: 1px solid var(--accent); border-radius: 999px;
+  padding: .6rem 1.3rem; text-decoration: none;
+}
+.start-reading:hover { background: var(--link-hover); border-color: var(--link-hover); color: var(--bg); }
+.start-reading .sub {
+  display: block; font-size: .76rem; font-weight: 400; opacity: .82; margin-top: .1rem;
+}
+
+/* ---- publication status, stated once ---- */
+.status-line {
+  margin: 1.4rem 0 2rem; padding: .75rem 1rem;
+  border: 1px solid var(--rule); border-radius: 8px;
+  background: var(--bg-raised);
+  font-family: var(--sans); font-size: .88rem; color: var(--ink-soft);
+}
+.status-line strong { color: var(--ink); }
+
+/* ---- what you should be able to do by the end ---- */
+.outcome {
+  margin: 1.6rem 0; padding: 1rem 1.2rem;
+  border-left: 3px solid var(--accent-soft);
+  font-family: var(--sans); font-size: 1rem; line-height: 1.55; color: var(--ink-soft);
+}
+.outcome strong { color: var(--ink); }
+
+/* ---- "this is for you if" ---- */
+.foryou { font-family: var(--sans); font-size: .97rem; margin: 0 0 1.1rem; padding-left: 1.3rem; }
+.foryou li { margin-bottom: .4rem; color: var(--ink-soft); }
+.notforyou {
+  font-family: var(--sans); font-size: .93rem; color: var(--ink-soft);
+  border-left: 3px solid var(--fails); padding-left: .9rem; margin: 1.2rem 0 0;
+}
+.notforyou strong { color: var(--fails); }
+
 /* ---- table of contents (landing) ---- */
 .part { margin: 2.4rem 0; }
 .part-head { font-family: var(--sans); font-size: .82rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); border-bottom: 1px solid var(--rule); padding-bottom: .4rem; margin-bottom: .3rem; }
