@@ -109,24 +109,42 @@
   </table>
   </div>
 
-  <h2>4. The counter-case</h2>
+  <h2 id="counter">4. The counter-case</h2>
 
   <p>This is the device that distinguishes the book, and it replaces the proof ledger that ran
   through the sibling volume.</p>
 
-  <p>Every chapter closes with a second, shorter story in which the advice of that chapter was
-  followed — correctly, in good faith, by capable people — and the outcome was bad. Not a strawman
-  version of the advice. The real version, applied well, failing.</p>
+  <p>A counter-case is a second, shorter story in which the advice of that chapter was followed —
+  correctly, in good faith, by capable people — and the outcome was bad. Not a strawman version of
+  the advice. The real version, applied well, failing.</p>
 
   <p>The reason is that business writing has a structural problem it rarely admits to. Cases are
-  selected after the outcome is known, which means the genre is a machine for converting luck into
-  principle. Chapter one's advice is <em>make sure demand exists before you build</em>. That is
-  good advice. It would also have told Webvan to proceed, because the demand did exist — a fact
-  most retellings of Webvan omit, because it ruins the moral.</p>
+  selected after the outcome is known, which makes the genre a machine for converting luck into
+  principle. A principle you cannot see failing is one you cannot use, because you have no way of
+  telling whether you are inside its domain of validity or outside it. The counter-case is where the
+  domain gets drawn.</p>
 
-  <p>A principle you cannot see failing is one you cannot use, because you have no way of telling
-  whether you are inside its domain of validity or outside it. The counter-case is where the domain
-  gets drawn.</p>
+  <h3>Why the book sometimes owes one</h3>
+
+  <p>There is a problem with this device, and it is better stated than hidden. Businesses that
+  followed good advice and died mostly do not write about it. Failure is under-published, and the
+  same survivorship bias that makes this genre unreliable also makes its correction hard to source:
+  the success stories are abundant and free, and the cases that would falsify them often exist only
+  as a company that quietly stopped filing.</p>
+
+  <p>Two responses were available. The first was to widen the definition until the available material
+  fits — to let a story in which the advice was ignored and things went well anyway count as a
+  counter-case. That would have been easy, and every chapter would have had one.</p>
+
+  <p>The second, taken here, is to hold the definition and record the shortfall. Where a chapter has
+  a genuine counter-case it carries one. Where it does not, it carries a visible note saying what the
+  counter-case would have to be and that it has not been found — <a href="chapters/01-the-only-question.html">chapter
+  one currently owes one</a>. A block that merely illuminates the case, such as what became of the
+  idea afterwards, is labelled an <em>aftermath</em> and is not permitted to stand in for the real
+  thing.</p>
+
+  <p>An admitted gap is worth more than a filled one that does not hold, particularly in the part of
+  the book whose whole purpose is to show you where to distrust it.</p>
 
   <h2>Sourcing</h2>
 
@@ -152,10 +170,10 @@
   <h2>Checking the sources yourself</h2>
 
   <p>A book that claims to work from filings should let you confirm it without taking the author's
-  word, so the checking is mechanical. The repository carries a list of every figure quoted in every
-  chapter, paired with the exact sentence that must appear in the document it is attributed to. A
-  script downloads the documents from their original archives and confirms that each sentence is
-  still there:</p>
+  word, so the checking is mechanical. The repository carries a register of quoted figures, each paired with the
+  exact sentence that must appear in the document it is attributed to. A script downloads those
+  documents from their original archives and confirms that every registered sentence is still
+  there:</p>
 
   <pre><code>./verify.sh          # every chapter
 ./verify.sh 01       # one chapter</code></pre>

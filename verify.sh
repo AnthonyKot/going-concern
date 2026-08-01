@@ -8,9 +8,15 @@
 # who does not trust the author, which is the correct posture for a reader.
 #
 #   ./verify.sh              check every claim
-#   ./verify.sh 01           check only chapter 01
+#   ./verify.sh 01           check only chapter 01 (fetches only its sources)
 #   ./verify.sh --links      check internal HTML links only (no network)
 #   ./verify.sh --refresh    re-download sources even if cached
+#
+# What this proves, and what it does not: it proves that every string in
+# checks/claims.tsv is present in the document it is attributed to. It does NOT
+# prove that every figure appearing in the prose has a row in claims.tsv —
+# coverage is a matter of editorial discipline, not of this script. Wording on
+# the public pages is deliberately kept within what the mechanism can support.
 #
 # Sources are cached in .cache/ (gitignored). SEC asks for a descriptive
 # User-Agent on automated requests; set SEC_UA to your own contact address.
@@ -30,7 +36,7 @@ for arg in "$@"; do
   case "$arg" in
     --refresh) REFRESH=1 ;;
     --links)   LINKS_ONLY=1 ;;
-    -h|--help) sed -n '2,20p' "$0"; exit 0 ;;
+    -h|--help) sed -n '2,26p' "$0"; exit 0 ;;
     *)         FILTER="$arg" ;;
   esac
 done
@@ -62,12 +68,36 @@ PY
 if [ "$LINKS_ONLY" -eq 1 ]; then exit $fail; fi
 
 # ------------------------------------------------------------ fetch sources
+# Only the sources actually needed by the selected claims. A chapter filter
+# must not be able to fail on an unrelated chapter's source.
+NEEDED=$(FILTER="$FILTER" python3 - <<'PY'
+import os
+filt = os.environ.get("FILTER", "")
+need = []
+for line in open("checks/claims.tsv", encoding="utf-8"):
+    if not line.strip() or line.lstrip().startswith("#"):
+        continue
+    ch, sid, _ = line.rstrip("\n").split("\t", 2)
+    if filt and ch != filt:
+        continue
+    if sid not in need:
+        need.append(sid)
+print(" ".join(need))
+PY
+)
+
+if [ -z "$NEEDED" ]; then
+  red "  no claims match '${FILTER}' — nothing to check"; exit 1
+fi
+
 mkdir -p "$CACHE"
 echo
 echo "── sources ────────────────────────────────────────────────────"
+[ -n "$FILTER" ] && dim "  chapter filter: $FILTER"
 while IFS=$'\t' read -r id url desc; do
   [ -z "${id:-}" ] && continue
   case "$id" in \#*) continue ;; esac
+  case " $NEEDED " in *" $id "*) ;; *) continue ;; esac
   out="$CACHE/$id.raw"
   if [ -s "$out" ] && [ "$REFRESH" -eq 0 ]; then
     dim "  cached   $id"
@@ -81,7 +111,7 @@ while IFS=$'\t' read -r id url desc; do
     red "$code  FAILED"
     rm -f "$out"; fail=1
   fi
-  sleep 0.4   # be polite to EDGAR
+  sleep 0.4   # be polite to the archives
 done < "$SOURCES"
 
 # ------------------------------------------------------------- check claims

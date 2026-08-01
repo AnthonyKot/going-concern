@@ -89,9 +89,16 @@ python3 -m http.server 8000
 
 ## Sourcing, and how to check it
 
-Cases come first and books come second. Every figure quoted in a chapter must appear in a primary
-source — a filing, a court document, or contemporaneous reporting — and that is checked mechanically
-rather than promised:
+Cases come first and books come second. Every figure quoted in a chapter must be traceable to an
+approved source, and the classes are not equal:
+
+| Class | Examples | Strength |
+|---|---|---|
+| Primary | regulatory filings, court documents, statutes, a company's own contemporaneous publication | quotable directly |
+| Secondary | named reporting in an outlet with a corrections policy | quotable, cited to the article |
+| Weakest | a founder's later account of their own numbers | always attributed in the prose as such |
+
+Registered figures are then checked mechanically rather than promised:
 
 ```bash
 SEC_UA="you@example.com" ./verify.sh      # download sources, check every claim
@@ -100,8 +107,13 @@ SEC_UA="you@example.com" ./verify.sh      # download sources, check every claim
 ```
 
 `checks/claims.tsv` lists the exact string that must appear in each cited document; `verify.sh`
-fetches the documents and confirms it. Chapter 1 currently carries **22 verified claims** against
-three Webvan filings and Instacart's S-1.
+fetches the documents and confirms it. Chapter 1 currently carries **27 verified claims** against
+four Webvan filings and Instacart's S-1.
+
+Note what this does and does not prove. It proves every *registered* string is still present in the
+document it is attributed to. It cannot detect a figure that appears in the prose but was never
+registered — coverage is editorial discipline, not a property of the script — so the public pages
+say "registered" rather than "every figure quoted".
 
 This is not decoration. Drafting chapter 1 from search results that *cited* SEC filings produced
 four wrong figures, including the "$1 billion Bechtel contract" that anchors nearly every retelling

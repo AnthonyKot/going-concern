@@ -1,6 +1,6 @@
 # CONTEXT — The Going Concern
 
-Working document. What this book is, what it refuses to be, and the rules that keep 25 chapters
+Working document. What this book is, what it refuses to be, and the rules that keep 28 chapters
 sounding like one writer.
 
 ---
@@ -49,14 +49,37 @@ Filename: `chapters/NN-slug.html`. Four moves, fixed order, fixed headings:
 3. **The reasoning** — the transferable principle, *with its boundaries stated in the same breath*. Every principle here has a domain of validity; naming it is what separates this from a LinkedIn post.
 4. **Monday** — three to five numbered actions a reader could take this week. Concrete enough to fail at. No "consider" or "think about."
 
-Then the **counter-case** block: same advice, different outcome, ~150–300 words. Then the
+Then the **counter-case** block: same advice, applied well, bad outcome, ~150–300 words. Then the
 **reading** list.
+
+### Counter-case, aftermath, and the debt register
+
+These are three different things and must not be confused, because the whole credibility of the
+device rests on the distinction:
+
+| Block | What it is | Allowed to satisfy the rule? |
+|---|---|---|
+| `.counter` | The chapter's advice, followed correctly by capable people, failing | **Yes** — this is the rule |
+| `.aftermath` | What became of the idea or market later. Illuminates the case. | **No** |
+| `.owed` | A visible note that the counter-case has not been found, saying what it would have to be | **No — but it is the honest fallback** |
+
+Counter-cases are structurally hard to source: businesses that took good advice and died do not
+publish. The temptation is to widen the definition until the available material fits — to let a
+survivor who ignored the advice count. **Do not.** Hold the definition and carry the debt visibly.
+
+**Debt register — counter-cases owed:**
+
+- **ch. 01** — needs a business that stayed deliberately cheap and variable, exactly as the chapter
+  recommends, and lost its market to someone who committed to fixed capacity early and won on scale.
+  The Instacart block was mislabelled as a counter-case in the first draft and is now an `.aftermath`.
 
 Structural markup already in `static/style.css`:
 
 - `.decision` — the strip at the top stating the decision in one sentence
 - `.move` + `<span class="num">` — the four sections
-- `.case` / `.counter` — green and clay bordered blocks, each with `.case-head > .who`
+- `.case` / `.counter` / `.aftermath` — green, clay and sage bordered blocks, each with `.case-head > .who`
+- `.owed` — dashed clay note recording a counter-case the chapter does not yet have
+- `.ground` — the `On Dutch ground` box
 - `.figures` — the hard numbers strip inside a case (`.k` label / `.v` value)
 - `.monday` — the action box
 - `.reading` — the sources list
@@ -64,7 +87,7 @@ Structural markup already in `static/style.css`:
 
 ## 4. Voice
 
-Rules that hold across all 25:
+Rules that hold across all 28:
 
 - **Second person for the reader, third for the case.** "You have to decide" / "Swinmurn decided."
 - **No hedging verbs in the actions.** The Monday list says *call*, *open*, *cancel*, *write down*.
@@ -290,5 +313,5 @@ Keep this table. It is the standing argument for why the book is built this way.
 
 ## 9. Open questions
 
-- Whether Part V needs a 26th chapter on selling the business as distinct from ch. 24 (*Built to Leave*), or whether that is one chapter's worth of material stretched into two.
+- Whether Part V needs a chapter on selling the business as distinct from ch. 27 (*Built to Leave*), or whether that is one chapter's worth of material stretched into two.
 - Whether to include a short appendix of the arithmetic — breakeven, contribution margin, runway — as a reference rather than dispersing it through Part III.
