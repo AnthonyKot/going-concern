@@ -1,12 +1,15 @@
 # The Going Concern
 
+**Read it: <https://anthonykot.github.io/going-concern/>**
+
 Twenty-eight chapters on running a small business you own, arranged as the sequence of decisions
 that can actually kill it — from *is there anything here* to *knowing when to stop*.
 
 Fourth in a series built the same way, after
 [The Quantum Quartet](https://anthonykot.github.io/quantum-quartet/) (four authors on early quantum
 mechanics), [The Bridge](https://anthonykot.github.io/quantum-bridge/) (a quantum-mechanics course
-carried forward to quantum information), and No Such Form (Fermat's Last Theorem in 25 essays).
+carried forward to quantum information), and [No Such Form](https://anthonykot.github.io/fermat-last-theorem/)
+(Fermat's Last Theorem in 25 essays).
 
 ## The premise
 
