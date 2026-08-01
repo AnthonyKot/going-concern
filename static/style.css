@@ -13,7 +13,7 @@
   --bg-raised:     #ffffff;
   --ink:           #1b1c19;
   --ink-soft:      #464a44;
-  --ink-faint:     #767b73;
+  --ink-faint:     #686d66;   /* 5.1:1 on --bg; was #767b73 at 4.1:1 */
   --rule:          #e3e1d9;
   --accent:        #2f5d3a;   /* ledger green */
   --accent-soft:   #6d9077;
@@ -48,7 +48,7 @@
 /* explicit toggle wins over OS preference in both directions */
 :root[data-theme="light"] {
   --bg:#fbfaf7; --bg-raised:#ffffff; --ink:#1b1c19; --ink-soft:#464a44;
-  --ink-faint:#767b73; --rule:#e3e1d9; --accent:#2f5d3a; --accent-soft:#6d9077;
+  --ink-faint:#686d66; --rule:#e3e1d9; --accent:#2f5d3a; --accent-soft:#6d9077;
   --link:#2c5a39; --link-hover:#17361f; --works:#2f6048; --fails:#a04f2a;
   --code-bg:#f1efe8;
 }
@@ -344,7 +344,11 @@ th { font-weight: 700; color: var(--ink); font-size: .8rem; letter-spacing: .04e
 .toc li { border-bottom: 1px solid var(--rule); margin: 0; }
 .toc a, .toc .stub { display: block; padding: .85rem .2rem; color: inherit; text-decoration: none; }
 .toc a:hover { background: var(--bg-raised); }
-.toc .stub { cursor: default; opacity: .62; }
+/* Unpublished chapters read as muted without dropping below contrast minimums —
+   explicit colours rather than opacity, which dims text and background together. */
+.toc .stub { cursor: default; }
+.toc .stub .ttl { color: var(--ink-soft); font-weight: 500; }
+.toc .stub .adds, .toc .stub .n { color: var(--ink-faint); }
 .toc .n { font-family: var(--sans); font-size: .8rem; color: var(--ink-faint); margin-right: .7rem; }
 .toc .ttl { font-weight: 600; }
 .toc .adds { display: block; margin-top: .2rem; font-size: .92rem; color: var(--ink-soft); font-family: var(--sans); }
@@ -362,6 +366,8 @@ th { font-weight: 700; color: var(--ink); font-size: .8rem; letter-spacing: .04e
 .chapter-nav a:hover { color: var(--link-hover); }
 .chapter-nav .dir { display: block; font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-faint); }
 .chapter-nav .next { text-align: right; margin-left: auto; }
+/* A next chapter that does not exist yet: looks like a signpost, not a link. */
+.chapter-nav .unavailable { max-width: 45%; color: var(--ink-faint); cursor: default; }
 
 .site-footer { border-top: 1px solid var(--rule); color: var(--ink-faint); font-family: var(--sans); font-size: .82rem; }
 .site-footer .wrap { padding: 1.6rem 1.25rem 2.4rem; }
@@ -375,6 +381,15 @@ img, svg { max-width: 100%; }
   .lede { font-size: 1.14rem; }
   .figures { gap: .8rem 1rem; }
   .figures div { flex-basis: 45%; }
+
+  /* The header is brand + two links + a button in one non-wrapping row,
+     which overflows below ~375px. Let it wrap onto a second line. */
+  .site-header .wrap { flex-wrap: wrap; gap: .45rem .8rem; }
+  .site-nav { width: 100%; margin-left: 0; justify-content: space-between; }
+
+  .chapter-nav { flex-direction: column; gap: 1.2rem; }
+  .chapter-nav a, .chapter-nav .unavailable { max-width: 100%; }
+  .chapter-nav .next, .chapter-nav .unavailable { text-align: left; margin-left: 0; }
 }
 
 /* ---- print ---- */

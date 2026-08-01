@@ -1,0 +1,33 @@
+name: verify
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # Sources rot. Once a week, re-fetch every cited document and confirm
+    # the quoted strings are still in it — a citation can break without
+    # anyone touching this repository.
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  links:
+    name: internal links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./verify.sh --links
+
+  claims:
+    name: claims against primary sources
+    # Only on the weekly run and manual dispatch: every push would hammer
+    # EDGAR for documents that have not changed since 2001.
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify every quoted figure
+        env:
+          SEC_UA: "TheGoingConcern-verify/1.0 (+https://github.com/AnthonyKot/going-concern)"
+        run: ./verify.sh
