@@ -14,7 +14,7 @@ These were settled at the outset and should not be relitigated without a reason.
 | Sourcing | **Company cases first.** Each chapter is anchored on a real, named, dated company. Business books appear only in the reading list. | The subject has no canon the way quantum mechanics does. Comparing eight business books would inherit their collective blind spots. Companies are checkable; frameworks are not. |
 | Audience | **The experienced developer going out on their own.** ~40, fifteen-plus years salaried, Netherlands or similar. Self-funded, heading for 1–20 people, still doing the work. | Underserved, and unusually shaped: arrives fluent in systems, constraints, iteration and measurement, illiterate in demand, distribution, selling, pricing and cash. Also old enough to have a mortgage, which changes every risk calculation in the book. |
 | Jurisdiction | **General argument, Dutch specifics quarantined** in `On Dutch ground` boxes. | Employment law, invoicing, dismissal and side-work rules genuinely change the answer, and a reader who cannot act on a chapter has not been helped. Quarantining keeps the general argument portable and stops law from rotting the prose. |
-| Chapter length | **1,800–2,500 words** as written; both finished chapters overran (01: 2,958, 05: 2,606). | Long enough for a real case with numbers, short enough to finish standing up. **Open:** two of two exceeded the ceiling, which is evidence the estimate was low rather than that the chapters are padded — but ch. 01 at nearly 3,000 should be trimmed or the ceiling formally raised to 3,000. Do not let it drift further without deciding. |
+| Chapter length | **2,000–3,000 words.** Raised from 2,500 after both finished chapters overran (01: 2,958, 05: 2,606). | 2,500 was a guess made before a chapter existed; 2,600–2,950 is where the form actually sits once a case with real figures, a bounded principle and a counter-case are all present. This is now a hard ceiling, not a target — anything over 3,000 gets cut, not excused. |
 | Honesty mechanism | **The counter-case**, not a ledger. | The sibling volume tracked formal debts because a proof has them. A business book's equivalent failure is advice that works until it doesn't. Show that, don't tally it. |
 
 ## 2. The spine
@@ -174,7 +174,7 @@ Legend: ☐ not started · ◐ drafted · ☑ written and sourced
 | 01 | The Only Question That Matters | Webvan (1996–2001) | Instacart — the advice says *proceed* | ☑ 22 claims |
 | 02 | Talking to People Who Will Lie to You | — | — | ☐ |
 | 03 | Selling It Before It Exists | Fitbit preorders (2008) | Coolest Cooler (2014–19) | ☐ |
-| 04 | Deciding Not To | — | — | ☐ |
+| 04 | Deciding Not To | Cydoc (2018–2025) | Gymdesk — the rule, honoured, would have been wrong | ☑ 15 claims |
 | 05 | Leaving Well | Bingo Card Creator (2006–2010) | Gymdesk — the runway said stop | ☑ 21 claims 🇳🇱 |
 
 🇳🇱 marks a chapter that needs an `On Dutch ground` box.
@@ -285,8 +285,22 @@ that priced by the hour in chapter 9 is the one that cannot take a holiday in ch
 sell in chapter 27. This is the single cheapest way to make the sequence *feel* like a sequence
 rather than an anthology.
 
-Candidates must publish enough to be verifiable. To be selected before Part II is drafted; note the
-choice here once made, because every subsequent chapter depends on it.
+**Ratified, after the fact.** Two of the cast were established by chapters 1 and 5 before the
+decision was consciously made, and both have verified first-party source trails, so they stand:
+
+| Who | Business | First met | Source class |
+|---|---|---|---|
+| **Patrick McKenzie** | Bingo Card Creator — one-person software, 2006–2010 | ch. 05, as the case | Contemporaneous. He published annual figures *while employed*. The strongest trail in the book. |
+| **Eran Galperin** | Gymdesk — B2B SaaS, 2015– | ch. 05, as the counter-case | Retrospective (2022). Weaker; always attributed as his own later account. |
+
+**Still needed: one non-software business.** Both current members are software, and Part III will read
+as three SaaS anecdotes in a row if that is not fixed. Look for a service or physical business at the
+reader's scale that publishes figures — trade press, a court record, or an owner who writes openly.
+
+Reuse them deliberately rather than accidentally. The point is that the reader watches the same
+decisions interact over time: Galperin's six-month runway is the counter-case in ch. 05 and the
+counterweight in ch. 04, and McKenzie's five-hours-a-week pattern should return when ch. 17 asks who
+the bottleneck is.
 
 ## 8. Verification
 
