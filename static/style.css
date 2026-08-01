@@ -248,6 +248,35 @@ th { font-weight: 700; color: var(--ink); font-size: .8rem; letter-spacing: .04e
 .reading li::before { content: "→"; position: absolute; left: 0; color: var(--accent-soft); }
 .reading .src { color: var(--ink-faint); font-size: .92em; }
 
+/* ---- "On Dutch ground": where jurisdiction changes the answer ---- */
+.ground {
+  margin: 2rem 0; padding: 1rem 1.15rem;
+  border: 1px solid var(--rule); border-left: 3px solid var(--accent-soft);
+  border-radius: 8px; background: var(--bg-raised);
+  font-family: var(--sans); font-size: .93rem; line-height: 1.5;
+}
+.ground h3 {
+  font-size: .7rem; font-weight: 700; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--accent);
+  margin: 0 0 .6rem;
+}
+.ground p:last-child, .ground ul:last-child { margin-bottom: 0; }
+.ground .checked {
+  display: block; margin-top: .7rem; padding-top: .55rem;
+  border-top: 1px solid var(--rule);
+  font-size: .78rem; color: var(--ink-faint);
+}
+
+/* ---- provocation, then the correction ---- */
+.provocation {
+  font-family: var(--sans); font-size: 1.05rem; font-weight: 600;
+  color: var(--ink); margin: 1.6rem 0 .3rem;
+}
+.provocation + .qualifier {
+  font-family: var(--sans); font-size: .95rem; color: var(--ink-soft);
+  border-left: 2px solid var(--fails); padding-left: .9rem; margin: 0 0 1.4rem;
+}
+
 /* ---- standing caveat banner ---- */
 .fence {
   margin: 1.6rem 0 2rem; padding: .85rem 1.1rem;

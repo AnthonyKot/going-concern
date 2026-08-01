@@ -1,6 +1,6 @@
 # The Going Concern
 
-Twenty-five chapters on running a small business you own, arranged as the sequence of decisions
+Twenty-eight chapters on running a small business you own, arranged as the sequence of decisions
 that can actually kill it — from *is there anything here* to *knowing when to stop*.
 
 Fourth in a series built the same way, after
@@ -22,13 +22,15 @@ each one has to be survived before the next one is even legible. That sequence i
 
 Five parts, each a question the business asks you whether or not you are ready:
 
+**demand → payment → economics → operations → resilience**
+
 | Part | Question | Chapters |
 |------|----------|----------|
 | I    | Is there anything here?     | 1–5   |
 | II   | Will someone pay?           | 6–10  |
-| III  | Does the money work?        | 11–15 |
-| IV   | Can it run without you?     | 16–20 |
-| V    | Will it last?               | 21–25 |
+| III  | Does the money work?        | 11–16 |
+| IV   | Can it run without you?     | 17–22 |
+| V    | Will it last?               | 23–28 |
 
 Each chapter runs four moves:
 
@@ -44,11 +46,25 @@ of being handed a tally.
 
 ## Who it is for
 
-The owner of a self-funded business with somewhere between one and twenty people in it, who still
-works in the business as well as on it. Not the venture-track founder — that reader is
-comprehensively served elsewhere, and Parts III and V would have to say the opposite things.
+An experienced software developer — around forty, fifteen-plus years salaried, in the Netherlands or
+somewhere like it — thinking about going out on their own: a consultancy, a small product, an
+agency, or buying something small that already works. Self-funded, heading for one to twenty people,
+still doing the work themselves.
 
-Three chapters in this book barely exist in the genre — *Deciding Not To*, *Enough*, and *Knowing
+That reader arrives already fluent in systems, constraints, iteration and measurement, so the book
+never explains what a feedback loop is. The blind spots are elsewhere and they are consistent:
+building before proving demand, reading interest as purchasing intent, avoiding direct selling,
+pricing by effort rather than by value, conflating revenue with profit with cash, automating a
+process before checking whether it should exist, staying the indispensable technical bottleneck,
+and underestimating distribution, management and slack. The book is organised around those rather
+than around a curriculum.
+
+It also assumes a mortgage. Chapter 5 (*Leaving Well*) is about testing a business while still
+employed and what evidence justifies resigning; chapter 28 is about stopping. Where the answer
+depends on jurisdiction, chapters carry a dated, sourced **On Dutch ground** box, kept separate from
+the general argument.
+
+Four chapters barely exist in the genre — *Deciding Not To*, *Enough*, *Leaving Well*, and *Knowing
 When to Stop* — because business books are sold on the promise of expansion. That is where the
 collection earns its keep.
 
@@ -92,5 +108,5 @@ argument. `CONTEXT.md §8` keeps the table of what got caught.
 
 ## Status
 
-Scaffold complete. Chapter 1 written and verified; 24 to go. See `CONTEXT.md` for the chapter
+Scaffold complete. Chapter 1 written and verified; 27 to go. See `CONTEXT.md` for the chapter
 register.

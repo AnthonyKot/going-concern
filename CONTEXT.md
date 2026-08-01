@@ -12,7 +12,8 @@ These were settled at the outset and should not be relitigated without a reason.
 | Question | Decision | Why |
 |---|---|---|
 | Sourcing | **Company cases first.** Each chapter is anchored on a real, named, dated company. Business books appear only in the reading list. | The subject has no canon the way quantum mechanics does. Comparing eight business books would inherit their collective blind spots. Companies are checkable; frameworks are not. |
-| Audience | **Independent / small owner.** Self-funded, 1–20 people, owner still works in the business. | Underserved. Also the only reader for whom *Enough* and *Knowing When to Stop* are anything other than heresy. |
+| Audience | **The experienced developer going out on their own.** ~40, fifteen-plus years salaried, Netherlands or similar. Self-funded, heading for 1–20 people, still doing the work. | Underserved, and unusually shaped: arrives fluent in systems, constraints, iteration and measurement, illiterate in demand, distribution, selling, pricing and cash. Also old enough to have a mortgage, which changes every risk calculation in the book. |
+| Jurisdiction | **General argument, Dutch specifics quarantined** in `On Dutch ground` boxes. | Employment law, invoicing, dismissal and side-work rules genuinely change the answer, and a reader who cannot act on a chapter has not been helped. Quarantining keeps the general argument portable and stops law from rotting the prose. |
 | Chapter length | **1,800–2,500 words.** ~55k total. | Long enough for a real case with numbers, short enough to finish standing up. Matches the sibling volume's essays. |
 | Honesty mechanism | **The counter-case**, not a ledger. | The sibling volume tracked formal debts because a proof has them. A business book's equivalent failure is advice that works until it doesn't. Show that, don't tally it. |
 
@@ -22,13 +23,22 @@ The parts are ordered because the questions are ordered. Part IV's question is n
 Part III's — it is *illegible* until Part III is answered. An owner who systematises a business
 whose unit economics don't work has built a machine for losing money faster.
 
+**demand → payment → economics → operations → resilience**
+
 | Part | Question | Chapters | What it costs to get wrong |
 |---|---|---|---|
-| I | Is there anything here? | 1–5 | Years, and the savings. The cheapest failure available. |
+| I | Is there anything here? | 1–5 | Years, the savings, and a career. The cheapest failure available. |
 | II | Will someone pay? | 6–10 | The business never starts; it just keeps almost starting. |
-| III | Does the money work? | 11–15 | Growth kills you. This is the most common death. |
-| IV | Can it run without you? | 16–20 | You own a job with unusually bad hours and no notice period. |
-| V | Will it last? | 21–25 | Fine for years, then gone in one quarter. |
+| III | Does the money work? | 11–16 | Growth kills you, or the sale never repeats. The most common death. |
+| IV | Can it run without you? | 17–22 | Not automatically a failure — see below — but not knowing which you built is. |
+| V | Will it last? | 23–28 | Fine for years, then gone in one quarter, often on paperwork. |
+
+Part IV's question has **two legitimate answers** and the book must keep saying so. A practice built
+to give its owner good work and a good income is a real thing to own; so is an organisational asset
+that runs without them. Neither is inferior. The failure mode is building the first while believing
+you are building the second, and discovering the difference at the moment you want to stop, get ill,
+or sell. Do not let the prose slide into "you own a job" contempt — it is a good line and it is not
+true.
 
 ## 3. Chapter template
 
@@ -64,12 +74,55 @@ Rules that hold across all 25:
 - **No war-metaphor register.** No crushing, killing, dominating, or beasts. The reader has a hardware shop or a two-person studio, not an army.
 - **Nothing sold.** No newsletter, no course, no consulting. The book ends and that is all it does.
 
+### Provocations are not laws
+
+The prose is sharp and that is the point, but the characteristic failure of this genre is letting a
+memorable sentence harden into a universal claim. Every compression must be complicated inside the
+chapter that makes it. Three currently on watch:
+
+| Compression | What the chapter must then concede |
+|---|---|
+| "Demand exists or it does not, and no amount of execution manufactures it." | Execution routinely *reveals, reshapes, concentrates* and occasionally *creates* demand — repositioning, changing who the customer is, removing friction, naming a category. The defensible claim is narrower: you cannot make people value something they fundamentally do not want. Creating awareness is not the same act as forcing preference. |
+| "Until it runs without you, you own a job." | False as stated. See §2 — two legitimate answers, and the danger is not knowing which you are building. |
+| "Lifetime value is a lie before year three." | Too broad. Subscription businesses get usable cohort evidence much earlier. The real lesson is that *precision in an immature model is fiction with decimal places* — three significant figures on a number you have eight months of data for. |
+
+Rule of thumb: a provocation may open a chapter or a part. It may not close one. If a sentence is
+still standing unqualified at the end of the chapter, either qualify it or cut it.
+
 ## 5. Sourcing standard
 
 - A figure is quotable if it comes from: a company filing, a court document, a named journalist's reporting in an outlet with corrections policy, or a first-party statement by the company at the time.
 - A founder's later retelling of their own numbers is **weaker** evidence and must be attributed as such in the prose ("by Swinmurn's own account").
 - Round numbers that appear in every blog post about a company are the single biggest contamination risk in this genre. If a figure cannot be traced past the blogs, mark it `unverified` and keep it visible.
 - The reading list distinguishes `source` (where the case facts came from) from further reading (where the reader goes next).
+
+## 5b. On Dutch ground
+
+Where the answer depends on jurisdiction, the chapter carries a boxed `<div class="ground">` — the
+general argument stays portable, the local specifics stay quarantined, and neither rots the other.
+
+Rules, all of them non-negotiable because this is the part of the book most able to cause real harm:
+
+- **Never state Dutch law from memory.** Every claim in a ground box is sourced to a government or
+  official body — rijksoverheid.nl, KVK, Belastingdienst, UWV, wetten.overheid.nl, Rechtspraak.nl —
+  and added to `checks/claims.tsv` like any other figure.
+- **Date every box.** Rules move. Each box ends with a "checked" line carrying the date and the
+  source, so a reader in two years knows exactly how stale it is.
+- **Say who to ask.** The box's job is to tell the reader that a question exists and is expensive,
+  not to answer it definitively. Every box names the professional — accountant, employment lawyer,
+  notaris — whose job this actually is.
+- **No tax planning.** Structures, deductions and thresholds get named as things to ask about, never
+  recommended.
+
+Subjects known to need boxes, by chapter: side activities and non-compete clauses while still
+employed, and what resigning does to unemployment entitlement (05); VAT on invoices and whether you
+quote inclusive (09); payment terms and late payment (13); owner remuneration where the tax
+authority sets expectations for director-shareholders (15); the employee-versus-contractor
+distinction and its enforcement (19); ending an employment, notice, and severance (20); liability,
+professional indemnity insurance, standard terms, and who owns code written by an employee (24);
+how to wind up cleanly (28).
+
+The 🇳🇱 mark in the register below flags chapters that need one.
 
 ## 6. Chapter register
 
@@ -79,10 +132,12 @@ Legend: ☐ not started · ◐ drafted · ☑ written and sourced
 | # | Title | Case | Counter-case | Status |
 |---|---|---|---|---|
 | 01 | The Only Question That Matters | Webvan (1996–2001) | Instacart — the advice says *proceed* | ☑ 22 claims |
-| 02 | Talking to People Who Will Lie to You | — | Juicero (2016–17) | ☐ |
+| 02 | Talking to People Who Will Lie to You | — | — | ☐ |
 | 03 | Selling It Before It Exists | Fitbit preorders (2008) | Coolest Cooler (2014–19) | ☐ |
-| 04 | The Cost of Finding Out | Zappos / Nick Swinmurn (1999) | — | ☐ |
-| 05 | Deciding Not To | — | — | ☐ |
+| 04 | Deciding Not To | — | — | ☐ |
+| 05 | Leaving Well | — | — | ☐ 🇳🇱 |
+
+🇳🇱 marks a chapter that needs an `On Dutch ground` box.
 
 ### Part II — Will someone pay?
 | # | Title | Status |
@@ -90,35 +145,56 @@ Legend: ☐ not started · ◐ drafted · ☑ written and sourced
 | 06 | Who Is This For | ☐ |
 | 07 | Where They Already Are | ☐ |
 | 08 | Asking for Money | ☐ |
-| 09 | What to Charge | ☐ |
+| 09 | What to Charge | ☐ 🇳🇱 |
 | 10 | The First Ten Customers | ☐ |
 
 ### Part III — Does the money work?
 | # | Title | Status |
 |---|---|---|
-| 11 | Reading Your Own Business | ☐ |
-| 12 | Profit Is Not Cash | ☐ |
-| 13 | What a Customer Is Worth | ☐ |
-| 14 | Paying Yourself | ☐ |
-| 15 | Enough | ☐ |
+| 11 | What Happens After the Sale | ☐ |
+| 12 | Reading Your Own Business | ☐ |
+| 13 | Profit Is Not Cash | ☐ 🇳🇱 |
+| 14 | What a Customer Is Worth | ☐ |
+| 15 | Paying Yourself | ☐ 🇳🇱 |
+| 16 | Enough | ☐ |
 
 ### Part IV — Can it run without you?
 | # | Title | Status |
 |---|---|---|
-| 16 | You Are the Bottleneck | ☐ |
-| 17 | Writing It Down | ☐ |
-| 18 | The First Hire | ☐ |
-| 19 | Meetings That Aren't Theater | ☐ |
-| 20 | Measuring the Right Three Things | ☐ |
+| 17 | You Are the Bottleneck | ☐ |
+| 18 | Writing It Down | ☐ |
+| 19 | The First Hire | ☐ 🇳🇱 |
+| 20 | Managing People | ☐ 🇳🇱 |
+| 21 | Meetings That Aren't Theater | ☐ |
+| 22 | Measuring the Right Three Things | ☐ |
 
 ### Part V — Will it last?
 | # | Title | Status |
 |---|---|---|
-| 21 | Slack | ☐ |
-| 22 | What Protects You | ☐ |
-| 23 | When the Ground Moves | ☐ |
-| 24 | Built to Leave | ☐ |
-| 25 | Knowing When to Stop | ☐ |
+| 23 | Slack | ☐ |
+| 24 | What You Signed | ☐ 🇳🇱 |
+| 25 | What Protects You | ☐ |
+| 26 | When the Ground Moves | ☐ |
+| 27 | Built to Leave | ☐ |
+| 28 | Knowing When to Stop | ☐ 🇳🇱 |
+
+### What changed, and why
+
+Grew from 25 to 28 on review. Four subjects were missing for this reader and one chapter was
+redundant:
+
+- **05 Leaving Well** *(new)* — transition design. The reader has a salary and a mortgage. How to
+  test a business while employed, what the employment contract actually permits, how much runway is
+  enough, what evidence justifies resigning. Nothing else in the book is useful if this goes wrong.
+- **11 What Happens After the Sale** *(new)* — retention. The outline jumped from the first ten
+  customers straight to financial statements. A business with acquisition and no retention looks
+  healthy for about a year, which is exactly long enough to commit to it.
+- **20 Managing People** *(new)* — hiring was present; managing was not. For a 1–20 person business
+  this is larger than hiring: delegation, expectations, feedback, performance problems, dismissal.
+- **24 What You Signed** *(new)* — contracts, liability, insurance, IP ownership. Not a legal
+  manual; a map of which vague agreements become expensive and when to pay someone who knows.
+- **04 The Cost of Finding Out** *(cut)* — genuinely overlapped chapters 02 and 03. Its content
+  folds into 03, and *Deciding Not To* moves up to 04.
 
 ## 7. Cases to avoid
 
@@ -130,8 +206,47 @@ Overused to the point of meaninglessness, and in several instances misreported f
 - Anything involving a garage, a dorm room, or a napkin
 - Post-it Notes, Ford's faster horse (never said), Edison's 10,000 attempts
 
-Prefer businesses at the reader's scale. A single hardware store that survived a big-box opening
-across the street is worth more to this reader than another retelling of Amazon.
+### The scale problem
+
+Chapter 1 uses Webvan, and Webvan is a billion-dollar dot-com. That was the right call once — it is
+the cleanest documented instance of the demand/cost-structure trap that exists — but if the book
+keeps reaching for famous technology companies it will fail its reader, who is not going to raise
+$375 million and cannot act on anything that assumes he might.
+
+**Budget: no more than four or five chapters of twenty-eight may be anchored on a company the reader
+has heard of.** The rest must be at his scale:
+
+- a two-person software consultancy
+- a micro-SaaS run by one or two people
+- an agency that hit twelve people and stalled
+- a specialist retailer or niche manufacturer
+- a training or education business
+- a local service company with vans and a schedule
+- a business that deliberately stopped growing
+
+The constraint this creates is evidentiary: small companies do not file with regulators, so
+`verify.sh` cannot check them the way it checks Webvan. Two acceptable substitutes, in order of
+preference:
+
+1. **Businesses that publish their own numbers** — open-books companies, public revenue dashboards,
+   annual "how the year went" posts. These are first-party, contemporaneous, and archivable. Several
+   bootstrapped software businesses do this deliberately; they are the best available source for
+   this book and should be mined hard.
+2. **Named reporting in an outlet with a corrections policy**, cited to the article.
+
+Where a case rests on a founder's blog post, say so in the prose — *by his own account* — and archive
+the page so the claim stays checkable after the site changes.
+
+### Recurring companies
+
+Follow **two or three small businesses across multiple chapters** rather than introducing twenty-eight
+strangers. The reader should be able to watch the same decisions interact over time: the consultancy
+that priced by the hour in chapter 9 is the one that cannot take a holiday in chapter 17 and cannot
+sell in chapter 27. This is the single cheapest way to make the sequence *feel* like a sequence
+rather than an anthology.
+
+Candidates must publish enough to be verifiable. To be selected before Part II is drafted; note the
+choice here once made, because every subsequent chapter depends on it.
 
 ## 8. Verification
 
