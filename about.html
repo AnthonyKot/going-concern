@@ -112,6 +112,33 @@
   <p>Each chapter's reading list separates <span class="src">source</span> — where the facts of the
   case came from — from further reading, which is where you go if the chapter interested you.</p>
 
+  <h2>Checking the sources yourself</h2>
+
+  <p>A book that claims to work from filings should let you confirm it without taking the author's
+  word, so the checking is mechanical. The repository carries a list of every figure quoted in every
+  chapter, paired with the exact sentence that must appear in the document it is attributed to. A
+  script downloads the documents from their original archives and confirms that each sentence is
+  still there:</p>
+
+  <pre><code>./verify.sh          # every chapter
+./verify.sh 01       # one chapter</code></pre>
+
+  <p>Chapter 1 carries twenty-two such claims, against three Webvan filings and Instacart's
+  registration statement.</p>
+
+  <p>This turned out to matter more than expected. Chapter 1 was first drafted from search results
+  that cited SEC filings rather than from the filings themselves, and pulling the actual documents
+  falsified four figures — among them the billion-dollar Bechtel construction contract that anchors
+  almost every published account of Webvan's collapse. The company's own quarterly report states
+  that it had <em>"no obligation under the Bechtel agreement to build any distribution centers and,
+  consequently, no capital commitment"</em> until it chose to proceed with a given site. The famous
+  contract was an estimate for a programme, not a debt.</p>
+
+  <p>That correction changed what the chapter argues. It is a small illustration of a large problem:
+  a great deal of what business books assert about companies is downstream of other business books,
+  and the citation chain terminates in nobody. The verification script exists so that this book's
+  chain terminates in a document.</p>
+
   <h2>What this book does not do</h2>
 
   <ul>

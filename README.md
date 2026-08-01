@@ -68,12 +68,29 @@ python3 -m http.server 8000
 - Light/dark theme (honours `prefers-color-scheme`, manual toggle persisted in `localStorage`).
 - `.nojekyll` so GitHub Pages serves the committed HTML as-is.
 
-## Sourcing
+## Sourcing, and how to check it
 
-Cases come first and books come second. Every named figure in a case is either sourced to reporting
-or filings and cited in the chapter's reading list, or carried with an `unverified` mark until it
-is. See `about.html` for the standard in full, and `CONTEXT.md` for the working rules.
+Cases come first and books come second. Every figure quoted in a chapter must appear in a primary
+source — a filing, a court document, or contemporaneous reporting — and that is checked mechanically
+rather than promised:
+
+```bash
+SEC_UA="you@example.com" ./verify.sh      # download sources, check every claim
+./verify.sh 01                            # one chapter
+./verify.sh --links                       # internal links only, no network
+```
+
+`checks/claims.tsv` lists the exact string that must appear in each cited document; `verify.sh`
+fetches the documents and confirms it. Chapter 1 currently carries **22 verified claims** against
+three Webvan filings and Instacart's S-1.
+
+This is not decoration. Drafting chapter 1 from search results that *cited* SEC filings produced
+four wrong figures, including the "$1 billion Bechtel contract" that anchors nearly every retelling
+of the Webvan story — the company's own 10-Q says it had "no obligation … and, consequently, no
+capital commitment" under that agreement. Pulling the actual documents changed the chapter's
+argument. `CONTEXT.md §8` keeps the table of what got caught.
 
 ## Status
 
-Scaffold and Part I in progress. See `CONTEXT.md` for the chapter register and what remains.
+Scaffold complete. Chapter 1 written and verified; 24 to go. See `CONTEXT.md` for the chapter
+register.

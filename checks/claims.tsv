@@ -1,0 +1,25 @@
+# chapter	source_id	exact string that must appear in the filing
+# Whitespace is normalised on both sides before matching, so line breaks in the
+# original filing do not matter. Matching is case-insensitive.
+01	wv-10k405-fy1999	to process product volumes equivalent to approximately 18 supermarkets
+01	wv-10k405-fy1999	designed capacity of 8,000 orders per day
+01	wv-10k405-fy1999	operating at less than 25% of such designed capacity
+01	wv-10k405-fy1999	average order size for the fourth quarter of 1999 was $81.31
+01	wv-10k405-fy1999	an average order size of $103.00 per order, we can achieve an operating margin of 12%
+01	wv-10k405-fy1999	annual revenue of $300 million at its designed capacity
+01	wv-10k405-fy1999	construction of up to 26 additional distribution centers
+01	wv-10k405-fy1999	$30.0 million to $35.0 million
+01	wv-10k405-fy1999	accumulated deficit of $159.4 million
+01	wv-10q-q3-2000	operating at less than 40% of such designed capacity
+01	wv-10q-q3-2000	by a minimum of forty percent
+01	wv-10q-q3-2000	no obligation under the Bechtel agreement to build any distribution centers
+01	wv-10q-q3-2000	no capital commitment under the agreement until Webvan determines to proceed
+01	wv-10q-q3-2000	no Webvan facility has become profitable on a cash-flow basis
+01	wv-10q-q3-2000	accumulated deficit of $440 million
+01	wv-10k-fy2000	accumulated deficit of $612.7 million
+01	wv-10k-fy2000	net losses of $453.3 million
+01	wv-10k-fy2000	average order size was $104 for the year 2000 and $112 for the fourth quarter of 2000
+01	cart-s1-2023	262.6 million orders
+01	cart-s1-2023	GTV grew from $24,909 million in 2021 to $28,826 million in 2022
+01	cart-s1-2023	net income of $428 million
+01	cart-s1-2023	$358 million tax benefit from the release of our valuation allowance

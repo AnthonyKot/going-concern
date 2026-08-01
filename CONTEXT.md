@@ -78,7 +78,7 @@ Legend: ☐ not started · ◐ drafted · ☑ written and sourced
 ### Part I — Is there anything here?
 | # | Title | Case | Counter-case | Status |
 |---|---|---|---|---|
-| 01 | The Only Question That Matters | Webvan (1996–2001) | Instacart — the advice says *proceed* | ◐ |
+| 01 | The Only Question That Matters | Webvan (1996–2001) | Instacart — the advice says *proceed* | ☑ 22 claims |
 | 02 | Talking to People Who Will Lie to You | — | Juicero (2016–17) | ☐ |
 | 03 | Selling It Before It Exists | Fitbit preorders (2008) | Coolest Cooler (2014–19) | ☐ |
 | 04 | The Cost of Finding Out | Zappos / Nick Swinmurn (1999) | — | ☐ |
@@ -133,11 +133,45 @@ Overused to the point of meaninglessness, and in several instances misreported f
 Prefer businesses at the reader's scale. A single hardware store that survived a big-box opening
 across the street is worth more to this reader than another retelling of Amazon.
 
-## 8. Outstanding verification
+## 8. Verification
 
-Figures currently carrying an `unverified` mark in the published text:
+Every figure quoted in the book must appear in a primary source, and the check is mechanical:
 
-- **ch. 01** — Webvan Bay Area order volume (~2,350/day at ~$105 average) and cash-flow breakeven (~3,300–3,500/day at ~$110). These trace to secondary trade-press accounts, not directly to a filing. The SEC capacity-utilisation percentages in the same paragraph *are* first-party and need no mark. To resolve: pull the FY2000 10-K and the Q3 2000 10-Q and find whether order counts are disclosed directly, or cut the sentence and let the percentages carry the argument alone.
+```bash
+SEC_UA="you@example.com" ./verify.sh        # all chapters
+./verify.sh 01                              # one chapter
+./verify.sh --links                         # internal links only, no network
+```
+
+`checks/sources.tsv` maps a source id to its URL. `checks/claims.tsv` lists, per chapter, the exact
+string that must appear in that source. `verify.sh` downloads each source into a gitignored
+`.cache/`, strips tags, normalises whitespace, and confirms every string is present. A chapter is
+not `☑` until its claims are in `claims.tsv` and the script passes.
+
+**Write claims against the filing's own words, not against the prose.** The claim rows are the
+sentences the filing actually contains; the chapter then paraphrases them. This way a rewrite of the
+prose cannot silently break the sourcing, and a claim that fails tells you the filing changed or the
+citation was wrong — never that a sentence got reworded.
+
+### What the first pass caught
+
+Chapter 1 was drafted from web search results that *cited* SEC filings. Pulling the actual documents
+falsified four things, which is a useful calibration on how much of this genre is downstream of
+nobody:
+
+| Drafted | Filing says |
+|---|---|
+| DCs held "around 50,000 product lines" | ~18,000 SKUs at end of 1999 |
+| "$100 million in annual revenue" per centre at capacity | $300 million at designed capacity |
+| "signed a contract with Bechtel… reported at around $1 billion" | Programme *estimated* at ~$1.0bn — and Webvan disclosed **"no obligation… to build any distribution centers and, consequently, no capital commitment"** until it chose to proceed |
+| Bay Area "2,350 orders a day", breakeven "3,300–3,500" | Not disclosed. The filing gives the gap as a percentage: volume needed to rise **"by a minimum of forty percent"** |
+
+The Bechtel correction is the important one. The billion-dollar contract is load-bearing in every
+popular retelling — it is the moral of the story — and the company's own filing says the commitment
+did not exist. That single fact changed the chapter's argument: the trap was not the twenty-six
+warehouses Webvan never built, it was the first one it did.
+
+Keep this table. It is the standing argument for why the book is built this way.
 
 ## 9. Open questions
 

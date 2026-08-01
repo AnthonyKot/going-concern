@@ -17,3 +17,6 @@ Thumbs.db
 *.swp
 .idea/
 .vscode/
+
+# Cached primary sources fetched by verify.sh
+.cache/
