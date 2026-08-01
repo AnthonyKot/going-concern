@@ -5,29 +5,54 @@ on:
     branches: [main]
   pull_request:
   schedule:
-    # Sources rot. Once a week, re-fetch every cited document and confirm
-    # the quoted strings are still in it — a citation can break without
-    # anyone touching this repository.
+    # Sources rot. Once a week, re-fetch every cited document and report
+    # anything that has drifted — a citation can break without anyone
+    # touching this repository.
     - cron: "17 6 * * 1"
   workflow_dispatch:
 
 jobs:
   links:
-    name: internal links
+    # Gating. Internal links live entirely inside this repo: always the
+    # author's fault, always fixable, so a red build here is actionable.
+    name: internal links (gating)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - run: ./verify.sh --links
 
   claims:
-    name: claims against primary sources
-    # Only on the weekly run and manual dispatch: every push would hammer
-    # EDGAR for documents that have not changed since 2001.
+    # Advisory. Claims are checked against documents on other people's
+    # servers; drift usually means the source moved or was redesigned, not
+    # that the book is wrong. Failing the build on somebody else's site
+    # redesign trains everyone to ignore the colour red, which costs more
+    # than it catches. So this reports into the job summary and stays green.
+    name: claims against sources (advisory)
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Verify every quoted figure
+      - name: Verify quoted figures
         env:
           SEC_UA: "TheGoingConcern-verify/1.0 (+https://github.com/AnthonyKot/going-concern)"
-        run: ./verify.sh
+        run: |
+          set -o pipefail
+          ./verify.sh 2>&1 | tee report.txt || true
+      - name: Publish report
+        if: always()
+        run: |
+          {
+            echo "## Claim verification"
+            echo
+            if grep -qE '^  DRIFT|UNREACHABLE' report.txt; then
+              echo "⚠️ **Drift or unreachable sources detected.** Advisory — the build is"
+              echo "deliberately not failed. Go and look: either the citation is wrong or"
+              echo "the document moved."
+            else
+              echo "✅ All registered claims still present in their sources."
+            fi
+            echo
+            echo '```'
+            sed -e 's/\x1b\[[0-9;]*m//g' report.txt | tail -40
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -104,7 +104,14 @@ Registered figures are then checked mechanically rather than promised:
 SEC_UA="you@example.com" ./verify.sh      # download sources, check every claim
 ./verify.sh 01                            # one chapter
 ./verify.sh --links                       # internal links only, no network
+./verify.sh --strict                      # make claim drift fail too
 ```
+
+**Claims are advice, not a gate.** They are checked against documents on other people's servers, so
+drift usually means the source moved rather than that the book is wrong — the script reports loudly
+and exits 0. Internal links *are* gating: they live in this repository, so a red build there is
+always actionable. CI follows the same split, and the weekly claim run writes its report into the
+job summary instead of failing.
 
 `checks/claims.tsv` lists the exact string that must appear in each cited document; `verify.sh`
 fetches the documents and confirms it. Chapter 1 currently carries **27 verified claims** against

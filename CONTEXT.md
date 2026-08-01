@@ -83,6 +83,13 @@ counter-case, because the alternative is an admission. Both chapters so far have
 label against the chapter's *central* advice, not against whatever advice the case happens to
 counter.
 
+**Settled: a low hit-rate is acceptable.** Two chapters in, the score is one genuine counter-case
+and two admitted debts. That ratio is expected to hold — the device may only be satisfiable in
+something like half the chapters, because failure is under-published. This is **not** a reason to
+loosen the definition later. `.owed` notes are a permanent feature of the book, not a temporary
+embarrassment to be tidied away before publication. A book that shows where it could not find the
+disconfirming evidence is doing something the genre never does.
+
 Structural markup already in `static/style.css`:
 
 - `.decision` — the strip at the top stating the decision in one sentence
@@ -282,6 +289,21 @@ Candidates must publish enough to be verifiable. To be selected before Part II i
 choice here once made, because every subsequent chapter depends on it.
 
 ## 8. Verification
+
+**Advice, not a gate — for claims.** Claims are checked against documents on other people's servers.
+Drift usually means the source moved, was redesigned or repaginated, not that the book is wrong.
+Failing a build every time a founder rebuilds their blog trains you to ignore the colour red, which
+costs more than it catches. So claim drift is reported loudly and exits 0; `--strict` turns it back
+into a gate when you want one.
+
+**Internal links stay gating.** They are entirely inside this repository, always the author's fault,
+and always fixable. That is what a red build should mean.
+
+The weekly CI run is advisory and writes its report into the job summary rather than failing. The
+risk this accepts is obvious and worth naming: an advisory check that nobody reads is the same as no
+check. The mitigation is that drift is *visible* — in the summary, in colour locally — rather than
+silent. If the book ever ships a citation that has been drifting for months, that is the failure
+mode to blame.
 
 Every figure quoted in the book must appear in a primary source, and the check is mechanical:
 

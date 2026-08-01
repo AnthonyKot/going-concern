@@ -7,16 +7,28 @@
 # people's blog posts. This script is what makes that claim checkable by someone
 # who does not trust the author, which is the correct posture for a reader.
 #
-#   ./verify.sh              check every claim
+#   ./verify.sh              check everything (claims advisory, links gating)
 #   ./verify.sh 01           check only chapter 01 (fetches only its sources)
 #   ./verify.sh --links      check internal HTML links only (no network)
+#   ./verify.sh --strict     make claim drift fail too (exit non-zero)
 #   ./verify.sh --refresh    re-download sources even if cached
+#
+# ADVICE, NOT A GATE — for claims.
+#
+# Claims are checked against documents on other people's servers. A failure
+# usually means the source moved, was redesigned, or paginated differently, not
+# that the book is wrong. Failing a build every time somebody rebuilds their
+# blog trains you to ignore the colour red, which costs more than it catches.
+# So claim drift is reported loudly and exits 0. Use --strict when you actually
+# want a gate, and read the report when you don't.
+#
+# Internal links are different and remain a hard failure: they are entirely
+# inside this repository, always the author's fault, and always fixable.
 #
 # What this proves, and what it does not: it proves that every string in
 # checks/claims.tsv is present in the document it is attributed to. It does NOT
 # prove that every figure appearing in the prose has a row in claims.tsv —
-# coverage is a matter of editorial discipline, not of this script. Wording on
-# the public pages is deliberately kept within what the mechanism can support.
+# coverage is a matter of editorial discipline, not of this script.
 #
 # Sources are cached in .cache/ (gitignored). SEC asks for a descriptive
 # User-Agent on automated requests; set SEC_UA to your own contact address.
@@ -31,25 +43,29 @@ UA="${SEC_UA:-TheGoingConcern-verify/1.0 (contact: set SEC_UA env var)}"
 
 REFRESH=0
 LINKS_ONLY=0
+STRICT=0
 FILTER=""
 for arg in "$@"; do
   case "$arg" in
     --refresh) REFRESH=1 ;;
     --links)   LINKS_ONLY=1 ;;
-    -h|--help) sed -n '2,26p' "$0"; exit 0 ;;
+    --strict)  STRICT=1 ;;
+    -h|--help) sed -n '2,33p' "$0"; exit 0 ;;
     *)         FILTER="$arg" ;;
   esac
 done
 
 red()   { printf '\033[31m%s\033[0m\n' "$*"; }
 green() { printf '\033[32m%s\033[0m\n' "$*"; }
+amber() { printf '\033[33m%s\033[0m\n' "$*"; }
 dim()   { printf '\033[2m%s\033[0m\n' "$*"; }
 
-fail=0
+link_fail=0     # gating
+claim_fail=0    # advisory unless --strict
 
 # ---------------------------------------------------------------- link check
 echo "── internal links ─────────────────────────────────────────────"
-python3 - <<'PY' || fail=1
+python3 - <<'PY' || link_fail=1
 import os, re, glob, sys
 bad = 0
 for f in glob.glob('**/*.html', recursive=True):
@@ -63,9 +79,9 @@ for f in glob.glob('**/*.html', recursive=True):
 print(f"  {bad} broken internal link(s)")
 sys.exit(1 if bad else 0)
 PY
-[ $fail -eq 0 ] && green "  links OK" || red "  links FAILED"
+[ $link_fail -eq 0 ] && green "  links OK" || red "  links FAILED (gating)"
 
-if [ "$LINKS_ONLY" -eq 1 ]; then exit $fail; fi
+if [ "$LINKS_ONLY" -eq 1 ]; then exit $link_fail; fi
 
 # ------------------------------------------------------------ fetch sources
 # Only the sources actually needed by the selected claims. A chapter filter
@@ -87,7 +103,7 @@ PY
 )
 
 if [ -z "$NEEDED" ]; then
-  red "  no claims match '${FILTER}' — nothing to check"; exit 1
+  amber "  no claims match '${FILTER}' — nothing to check"; exit $link_fail
 fi
 
 mkdir -p "$CACHE"
@@ -108,8 +124,8 @@ while IFS=$'\t' read -r id url desc; do
   if [ "$code" = "200" ] && [ -s "$out" ]; then
     green "$code  ($(wc -c < "$out" | tr -d ' ') bytes)"
   else
-    red "$code  FAILED"
-    rm -f "$out"; fail=1
+    amber "$code  UNREACHABLE — $url"
+    rm -f "$out"; claim_fail=1
   fi
   sleep 0.4   # be polite to the archives
 done < "$SOURCES"
@@ -117,7 +133,7 @@ done < "$SOURCES"
 # ------------------------------------------------------------- check claims
 echo
 echo "── claims ─────────────────────────────────────────────────────"
-FILTER="$FILTER" python3 - <<'PY' || fail=1
+FILTER="$FILTER" python3 - <<'PY' || claim_fail=1
 import os, re, html, sys
 
 cache, filt = ".cache", os.environ.get("FILTER", "")
@@ -144,23 +160,37 @@ for line in open("checks/claims.tsv", encoding="utf-8"):
         continue
     body = text(sid)
     if body is None:
-        print(f"  SKIP  ch{ch}  {sid}  (source not cached)"); skipped += 1; continue
+        print(f"  SKIP  ch{ch}  {sid}  (source unreachable)"); skipped += 1; continue
     needle = re.sub(r"\s+", " ", claim).strip().lower()
     if needle in body:
         ok += 1
     else:
-        print(f"  FAIL  ch{ch}  {sid}")
+        print(f"  DRIFT ch{ch}  {sid}")
         print(f"        not found: {claim}")
         bad += 1
 
-print(f"\n  {ok} verified, {bad} failed, {skipped} skipped")
-sys.exit(1 if bad else 0)
+print(f"\n  {ok} verified, {bad} drifted, {skipped} skipped")
+sys.exit(1 if (bad or skipped) else 0)
 PY
 
+# ------------------------------------------------------------------ verdict
 echo
-if [ $fail -eq 0 ]; then
-  green "verify.sh: everything checks out."
-else
-  red "verify.sh: something did not check out (see above)."
+if [ $link_fail -ne 0 ]; then
+  red "verify.sh: internal links are broken — that one is on you, and it gates."
+  exit 1
 fi
-exit $fail
+
+if [ $claim_fail -eq 0 ]; then
+  green "verify.sh: everything checks out."
+  exit 0
+fi
+
+amber "verify.sh: claim drift above. Sources live on other people's servers, so this"
+amber "           is usually rot rather than error — but go and look, and either fix"
+amber "           the citation or find where the document moved."
+if [ "$STRICT" -eq 1 ]; then
+  red   "           --strict was set, so this is a failure."
+  exit 1
+fi
+dim   "           (advisory: exiting 0. Use --strict to gate.)"
+exit 0
