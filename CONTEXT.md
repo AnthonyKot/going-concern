@@ -173,6 +173,20 @@ constrain causal order, and nothing in the pipeline checks that.**
   case at all** — the arithmetic is arithmetic and the statute is real, but no small business here is
   shown measuring its own gap.
 
+- **ch. 15** — two shapes, and the second was found by review rather than by looking for it. One: an
+  owner who priced their labour honestly, found the business could not cover it, and stopped or sold,
+  while a peer who never ran the calculation carried the same lean years and ended up with a business
+  worth having. Two: an owner whose like-for-like replacement pricing was internally consistent and
+  described **a replacement nobody would have hired** — the successor would have automated, combined
+  or dropped half the work — so the calculation returned unviable and the business was not. The
+  second attacks the method rather than the discipline, which makes it the sharper debt.
+  **What was removed to make room, and why it matters:** the first draft's second debt was an owner
+  who drew a full market wage the business could not afford. That is not a counter-case, because the
+  chapter's boundary explicitly says not to draw it. A `.owed` block can fail the same way a
+  `.counter` can — by naming a case that would falsify advice the chapter never gave — and nothing
+  in §3's table or in the register catches it. **Check every debt against the chapter's actual
+  prescription, not against its subject.**
+
 **A second kind of debt, opened at ch. 05 on external review: an unevidenced prescription.**
 Distinct from a missing counter-case and worse. Ch. 05's evidence standard — repeat paid revenue
 covering your floor — is unreachable for a consultancy, because the chapter itself says such a
@@ -585,7 +599,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 | 12 | Reading Your Own Business | ☑ 23 claims · Dutch filing regime (BW2 Titel 9) · *no company case, by decision* 🇳🇱 |
 | 13 | Profit Is Not Cash | ☑ 17 claims · Instacart S-1 cash flows + BW6 payment terms · *owed* 🇳🇱 |
 | 14 | What a Customer Is Worth | ☑ 13 claims · Cydoc (2018–2025), returning from ch. 04 · WP Curve as segment contrast · *owed* |
-| 15 | Paying Yourself | ☑ 17 claims · Dutch owner-remuneration regime · *no company case, by decision* · written under §6f, eight corrections on pre-push review 🇳🇱 |
+| 15 | Paying Yourself | ☑ 17 claims · Dutch owner-remuneration regime · *no company case, by decision* · written under §6f; 8 corrections pre-push, 6 more after, none of the second set legal 🇳🇱 |
 | 16 | Enough | ☐ |
 
 ### Part IV — Can it run without you?
@@ -1185,6 +1199,45 @@ the eight: a claim that was only ever there for completeness, deleted rather tha
 Word cost: body 2,521 → 2,852, box 611 → 743, argument 1,910 → 2,109. Under the 3,000 ceiling,
 above §6f's declared 2,000–2,400. Precision is not free, and it is not compressible: every one of
 these corrections replaced a short true-sounding sentence with a longer true one.
+
+### The second review — six corrections, and none of them legal
+
+A second external pass after publication, on the corrected text. Six required changes, and the
+composition is the finding: **not one was in the Dutch box or the regime paraphrase.** Every one was
+in the portable management argument the process had never treated as risky.
+
+| # | The error | What it actually was |
+|---|---|---|
+| 1 | "A business that **pays you** €40,000… is losing €30,000 a year" | A transfer is not a result. The illustration conflated payment with profit **in the chapter that cites ch. 13 for the distinction, two paragraphs later.** Rewritten around profit before any charge for owner labour, with the cash named as a third number. |
+| 2 | "Put that total into **the accounts** as a cost line" | Told a sole trader to enter a charge that the chapter's own box says is not deductible there. Now a **management restatement** — a copy of last year's P&L, one added line, never the filed accounts, and the Monday item labels it *management adjustment, not a tax deduction*. |
+| 3 | "price each at what hiring it would cost… at the hours it genuinely takes", "a real advertisement" | One advert is not an estimate; advertised gross is not employer cost; and a replacement need not take the founder's hours — some of the work would be automated or dropped, not reproduced. Now four steps, and Move 1 says the business would have to *pay someone, redesign the work, automate it or stop*. |
+| 4 | "what you are **owed** versus what you drew" | "Owed" silently assumed one legal form in a chapter whose whole subject is that there are two. A sole trader cannot straightforwardly owe themselves a wage. Split into imputed cost, cash received, and — separately, by legal form — any actual debt. |
+| 5 | "the business is not profitable **and never has been**" | One restatement of one year cannot reach *never*. Narrowed to the measured period, with the remedies before the stopping rule. |
+| 6 | the second counter-case | See the debt register: it counter-cased advice the chapter does not give. |
+
+**The pattern, and it is the useful part: every one of these is the chapter's own doctrine not
+applied to itself.** Ch. 13's distinction, the box's own fork, §8's rule about scoring against the
+chapter's own test, §3's definition of a counter-case. The stricter process in §6f pointed *outward*
+— sources first, derive nothing, quote more — and all six failures were internal-consistency
+failures, where the chapter contradicts something it says elsewhere. **A process aimed at the sources
+does not protect the argument, and attention spent on the declared risk is attention taken from
+everything else.** The Dutch box came through two reviews with two small errors; the management prose
+around it came through with ten.
+
+**Also cut: an unregistered Dutch claim, hiding in the boundary line.** The `checked` note asserted
+that a formal advance-consultation route with the Belastingdienst exists for this question. Probably
+true, but it had no claim row, and both candidate URLs 404 on checking, so it is gone. It survived
+departure 1 because *sources and claim rows first* was applied to the body and the box — nobody
+thought of the safety note as prose that makes claims. **The boundary text is prose and takes the
+same rule.**
+
+**What the ceiling cost.** The six corrections took the body from 2,852 to **3,285**, 285 over the
+hard ceiling in §1. Getting back under took a full compression pass — 298 words out of the argument,
+none out of the corrections themselves: duplicated clauses in Move 2, adjectives, a redundant
+restatement of the cash point, and the tail of every paragraph that had been doing its work twice.
+Final: **2,987 body, 708 box, 2,279 argument.** Worth recording that the ceiling and the corrections
+fought, the ceiling won, and the chapter is better for it — the compression pass found real slack.
+The rule that held: **cut prose to pay for precision, never precision to pay for prose.**
 
 ## 6c. Handoff: ch. 10 → ch. 11
 
