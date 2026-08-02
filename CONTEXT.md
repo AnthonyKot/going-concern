@@ -108,6 +108,15 @@ survivor who ignored the advice count. **Do not.** Hold the definition and carry
   Still owed: someone who cleared a conservative evidence bar — repeat paid revenue covering their
   floor — resigned, and failed. Caught on review one commit after the policy in §3 was written, which
   is a fair measure of how easily this device slides.
+- **ch. 06** — two shapes, and the second is the one that matters. First: a business that narrowed
+  hard, gave up the customers it said it would, executed properly on what remained, and found the
+  remainder too small to live on. Structurally unpublishable for the usual reason — it stops, and
+  stopping is not written up. Second, and more damaging: a business with published monthly revenue
+  whose owner deliberately declined to narrow, stayed general on purpose, and grew anyway. General-
+  purpose tools succeed constantly; what is missing is one whose owner both says so explicitly and
+  publishes numbers, so the claim can be checked rather than asserted. This is the largest debt in
+  the book so far, because the chapter rests on a single self-reported winner. Anything found here
+  should be checked before ch. 07 is written, since the same objection applies to distribution.
 
 **The recurring failure to watch for:** the pull is always to call a nearly-fitting case a
 counter-case, because the alternative is an admission. Three of the four written chapters have done
@@ -115,9 +124,10 @@ it. Check the label against the chapter's *central* advice, clause by clause, no
 advice the case happens to counter — and if the chapter states a numbered test, score the case
 against every numbered item before claiming a fit.
 
-**Settled: a low hit-rate is acceptable.** Part I complete, and the honest score is **no chapter
-carrying a counter-case that meets the definition against its own central advice**; one (ch. 05)
-carrying a real counter-case to a subsidiary claim; and five recorded debts (01–05). That
+**Settled: a low hit-rate is acceptable.** Part I complete and ch. 06 written, and the honest score
+is **no chapter carrying a counter-case that meets the definition against its own central advice**;
+one (ch. 05) carrying a real counter-case to a subsidiary claim; two `.limit` blocks (03, 04) and a
+third in ch. 06; and six recorded debts (01–06). That
 ratio is expected to hold — the device may only be satisfiable in
 something like half the chapters, because failure is under-published. This is **not** a reason to
 loosen the definition later. `.owed` notes are a permanent feature of the book, not a temporary
@@ -226,10 +236,40 @@ ladder and off the cliff on the other axis. Two axes, stated as two.
 This also refines the Part I spine the coherence pass has to make unmistakable: observation →
 conversation → **commitment (five rungs)** → stopping rule → leaving employment.
 
+**Part II plan — set 2026-08-02, before ch. 06 was written.** Through-line: Part I proved one person
+wanted it once; every chapter here is a different reason that might not repeat.
+
+> one buyer → a defined buyer → a way to reach them → the act of asking → a price that survives → ten who are not a fluke
+
+- **06 Who Is This For** — positioning is a decision whose cost is the customers you give up. Case:
+  Plausible (written; see the budget amendment in §7).
+- **07 Where They Already Are** — distribution is a skill practised, not a budget spent. Case:
+  McKenzie / Bingo Card Creator long-tail SEO, returning by design. Needs a research pass on which
+  figures are already registered from ch. 05 and which are new.
+- **08 Asking for Money** — selling is a service performed for the buyer; avoiding it is not a
+  marketing strategy. **No case found yet, and the hardest in the part** — nobody publishes numbers
+  on their own sales conversations. Leads: an agency that documented win rates, or an owner who
+  logged outreach and outcomes. Draelos is spent in ch. 04 and cannot carry this.
+- **09 What to Charge** 🇳🇱 — pricing by effort is the characteristic error of people who are good at
+  the work. Case: Studio Neat, possibly with a documented price rise. Dutch box: VAT, and whether
+  you quote inclusive or exclusive and to whom.
+- **10 The First Ten Customers** — they are not small versions of the next thousand: non-scaling
+  channels, abnormal tolerance, unrepresentative feedback. **No case yet.** Gymdesk would work but
+  would put Galperin in four chapters, which reads as thin sourcing rather than as a cast.
+
+**Order 08 before 09, decided.** You can start selling on a provisional number; people who set prices
+before selling anything set them from spreadsheets. Ch. 08 must say so explicitly and hand off.
+
+**Two standing cautions.** Sourcing gets harder from here — Part II's businesses do not file with
+regulators, so case selection is really a search for owners who publish revenue. And the `.owed` rate
+should be expected to stay high or rise, because positioning, distribution, selling and pricing are
+exactly where failure goes unpublished. If 08 or 10 will not yield, the fallback is a smaller case
+with the thinness declared, **not** a famous company drafted in to fill the hole.
+
 ### Part II — Will someone pay?
 | # | Title | Status |
 |---|---|---|
-| 06 | Who Is This For | ☐ |
+| 06 | Who Is This For | ☑ 51 claims · Plausible Analytics (2018–2022) · *owed* — Product Hunt is a `.limit` |
 | 07 | Where They Already Are | ☐ |
 | 08 | Asking for Money | ☐ |
 | 09 | What to Charge | ☐ 🇳🇱 |
@@ -307,6 +347,17 @@ counting it as half a slot. Ch. 03's anchor is Studio Neat, two people, which sp
 Coolest Cooler `.limit` is well known but is a secondary block, so call it another half. **Running
 total: two of four or five.** Part II should anchor entirely on businesses nobody has heard of.
 
+**Amended at ch. 06, deliberately.** Plausible Analytics is not famous, but developers have heard of
+it — and developers are this book's reader, so the rule as written would exclude it. Amending rather
+than reclassifying, because the reason for the budget (line above: the reader cannot raise $375m and
+cannot act on anything that assumes he might) does not bite here. Plausible assumes nothing the
+reader lacks: two people, no outside money, and the chapter turns on the month they were at $403 MRR.
+So the distinction the budget actually wants is **famous** — an outcome at a scale the reader cannot
+reach, which smuggles in resources — versus **recognisable** — a business at his scale he happens to
+know. Only the first is rationed. The recognisability is still a real cost, so Plausible is charged
+**half a slot**. **Running total: two and a half of four or five.** The rest of Part II spends none;
+if a second recognisable business is wanted later, it comes out of the same allowance, not a new one.
+
 The rest must be at his scale:
 
 - a two-person software consultancy
@@ -369,7 +420,14 @@ assertions about companies, and nothing checks them.
 Reuse them deliberately rather than accidentally. The point is that the reader watches the same
 decisions interact over time: Galperin's six-month runway is the counter-case in ch. 05 and the
 counterweight in ch. 04, and McKenzie's five-hours-a-week pattern should return when ch. 17 asks who
-the bottleneck is.
+the bottleneck is. Studio Neat fills the non-software slot and is earmarked for ch. 09 (cost of goods
+makes pricing-by-hours visibly absurd) and ch. 11 (repeat purchase). Plausible joins the cast at
+ch. 06 and should not return before Part III, where the $500k-to-$1M stretch is unit economics.
+
+**Set at ch. 06: how hard to lean on the cast in Part II.** Reuse in 07 (McKenzie) and 09 (Studio
+Neat) is deliberate sequence; 08 and 10 must be new businesses, because two of five chapters with no
+fresh sourcing is the point at which a cast stops reading as continuity and starts reading as a
+shortage of research.
 
 ## 8. Verification
 

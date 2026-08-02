@@ -150,3 +150,56 @@
 03	bw6-2026	de levering van volgens specificaties van de consument vervaardigde zaken, die niet geprefabriceerd zijn
 03	bw6-2026	bij een overeenkomst tot het verrichten van diensten: de dag waarop de overeenkomst wordt gesloten
 03	bw6-2026	de dag waarop de consument of een door de consument aangewezen derde, die niet de vervoerder is, de zaak heeft ontvangen
+
+# --- Chapter 6: Who Is This For (Plausible Analytics) ---
+06	plausible-1m	It took us 324 days to reach the first $400 monthly recurring revenue (MRR)
+06	plausible-1m	It took us nine months to go from $400 to $10,000 MRR
+06	plausible-1m	Then it took ten months to get to $500,000 ARR
+06	plausible-1m	The first line of code for Plausible was written by my co-founder Uku
+06	plausible-1m	Uku is a developer
+06	plausible-1m	We launched the public beta on Indie Hackers
+06	plausible-1m	May: Paid subscriptions launched ($64 MRR)
+06	plausible-1m	July: First traffic spike ($118 MRR)
+06	plausible-1m	September: Embracing the open source world ($178 MRR)
+06	plausible-1m	February: Looking for a marketing co-founder ($403 MRR)
+06	plausible-1m	March: Plausible is now a team of two ($433 MRR)
+06	plausible-1m	April: Picking a fight and going viral ($607 MRR)
+06	plausible-1m	May: First mention on a prominent site ($1,055 MRR)
+06	plausible-1m	June: Moving the database to ClickHouse ($1,767 MRR)
+06	plausible-1m	July: Once again on the top of Hacker News ($2,844 MRR)
+06	plausible-1m	August: Product Hunt launch ($4,062 MRR)
+06	plausible-1m	September: Paid out our first salaries ($5,035 MRR)
+06	plausible-1m	January: Finally sustainable ($11,303)
+06	plausible-1m	February: Giving back 5% of our gross revenue ($13,576 MRR)
+06	plausible-1m	April: Put your personal spin on the news ($22,290 MRR)
+06	plausible-1m	June 2nd: $1M ARR ($83,637 MRR)
+06	plausible-1m	After a few months of relatively stagnant growth
+06	plausible-1m	This other person was me
+06	plausible-1m	Uku cold-emailed me after reading a blog post I published about how to degoogle a website
+06	plausible-1m	I started working with Uku on March 16th, 2020
+06	plausible-1m	we had 49 visitors in total, and 0 from Google search the day before I joined
+06	plausible-1m	my first tiny goal was to consistently get ten organic visitors from Google search per day
+06	plausible-1m	Product relaunch (one example being that the early version of Plausible used one first-party cookie)
+06	plausible-1m	New brand positioning (simple, lightweight, open source and privacy-first Google Analytics alternative)
+06	plausible-1m	Streamlining the communication to send a consistent message everywhere
+06	plausible-1m	Improving the site structure
+06	plausible-1m	Adding a lot of new product-related content
+06	plausible-1m	On April 8th, I published my first Plausible blog post
+06	plausible-1m	Our new positioning was based on how different we are compared to Google Analytics, so we decided to pick a fight.
+06	plausible-1m	More than 25,000 people visited our site on the day we published the post.
+06	plausible-1m	We broke all our records in April: most traffic, trials and the biggest MRR increase.
+06	plausible-1m	The post that changed our traction was: Why you should stop using Google Analytics on your website
+06	plausible-1m	completely independent, self-funded and bootstrapped team of four
+06	plausible-1m	intentionally small, profitable and sustainable
+06	plausible-1m	More than 7,000 paying subscribers trust us
+06	plausible-1m	actively counting stats on more than 50,000 websites with more than a billion monthly page views
+06	plausible-1m	never paid to advertise for Plausible
+06	plausible-1m	Our growth comes organically from word of mouth.
+06	plausible-1m	We launched on Product Hunt.
+06	plausible-1m	not a sustainable channel to acquire customers in the long term
+06	plausible-1m	It brings that famous spike of hope after which follows the flat line of nope.
+06	plausible-1m	We got more than 1,000 visitors and 15 trial signups from Product Hunt on the launch day
+06	plausible-1m	only a few days later, we got fewer than 20 visitors from there
+06	plausible-1m	Written by Marko Saric
+06	plausible-1m	to be a European, privacy-first analytics project
+06	plausible-1m	The marketing head at the company he worked for asked him to integrate Google Analytics into their landing page
