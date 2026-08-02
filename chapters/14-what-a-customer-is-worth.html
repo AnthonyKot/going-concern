@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>14 · What a Customer Is Worth — The Going Concern</title>
+<meta name="description" content="A paying customer and a worthwhile customer are not the same thing. Cydoc had four real ones, and an estimated eleven years to break even on each.">
+<link rel="canonical" href="https://anthonykot.github.io/going-concern/chapters/14-what-a-customer-is-worth.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="The Going Concern">
+<meta property="og:title" content="14 · What a Customer Is Worth">
+<meta property="og:description" content="A paying customer and a worthwhile customer are not the same thing.">
+<meta property="og:url" content="https://anthonykot.github.io/going-concern/chapters/14-what-a-customer-is-worth.html">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../static/style.css">
+<script src="../static/theme.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html">The Going <span>Concern</span></a>
+    <nav class="site-nav">
+      <a href="../index.html">Chapters</a>
+      <a href="../about.html">Method</a>
+      <button class="theme-toggle" type="button">☾ Dark</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <p class="kicker">Part III · Does the money work? · Chapter 14</p>
+  <h1>What a Customer Is Worth</h1>
+  <p class="lede">Four customers paid Cydoc. The sales were real, the product worked, and the
+  arithmetic underneath them was not survivable. A paying customer and a worthwhile customer are not
+  the same thing, and the gap between them is measurable long before anybody has a lifetime to
+  measure.</p>
+
+  <div class="decision">
+    <span class="tag">The decision</span>
+    Which customers are worth acquiring again — judged on what has actually remained after acquiring
+    and serving them, and how long that money took to arrive.
+  </div>
+
+  <section class="move">
+    <h2><span class="num">Move 1</span> The situation</h2>
+
+    <p><a href="13-profit-is-not-cash.html">The previous chapter</a> asked whether you can afford to
+    finance the gap between doing the work and being paid for it. This one asks the question that
+    should have come first: whether what eventually arrives is worth financing at all.</p>
+
+    <p>The standard instrument for this is lifetime value, and the standard version of it is worse
+    than useless in a business this age. It asks you to multiply a monthly payment by an expected
+    number of months, subtract an acquisition cost, and treat the product as a fact. Two of those
+    three inputs are guesses, and the guess sits in the position with the most leverage: a customer
+    who stays two years is worth four times one who stays six months, so the number you know least
+    determines the answer almost entirely.</p>
+
+    <p>Three different things get called what a customer is worth, in the same way that three
+    different things got called cash last chapter, and with the same consequence — people compare
+    figures that were never answering the same question:</p>
+
+    <ul>
+      <li><strong>Total revenue.</strong> Everything the customer has paid or is projected to pay.
+      This is the number every business has, and it is the least informative of the three.</li>
+      <li><strong>Contribution.</strong> What remains after the costs of acquiring that customer and
+      serving that customer — not a share of the rent, not a share of your accountant, but the costs
+      that exist because that customer exists.</li>
+      <li><strong>Contribution to date.</strong> The same figure, computed only over the period you
+      have actually observed, with everything after today marked unknown rather than projected.</li>
+    </ul>
+
+    <p>This chapter is about the third one. It is the least flattering and the only one that is
+    evidence.</p>
+  </section>
+
+  <section class="move">
+    <h2><span class="num">Move 2</span> What actually happened</h2>
+
+    <p>Rachel Draelos spent seven years building Cydoc, an AI documentation tool for physicians,
+    <em>"for seven years (April 2018 to August 2025)"</em>. She has since published a detailed
+    post-mortem of why she shut it down. The account is her own and unaudited, which matters for what
+    can be drawn from it, and it is unusually specific about the numbers that matter here.</p>
+
+    <p>By the conventional signals the business was working. She reached what she calls
+    <em>"what many consider to be validation milestones: paying customers, patents, and demonstrated
+    clinical impact"</em>. The clinical impact was real and measured — the tool
+    <em>"saved 11 minutes per visit"</em>. Two US patents were granted. And the sales were genuine:
+    <em>"We acquired four paying customers"</em>, producing
+    <em>"four-figure recurring revenue and five-figure custom development revenue"</em>.
+    <a href="04-deciding-not-to.html">Chapter four</a> used exactly this material to make a different
+    point — that milestones like these can keep satisfying a badly written stopping rule for years.
+    The economics underneath them were left for here.</p>
+
+    <p>They are these. Her customers <em>"wanted to pay fewer than $100 per month"</em> per doctor.
+    Against that, <em>"the hosting and AI costs for our platform had gone up to about $70 per
+    doctor"</em>. And to connect the product to a practice's medical records system,
+    <em>"a single EHR integration costs around $4,000 to $6,000"</em>.</p>
+
+    <p>Put those together and her own conclusion follows:
+    <em>"it would take 11 years per practice just to break even"</em>.</p>
+
+    <div class="figures">
+      <div><span class="k">Paying customers</span><span class="v">4</span></div>
+      <div><span class="k">Willing to pay</span><span class="v">&lt;$100/mo</span></div>
+      <div><span class="k">Service cost</span><span class="v">~$70/mo</span></div>
+      <div><span class="k">Integration, per practice</span><span class="v">$4–6k</span></div>
+      <div><span class="k">Break-even, her estimate</span><span class="v">11 years</span></div>
+    </div>
+
+    <p>The subtraction is worth doing slowly, because it is the whole chapter. Under $100 a month
+    against about $70 a month of cost specific to that doctor leaves something under $30 — before
+    support, before the founder's time, before anything else. That figure is a subtraction of two of
+    her published numbers rather than one she states, and it is arithmetic anyone can check. Set
+    against an integration at the cheaper end, $4,000, a monthly contribution of that size takes
+    something over eleven years to come back. Her estimate and the arithmetic agree, which is the
+    reassurance you want before building an argument on a founder's own figure.</p>
+
+    <p>One more detail, which will matter in a moment. Her four customers arrived by four different
+    routes: <em>"one customer through a cold call, one through a cold email, one through a very warm
+    intro"</em>, and one via a consulting network. Four customers, four channels, no channel used
+    twice — which is <a href="07-where-they-already-are.html">chapter seven's</a> repeatability
+    question answering itself in the negative, and which also means there is no channel here whose
+    cost per customer could be computed even if the spending had been recorded.</p>
+  </section>
+
+  <section class="move">
+    <h2><span class="num">Move 3</span> The reasoning</h2>
+
+    <h3>Four subtractions stand between revenue and value</h3>
+
+    <p>Everything a customer pays you is gross. Four things come out before what is left is worth
+    calling value, and each of them is routinely missed in a different way.</p>
+
+    <ul>
+      <li><strong>Direct delivery cost.</strong> What it costs to serve that customer, per period,
+      because they are there. Cydoc's $70 per doctor is the cleanest possible example: a variable
+      cost, per customer, that consumed most of the price.</li>
+      <li><strong>Setup cost, charged to the customer who caused it.</strong> Integration,
+      onboarding, migration, the custom work agreed in the last week of the sale. It is spent once,
+      so it feels like a project cost. It belongs to that customer and is recovered from that
+      customer or not at all.</li>
+      <li><strong>Acquisition, including your own time at replacement cost.</strong>
+      <a href="05-leaving-well.html">Chapter five</a> established the rule: your labour has a price
+      even when no money moves. A free channel that consumes two days of founder time per customer is
+      not free, and this is where the businesses that look best on paper hide their costs.</li>
+      <li><strong>Refunds, credits and concessions.</strong> The discount given to close, the month
+      written off after a bad delivery, the invoice quietly never sent. These are reductions in what
+      the customer was worth, and they tend to live in nobody's calculation at all.</li>
+    </ul>
+
+    <h3>Positive is not the same as sufficient</h3>
+
+    <p>Something under $30 a month is a positive contribution. A business could run on it if
+    everything else about the business were free, and nothing about a business is free. The threshold
+    that matters is not zero — it is whether the contribution, across the customers you can actually
+    get, covers everything that is not attributable to any one customer, and pays the owner. Cydoc's
+    per-doctor economics were positive on the monthly line and could not carry the business, and both
+    of those things were true at the same time for years.</p>
+
+    <p>This is why "are we profitable on each customer?" is the wrong first question. It admits too
+    much. The useful question is how much is left, against how much has to be covered.</p>
+
+    <h3>The date the money came back</h3>
+
+    <p>The second half of the calculation is not a quantity at all. It is a date: the day on which
+    cumulative contribution from a customer finally exceeded what was spent acquiring and starting
+    them.</p>
+
+    <p>Eleven years is that date, for Cydoc, and it disqualifies the customer even though the
+    contribution is positive and even though the product worked. A customer who repays the cost of
+    their own setup after eleven years cannot finance the business that has to serve them for the
+    eleven years. <a href="13-profit-is-not-cash.html">The previous chapter</a> showed that a
+    profitable customer can still be a cash problem; this is the same fact arriving from the other
+    side, and it is why total contribution and the time it takes are not two views of one number.
+    Two customers who each eventually contribute €2,000 are not equally valuable when one pays before
+    delivery and the other repays their setup after a decade.</p>
+
+    <h3>There is no average customer</h3>
+
+    <p>Computing one value for all your customers destroys the information you needed. WP Curve, from
+    <a href="10-the-first-ten-customers.html">chapter ten</a>, shows why with a single price. Every
+    customer paid the same $69, and the ones cancelling inside the first month had something in
+    common: <em>"The common thread is that all of these customers have been running blogs, rather
+    than businesses"</em>, for whom <em>"$69 feels like a big cost"</em>. Same price, same service,
+    two entirely different relationships. Acquisition was not cheap for either —
+    <em>"no virality involved. We have to work for every single customer"</em> — and a human had to
+    perform the work each time.</p>
+
+    <p>Averaging across those two groups produces a number describing nobody, and it hides the only
+    finding worth having: one segment was worth acquiring again and one was not. So the calculation
+    is done per segment, per channel, or per cohort, and never once for the business.</p>
+
+    <p>Note what WP Curve cannot do here, because the temptation is strong. It cannot supply a
+    customer value figure at all. Its published revenue was company-wide across several businesses,
+    its customer totals were never cleanly isolated, and it never published delivery costs. It is a
+    contrast and a warning, not a calculation.</p>
+
+    <h3>When you do not need a lifetime estimate</h3>
+
+    <p>The obvious objection to everything above is that Cydoc's numbers ignore the future. Perhaps
+    those practices would have expanded, referred others, or bought more. That objection is correct
+    and it does not rescue the case, and the reason why is the most useful thing in this chapter:</p>
+
+    <p><strong>When the observed economics are already bad, you do not need a lifetime estimate. When
+    they look good, "lifetime" is the part you know least.</strong></p>
+
+    <p>An eleven-year payback does not become acceptable under a more generous forecast; it requires
+    one, which is the tell. And a business whose observed numbers look healthy is precisely where the
+    projection is doing invisible work, because that is where nobody checks it. The asymmetry means
+    the honest calculation is the same in both cases: compute what has actually happened, mark the
+    rest unknown, and notice which conclusions depend on the unknown part.</p>
+
+    <h3>Boundaries</h3>
+
+    <p><strong>Cydoc cannot tell you what acquisition costs.</strong> No cost per customer is
+    published, and with four customers arriving through four channels there is nothing to compute one
+    from. The acquisition line in the record below is real and this case does not demonstrate it.</p>
+
+    <p><strong>Four customers cannot establish a lifetime, a churn rate, or a cohort.</strong> No
+    retention conclusion is available here, nothing about expansion or referral, and the chapter does
+    not offer one. The eleven-year figure is Draelos's own estimate from her own costs, not audited
+    unit economics, and integration costs in medical software are unusually high — the mechanism
+    transfers, the magnitude does not.</p>
+
+    <p><strong>Future expansion is unknown, not zero — and it is also not evidence.</strong> This
+    chapter's instrument systematically undervalues relationships whose returns genuinely arrive
+    late, and a business that only ever counts what has already happened will refuse some customers
+    it should have kept. That is a real cost of the method, priced nowhere in it.</p>
+
+    <p><strong>And one cost has been left out of every calculation in this chapter.</strong> The
+    delivery cost, the setup cost, the support burden — all of them assume someone is paid to do the
+    work. You have now charged the customer for everyone's labour except one person's, and the owner
+    is usually the most expensive omission in the record. That is the next chapter.</p>
+  </section>
+
+  <section class="monday">
+    <h2>Monday</h2>
+    <ol>
+      <li><strong>Add the columns to the record you already have.</strong> The customer rows from <a href="10-the-first-ten-customers.html">chapter ten</a> and <a href="11-what-happens-after-the-sale.html">chapter eleven</a> gain these: cash actually collected; acquisition spend; your own acquisition time valued at replacement cost; onboarding or setup cost; direct delivery and support cost; refunds, credits and concessions. Extend the document; do not start a new one.</li>
+      <li><strong>Compute contribution to date, per customer.</strong> Collected, minus everything in the list above. Only what has happened. Anything you are tempted to project goes in a separate column labelled unknown, and it stays out of the total.</li>
+      <li><strong>Find the payback date for each customer.</strong> The month in which cumulative contribution first exceeded what you spent acquiring and starting them. For customers where that date has not arrived, write "not yet" rather than a forecast — that is the honest entry and it is also the alarming one.</li>
+      <li><strong>Aggregate by segment and by channel, never once for the business.</strong> If two segments have similar averages and different spreads, you have two businesses. If a channel produces customers whose payback dates are consistently later, you have found something that no revenue report would have shown you.</li>
+      <li><strong>Then ask the actual question: which of these would you acquire again?</strong> Write the answer down for each segment, with the number that justifies it. That sentence is the output of this chapter, and it is the input to every pricing and channel decision you make next year.</li>
+    </ol>
+  </section>
+
+  <div class="owed">
+    <p class="case-head"><span class="who">The counter-case this chapter does not have</span></p>
+
+    <p>It would be a business that computed exactly this — observed contribution, payback date, by
+    segment — and refused a group of customers on the evidence, only for later results to show that
+    segment expanding, referring others, or becoming the most profitable it had. That case would not
+    overturn the method, but it would price it honestly: observed value protects against invented
+    futures and undervalues returns that genuinely arrive late. This chapter recommends the
+    conservative error without demonstrating what it costs.</p>
+  </div>
+
+  <section class="reading">
+    <h2>Reading</h2>
+    <ul>
+      <li><span class="src">Source ·</span> <a href="https://glassboxmedicine.com/2026/02/21/why-i-shut-down-my-bootstrapped-health-ai-startup-after-7-years-a-founders-postmortem/">Rachel Draelos, "Why I Shut Down My Bootstrapped Health AI Startup After 7 Years"</a>, February 2026 — the four customers and their channels, the sub-$100 willingness to pay, the $70 per-doctor cost, the $4,000–$6,000 integration and the eleven-year break-even estimate. A founder's own post-mortem, which is weaker evidence than a filing and is attributed as such throughout. Used in <a href="04-deciding-not-to.html">chapter four</a> for a different question.</li>
+      <li><span class="src">Source ·</span> <a href="http://web.archive.org/web/20140520015220/http://wpcurve.com/december-monthly-report/">Dan Norris &amp; Alex McClafferty, WP Curve December 2013 monthly report</a> — the customers cancelling inside a month were bloggers rather than businesses, at a $69 price. Used here only for the segment contrast; its figures cannot support a customer-value calculation, for the reasons given in Move 3.</li>
+      <li><span class="src">Note ·</span> The under-$30 monthly contribution in Move 2 is a subtraction of two figures Draelos publishes, not a figure she states. It is shown as arithmetic so it can be checked.</li>
+    </ul>
+  </section>
+
+  <nav class="chapter-nav">
+    <a href="13-profit-is-not-cash.html"><span class="dir">Previous</span>13 · Profit Is Not Cash</a>
+    <span class="next unavailable"><span class="dir">Next chapter</span>15 · Paying Yourself — not yet published</span>
+  </nav>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>The Going Concern · Chapter 14 of 28.</p>
+  </div>
+</footer>
+
+</body>
+</html>

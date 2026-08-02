@@ -584,7 +584,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 | 11 | What Happens After the Sale | ☑ 24 claims · Turing School CIRR reports (2016–2020) · *owed* |
 | 12 | Reading Your Own Business | ☑ 23 claims · Dutch filing regime (BW2 Titel 9) · *no company case, by decision* 🇳🇱 |
 | 13 | Profit Is Not Cash | ☑ 17 claims · Instacart S-1 cash flows + BW6 payment terms · *owed* 🇳🇱 |
-| 14 | What a Customer Is Worth | ☐ |
+| 14 | What a Customer Is Worth | ☑ 13 claims · Cydoc (2018–2025), returning from ch. 04 · WP Curve as segment contrast · *owed* |
 | 15 | Paying Yourself | ☐ 🇳🇱 |
 | 16 | Enough | ☐ |
 
