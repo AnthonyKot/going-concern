@@ -143,6 +143,6 @@ argument. `CONTEXT.md §8` keeps the table of what got caught.
 
 ## Status
 
-Part I is complete and verified — chapters 1–5, with a closing exit test. Part II is under way:
-chapters 6–9 are published, 330 claims across the nine; 19 to go.
+Parts I and II are complete and verified — chapters 1–10, each part closing with an exit test.
+366 claims across the ten; 18 to go. Part III is next: does the money work?
 See `CONTEXT.md` for the chapter register.

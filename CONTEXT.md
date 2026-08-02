@@ -740,6 +740,26 @@ can be repeated**; ch. 11 establishes that **the relationship persists**.
 | Did delivery reveal you had selected the wrong customer? | Does acquisition build a continuing relationship or only replace departures? |
 | Were the sale, the price and the delivery burden repeatable? | |
 
+**The dependency, stated once so later chapters do not renegotiate it:**
+
+> acquisition → repeatable delivery → a customer relationship that persists → economics that work
+
+Ch. 10 owns the first two and stops. Ch. 11 owns persistence. The rest of Part III owns the economics.
+
+**The operating record, split by chapter.** One artefact, one row per customer, extended rather than
+restarted. Ch. 06–09 contribute the segment and refusals, the acquisition mechanism, the ask and
+objection, and the price and promised scope.
+
+| ch. 10 creates | ch. 11 extends the same rows with | Part III adds |
+|---|---|---|
+| customer and segment; source/channel; reason for buying now; price and discount; promised scope; actual delivery effort; custom work, exceptions and rework; delivery **completed**; repeatable by this owner next month; what to refuse next time | activation or use; outcome obtained; renewal, reorder or expansion; referral; complaint or reason for leaving | margin; cash timing; concentration; owner compensation |
+
+**The boundary is finer than it looks.** Ch. 10 may record that delivery was *completed*; it may not
+evaluate whether the relationship *persisted*. And "which customers consumed more support than their
+revenue justified" crosses the line in the middle of the sentence — ch. 10 records support effort and
+exceptions as facts; whether the revenue justified them is Part III's judgement, because it needs
+margin and cash timing that do not exist yet.
+
 Retention belongs to 11. Repeatability of the *sale and its delivery* belongs to 10. Note the
 convergence with the non-software constraint above: unpriced customisation and operational breakage
 are most legible in a service or physical business, so the handoff makes ch. 10's case easier to
@@ -782,6 +802,35 @@ the first-party writing that made ch. 10 possible exists only there, because wpc
 2016. Search the archive before concluding a case does not exist. "Nobody publishes this" is a claim
 about the search (ch. 08's lesson), and it now has a second half: the publishing may have happened
 and then been deleted.
+
+### Part II coherence pass — done 2026-08-02
+
+Seven checks, time-boxed, run with all ten chapters in view.
+
+1. **Part I's handoff is honoured.** Its close promised Part II would answer whether customers can be
+   found *repeatedly* and *what they should be charged*. Ch. 06–08 and 10 answer the first, ch. 09 the
+   second, and the economics were deferred to Part III there and are deferred again here. No drift.
+2. **One-sentence rule test — all five pass.** 06: a positioning statement that costs nothing is not
+   one. 07: two kinds of channel, and you can practise two. 08: every closed tab is a no with no
+   reason attached. 09: a price must be worthwhile for the buyer *and* worthwhile for you to fulfil.
+   10: the first customers test the process, not the market.
+3. **Cumulative operating record** — was implicit and is now named in the Part II close, with the
+   per-chapter split recorded in §6c above. It is one artefact, not five exercises.
+4. **Duplicate actions** — the `Monday` lists chain rather than repeat: 07 creates the acquisition
+   record, 08 adds asks and reasons, 09 adds price and reason columns, 10 adds delivery. Left alone.
+5. **Cross-references** — ch. 10 linked only to ch. 08 before the pass, the thinnest in the part; the
+   closing passage now links 06, 07, 08 and 09. Everything else was already connected.
+6. **Navigation and totals** — 366 claims, 37 sources, ten chapters; index, method page, README and
+   the register agree; links clean.
+7. **Ch. 07 "standing versus access" — no action taken, deliberately.** The gap the review worried
+   about is already closed by question two of the channel test (gatekeepers) plus the sentence that
+   positioning *"says nothing whatever about where to stand when you say it, or how often you get to
+   stand there."* Adding more would be the ratchet in §3 operating unopposed. Recorded so the
+   question is not reopened without a new reason.
+
+**Still outstanding: the `§6d` caveat-density retrofit of ch. 01–07.** Deliberately not done in this
+pass — it is the counter-force to the ratchet and should be done slowly and once, not folded into a
+coherence check whose other six items all push toward *more* precision.
 
 ## 7. Cases to avoid
 
