@@ -774,11 +774,14 @@ taxonomy inside every chapter and link to the method page instead; keep the limi
 how the reader should *apply* the advice and move sourcing mechanics and classification history out.
 Test after drafting: **can a reader state the chapter's rule in one sentence?**
 
-Applies to new chapters immediately. The retrofit of ch. 01–07 is deliberately **deferred to the
-Part II close**, where it becomes a pass over ten chapters at once — the redundancy is *between*
-chapters, so it is only visible with all of them in view, and doing it piecemeal risks cutting
-load-bearing qualification while feeling productive. This is also the counter-force to the ratchet in
-§3, so it must be done slowly and with the whole part in front of it.
+Applied to new chapters immediately. The retrofit of ch. 01–07 was completed after the Part II
+baseline was committed, with all ten chapters in view and only 01–07 edited. It removed 1,415
+rendered words without changing a case, factual claim, Monday action, legal box or conclusion:
+`.owed` blocks became one compact paragraph; repeated explanations of `.limit` versus `.counter`
+moved back to the Method page; sourcing qualifications already present in Reading were removed from
+Boundaries; application-changing limitations stayed where the reader needs them. Ch. 04's revision
+history remains in this file rather than in the reader's path. This was the counter-force to the
+ratchet in §3, not a lower word-count target.
 
 ### Finding from the ch. 10 case hunt: the evidence base itself is skewed
 
@@ -828,9 +831,8 @@ Seven checks, time-boxed, run with all ten chapters in view.
    stand there."* Adding more would be the ratchet in §3 operating unopposed. Recorded so the
    question is not reopened without a new reason.
 
-**Still outstanding: the `§6d` caveat-density retrofit of ch. 01–07.** Deliberately not done in this
-pass — it is the counter-force to the ratchet and should be done slowly and once, not folded into a
-coherence check whose other six items all push toward *more* precision.
+**The `§6d` caveat-density retrofit of ch. 01–07 is complete.** It was run as the next isolated pass,
+not folded into this coherence check; see §6d above for its guardrails and result.
 
 ## 7. Cases to avoid
 
