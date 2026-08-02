@@ -14,7 +14,7 @@ These were settled at the outset and should not be relitigated without a reason.
 | Sourcing | **Company cases first.** Each chapter is anchored on a real, named, dated company. Business books appear only in the reading list. | The subject has no canon the way quantum mechanics does. Comparing eight business books would inherit their collective blind spots. Companies are checkable; frameworks are not. |
 | Audience | **The experienced developer going out on their own.** ~40, fifteen-plus years salaried, Netherlands or similar. Self-funded, heading for 1–20 people, still doing the work. | Underserved, and unusually shaped: arrives fluent in systems, constraints, iteration and measurement, illiterate in demand, distribution, selling, pricing and cash. Also old enough to have a mortgage, which changes every risk calculation in the book. |
 | Jurisdiction | **General argument, Dutch specifics quarantined** in `On Dutch ground` boxes. | Employment law, invoicing, dismissal and side-work rules genuinely change the answer, and a reader who cannot act on a chapter has not been helped. Quarantining keeps the general argument portable and stops law from rotting the prose. |
-| Chapter length | **2,000–3,000 words.** Raised from 2,500 after both finished chapters overran (01: 2,958, 05: 2,606). | 2,500 was a guess made before a chapter existed; 2,600–2,950 is where the form actually sits once a case with real figures, a bounded principle and a counter-case are all present. This is now a hard ceiling, not a target — anything over 3,000 gets cut, not excused. Ch. 02 drafted at 3,333 and was cut to 3,000; the ceiling held and the chapter is better for it. |
+| Chapter length | **2,000–3,000 words**, measured on chapter content. Raised from 2,500 after both finished chapters overran (01: 2,958, 05: 2,606). | 2,500 was a guess made before a chapter existed; 2,600–2,950 is where the form actually sits once a case with real figures, a bounded principle and a counter-case are all present. This is now a hard ceiling, not a target — anything over 3,000 gets cut, not excused. Ch. 02 drafted at 3,333 and was cut to 3,000; the ceiling held and the chapter is better for it. **Part-closing passages are counted separately** — they close a part rather than a chapter, appear once per five chapters, and would otherwise force real argument out of whichever chapter happens to sit last. Ch. 05 is 2,804 of chapter plus a 321-word Part I close. Declared rather than quietly absorbed. |
 | Honesty mechanism | **The counter-case**, not a ledger. | The sibling volume tracked formal debts because a proof has them. A business book's equivalent failure is advice that works until it doesn't. Show that, don't tally it. |
 
 ## 2. The spine
@@ -207,7 +207,7 @@ Legend: ☐ not started · ◐ drafted · ☑ written and sourced
 |---|---|---|---|---|
 | 01 | The Only Question That Matters | Webvan (1996–2001) | *owed* — Instacart is an `.aftermath` | ☑ 27 claims |
 | 02 | Talking to People Who Will Lie to You | Everpix (2011–2013) | *owed* — see debt register | ☑ 38 claims |
-| 03 | Selling It Before It Exists | Studio Neat (2010–) | *owed* — Coolest Cooler is a `.limit` | ☑ 26 claims 🇳🇱 |
+| 03 | Selling It Before It Exists | Studio Neat (2010–) | *owed* — Coolest Cooler is a `.limit` | ☑ 28 claims 🇳🇱 |
 | 04 | Deciding Not To | Cydoc (2018–2025) | *owed* — Gymdesk demoted to `.limit` | ☑ 21 claims |
 | 05 | Leaving Well | Bingo Card Creator (2006–2010) | Gymdesk — the runway said stop | ☑ 21 claims 🇳🇱 |
 
@@ -351,11 +351,20 @@ decision was consciously made, and both have verified first-party source trails,
 | **Studio Neat** | Tom Gerhardt & Dan Provost — physical products, 2010– | ch. 03, as the case | First-party and dated, and the totals were recorded independently by the platform they sold on. |
 
 **The non-software gap is now filled**, by ch. 03. Studio Neat are two people making physical
-objects, with a first-party post giving goal, total, backer count and shipping date for all five of
-their campaigns — which is what Part III needed if it was not going to read as three SaaS anecdotes
-in a row. Reuse them deliberately: they are the obvious return for ch. 09 (a physical product has a
-cost of goods, so pricing by effort is visibly absurd), ch. 11 (repeat purchase without a
+objects, with a first-party post giving the goal, total, backer count and fulfilment timing for all
+five of their campaigns. Reuse them deliberately: the obvious returns are ch. 09 (a physical product
+has a cost of goods, so pricing by effort is visibly absurd), ch. 11 (repeat purchase without a
 subscription), and ch. 23 (two people, no slack).
+
+**Correction, recorded because it survived two chapters.** The line this replaces read "Part III
+will read as three SaaS anecdotes in a row." Two errors, both introduced in §7 before ch. 04 was
+written and carried forward without being checked. Ch. 09 is in **Part II**, not Part III — the
+part boundaries are in §2 and were not consulted. And "every case is software" was never true of the
+*chapters*: Webvan is grocery logistics with warehouses, Instacart a marketplace with physical
+operations. The accurate statement is narrower: the **recurring cast** — McKenzie and Galperin —
+was software-only, and the chapters where they were scheduled to return would have skewed SaaS.
+General lesson for this file: assertions about the book's own structure are as checkable as
+assertions about companies, and nothing checks them.
 
 Reuse them deliberately rather than accidentally. The point is that the reader watches the same
 decisions interact over time: Galperin's six-month runway is the counter-case in ch. 05 and the

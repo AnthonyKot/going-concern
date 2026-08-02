@@ -119,7 +119,7 @@ always actionable. CI follows the same split, and the weekly claim run writes it
 job summary instead of failing.
 
 `checks/claims.tsv` lists the exact string that must appear in each cited document; `verify.sh`
-fetches the documents and confirms it. The five published chapters currently carry **133 verified
+fetches the documents and confirms it. The five published chapters currently carry **135 verified
 claims** against twenty-four sources. PDF sources are converted with `pdftotext` before matching; if
 poppler is not installed those claims are reported as *skipped*, never as passed.
 
@@ -143,5 +143,5 @@ argument. `CONTEXT.md §8` keeps the table of what got caught.
 
 ## Status
 
-Scaffold complete. Part I is written and verified — chapters 1–5, 133 claims between them; 23 to go.
+Scaffold complete. Part I is written and verified — chapters 1–5, 135 claims between them; 23 to go.
 See `CONTEXT.md` for the chapter register.
