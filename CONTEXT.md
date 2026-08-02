@@ -185,6 +185,25 @@ not dominant in every state, and "strictly superior" claims exactly that. Now "u
 premium", with the reason stated in the prose. Rule: **words with a technical meaning are claims.**
 Strictly superior, necessary, sufficient, always, proves — the register does not check any of them.
 
+**Named at ch. 11, after it had recurred in ch. 01, 04, 06, 07 and 10: quantifier drift.** The
+diagnosis, in the reviewer's words, is that *"the argument is right, but its sharpest sentences
+occasionally convert a conditional relationship into a universal law."* The mechanism is that the
+most quotable version of a true tendency is usually its absolute form, and the absolute form is
+false. Ch. 11 alone produced six: *the direction it drifts is always the same*; *the honest early
+number is always the disappointing one*; *someone else's payroll passes it*; *the delivery was
+excellent*; *only one of them is yours*; *the worse your outcomes, the more people go quiet*.
+
+**The fix is not hedging.** Hedging everything is the §3 ratchet, and it makes the book unusable.
+The fix is quantifier discipline: keep the sharp sentence and remove the absolute from it. *Always*,
+*only*, *never*, *every*, *nothing*, *proves* — treat each as a claim requiring the same evidence as
+a number. When the true statement is conditional, say the condition; a stated condition is usually
+sharper than the false universal it replaces, because it tells the reader when the rule applies.
+
+Worked example from ch. 11. Draft: *"the direction it drifts is always the same, because the honest
+early number is always the disappointing one."* Corrected: *"No date is intrinsically the honest one.
+The honesty is in choosing it before you have seen the number, and not moving it afterwards."*
+Shorter, true, and more actionable than the version it replaced.
+
 **Ch. 07, same review — a label doing more work than the evidence.** "Owned versus rented" conflates
 two independent axes: whether an effect persists after spending stops, and whether a third party can
 revoke it. The case establishes only the first. You may own an article and not own its rank. Renamed
