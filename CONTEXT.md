@@ -342,6 +342,11 @@ how to wind up cleanly (28).
 
 The 🇳🇱 mark in the register below flags chapters that need one.
 
+**Ch. 15 is the highest-risk box in the book and is written under a stricter process**, set out in
+§6f: claim rows before prose, nothing derived, two independent primary sources for the operative
+number, and claims treated as gating rather than advisory. The general rules above are the floor;
+§6f is what ch. 15 actually has to clear.
+
 ## 5c. Adversarial books (not sources)
 
 Business books appear only in reading lists. They never anchor a chapter and never supply a figure
@@ -886,6 +891,89 @@ initial delivery cash. It extends the operating record from ch. 10 and ch. 11 ra
 new document.
 
 **Case: not yet found.** No Dutch box is flagged for this chapter.
+
+## 6f. Ch. 15 — Paying Yourself 🇳🇱: settled before drafting, under a stricter process
+
+**Why this chapter gets its own process.** The correction analysis below found that the composition
+of errors shifted: domain-technical errors went from 1 of 17 across ch. 01–07 to 8 of 21 across
+ch. 11–13. Ch. 15 is the worst case of that pattern in the book, because the gebruikelijkloonregeling
+is a rule a reader can act on with direct financial consequences, and it is wrong in both directions:
+telling an eenmanszaak owner they owe themselves €58.000 is nonsense, and telling a DGA the
+obligation is negotiable is worse. Decided here rather than discovered while drafting.
+
+**Thesis.** The owner's labour is a cost the business must cover, not the residual left after
+everything else is paid. A business that is profitable only because nobody costed the founder is not
+profitable; it is a badly paid job carrying the downside of ownership.
+
+**The decision.** What it would cost to replace the owner's labour at market rate, whether the
+business can cover that cost, and what changes if it cannot.
+
+**Boundary with ch. 16 — Enough.** Ch. 15 owns the *business's* obligation, extending ch. 05's
+replacement-cost rule. Ch. 16 owns the *owner's* life: how much is actually needed. Ch. 15 never
+discusses personal sufficiency. Per §6c: a handoff assigns which question a chapter may answer, never
+what the evidence is allowed to mean — ch. 15 may observe that a founder took nothing without ceding
+the observation to 16.
+
+**No company case, by decision** — as ch. 12. A case adds interpretive surface, and interpretive
+surface is exactly what fails in this part of the book.
+
+**Domain competence declared before drafting** (the §6b field added after the correction analysis):
+what this chapter needs beyond quoting its sources is the ability to keep loonbelasting and
+inkomstenbelasting apart, and to know which regime attaches to which legal form. That is the whole
+competence requirement and the whole risk. The mitigation is that the chapter states the fork and
+refuses to go further.
+
+**Six process differences, all of them departures from how every prior chapter was written:**
+
+1. **Sources and claim rows first, prose second.** Every Dutch claim registered and `./verify.sh 15`
+   green *before* a sentence of the ground box exists. Every prior chapter wrote prose and back-filled
+   claims; reversing the order means no Dutch sentence can exist that was not sourced first.
+2. **Derive nothing.** No arithmetic on Dutch tax figures, no worked DGA salary, no combined
+   thresholds, no "so you would pay roughly". The box quotes and navigates; it does not compute.
+3. **Two independent primary sources for the operative number.** €58.000 appears in art. 12a lid 1(c)
+   *and* on the Belastingdienst page. If they ever disagree, the chapter is wrong until resolved.
+4. **Staleness is structural, not a footnote.** The prose carries the series — €56.000 for 2024 and
+   2025, €58.000 for 2026 — so a reader in 2028 can see it is stale rather than trust it silently.
+   The dated `checked` line stays as well.
+5. **Boundaries drafted before the argument.** Everywhere else it closes Move 3. Here it is written
+   first, so the argument is constrained by it rather than caveated after it.
+6. **External review before push, not after.** All 47 corrections to date were found by reading.
+
+**Two traps named in advance.**
+
+*Trap 1 — the ch. 12 scope error, same shape.* Ch. 12 assumed every reader files annual accounts. The
+equivalent here is assuming every reader is a DGA. The regime attaches to a *lichaam waarin hij een
+aanmerkelijk belang heeft*. An eenmanszaak owner has no salary at all: withdrawals are
+privéonttrekkingen, and *"omdat het geen zakelijke kosten zijn, zijn privéonttrekkingen niet
+aftrekbaar van uw ondernemingswinst"*. **The box opens with the fork, never with the number.**
+
+*Trap 2 — obligation is not affordability.* The €58.000 floor is a tax-law minimum. It does not ask
+whether the bv has the cash, and the route to a lower figure requires the taxpayer to *aannemelijk
+maken* a lower comparable. Conflating "the state sets a number" with "the business can pay it" would
+be the fatal error — and avoiding it is the thesis landing exactly: **the state's number and the
+business's ability to pay are two different things, and the gap between them is the chapter.**
+
+**Sources, all four verified reachable and serving the required strings on 2026-08-02:**
+
+| id | url | carries |
+|---|---|---|
+| `lb-12a` | `wetten.overheid.nl/BWBR0002471/2026-01-01` | Wet LB 1964 art. 12a lid 1 — the three-way test and `c. € 58.000`. The **dated** URL serves full article bodies here, unlike BW2 and BW6. |
+| `bd-gebruikelijk-loon` | belastingdienst.nl … `/aanmerkelijk_belang/loon_en_aanmerkelijk_belang/` | €58.000 in 2026, €56.000 in 2025 and 2024; the €5.000 threshold and that it applies per person not per company; start-up exception lapsed for new cases from 2023 |
+| `bd-prive-onttrekkingen` | belastingdienst.nl … `/privestortingen_en_priveonttrekkingen` | that withdrawals are not deductible business costs |
+| `bd-ondernemer-ib` | belastingdienst.nl … `/wanneer_bent_u_ondernemer_voor_de_inkomstenbelasting/` | the eenmanszaak side of the fork |
+
+**Shape.** Move 1 the invisible line item, portable and with no Dutch content; Move 2 the regime as
+the case — one jurisdiction forcing a number on one legal form and none on another; Move 3
+replacement cost, the affordability test, and what to do when the answer is no. Body target
+**2,000–2,400 words**, deliberately at the low end of the band, because risk here scales with how
+much is said.
+
+**Forbidden in this chapter, beyond the standing §5b rules:** no comparison of eenmanszaak versus bv
+as a choice, which is a structuring recommendation and belongs to nobody in this book; no dividend or
+box-2 arithmetic; no number that is not in a registered claim row.
+
+**Claims are gating for this chapter alone.** Every ch. 15 claim row must pass before push, no
+exceptions — the one place the advisory check in §8 is treated as a gate.
 
 ## 6c. Handoff: ch. 10 → ch. 11
 
