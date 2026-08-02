@@ -524,7 +524,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 | 06 | Who Is This For | ☑ 60 claims · Plausible Analytics (2018–2022) · *owed* — Product Hunt is a `.limit` |
 | 07 | Where They Already Are | ☑ 58 claims · Bingo Card Creator (2008–2011) · *owed* — Appointment Reminder is a `.limit` |
 | 08 | Asking for Money | ☑ 47 claims · ConvertKit (2013–2015) · *owed* — the Thailand fortnight is a `.limit` |
-| 09 | What to Charge | ☑ 33 claims · Studio Neat / Cosmonaut (2011) · *owed* 🇳🇱 |
+| 09 | What to Charge | ☑ 30 claims · Studio Neat / Cosmonaut (2011) · *owed* 🇳🇱 |
 | 10 | The First Ten Customers | ☐ |
 
 ### Part III — Does the money work?
@@ -577,7 +577,9 @@ redundant:
 
 ## 6b. Case ledger
 
-Four fields per case, written **when the case is first used** and consulted before it is reused.
+Five fields per case. The first four are written **when the case is first used** and consulted before
+it is reused; **Spent** is updated after publication so a later chapter knows which evidence and
+interpretive work it would be repeating rather than inheriting.
 Working-file only — none of this is reader-facing, which is the point: it constrains interpretation
 without adding another qualification to the prose. *Prohibited claim* is the load-bearing field; it
 is what would have caught ch. 04's "did exactly what this chapter asks" and ch. 06's backwards
@@ -593,6 +595,9 @@ causal arrow, both of which passed every claim row.
 - **Prohibited.** Never that fixed investment is wrong in general. Never that variable is *strictly
   superior* — the word was corrected for exactly this reason. Never as a decision the reader faces:
   the scale is unreachable and that is why the case budget exists.
+- **Spent.** Ch. 01 used the centre sizing, capacity commitments, demand shortfall, losses and the
+  Instacart comparison. No later use is reserved; returning requires a different decision and new
+  evidence rather than another tour of the collapse.
 
 ### Everpix — ch. 02
 - **Facts.** Survey results (12.1% would-pay against 11.9% for the free framing), paid-versus-organic
@@ -603,8 +608,11 @@ causal arrow, both of which passed every claim row.
   there ran the chapter's five extractions.
 - **Prohibited.** Never that the five questions would have saved them. The chapter says this in its
   own text — *"tests the diagnosis, not the cure"* — and that sentence must survive any future edit.
+- **Spent.** Ch. 02 used the survey framing, paid-versus-organic conversion and the shutdown
+  financials. Nothing in the current file evidences that the chapter's interview method was tried;
+  a later use cannot turn the post-mortem into evidence for the cure.
 
-### Studio Neat — ch. 03, due again at ch. 09 and ch. 11
+### Studio Neat — ch. 03 and ch. 09; ch. 11 only with new evidence
 - **Facts.** Five campaigns with goals, totals, backers and delivery; the prototype rule; the
   eighty-five minutes after the Daring Fireball link. For the Cosmonaut: a $50,000 goal and 3,000
   pay-what-you-want slots; all slots taken in forty-eight hours while the campaign remained about
@@ -624,6 +632,12 @@ causal arrow, both of which passed every claim row.
   ch. 09, never that Studio Neat used value-based rather than cost-plus pricing; never that opening
   new tiers alone caused the final total; never treat the average pledge as a willingness-to-pay
   distribution; never treat $134,236 pledged as revenue or profit.
+- **Spent.** Ch. 03 used the five-campaign table, the Glif launch and distribution event, the
+  prototype rule and delivery evidence. Ch. 09 used the Cosmonaut goal, slots, forty-eight-hour
+  shortfall, added tiers, final pledges, fees, failed payments, shipping surprise, fulfilment cost
+  and June-to-December slip. **The current Studio Neat source contains no evidence of repeat
+  purchase, renewal, retention or referral.** Ch. 11 therefore needs a separate first-party Studio
+  Neat record that supplies one of those, or a different case; the earmark is not evidence.
 
 ### Gymdesk / Galperin — ch. 04, ch. 05
 - **Facts.** Six months of runway; three years to full time; $10k MRR by end of 2018; full time June
@@ -633,6 +647,9 @@ causal arrow, both of which passed every claim row.
 - **Confounders.** He improvised; there was no written consequence; the account is retrospective.
 - **Prohibited.** Never that choosing the consequence *in advance* was necessary. Four review passes
   landed on that wording; do not let it drift back.
+- **Spent.** Ch. 04 used the six-month runway and improvised return-to-salary consequence. Ch. 05
+  used the three-year path to full time, $10k MRR, June 2019 transition and four-day week. No further
+  use is reserved.
 
 ### Bingo Card Creator / McKenzie — ch. 05, ch. 07
 - **Facts.** Revenue and hours; traffic, channel split and conversion for 2009 and 2010; $3,000 of
@@ -644,6 +661,10 @@ causal arrow, both of which passed every claim row.
 - **Prohibited.** Never that the tactic works now — the chapter says it is closed. Never that
   distribution skill transfers across markets. And AR must not be used the other way either: it does
   not prove the skill *cannot* transfer, because he did not run the playbook and says so.
+- **Spent.** Ch. 05 used Bingo Card Creator's revenue, hours and part-time accumulation to support
+  the exit decision. Ch. 07 used its traffic, channel split, conversion and writing economics, then
+  spent Appointment Reminder's six-month figures on the transfer limit. A future ch. 17 return must
+  source operational bottleneck evidence rather than reuse the revenue-and-traffic story.
 
 ### Plausible — ch. 06
 - **Facts.** Month-by-month MRR; the dates; the five changes of March 2020; the positioning sentence;
@@ -653,6 +674,8 @@ causal arrow, both of which passed every claim row.
 - **Confounders.** Five simultaneous changes, plus a marketing specialist joining the same month.
 - **Prohibited.** Never a return-on-positioning figure. Never that positioning caused the
   acceleration. The model predated the statement — see §8.
+- **Spent.** Ch. 06 used the complete MRR ladder, the five simultaneous March changes, the
+  positioning sentence and Product Hunt limit. No later use is reserved.
 
 ### ConvertKit / Barry — ch. 08
 - **Facts.** MRR through the failure and the recovery; $1,207 bottom; a hundred emails to 5–7
@@ -664,6 +687,9 @@ causal arrow, both of which passed every claim row.
   income of $15–25k a month, and a developer hired.
 - **Prohibited.** Never that the recovery was caused by selling alone. Never that direct sales
   scales — his own claim, and his own contemporaneous account contradicts it.
+- **Spent.** Ch. 08 used the failure-and-recovery MRR ladder, the hundred-email conversion,
+  positioning/sales confound, migration objection and churn, cash injection and Thailand fortnight.
+  No later use is reserved; another ConvertKit chapter would need evidence outside this recovery.
 
 ## 6c. Handoff: ch. 10 → ch. 11
 
@@ -778,9 +804,10 @@ decision was consciously made, and both have verified first-party source trails,
 
 **The non-software gap is now filled**, by ch. 03. Studio Neat are two people making physical
 objects, with a first-party post giving the goal, total, backer count and fulfilment timing for all
-five of their campaigns. Reuse them deliberately: the obvious returns are ch. 09 (a physical product
-has a cost of goods, so pricing by effort is visibly absurd), ch. 11 (repeat purchase without a
-subscription), and ch. 23 (two people, no slack).
+five of their campaigns. Ch. 09 has now spent its cost, fee, shipping and fulfilment evidence. Ch. 11
+is a return only if a separate first-party record supplies repeat-purchase, referral or retention
+evidence; the existing campaign post does not. The same gate applies to the possible ch. 23 return
+on operating with two people and no slack.
 
 **Correction, recorded because it survived two chapters.** The line this replaces read "Part III
 will read as three SaaS anecdotes in a row." Two errors, both introduced in §7 before ch. 04 was
