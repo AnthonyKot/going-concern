@@ -11,6 +11,10 @@ mechanics), [The Bridge](https://anthonykot.github.io/quantum-bridge/) (a quantu
 carried forward to quantum information), and [No Such Form](https://anthonykot.github.io/fermat-last-theorem/)
 (Fermat's Last Theorem in 25 essays).
 
+**Corrections welcome.** If a figure, a citation or an inference here is wrong, open an issue. The
+script checks that quotations match their sources; it cannot check whether a case supports the lesson
+drawn from it, and that has been wrong more than once.
+
 ## The premise
 
 *The Personal MBA* is the closest thing this subject has to a standard text, and its instincts are
