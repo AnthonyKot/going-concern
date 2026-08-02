@@ -605,7 +605,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 ### Part IV — Can it run without you?
 | # | Title | Status |
 |---|---|---|
-| 17 | You Are the Bottleneck | ☐ |
+| 17 | You Are the Bottleneck | ☑ 13 claims · Bingo Card Creator (2010) + Pinboard (2020) · *owed* · opens Part IV |
 | 18 | Writing It Down | ☐ |
 | 19 | The First Hire | ☐ 🇳🇱 |
 | 20 | Managing People | ☐ 🇳🇱 |
@@ -1407,6 +1407,40 @@ ability to perform an exceptional migration.
 
 **Watch.** Part IV's §2 rule applies from its first page: practice and asset are both legitimate, and
 the failure is not knowing which you built. Ch. 17 diagnoses; it does not sell the asset.
+
+### How it went — written after drafting
+
+**The plan held and the case did the work it was assigned.** Thirteen claim rows registered and
+green before prose, per the ch. 15 ordering, which is now simply how chapters are written here.
+
+**The four categories are the chapter's own framework, and the chapter says so.** Recurring work,
+exceptional decisions, operational knowledge, credentials and relationships. They are not a finding
+from either source — they are built from what the two records contain and, more importantly, from
+what they leave out. Declared in the boundaries rather than presented as evidence, because the
+alternative is a taxonomy borrowing authority from figures that do not support it.
+
+**The interesting result: McKenzie's post is an excellent answer to a question the chapter does not
+ask.** Everything in it is about volume of work — time assets, time debt, email A and email B, the
+hours themselves. Volume is not dependence, and the post does not claim it is. So the chapter uses
+it as a *positive* case of the first category handled superbly, then says plainly that the other
+three were not addressed by it. That is the honest reading and it is also the more useful one: the
+most competent workload management in the book leaves the dependence question untouched.
+
+**Pinboard carries the counterweight from the same series ch. 16 used.** The 2020 migration —
+2009-era code, a site that could not be run bug-for-bug on a modern laptop, performed alone on a
+live system — is a decade of near-zero routine labour sitting on top of one unschedulable job with
+no second candidate. Different question of the same source, per the corrected *spent* rule.
+
+**Both cases share a limit, stated in the chapter:** neither owner was ever involuntarily absent, so
+no figure in either record measures dependence directly. It is inferred from their own descriptions
+of the work. The chapter's own recommendation — run the absence test on paper — is the thing neither
+case ran for real.
+
+**Sequencing claim worth watching.** Move 3 tells the reader to fix credentials first and recurring
+work last, which inverts what most owners do. Credentials-first is defensible from the argument
+(shortest fuse, fixable in an afternoon, no skill transfer). Recurring-work-last has no case behind
+it at all; it is reasoning from the same argument, and if a reviewer pushes on one thing it should
+be that.
 
 ## 6c. Handoff: ch. 10 → ch. 11
 
