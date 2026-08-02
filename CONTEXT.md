@@ -585,7 +585,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 | 12 | Reading Your Own Business | ☑ 23 claims · Dutch filing regime (BW2 Titel 9) · *no company case, by decision* 🇳🇱 |
 | 13 | Profit Is Not Cash | ☑ 17 claims · Instacart S-1 cash flows + BW6 payment terms · *owed* 🇳🇱 |
 | 14 | What a Customer Is Worth | ☑ 13 claims · Cydoc (2018–2025), returning from ch. 04 · WP Curve as segment contrast · *owed* |
-| 15 | Paying Yourself | ☐ 🇳🇱 |
+| 15 | Paying Yourself | ☑ 16 claims · Dutch owner-remuneration regime · *no company case, by decision* · written under §6f 🇳🇱 |
 | 16 | Enough | ☐ |
 
 ### Part IV — Can it run without you?
@@ -1094,6 +1094,30 @@ box-2 arithmetic; no number that is not in a registered claim row.
 
 **Claims are gating for this chapter alone.** Every ch. 15 claim row must pass before push, no
 exceptions — the one place the advisory check in §8 is treated as a gate.
+
+### How the stricter process actually went — written 2026-08-02, after drafting
+
+**All six departures held.** The reversal was the one that mattered: sixteen claim rows were
+registered and passing before a sentence of prose existed, which meant the ground box was assembled
+from verified quotations rather than written and then checked. Nothing in it is derived, computed or
+combined.
+
+**The statute supplied a warning I had planned to assert.** Art. 12a lid 7 says the amount
+*"wordt bij het begin van het kalenderjaar bij ministeriële regeling vervangen door een ander"* —
+replaced at the start of each calendar year. Departure 4 wanted staleness carried in the prose; the
+source turned out to state it, so the box says the figure is wrong by construction in any later year
+and cites the statute for it rather than the author's caution. **General lesson: check whether a
+source already contains the caveat before writing one.**
+
+**Word distribution is the evidence the process worked.** 2,521 body words: **611 in the ground box,
+16 quoted strings, and 1,910 of argument.** The argument came in under the low end of the target and
+the sourced quotation carried the excess, which is the intended shape for the riskiest chapter in
+the book — say less, quote more.
+
+**One thing to watch in review.** Move 2 describes the regime in English without quoting, so it can
+be read by a reader who does not need the Dutch. That paraphrase is where an error would now hide,
+not the box, because the box is quotation and the paraphrase is not. Reviewers should read Move 2
+against the box rather than against their knowledge of the rules.
 
 ## 6c. Handoff: ch. 10 → ch. 11
 
