@@ -578,7 +578,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 |---|---|---|
 | 11 | What Happens After the Sale | ☑ 24 claims · Turing School CIRR reports (2016–2020) · *owed* |
 | 12 | Reading Your Own Business | ☑ 23 claims · Dutch filing regime (BW2 Titel 9) · *no company case, by decision* 🇳🇱 |
-| 13 | Profit Is Not Cash | ☑ 12 claims · Instacart S-1 cash flows + BW6 payment terms · *owed* 🇳🇱 |
+| 13 | Profit Is Not Cash | ☑ 17 claims · Instacart S-1 cash flows + BW6 payment terms · *owed* 🇳🇱 |
 | 14 | What a Customer Is Worth | ☐ |
 | 15 | Paying Yourself | ☐ 🇳🇱 |
 | 16 | Enough | ☐ |
@@ -834,7 +834,10 @@ teach a mechanism, on claim rows that ch. 01 never touched.
   reader has the opposite. The direction and size of the gap here say nothing about the direction and
   size at €200k of revenue. And the valuation-allowance release is a US tax mechanism, not a general
   feature of profit.
-- **Prohibited.** Never that profit systematically overstates cash — the H1 2022 figures show the
+- **Prohibited.** **Never treat operating cash flow as the bank balance** — the draft did, writing
+  that a loss period meant "the bank balance rose", which does not follow: what the balance then did
+  depends on investing and financing activity on other lines. Three quantities, not two: profit,
+  operating cash, and the change in the balance. Never that profit systematically overstates cash — the H1 2022 figures show the
   reverse in the same document. Never that a reader's gap will resemble Instacart's. Never any
   inference about Instacart's business quality; the chapter uses the statement, not the company.
 - **Spent.** ch. 13 takes the three period comparisons, the valuation-allowance benefit and the two

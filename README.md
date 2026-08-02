@@ -123,7 +123,7 @@ always actionable. CI follows the same split, and the weekly claim run writes it
 job summary instead of failing.
 
 `checks/claims.tsv` lists the exact string that must appear in each cited document; `verify.sh`
-fetches the documents and confirms it. The thirteen published chapters currently carry **425 verified
+fetches the documents and confirms it. The thirteen published chapters currently carry **430 verified
 claims** against forty-two sources. PDF sources are converted with `pdftotext` before matching; if
 poppler is not installed those claims are reported as *skipped*, never as passed.
 
@@ -148,5 +148,5 @@ argument. `CONTEXT.md §8` keeps the table of what got caught.
 ## Status
 
 Parts I and II are complete and verified — chapters 1–10, each part closing with an exit test.
-425 claims across the thirteen; 15 to go. Part III is under way: does the money work?
+430 claims across the thirteen; 15 to go. Part III is under way: does the money work?
 See `CONTEXT.md` for the chapter register.
