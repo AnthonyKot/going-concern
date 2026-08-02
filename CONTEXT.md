@@ -154,6 +154,11 @@ constrain causal order, and nothing in the pipeline checks that.**
   for whom asking worked, so the base rate on asking is unknown to this book and probably to
   everyone.** That sentence is the honest state of the evidence and should not be softened later.
 
+- **ch. 10** — needs an owner who read the first ten carefully, dropped the segment the evidence
+  pointed at, rebuilt acquisition around the remainder, and was **wrong** — because the dropped
+  segment was the real market and ten was too small a sample to fire a class of customer on. The
+  chapter recommends acting on n=10, which is its most exposed advice.
+
 **A second kind of debt, opened at ch. 05 on external review: an unevidenced prescription.**
 Distinct from a missing counter-case and worse. Ch. 05's evidence standard — repeat paid revenue
 covering your floor — is unreachable for a consultancy, because the chapter itself says such a
@@ -505,9 +510,11 @@ wanted it once; every chapter here is a different reason that might not repeat.
   economically sufficient price separated in one result. The chapter builds a floor, locates the
   buyer's alternatives, then holds one proposal through ten comparable asks. Dutch box: consumer
   prices include VAT and unavoidable costs; the pre-VAT amount is kept explicit.
-- **10 The First Ten Customers** — they are not small versions of the next thousand: non-scaling
-  channels, abnormal tolerance, unrepresentative feedback. **No case yet.** Gymdesk would work but
-  would put Galperin in four chapters, which reads as thin sourcing rather than as a cast.
+- **10 The First Ten Customers** — **written.** WP Curve, a productised WordPress support service:
+  two founders, humans not software, monthly reports archived because the live domain no longer
+  serves them. It answers the wrong-customer question twice by two instruments — ~50 agency
+  conversations with no traction, then blogs cancelling inside their first month. **The non-software
+  constraint cost real search time and was worth it**; see the finding below on the evidence base.
 
 **Order 08 before 09, decided.** You can start selling on a provisional number; people who set prices
 before selling anything set them from spreadsheets. Ch. 08 must say so explicitly and hand off.
@@ -525,7 +532,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 | 07 | Where They Already Are | ☑ 58 claims · Bingo Card Creator (2008–2011) · *owed* — Appointment Reminder is a `.limit` |
 | 08 | Asking for Money | ☑ 47 claims · ConvertKit (2013–2015) · *owed* — the Thailand fortnight is a `.limit` |
 | 09 | What to Charge | ☑ 30 claims · Studio Neat / Cosmonaut (2011) · *owed* 🇳🇱 |
-| 10 | The First Ten Customers | ☐ |
+| 10 | The First Ten Customers | ☑ 36 claims · WP Curve (2013) · *owed* |
 
 ### Part III — Does the money work?
 | # | Title | Status |
@@ -691,6 +698,31 @@ causal arrow, both of which passed every claim row.
   positioning/sales confound, migration objection and churn, cash injection and Thailand fortnight.
   No later use is reserved; another ConvertKit chapter would need evidence outside this recovery.
 
+### WP Curve — ch. 10
+- **Facts.** Launched 26 June 2013 against a $476 base from Norris's previous business, Informly;
+  within a week the combined total was $952. July grew 70% and covered costs. Revenue reporting was
+  suspended in July on advice and resumed in November. October: 64 recurring customers at the start,
+  59 added, 123 at the end, 88% revenue growth, against a previous best signup month of 13. About
+  fifty conversations with web agencies produced no traction and the agency offering was removed.
+  November: 155 customers, $8,371 MRR, 35% growth. December: 178 customers, $9,812 MRR, $188 short
+  of the $10,000 target, a $117,744 run rate, against a 10% monthly growth target. The customers
+  cancelling inside their first month were blogs rather than businesses, at a $69 price.
+- **Permitted.** Acquisition can be wholly non-viral and won one customer at a time. Delivering to
+  early customers can identify an entire segment that should never have been sold to. The same
+  finding can arrive twice by two different instruments — once from selling, once from delivering.
+- **Confounders.** **The MRR and customer figures are company-wide, not WP Curve's.** Informly,
+  Content Club and ConvertPress ran alongside it; the pre-June $476 is Informly alone. The series
+  also has a self-selected hole: no revenue was published from July to October. And the founders had
+  mentor and audience access — Hiten Shah, Noah Kagan, Danny Iny, John Lee Dumas — which is not the
+  reader's starting position and supplied several of the early customers.
+- **Prohibited.** Never that the MRR ladder is WP Curve's own revenue. **Never a churn or retention
+  conclusion** — retention is ch. 11's, and the December cancellation material may be used here only
+  as evidence that a segment was mis-acquired, not as evidence about retention. Never that the
+  week-one customer count is sourced: it is division, and conditional on Informly being flat.
+- **Spent.** ch. 10 takes the launch date, the week-one doubling, the customer counts, the agency
+  removal, the blogger discovery and the MRR ladder. Nothing reserved; a later return needs
+  evidence outside these four monthly reports.
+
 ## 6c. Handoff: ch. 10 → ch. 11
 
 Recorded before either is drafted, so neither absorbs the other. Ch. 10 establishes that **the sale
@@ -723,6 +755,29 @@ Part II close**, where it becomes a pass over ten chapters at once — the redun
 chapters, so it is only visible with all of them in view, and doing it piecemeal risks cutting
 load-bearing qualification while feeling productive. This is also the counter-force to the ratchet in
 §3, so it must be done slowly and with the whole part in front of it.
+
+### Finding from the ch. 10 case hunt: the evidence base itself is skewed
+
+Recorded 2026-08-02 after a long and mostly failed search. Looking for a non-software business at the
+reader's scale that publishes checkable numbers about its early customers, three web searches
+returned only commercial SEO content, and five candidate makers failed on inspection: Tortuga's blog
+*became* content marketing and its 2012–15 archive is packing lists, Grovemade returns 403 to
+automated requests, Ugmonk and Hiut Denim rate-limit, and one founder's personal site was empty.
+
+**The conclusion is structural and belongs in public.** Chapters 05–09 were possible because
+McKenzie, Norris, Saric, Barry, Galperin and Studio Neat all publish numbers about themselves. That
+habit is close to universal among software founders and rare among everyone else — cabinetmakers and
+cleaning companies do not write year-in-review posts with an MRR ladder in them. So the book's
+software skew is not a preference being indulged; **it is where the checkable records are.** The case
+budget can ration famous companies but it cannot conjure evidence that was never written down.
+
+Two consequences. First, say this on the method page rather than letting the pattern speak for
+itself — a book whose whole claim is that it shows its evidence should show the shape of the hole in
+it. Second, for the remaining parts, **the Internet Archive is the primary tool, not the fallback**:
+the first-party writing that made ch. 10 possible exists only there, because wpcurve.com was sold in
+2016. Search the archive before concluding a case does not exist. "Nobody publishes this" is a claim
+about the search (ch. 08's lesson), and it now has a second half: the publishing may have happened
+and then been deleted.
 
 ## 7. Cases to avoid
 

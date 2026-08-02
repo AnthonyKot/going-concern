@@ -119,8 +119,8 @@ always actionable. CI follows the same split, and the weekly claim run writes it
 job summary instead of failing.
 
 `checks/claims.tsv` lists the exact string that must appear in each cited document; `verify.sh`
-fetches the documents and confirms it. The nine published chapters currently carry **330 verified
-claims** against thirty-three sources. PDF sources are converted with `pdftotext` before matching; if
+fetches the documents and confirms it. The ten published chapters currently carry **366 verified
+claims** against thirty-seven sources. PDF sources are converted with `pdftotext` before matching; if
 poppler is not installed those claims are reported as *skipped*, never as passed.
 
 Note what this does and does not prove. It proves every *registered* string is still present in the
