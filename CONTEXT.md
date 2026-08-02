@@ -263,6 +263,26 @@ ladder and off the cliff on the other axis. Two axes, stated as two.
 This also refines the Part I spine the coherence pass has to make unmistakable: observation →
 conversation → **commitment (five rungs)** → stopping rule → leaving employment.
 
+**Chapter 7's channel test — settled.** Four questions, and the order is load-bearing because
+failing an early one cannot be fixed by working harder at a later one:
+
+> 1. Are the right people there at all? → 2. Can you reach them without a gatekeeper's permission?
+> → 3. Can the contact be repeated, or does it happen once? → 4. Does it produce customers cheaply
+> enough to survive?
+
+Two refinements that must not be lost. First, **question two applies to the owned channel too**:
+organic search is gatekept more politely, not less, and of McKenzie's three channels only the email
+list passed it outright. `owned` means it keeps paying without further spending, **not** that it
+cannot be taken away. Second, **question four is deliberately answered shallowly in ch. 07** — cost
+per credible opportunity is available in month one; what a customer is worth is **ch. 14 (What a
+Customer Is Worth)**, not ch. 13, which is *Profit Is Not Cash*. Ch. 07 uses question four only to
+disqualify the obviously ruinous. When ch. 14 is written it must pick this up explicitly, and it may
+overturn a ch. 07 judgement without contradicting it: a channel that looks expensive on acquisition
+cost can be correct once lifetime arithmetic exists.
+
+Appointment Reminder is scored against all four in the `.limit`, per the rule below about numbered
+tests: fails one, and never reaches two, three or four.
+
 **Part II plan — set 2026-08-02, before ch. 06 was written.** Through-line: Part I proved one person
 wanted it once; every chapter here is a different reason that might not repeat.
 
