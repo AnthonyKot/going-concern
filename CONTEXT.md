@@ -145,6 +145,34 @@ constrain causal order, and nothing in the pipeline checks that.**
   the second product could not wait out, and the skill was one channel in one market rather than
   "distribution".
 
+**A second kind of debt, opened at ch. 05 on external review: an unevidenced prescription.**
+Distinct from a missing counter-case and worse. Ch. 05's evidence standard — repeat paid revenue
+covering your floor — is unreachable for a consultancy, because the chapter itself says such a
+business does not accumulate on part-time attention. The draft noticed the tension and deferred it
+to "a different chapter's problem", which named no chapter and no chapter owns it. Same class as the
+Part III/SaaS error in §8: an assertion about the book's own structure that nothing checks. Fixed by
+writing the alternative into ch. 05 — signed pipeline at ch. 03's rung two or better, runway counted
+in months of floor to the *payment* rather than the signature, and a bounded experiment carrying
+ch. 04's three components with Galperin's return-to-salary consequence — and by declaring in the
+chapter that **no case in the book supports it.** Reasoning, not evidence. Track it as a debt of its
+own kind: a prescription with no case behind it is thinner than one that merely lacks a counter-case,
+and the register cannot tell them apart because neither produces a failed claim.
+
+**Ch. 01, same review — an overclaim in a single word.** "A worse per-unit economics you can switch
+off is *strictly superior* to a better one you cannot" is inconsistent with ch. 01's own debt, which
+is a search for a case where early fixed commitment won on capacity. If that case exists, variable is
+not dominant in every state, and "strictly superior" claims exactly that. Now "usually worth the
+premium", with the reason stated in the prose. Rule: **words with a technical meaning are claims.**
+Strictly superior, necessary, sufficient, always, proves — the register does not check any of them.
+
+**Ch. 07, same review — a label doing more work than the evidence.** "Owned versus rented" conflates
+two independent axes: whether an effect persists after spending stops, and whether a third party can
+revoke it. The case establishes only the first. You may own an article and not own its rank. Renamed
+to **accumulating versus contemporaneous**; McKenzie's asset/leasing language is kept but attributed
+to him and corrected in the next sentence. The revocability axis belongs to question two of the
+channel test, where it now lives alone. Warning sign to reuse: if a term needs a paragraph explaining
+what it does not mean, the term is wrong, not the paragraph.
+
 **The recurring failure to watch for:** the pull is always to call a nearly-fitting case a
 counter-case, because the alternative is an admission. Three of the four written chapters have done
 it. Check the label against the chapter's *central* advice, clause by clause, not against whatever
