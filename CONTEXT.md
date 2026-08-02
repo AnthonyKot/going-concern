@@ -159,6 +159,12 @@ constrain causal order, and nothing in the pipeline checks that.**
   segment was the real market and ten was too small a sample to fire a class of customer on. The
   chapter recommends acting on n=10, which is its most exposed advice.
 
+- **ch. 11** — needs a business that measured outcomes properly (defined in advance, counted from
+  everyone who paid, tracked the unreachable) and was made *worse off* by it: either it chased a
+  measurable outcome that was not the one customers valued, or the follow-up itself drove buyers
+  away. The first is the more interesting failure, because a defined outcome is a target and targets
+  get hit at the expense of what they stood for. Neither shape found with numbers on both sides.
+
 **A second kind of debt, opened at ch. 05 on external review: an unevidenced prescription.**
 Distinct from a missing counter-case and worse. Ch. 05's evidence standard — repeat paid revenue
 covering your floor — is unreachable for a consultancy, because the chapter itself says such a
@@ -543,7 +549,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 ### Part III — Does the money work?
 | # | Title | Status |
 |---|---|---|
-| 11 | What Happens After the Sale | ☐ |
+| 11 | What Happens After the Sale | ☑ 24 claims · Turing School CIRR reports (2016–2020) · *owed* |
 | 12 | Reading Your Own Business | ☐ |
 | 13 | Profit Is Not Cash | ☐ 🇳🇱 |
 | 14 | What a Customer Is Worth | ☐ |
@@ -732,6 +738,27 @@ causal arrow, both of which passed every claim row.
 - **Spent.** ch. 10 takes the launch date, the week-one doubling, the customer counts, the agency
   removal, the blogger discovery and the MRR ladder. Nothing reserved; a later return needs
   evidence outside these four monthly reports.
+
+### Turing School (CIRR outcomes reports) — ch. 11
+- **Facts.** 2016 H1, all programmes: 86 enrolled against a 210-day published length; 67.95%
+  graduated on time, 80.77% within 150%; 83.10% employed full-time in-field at 180 days, of which
+  5.63% were hired by the school itself. 2019 H1 Back End: 67 graduates, 60.2% on time, 79.5% within
+  150%, 80.6% employed in-field at 180 days, 9.0% still seeking, 7.5% could not contact, median pay
+  $75,000. 2020 H1 Back End: 61.4% on time, 87.5% within 150%, 63.1% employed in-field, 26.2% still
+  seeking, 7.7% could not contact, median pay $75,000.
+- **Permitted.** Paying, finishing and getting the promised result are three different populations. A
+  business can hold its delivery constant and watch the outcome move. A reporting standard written by
+  someone other than the seller produces categories the seller would not have volunteered.
+- **Confounders.** **The bases differ: 2016 counts enrolled students, 2019 and 2020 count "graduates
+  included in report".** 2019 and 2020 are Back End only; 2016 is all programmes. The 2020 fall
+  coincides with the pandemic labour market, which the report does not isolate and this book cannot.
+  And *could not contact* is not a neutral category — it plausibly conceals worse outcomes than the
+  ones recorded.
+- **Prohibited.** Never that the three reports form a trend line — different bases, different
+  programmes. Never that the pandemic caused the 2020 fall; the report does not say so. Never that
+  these figures describe bootcamps generally, or that Turing is representative of anything but itself.
+- **Spent.** ch. 11 takes the graduation figures, the 180-day employment breakdown, the
+  could-not-contact category and the school-hired disclosure. Nothing reserved.
 
 ## 6c. Handoff: ch. 10 → ch. 11
 
