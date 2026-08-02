@@ -573,6 +573,119 @@ redundant:
 - **04 The Cost of Finding Out** *(cut)* — genuinely overlapped chapters 02 and 03. Its content
   folds into 03, and *Deciding Not To* moves up to 04.
 
+## 6b. Case ledger
+
+Four fields per case, written **when the case is first used** and consulted before it is reused.
+Working-file only — none of this is reader-facing, which is the point: it constrains interpretation
+without adding another qualification to the prose. *Prohibited claim* is the load-bearing field; it
+is what would have caught ch. 04's "did exactly what this chapter asks" and ch. 06's backwards
+causal arrow, both of which passed every claim row.
+
+### Webvan — ch. 01
+- **Facts.** SEC filings: capital raised, distribution centres planned and built, losses, the
+  capacity committed before the demand existed.
+- **Permitted.** Fixed capacity committed ahead of demonstrated demand can destroy a company, and
+  the size of the commitment can outrun the evidence for it.
+- **Confounders.** The dot-com collapse and the closing of capital markets; grocery margins;
+  management. The filings evidence commitments, not causation.
+- **Prohibited.** Never that fixed investment is wrong in general. Never that variable is *strictly
+  superior* — the word was corrected for exactly this reason. Never as a decision the reader faces:
+  the scale is unreachable and that is why the case budget exists.
+
+### Everpix — ch. 02
+- **Facts.** Survey results (12.1% would-pay against 11.9% for the free framing), paid-versus-organic
+  conversion, the financials and timeline in the published post-mortem.
+- **Permitted.** Stated intent barely moved when a price was introduced; a survey of intention did
+  not predict behaviour.
+- **Confounders.** The company had funding, distribution and product problems simultaneously. Nobody
+  there ran the chapter's five extractions.
+- **Prohibited.** Never that the five questions would have saved them. The chapter says this in its
+  own text — *"tests the diagnosis, not the cure"* — and that sentence must survive any future edit.
+
+### Studio Neat — ch. 03, due again at ch. 09 and ch. 11
+- **Facts.** Five campaigns with goals, totals, backers and delivery; the prototype rule; the
+  eighty-five minutes after the Daring Fireball link.
+- **Permitted.** A non-refundable payment before the thing exists is obtainable, informative and
+  survivable.
+- **Confounders.** The Daring Fireball link is a distribution event, not a demand measurement. Two
+  designers with an existing audience.
+- **Prohibited.** Never that the five-rung sequence is validated — the case supports one rung.
+  **And at ch. 09: never that their pricing was value-based rather than cost-plus unless a separate
+  source says so.** Write that ledger entry before drafting, not after.
+
+### Gymdesk / Galperin — ch. 04, ch. 05
+- **Facts.** Six months of runway; three years to full time; $10k MRR by end of 2018; full time June
+  2019; four days a week.
+- **Permitted.** A stopping rule needs consequences short of demolition. A failed threshold can mean
+  return-to-salary rather than stop.
+- **Confounders.** He improvised; there was no written consequence; the account is retrospective.
+- **Prohibited.** Never that choosing the consequence *in advance* was necessary. Four review passes
+  landed on that wording; do not let it drift back.
+
+### Bingo Card Creator / McKenzie — ch. 05, ch. 07
+- **Facts.** Revenue and hours; traffic, channel split and conversion for 2009 and 2010; $3,000 of
+  writing to $30,000 of sales; Appointment Reminder's six-month figures.
+- **Permitted.** Content that ranks accumulates while paid traffic does not. A growing channel
+  dilutes conversion. A business that accumulates part-time can fund a resignation.
+- **Confounders.** 2008–2010 search conditions; a consumer long tail with enormous volume; he was
+  twenty-six with no dependents when the engine was built.
+- **Prohibited.** Never that the tactic works now — the chapter says it is closed. Never that
+  distribution skill transfers across markets. And AR must not be used the other way either: it does
+  not prove the skill *cannot* transfer, because he did not run the playbook and says so.
+
+### Plausible — ch. 06
+- **Facts.** Month-by-month MRR; the dates; the five changes of March 2020; the positioning sentence;
+  the Product Hunt numbers.
+- **Permitted.** A positioning statement can bind scattered choices into constraints. Refusals have
+  costs that can be named.
+- **Confounders.** Five simultaneous changes, plus a marketing specialist joining the same month.
+- **Prohibited.** Never a return-on-positioning figure. Never that positioning caused the
+  acceleration. The model predated the statement — see §8.
+
+### ConvertKit / Barry — ch. 08
+- **Facts.** MRR through the failure and the recovery; $1,207 bottom; a hundred emails to 5–7
+  customers; migrated-account churn 1.5% against 5.5%; the January fortnight.
+- **Permitted.** Asking returns reasons that no analytics package can. A single load-bearing
+  objection can be found by asking and removed. Founder-run selling need not survive the founder's
+  absence.
+- **Confounders.** Repositioned and started selling in the same fortnight. A $50,000 injection, book
+  income of $15–25k a month, and a developer hired.
+- **Prohibited.** Never that the recovery was caused by selling alone. Never that direct sales
+  scales — his own claim, and his own contemporaneous account contradicts it.
+
+## 6c. Handoff: ch. 10 → ch. 11
+
+Recorded before either is drafted, so neither absorbs the other. Ch. 10 establishes that **the sale
+can be repeated**; ch. 11 establishes that **the relationship persists**.
+
+| ch. 10 — The First Ten Customers | ch. 11 — What Happens After the Sale |
+|---|---|
+| Can you acquire and serve customer ten by something resembling the process that got customer one? | Did customers activate and get the promised result? |
+| How much unpriced customisation appeared? | Did they renew, reorder, stay, or leave? |
+| What broke operationally? | What produced complaints, referrals, churn, repeat purchase? |
+| Did delivery reveal you had selected the wrong customer? | Does acquisition build a continuing relationship or only replace departures? |
+| Were the sale, the price and the delivery burden repeatable? | |
+
+Retention belongs to 11. Repeatability of the *sale and its delivery* belongs to 10. Note the
+convergence with the non-software constraint above: unpriced customisation and operational breakage
+are most legible in a service or physical business, so the handoff makes ch. 10's case easier to
+find rather than harder.
+
+## 6d. Caveat placement — adopted for ch. 09 onward
+
+**One principal caveat in the main argument; secondary qualifications go in Boundaries, Reading or
+the method page.** Not less honesty — the same honesty, placed where it does not interrupt the
+argument. Practically: keep `.owed` to one compact paragraph; stop re-explaining the counter-case
+taxonomy inside every chapter and link to the method page instead; keep the limitation that changes
+how the reader should *apply* the advice and move sourcing mechanics and classification history out.
+Test after drafting: **can a reader state the chapter's rule in one sentence?**
+
+Applies to new chapters immediately. The retrofit of ch. 01–07 is deliberately **deferred to the
+Part II close**, where it becomes a pass over ten chapters at once — the redundancy is *between*
+chapters, so it is only visible with all of them in view, and doing it piecemeal risks cutting
+load-bearing qualification while feeling productive. This is also the counter-force to the ratchet in
+§3, so it must be done slowly and with the whole part in front of it.
+
 ## 7. Cases to avoid
 
 Overused to the point of meaninglessness, and in several instances misreported for decades:
