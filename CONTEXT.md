@@ -719,6 +719,10 @@ causal arrow, both of which passed every claim row.
   conclusion** — retention is ch. 11's, and the December cancellation material may be used here only
   as evidence that a segment was mis-acquired, not as evidence about retention. Never that the
   week-one customer count is sourced: it is division, and conditional on Informly being flat.
+  Never that ten customers are sufficient evidence to drop a segment: ten is a review point, while
+  WP Curve's decisions arrived after roughly fifty conversations and more than 150 customers.
+  **Repeatable by this owner next month is not the same as delegable to staff.** The latter belongs
+  to Part IV.
 - **Spent.** ch. 10 takes the launch date, the week-one doubling, the customer counts, the agency
   removal, the blogger discovery and the MRR ladder. Nothing reserved; a later return needs
   evidence outside these four monthly reports.
