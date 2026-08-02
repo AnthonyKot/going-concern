@@ -1323,6 +1323,91 @@ plus a **Part III close** counted separately per §1: the arc 11 → 16, what th
 no amount of arithmetic decides. No Dutch box — ch. 15 carried the jurisdictional weight and ch. 16
 is portable.
 
+### Ch. 16 on review — the two joints held, and the audit found a third thing
+
+**The causal-connector test passed on the words and failed on the arrangement.** Every *because*,
+*caused*, *led to* in the chapter was checked; none attached cause to the 2017–2020 decline. But
+Move 2 ended *"the business had reached enough. Its owner then spent a year on something else… and
+the numbers that had been flat for six years stopped being flat"* — three sentences whose ordering
+does the causal work no verb was allowed to do. **Adjacency is a claim.** Rewritten so the sequence
+is stated flatly and the refusal is a heading — *Two records, one sequence, and no arrow between
+them* — and the paragraph now closes on what the sequence is used for, which survives the missing
+arrow: a sufficiency number can stay fixed while the business underneath it changes.
+
+**The ch. 05 inheritance was a number, not a procedure — the gap the review named.** Ch. 05's floor
+comes with an instrument: a figure fixed before the result is known, a run of consecutive periods, a
+date, a written consequence. Ch. 16 had inherited the quantity and quietly dropped the machinery, so
+*enough* could have been read as an average month, a good month times twelve, or a target that moves
+as it is approached. Now a section of its own — **sufficiency is a run of periods, not a good
+month** — carrying the run length chosen *before* looking at this year's figures, the rule that the
+number does not move while being approached, and **"not enough evidence yet" as a permitted verdict
+with its own date**, allowed once and not twice.
+
+**Also added: what else already covers the floor.** Four numbers now, not three — floor, other
+dependable income, what *this business* must supply, gap. Leaving the second out asks a business to
+carry a household it was never the sole support of, which sets the bar too high and fails a business
+that is working.
+
+**The part closes on an artefact, not an idea.** One dated page: household floor · other dependable
+income · what this business must supply · the run required · what happens if it misses. Monday
+builds exactly those five lines and the part-close names them again.
+
+**What the terminology audit caught, and it was not in the review.** Checking that the same word
+does not change meaning across 11–16 turned up two collisions and one factual error in my own prose:
+
+| Found | Fix |
+|---|---|
+| `contribution` — ch. 14's central term (revenue less direct costs) versus ch. 16's *pension and tax contributions* | ch. 16 no longer uses the word at all; "social charges" and "pension payments your employer used to make" |
+| `floor` — ch. 09's **price** floor versus ch. 05's **household** floor | ch. 16 says *household floor* at first use and names the collision in one clause |
+| **The Part III ladder gave ch. 11 ch. 10's question** — "the sale repeats" is repeatability, which §6c assigns to ch. 10; ch. 11 owns whether the outcome arrived and the relationship persisted | ladder now opens "the outcome arrived and the customer stayed" |
+
+The third is the one to keep: **a part-closing passage is a claim about the book's own structure, and
+§8 already records that nothing checks those.** It was written from memory of the chapters rather
+than from §6c, which is exactly how the Part III/SaaS error happened.
+
+**Word budget, declared rather than absorbed.** §6g said 2,300–2,700. The chapter shipped at 2,332
+and the review took it to **2,832 body plus a 366-word part-close** — over the declared target,
+under §1's hard ceiling. The overrun is entirely the review's four additions, and the target was a
+pre-draft guess made before the procedure-inheritance gap was known.
+
+**Ch. 14 needed no changes.** The five corrections listed alongside this review were already in the
+chapter, applied in `44e69e9` ("Three corrections to chapter 14, all of them modal") and the settle
+before it: *"no repeatable acquisition mechanism was demonstrated — which is not the same as showing
+that none of them could have repeated"*; the boundary *"Cydoc had no acquisition process to measure,
+not that its acquisitions had no cost"*; contribution-to-date and payback rather than an invented
+lifetime; the per-customer cost list in Monday; and the conservative-error debt named in both the
+boundary and the `.owed` block, in the reviewer's own three terms — delayed expansion, referrals,
+falling service cost. Checked line by line rather than assumed. Recorded here so it is not
+re-litigated a third time.
+
+## 6h. Ch. 17 — You Are the Bottleneck: settled before drafting
+
+**The distinction the chapter turns on**, and it is not the obvious one:
+
+> A workload is what consumes your time. A **bottleneck** is what cannot move without you.
+
+Five hours a week is not evidence of absence of dependence: a founder working five hours can be the
+bottleneck if every unusual decision waits for those hours, and a founder working sixty can fail to
+be one if the work is ordinary capacity a trained person could take. **The chapter must not measure
+hours and call it dependence.**
+
+**The decision.** Which recurring work, which exceptional decisions, and which pieces of operational
+knowledge stop moving when you are unavailable — and which one you remove from yourself first.
+
+**Case: McKenzie / Bingo Card Creator**, returning by design (§7), and permitted to carry: designing
+around a hard time constraint, choosing work that accumulates rather than resets, keeping the support
+and operational surface small, and spending automation on scarce founder attention. Check the ch. 05
+and ch. 07 ledger entries before reuse — the inference must be new, per the *spent* rule.
+
+**Limit or second movement: Pinboard**, from ch. 16's unspent evidence — the 2020 platform migration,
+performed alone on a live system, and the concentrated operational risk underneath a business that
+had run quietly for years. It makes the distinction visible: **low routine labour does not eliminate
+concentrated dependence.** A system can run for a decade on credentials, memory and one person's
+ability to perform an exceptional migration.
+
+**Watch.** Part IV's §2 rule applies from its first page: practice and asset are both legitimate, and
+the failure is not knowing which you built. Ch. 17 diagnoses; it does not sell the asset.
+
 ## 6c. Handoff: ch. 10 → ch. 11
 
 Recorded before either is drafted, so neither absorbs the other. Ch. 10 establishes that **the sale
