@@ -322,3 +322,38 @@
 08	nb-direct-sales	better at giving this advice than I am at taking it
 08	nb-direct-sales	because that enables the channels that do scale
 08	nb-direct-sales	only 5% of professional bloggers even know we exist
+
+# --- Chapter 9: What to Charge (Studio Neat / Dutch VAT) ---
+09	sn-howto	The Cosmonaut
+09	sn-howto	A Wide-Grip Stylus for Touch Screens
+09	sn-howto	Launched March 28, 2011
+09	sn-howto	Ended April 20, 2011
+09	sn-howto	Goal: $50,000
+09	sn-howto	$134,236 pledged
+09	sn-howto	6,192 backers
+09	sn-howto	Started shipping to backers in December, 2011
+09	sn-howto	pay-what-you-want
+09	sn-howto	funding goal ($50,000) and a limited number of slots (3000)
+09	sn-howto	sold out of the 3000 slots within the first 48 hours
+09	sn-howto	about $5000 shy of the $50,000 funding goal
+09	sn-howto	open up new, unlimited tiers
+09	sn-howto	sustainable funding method on Kickstarter
+09	sn-howto	Kickstarter collects 5% of your funding total
+09	sn-howto	Stripe (previously Amazon) grabs another ~3% as the payment gateway
+09	sn-howto	factor in about 5% dropped backers
+09	sn-howto	how much it costs to ship things worldwide
+09	sn-howto	set an initial goal of delivery in June
+09	sn-howto	ultimately delivered at the beginning of December
+09	sn-howto	around $2 per item shipped plus the cost of the packing materials and shipping
+09	sn-howto	charge a small monthly fee for renting space for your inventory
+09	core77-cosmonaut	pay what they want (starting at $1)
+09	core77-cosmonaut	projected average pledge ($17
+09	core77-cosmonaut	wide-release retail price of $25
+09	acm-consumer-prices	Een verkoopprijs voor consumenten vermeldt u inclusief btw en bijkomende kosten
+09	acm-consumer-prices	Geef de prijs in euro’s, inclusief btw
+09	acm-consumer-prices	In de prijs zitten alle bijkomende kosten
+09	acm-consumer-prices	Als die afhangen van de bestelling, geeft u een voorbeeld
+09	bd-vat-example	Uw totaalprijs is dan inclusief btw
+09	bd-vat-example	€ 100 + 21% btw = € 121
+09	bd-vat-example	€ 99,95 x 21/121 = € 17,35
+09	bd-vat-example	€ 99,95 - € 17,35 - € 50 = € 32,60

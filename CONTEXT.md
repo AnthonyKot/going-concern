@@ -500,9 +500,11 @@ wanted it once; every chapter here is a different reason that might not repeat.
   ladder through the failure as well as the recovery. Primary source is deliberately the 2015 post
   rather than the 2017 retrospective, because it was written before the outcome was known. **Rule
   worth keeping: "nobody publishes this" is a claim about the search, not about the world.**
-- **09 What to Charge** 🇳🇱 — pricing by effort is the characteristic error of people who are good at
-  the work. Case: Studio Neat, possibly with a documented price rise. Dutch box: VAT, and whether
-  you quote inclusive or exclusive and to whom.
+- **09 What to Charge** 🇳🇱 — **written.** Studio Neat's Cosmonaut sold all 3,000 initial
+  pay-what-you-want slots while remaining about $5,000 short of its $50,000 goal: demand and an
+  economically sufficient price separated in one result. The chapter builds a floor, locates the
+  buyer's alternatives, then holds one proposal through ten comparable asks. Dutch box: consumer
+  prices include VAT and unavoidable costs; the pre-VAT amount is kept explicit.
 - **10 The First Ten Customers** — they are not small versions of the next thousand: non-scaling
   channels, abnormal tolerance, unrepresentative feedback. **No case yet.** Gymdesk would work but
   would put Galperin in four chapters, which reads as thin sourcing rather than as a cast.
@@ -522,7 +524,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 | 06 | Who Is This For | ☑ 60 claims · Plausible Analytics (2018–2022) · *owed* — Product Hunt is a `.limit` |
 | 07 | Where They Already Are | ☑ 58 claims · Bingo Card Creator (2008–2011) · *owed* — Appointment Reminder is a `.limit` |
 | 08 | Asking for Money | ☑ 47 claims · ConvertKit (2013–2015) · *owed* — the Thailand fortnight is a `.limit` |
-| 09 | What to Charge | ☐ 🇳🇱 |
+| 09 | What to Charge | ☑ 33 claims · Studio Neat / Cosmonaut (2011) · *owed* 🇳🇱 |
 | 10 | The First Ten Customers | ☐ |
 
 ### Part III — Does the money work?
@@ -604,14 +606,24 @@ causal arrow, both of which passed every claim row.
 
 ### Studio Neat — ch. 03, due again at ch. 09 and ch. 11
 - **Facts.** Five campaigns with goals, totals, backers and delivery; the prototype rule; the
-  eighty-five minutes after the Daring Fireball link.
+  eighty-five minutes after the Daring Fireball link. For the Cosmonaut: a $50,000 goal and 3,000
+  pay-what-you-want slots; all slots taken in forty-eight hours while the campaign remained about
+  $5,000 short; new unlimited tiers opened; $134,236 pledged by 6,192 backers; delivery slipped from
+  June to December. Studio Neat's later cost account names Kickstarter's 5%, payment processing at
+  about 3%, about 5% dropped backers, underestimated international shipping, and fulfilment at about
+  $2 an item before packing materials, postage and storage.
 - **Permitted.** A non-refundable payment before the thing exists is obtainable, informative and
-  survivable.
+  survivable. At ch. 09: buyer enthusiasm and buyer choice do not by themselves produce a price
+  that carries the seller's costs and promises; a price is a testable commercial proposal, and
+  gross pledges are not profit.
 - **Confounders.** The Daring Fireball link is a distribution event, not a demand measurement. Two
-  designers with an existing audience.
-- **Prohibited.** Never that the five-rung sequence is validated — the case supports one rung.
-  **And at ch. 09: never that their pricing was value-based rather than cost-plus unless a separate
-  source says so.** Write that ledger entry before drafting, not after.
+  designers with an existing audience. The Cosmonaut ran inside Kickstarter's all-or-nothing,
+  deadline-bound and socially visible mechanics; generosity and cross-subsidy were part of the
+  experiment; press, the added tiers and time all moved together.
+- **Prohibited.** Never that the five-rung sequence is validated — the case supports one rung. At
+  ch. 09, never that Studio Neat used value-based rather than cost-plus pricing; never that opening
+  new tiers alone caused the final total; never treat the average pledge as a willingness-to-pay
+  distribution; never treat $134,236 pledged as revenue or profit.
 
 ### Gymdesk / Galperin — ch. 04, ch. 05
 - **Facts.** Six months of runway; three years to full time; $10k MRR by end of 2018; full time June
