@@ -71,6 +71,32 @@
 02	everpix-paid-acq	Average cost to acquire a new sign-up: $13.46
 02	everpix-paid-acq	ROI is -87% on a 3 year LTV of $147
 02	everpix-paid-acq	conversion from sign-up to paid conversion is about 80% lower for paid traffic vs. organic traffic
+# ch03 — Studio Neat, first-party. The five-campaign record and the rules they draw from it.
+03	sn-howto	raising nearly half a million dollars in total
+03	sn-howto	Launched October 3, 2010 Ended November 2, 2010 Goal: $10,000 $137,417 pledged 5,273 backers
+03	sn-howto	Started shipping to backers in early December, 2010.
+03	sn-howto	Launched February 5th, 2013 Ended March 5th, 2013 Goal: $10,000 $12,442 pledged 1,211 backers
+03	sn-howto	Delivered in time for the March 2013 tournament.
+03	sn-howto	Goal: $50,000 $155,519 pledged 2,274 backers
+03	sn-howto	about idea validation, and mitigating risk
+03	sn-howto	a napkin sketch is not enough
+03	sn-howto	If you are making a physical piece of hardware, a working prototype is a must
+03	sn-howto	important to start conversations with manufacturers beforehand to make sure your design is not impossible (or extremely difficult) to manufacture
+03	sn-howto	projects that are successfully funded but fail to deliver (in timely manner, or at all) are a result of not doing the necessary legwork up front
+03	sn-howto	1 hour and 25 minutes after the post went live, we surpassed our funding goal of $10,000, and finished the day with over $25,000
+03	sn-howto	However long you think the project will take to complete, you may do well to simply double that estimate
+03	sn-howto	stretch goals are a slippery slope that can lead to biting off more than you can chew
+# ch03 — the two campaign pages, contemporaneous platform records via the Internet Archive.
+03	ks-glif-2010	5,273 Backers $137,417 pledged of $10,000 goal
+03	ks-glif-2010	This project successfully raised its funding goal on November 2.
+03	ks-coolest-2014	62,642 Backers $13,285,226 pledged of $50,000 goal
+03	ks-coolest-2014	Pledge $185 or more 50215 backers COOLEST COOLER
+03	ks-coolest-2014	Estimated delivery: Feb 2015
+# ch03 — the collapse. Secondary class, attributed to the journalist in the prose.
+03	elreg-coolest-2019	collapsed earlier this week with 20,000 orders unfulfilled
+03	elreg-coolest-2019	spruiked over 60,000 units costing $185 apiece
+03	elreg-coolest-2019	Coolest asked backers for a further $97 in order for them to receive their product before the July 4 holidays of 2016
+03	elreg-coolest-2019	this obligation cannot be discharged in bankruptcy
 # ch05 On Dutch ground — quoted from the statutes themselves, not from law-firm commentary.
 05	bw7-2026	Een beding waarbij de werkgever verbiedt of beperkt dat de werknemer voor anderen arbeid verricht buiten de tijdstippen waarop de arbeid moet worden verricht bij die werkgever, is nietig, tenzij dit beding kan worden gerechtvaardigd op grond van een objectieve reden.
 05	bw7-2026	de arbeidsovereenkomst voor onbepaalde tijd is aangegaan
@@ -118,3 +144,7 @@
 04	draelos-2026	it would take 11 years per practice just to break even
 04	draelos-2026	one customer through a cold call, one through a cold email, one through a very warm intro
 04	draelos-2026	and one via a consulting network
+# ch03 On Dutch ground — quoted from the statute itself. Consumer withdrawal right.
+03	bw6-2026	De consument kan een overeenkomst op afstand of een overeenkomst buiten de verkoopruimte zonder opgave van redenen ontbinden tot een termijn van veertien dagen is verstreken
+03	bw6-2026	De consument heeft geen recht van ontbinding bij
+03	bw6-2026	de levering van volgens specificaties van de consument vervaardigde zaken, die niet geprefabriceerd zijn

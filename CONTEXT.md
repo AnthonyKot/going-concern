@@ -86,6 +86,13 @@ survivor who ignored the advice count. **Do not.** Hold the definition and carry
   the conversations or ran them on people who liked them, which makes the case an illustration of
   the chapter rather than a counter to it. Declared in the chapter in an `.owed` block rather than
   papered over.
+- **ch. 03** — needs someone who cleared *both* axes — a real commitment at rung four or five from
+  independent buyers, with making, price and date checked beforehand — delivered what they promised,
+  and still had no business. Or the mirror: a presale that correctly returned no, was honoured, and
+  should not have been. The Coolest Cooler block is a `.limit`: Grepper cleared the buyer axis
+  emphatically and never checked deliverability, so he did not follow the prescription and fail — he
+  followed half of it. Note the second shape is hard to isolate even in principle, because a business
+  that delivers and then dies usually dies of something in Part III.
 - **ch. 04** — needs an owner who wrote a rule carrying all three components (money threshold from
   independent customers, date, stated consequence), reached the date short of it, honoured the
   consequence, and should not have. The Gymdesk block was called a counter-case in the first two
@@ -108,9 +115,9 @@ it. Check the label against the chapter's *central* advice, clause by clause, no
 advice the case happens to counter — and if the chapter states a numbered test, score the case
 against every numbered item before claiming a fit.
 
-**Settled: a low hit-rate is acceptable.** Four chapters in, the honest score is **no chapter
+**Settled: a low hit-rate is acceptable.** Part I complete, and the honest score is **no chapter
 carrying a counter-case that meets the definition against its own central advice**; one (ch. 05)
-carrying a real counter-case to a subsidiary claim; and four recorded debts (01, 02, 04, 05). That
+carrying a real counter-case to a subsidiary claim; and five recorded debts (01–05). That
 ratio is expected to hold — the device may only be satisfiable in
 something like half the chapters, because failure is under-published. This is **not** a reason to
 loosen the definition later. `.owed` notes are a permanent feature of the book, not a temporary
@@ -200,7 +207,7 @@ Legend: ☐ not started · ◐ drafted · ☑ written and sourced
 |---|---|---|---|---|
 | 01 | The Only Question That Matters | Webvan (1996–2001) | *owed* — Instacart is an `.aftermath` | ☑ 27 claims |
 | 02 | Talking to People Who Will Lie to You | Everpix (2011–2013) | *owed* — see debt register | ☑ 38 claims |
-| 03 | Selling It Before It Exists | Fitbit preorders (2008) | Coolest Cooler (2014–19) | ☐ |
+| 03 | Selling It Before It Exists | Studio Neat (2010–) | *owed* — Coolest Cooler is a `.limit` | ☑ 26 claims 🇳🇱 |
 | 04 | Deciding Not To | Cydoc (2018–2025) | *owed* — Gymdesk demoted to `.limit` | ☑ 21 claims |
 | 05 | Leaving Well | Bingo Card Creator (2006–2010) | Gymdesk — the runway said stop | ☑ 21 claims 🇳🇱 |
 
@@ -294,9 +301,11 @@ keeps reaching for famous technology companies it will fail its reader, who is n
 $375 million and cannot act on anything that assumes he might.
 
 **Budget: no more than four or five chapters of twenty-eight may be anchored on a company the reader
-has heard of.** Spent so far: ch. 01 (Webvan). Everpix in ch. 02 is not famous, but it is not at the
-reader's scale either — $2.3m raised, a payroll, an office — and the chapter says so in its own
-text. Counting it as half a slot; the next two Part I chapters should both be small.
+has heard of.** Spent so far: ch. 01 (Webvan). Everpix in ch. 02 is not famous but is not at the
+reader's scale either — $2.3m raised, a payroll, an office — and the chapter says so in its own text;
+counting it as half a slot. Ch. 03's anchor is Studio Neat, two people, which spends nothing; the
+Coolest Cooler `.limit` is well known but is a secondary block, so call it another half. **Running
+total: two of four or five.** Part II should anchor entirely on businesses nobody has heard of.
 
 The rest must be at his scale:
 
@@ -338,11 +347,15 @@ decision was consciously made, and both have verified first-party source trails,
 | Who | Business | First met | Source class |
 |---|---|---|---|
 | **Patrick McKenzie** | Bingo Card Creator — one-person software, 2006–2010 | ch. 05, as the case | Contemporaneous. He published annual figures *while employed*. The strongest trail in the book. |
-| **Eran Galperin** | Gymdesk — B2B SaaS, 2015– | ch. 05, as the counter-case | Retrospective (2022). Weaker; always attributed as his own later account. |
+| **Eran Galperin** | Gymdesk — B2B SaaS, 2015– | ch. 05 counter-case, ch. 04 `.limit` | Retrospective (2022). Weaker; always attributed as his own later account. |
+| **Studio Neat** | Tom Gerhardt & Dan Provost — physical products, 2010– | ch. 03, as the case | First-party and dated, and the totals were recorded independently by the platform they sold on. |
 
-**Still needed: one non-software business.** Both current members are software, and Part III will read
-as three SaaS anecdotes in a row if that is not fixed. Look for a service or physical business at the
-reader's scale that publishes figures — trade press, a court record, or an owner who writes openly.
+**The non-software gap is now filled**, by ch. 03. Studio Neat are two people making physical
+objects, with a first-party post giving goal, total, backer count and shipping date for all five of
+their campaigns — which is what Part III needed if it was not going to read as three SaaS anecdotes
+in a row. Reuse them deliberately: they are the obvious return for ch. 09 (a physical product has a
+cost of goods, so pricing by effort is visibly absurd), ch. 11 (repeat purchase without a
+subscription), and ch. 23 (two people, no slack).
 
 Reuse them deliberately rather than accidentally. The point is that the reader watches the same
 decisions interact over time: Galperin's six-month runway is the counter-case in ch. 05 and the

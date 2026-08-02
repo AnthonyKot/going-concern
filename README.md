@@ -47,7 +47,7 @@ followed correctly and it went badly. This replaces the proof ledger of the sibl
 honesty mechanism here is narrative rather than bookkeeping.
 
 The device is harder to satisfy than it looks, because businesses that took good advice and died do
-not publish. Four chapters in, none carries one that meets the definition against its own central
+not publish. Five chapters in, none carries one that meets the definition against its own central
 advice. Where a chapter lacks it the chapter says so, states what the missing case would have to be,
 and the shortfall goes in the debt register in `CONTEXT.md §3`. A near-miss is labelled a `.limit`
 and is not permitted to fill the slot.
@@ -119,8 +119,8 @@ always actionable. CI follows the same split, and the weekly claim run writes it
 job summary instead of failing.
 
 `checks/claims.tsv` lists the exact string that must appear in each cited document; `verify.sh`
-fetches the documents and confirms it. The four published chapters currently carry **107 verified
-claims** against nineteen sources. PDF sources are converted with `pdftotext` before matching; if
+fetches the documents and confirms it. The five published chapters currently carry **133 verified
+claims** against twenty-four sources. PDF sources are converted with `pdftotext` before matching; if
 poppler is not installed those claims are reported as *skipped*, never as passed.
 
 Note what this does and does not prove. It proves every *registered* string is still present in the
@@ -143,5 +143,5 @@ argument. `CONTEXT.md §8` keeps the table of what got caught.
 
 ## Status
 
-Scaffold complete. Chapters 1, 2, 4 and 5 written and verified — 107 claims between them; 24 to go.
+Scaffold complete. Part I is written and verified — chapters 1–5, 133 claims between them; 23 to go.
 See `CONTEXT.md` for the chapter register.
