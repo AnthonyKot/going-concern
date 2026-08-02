@@ -61,7 +61,12 @@ device rests on the distinction:
 |---|---|---|
 | `.counter` | The chapter's advice, followed correctly by capable people, failing | **Yes** — this is the rule |
 | `.aftermath` | What became of the idea or market later. Illuminates the case. | **No** |
+| `.limit` | A real case that qualifies the advice without falsifying it — the advice half-followed, or followed against a subsidiary claim | **No** |
 | `.owed` | A visible note that the counter-case has not been found, saying what it would have to be | **No — but it is the honest fallback** |
+
+`.limit` was added late, for ch. 04, and the reason matters: a near-miss needs somewhere truthful to
+go, or it gets called a counter-case in order to earn a border. It is not a loosening of the
+definition — it is what makes holding the definition survivable.
 
 Counter-cases are structurally hard to source: businesses that took good advice and died do not
 publish. The temptation is to widen the definition until the available material fits — to let a
@@ -81,6 +86,13 @@ survivor who ignored the advice count. **Do not.** Hold the definition and carry
   the conversations or ran them on people who liked them, which makes the case an illustration of
   the chapter rather than a counter to it. Declared in the chapter in an `.owed` block rather than
   papered over.
+- **ch. 04** — needs an owner who wrote a rule carrying all three components (money threshold from
+  independent customers, date, stated consequence), reached the date short of it, honoured the
+  consequence, and should not have. The Gymdesk block was called a counter-case in the first two
+  drafts and is now a `.limit`: measured against the chapter's own three-part test, Galperin had a
+  date, a vague threshold, and no written consequence at all — about one and a half of three. He did
+  not follow the advice and fail; he half-followed it and got away with it, which argues *for* the
+  chapter. Caught on external review; see §8 on why the script could not catch it.
 - **ch. 05** — the Gymdesk block is a real counter-case, but only to the *threshold* advice: Galperin
   went full time with no customers, so he did not follow the chapter's central recommendation at all.
   Still owed: someone who cleared a conservative evidence bar — repeat paid revenue covering their
@@ -88,13 +100,15 @@ survivor who ignored the advice count. **Do not.** Hold the definition and carry
   is a fair measure of how easily this device slides.
 
 **The recurring failure to watch for:** the pull is always to call a nearly-fitting case a
-counter-case, because the alternative is an admission. Both chapters so far have done it. Check the
-label against the chapter's *central* advice, not against whatever advice the case happens to
-counter.
+counter-case, because the alternative is an admission. Three of the four written chapters have done
+it. Check the label against the chapter's *central* advice, clause by clause, not against whatever
+advice the case happens to counter — and if the chapter states a numbered test, score the case
+against every numbered item before claiming a fit.
 
-**Settled: a low hit-rate is acceptable.** Four chapters in, the score is one unambiguous
-counter-case (ch. 04), one that is real but narrower than the chapter it sits in (ch. 05), and three
-recorded debts (01, 02, 05). That ratio is expected to hold — the device may only be satisfiable in
+**Settled: a low hit-rate is acceptable.** Four chapters in, the honest score is **no chapter
+carrying a counter-case that meets the definition against its own central advice**; one (ch. 05)
+carrying a real counter-case to a subsidiary claim; and four recorded debts (01, 02, 04, 05). That
+ratio is expected to hold — the device may only be satisfiable in
 something like half the chapters, because failure is under-published. This is **not** a reason to
 loosen the definition later. `.owed` notes are a permanent feature of the book, not a temporary
 embarrassment to be tidied away before publication. A book that shows where it could not find the
@@ -181,13 +195,26 @@ Legend: ☐ not started · ◐ drafted · ☑ written and sourced
 ### Part I — Is there anything here?
 | # | Title | Case | Counter-case | Status |
 |---|---|---|---|---|
-| 01 | The Only Question That Matters | Webvan (1996–2001) | Instacart — the advice says *proceed* | ☑ 22 claims |
+| 01 | The Only Question That Matters | Webvan (1996–2001) | *owed* — Instacart is an `.aftermath` | ☑ 27 claims |
 | 02 | Talking to People Who Will Lie to You | Everpix (2011–2013) | *owed* — see debt register | ☑ 38 claims |
 | 03 | Selling It Before It Exists | Fitbit preorders (2008) | Coolest Cooler (2014–19) | ☐ |
-| 04 | Deciding Not To | Cydoc (2018–2025) | Gymdesk — the rule, honoured, would have been wrong | ☑ 15 claims |
+| 04 | Deciding Not To | Cydoc (2018–2025) | *owed* — Gymdesk demoted to `.limit` | ☑ 21 claims |
 | 05 | Leaving Well | Bingo Card Creator (2006–2010) | Gymdesk — the runway said stop | ☑ 21 claims 🇳🇱 |
 
 🇳🇱 marks a chapter that needs an `On Dutch ground` box.
+
+**Chapter 3's evidence ladder — settled.** Five rungs, ordered by what they cost the *buyer*:
+
+> verbal enthusiasm → signed intent → refundable deposit → non-refundable payment → full-price repeat purchase
+
+And a sixth thing which is **not** a rung, because it measures the *seller*: whether the purchase is
+economically deliverable. Do not put it on the same scale. Doing so implies you arrive at
+deliverability by climbing, which is false, and it is precisely the chapter's "opposite risk" — Cydoc
+had full-price repeat revenue and an eleven-year payback per practice, i.e. the top of the buyer
+ladder and off the cliff on the other axis. Two axes, stated as two.
+
+This also refines the Part I spine the coherence pass has to make unmistakable: observation →
+conversation → **commitment (five rungs)** → stopping rule → leaving employment.
 
 ### Part II — Will someone pay?
 | # | Title | Status |
@@ -362,6 +389,40 @@ and will not match a typed `-`.
 sentences the filing actually contains; the chapter then paraphrases them. This way a rewrite of the
 prose cannot silently break the sourcing, and a claim that fails tells you the filing changed or the
 citation was wrong — never that a sentence got reworded.
+
+### Two kinds of accuracy, and the script only checks one
+
+Added after external review found chapter 4 asserting that Galperin *"did exactly what this chapter
+asks"* while its own next-but-one paragraph said he *"chose a consequence he had not written down in
+advance"* — a direct contradiction, in a block where **every claim row passed and still does**.
+
+| | What it means | What checks it |
+|---|---|---|
+| **Factual** | the numbers, dates and quotations are present in the cited source | `verify.sh`, mechanically |
+| **Interpretive** | the case actually supports the lesson the chapter draws from it | nothing but reading |
+
+The second is where this genre fails, and it is invisible to the tooling by construction. A chapter
+can be assembled entirely from correctly quoted figures and still be wrong about what they show.
+`verify.sh` makes the first kind of error nearly impossible and does nothing whatever about the
+second, which means the tooling's existence is itself a hazard: it produces a feeling of rigour that
+covers half the surface. Say so publicly rather than letting the script imply more than it does.
+
+Two rules follow.
+
+**Score the case against the chapter's own test, clause by clause.** Where a chapter states a
+numbered test — ch. 04's three components, ch. 02's five extractions — write the case against every
+numbered item before claiming it fits. Ch. 04's counter-case met one and a half of three, and nobody
+noticed because every sentence in it was true.
+
+**The hierarchy, and none of the steps is automatic:**
+
+> a true anecdote → a valid case → evidence for the chapter's full prescription
+
+Ch. 02 clears the first two and not the third, and now says so in its own boundaries: Everpix
+supports the *diagnosis* (stated interest is weak, self-selected enthusiasm is a sampling artefact)
+and cannot support the *cure*, because nobody there ran the conversations the chapter recommends.
+Expect this gap often — the diagnosis usually comes from a company that failed, and the cure usually
+has no case at all behind it. Where that is true, say it in the chapter.
 
 ### What the first pass caught
 

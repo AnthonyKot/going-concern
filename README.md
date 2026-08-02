@@ -42,10 +42,15 @@ Each chapter runs four moves:
 3. **The reasoning** — the transferable principle, with its boundaries stated
 4. **Monday** — what to do, and what to read
 
-And every chapter carries a **counter-case**: a second, shorter story where the same advice was
-followed and it went badly. This replaces the proof ledger of the sibling volume. The honesty
-mechanism here is narrative rather than bookkeeping — the reader is shown the failure mode instead
-of being handed a tally.
+Each chapter aims to carry a **counter-case**: a second, shorter story where the same advice was
+followed correctly and it went badly. This replaces the proof ledger of the sibling volume — the
+honesty mechanism here is narrative rather than bookkeeping.
+
+The device is harder to satisfy than it looks, because businesses that took good advice and died do
+not publish. Four chapters in, none carries one that meets the definition against its own central
+advice. Where a chapter lacks it the chapter says so, states what the missing case would have to be,
+and the shortfall goes in the debt register in `CONTEXT.md §3`. A near-miss is labelled a `.limit`
+and is not permitted to fill the slot.
 
 ## Who it is for
 
@@ -122,6 +127,13 @@ Note what this does and does not prove. It proves every *registered* string is s
 document it is attributed to. It cannot detect a figure that appears in the prose but was never
 registered — coverage is editorial discipline, not a property of the script — so the public pages
 say "registered" rather than "every figure quoted".
+
+More importantly, it checks **factual** accuracy and not **interpretive** accuracy. Whether the
+numbers are in the source is mechanical; whether the case supports the lesson the chapter draws from
+it is not, and nothing here can tell you. Chapter 4 ran for two drafts asserting that its
+counter-case had done "exactly what this chapter asks" while a later paragraph in the same block
+conceded the opposite — every claim row passed, and still passes. A green build means the quotations
+are real. It does not mean the argument is.
 
 This is not decoration. Drafting chapter 1 from search results that *cited* SEC filings produced
 four wrong figures, including the "$1 billion Bechtel contract" that anchors nearly every retelling
