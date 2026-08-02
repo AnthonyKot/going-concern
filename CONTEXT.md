@@ -585,7 +585,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 | 12 | Reading Your Own Business | ☑ 23 claims · Dutch filing regime (BW2 Titel 9) · *no company case, by decision* 🇳🇱 |
 | 13 | Profit Is Not Cash | ☑ 17 claims · Instacart S-1 cash flows + BW6 payment terms · *owed* 🇳🇱 |
 | 14 | What a Customer Is Worth | ☑ 13 claims · Cydoc (2018–2025), returning from ch. 04 · WP Curve as segment contrast · *owed* |
-| 15 | Paying Yourself | ☑ 16 claims · Dutch owner-remuneration regime · *no company case, by decision* · written under §6f 🇳🇱 |
+| 15 | Paying Yourself | ☑ 17 claims · Dutch owner-remuneration regime · *no company case, by decision* · written under §6f, eight corrections on pre-push review 🇳🇱 |
 | 16 | Enough | ☐ |
 
 ### Part IV — Can it run without you?
@@ -1118,6 +1118,73 @@ the book — say less, quote more.
 be read by a reader who does not need the Dutch. That paraphrase is where an error would now hide,
 not the box, because the box is quotation and the paraphrase is not. Reviewers should read Move 2
 against the box rather than against their knowledge of the rules.
+
+### The pre-push review — eight corrections, and the prediction was half right
+
+Departure 6 ran on 2026-08-02: external review before push, on a chapter whose sixteen claim rows all
+passed and still pass. Eight corrections, every one of them domain-technical or scope. This is §8's
+two kinds of accuracy again, in the chapter written specifically to defend against it.
+
+**The prediction held on concentration and failed on immunity.** Six of the eight were in the prose
+and four of those in Move 2, exactly where the note above said to look. But **two were inside the
+box**, which the note had treated as safe because it is quotation. It is not quotation: it is
+quotation plus the author's connective tissue, and the connective tissue is unsourced prose sitting
+in a structure that looks sourced. That is worse than a plain prose error, because the surrounding
+quotation lends it credibility it did not earn.
+
+> **Quoting a source correctly is not the same as characterising it correctly.** Both box errors
+> quoted accurately and described wrongly.
+
+The two box errors, because their shapes recur:
+
+| Sentence | What the source says |
+|---|---|
+| "the article does not apply at all where the salary would be *niet hoger is dan € 5.000*" | Lid 4 disapplies **lid 1 and 2**, not the article, and the test runs on the salary the calculation *arrives at* under lid 1–3 for the work in the company and connected companies — not on the salary actually paid. The chapter now quotes lid 4's opening clause too, so the qualifier is in the reader's hands rather than in the author's summary. One new claim row; seventeen now. |
+| "If you are reading this in a later year, the figure above is wrong by construction." | Lid 7 says the amount is *replaced* annually. Replaced is not changed — € 56.000 was replaced with itself for 2025, which the box's own Belastingdienst quotation shows. Corrected to **unverified by construction**. |
+
+The second is a **departure producing its own error**: departure 4 wanted staleness carried
+structurally rather than footnoted, and the wish for a strong structural caveat overshot into a
+false claim about the world. Same shape as ch. 04's pass 4 in §8 — a caveat is a claim and takes the
+same test. Watch for it wherever the process asks for emphasis.
+
+Three rules earned by the prose corrections:
+
+1. **From a statute you may claim effect, never intent.** The chapter said the tax authority "has an
+   interest in not letting labour income be relabelled as something taxed more lightly" and that the
+   rule's "reasoning is" thus-and-such. The sources establish how the rule operates; a claim about
+   why it was enacted needs legislative history, which is a different source class nobody had
+   consulted. Rewritten as effect: the rule is not a viability test, and its effect is to stop an
+   owner who works through their own company making the recognised value of that work arbitrarily
+   small because they control both sides. **Effect claims are checkable against the text. Motive
+   claims are not, and they read as insight, which is why they get written.**
+2. **Where the box quotes two conditions, the paraphrase carries both.** Move 2 had "an owner who has
+   incorporated and holds a substantial interest", dropping the *works for it* condition that both
+   quoted sources state. This is §8's score-against-the-numbered-test rule, applied to a quotation
+   instead of a test: **read the paraphrase against the box clause by clause**, which is a mechanical
+   check and was not done.
+3. **A compression about a legal rule is still a compression.** "Which regime you fall under turns on
+   legal form, not on size, sector or how much you take out" is a §4 provocation hardened into a law.
+   Legal form creates the fork; the ownership-and-work relationship is part of the condition, and
+   size and sector do reach the *figure* once a regime applies — they just cannot pull a sole trader
+   into one. The corrected sentence is longer and duller and says what is true.
+
+**Also corrected: the statutory number is not the management number.** The chapter had "an official
+statement that an owner's labour has a market price". The customary-salary figure is a tax benchmark
+informed partly by comparable employment; it is not the replacement cost this chapter asks the reader
+to compute, and a reader carrying € 58.000 into a price or a viability test would be using a number
+computed for a different question. Now a stated boundary in Move 3. The `.owed` block, the three
+answers and *"one owner is handed the discipline whether they want it or not, and the other has to
+supply it themselves"* survived review untouched.
+
+**The vof was cut.** The box had put an ordinary vof "on the same footing" as an eenmanszaak while
+quoting a general private-withdrawal source that says nothing about partnerships, whose labour
+allowances and profit allocations raise distinctions the chapter carries no evidence about. Replaced
+by an explicit scope statement — this box covers two forms and no others. **Cheapest correction of
+the eight: a claim that was only ever there for completeness, deleted rather than sourced.**
+
+Word cost: body 2,521 → 2,852, box 611 → 743, argument 1,910 → 2,109. Under the 3,000 ceiling,
+above §6f's declared 2,000–2,400. Precision is not free, and it is not compressible: every one of
+these corrections replaced a short true-sounding sentence with a longer true one.
 
 ## 6c. Handoff: ch. 10 → ch. 11
 
