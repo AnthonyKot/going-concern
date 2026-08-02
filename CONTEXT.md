@@ -569,7 +569,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 | # | Title | Status |
 |---|---|---|
 | 11 | What Happens After the Sale | ☑ 24 claims · Turing School CIRR reports (2016–2020) · *owed* |
-| 12 | Reading Your Own Business | ☐ |
+| 12 | Reading Your Own Business | ☑ 12 claims · Dutch filing regime (BW2 Titel 9) · *no company case, by decision* 🇳🇱 |
 | 13 | Profit Is Not Cash | ☐ 🇳🇱 |
 | 14 | What a Customer Is Worth | ☐ |
 | 15 | Paying Yourself | ☐ 🇳🇱 |
@@ -778,6 +778,31 @@ causal arrow, both of which passed every claim row.
   these figures describe bootcamps generally, or that Turing is representative of anything but itself.
 - **Spent.** ch. 11 takes the graduation figures, the 180-day employment breakdown, the
   could-not-contact category and the school-hired disclosure. Nothing reserved.
+
+### The Dutch filing regime (BW2 Titel 9) — ch. 12
+**Not a company case.** Ch. 12 is the book's first chapter anchored on a regime rather than a
+business, decided deliberately: the chapter teaches reading, and the thing worth reading is what the
+statutory accounts contain and omit. Recorded as an exception to the company-cases-first rule in §1,
+not a drift away from it.
+- **Facts.** Micro (art. 2:395a): assets ≤ €350,000, turnover ≤ €700,000, fewer than 10 employees —
+  the consolidated text carries an editorial note uprating these to €450,000 and €900,000 from
+  13 March 2024. Small (art. 2:396): ≤ €7,500,000, ≤ €15,000,000, fewer than 50. Medium (art. 2:397):
+  ≤ €25,000,000, ≤ €50,000,000, fewer than 250. Art. 2:396 lid 8 limits publication for a small
+  company to a restricted balance sheet and the notes. Art. 2:394 lid 1 requires deposit at the
+  handelsregister within eight days of adoption.
+- **Permitted.** What a small Dutch company must publish contains no profit-and-loss account. The
+  published set is a disclosure to creditors, not a management instrument.
+- **Confounders.** **The statute governs publication, not preparation.** A company still prepares a
+  P&L and still files one with the tax authority; what is exempted is putting it on the public
+  record. The 2024 uprating appears as an editorial insertion in the consolidated text rather than in
+  the article body.
+- **Prohibited.** **Never that a small company need not produce a profit-and-loss account** — only
+  that it need not publish one; conflating the two would be a serious error with practical
+  consequences for a reader. Never that other jurisdictions work this way without a source for each.
+  Never that the regime is designed against the owner: it is designed for creditors and does that
+  job.
+- **Spent.** ch. 12 takes the size thresholds, art. 396 lid 8 and art. 394 lid 1. Ch. 13 and ch. 15
+  may cite the same statute for different articles; this entry does not reserve them.
 
 ## 6c. Handoff: ch. 10 → ch. 11
 

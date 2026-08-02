@@ -123,8 +123,8 @@ always actionable. CI follows the same split, and the weekly claim run writes it
 job summary instead of failing.
 
 `checks/claims.tsv` lists the exact string that must appear in each cited document; `verify.sh`
-fetches the documents and confirms it. The eleven published chapters currently carry **390 verified
-claims** against forty sources. PDF sources are converted with `pdftotext` before matching; if
+fetches the documents and confirms it. The twelve published chapters currently carry **402 verified
+claims** against forty-one sources. PDF sources are converted with `pdftotext` before matching; if
 poppler is not installed those claims are reported as *skipped*, never as passed.
 
 Note what this does and does not prove. It proves every *registered* string is still present in the
@@ -148,5 +148,5 @@ argument. `CONTEXT.md §8` keeps the table of what got caught.
 ## Status
 
 Parts I and II are complete and verified — chapters 1–10, each part closing with an exit test.
-390 claims across the eleven; 17 to go. Part III is under way: does the money work?
+402 claims across the twelve; 16 to go. Part III is under way: does the money work?
 See `CONTEXT.md` for the chapter register.
