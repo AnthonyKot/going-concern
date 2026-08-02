@@ -600,7 +600,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 | 13 | Profit Is Not Cash | ☑ 17 claims · Instacart S-1 cash flows + BW6 payment terms · *owed* 🇳🇱 |
 | 14 | What a Customer Is Worth | ☑ 13 claims · Cydoc (2018–2025), returning from ch. 04 · WP Curve as segment contrast · *owed* |
 | 15 | Paying Yourself | ☑ 17 claims · Dutch owner-remuneration regime · *no company case, by decision* · written under §6f; 8 corrections pre-push, 6 more after, none of the second set legal 🇳🇱 |
-| 16 | Enough | ☐ |
+| 16 | Enough | ☑ 17 claims · Pinboard / Cegłowski (2010–2020) · *owed* · closes Part III |
 
 ### Part IV — Can it run without you?
 | # | Title | Status |
@@ -852,6 +852,27 @@ them afterwards is harder than writing them at the time.
   these figures describe bootcamps generally, or that Turing is representative of anything but itself.
 - **Spent.** ch. 11 takes the graduation figures, the 180-day employment breakdown, the
   could-not-contact category and the school-hired disclosure. Nothing reserved.
+
+### Pinboard / Cegłowski — ch. 16
+- **Facts.** Eleven anniversary posts, 2010–2020. Revenue (K$): 117, 178, 181, 175, 193, 160, 234,
+  **259**, 253, 222, 212. Funding: zero in every year. Running costs about $17K (2016). Active users
+  24K (2016), 29K (2017), 21K (2019), 19K (2020) — **2018 blank in the published table**. Revenue was
+  added to the table in 2016, stated reason: no longer afraid of competitors, and to encourage a
+  *"one- or zero-person business"*. 2017: a year of travel, support email ignored *"for weeks at a
+  time"*, then a *"reverse sabbatical"*.
+- **Permitted.** That a sufficiency number can be named, met and published. That a flat line means
+  different things at different times and looks identical. That the interval between reaching enough
+  and noticing decline can be years.
+- **Confounders.** The owner's own: annual subscriptions introduced in 2015 depress that year and
+  lift 2016 as first renewals fall due, so the revenue row moves on pricing mechanics as well as
+  demand. Also a category with unusually loyal users, one person, no staff, near-zero marginal cost.
+- **Prohibited.** Never that the neglect caused the decline — sequence, not cause; this is ch. 06's
+  arrow error waiting to happen. Never a 2018 user figure. Never that flat revenue is generally a
+  choice: it is cheap at this shape and expensive with payroll or stock.
+- **Spent.** Ch. 16 used the revenue and funding rows end to end, the $17K cost line, the 2014
+  stability argument, and the 2017 travel/sabbatical account. What remains unused: the bookmark,
+  tag, archive and URL rows, the 2017 Delicious acquisition, and the 2020 platform-migration post —
+  enough for a Part IV or V return on maintenance, obsolescence or one-person operational risk.
 
 ### The Dutch filing regime (BW2 Titel 9) — ch. 12
 **Not a company case.** Ch. 12 is the book's first chapter anchored on a regime rather than a
@@ -1239,6 +1260,69 @@ Final: **2,987 body, 708 box, 2,279 argument.** Worth recording that the ceiling
 fought, the ceiling won, and the chapter is better for it — the compression pass found real slack.
 The rule that held: **cut prose to pay for precision, never precision to pay for prose.**
 
+## 6g. Ch. 16 — Enough: settled before drafting, and it closes Part III
+
+**Thesis.** Enough is a number you name in advance, or the business names it for you by absorbing
+whatever you have. And it is a decision with an expiry date, not a state you arrive at: the same
+flat line that means *enough, held* in one year means *decline, unnoticed* three years later.
+
+**The decision.** What the household actually needs, what the business must throw off to cover it,
+and when you will decide again.
+
+**Boundaries.** Ch. 15 owns the *business's* obligation — the cost of the owner's labour. Ch. 16 owns
+the *owner's* life, and never renegotiates ch. 15's number: replacement cost and personal sufficiency
+are different quantities and neither is a proxy for the other. Ch. 23 (*Slack*) owns capacity held in
+reserve; ch. 28 (*Knowing When to Stop*) owns ending. Ch. 16 may observe that an owner ran out of
+attention without taking either question.
+
+**This chapter is where §3 bites hardest.** "Enough" is the most quotable licence to stop trying that
+the book could possibly issue, and the standing constraint says the reader's dominant failure mode is
+never leaving, not building the wrong thing. Two mechanical defences, both required: **every number
+in the chapter carries a review date** (§3 rule 2), and the case itself shows what an undefended
+*enough* costs, so the caution is evidence rather than authorial nerves.
+
+**Settles part of §9's open question on owner energy.** The position, taken here and carried into
+Part V: energy is a **parallel ledger** — it is counted, it is not the spine, and it never reorders
+demand → payment → economics. Ch. 16 states it once and does not make exhaustion the plot.
+
+**Case: Pinboard, 2009–2020 (Maciej Cegłowski), one person.** Chosen because a single first-party
+series carries both halves of the thesis, which no two-source assembly would do as honestly: eleven
+consecutive anniversary posts, published while the business ran, with a statistics table that gained
+a revenue row in 2016 — *"no longer afraid of competitors"* — and kept it. Revenue $117K (2010) to a
+$259K peak (2017), then $253K, $222K, $212K. Funding zero in every year of eleven. Running costs
+about $17K. So the reader sees enough being reached, published on purpose to encourage
+*"one- or zero-person business"*, and then sees the same table four years later.
+
+**Budget.** Recognisable to this reader rather than famous, per the ch. 06 amendment: one person, no
+funding, a number the reader could actually reach. Charged **half a slot — running total three and a
+half of four or five.** Parts IV and V now have at most one and a half left; spend nothing else in
+Part III.
+
+**Prohibited claims — written before drafting, because this case invites exactly one error.**
+
+- **Never that the neglect caused the decline.** 2017's post records travel, *"ignored support emails
+  for weeks at a time"* and a *"reverse sabbatical"*; revenue then falls over three years. That is a
+  sequence, not a demonstrated cause, and asserting the arrow is precisely ch. 06's error in §8.
+- **The source supplies its own confounder and the chapter must carry it:** the 2015 dip and 2016
+  rise are attributed by him to *"an annual subscription system"* and its first renewals, so the
+  revenue row moves for pricing-mechanism reasons as well as demand reasons.
+- **Never a 2018 active-user figure.** That cell is blank in the eleven-year table. Revenue is the
+  only row that runs unbroken 2010–2020, and it is the only row the argument may lean on.
+- **Never that flat revenue is a choice in general.** It was his choice at his scale, in a business
+  with near-zero marginal cost and no staff. A business with payroll or stock cannot hold flat as
+  cheaply, and the chapter says so where it makes the recommendation.
+
+**Counter-case: expected `.owed`.** The shape needed is an owner who named a sufficiency number, held
+it deliberately, kept re-deciding it, and lost the business anyway because the market moved under a
+deliberately static offer. The 2017–2020 stretch is *not* that: it is the advice half-followed —
+number named, never re-decided — and it belongs in the case, not in a counter-case block.
+
+**Shape.** Move 1 the missing number and the two ways of not having it; Move 2 Pinboard, both halves,
+from the tables; Move 3 the three numbers, the review date, and the boundaries. Body **2,300–2,700**,
+plus a **Part III close** counted separately per §1: the arc 11 → 16, what the part proved, and what
+no amount of arithmetic decides. No Dutch box — ch. 15 carried the jurisdictional weight and ch. 16
+is portable.
+
 ## 6c. Handoff: ch. 10 → ch. 11
 
 Recorded before either is drafted, so neither absorbs the other. Ch. 10 establishes that **the sale
@@ -1449,6 +1533,14 @@ know. Only the first is rationed. The recognisability is still a real cost, so P
 **half a slot**. **Running total: three of four or five** — ConvertKit charged a second half-slot at ch. 08 on the same reasoning (recognisable to this reader, but two people and $1,207 MRR at the moment the chapter turns). The rest of Part II spends none;
 if a second recognisable business is wanted later, it comes out of the same allowance, not a new one.
 
+**Ch. 16 charges the fourth half-slot: Pinboard.** Same reasoning again — one person, no funding,
+$212–259K of revenue, nothing the reader lacks — but developers of a certain vintage know it, and
+recognisability is a real cost even when scale is not. **Running total: three and a half of four or
+five.** Twelve chapters remain and at most one and a half slots with them, so Parts IV and V must
+anchor on businesses nobody has heard of, and the two 🇳🇱 regime chapters (12, 15) are the model for
+what to do when no case at the right scale can be found: anchor on something checkable and say in
+the chapter that there is no company behind it.
+
 The rest must be at his scale:
 
 - a two-person software consultancy
@@ -1653,5 +1745,11 @@ Keep this table. It is the standing argument for why the book is built this way.
 
 - Whether Part V needs a chapter on selling the business as distinct from ch. 27 (*Built to Leave*), or whether that is one chapter's worth of material stretched into two.
 - Whether to include a short appendix of the arithmetic — breakeven, contribution margin, runway — as a reference rather than dispersing it through Part III.
-- How much **owner energy / exhaustion** belongs in the spine versus in boundaries of *Enough*, *Slack*, and *Knowing When to Stop*. Adversarial foil (§5c) pushes for a parallel ledger; the book currently privileges financial resilience. Decide before drafting Part V, and do not let energy reorder demand → payment → economics.
+- ~~How much **owner energy / exhaustion** belongs in the spine~~ — **settled at ch. 16, in the
+  chapter's own words.** Time is counted as a parallel ledger, with a stated ceiling and the same
+  review date as the money, and the reason for the ordering is now on the page rather than in this
+  file: a business that runs out of money stops, while one that runs out of its owner's patience
+  usually has months of warning and several remedies. Part V inherits the position; it does not
+  reopen it. What is still owed is a *case* — no business in the book is yet shown running out of
+  owner attention with figures on both sides.
 - Whether ch. 07 needs a dedicated **standing vs access** subsection in a future pass, or whether the 06→07 bridge plus one Monday item is enough. Do not rewrite 07 until Part II's remaining chapters exist — enrichment, not a blocking rewrite.
