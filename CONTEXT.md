@@ -118,6 +118,22 @@ survivor who ignored the advice count. **Do not.** Hold the definition and carry
   the book so far, because the chapter rests on a single self-reported winner. Anything found here
   should be checked before ch. 07 is written, since the same objection applies to distribution.
 
+**Ch. 06, on external review — a chronology error the register could not have caught.** The draft
+said the positioning statement *determined* the business model: once the sentence said
+`privacy-first`, the advertising path was closed. Backwards. Paid subscriptions launched May 2019,
+the open-source licence September 2019, the privacy argument earlier still; the statement is March
+2020. Every fact needed to catch this was in the chapter's own paragraphs — the September date is
+quoted three lines above the claim — and all 51 claims verified, because each quotation was accurate
+and only the arrow between them was wrong. Settled wording: **the model arrives in fragments and the
+positioning turns the fragments into constraints.** Weaker than the draft and more useful, since it
+is the version a reader can act on. Three related fixes in the same pass: `simple` time-bound to the
+2020 product (their docs now list funnels, so an untimed claim would be falsified by the current
+product); `privacy-first` no longer said to leave *only* user revenue, which was a logical overreach —
+grants and services remain available, it is simply what they chose; and the incumbent's funding model
+attributed to Plausible as their reading rather than asserted as fact. **The general lesson: a
+chapter can be 100% verified and still have its arrows pointing the wrong way. Dates in the source
+constrain causal order, and nothing in the pipeline checks that.**
+
 **The recurring failure to watch for:** the pull is always to call a nearly-fitting case a
 counter-case, because the alternative is an admission. Three of the four written chapters have done
 it. Check the label against the chapter's *central* advice, clause by clause, not against whatever
@@ -269,7 +285,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 ### Part II — Will someone pay?
 | # | Title | Status |
 |---|---|---|
-| 06 | Who Is This For | ☑ 51 claims · Plausible Analytics (2018–2022) · *owed* — Product Hunt is a `.limit` |
+| 06 | Who Is This For | ☑ 60 claims · Plausible Analytics (2018–2022) · *owed* — Product Hunt is a `.limit` |
 | 07 | Where They Already Are | ☐ |
 | 08 | Asking for Money | ☐ |
 | 09 | What to Charge | ☐ 🇳🇱 |
