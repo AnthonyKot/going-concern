@@ -432,3 +432,15 @@
 12	bw2-jaarrekening	niet meer dan € 25.000.000
 12	bw2-jaarrekening	het gemiddeld aantal werknemers over het boekjaar bedraagt minder dan 250
 12	bw2-jaarrekening	In de winst- en verliesrekening worden de posten genoemd
+# ch12 — who must file, and the current micro thresholds
+12	kvk-deponeren	De rechtsvorm van uw bedrijf bepaalt of u een jaarrekening moet deponeren
+12	kvk-deponeren	een besloten vennootschap (bv)
+12	kvk-deponeren	een naamloze vennootschap (nv)
+12	kvk-deponeren	Bekijk alle rechtsvormen die niet verplicht zijn de jaarrekening te deponeren
+12	kvk-deponeren	uiterlijk 8 dagen na vaststelling bij de KVK
+12	kvk-deponeren	binnen 12 maanden na afloop van het boekjaar
+12	kvk-deponeren	U kunt geen uitstel krijgen voor het indienen van uw jaarrekening
+12	kvk-deponeren	een jaaromzet van minimaal € 7,5 miljoen in 2 opeenvolgende boekjaren
+12	kvk-deponeren	moeten alle rechtspersonen (ook grote ondernemingen) hun jaarrekening op basis van Standard Business Reporting (SBR) deponeren
+12	bw2-jaarrekening	per 13 maart 2024: € 450.000
+12	bw2-jaarrekening	per 13 maart 2024: € 900.000
