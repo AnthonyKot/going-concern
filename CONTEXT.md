@@ -91,10 +91,11 @@ survivor who ignored the advice count. **Do not.** Hold the definition and carry
   consequence, and should not have. The Gymdesk block was called a counter-case in the first two
   drafts and is now a `.limit`: measured against the chapter's own three-part test, Galperin had a
   date, a vague threshold, and no written consequence at all — about one and a half of three. He did
-  not follow the advice and fail; he half-followed it and got away with it. Note the limit of what
-  that shows: it supports *widening the menu of consequences*, and not *choosing one in advance* —
-  he improvised and it worked. Caught on external review over three passes; see §8 on why the script
-  could not catch any of them and why the error kept regenerating at a finer grain.
+  not follow the advice and fail; he half-followed it and got away with it. The settled reading: it
+  shows a stopping rule needs consequences short of demolition, and that choosing one in advance
+  would have made the rule easier to honour than to renegotiate under pressure — but not that
+  choosing in advance was *necessary*. Four passes on external review; see §8, where the sequence
+  matters more than any single fix.
 - **ch. 05** — the Gymdesk block is a real counter-case, but only to the *threshold* advice: Galperin
   went full time with no customers, so he did not follow the chapter's central recommendation at all.
   Still owed: someone who cleared a conservative evidence bar — repeat paid revenue covering their
@@ -423,13 +424,24 @@ been corrected three times, each pass catching a finer-grained version of the sa
 |---|---|---|
 | 1 | "counter-case: the rule, honoured, would have been wrong" | he never followed the rule |
 | 2 | "did exactly what this chapter asks" | one and a half of three components |
-| 3 | "the pair make the same point: the third component is load-bearing" | the case supports *widening the menu of consequences*; it says nothing about **choosing one in advance**, because Galperin improvised and succeeded — if anything it cuts the other way |
+| 3 | "the pair make the same point: the third component is load-bearing" | the case supports *widening the menu of consequences*; it does not establish **choosing one in advance**, because Galperin improvised and succeeded |
+| 4 | "it says nothing about choosing in advance — if anything it cuts the other way" | **the correction overshot.** It does not show pre-selection was *necessary*, but it does show the mechanism pre-selection guards against, running in real time: with no consequence written down he took the decision under pressure, at the worst moment, as the person least able to take it. Good judgement, not a plan. |
 
 Each fix was honest and each left a smaller instance of itself behind, because the pull is not toward
-one wrong sentence but toward extracting the maximum lesson a case will bear. The countermeasure is
-mechanical, not moral: **after fixing an overclaim, re-read the corrected passage as if it were a
-stranger's, and ask what the case would have to have done differently for the new sentence to be
-false.** If the answer is "nothing", the sentence is still not saying anything about the case.
+one wrong sentence but toward extracting the maximum lesson a case will bear. Pass 4 shows the pull
+also runs backwards: **"the case is silent on this" is itself a claim about the case, and needs the
+same test as "the case proves this."** Over-correction reads as rigour and costs the chapter a real
+piece of evidence.
+
+The countermeasure is mechanical, not moral: **after fixing an overclaim, re-read the corrected
+passage as if it were a stranger's, and ask what the case would have to have done differently for
+the new sentence to be false.** If the answer is "nothing", the sentence is still not saying anything
+about the case — and if the answer is "nothing could make it false because it asserts absence", check
+whether the absence is real.
+
+The settled wording, after four passes: Gymdesk shows that a stopping rule needs consequences short
+of demolition, and that choosing one in advance would have made the rule easier to honour rather than
+renegotiate under pressure. It does not show that choosing in advance was necessary.
 
 Ch. 04 now separates its own component 3 into two claims and marks them differently: *the menu must
 be wider than stop* (demonstrated by Gymdesk) and *you must choose which, in advance* (reasoned from
