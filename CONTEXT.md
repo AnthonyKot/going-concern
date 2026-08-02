@@ -631,6 +631,15 @@ redundant:
 Five fields per case. The first four are written **when the case is first used** and consulted before
 it is reused; **Spent** is updated after publication so a later chapter knows which evidence and
 interpretive work it would be repeating rather than inheriting.
+
+**What "spent" means — corrected at ch. 14, after the field was misread.** A case is spent when it
+has already carried **the same inference**, not when it has merely appeared. Reading it the loose way
+retires a business the first time it is used and throws away the book's own recurring-cast principle
+in §7. Cydoc is the instance that exposed this: ch. 04 used it to show that impressive validation
+milestones can keep satisfying a badly written stopping rule, and ch. 14 returns to answer the
+economic question ch. 04 deliberately left open. Same evidence, a different question asked of it —
+which is continuity, not repetition. The test to apply before declaring a case spent: *name the
+inference the earlier chapter drew.* If the new chapter draws a different one, the case is available.
 Working-file only — none of this is reader-facing, which is the point: it constrains interpretation
 without adding another qualification to the prose. *Prohibited claim* is the load-bearing field; it
 is what would have caught ch. 04's "did exactly what this chapter asks" and ch. 06's backwards
@@ -689,6 +698,38 @@ causal arrow, both of which passed every claim row.
   and June-to-December slip. **The current Studio Neat source contains no evidence of repeat
   purchase, renewal, retention or referral.** Ch. 11 therefore needs a separate first-party Studio
   Neat record that supplies one of those, or a different case; the earmark is not evidence.
+
+### Cydoc / Draelos — ch. 04, returning as the case in ch. 14
+
+Written retrospectively at ch. 14: the case predates this ledger, which is itself a finding — the
+four fields would have been written when Cydoc was first used had §6b existed, and reconstructing
+them afterwards is harder than writing them at the time.
+
+- **Facts.** All from `draelos-2026`, the founder's own shutdown post-mortem, and all already
+  registered and passing under ch. 04: seven years, April 2018 to August 2025; a $35,000 annual
+  MD/PhD stipend; $265,000 raised from family, friends and physicians; over 35 VC firms uninterested
+  in a solo founder without revenue; four paying customers, acquired one each by cold call, cold
+  email, a warm intro and a consulting network; four-figure recurring and five-figure custom
+  development revenue; two US patents; 11 minutes saved per visit; customers wanting to pay fewer
+  than $100 per month; about $70 per doctor in monthly hosting and AI cost; an EHR integration at
+  around $4,000 to $6,000; an estimated 11 years per practice just to break even.
+- **Permitted.** Ch. 04: validation milestones can keep satisfying a badly written stopping rule.
+  Ch. 14, the different inference: a sale can be real and the customer still not worth having, once
+  customer-specific delivery and setup cost and the time to recover them are counted.
+- **Confounders.** Healthcare software carries integration costs most businesses do not, and a
+  regulated buyer with a long cycle. The founder was simultaneously in an MD/PhD programme, so
+  founder time was constrained in a way the reader's may not be. Every figure is the founder's own
+  and unaudited.
+- **Prohibited.** Never that the eleven-year payback is a computed or audited figure — it is
+  Draelos's estimate from her own costs, and the prose must say so. Never a retention, churn,
+  expansion or lifetime conclusion: **four customers cannot establish any of them**, and the absence
+  is the chapter's point rather than a gap to fill. Never a customer acquisition cost — none is
+  published, so the record's acquisition-spend field is demonstrated with the reader's numbers, not
+  Cydoc's. Never that health AI was doomed; the chapter is about a specific arithmetic, not a sector.
+- **Spent.** Ch. 04 took the stopping rule, the milestones, the stipend and raise, the VC refusals
+  and the too-late customer conversations. Ch. 14 takes the price ceiling, the per-doctor service
+  cost, the integration cost, the eleven-year estimate and the four acquisition channels. After
+  ch. 14 the case is genuinely exhausted: a third use would need evidence outside this post-mortem.
 
 ### Gymdesk / Galperin — ch. 04, ch. 05
 - **Facts.** Six months of runway; three years to full time; $10k MRR by end of 2018; full time June
@@ -768,8 +809,14 @@ causal arrow, both of which passed every claim row.
   **Repeatable by this owner next month is not the same as delegable to staff.** The latter belongs
   to Part IV.
 - **Spent.** ch. 10 takes the launch date, the week-one doubling, the customer counts, the agency
-  removal, the blogger discovery and the MRR ladder. Nothing reserved; a later return needs
-  evidence outside these four monthly reports.
+  removal, the blogger discovery and the MRR ladder. **Ch. 14 returns for the segment contrast only**
+  — one $69 price producing different relationships, bloggers leaving inside the month while business
+  owners stayed — which is a different inference from ch. 10's (that a segment was mis-acquired):
+  ch. 14's point is that averaging across those customers destroys the information. Permitted under
+  the corrected spent-test above. The Prohibited field still governs, and rules out exactly what
+  ch. 14 might be tempted by: **WP Curve can never supply a customer-value number**, because the
+  revenue is company-wide, the customer totals are not cleanly isolated, and delivery cost was never
+  published. Contrast and boundary, never the calculation.
 
 ### Turing School (CIRR outcomes reports) — ch. 11
 - **Facts.** 2016 H1, all programmes: 86 enrolled against a 210-day published length; 67.95%
@@ -890,7 +937,80 @@ delivery cost, support burden, acquisition cost, contribution, and months to rec
 initial delivery cash. It extends the operating record from ch. 10 and ch. 11 rather than starting a
 new document.
 
-**Case: not yet found.** No Dutch box is flagged for this chapter.
+**Case: Cydoc, returning from ch. 04.** No Dutch box is flagged for this chapter. Ch. 04 asked
+whether the stopping rule was well written; ch. 14 asks whether the customers were worth having.
+Every figure it needs is already a registered, passing claim row under ch. 04 against
+`draelos-2026` — re-registered under 14 rather than re-sourced:
+
+> Four customers paid Cydoc. The sales were real. At *"fewer than $100 per month"*, about
+> *"$70 per doctor"* in monthly hosting and AI cost, and *"around $4,000 to $6,000"* to integrate a
+> practice, the cheapest customer took an estimated *"11 years per practice just to break even"* on
+> the integration alone. A paying customer and a worthwhile customer are not the same thing.
+
+**The instrument is value to date, not lifetime value.** Resist the conventional LTV/CAC lesson.
+What ch. 14 teaches the reader to compute is **observed contribution to date, and the date on which
+the customer repaid the cost of acquiring and starting them.** This sharpens correction 3 above from
+a caveat into the actual method: future revenue is labelled *unknown*, never extrapolated by default.
+
+**Restated decision, replacing the version above:** which customers are worth acquiring again, based
+on what has actually remained after acquiring and serving them, and how long that money took to
+arrive.
+
+**What Cydoc carries** — four claims, in the order the chapter makes them:
+
+1. Revenue is not customer value: most of the monthly payment can disappear into customer-specific
+   delivery cost.
+2. Setup cost belongs to the customer — integration, onboarding and custom work are recovered
+   somewhere or not at all.
+3. Positive contribution is insufficient. Thirty dollars a month is positive and commercially
+   useless.
+4. Timing changes value: a customer who repays after eleven years cannot finance the business that
+   has to serve them now.
+
+That closes ch. 13's loop precisely. Ch. 13 asked whether the business can afford to finance the
+customer; ch. 14 asks whether the eventual contribution justifies doing so.
+
+**What Cydoc cannot carry, stated plainly in the chapter:** no reliable acquisition cost is
+published; four customers cannot establish retention or a lifetime; there are no cohorts from which
+to estimate expansion, referral or churn; and the eleven-year figure is Draelos's own estimate from
+her own costs, not audited unit economics — §5's weaker class, attributed in prose.
+
+**That limitation is the chapter's sharpest move, not its weakness:** *when the observed economics
+are already bad, you do not need a lifetime estimate. When they look good, "lifetime" is the part
+you know least.*
+
+**The working record per customer**, extending ch. 10 and ch. 11 rather than starting a document:
+cash collected; acquisition spend; owner acquisition time at replacement cost; onboarding or
+integration cost; direct delivery and support cost; refunds, credits and concessions; observed
+contribution to date; the date cumulative contribution turned positive; outcome status from ch. 11;
+segment and channel. Cydoc supports the last field unusually well — the channel for each of the four
+customers is separately published (*"one customer through a cold call, one through a cold email, one
+through a very warm intro"* and one via a consulting network).
+
+**WP Curve is the secondary contrast, never the calculation.** Its published revenue was
+company-wide, its customer totals were not cleanly isolated, and delivery costs were never published,
+so it cannot produce an honest number. What it can do is show one $69 price producing different
+relationships — bloggers leaving inside the first month, business owners apparently experiencing the
+same price differently, every customer requiring active acquisition work, humans still performing the
+service. It carries one point: **there is no useful average customer value before customers are
+separated by segment, channel and delivery burden.**
+
+**Counter-case owed, and defined rather than left open:** a customer that looked uneconomic inside
+the chosen observation window — slow payback, heavy onboarding, low initial contribution — was
+refused, and later evidence showed that segment expanded, referred others, or became highly
+profitable after the cutoff. That names the real cost of this chapter's advice: observed value
+protects against invented futures and can undervalue relationships whose returns genuinely arrive
+late.
+
+**Spine.** Situation: early businesses quote lifetime value before observing a lifetime. Case:
+Cydoc's real paying customers and the eleven-year integration payback. Reasoning: revenue →
+contribution → acquisition and setup recovery → payback time. Segment warning: WP Curve's identical
+price, different relationships. Monday: compute value to date and payback per customer, then
+aggregate by segment and channel. Boundary: future expansion is unknown, not zero — but it is not
+evidence either.
+
+**Handoff into ch. 15**, which §6f now expects: *you have charged the customer for everyone's work
+except one person's. The owner is usually the most expensive omission in the record.*
 
 ## 6f. Ch. 15 — Paying Yourself 🇳🇱: settled before drafting, under a stricter process
 
