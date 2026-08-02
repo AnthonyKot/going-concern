@@ -28,6 +28,49 @@
 01	wv-s1-1999	has served as our Chairman and Chief Executive Officer since founding Webvan in December 1996
 01	wv-s1-1999	Mr. Borders founded Borders Books in 1971
 01	cart-s1-2023	Orders grew from 223.4 million in 2021 to 262.6 million in 2022
+# ch02 — Everpix. The company's own published dataset: first-party, contemporaneous,
+# frozen the day after the shutdown announcement. Strongest class of source in this book.
+02	everpix-readme	Everpix was started in 2011 with the goal of solving the Photo Mess
+02	everpix-readme	angel and VC funded with $2.3M raised over its lifetime
+02	everpix-readme	a very enthusiastic user base of early adopters combined with strong PR momentum
+02	everpix-readme	we had to announce our upcoming shutdown on November 5th, 2013
+02	everpix-readme	50,000 signed up users (including 7,000 subscribers) with 400 millions photos imported
+02	everpix-readme	generating subscription sales of $40,000 / month during the last 3 months
+02	everpix-readme	enough money to cover variable costs, but not the fixed costs of the business
+02	everpix-readme	rare and uncensored inside look at the internals of a startup
+02	everpix-timeline	Pierre starts working on prototypes of Everpix
+02	everpix-timeline	Everpix open for business; 30 day trial subscription model ($40 / year or $4.99 / month)
+02	everpix-timeline	Freemium subscription model with Everpix Free ($49 / year or $4.99 / month)
+02	everpix-timeline	Raised Bridge Note of $525,000
+02	everpix-timeline	Public announcement of upcoming Everpix shutdown
+02	everpix-financials	Everpix Subscriptions | 269,974.47
+02	everpix-financials	**Total Expenses** | **$2,665,192.34**
+02	everpix-financials	**Net Operating Income** | **-$2,384,224.67**
+02	everpix-financials	Amazon Web Services | 394,588.35
+02	everpix-financials	Public Relations | 109,552.34
+# ch02 — the three Google Consumer Surveys, all run 20–21 April 2013. PDFs; verify.sh
+# converts them with pdftotext before matching.
+02	everpix-survey-pay	Would you pay for a service if it could automatically help you organize, manage and print your life in photos from your entire digital collection?
+02	everpix-survey-pay	Weighted by Age, Gender, Region. (1268 responses)
+02	everpix-survey-pay	No 72.0% (+2.6
+02	everpix-survey-pay	Yes 12.1% (+2.1
+02	everpix-survey-pay	Median response time is 7.3 seconds
+02	everpix-survey-pay	Conducted by Google Consumer Surveys, April 20, 2013
+02	everpix-survey-pay	Sample: National adult Internet population.
+02	everpix-survey-better	Do you want a better way to manage and see all of your digital photos than what you have today?
+02	everpix-survey-better	Weighted by Age, Gender, Region. (1288 responses)
+02	everpix-survey-better	No 67.3% (+2.7
+02	everpix-survey-better	Yes 11.9% (+2.1
+02	everpix-survey-overwhelming	Do you feel that managing your digital photo collection is overwhelming?
+02	everpix-survey-overwhelming	Weighted by Age, Gender, Region. (1248 responses)
+02	everpix-survey-overwhelming	No 61.3% (+2.8
+02	everpix-survey-overwhelming	Yes 14.8% (+2.3
+# ch02 — the paid acquisition test, May/June 2013. Also a PDF.
+02	everpix-paid-acq	Spend: $11,500
+02	everpix-paid-acq	Test dates: 5/23-6/4 (13 days)
+02	everpix-paid-acq	Average cost to acquire a new sign-up: $13.46
+02	everpix-paid-acq	ROI is -87% on a 3 year LTV of $147
+02	everpix-paid-acq	conversion from sign-up to paid conversion is about 80% lower for paid traffic vs. organic traffic
 # ch05 On Dutch ground — quoted from the statutes themselves, not from law-firm commentary.
 05	bw7-2026	Een beding waarbij de werkgever verbiedt of beperkt dat de werknemer voor anderen arbeid verricht buiten de tijdstippen waarop de arbeid moet worden verricht bij die werkgever, is nietig, tenzij dit beding kan worden gerechtvaardigd op grond van een objectieve reden.
 05	bw7-2026	de arbeidsovereenkomst voor onbepaalde tijd is aangegaan

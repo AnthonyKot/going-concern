@@ -32,6 +32,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Install pdftotext
+        # Some sources are PDFs — Google's survey reports for Everpix, an ad-spend
+        # deck. Without poppler those claims are skipped rather than checked, and a
+        # skipped check is worse than a failing one because it looks like nothing.
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
       - name: Verify quoted figures
         env:
           SEC_UA: "TheGoingConcern-verify/1.0 (+https://github.com/AnthonyKot/going-concern)"

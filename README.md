@@ -114,8 +114,9 @@ always actionable. CI follows the same split, and the weekly claim run writes it
 job summary instead of failing.
 
 `checks/claims.tsv` lists the exact string that must appear in each cited document; `verify.sh`
-fetches the documents and confirms it. Chapter 1 currently carries **27 verified claims** against
-four Webvan filings and Instacart's S-1.
+fetches the documents and confirms it. The four published chapters currently carry **107 verified
+claims** against nineteen sources. PDF sources are converted with `pdftotext` before matching; if
+poppler is not installed those claims are reported as *skipped*, never as passed.
 
 Note what this does and does not prove. It proves every *registered* string is still present in the
 document it is attributed to. It cannot detect a figure that appears in the prose but was never
@@ -130,5 +131,5 @@ argument. `CONTEXT.md §8` keeps the table of what got caught.
 
 ## Status
 
-Scaffold complete. Chapters 1 and 5 written and verified — 48 claims between them; 26 to go. See `CONTEXT.md` for the chapter
-register.
+Scaffold complete. Chapters 1, 2, 4 and 5 written and verified — 107 claims between them; 24 to go.
+See `CONTEXT.md` for the chapter register.

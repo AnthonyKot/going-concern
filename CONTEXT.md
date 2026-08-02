@@ -14,7 +14,7 @@ These were settled at the outset and should not be relitigated without a reason.
 | Sourcing | **Company cases first.** Each chapter is anchored on a real, named, dated company. Business books appear only in the reading list. | The subject has no canon the way quantum mechanics does. Comparing eight business books would inherit their collective blind spots. Companies are checkable; frameworks are not. |
 | Audience | **The experienced developer going out on their own.** ~40, fifteen-plus years salaried, Netherlands or similar. Self-funded, heading for 1–20 people, still doing the work. | Underserved, and unusually shaped: arrives fluent in systems, constraints, iteration and measurement, illiterate in demand, distribution, selling, pricing and cash. Also old enough to have a mortgage, which changes every risk calculation in the book. |
 | Jurisdiction | **General argument, Dutch specifics quarantined** in `On Dutch ground` boxes. | Employment law, invoicing, dismissal and side-work rules genuinely change the answer, and a reader who cannot act on a chapter has not been helped. Quarantining keeps the general argument portable and stops law from rotting the prose. |
-| Chapter length | **2,000–3,000 words.** Raised from 2,500 after both finished chapters overran (01: 2,958, 05: 2,606). | 2,500 was a guess made before a chapter existed; 2,600–2,950 is where the form actually sits once a case with real figures, a bounded principle and a counter-case are all present. This is now a hard ceiling, not a target — anything over 3,000 gets cut, not excused. |
+| Chapter length | **2,000–3,000 words.** Raised from 2,500 after both finished chapters overran (01: 2,958, 05: 2,606). | 2,500 was a guess made before a chapter existed; 2,600–2,950 is where the form actually sits once a case with real figures, a bounded principle and a counter-case are all present. This is now a hard ceiling, not a target — anything over 3,000 gets cut, not excused. Ch. 02 drafted at 3,333 and was cut to 3,000; the ceiling held and the chapter is better for it. |
 | Honesty mechanism | **The counter-case**, not a ledger. | The sibling volume tracked formal debts because a proof has them. A business book's equivalent failure is advice that works until it doesn't. Show that, don't tally it. |
 
 ## 2. The spine
@@ -72,6 +72,15 @@ survivor who ignored the advice count. **Do not.** Hold the definition and carry
 - **ch. 01** — needs a business that stayed deliberately cheap and variable, exactly as the chapter
   recommends, and lost its market to someone who committed to fixed capacity early and won on scale.
   The Instacart block was mislabelled as a counter-case in the first draft and is now an `.aftermath`.
+- **ch. 02** — needs an owner who ran the five extractions (past behaviour, workaround, urgency,
+  authority, spending) properly, on people who were genuinely the customer, drew the correct
+  conclusion from consistent answers, and was wrong. Two shapes: a *no* that should have been a yes,
+  or a *yes* describing a market that did not exist at the required price. The first shape is
+  structurally unpublishable — nobody writes up the business they correctly declined to start. The
+  second should be findable; everything checked so far failed because the owners either did not run
+  the conversations or ran them on people who liked them, which makes the case an illustration of
+  the chapter rather than a counter to it. Declared in the chapter in an `.owed` block rather than
+  papered over.
 - **ch. 05** — the Gymdesk block is a real counter-case, but only to the *threshold* advice: Galperin
   went full time with no customers, so he did not follow the chapter's central recommendation at all.
   Still owed: someone who cleared a conservative evidence bar — repeat paid revenue covering their
@@ -83,8 +92,9 @@ counter-case, because the alternative is an admission. Both chapters so far have
 label against the chapter's *central* advice, not against whatever advice the case happens to
 counter.
 
-**Settled: a low hit-rate is acceptable.** Two chapters in, the score is one genuine counter-case
-and two admitted debts. That ratio is expected to hold — the device may only be satisfiable in
+**Settled: a low hit-rate is acceptable.** Four chapters in, the score is one unambiguous
+counter-case (ch. 04), one that is real but narrower than the chapter it sits in (ch. 05), and three
+recorded debts (01, 02, 05). That ratio is expected to hold — the device may only be satisfiable in
 something like half the chapters, because failure is under-published. This is **not** a reason to
 loosen the definition later. `.owed` notes are a permanent feature of the book, not a temporary
 embarrassment to be tidied away before publication. A book that shows where it could not find the
@@ -172,7 +182,7 @@ Legend: ☐ not started · ◐ drafted · ☑ written and sourced
 | # | Title | Case | Counter-case | Status |
 |---|---|---|---|---|
 | 01 | The Only Question That Matters | Webvan (1996–2001) | Instacart — the advice says *proceed* | ☑ 22 claims |
-| 02 | Talking to People Who Will Lie to You | — | — | ☐ |
+| 02 | Talking to People Who Will Lie to You | Everpix (2011–2013) | *owed* — see debt register | ☑ 38 claims |
 | 03 | Selling It Before It Exists | Fitbit preorders (2008) | Coolest Cooler (2014–19) | ☐ |
 | 04 | Deciding Not To | Cydoc (2018–2025) | Gymdesk — the rule, honoured, would have been wrong | ☑ 15 claims |
 | 05 | Leaving Well | Bingo Card Creator (2006–2010) | Gymdesk — the runway said stop | ☑ 21 claims 🇳🇱 |
@@ -254,7 +264,11 @@ keeps reaching for famous technology companies it will fail its reader, who is n
 $375 million and cannot act on anything that assumes he might.
 
 **Budget: no more than four or five chapters of twenty-eight may be anchored on a company the reader
-has heard of.** The rest must be at his scale:
+has heard of.** Spent so far: ch. 01 (Webvan). Everpix in ch. 02 is not famous, but it is not at the
+reader's scale either — $2.3m raised, a payroll, an office — and the chapter says so in its own
+text. Counting it as half a slot; the next two Part I chapters should both be small.
+
+The rest must be at his scale:
 
 - a two-person software consultancy
 - a micro-SaaS run by one or two people
@@ -271,7 +285,10 @@ preference:
 1. **Businesses that publish their own numbers** — open-books companies, public revenue dashboards,
    annual "how the year went" posts. These are first-party, contemporaneous, and archivable. Several
    bootstrapped software businesses do this deliberately; they are the best available source for
-   this book and should be mined hard.
+   this book and should be mined hard. The high-water mark is Everpix (ch. 02), which published its
+   metrics, AWS bills, cap table, P&L, investor rejections *and the demand surveys it ignored* —
+   look for more shutdown dumps of this kind, they are the only place disconfirming evidence gets
+   published at all.
 2. **Named reporting in an outlet with a corrections policy**, cited to the article.
 
 Where a case rests on a founder's blog post, say so in the prose — *by his own account* — and archive
@@ -331,6 +348,15 @@ SEC_UA="you@example.com" ./verify.sh        # all chapters
 string that must appear in that source. `verify.sh` downloads each source into a gitignored
 `.cache/`, strips tags, normalises whitespace, and confirms every string is present. A chapter is
 not `☑` until its claims are in `claims.tsv` and the script passes.
+
+**PDFs.** Added for ch. 02, whose central evidence is three Google Consumer Survey reports and an
+ad-spend deck. A PDF's text lives in compressed streams, so the raw bytes contain none of the words
+on the page and a naive match would report drift on a perfectly good citation. `verify.sh` shells
+out to `pdftotext -layout`; where poppler is missing the claim is reported as **skipped**, never as
+passed, because a check that could not run must not look like a check that ran. CI installs
+`poppler-utils` for this reason. When writing claim rows against a converted PDF, avoid the soft
+hyphens (U+00AD) that Google's reports use for minus signs and en-dashes — they survive conversion
+and will not match a typed `-`.
 
 **Write claims against the filing's own words, not against the prose.** The claim rows are the
 sentences the filing actually contains; the chapter then paraphrases them. This way a rewrite of the

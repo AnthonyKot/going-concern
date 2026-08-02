@@ -32,6 +32,10 @@
 #
 # Sources are cached in .cache/ (gitignored). SEC asks for a descriptive
 # User-Agent on automated requests; set SEC_UA to your own contact address.
+#
+# PDF sources are converted with pdftotext (poppler-utils) before matching. If
+# pdftotext is not installed those claims are reported as skipped rather than
+# silently passed — a check you cannot run must not look like a check that ran.
 
 set -uo pipefail
 cd "$(dirname "$0")"
@@ -134,18 +138,35 @@ done < "$SOURCES"
 echo
 echo "── claims ─────────────────────────────────────────────────────"
 FILTER="$FILTER" python3 - <<'PY' || claim_fail=1
-import os, re, html, sys
+import os, re, html, sys, shutil, subprocess
 
 cache, filt = ".cache", os.environ.get("FILTER", "")
 loaded, ok, bad, skipped = {}, 0, 0, 0
 
+def read(path):
+    # Some sources are PDFs — Google's survey reports, an ad-spend deck. Their
+    # text lives in compressed streams, so the raw bytes contain none of the
+    # words on the page and a naive match would report drift on a perfectly
+    # good citation. Convert, or admit the check did not run.
+    with open(path, "rb") as fh:
+        head = fh.read(5)
+    if head[:4] != b"%PDF":
+        return open(path, encoding="utf-8", errors="replace").read()
+    if not shutil.which("pdftotext"):
+        return None
+    out = subprocess.run(["pdftotext", "-layout", path, "-"],
+                         capture_output=True)
+    if out.returncode != 0:
+        return None
+    return out.stdout.decode("utf-8", errors="replace")
+
 def text(sid):
     if sid not in loaded:
         p = os.path.join(cache, sid + ".raw")
-        if not os.path.exists(p):
+        t = read(p) if os.path.exists(p) else None
+        if t is None:
             loaded[sid] = None
         else:
-            t = open(p, encoding="utf-8", errors="replace").read()
             t = re.sub(r"<[^>]+>", " ", t)
             t = html.unescape(t)
             loaded[sid] = re.sub(r"\s+", " ", t).lower()
@@ -160,7 +181,9 @@ for line in open("checks/claims.tsv", encoding="utf-8"):
         continue
     body = text(sid)
     if body is None:
-        print(f"  SKIP  ch{ch}  {sid}  (source unreachable)"); skipped += 1; continue
+        why = "unreachable" if not os.path.exists(os.path.join(cache, sid + ".raw")) \
+              else "PDF, and pdftotext is not installed"
+        print(f"  SKIP  ch{ch}  {sid}  (source {why})"); skipped += 1; continue
     needle = re.sub(r"\s+", " ", claim).strip().lower()
     if needle in body:
         ok += 1
