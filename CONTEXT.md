@@ -479,7 +479,13 @@ disqualify the obviously ruinous. When ch. 14 is written it must pick this up ex
 overturn a ch. 07 judgement without contradicting it: a channel that looks expensive on acquisition
 cost can be correct once lifetime arithmetic exists.
 
-Appointment Reminder is scored against all four in the `.limit`, per the rule below about numbered
+Appointment Reminder is scored against all four in the `.limit` — one clause, restored after the
+§6d retrofit removed it, because a chapter that states a numbered test and then discusses a case
+without scoring it leaves the reader unable to check the discipline. **The retrofit rule and the
+numbered-test rule collide here, and the numbered-test rule wins in one compressed sentence.**
+Ch. 04's equivalent score ("about one and a half of three") was removed and now lives only on the
+method page as "about half"; that is acceptable because ch. 04's prose still shows both failures,
+per the rule below about numbered
 tests: fails one, and never reaches two, three or four.
 
 **Hard constraint from ch. 08 onward: no more software cases in Part II.** Chapters 06, 07 and 08
