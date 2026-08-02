@@ -1009,6 +1009,59 @@ Seven checks, time-boxed, run with all ten chapters in view.
 **The `§6d` caveat-density retrofit of ch. 01–07 is complete.** It was run as the next isolated pass,
 not folded into this coherence check; see §6d above for its guardrails and result.
 
+### What thirteen chapters of corrections actually show — measured 2026-08-02
+
+Counted from the commit history rather than from impression, because the impression was wrong: I
+had said "six of the last seven chapters needed a substantive correction" and the record says
+**seven of the last eight**. Only ch. 08 shipped without one.
+
+**47 substantive corrections across ch. 01–13.** Of those, **6 (13%) were of a kind a machine could
+have caught** — markup convention, a register/prose divergence, a source failing the book's own
+sourcing rule, a numbered test left unscored, a lede disagreeing with its own body. The other 41 were
+causal arrows pointing backwards, categories doing more work than their evidence, legal scope errors
+and accounting mistakes. Nothing counts those.
+
+**The composition changed, and that is the robust finding.** Domain-technical errors — accounting,
+tax, statutory scope, arithmetic — were **1 of 17** across ch. 01–07 and **8 of 21** across
+ch. 11–13. Early chapters failed at *how the argument was phrased*; recent ones fail at *whether the
+domain content is right*. The cause is not carelessness but subject: Part III is about accounting and
+law, where being wrong requires knowledge the source does not hand you and where a reader can act on
+the error and be harmed.
+
+**A confound worth stating.** The later reviews were far more thorough than the early ones, so the
+rise in errors *detected per chapter* (about 2.4 early, about 7 recently) is not clean evidence that
+more errors were *made*. The shift in composition is much less sensitive to review depth, which is
+why the conclusion rests on it.
+
+**The register's detection record on these 47 is approximately zero.** It has caught transcription
+slips in claim rows — one of mine, `Google is created` for `Analytics is created` — and dead or moved
+URLs. It has never caught an interpretive or domain error, and every chapter listed above was at
+`0 drifted` while broken. This is already said on the method page and is now quantified.
+
+**Rejected: an absolutes checker.** The obvious response to recurring quantifier drift is to flag
+*always, only, never, nothing, every, proves*. Measured across the thirteen published chapters it
+fires **378 times, about 29 per chapter**, overwhelmingly on legitimate uses. A check at that
+signal-to-noise trains its reader to ignore it. Not built, and recorded here so the idea is not had
+again.
+
+**Built instead: `checks/structure.py`**, gating in CI, covering the 13% that is mechanical — required
+blocks, three `.move` sections with their headings inside them, tag balance, and the word floor and
+ceiling with part-closes excluded. Self-tested against the chapter 6 markup bug it would have caught.
+
+**Consequences for the rest of the book.**
+
+1. **The risk is domain, not pace.** Drafting faster or slower would not have prevented an accounting
+   error; knowing more accounting would have. Every chapter shipped correct in the end.
+2. **Each ledger entry now declares domain competence before drafting:** what knowledge does this
+   chapter require beyond quoting its sources, and is that knowledge available? Any chapter asserting
+   something in accounting, tax or law beyond quoting a statute is flagged in advance.
+3. **Ch. 15 (Paying Yourself 🇳🇱) is the highest-risk chapter in the book** and needs a different
+   process. DGA salary and the gebruikelijkloonregeling are rules a reader can act on with financial
+   consequences. It should quote the Belastingdienst and the statute and derive nothing, and carry
+   the strongest boundary in the book.
+4. **The loop depends on external review.** All 47 were found by reading, not by me and not by the
+   script. That dependency should be stated rather than assumed to be robust.
+
 ## 7. Cases to avoid
 
 Overused to the point of meaninglessness, and in several instances misreported for decades:

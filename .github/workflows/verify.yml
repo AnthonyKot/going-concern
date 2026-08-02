@@ -21,6 +21,18 @@ jobs:
       - uses: actions/checkout@v4
       - run: ./verify.sh --links
 
+  structure:
+    # Gating, like links, and for the same reason: chapter markup and word
+    # ceilings are entirely inside this repo. This catches roughly one error
+    # in eight — the measured share of chapter corrections that were
+    # structural rather than argumentative. It makes no claim about the other
+    # seven; see the header of checks/structure.py.
+    name: chapter structure (gating)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 checks/structure.py --strict
+
   claims:
     # Advisory. Claims are checked against documents on other people's
     # servers; drift usually means the source moved or was redesigned, not
