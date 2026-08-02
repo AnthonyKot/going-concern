@@ -1442,6 +1442,48 @@ work last, which inverts what most owners do. Credentials-first is defensible fr
 it at all; it is reasoning from the same argument, and if a reviewer pushes on one thing it should
 be that.
 
+### Ch. 17 on review — eight corrections, and the predicted one was worse than predicted
+
+The flagged weakness was real and the reviewer found the sharper version of it: the fixed category
+order did not merely lack a case, it **contradicted the chapter's own ranking rule three paragraphs
+earlier**. *Rank by tolerable delay* and *do these four in this order* cannot both govern. Urgent
+support is recurring work with a one-hour tolerance; a deployment procedure is operational knowledge
+that stops the business immediately. Now the absence table governs explicitly and the categories are
+demoted to a checklist for looking everywhere, with the disagreements named. **General lesson: a
+framework offered after a rule will quietly replace the rule, because a list is easier to follow
+than a judgement.**
+
+**The worst error was mine and it was a quantity confusion — in the chapter about not confusing
+quantities.** The draft said Pinboard "had asked almost nothing of its owner week to week for a
+decade — the flat line of the previous chapter". Ch. 16's flat line is a **revenue** series. Revenue
+says nothing about hours. The chapter inferred a workload from a financial series while its own
+thesis is that these are different quantities that cannot be substituted for one another. Fixed, and
+the correction is now *in* the chapter as an explicit caution against reading ch. 16 backwards.
+**Watch for this shape wherever a later chapter reaches back for an earlier chapter's evidence: the
+figure is inherited but the quantity it measures is not.**
+
+Six more, all of them the same species as the ch. 15 rounds — claims running ahead of what the
+source carries:
+
+| Drafted | Corrected to |
+|---|---|
+| workload and dependence "are not correlated" | either can be large while the other is small — hours alone cannot diagnose dependence. The statistical claim was never needed |
+| "Three unusual emails a week still waited for him" | his example is one illustrative batch of twelve, not a weekly rate: *even his own example leaves three fairly unique issues that no process absorbs* |
+| "So did every decision about price, product and market" | the post does not *show* those decisions could have proceeded without him — missing evidence, not demonstrated dependence |
+| the migration was work "only one person on earth could do", "could not be scheduled", a "catastrophe" in other hands | the record identifies no second operator and old-code knowledge plainly mattered; whether another engineer could have done it with documentation and time is unknown. **Concentration that was never measured, not irreplaceability** |
+| "the rule is usually better than your judgement" | more consistent and easier to check than an improvised call, *and blunter* — hence stated conditions and an escalation point |
+| "Automating creates a smaller, harder dependence" | automation *can* exchange visible labour for concealed dependence; documented and understood by two people it reduces both. The failure mode is the owner-only kind |
+
+**One taxonomy fix worth keeping.** "Credentials and relationships" was one category with one remedy,
+and the two do not share a remedy: access fails mechanically and is fixed with authorised redundancy
+and a tested recovery procedure; a relationship fails socially and is fixed by months of another
+person being in the room. Same short fuse, different work, and the draft's "the only one you can fix
+in an afternoon" was true only of the first. Monday now carries a sixth item for the relationship,
+which is the slowest thing in the chapter.
+
+Body 2,291 → **2,780**. Same pattern as ch. 15: precision costs words, and it came out of the
+argument's slack rather than out of the corrections.
+
 ## 6c. Handoff: ch. 10 → ch. 11
 
 Recorded before either is drafted, so neither absorbs the other. Ch. 10 establishes that **the sale
