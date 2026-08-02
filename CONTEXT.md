@@ -787,6 +787,21 @@ objection, and the price and promised scope.
 |---|---|---|
 | customer and segment; source/channel; reason for buying now; price and discount; promised scope; actual delivery effort; custom work, exceptions and rework; delivery **completed**; repeatable by this owner next month; what to refuse next time | activation or use; outcome obtained; renewal, reorder or expansion; referral; complaint or reason for leaving | margin; cash timing; concentration; owner compensation |
 
+**A handoff can cause its own overclaim — found at ch. 10 on review.** Ch. 10 wrote that the December
+cancellations *"were not evidence that the service failed to hold people"*. False: customers leaving
+inside a month is precisely that. The error came from respecting the boundary too hard — having
+recorded that retention belongs to ch. 11, the chapter denied a true fact in order to stay inside its
+lane. **The rule: a handoff assigns which question a chapter may answer, never what the evidence is
+allowed to mean.** The same fact can be retention evidence and acquisition evidence at once; ch. 10
+may use the second reading without disowning the first. Expect this failure mode again at every
+Part III boundary, and check for it in the direction of denial rather than trespass.
+
+**Collection is not interpretation.** Ch. 10 also told the reader not to fill in ch. 11's columns,
+which risks destroying evidence that cannot be recovered later. Corrected: capture use, cancellation,
+renewal, reorder and referral the moment each becomes observable; mark what cannot have happened yet
+as *not yet observable* rather than blank or zero; and simply do not use them to close ch. 10's
+decision. **Postpone the interpretation, never the recording.**
+
 **The boundary is finer than it looks.** Ch. 10 may record that delivery was *completed*; it may not
 evaluate whether the relationship *persisted*. And "which customers consumed more support than their
 revenue justified" crosses the line in the middle of the sentence — ch. 10 records support effort and
