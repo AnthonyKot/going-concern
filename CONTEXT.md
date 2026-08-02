@@ -165,6 +165,14 @@ constrain causal order, and nothing in the pipeline checks that.**
   away. The first is the more interesting failure, because a defined outcome is a target and targets
   get hit at the expense of what they stood for. Neither shape found with numbers on both sides.
 
+- **ch. 13** — needs an owner who measured the cash gap, funded it deliberately and shortened terms,
+  and was **worse off**: who lost good customers by demanding deposits, or held a buffer so large the
+  business starved of the investment that would have grown it. The second matters more, because every
+  instruction in the chapter has a cost and the chapter does not price it. Cash discipline is
+  presented as free and it is not. Separately, the timing half of the argument has **no reader-scale
+  case at all** — the arithmetic is arithmetic and the statute is real, but no small business here is
+  shown measuring its own gap.
+
 **A second kind of debt, opened at ch. 05 on external review: an unevidenced prescription.**
 Distinct from a missing counter-case and worse. Ch. 05's evidence standard — repeat paid revenue
 covering your floor — is unreachable for a consultancy, because the chapter itself says such a
@@ -570,7 +578,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 |---|---|---|
 | 11 | What Happens After the Sale | ☑ 24 claims · Turing School CIRR reports (2016–2020) · *owed* |
 | 12 | Reading Your Own Business | ☑ 23 claims · Dutch filing regime (BW2 Titel 9) · *no company case, by decision* 🇳🇱 |
-| 13 | Profit Is Not Cash | ☐ 🇳🇱 |
+| 13 | Profit Is Not Cash | ☑ 12 claims · Instacart S-1 cash flows + BW6 payment terms · *owed* 🇳🇱 |
 | 14 | What a Customer Is Worth | ☐ |
 | 15 | Paying Yourself | ☐ 🇳🇱 |
 | 16 | Enough | ☐ |
@@ -809,6 +817,28 @@ not a drift away from it.
   job.
 - **Spent.** ch. 12 takes the size thresholds, art. 396 lid 8 and art. 394 lid 1. Ch. 13 and ch. 15
   may cite the same statute for different articles; this entry does not reserve them.
+
+### Instacart's S-1, second use — ch. 13
+Permitted return under the ch. 01 ledger's terms: **a different decision and new evidence.** Ch. 01
+used it as an `.aftermath` on scale and timing of the model; ch. 13 uses its cash flow statement to
+teach a mechanism, on claim rows that ch. 01 never touched.
+- **Facts.** 2022: operating cash of $277m against net income of $428m, the difference being $275m of
+  non-cash items — of which a $358m tax benefit from releasing a US deferred-tax valuation allowance.
+  Six months to June 2022: a **net loss of $74m alongside $99m of operating cash**. Six months to June
+  2023: net income $242m and operating cash $242m. The company attributes the swings to *"timing of
+  collection of accounts receivable"* and *"timing of vendor payments"* in its own words.
+- **Permitted.** Reported profit and operating cash are different measures that can diverge in either
+  direction. A loss period can generate cash; a profitable one can consume it. Non-cash accounting
+  entries can dominate a reported profit.
+- **Confounders.** This is a very large business with negotiating power over its payment terms; the
+  reader has the opposite. The direction and size of the gap here say nothing about the direction and
+  size at €200k of revenue. And the valuation-allowance release is a US tax mechanism, not a general
+  feature of profit.
+- **Prohibited.** Never that profit systematically overstates cash — the H1 2022 figures show the
+  reverse in the same document. Never that a reader's gap will resemble Instacart's. Never any
+  inference about Instacart's business quality; the chapter uses the statement, not the company.
+- **Spent.** ch. 13 takes the three period comparisons, the valuation-allowance benefit and the two
+  timing quotations. Nothing reserved.
 
 ## 6c. Handoff: ch. 10 → ch. 11
 
