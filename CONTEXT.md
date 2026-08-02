@@ -843,6 +843,50 @@ teach a mechanism, on claim rows that ch. 01 never touched.
 - **Spent.** ch. 13 takes the three period comparisons, the valuation-allowance benefit and the two
   timing quotations. Nothing reserved.
 
+## 6e. Ch. 14 — What a Customer Is Worth: settled before drafting
+
+**Thesis.** Not how much revenue a customer produces, but how much remains after acquiring and
+serving them, and how long the business must wait to receive it.
+
+**The decision.** How much you can afford to spend to acquire and serve a customer, how long you can
+afford to wait to recover it, and which customers are not worth keeping.
+
+**Two chapters converge here from opposite sides, and clearing one is not clearing both.** Ch. 07
+deferred the cost of acquiring a customer — question four of the channel test, explicitly left for
+"whichever later chapter owns customer value". Ch. 13 deferred whether a customer is worth financing
+across the gap between serving them and being paid. A ch. 14 that answers only the first is a
+cost-per-acquisition chapter; one that answers only the second is a working-capital chapter. It has
+to do both.
+
+**Reject outright: customer value = total lifetime revenue.** The model is *observed contribution −
+acquisition cost − exceptional service cost*, held together with the time taken to recover the cash.
+Two customers each eventually contributing €2,000 are not equally valuable when one pays before
+delivery and needs little support and the other pays at ninety days, needs heavy onboarding, and
+repays its acquisition cost after eighteen months. Ch. 13 established that a profitable customer can
+still be a cash problem; ch. 14 must carry that rather than treating value as timeless money.
+
+**Five corrections, in order:**
+
+1. Revenue is not value — subtract direct and customer-specific delivery cost.
+2. The average customer may not exist — calculate by segment, channel or cohort.
+3. *Lifetime* is usually an assumption — use the **observed** period and state what is unknown.
+4. Acquisition cost includes founder time — free channels often consume expensive labour (ch. 05's
+   replacement-cost rule and ch. 07's practised channels both apply).
+5. Timing changes affordability — compute the recovery period, not only the eventual contribution.
+
+**Add, and not in the source guidance: the survivorship trap.** Contribution computed from customers
+who are still present overstates it, because the ones who left early are excluded from the
+denominator — the same error ch. 11 caught with *"could not contact"*, arriving in a new place. Any
+cohort figure must state the population it was computed over. Expect this to be the chapter's
+sharpest boundary.
+
+**Output the chapter must produce:** one row per meaningful segment — observed revenue, direct
+delivery cost, support burden, acquisition cost, contribution, and months to recover acquisition and
+initial delivery cash. It extends the operating record from ch. 10 and ch. 11 rather than starting a
+new document.
+
+**Case: not yet found.** No Dutch box is flagged for this chapter.
+
 ## 6c. Handoff: ch. 10 → ch. 11
 
 Recorded before either is drafted, so neither absorbs the other. Ch. 10 establishes that **the sale
