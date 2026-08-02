@@ -11,7 +11,7 @@ These were settled at the outset and should not be relitigated without a reason.
 
 | Question | Decision | Why |
 |---|---|---|
-| Sourcing | **Company cases first.** Each chapter is anchored on a real, named, dated company. Business books appear only in the reading list. | The subject has no canon the way quantum mechanics does. Comparing eight business books would inherit their collective blind spots. Companies are checkable; frameworks are not. |
+| Sourcing | **Company cases first.** Each chapter is anchored on a real, named, dated company. Business books appear only in the reading list — as adversarial foils and further reading, never as claim sources (§5c). | The subject has no canon the way quantum mechanics does. Comparing eight business books would inherit their collective blind spots. Companies are checkable; frameworks are not. |
 | Audience | **The experienced developer going out on their own.** ~40, fifteen-plus years salaried, Netherlands or similar. Self-funded, heading for 1–20 people, still doing the work. | Underserved, and unusually shaped: arrives fluent in systems, constraints, iteration and measurement, illiterate in demand, distribution, selling, pricing and cash. Also old enough to have a mortgage, which changes every risk calculation in the book. |
 | Jurisdiction | **General argument, Dutch specifics quarantined** in `On Dutch ground` boxes. | Employment law, invoicing, dismissal and side-work rules genuinely change the answer, and a reader who cannot act on a chapter has not been helped. Quarantining keeps the general argument portable and stops law from rotting the prose. |
 | Chapter length | **2,000–3,000 words**, measured on chapter content. Raised from 2,500 after both finished chapters overran (01: 2,958, 05: 2,606). | 2,500 was a guess made before a chapter existed; 2,600–2,950 is where the form actually sits once a case with real figures, a bounded principle and a counter-case are all present. This is now a hard ceiling, not a target — anything over 3,000 gets cut, not excused. Ch. 02 drafted at 3,333 and was cut to 3,000; the ceiling held and the chapter is better for it. **Part-closing passages are counted separately** — they close a part rather than a chapter, appear once per five chapters, and would otherwise force real argument out of whichever chapter happens to sit last. Ch. 05 is 2,804 of chapter plus a 321-word Part I close. Declared rather than quietly absorbed. |
@@ -145,6 +145,15 @@ constrain causal order, and nothing in the pipeline checks that.**
   the second product could not wait out, and the skill was one channel in one market rather than
   "distribution".
 
+- **ch. 08** — needs someone who did the asking properly (a real list, frustration questions rather
+  than pitches, tracked follow-up, several hundred conversations) and either learned nothing that
+  changed the business, or was actively misled — took a stated objection at face value, built its
+  removal, and found it was a polite substitute for a different and fatal one. The second shape is
+  more likely real and harder to find: it requires publishing an account in which you listened
+  carefully to customers and were led astray. **Every published sales account is written by someone
+  for whom asking worked, so the base rate on asking is unknown to this book and probably to
+  everyone.** That sentence is the honest state of the evidence and should not be softened later.
+
 **A second kind of debt, opened at ch. 05 on external review: an unevidenced prescription.**
 Distinct from a missing counter-case and worse. Ch. 05's evidence standard — repeat paid revenue
 covering your floor — is unreachable for a consultancy, because the chapter itself says such a
@@ -200,6 +209,38 @@ Structural markup already in `static/style.css`:
 - `.monday` — the action box
 - `.reading` — the sources list
 - `.unverified` — inline mark on any figure not yet checked against a primary source
+
+### Standing constraint: the book must not become a licence to wait
+
+Set 2026-08-02, after ch. 07, and it applies to every remaining chapter including all of Part III.
+
+The reader is forty, has a mortgage, and has been salaried fifteen years. **Their dominant failure
+mode is almost certainly not building the wrong thing. It is never leaving.** And the apparatus this
+book has built — evidence standards, stopping rules, thresholds, four-part tests, debt registers,
+`.limit` blocks, a chapter admitting its own standard is unreachable for consultancies — reads, to a
+cautious person, as a rigorous and well-sourced licence to wait one more quarter, indefinitely.
+
+The risk is created by the book's virtues, not despite them, which is why no reviewer has caught it:
+every review optimises for correctness, and every correction so far has made a claim weaker.
+Note the asymmetry, because it will not fix itself — **a reviewer is never wrong to say "you
+overclaimed", so nothing in the process ever pushes the other way.** Across seven chapters that
+ratchets in one direction: more defensible, less usable.
+
+Three rules follow.
+
+1. **Precision in the claims, confidence in the instructions.** The argument may hedge. The `Monday`
+   list may not. If a `Monday` item ever reads *consider possibly*, the ratchet has gone too far.
+   This is a checkable trip-wire and should be checked when each part closes.
+2. **Every evidence standard needs an expiry.** A threshold with no date is an invitation to wait.
+   Ch. 04 already requires a date; the rest of the book must not state a bar without one.
+3. **Waiting is a decision with a cost, and the book must say so where it bites.** Ch. 05's
+   *"Employed time is not free"* boundary is the only place this currently appears. Part III is where
+   it matters next — the chapters on cash and customer value can each be read as reasons to defer,
+   and each must name what deferring costs.
+
+Not a reason to loosen any claim already corrected. The corrections were right. This is about what
+gets written next, and about noticing when accuracy has started serving the author rather than the
+reader.
 
 ## 4. Voice
 
@@ -263,6 +304,131 @@ how to wind up cleanly (28).
 
 The 🇳🇱 mark in the register below flags chapters that need one.
 
+## 5c. Adversarial books (not sources)
+
+Business books appear only in reading lists. They never anchor a chapter and never supply a figure
+to `claims.tsv`. Their job is different: they are **adversarial references** — maps of competing
+advice the reader will already have heard — against which this book's decisions can be tested.
+
+Two books currently matter for that job. Neither is a co-author of the spine. Both are allowed to
+force a boundary, a debt note, a Monday action, or a re-ordering of emphasis *inside* a chapter that
+already has a company case.
+
+### Role, hard rules
+
+| Allowed | Forbidden |
+|---|---|
+| Short, non-literary concept notes in this file | Reproducing explanations, examples, or distinctive phrases |
+| "Agrees / challenges / evidence owed" against our outline | Registering claims against a book extract, PDF, or third-party dump |
+| Further-reading line in a chapter, attributed by title and author | Treating a public GitHub extract as licensed text |
+| Stress-testing our sequence against a competing sequence | Adopting magic numbers, platform tactics, or chapter order wholesale |
+| Tracing a *principle* to a primary source (filing, founder post, Graham essay) | "Rewrite this chapter in our style" against the book's prose |
+
+**Ideas and methods are free to argue with; expression is not.** Draft with sources closed. After
+drafting, a quotation scan is for *our* accidental paraphrase of registered primaries *and* for
+accidental absorption of further-reading prose. A full-text dump of any commercial book — including
+one sitting in someone else's embeddings repo — is research-only material that **never enters this
+repository**, never appears in `sources/` or `checks/`, and is never treated as open source because
+a README explained PDF-to-embeddings. Default copyright applies unless a license file says otherwise.
+
+### The Personal MBA (Kaufman) — foil, corrected
+
+Early copy on the site and in `README.md` called it "250 alphabetised concepts with no accumulation."
+That was **half right and factually wrong**:
+
+- **Wrong:** alphabetised. The book's (and site's) structure is thematic — Value Creation, Marketing,
+  Sales, Value Delivery, Finance, human behaviour, systems — with named concepts under each chapter,
+  not an A–Z glossary.
+- **Defensible contrast:** it is a **concept map** of business. Short entries under broad themes;
+  weak dependency order; you can open mid-book and still get value. This book is a **decision
+  sequence** for one reader; later questions are illegible until earlier ones are answered.
+
+When public copy mentions Kaufman, use the defensible contrast only. Do not score points on a false
+structural claim. The book remains useful further reading for the Iron Law and for readers who want
+the map; it is not what this project is.
+
+### The Minimalist Entrepreneur (Lavingia) — adversarial map
+
+**Status:** approved as a critical foil for outline stress-testing. **Not** a foundation source.
+**Not** a co-spine. Greatest value: competing *orders of operations* the reader will meet in indie /
+bootstrapped discourse, against which our spine can be defended or refined.
+
+His rough emphasis (community → manual process → sell → productize → hire / energy) overlaps our
+reader (builders who want small independent businesses) without replacing:
+
+> demand → payment → economics → operations → resilience
+
+Community is a **method of finding demand**, not a substitute for "will someone pay." Manual-before-
+software hardens the developer failure mode; it does not reorder Part I.
+
+#### Two highest-value challenges (act on these first)
+
+1. **Manual valuable process before software**  
+   Our reader's characteristic error is writing code because that is the comfortable part. A
+   competing sequence — perform the valuable process by hand, sell it, *then* decide what deserves
+   automation — belongs as first-class pressure on ch. 03 (delivery axis), ch. 10 (first ten), and
+   ch. 11 (after the sale), not as a buried boundary. Evidence must be *our* cases with numbers
+   (white-glove onboarding, spreadsheet ops, consulting hours), never his examples re-skinned.
+
+2. **Community versus channel**  
+   Ch. 07 asks where buyers can be *reached* (owned vs rented; two practised channels). A different
+   question is whether you already have **standing** where they gather. Channel = access; community
+   participation = trust without guaranteed reach. Product Hunt in ch. 06 already almost states this
+   (right message, wrong place / no standing). Enrich ch. 07 (or the 06→07 bridge) with
+   participation-before-extraction as a **named variable**, without replacing "you can afford two"
+   with "community first" dogma. The reader often has evenings and a day job, not a following.
+
+#### Full concept map (our words only)
+
+Legend for the **Stance** column: **agree** (already ours or should become ours) · **challenge**
+(pressure the chapter; may become a boundary or Monday item) · **resist** (do not import) ·
+**research** (principle only; settle with primary evidence later).
+
+| Concept (restated, not quoted) | Hits our chapters | Stance | What to do / evidence owed |
+|---|---|---|---|
+| Start where people already gather; earn trust before extracting | 02, 06, 07 | challenge | Add *standing* vs *access* to ch. 07; do not demote interviews or positioning. Case owed: someone who only "showed up" without contribution and failed, or who contributed for years with no path to payment. |
+| Do the valuable process manually before productising / automating | 03, 10, 11 | agree + strengthen | Developer-specific: automation is the comfort failure. Make manual delivery a first-class option on the seller axis (ch. 03) and before scaling the first ten (ch. 10). Primary cases only. |
+| Sell one-to-one (or few) before a public launch | 08, 10 | challenge | Useful counterweight to launch culture. **Resist** any fixed headcount threshold (e.g. "N customers") as law — our tool is a named metric + date + consequence (ch. 04), not a magic number. |
+| Spend on marketing late; organic and direct first | 07 | partial agree | Already adjacent to owned-vs-rented. Keep the principle; treat 2020–2021 platform tactics (social rooms, lookalikes, "organic reach") as **dated** and never as timeless Monday actions. |
+| Stay default-alive; profitability as survival constraint | 11–16, 23–28 | research | Research lead for Parts III and V. Trace "default alive" to **Paul Graham** and settle with company evidence (open books, filings, contemporaneous posts) — not to a secondary popularisation. |
+| Owner energy runs out; pace is a constraint | 16, 23, 28 | challenge | Our spine emphasises financial resilience more than exhaustion. Energy is a **parallel ledger**, not a reordering of demand→payment→economics. Feed *Enough*, *Slack*, *Knowing When to Stop* without making burnout the main plot. |
+| Hire to replace yourself at a bottleneck, not to look like a company | 17, 19 | agree | Aligns with practice-vs-asset (Part IV). Contrast "hire for status" vs "hire so the owner is not the only path." Needs small-company cases with payroll numbers. |
+| Make time / optionality after the business can pay for itself | 05, 16, 17, 27 | agree | Supports ch. 05 (don't resign on hope) and the practice-vs-asset distinction. Money first, calendar freedom second — not the reverse. |
+| Build an audience / personal brand as the engine | 06, 07 | resist as default | Fine as *one* owned channel when true; poison as the implied path for a 40-year-old with a mortgage and no interest in becoming a content business. Our reader may sell quietly to twelve companies. |
+| Software should be the last form of the offer | 03, 10, 11 | agree (narrow) | Same as manual-before-software, scoped to this reader. Not anti-software — anti-writing-the-comfortable-part-first. |
+
+#### What we explicitly do **not** take
+
+- His chapter order as our chapter order.  
+- Creator-economy or Gumroad-shaped anecdotes as the Part II default (case budget: famous vs
+  recognisable still applies; prefer first-party small operators).  
+- Genre voice: "build in public," community-as-identity, inspirational compression without a
+  counter-case. That is how this book becomes interchangeable with every indie SaaS thread.  
+- Any CSV, PDF extract, or embeddings corpus of the book text in the working tree.
+
+#### Safe research workflow (when consulting this foil)
+
+1. Extract concepts into **short non-literary notes** (this section is the home for the settled ones).  
+2. Mark each note **agree / challenge / resist / research** against the outline.  
+3. For anything that will become a factual claim, find the **original** case, interview, company
+   post, filing, or dataset.  
+4. Cite that primary in the chapter; register strings against *it*.  
+5. Put *The Minimalist Entrepreneur* in further reading where the challenge is real — title and
+   author only, no long paraphrase.  
+6. Draft in our four-move template with the foil **closed**.  
+7. After draft, compare finished prose to notes (not to full text) for accidental close phrasing;
+   run the usual quotation / self-assessment scans.
+
+If a full-text extract is used privately for indexing ideas, it stays **outside** this repo forever.
+It is not a source class. It is not "open" because it is public on GitHub.
+
+#### Dilution watch
+
+Lavingia is widely known in the same discourse our reader browses. If Part II starts to *sound* like
+that discourse — community first, 100 customers, marketing last as slogans — we have lost the moat:
+mortgage arithmetic, evidence before resignation, counter-case honesty, and company-first sourcing.
+Pressure the outline; protect the voice.
+
 ## 6. Chapter register
 
 Legend: ☐ not started · ◐ drafted · ☑ written and sourced
@@ -311,6 +477,13 @@ cost can be correct once lifetime arithmetic exists.
 Appointment Reminder is scored against all four in the `.limit`, per the rule below about numbered
 tests: fails one, and never reaches two, three or four.
 
+**Hard constraint from ch. 08 onward: no more software cases in Part II.** Chapters 06, 07 and 08
+anchor on Plausible, Bingo Card Creator and ConvertKit — three software businesses in a row, which is
+exactly the skew §7 warns about. Ch. 09 is Studio Neat (physical product, already earmarked, and the
+cost of goods is the point). **Ch. 10 must be non-software and must not be recognisable**, and if the
+only candidate found is another SaaS the correct move is to keep looking or to write the chapter on a
+smaller case with the thinness declared. Part III should open non-software too.
+
 **Part II plan — set 2026-08-02, before ch. 06 was written.** Through-line: Part I proved one person
 wanted it once; every chapter here is a different reason that might not repeat.
 
@@ -321,10 +494,12 @@ wanted it once; every chapter here is a different reason that might not repeat.
 - **07 Where They Already Are** — distribution is a skill practised, not a budget spent. Case:
   McKenzie / Bingo Card Creator long-tail SEO, returning by design. Needs a research pass on which
   figures are already registered from ch. 05 and which are new.
-- **08 Asking for Money** — selling is a service performed for the buyer; avoiding it is not a
-  marketing strategy. **No case found yet, and the hardest in the part** — nobody publishes numbers
-  on their own sales conversations. Leads: an agency that documented win rates, or an owner who
-  logged outreach and outcomes. Draelos is spent in ch. 04 and cannot carry this.
+- **08 Asking for Money** — **written.** The prediction that nobody publishes numbers on their own
+  sales conversations was wrong: Nathan Barry's contemporaneous ConvertKit post gives
+  *"Out of about a hundred personal emails, we picked up 5-7 customers"*, plus a month-by-month MRR
+  ladder through the failure as well as the recovery. Primary source is deliberately the 2015 post
+  rather than the 2017 retrospective, because it was written before the outcome was known. **Rule
+  worth keeping: "nobody publishes this" is a claim about the search, not about the world.**
 - **09 What to Charge** 🇳🇱 — pricing by effort is the characteristic error of people who are good at
   the work. Case: Studio Neat, possibly with a documented price rise. Dutch box: VAT, and whether
   you quote inclusive or exclusive and to whom.
@@ -346,7 +521,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 |---|---|---|
 | 06 | Who Is This For | ☑ 60 claims · Plausible Analytics (2018–2022) · *owed* — Product Hunt is a `.limit` |
 | 07 | Where They Already Are | ☑ 58 claims · Bingo Card Creator (2008–2011) · *owed* — Appointment Reminder is a `.limit` |
-| 08 | Asking for Money | ☐ |
+| 08 | Asking for Money | ☑ 47 claims · ConvertKit (2013–2015) · *owed* — the Thailand fortnight is a `.limit` |
 | 09 | What to Charge | ☐ 🇳🇱 |
 | 10 | The First Ten Customers | ☐ |
 
@@ -430,7 +605,7 @@ reader lacks: two people, no outside money, and the chapter turns on the month t
 So the distinction the budget actually wants is **famous** — an outcome at a scale the reader cannot
 reach, which smuggles in resources — versus **recognisable** — a business at his scale he happens to
 know. Only the first is rationed. The recognisability is still a real cost, so Plausible is charged
-**half a slot**. **Running total: two and a half of four or five.** The rest of Part II spends none;
+**half a slot**. **Running total: three of four or five** — ConvertKit charged a second half-slot at ch. 08 on the same reasoning (recognisable to this reader, but two people and $1,207 MRR at the moment the chapter turns). The rest of Part II spends none;
 if a second recognisable business is wanted later, it comes out of the same allowance, not a new one.
 
 The rest must be at his scale:
@@ -636,3 +811,5 @@ Keep this table. It is the standing argument for why the book is built this way.
 
 - Whether Part V needs a chapter on selling the business as distinct from ch. 27 (*Built to Leave*), or whether that is one chapter's worth of material stretched into two.
 - Whether to include a short appendix of the arithmetic — breakeven, contribution margin, runway — as a reference rather than dispersing it through Part III.
+- How much **owner energy / exhaustion** belongs in the spine versus in boundaries of *Enough*, *Slack*, and *Knowing When to Stop*. Adversarial foil (§5c) pushes for a parallel ledger; the book currently privileges financial resilience. Decide before drafting Part V, and do not let energy reorder demand → payment → economics.
+- Whether ch. 07 needs a dedicated **standing vs access** subsection in a future pass, or whether the 06→07 bridge plus one Monday item is enough. Do not rewrite 07 until Part II's remaining chapters exist — enrichment, not a blocking rewrite.
