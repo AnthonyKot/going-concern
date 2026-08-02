@@ -91,8 +91,10 @@ survivor who ignored the advice count. **Do not.** Hold the definition and carry
   consequence, and should not have. The Gymdesk block was called a counter-case in the first two
   drafts and is now a `.limit`: measured against the chapter's own three-part test, Galperin had a
   date, a vague threshold, and no written consequence at all — about one and a half of three. He did
-  not follow the advice and fail; he half-followed it and got away with it, which argues *for* the
-  chapter. Caught on external review; see §8 on why the script could not catch it.
+  not follow the advice and fail; he half-followed it and got away with it. Note the limit of what
+  that shows: it supports *widening the menu of consequences*, and not *choosing one in advance* —
+  he improvised and it worked. Caught on external review over three passes; see §8 on why the script
+  could not catch any of them and why the error kept regenerating at a finer grain.
 - **ch. 05** — the Gymdesk block is a real counter-case, but only to the *threshold* advice: Galperin
   went full time with no customers, so he did not follow the chapter's central recommendation at all.
   Still owed: someone who cleared a conservative evidence bar — repeat paid revenue covering their
@@ -413,6 +415,25 @@ Two rules follow.
 numbered test — ch. 04's three components, ch. 02's five extractions — write the case against every
 numbered item before claiming it fits. Ch. 04's counter-case met one and a half of three, and nobody
 noticed because every sentence in it was true.
+
+**The error is recursive, and that is the thing to internalise.** Chapter 4's Gymdesk block has now
+been corrected three times, each pass catching a finer-grained version of the same move:
+
+| Pass | The overclaim | What was actually true |
+|---|---|---|
+| 1 | "counter-case: the rule, honoured, would have been wrong" | he never followed the rule |
+| 2 | "did exactly what this chapter asks" | one and a half of three components |
+| 3 | "the pair make the same point: the third component is load-bearing" | the case supports *widening the menu of consequences*; it says nothing about **choosing one in advance**, because Galperin improvised and succeeded — if anything it cuts the other way |
+
+Each fix was honest and each left a smaller instance of itself behind, because the pull is not toward
+one wrong sentence but toward extracting the maximum lesson a case will bear. The countermeasure is
+mechanical, not moral: **after fixing an overclaim, re-read the corrected passage as if it were a
+stranger's, and ask what the case would have to have done differently for the new sentence to be
+false.** If the answer is "nothing", the sentence is still not saying anything about the case.
+
+Ch. 04 now separates its own component 3 into two claims and marks them differently: *the menu must
+be wider than stop* (demonstrated by Gymdesk) and *you must choose which, in advance* (reasoned from
+the sunk-cost argument, no case behind it, and the chapter says so).
 
 **The hierarchy, and none of the steps is automatic:**
 
