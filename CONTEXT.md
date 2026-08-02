@@ -134,16 +134,27 @@ attributed to Plausible as their reading rather than asserted as fact. **The gen
 chapter can be 100% verified and still have its arrows pointing the wrong way. Dates in the source
 constrain causal order, and nothing in the pipeline checks that.**
 
+- **ch. 07** — needs someone who picked two channels, practised them properly for a year or more,
+  published the numbers, and found the compounding never arrived while a competitor who simply
+  bought attention took the market. Different difficulty from the earlier debts: the buy-attention
+  winners are highly visible, and what is missing is the other half of the pair — patient work that
+  failed, which does not get a year-in-review post. Appointment Reminder is the nearest thing in the
+  record and disqualifies itself, in McKenzie's own words: he did not run the playbook, naming
+  burnout, consulting and an earthquake, and calling the failure *"Insufficient pre-launch
+  marketing."* Kept as a `.limit` because what survives is real — the asset has a minimum duration
+  the second product could not wait out, and the skill was one channel in one market rather than
+  "distribution".
+
 **The recurring failure to watch for:** the pull is always to call a nearly-fitting case a
 counter-case, because the alternative is an admission. Three of the four written chapters have done
 it. Check the label against the chapter's *central* advice, clause by clause, not against whatever
 advice the case happens to counter — and if the chapter states a numbered test, score the case
 against every numbered item before claiming a fit.
 
-**Settled: a low hit-rate is acceptable.** Part I complete and ch. 06 written, and the honest score
+**Settled: a low hit-rate is acceptable.** Part I complete and ch. 06–07 written, and the honest score
 is **no chapter carrying a counter-case that meets the definition against its own central advice**;
-one (ch. 05) carrying a real counter-case to a subsidiary claim; two `.limit` blocks (03, 04) and a
-third in ch. 06; and six recorded debts (01–06). That
+one (ch. 05) carrying a real counter-case to a subsidiary claim; four `.limit` blocks (03, 04, 06,
+07); and seven recorded debts (01–07). That
 ratio is expected to hold — the device may only be satisfiable in
 something like half the chapters, because failure is under-published. This is **not** a reason to
 loosen the definition later. `.owed` notes are a permanent feature of the book, not a temporary
@@ -286,7 +297,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 | # | Title | Status |
 |---|---|---|
 | 06 | Who Is This For | ☑ 60 claims · Plausible Analytics (2018–2022) · *owed* — Product Hunt is a `.limit` |
-| 07 | Where They Already Are | ☐ |
+| 07 | Where They Already Are | ☑ 58 claims · Bingo Card Creator (2008–2011) · *owed* — Appointment Reminder is a `.limit` |
 | 08 | Asking for Money | ☐ |
 | 09 | What to Charge | ☐ 🇳🇱 |
 | 10 | The First Ten Customers | ☐ |
