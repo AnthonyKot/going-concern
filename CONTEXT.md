@@ -1842,6 +1842,132 @@ service hire, the one-man-to-company framing sentence, and the 8-employees/4-con
 figure) and two against `bw7-2026` (art. 610 lid 1's definition, art. 610a's presumption), all under
 `checks/claims.tsv` chapter 19. `./verify.sh --strict 19` passes all six.
 
+### Ch. 20 — Managing People 🇳🇱
+
+**Status: has a case.**
+
+**Candidate.** Groove (GrooveHQ), the shared-inbox/helpdesk SaaS founded by Alex Turnbull — a
+**new company for the recurring cast**, not a return of Gymdesk or Bingo Card Creator. Source:
+"Firing: How I Do the Hardest Thing as an Entrepreneur" (groovehq.com, published 2015-01-29,
+archived by the Internet Archive 2015-03-16; the live domain now serves a 2026-dated rebrand,
+"Helply," and the original blog is gone — checked, not assumed: the live URL 404s and the CDX record
+for the whole `groovehq.com/blog/*` path was pulled to confirm the archive is the only copy). Groove
+was three years old and self-funded-to-VC-backed at the time of writing (the chapter would frame it
+at the reader's stage-of-company, not its later size); the post is Turnbull's own, first-party,
+contemporaneous account of hiring and firing practice, not a retrospective written years later.
+
+**Why not a fourth Gymdesk chapter.** Gymdesk/Galperin has now carried ch. 04, ch. 05, ch. 18 and
+ch. 19 — two of those in immediate succession. §7's own recurring-cast rule says two of five chapters
+with no fresh sourcing is "the point at which a cast stops reading as continuity and starts reading
+as a shortage of research"; a fifth use, back-to-back with the fourth, would cross that line for real
+rather than as a figure of speech. A new company was actively sought for this reason, not merely
+found by default.
+
+**What this chapter would use it for.** The post is not a general theory of management; it is one
+founder's account of two specific mechanisms, offered because they are what he actually changed after
+"screwing up plenty of times." First: a non-negotiable 2-4 week paid trial for every hire, at every
+level, before any permanent offer — explicitly a **forcing function**, in his words, that makes the
+difficult go/no-go conversation happen on a schedule rather than being deferred indefinitely. Second:
+direct, honest feedback given *during* the trial, as often as daily, and logged in writing, because
+waiting until the trial's end to say anything "helped nobody" — his own correction of his own earlier
+practice. The trial's evaluation draws on more than the founder's own judgement: teammates who work
+closely with the new hire, and the new hire's own stated assessment of fit, both feed the decision.
+The chapter's other load-bearing fact is a turnover figure offered without being asked for social
+credit: Groove "turned over nearly 40% of the team we launched with" in its first three years — on a
+small team, a large fraction, and Turnbull's stated reason is his *own* hesitation to fire promptly,
+not the hires' quality: every person let go, he says, "has been more than qualified to do the job."
+That reframes "managing people" away from screening for competence (ch. 19's territory, and hiring
+generally) and onto a distinct, later failure mode: knowing a fit is wrong and delaying the
+conversation anyway, at a cost the post itemises as slower milestones, reduced team productivity from
+unhappy colleagues, and the founder's own productivity lost to "trying to force a fit where there was
+none."
+
+**Primary documents and evidence class (§5).**
+- `groove-fire-2015` — groovehq.com via web.archive.org, published 2015-01-29, archived 2015-03-16,
+  consulted 2026-08-06. First-party, but a founder's own account of his own company: §5's **weaker**
+  class, attributed in the prose as "by Turnbull's own account," on the same footing as every
+  Galperin post already in the book. Not audited, not independently verified. The turnover figure is
+  round ("nearly 40%") and self-reported — flagged here so the eventual draft does not present it with
+  false precision.
+- `bw7-2026` — Burgerlijk Wetboek Boek 7, arts. 669, 671, 672 and 673,
+  `wetten.overheid.nl/BWBR0005290/2026-01-01`, consulted 2026-08-06. **Not a new source** — already
+  registered at ch. 05 and reused at ch. 19 for different articles, which needs no new ledger entry
+  per §6b. This is the chapter's ground-box content, and it is what makes ch. 20 the second of the
+  four Dutch-legal chapters the epic names: §5b's subject list assigns ch. 20 "ending an employment,
+  notice, and severance," confirmed directly against the file rather than assumed from the task
+  description. Art. 669 lid 1 sets the general rule the reader needs before anything else: dismissal
+  requires a `redelijke grond` (reasonable ground) *and* a finding that redeployment to another
+  suitable role, within a reasonable period, is not possible or not sensible — there is no
+  at-will dismissal in this jurisdiction, ever, for any reason, which is the single most important
+  fact for a reader whose only frame of reference may be US practice. Art. 669 lid 3 onderdeel d
+  supplies the ground that speaks directly to "performance problems": unsuitability for the role,
+  *other than through illness*, provided the employer notified the employee of this **in good time**
+  and gave them a **real opportunity to improve** — a documented improvement process is not best
+  practice under Dutch law, it is close to a precondition for the ground being available at all. Art.
+  672 lid 2 gives the statutory notice-period ladder an employer must observe (one month under five
+  years of service, rising to four months at fifteen years or more). Art. 673 lid 2 and lid 3 give the
+  transitievergoeding (statutory severance) formula — one third of a month's salary per year of
+  service — and its current cap, €102.000 or twelve months' salary if higher.
+- **Not pursued.** A Belastingdienst or Rijksoverheid page on how dismissal grounds are actually
+  assessed by the UWV or the kantonrechter in practice (case volumes, how often each `redelijke grond`
+  succeeds) was not searched for — out of this task's time box, and arguably out of scope for a box
+  whose job, per §5b and the stricter ch. 15/19 process, is to quote the statute and stop rather than
+  to survey enforcement. Flagged for whoever settles this chapter under §6f, as ch. 19's entry flagged
+  the equivalent gap for the employee/contractor test.
+
+**The unspent inference (§6b — new case, so this records the inference for future use rather than
+testing it against a prior entry).** No earlier chapter has used Groove. The inference this source
+supports — that the harm in "managing people" badly is not misjudging who to hire but delaying the
+conversation once the judgement is already made, and that a scheduled forcing function (the trial
+period) substitutes for the willpower a founder does not reliably have in the moment — is distinct
+from ch. 18's inference (documentation transfers operational knowledge) and ch. 19's (the
+contractor/employee threshold is a decision made at a specific, nameable moment). If Groove returns
+in a later chapter, the fact to record here for that test is: this entry took the trial-period
+mechanism, the during-trial feedback practice, and the three-year turnover figure. Nothing else in
+the post — its hiring-channel material (WeWorkRemotely, referrals from the blog itself), its account
+of remote-work skill, or its later Q&A material on hiring junior developers — has been drawn on, and
+would be available to a future ch. 19-adjacent hiring chapter without re-litigating this one, subject
+to the "name the inference" test.
+
+**Scale note (§7).** Groove is not famous — it never reached the scale that would put it outside the
+reader's plausible future — but it is **recognisable** to the same bootstrapper/indie-SaaS audience
+that already knows Plausible, ConvertKit and Pinboard, on the strength of its own "path to $500k MRR"
+open-revenue blog series (visible in this very post's own sidebar). Under the distinction §7 draws at
+ch. 06, that charges **another half-slot** against the four-or-five-chapter recognisability budget.
+Running total after ch. 16 was three and a half of four or five; this entry brings it to **four of
+four or five**, with eight chapters remaining after ch. 20. Whoever settles ch. 20 under §6f should
+treat this as close to the ceiling: at most one more recognisable business fits inside the stated
+budget for the rest of the book, and Parts IV and V were supposed to lean into businesses nobody has
+heard of. This entry is made anyway because the alternative — a fifth consecutive Gymdesk chapter, or
+no case at all for a chapter the epic marks as carrying actionable legal content — is worse than the
+recognisability cost; but the tradeoff should be named at settlement, not discovered there.
+
+**Domain-competence declaration (§8).** This is one of the four chapters the epic names as carrying
+Dutch legal content a reader can act on and be harmed by, and needs the ch. 15/19 stricter process at
+settlement. The competence risk is not the statute's plain words — arts. 669, 671, 672 and 673 were
+read directly from the consolidated text, not summarised from memory or a law firm's blog — it is
+**conflating the American and Dutch defaults.** The Groove case is entirely a US at-will-adjacent
+practice (trial periods as internal culture, not law) and must not be allowed to leak into the ground
+box's account of what Dutch law requires, or vice versa: the box must not imply that a Dutch employer
+can replicate Turnbull's "fire quickly, on my own judgement" model, because art. 669 lid 1 forecloses
+exactly that outside a short statutory proeftijd. The second risk, specific to this chapter, is
+presenting the transitievergoeding as a penalty for firing badly rather than what art. 673 actually
+makes it: a payment owed on dismissal initiated by the employer *for any qualifying reason*,
+performance included, provided the ground is valid — it is not a fine for wrongful dismissal, and
+conflating the two would be exactly the kind of overshoot §6f's ch. 15 review caught twice. A chapter
+that reports "you can fire someone for underperformance the way Groove did, you just have to pay
+severance" would still be wrong, because the ground itself — lid 3 onderdeel d's notice-and-real-
+opportunity-to-improve requirement — is a precondition independent of the money. No accounting
+content; the risk is entirely legal-interpretive, and it is larger than ch. 19's because this box
+carries four articles and a live formula with a cap, not two articles and a single presumption.
+
+**Registered.** Three claims against `groove-fire-2015` (the 2-4-week trial as a forcing function, the
+during-trial feedback practice, and the "nearly 40%" turnover figure) and six against `bw7-2026`
+(art. 669 lid 1's reasonable-ground-and-redeployment test, art. 669 lid 3 onderdeel d's notice-and-
+opportunity-to-improve requirement, art. 672 lid 2's notice-period rule and its under-five-years tier,
+and art. 673 lid 2's transitievergoeding formula and its cap), all under `checks/claims.tsv` chapter
+20. `./verify.sh --strict 20` passes all nine.
+
 ## 7. Cases to avoid
 
 Overused to the point of meaninglessness, and in several instances misreported for decades:
