@@ -1678,6 +1678,72 @@ ceiling with part-closes excluded. Self-tested against the chapter 6 markup bug 
 4. **The loop depends on external review.** All 47 were found by reading, not by me and not by the
    script. That dependency should be stated rather than assumed to be robust.
 
+## 6i. Case hunt — chapters 18–28
+
+One entry per chapter, written **before** its `§6x` settlement and before any prose, per the epic's
+binding order: candidate, sources and evidence class, the unspent inference against §6b, the
+domain-competence declaration §8 requires, and an honest status. A chapter whose figures cannot be
+registered is recorded as having no case rather than written around the gap.
+
+### Ch. 18 — Writing It Down
+
+**Status: has a case.**
+
+**Candidate.** Gymdesk / Eran Galperin — already the book's recurring counter-case (ch. 04, ch. 05),
+returning on a **different, later source**: "How to fire yourself as a founder"
+(erangalperin.com, 2023-06-29/30, sequel to a 2023-05-12 post it names and links, "the process I
+went through growing Gymdesk from a one-person operation to a company with over 10 FTE"). Self-funded
+B2B SaaS, at the reader's scale, no 🇳🇱 flag on this chapter.
+
+**What this chapter would use it for.** The post is a founder describing, mid-process, what he
+actually built after discovering that hiring people did not remove him from day-to-day operation: a
+Google Drive knowledge base with one folder per department, an internal employee handbook, a
+customer-service knowledge base of verification/debugging flows that reps themselves add to on every
+new ticket, and recorded weekly engineering walkthroughs of how parts of the system evolved. That is
+the case for "writing it down" as a mechanism. The same post supplies its own honest limit, in one
+sentence: he could transfer knowledge but not "the intuition and cross functional experience with all
+aspects of the business" that came from years of doing every job himself — a customer-service example
+he can resolve in minutes takes a documented-but-inexperienced rep close to an hour. That limit is the
+chapter's counter-case material sitting inside its own primary source, not invented separately.
+
+**Primary documents and evidence class (§5).**
+- `galperin-2023-fire` — erangalperin.com, 2023-06-30, consulted 2026-08-06. First-party, but a
+  founder's own account of his own company: §5's **weaker** class, to be attributed in the prose as
+  "by Galperin's own account" exactly as `galperin-2022` already is in ch. 04/05. Not a filing, not
+  audited, not independently verified — the FTE count, the five-year figure and the minutes-versus-
+  hours comparison are all his own numbers.
+- The post's own predecessor, "From business to company" (erangalperin.com, 2023-05-12, linked
+  in-text as "I wrote about the process"), was **not fetched** — not needed for the two claims this
+  entry registers, and pulling it was out of scope for a single-chapter, time-boxed hunt. Flagged here
+  as a possible further-reading or second-source candidate if the eventual draft wants the fuller
+  growth narrative; do not assume it corroborates anything until read.
+
+**The unspent inference (§6b).** Ch. 04 took Gymdesk's stopping rule and improvised consequence
+(runway, return-to-salary). Ch. 05 took the three-year path to full-time, the MRR figure and the
+four-day week (a transition-funding inference). Neither touched hiring past the founder, operational
+knowledge, or what happens when headcount grows and the owner is still the bottleneck — that is
+new ground for this book's use of Galperin. It is also distinct from ch. 17's inference from Bingo
+Card Creator (workload volume) and Pinboard (credential/migration concentration): ch. 17's own §6h
+correction table left an explicit open question — *"whether another engineer could have done it with
+documentation and time is unknown"*, and *"documented and understood by two people [dependence] it
+reduces both"* — without a case to test it. This post is a founder's real, contemporaneous attempt at
+exactly that, reporting a partial and qualified result rather than a clean win. Available under the
+"name the inference" test in §6b: the inference is new, the source document is new, only the company
+repeats.
+
+**Domain-competence declaration (§8).** None required beyond ordinary reading and business reasoning.
+Not a 🇳🇱 chapter — no register lists a Dutch-ground flag for ch. 18, and this entry adds none. No
+accounting, tax or statutory content. The only risk is interpretive, per the recursive-error lesson at
+§8: the post is one founder's felt account of hiring and partial documentation, not a controlled
+comparison of documented versus undocumented handoffs, not a measurement of how much bottleneck
+actually eased, and not the employees' side of the story. The chapter must say what the case does not
+show as plainly as what it does.
+
+**Registered.** Five claims under `checks/claims.tsv` (chapter 18) against `galperin-2023-fire` in
+`checks/sources.tsv`: the "over 10 FTE" growth figure, the "first 5 years" solo-founder figure, the
+15-20-minutes-versus-hours handoff-cost comparison, the "documenting all of the knowledge" sentence,
+and the customer-service-SOP mechanism sentence. `./verify.sh --strict 18` passes all five.
+
 ## 7. Cases to avoid
 
 Overused to the point of meaninglessness, and in several instances misreported for decades:
