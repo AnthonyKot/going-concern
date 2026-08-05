@@ -1484,6 +1484,25 @@ which is the slowest thing in the chapter.
 Body 2,291 → **2,780**. Same pattern as ch. 15: precision costs words, and it came out of the
 argument's slack rather than out of the corrections.
 
+### A ninth, found after publication — and it doubled a figure
+
+The draft said McKenzie had *"an hour and a half of commuting at each end"*. The post says **"an
+hour and a half of commute both ways"** — a round trip, not each leg. The chapter doubled it, and
+the figure had no row in `claims.tsv`, so it passed every green build from drafting to publication.
+Both halves of §8 fired at once: **it was a quantity confusion in the chapter about not confusing
+quantities**, the same shape as the revenue-for-hours error above, and it was invisible to the
+register because coverage is editorial discipline rather than a property of the script.
+
+Fixed by extending the existing quote to the source's own contiguous sentence, so the wording is no
+longer paraphrased, and by registering `hour and a half of commute both ways` as a fourteenth
+ch. 17 claim row. The lesson generalises past this chapter: **a paraphrased figure is the dangerous
+kind, because quoting is what triggers registration.** Where a figure sits next to a quote in the
+source, take the whole sentence.
+
+Found by machine review rather than by reading — the first defect in the book's record to be caught
+that way. It says nothing about whether reading can be reduced; it says the register's coverage gap
+is real and had already cost a live error.
+
 ## 6c. Handoff: ch. 10 → ch. 11
 
 Recorded before either is drafted, so neither absorbs the other. Ch. 10 establishes that **the sale
