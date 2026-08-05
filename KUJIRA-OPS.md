@@ -55,6 +55,21 @@ So the per-chapter verification command Kujira runs is:
 ./verify.sh --links && python3 checks/structure.py && ./verify.sh --strict NN
 ```
 
+**It must be set explicitly on every task.** Kujira auto-detects a verification command from the
+repository, and this repository has no `package.json`, no `Cargo.toml`, no `pytest.ini` and no
+`tests/` directory — so detection falls all the way through to `gitFallback` and returns
+`git diff --check HEAD^ HEAD`, a whitespace linter. Confirmed against
+`server/services/verificationCommand.js`:
+
+```
+book44 detects: "git diff --check HEAD^ HEAD"
+ours resolves:  {"command":"./verify.sh --links && …","source":"configured"}
+```
+
+Left on the default, **every chapter task would pass verification while proving nothing**. A
+configured command is honoured (`source: configured`) and sticks — with one trap: a command of
+exactly `npm test` gets silently replaced by detection, so never use that string here.
+
 `--strict` is correct for a *new* chapter and wrong for the book as a whole. The advisory default
 exists because a source moving on someone else's server is rot, not error — but a claim row written
 this week that does not match its document is an error, every time.
