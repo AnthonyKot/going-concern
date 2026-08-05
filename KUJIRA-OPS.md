@@ -79,6 +79,31 @@ ch. 01–13, 6 of them machine-catchable, and the register's detection record on
 approximately zero. Every broken chapter sat at `0 drifted`. A green Kujira task means the
 quotations are real. It does not mean the chapter is right.
 
+## 2b. Where the work actually stands
+
+The dashboard is the source of truth — **http://127.0.0.1:3100** — and shows epics, tasks,
+dependencies, logs, verification results and per-task commits. This section is a map, not a status
+board; do not trust it over the UI.
+
+Finishing eleven chapters is roughly four units each — **hunt → settle → draft → review** — so about
+44 units of work, plus instrumentation.
+
+| Epic | Tasks | State |
+|---|---|---|
+| 1 · `instrumentation` | #1 review pipeline · #2 superseded XL hunt | #1 done, #2 blocked |
+| 2 · `case-hunt` | #3–#13, one per chapter 18–28 | #3 done, rest open |
+| — · drafting Part IV | not created | — |
+| — · drafting Part V | not created | — |
+
+**Naming drift, stated so it does not confuse anyone reading both files.** The PRD calls the chapter
+epics "Epic 1 — Part IV" and "Epic 2 — Part V". Kujira's epics 1 and 2 are `instrumentation` and
+`case-hunt`, because the case hunt turned out to need eleven tasks rather than one. The PRD's names
+and Kujira's numbers do not correspond.
+
+**A drafting epic runs in parallel with the hunts.** Kujira serialises per epic, not globally
+(`server/index.js:1702`), so chapter drafting in its own epic proceeds while case hunts continue.
+The cost is a merge: both branches touch `CONTEXT.md` and `claims.tsv`.
+
 ## 3. Epics and tasks
 
 `claims.tsv`, `sources.tsv`, `CONTEXT.md` and `index.html` are appended by *every* chapter, so
