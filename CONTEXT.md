@@ -1744,6 +1744,104 @@ show as plainly as what it does.
 15-20-minutes-versus-hours handoff-cost comparison, the "documenting all of the knowledge" sentence,
 and the customer-service-SOP mechanism sentence. `./verify.sh --strict 18` passes all five.
 
+### Ch. 19 — The First Hire 🇳🇱
+
+**Status: has a case.**
+
+**Candidate.** Gymdesk / Eran Galperin — third use of the recurring cast (ch. 04, ch. 05, ch. 18),
+on a **third, distinct source**: "Building A Fitness Tech Company During COVID"
+(erangalperin.com, 2023-05-12). This is, in fact, the ch. 18 entry's own predecessor — that entry
+named "From business to company" as "the post's own predecessor… linked in-text as 'I wrote about
+the process'" and recorded it as **not fetched.** Checked, not assumed: the ch. 18 fire post's own
+HTML links that phrase to `erangalperin.com/2023/05/12/business-to-company/`, which now 404s live —
+but the Wayback Machine holds eleven captures of that exact URL between 2023-05-12 and 2025-11-15,
+and the last of them (2025-11-15) is byte-for-byte the same article, under the same title, "Building
+A Fitness Tech Company During COVID." The slug was `business-to-company` and was renamed sometime
+after November 2025; the content this task fetched at the renamed URL is the predecessor post, not a
+different one that happens to share a date. Recorded here so the ch. 18 entry's "possible
+further-reading candidate" note can be closed: it is not further reading, it is this chapter's case.
+
+**What this chapter would use it for.** The post narrates Gymdesk's 2020–2022 stretch in order:
+COVID-driven churn survived, a decision after "a few failed experiments engaging 'growth' and
+advertising agencies" that outside consultants would never understand the audience the way Galperin
+did, and then two concrete first hires — a content-marketing/editor role in **June 2021** (a former
+freelance writer with an SEO background, to double down on organic acquisition), followed later that
+year by the first full-time customer-service hire, after customer service handled through Upwork
+contractors "just wasn't working out." Galperin frames the June 2021 hire explicitly as a threshold
+decision, not a scaling detail: *"This was a big decision for me personally — it's different engaging
+freelancers for fixed term / cost work, than bringing on someone as a full time employee that you're
+now responsible to make sure they are paid every month. It was here that we started to make the
+transition from a one-man, owner run business to an actual company."* That sentence is the chapter's
+thesis material, stated by the founder himself rather than authored by this book. The post also gives
+a later checkpoint — 8 employees and 4 contractors by the end of 2022 — which lets the chapter show
+that the employee/contractor line was a decision made repeatedly, not settled once.
+
+**Primary documents and evidence class (§5).**
+- `galperin-2023-covid` — erangalperin.com, 2023-05-12, consulted 2026-08-06. First-party, founder's
+  own account of his own company: §5's **weaker** class, same attribution rule already used for
+  `galperin-2022` and `galperin-2023-fire` — "by Galperin's own account." Not a filing, not audited.
+  The hire dates, the reason given for each hire, and the 2022 headcount split are all his own report.
+- `bw7-2026` — Burgerlijk Wetboek Boek 7, art. 610 and art. 610a, `wetten.overheid.nl/BWBR0005290/
+  2026-01-01`, consulted 2026-08-06. **Not a new source** — already registered at ch. 05 for the
+  non-compete box, reused here for two different articles, which needs no new ledger entry per §6b
+  (the case ledger tracks company cases and dedicated regime chapters; a statute cited a second time
+  for different articles is the same pattern ch. 12/13/15 already establish for BW2/BW6/the Wet LB).
+  Art. 610 lid 1 supplies the statutory test for who is a `werknemer`: an agreement to perform work
+  *"in dienst van"* another party, *"tegen loon"*, *"gedurende zekere tijd."* Art. 610a supplies the
+  `rechtsvermoeden` — a worker who works for someone else, for pay, for three consecutive months,
+  weekly or at least twenty hours a month, **is presumed** to be doing so under an employment
+  contract. This is the box's "enforcement" content per §5b's chapter list: the statute does not wait
+  for a label the two parties agreed on: sustained, regular, paid work triggers a presumption that
+  shifts the burden onto whoever wants to call it something else.
+- **Not found, and time-boxed rather than pursued further.** A second, independent primary source for
+  the same distinction — a Belastingdienst or Rijksoverheid page on `zzp'er of werknemer`, the Wet DBA,
+  or its enforcement moratorium, which §6f would want as the second source for the operative rule —
+  was searched for and not obtained inside this task's time box. Every guessed Belastingdienst and
+  Rijksoverheid URL for this subject returned a real, served 404 (confirmed against the site's own
+  404 template, not a network failure), and every search engine tried (DuckDuckGo, DuckDuckGo Lite,
+  Bing, Startpage) returned a blocked or challenge response rather than results — consistent with the
+  earlier attempt's cached `ddg*.html` / `bing*.html` / `mojeek.html` files, which show the same
+  engines were already failing before this task started. `kvk-hire.html` and `tryout.html`, the two
+  files this task was told to salvage, are both cached copies of the KVK "Pagina niet gevonden" 404
+  template — dead ends, not usable sources. **This is a real gap, not a cosmetic one**: the statute
+  alone gives the test and the presumption; a Belastingdienst source would additionally ground how the
+  distinction is actually enforced in practice (audits, the withdrawn VAR system, model agreements),
+  which this entry cannot yet source. Flagged for whoever settles this chapter under §6f: budget
+  time for **one** more attempt at the Belastingdienst/Rijksoverheg guidance page before accepting the
+  statute alone, and if it still fails, the box should say plainly that it quotes the test and the
+  presumption and not the administrative practice around them.
+
+**The unspent inference (§6b).** Ch. 04 and ch. 05 used Gymdesk's stopping-rule and transition-to-
+full-time history (2018–2019). Ch. 18 used a 2023 post about post-hoc documentation, after headcount
+had already passed ten. Neither touches the decision this chapter needs: **why and when to make the
+first hire at all**, and what changes the moment a business takes on its first employee rather than
+its first contractor. This post is the one Galperin source that actually narrates that decision, with
+dates and a stated reason for each hire — new ground under the "name the inference" test in §6b: the
+inference (the threshold between hiring freelance help and taking on an employee) is new, the source
+is new (never registered before), only the company repeats. It is also the ch. 18 entry's own
+predecessor, closing a gap that entry left open rather than reopening spent ground.
+
+**Domain-competence declaration (§8).** This chapter is one of the four the epic names as carrying
+Dutch legal content a reader can act on and be harmed by, and needs the ch. 15 process at settlement.
+What this entry can already say: the competence risk is not the statute's plain words — art. 610 and
+610a are short and were read directly, not summarized from memory — it is **not overstating what a
+presumption does.** `Vermoed` is a rebuttable presumption, not a reclassification: it shifts who has
+to prove what, it does not itself convert a contractor into an employee by operation of the sentence
+alone, and the twenty-hours/three-months figures are the presumption's trigger, not a universal
+definition of employment (art. 610's own three-part test is the definition; 610a is evidentiary).
+A chapter that reports the presumption as "you become an employee automatically at twenty hours a
+month" would be exactly the kind of caveat-that-overshoots-into-a-false-claim §6f's ch. 15 review
+caught twice. The box must say what the statute says and stop, name the professional (employment
+lawyer) per §5b, and — per the gap above — be honest that it has not sourced how this is enforced in
+practice, only what the law itself states. No accounting content; the risk here is entirely legal-
+interpretive, and it is smaller than ch. 15's because the two articles quoted do not require
+arithmetic or a jurisdiction fork, only a correct account of what a presumption is.
+
+**Registered.** Four claims against `galperin-2023-covid` (the June 2021 hire, the first customer-
+service hire, the one-man-to-company framing sentence, and the 8-employees/4-contractors 2022
+figure) and two against `bw7-2026` (art. 610 lid 1's definition, art. 610a's presumption), all under
+`checks/claims.tsv` chapter 19. `./verify.sh --strict 19` passes all six.
+
 ## 7. Cases to avoid
 
 Overused to the point of meaninglessness, and in several instances misreported for decades:
