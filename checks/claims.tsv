@@ -552,3 +552,12 @@
 20	bw7-2026	korter dan vijf jaar heeft geduurd: één maand
 20	bw7-2026	De transitievergoeding is voor elk jaar dat de arbeidsovereenkomst heeft geduurd gelijk aan een derde van het loon per maand
 20	bw7-2026	De transitievergoeding bedraagt maximaal € 102.000,00 of een bedrag gelijk aan ten hoogste het loon over twaalf maanden
+
+# ch22 — ConvertKit / Nathan Barry, "Understanding ConvertKit's open metrics" (2019). Case hunt in §6i.
+22	nb-metrics-2019	MRR growth is actually the summary of five metrics: new, expansion, reactivation, contraction, and churn
+22	nb-metrics-2019	Revenue churn is the percentage of your revenue base you lost in a month, whereas user churn is the percentage of customers you lost in a month
+22	nb-metrics-2019	At ConvertKit we are at 2.2% net revenue churn
+22	nb-metrics-2019	At ConvertKit we have a quick ratio of 1.47
+22	nb-metrics-2019	Buffer is at $21 per customer and ConvertKit is at $57 per customer
+22	nb-metrics-2019	we have 20,812 generating $1,188,580 in MRR
+22	nb-metrics-2019	6,994 customers (33% of the total) generating $811,117 in MRR (68% of the total)
