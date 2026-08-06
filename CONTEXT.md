@@ -2409,6 +2409,147 @@ BW6 art. 233 voidability grounds (the full a./b. clause), and the BW6 art. 234 t
 fetch run during this task — `auteurswet-2026` fetched fresh (200, 1,076,473 bytes) and `bw6-2026`
 served from cache.
 
+### Ch. 25 — What Protects You
+
+**Status: has a case.**
+
+**What this chapter owns, read from the register and the epic before candidates were judged
+against it.** Ch. 25 carries no 🇳🇱 flag in §6 or in the epic's own list of the four Dutch-legal
+chapters (19, 20, 24, 28) — checked directly against both rather than assumed, since three of this
+chapter's four Part V neighbours (24 and 28, plus 20 earlier) do carry the flag and it would have
+been easy to assume this one does too. §5b's subject list already assigns ch. 24 "liability,
+professional indemnity insurance, standard terms, and who owns code written by an employee" — so
+whatever "protects you" turns out to mean, it is not that box's territory a second time. Reading the
+Part V sequence in order (23 *Slack* — capacity held in reserve; 24 *What You Signed* — the paper;
+25 *What Protects You*; 26 *When the Ground Moves* — external shocks; 27 *Built to Leave*; 28
+*Knowing When to Stop*), the open ground left for ch. 25 is the gap between the paper protections
+ch. 24 quotes and the shocks ch. 26 will describe: **the protective measures owners actually reach
+for, and whether they work the way the owner assumed.** This entry's editorial judgement, made
+explicit rather than assumed: the clearest, best-sourced version of that question in the material
+available is not insurance or entity structure (no case for either turned up — see below), but
+intellectual-property protection for a physical product, because it is the one place this book's
+existing cast left a real, undrawn decision on the record, complete with a moment the risk actually
+materialised.
+
+**Candidate.** Studio Neat (Tom Gerhardt & Dan Provost) — third use of the ch. 03/ch. 09 company, on
+the **same source** already registered as `sn-howto` but a section of it neither earlier chapter
+drew on: "A Word on Patents," inside "How to Kickstarter" (studioneat.com, archived 2015-02-21).
+Checked against §6b's Studio Neat ledger entry before use, per the file's own "name the inference"
+test: the **Spent** field lists exactly what ch. 03 (the five-campaign table, the Glif launch, the
+prototype rule, delivery evidence) and ch. 09 (the Cosmonaut goal, slots, tiers, fees, shipping,
+fulfilment cost) drew from this document, and the patents section appears in neither list. §7's
+recurring-cast rule ("two of five chapters with no fresh sourcing" reads as a shortage of research)
+was written about a five-chapter window in Part II; ch. 25 sits sixteen chapters and three Parts away
+from ch. 09, drawing on content genuinely untouched until now, which is a different situation from a
+back-to-back reuse of the same material — but it is still a third use of the same two people, and is
+named as a judgement call here rather than left implicit, the same way ch. 21 and ch. 23 named their
+own reuse decisions. Studio Neat itself was never charged against the §7 recognisability budget
+("Studio Neat, two people, which spends nothing" — only the Coolest Cooler `.limit` was charged), so
+this use does not touch the budget ch. 21 closed at 5.0 of 5 or the ruling that followed it.
+
+**What this chapter would use it for.** The section is Gerhardt and Provost's own account of
+deciding not to patent the Glif — their first product, the one whose Kickstarter success is ch. 03's
+own case — despite being "freaked out" at first that they had no patent while it was taking off. Two
+things make the passage more useful than a generic "should I patent this" post. First, it names and
+corrects a specific misconception the reader is likely to share, in the source's own words: *"Many
+people seem to have the misconception that patents are magical things that act like a force field
+around your product, preventing anyone from ever ripping it off... Patents do nothing to prevent
+people from stealing your idea. All they do is give you the legal authority to take action if you
+believe someone is infringing** — [and] you would still need to hire a lawyer to take the perp to
+court."* Protection, in other words, is not a status you acquire by filing paperwork; it is, at
+best, a standing to sue that costs more money on top of what the patent itself cost. Second, and this
+is the part that makes the case rather than just the argument: **the risk they were weighing was not
+hypothetical by the time they wrote this.** "Since launching the Glif, there have been a few direct
+imitations that have cropped up, out of Germany and Taiwan" — named, linked knockoffs, not a
+worst-case scenario. Their stated response was to do nothing about it ("There is not much we can do,
+other than shrug our shoulders and carry on"), reasoning explicitly that even a hypothetical
+international utility patent would not have been worth the time and money to enforce, and naming what
+they leaned on instead: *"As long as our brand remains strong, we think enough customers will choose
+the real deal versus the knockoff."* That is a real business, at the reader's scale, that faced the
+exact event a legal protection is supposed to prevent, had decided in advance not to buy that
+protection, and named a different thing — brand strength, not a legal instrument — as what it was
+actually counting on. The chapter's job is to use this as the concrete instance of a more general
+question the title asks: when an owner reaches for something because it feels protective, does it
+actually change the outcome, or does it just feel like it does.
+
+**Primary documents and evidence class (§5).**
+- `sn-howto` — studioneat.com via web.archive.org, archived 2015-02-21, consulted 2026-08-06.
+  Already registered at ch. 03/ch. 09; no new `sources.tsv` row needed, per the same reuse pattern
+  `bw7-2026` and `bw6-2026` already establish for statutes reused across chapters. First-party,
+  founder's own account of their own company and their own (non-lawyer) understanding of patent law:
+  §5's **weaker** class, same footing as the campaign and pricing material already drawn from this
+  document at ch. 03/ch. 09. The document itself flags its own limits on this point, unprompted —
+  "make sure you contact an expert rather than relying solely on the advice from two dudes with no
+  legal expertise" — which the chapter should keep rather than smooth away.
+- **Not pursued — insurance, and a Studio Neat second source on the imitation aftermath.** Two gaps,
+  both time-boxed rather than closed. First, no case for *insurance* specifically (professional
+  indemnity, product liability, business interruption) turned up in the shared cache or the small
+  number of live searches this task's time box allowed before the search engines available in this
+  environment (DuckDuckGo HTML, DuckDuckGo Lite, Startpage, Marginalia) returned bot challenges or
+  proof-of-work walls rather than results — the same dead-end already logged at ch. 19, ch. 23 and
+  ch. 24's entries, confirmed again here rather than assumed from those earlier notes. If a future
+  pass wants an insurance case specifically, it needs either a different retrieval method or a much
+  larger time box than a single chapter's hunt allows. Second, the Glif imitations are named but not
+  dated, and no follow-up Studio Neat post confirming whether the "shrug and carry on" bet actually
+  paid off (sales unaffected, brand held) was found — the post asserts confidence, not a measured
+  outcome, and the chapter must say so rather than imply the bet was later vindicated by evidence this
+  entry does not have.
+- **Considered and rejected: Binpress (Eran Galperin), a second time.** `eg_binpress.txt` — "Startup
+  Postmortem: Binpress," already read in full and rejected for ch. 24 for naming a lawyer paid to
+  build a custom software-license generator, with no dispute or cost event in the record. Reconsidered
+  here because "paying for protection in advance" is closer to this chapter's question than to ch.
+  24's, but rejected again on the same two grounds ch. 24 already found: it is a proactive purchase
+  with no realised risk to test it against (unlike the Glif's actual imitations), and it would be a
+  fifth Galperin appearance after ch. 04, ch. 05, ch. 18 and ch. 19 — a cost ch. 23's entry already
+  declined to pay once for a weaker fit than this.
+
+**The unspent inference (§6b).** Ch. 03 used this document for the pre-sale evidence ladder (a
+non-refundable payment before the thing exists is obtainable and survivable); ch. 09 used it for
+pricing (buyer enthusiasm and a testable commercial price are not the same thing). Neither opened the
+patents section, and neither chapter's *Permitted*/*Prohibited* fields say anything about
+intellectual property, competitive imitation, or what actually deters a copycat. This chapter's
+candidate inference — that a legal protection can be correctly understood, correctly declined, and
+the business can still survive contact with the exact risk it was meant to prevent, because something
+else (brand, in this instance) was doing the protective work instead — is new ground under the "name
+the inference" test: new section of an existing source, new inference, only the company repeats.
+
+**Domain-competence declaration (§8).** Not a 🇳🇱 chapter — confirmed against both the register and
+the epic's own list before writing this entry, not assumed. No ground box, and this entry's content
+must not be read as one. The competence risk here is real but has a narrower shape than the Dutch
+chapters':
+- **This is US patent law, described by two non-lawyers, and it must not travel as if it were
+  general or Dutch/European law.** The source's own design-patent/utility-patent distinction, the
+  "most patents only protect infringement within the United States" line, and the cost claims are
+  Gerhardt and Provost's understanding of the US system, stated with their own explicit caveat that
+  they are not a legal source. A Dutch or EU reader's actual options — an EPO or Benelux-route patent,
+  Benelux/EUIPO trademark registration, design-right protection — are a different regime with
+  different costs and mechanics, not covered by this document at all. The chapter must present the
+  *lesson* (protection is not a force field; it is a standing to sue, priced separately from the
+  filing) as portable, and must not let the source's US-specific mechanics stand in for what an EU
+  reader would actually face. This is the same "portable argument, quarantined specifics" discipline
+  §5b states for jurisdiction-dependent chapters, applied here even though the chapter itself carries
+  no ground box.
+- **Never imply the "shrug and carry on" bet is proven correct.** The source states a belief about
+  brand strength, not a measured result — see the not-pursued gap above. The chapter can use the
+  decision and the reasoning; it cannot borrow a result the source does not report.
+- **Never generalise from one design-patent case to "patents are never worth it."** The source itself
+  scopes its claim to a two-person company with this product; ch. 04's Cydoc, elsewhere in this book,
+  held two US patents under a different calculus (healthcare software, higher stakes, different
+  economics) and this chapter must not read as silently contradicting that case. The distinction is
+  the same kind ch. 23's entry drew between Webvan's fixed-capacity failure and WP Curve's small-scale
+  hiring: two real cases reaching different decisions at different scales are not in tension, and the
+  chapter should name the difference rather than let the two silently disagree.
+
+**Registered.** Four claims against `sn-howto` in `checks/claims.tsv` chapter 25: the "patents do
+nothing to prevent people from stealing your idea" sentence, the "designed to protect large
+corporations... we decided to pass" sentence, the "direct imitations... out of Germany and Taiwan"
+sentence (tag-boundary-checked — the source wraps "direct" and "imitations" in separate `<a>` tags
+with a space already between them, which `verify.sh`'s tag-to-space substitution and whitespace
+collapse both tolerate; confirmed by direct simulation against the cached HTML before registering,
+not assumed safe), and the "brand remains strong... real deal versus the knockoff" sentence. No new
+`checks/sources.tsv` row — `sn-howto` already exists. `./verify.sh --strict 25` passes all four (4
+verified, 0 drifted, 0 skipped), run live during this task against the already-cached source.
+
 ## 7. Cases to avoid
 
 Overused to the point of meaninglessness, and in several instances misreported for decades:
