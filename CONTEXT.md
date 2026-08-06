@@ -1555,6 +1555,41 @@ ch. 16's review caught. The chapter may say the two happened together under one 
 it may not say one produced the other. Attribute every figure as "by Galperin's own account," the
 same rule already used for `galperin-2022` and `galperin-2023-covid`.
 
+### Ch. 18 on review — three corrections, and the draft walked into the trap this section had named
+
+All three were the same failure and it is the one §8 keeps counting: **the draft asserted results the
+source does not report.** Every claim row was green throughout.
+
+| Drafted | Corrected to |
+|---|---|
+| a documented rep "took three to four times as long" | the source says *hours* against fifteen to twenty minutes and gives no ratio at all. The figure was **derived, unregistered, and attributed to Galperin's own evidence** |
+| the slowdown and the documentation programme read as one measured handoff | two findings in source order: hiring exposed the gap *before* any document existed; the SOP work came after, as his response to it. **He never reports a rep working from those SOPs** |
+| the knowledge base "partly worked… a rep could pick it up and produce a correct outcome" | the source says the flows *"can be used immediately by new reps"* — a design claim, in a programme he calls *"still a work in progress"* |
+
+**The correction improved the chapter**, which is worth recording because it usually does. The
+invented ratio was replaced by the comparison Galperin actually gives — a process taking him *"a
+couple of minutes"* that takes a rep *"close to an hour, and require my participation at each one of
+those decision points."* That last clause is the chapter's thesis in the source's own words: the work
+moved and he did not. The draft had reached past it for a number that was not there.
+
+**The trap was named in §6j before drafting and the draft fell into it anyway.** This section already
+said the case shows "no controlled comparison of documented versus undocumented handoffs" and "no
+measurement of how much the founder's own bottleneck actually eased." Both corrections are exactly
+those two sentences being ignored. A settlement that names an interpretive trap does not prevent it;
+it only makes the trap findable afterwards, which is a smaller claim than this file has been making
+for the settle-before-drafting practice.
+
+**Three rows added** — the couple-of-minutes and close-to-an-hour halves of the comparison, and the
+work-in-progress admission — taking ch. 18 to nine. The general rule from §6h held again and should
+now be treated as the book's most reliable predictor: **a figure that is derived rather than quoted
+does not get registered, and what is not registered is not checked.** Both the ch. 17 commute error
+and this one were derived figures. Neither drifted; neither was ever checkable.
+
+**Found by machine review, and only partly.** Two independent reviewers and an adversarial
+consolidator were designed; one reviewer ran, the second timed out and the consolidator was
+unavailable. The three findings come from a single unreviewed pass whose verification against the
+source was done by hand. Treat the count as a floor.
+
 ## 6c. Handoff: ch. 10 → ch. 11
 
 Recorded before either is drafted, so neither absorbs the other. Ch. 10 establishes that **the sale
