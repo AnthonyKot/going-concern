@@ -2682,6 +2682,147 @@ falls inside any of the four spans; each sits inside a single `<p>` block). No n
 section and a different inference. `./verify.sh --strict 26` passes all four (4 verified, 0 drifted,
 0 skipped), run live during this task against the already-cached source.
 
+### Ch. 27 — Built to Leave
+
+**Status: has a case.**
+
+**What this chapter owns, read from the Part V sequence and §9 before candidates were judged
+against it.** Ch. 25's entry already fixed the order: "23 *Slack*... 24 *What You Signed*... 25
+*What Protects You*; 26 *When the Ground Moves* — external shocks; 27 *Built to Leave*; 28 *Knowing
+When to Stop*." §9's own open question about this chapter — "whether Part V needs a chapter on
+selling the business as distinct from ch. 27 (*Built to Leave*)" — is read as confirming, not
+deciding, that ch. 27's territory is **transferability**, not the mechanics of a sale process: can
+the business survive a change of who owns or runs it, as opposed to Part IV's question (17–22,
+"can it run without you" day to day). Ch. 27 is not 🇳🇱 — checked against the register and the
+epic's own list of the four Dutch-legal chapters (19, 20, 24, 28) rather than assumed. §2's own
+framing is the sharpest statement of the question this chapter needs a case for: Part IV's answer
+has "two legitimate answers" (a practice built for the owner's own good work and income, or an
+asset that runs without them), and "the failure mode is building the first while believing you are
+building the second, and discovering the difference at the moment you want to stop, get ill, or
+sell." A case for this chapter needs to show that discovery actually happening — not a company that
+merely delegated tasks (Part IV's material) but one that was priced, or handed to new ownership or
+management, and whose value did or did not survive contact with that transfer.
+
+**Candidate.** Black Hops Brewing — a craft brewery founded 2014–2015 on the Gold Coast, Queensland,
+Australia, by Dan Norris, Michael McGovern and Eddie Oldfield. This is a **new company** for the
+book's cast, not a return to the WP Curve ledger entry (ch. 10, ch. 14): Black Hops is a different
+business, with its own primary sources and its own figures, and no `checks/sources.tsv` row or
+ledger fact from WP Curve is reused here. **A named-overlap caution, stated rather than assumed
+resolved:** this task did not independently verify whether the Dan Norris co-founding Black Hops is
+the same Dan Norris who founded WP Curve. The two named sources below (Brews News, a specialist
+Australian brewing-trade outlet) never mention WP Curve, "7 Day Startup" or software in connection
+with him — only "Dan Norris, Co-founder/Former CEO" of Black Hops, from a third-party industry
+profile (`brewsnews.com.au/black-hops-and-brewing-the-story/`, a vendor-supplied case-study piece,
+not itself registered as a source here since it supplied no load-bearing figure). A Gold Coast Bulletin profile
+("My rise and fall: \$65m brewery co-founder to 'feeling like a loser'") that a `news.google.com`
+RSS search surfaced as the likely piece connecting his earlier career to Black Hops returned HTTP 403
+(News Corp Australia paywall) inside this task's time box and was not read. **The eventual draft
+must not assert the WP Curve connection without independently confirming it**, and this entry does
+not rely on it: the case below stands on Black Hops alone.
+
+**What this chapter would use it for.** Two dated, quantified moments from the same company, seven
+weeks apart in early 2023, that between them make the chapter's question concrete rather than
+abstract. First: on 2023-02-14, Brews News reported that co-founder Dan Norris had stepped down as a
+director and CEO, replaced by an external hire (Nathan Hyde, previously a general manager at another
+beverage company), following the earlier departure of co-founder and former head brewer Michael
+McGovern — leaving only the third co-founder, Eddie Oldfield, still on the board. Norris's own
+reported reasoning, in his own words to the reporter: "in hindsight, Black Hops had outgrown him and
+staying would create confusion," and the company "started as a fun idea at the pub between a few
+friends, at no point did we think it would get to be what it is today." That is a founder recognising,
+and acting on, the Part IV question — the business had grown past what he could run, and he handed
+day-to-day control to a professional manager rather than staying and improvising. **Second, and this
+is what makes the case rather than a tidy exit story:** seven weeks later, on 2023-04-04, Brews News
+reported the company's FY2021–22 annual report, filed with ASIC, showing a before-tax loss of \$1.8
+million — a \$2.6 million swing from the prior year — attributed by the new managing director to
+rising raw-material, packaging and freight costs and the end of COVID-era off-trade demand. The same
+article carries the number that gives the loss its shape: fifteen months earlier, in January 2022,
+Black Hops had raised more than \$2.2 million from 996 investors in a single day through an equity
+crowd-funding campaign (via the Birchal platform), at a valuation of more than \$67 million — a
+valuation the company's own offer documents supported with a stated \$129,000 six-month pre-raise
+profit and a \$867,223 FY2021 profit. A business the market had just priced at \$67 million, whose
+founder had just handed control to a manager on the strength of its trajectory, filed a \$1.8 million
+loss within months of both events. The chapter's job is not to say the departure caused the loss, or
+that the crowdfunding valuation was fraudulent — see the domain-competence caution below — but to
+use this as a real, dated instance of the exact gap §2 names: a business can look, from the outside
+and even to a market of 996 people who priced it, like an asset built to run and be owned by others,
+and still not have the underlying economics to survive the transfer once it happens. **Not pursued
+inside this task's time box, and named rather than silently dropped:** Google News search headlines
+(not fetched as primary sources, so not registered) indicate Black Hops entered voluntary
+administration in March 2024, was bought out by a shareholder consortium in May 2024, and — per a
+headline dated within days of this task running — entered voluntary administration a second time in
+July 2026. If a future pass wants the chapter to close the loop on whether the 2023 transfer
+ultimately held, those events need their own primary sourcing (a Crafty Pint and a Business News
+Australia domain both returned Cloudflare/bot-challenge pages to this task, the same dead end already
+logged at ch. 25 and ch. 26 for other search engines) — this entry does not use them for any claim.
+
+**Primary documents and evidence class (§5).**
+- `bh-ceo-2023` — brewsnews.com.au, "Black Hops announces new CEO as founder departs", published
+  2023-02-14, consulted 2026-08-06, byline Matt Kirkegaard. Named journalist, industry trade outlet
+  covering Australian brewing since 2010, reporting quotes obtained directly from Norris rather than
+  self-published by him — a different, somewhat stronger footing than the founder-blog class that
+  most of this book's Part IV/V cast (Galperin, Turnbull, Barry, Norris's own WP Curve posts) sits
+  on. This task did not locate a formally published corrections policy for the outlet within its time
+  box, so it is not claimed as fully meeting that clause of §5 — flagged honestly rather than assumed.
+- `bh-loss-2023` — brewsnews.com.au, "Black Hops reveals large loss post-crowdfund", published
+  2023-04-04, consulted 2026-08-06, same byline and outlet. Reports figures sourced to a document
+  filed with ASIC (the FY2021–22 annual report) and to the company's CSF offer documents — closer to
+  §5's filing standard than most of this book's Part IV/V evidence, though mediated through the
+  reporter rather than the filing itself, which this task did not obtain directly (ASIC company
+  filings typically require a paid search; not pursued inside this task's time box).
+- **Not pursued — the ASIC filing itself, the Birchal offer document, and independent confirmation
+  of the Norris/WP Curve identity question.** All three would strengthen the case; none were
+  reachable within this task's time box (paid ASIC search, a Birchal company page that returned an
+  empty JS-rendered shell to a static fetch, and a paywalled profile piece). Named so a future pass
+  knows what would upgrade this entry rather than having to rediscover the gap.
+
+**The unspent inference (§6b).** Not applicable in the reuse sense — this is a new company, not a
+return to an existing ledger entry, so there is nothing to check against a *Prohibited* field. If
+this case is used, it should receive its own new §6b ledger entry when the chapter is drafted,
+covering: **Facts** (the two dated figures above), **Permitted** (a market-priced valuation and a
+founder's voluntary, well-reasoned handover are not proof that a business is durably transferable;
+the two can coexist with the business proving, months later, that its underlying economics had not
+caught up to how it had just been priced or handed over), **Confounders** (COVID-era demand
+inflated the comparison year; industry-wide input-cost inflation hit at the same time; the CSF
+valuation is a number the company itself proposed to investors, not an independent appraisal; the
+new manager's letter to shareholders is itself a party to the outcome, not a neutral account), and
+**Prohibited** (never that Norris's departure caused the loss, or that the loss proves the departure
+was wrong — the two events are seven weeks and one unrelated causal chain apart on the record this
+task found; never treat the \$67 million valuation as the business's proven worth; never use the
+2024/2026 administration headlines as fact, since this task did not source them).
+
+**Domain-competence declaration (§8).** Not a 🇳🇱 chapter — confirmed against the register and the
+epic's list rather than assumed. The domain risk here is Australian corporate-finance and
+insolvency vocabulary, not law the reader can act on directly, but real enough that a careless draft
+would mislead:
+- **A crowd-sourced-funding "valuation" is a number the company and its advisers proposed to price an
+  offer, not an audited or independently appraised figure.** The chapter must not present the \$67
+  million figure as what the business was "worth" in any settled sense — only as what a specific
+  funding round was priced at, on the strength of specific (and, on this record, short-lived) trailing
+  financials.
+- **"Before-tax loss," "EBITDA" and "profit" are not interchangeable, and the source's own numbers
+  span more than one of them** (a \$129,000 six-month before-tax profit pre-raise, a \$1.76 million
+  FY2021 EBITDA, a \$867,223 FY2021 profit, a \$1.8 million FY2022 before-tax loss). The chapter must
+  keep these distinct rather than flattening them into one "how the company did" number.
+- **Voluntary administration, if the chapter uses the 2024/2026 events at all, is a distinct legal
+  status from liquidation or bankruptcy** under Australian insolvency law, and this task did not
+  source those events primary-hand — so the safer instruction is to not use them without a future
+  task doing that sourcing properly, rather than risk the chapter stating a legal outcome (sold,
+  liquidated, restructured, returned to the founders) this entry cannot back with a document.
+- **Never assert the Norris/WP Curve identity connection** without independent confirmation — see the
+  candidate note above. If confirmed later, it would be a genuine continuity thread (the reader
+  watching one recurring figure build a business designed to run without him, then a second business
+  that could not survive being handed to someone else); if used before confirming, it is exactly the
+  kind of unforced factual error §8's own corrections record warns this book has made before.
+
+**Registered.** Five claims in `checks/claims.tsv` chapter 27: two from `bh-ceo-2023` (the "outgrown
+him... create confusion" sentence and the "at no point did we think..." sentence) and three from
+`bh-loss-2023` (the "\$1.8 million" before-tax-loss sentence, the "\$2.2 million from 996 investors...
+\$67 million" sentence, and the "\$867,223 for the 2021 financial year" sentence). Both new source
+rows added to `checks/sources.tsv`. All five checked clear of the tag-boundary trap by direct
+inspection of the live-fetched HTML before registering — each span sits inside a single
+`<p>`/`<strong>` block with no inline tag crossing it. `./verify.sh --strict 27` passes all five (5
+verified, 0 drifted, 0 skipped), run live during this task.
+
 ## 7. Cases to avoid
 
 Overused to the point of meaninglessness, and in several instances misreported for decades:
