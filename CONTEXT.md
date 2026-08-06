@@ -2823,6 +2823,151 @@ inspection of the live-fetched HTML before registering — each span sits inside
 `<p>`/`<strong>` block with no inline tag crossing it. `./verify.sh --strict 27` passes all five (5
 verified, 0 drifted, 0 skipped), run live during this task.
 
+### Ch. 28 — Knowing When to Stop 🇳🇱
+
+**Status: has a case**, with an honesty flag on the recurring cast that the eventual §6x settlement
+needs to weigh, not this task.
+
+**What this chapter owns, read from the spine and the register before candidates were judged
+against it.** §2 puts ch. 28 last in the book, closing Part V ("Will it last?") after 27 *Built to
+Leave* (transferability — can the business survive a change of owner). §5b names this chapter's
+Dutch subject directly, in its list of boxes by chapter: **"how to wind up cleanly (28)."** Read
+together, ch. 28's territory is narrower than "the business failed" — it is the deliberate,
+executed decision to stop operating, and doing that in an orderly way, as distinct from either
+grinding on past the point of return or collapsing into an unplanned mess. The epic's own task list
+confirms this is one of the four Dutch-legal chapters (19, 20, 24, 28) carrying content a reader can
+act on and be harmed by, alongside 24's contracts material — checked against the epic text rather
+than assumed.
+
+**Candidate.** Binpress — Eran Galperin's first company (2010–2016), co-founded with a partner named
+Adam, a marketplace for developer code libraries that later expanded into digital products generally.
+**Honesty flag, stated rather than buried:** this is Eran Galperin's *sixth* appearance in the book's
+case ledger, after Gymdesk carried ch. 04, ch. 05, ch. 18 (`galperin-2023-fire`), ch. 19
+(`galperin-2023-covid`) and ch. 26 (`galperin-2023-covid`, second section). §7's "Recurring companies"
+section asks the book to follow "two or three small businesses across multiple chapters," and the
+ratified cast (McKenzie/Bingo Card Creator, Galperin/Gymdesk, Studio Neat) has already been stretched
+once by Dan Norris appearing as WP Curve (ch. 10, ch. 14, ch. 23) and then again as Black Hops (ch.
+27, a different company, accepted there as "new... not a return to the WP Curve ledger entry"). This
+task follows that same precedent — Binpress is a different company from Gymdesk, with its own
+sources and its own figures, and no `checks/sources.tsv` row or ledger fact from Gymdesk is reused
+here — but the precedent is being invoked a second time, by the same author of this task's own
+candidate search rather than a neutral check, and Galperin will now be the named founder in six of
+twenty-eight chapters if this case is used. That is a real cost to the "two or three businesses" goal
+even though no single inference repeats. **Recorded honestly for whoever settles ch. 28 under §6f: if
+a future pass has time to find a non-Galperin alternative, that would be the better outcome purely on
+cast-diversity grounds, even though the Binpress case itself is well-sourced and fits the chapter's
+question closely.** This task's time box did not find one — see "not pursued" below.
+
+**What this chapter would use it for.** Binpress ran for roughly five years. It struggled for its
+first two months (about 10 users), found traction through a code-library contest that seeded its
+marketplace, grew through several product pivots to a peak of **\$30k in monthly revenue**, was
+accepted into the 500 Startups accelerator in February 2013 on the strength of a \$20k one-month
+local maximum, and during the accelerator **raised a seed round of almost \$1M**. Hiring marketing
+and sales talent to spend that money on repeatedly failed to work — five different hires across
+different backgrounds, none landing in the role the company actually needed. By September 2014,
+about a year after raising, the founders had spent over half the money "at a healthy rate, but only
+when you are growing," and had not grown. They tried one more move: a full pivot, relaunched January
+2015, built to become "the Shopify for digital products." It also did not grow. Galperin's own
+account of what followed is the chapter's load-bearing material: *"As the months went by, it was
+becoming clear we had exhausted every option... eventually, we had that talk and faced the music. We
+had given 5 years of our lives to the company, we had some successes, but we had taken it as far as
+we could. It was time to move on."* What makes this a *knowing-when-to-stop* case rather than a
+straightforward failure story is what happened next: the founders tried to sell Binpress as a going
+concern, could not close that sale, and **"eventually we settled for selling the assets only (site
+and code-base), while dissolving the company."** They call this "definitely not the outcome we were
+looking for" — the chapter's job is to use that honestly, as a second-best but still deliberate and
+orderly stop, not a triumphant one: recognizing exhausted options, converting what could be sold into
+something for the investors who backed them, and closing the company formally rather than either
+letting it drift on unfunded or letting it collapse into an uncontrolled failure.
+
+**Primary documents and evidence class (§5).**
+- `eg-binpress-2016` — erangalperin.com, "Startup Postmortem: Binpress", published 2016-02-11,
+  consulted 2026-08-06. Founder's own retrospective account, written a few months after the asset
+  sale closed — §5's **weaker** class, same attribution rule as every other Galperin source in this
+  book ("by his own account"). The page's schema metadata carries a `dateModified` of 2023-09-15,
+  which this task did not diff against a Wayback capture of the 2016 original within its time box —
+  named as an open caveat (most likely a WordPress theme migration rather than a content edit, given
+  the site's other posts carry similar modified dates, but not confirmed).
+- `kvk-eenmanszaak-2026` and `kvk-turboliquidatie-2026` — both www.kvk.nl, consulted 2026-08-06, both
+  live and current (not the dead JS-error-shell captures the earlier attempt left in the cache as
+  `kvk-stop.html`/`kvk-hire.html` — this task located the real URLs via the KVK's own sitemap, already
+  present in `/home/diablo/casehunt-cache/pages.xml` and `documents-*.xml` from the earlier attempt,
+  and fetched them fresh with a standard browser user-agent after the project's own `SEC_UA` string
+  also worked once the URL itself was correct). Official KVK guidance on the two winding-up paths a
+  reader could face: `eenmanszaak-uitschrijven` for a sole proprietorship (free, done online via
+  DigiD with Mijn KVK, and — the fact that removes the reader's most likely wrong belief — KVK itself
+  forwards the deregistration to the Belastingdienst, the owner does not separately notify the tax
+  authority, though the owner must keep filing returns until the Belastingdienst says to stop); and
+  `een-rechtspersoon-beeindigen-via-de-turboliquidatie` for a bv, the fast-track dissolution route
+  available only when there are no baten (assets) left at the moment of dissolution, gated since 15
+  November 2023 by the tijdelijke wet Transparantie turboliquidatie's fourteen-day accounting filing
+  requirement and carrying real personal-liability and bestuursverbod risk for a director who misuses
+  it. This is the §5b box's "how to wind up cleanly" content, sourced to KVK rather than derived.
+- **Not pursued — a second independent primary source for the turboliquidatie fourteen-day filing
+  requirement**, which §6f's model would want (the operative Wet LB figure at ch. 15 had two
+  independent sources; this task found the requirement stated clearly on the KVK page alone, and did
+  not locate the underlying statute — Boek 2 BW's ontbinding-en-vereffening titel — within its time
+  box). Also not pursued: any figure for what Binpress's investors actually recovered from the asset
+  sale (the source says only "as much as we could," not a number) and independent confirmation of the
+  amount raised beyond "almost \$1M" (no S-1-grade filing exists for a seed-stage private company).
+  Both flagged so a future draft does not invent precision the source does not have.
+
+**The unspent inference (§6b).** New company, so nothing to check against a *Prohibited* field yet.
+If used, this needs its own new §6b ledger entry when the chapter is drafted, distinct from the
+Gymdesk entry, covering roughly: **Facts** (the \$30k/month peak, the \$1M seed, the September 2014
+pivot decision, the January 2015 relaunch, the "it was time to move on" decision, the asset sale plus
+formal dissolution). **Permitted** (recognizing that every available option has been tried, and
+converting a failing venture into an orderly, formal stop — sell what can be sold, dissolve properly,
+account to the people who funded it — is a distinct and teachable skill from either grinding on
+indefinitely or collapsing into an unplanned failure). **Confounders** (Binpress was accelerator- and
+VC-backed — almost \$1M raised, a multi-person hired team — which is a materially better-resourced
+position than most of this book's Part IV/V cast and should be named as such per §7's scale
+discipline, even though the company itself is not famous and charges no recognisability slot; the
+account is retrospective, written by the founder after the outcome was known, with the narrative
+shape hindsight tends to supply; the "we settled for" framing is the founders' own characterization of
+a sale that fell short of what they wanted, not a neutral description). **Prohibited** (never present
+this as a stop planned or triggered in advance — the record shows it recognized late, over months of
+"what more can we do," not at a predetermined threshold; never state a specific investor-recovery
+figure, since the source gives none; never treat the almost-\$1M raise or the accelerator backing as
+this reader's likely starting position, per the standing §7 scale caution).
+
+**Domain-competence declaration (§8).** One of the epic's four 🇳🇱 chapters, and it needs the ch. 15
+process at settlement — sources and claim rows before prose, nothing derived, the fork stated before
+the number. What this entry can already say: the two KVK pages fetched here quote the *procedure*
+(who files what, with which authority, on what timeline) rather than tax or liability *consequences*
+of stopping, which keeps the domain risk narrower than ch. 15's arithmetic-heavy gebruikelijkloon
+box or ch. 24's liability content — there is no computation for a careless draft to get wrong, only a
+process to state accurately. Three risks worth naming in advance for whoever drafts the box:
+- **Turboliquidatie is gated on having *no* baten (assets) at the moment of dissolution, and the KVK
+  page itself warns that "baten" is broader than most owners assume** — it includes money owed to the
+  business, not just cash in hand. A chapter that implies any small, insolvent-looking bv can simply
+  "turboliquidate and walk away" without addressing outstanding receivables or unresolved contracts
+  would be exactly the kind of overshoot §6f's ch. 15 review caught twice, applied to a new subject.
+- **Deregistering an eenmanszaak and dissolving a bv are procedurally different**, and the box must
+  keep the fork stated rather than defaulting to one legal form's process for both — the eenmanszaak
+  page's "just log in with DigiD and pick a date" is not the bv page's multi-step ontbinden /
+  vereffenen / uitschrijven sequence, and conflating them would misstate both.
+- **Never suggest turboliquidatie as a way to avoid paying creditors.** The KVK page is explicit that
+  misuse carries personal director liability and a possible bestuursverbod; the box must carry that
+  warning alongside the mechanism, not the mechanism alone.
+- Name the professional per §5b: for a bv with any remaining assets or debts, that is an accountant
+  and, per the KVK page's own escalation path, potentially a curator if a rechtbank-supervised
+  bankruptcy becomes necessary rather than a voluntary wind-down.
+
+**Registered.** Seven claims in `checks/claims.tsv` chapter 28: four from `eg-binpress-2016` (the
+"almost \$1M" seed sentence, the "\$30k in monthly revenue" sentence, the "it was time to move on"
+sentence, and the "selling the assets only... while dissolving the company" sentence) and one each
+from `kvk-eenmanszaak-2026` (the Belastingdienst-notification sentence) and two from
+`kvk-turboliquidatie-2026` (the fourteen-day filing sentence and the no-baten-at-dissolution
+sentence). Three new source rows added to `checks/sources.tsv`. Every claim checked against the
+live-fetched, tag-stripped text before registering, not just the visually-rendered page — one
+candidate KVK sentence ("Sinds 15 november 2023 geldt de tijdelijke wet Transparantie
+turboliquidatie") was dropped after this check failed it: the operative phrase sits inside an inline
+`<a>` link with no surrounding whitespace on one side, exactly the tag-boundary trap this task was
+warned about, and it was replaced with two sentences that sit cleanly inside a single `<p>` each.
+`./verify.sh --strict 28` passes all seven (7 verified, 0 drifted, 0 skipped), run live during this
+task against freshly fetched pages, not cache.
+
 ## 7. Cases to avoid
 
 Overused to the point of meaninglessness, and in several instances misreported for decades:
