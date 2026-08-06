@@ -1968,6 +1968,99 @@ opportunity-to-improve requirement, art. 672 lid 2's notice-period rule and its 
 and art. 673 lid 2's transitievergoeding formula and its cap), all under `checks/claims.tsv` chapter
 20. `./verify.sh --strict 20` passes all nine.
 
+### Ch. 22 — Measuring the Right Three Things
+
+**Status: has a case, with a real tension the settlement must resolve rather than paper over.**
+
+**Candidate.** ConvertKit / Nathan Barry — second use of the ch. 08 company, on a **new, later
+source**: "Understanding ConvertKit's open metrics" (nathanbarry.com/metrics/, published 2019-01-14,
+dateModified 2019-02-27). Written shortly after ConvertKit crossed $1m MRR, well past the 2014
+near-death and 2017 direct-sales recovery ch. 08 already used — this is a mature-stage founder
+narrating how he reads the company's own public Baremetrics dashboard, not a turnaround story.
+
+**What this chapter would use it for, and the tension in using it.** The post walks through, in
+order, what Barry says he actually looks at: the five components of MRR movement (new, expansion,
+reactivation, contraction, churn), the MRR-versus-net-revenue distinction, user churn versus revenue
+churn versus net revenue churn, total customers and net-new customers, the quick ratio, ARPU against
+Buffer's, and an 80/20 revenue-concentration breakdown by customer. **That is at least seven things,
+not three**, and the post never claims otherwise — nowhere does Barry say a smaller number would
+suffice; if anything his stated posture is the opposite of delegation, a founder personally auditing
+a public dashboard in detail. A chapter titled "Measuring the Right Three Things" cannot cite this
+post as evidence that Barry himself measures three things, because he does not say that and the case
+does not show it. What the case *can* support, if the chapter is honest about doing the editorial
+work itself rather than attributing it to the source: Barry's own ordering is not flat — he opens
+with MRR's composition and treats churn as the necessary second question before quick ratio, ARPU and
+the concentration breakdown are introduced as progressively more supplementary. A chapter arguing that
+an owner stepping back needs a compressed, delegable set could use that ordering as evidence for
+*which* three are load-bearing (revenue movement, churn, and one measure of customer-revenue
+concentration or efficiency), while explicitly naming the other four as color a business can review
+less often. That argument is this book's, not Barry's, and the prose must say so in those terms — the
+single biggest risk this entry can name is a chapter that silently smooths "here are seven things one
+founder tracks" into "a founder should only track three," dressed as if the case said it.
+
+**Primary documents and evidence class (§5).**
+- `nb-metrics-2019` — nathanbarry.com, published 2019-01-14, dateModified 2019-02-27, consulted
+  2026-08-06. First-party, but a founder's own account of his own company: §5's **weaker** class,
+  attributed as such in the prose, on the same footing as `nb-convertkit-5k` and `nb-direct-sales`
+  already registered at ch. 08. Not audited, not independently verified — the underlying numbers come
+  from ConvertKit's own Baremetrics instance, which the post says is open to public view but which
+  this book has not itself queried; the book is trusting Barry's transcription of his own dashboard,
+  one layer removed from the dashboard itself.
+- **Not pursued.** ConvertKit's live Baremetrics/Open Startups page (the dashboard the post describes)
+  was not fetched independently — `openstartups.html` and `os_2019.html` are already in the shared
+  cache from an earlier ledger check, but both render their figures via JavaScript and contain no
+  ConvertKit text in the saved HTML (checked: zero matches for "ConvertKit" in either file), so they
+  cannot corroborate anything without a live, script-rendered fetch this task's time box did not
+  attempt. The entry rests on the blog post alone, at the weaker evidence class that implies.
+
+**The unspent inference (§6b).** Ch. 08's ledger entry explicitly reserved this: "another ConvertKit
+chapter would need evidence outside this recovery," and this is exactly that — a different source
+(the 2019 metrics post, never registered before), a different company-moment ($1m+ MRR and stable,
+not $1,207 and dying), and a different inference. Ch. 08 took the failure-and-recovery MRR ladder to
+show that asking customers directly finds a load-bearing objection an analytics package cannot, and
+that founder-run selling need not survive the founder's absence. Ch. 22's candidate inference — what
+a small number of composite metrics can tell an owner about a business's health, and what the rest
+are for — touches revenue and churn arithmetic ch. 08 never opened. Passes the "name the inference"
+test: new source, new inference, only the company and founder repeat.
+
+**Domain-competence declaration (§8).** Not a 🇳🇱 chapter — no legal content. The competence risk is
+financial-literacy precision, not statute:
+- **User churn, revenue churn and net revenue churn are three distinct ratios**, not three names for
+  one number — the post itself distinguishes them (revenue churn adds contraction; net revenue churn
+  nets out expansion), and a chapter that uses "churn" as an undifferentiated word after citing this
+  source would misrepresent its own evidence.
+- **The quick ratio formula must be reproduced exactly** — (New MRR + Expansion MRR) / (Churned MRR +
+  Contraction MRR) — and ConvertKit's own value (1.47) reported as what it is: low, by Barry's own
+  framing, and specific to a comparison against exactly two other named open-startups companies
+  (Buffer 1.08, Hubstaff 1.38), not a general benchmark.
+- **The ARPU and 80/20 figures are Barry's own arithmetic on a filtered dashboard view**, not a
+  published cohort study — the 6,994/20,812 customer split and the 33%/68% revenue split are a
+  same-day snapshot from one export, and the prose must not present them as a stable or audited
+  segmentation.
+- **Never attribute the "three things" framing to Barry** — see the tension above. This is the
+  chapter's own compression argument and must be presented as such.
+
+**Recognisability (§7) — a real constraint, and possibly already spent by the time this is read.**
+ConvertKit already carries a half-slot from ch. 08 under the "chapters anchored on a company the
+reader has heard of" rule; reusing it for a second chapter charges **another** half-slot under the
+same rule that charged Plausible, ConvertKit, Pinboard and Groove once each. Ch. 20's entry left the
+running total at "four of four or five," with "at most one more recognisable business" fitting the
+rest of the book. **This task cannot confirm whether that one slot is still open.** `checks/claims.tsv`
+and `checks/sources.tsv` carry uncommitted, unsettled rows for ch. 21 (Groove, a *second* Groove
+article) found already present in this worktree when this task started — evidence that ch. 21's case
+hunt ran before this one and may itself already have spent the last slot by the same "another chapter,
+another half-slot" logic this entry just applied to ConvertKit. If so, registering ConvertKit again
+here would put the book at 5.0 of a stated ceiling of "four or five," and no recognisable company
+could appear in any of chapters 23–28 without either amending the budget or dropping one of ch. 21's
+or ch. 22's cases. Whoever settles ch. 21 and ch. 22 under §6f-equivalent process should reconcile
+this before either chapter drafts — recorded here rather than silently assumed either way.
+
+**Registered.** Seven claims against `nb-metrics-2019` under `checks/claims.tsv` chapter 22: the
+five-component MRR-growth sentence, the user-churn-versus-revenue-churn definition, the 2.2% net
+revenue churn figure, the 1.47 quick ratio, the $21-versus-$57 ARPU comparison with Buffer, the
+20,812-customers/$1,188,580-MRR total, and the 6,994-customers(33%)/$811,117-MRR(68%) concentration
+figure. `./verify.sh --strict 22` passes all seven.
+
 ## 7. Cases to avoid
 
 Overused to the point of meaninglessness, and in several instances misreported for decades:
