@@ -606,7 +606,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 | # | Title | Status |
 |---|---|---|
 | 17 | You Are the Bottleneck | ☑ 13 claims · Bingo Card Creator (2010) + Pinboard (2020) · *owed* · opens Part IV |
-| 18 | Writing It Down | ☐ |
+| 18 | Writing It Down | ☑ 6 claims · Gymdesk / Galperin (2023) · *owed* |
 | 19 | The First Hire | ☐ 🇳🇱 |
 | 20 | Managing People | ☐ 🇳🇱 |
 | 21 | Meetings That Aren't Theater | ☐ |
