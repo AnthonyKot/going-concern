@@ -1968,6 +1968,136 @@ opportunity-to-improve requirement, art. 672 lid 2's notice-period rule and its 
 and art. 673 lid 2's transitievergoeding formula and its cap), all under `checks/claims.tsv` chapter
 20. `./verify.sh --strict 20` passes all nine.
 
+### Ch. 21 — Meetings That Aren't Theater
+
+**Status: has a case, with a consecutive-chapter-reuse cost that this entry names and settles rather
+than leaves open.**
+
+**Candidate.** Groove (GrooveHQ) / Alex Turnbull — second use of the company introduced at ch. 20, on
+a **different, dated article**: "How We've Optimized Remote Team Meetings For Ultimate Efficiency"
+(groovehq.com, published 2016-02-18, roughly a year after the firing post ch. 20 used). Same
+first-party, contemporaneous-founder evidence class as ch. 20; the live domain is the same 2026-dated
+"Helply" rebrand with the original blog gone, so this is an archive-only source like ch. 20's.
+
+**Why a second Groove chapter, immediately after the first, rather than a new company.** This needed
+its own judgement call, made explicitly rather than by default. Two considerations pulled in opposite
+directions and are both recorded here:
+- *Against reuse:* §7's recurring-cast rule, invoked by ch. 20's own entry to justify *avoiding* a
+  fifth consecutive Gymdesk chapter, warns that a cast reused too densely "stops reading as
+  continuity and starts reading as a shortage of research." Putting Groove in ch. 20 **and** ch. 21,
+  back-to-back, risks exactly that impression on a casual read.
+- *For reuse, checked against the actual text rather than assumed:* the line ch. 20 crossed was not
+  "adjacency," it was **cumulative count** — the entry's own words are "a *fifth* use, back-to-back
+  with the fourth, would cross that line for real," and it says so *after* accepting ch. 18/ch. 19's
+  adjacent third-and-fourth Gymdesk uses without objection. Groove at ch. 21 would only be a
+  **second** use — the same position Gymdesk was in at ch. 05, which nobody flagged. And unlike the
+  Gymdesk repeats, ch. 20 and ch. 21 are not the same material twice: they are two different,
+  independently dated posts about two different problems (firing versus meeting design), inside two
+  chapters that are *already* thematically adjacent in Part IV's own sequence ("Managing People" then
+  "Meetings That Aren't Theater"). §7 explicitly wants "the reader to watch the same decisions
+  interact over time" — a company visibly maturing its management practice across two consecutive
+  chapters is closer to that goal than a new stranger introduced for one chapter and never seen again.
+  **Ruling: proceed with Groove**, on the cumulative-count reading of the book's own rule, not the
+  adjacency reading — but the adjacency cost is real at the prose level (two chapters in Turnbull's
+  voice in a row) and whoever drafts ch. 21 under §6f should open it without re-introducing Groove as
+  if new, and should make the reader feel the throughline rather than the coincidence.
+
+**What this chapter would use it for.** The post narrates, in order, four meeting rhythms Groove tried
+and mostly abandoned — no scheduled meetings, a Monday-only call, a non-work "Friday Fun Day," daily
+Slack-only standups — each with a stated reason it failed, before naming the piece that was actually
+missing: structure. The turn is a specific, named comparator: at a coaching retreat, Turnbull's coach
+showed him a video of 1-800-Got-Junk running a daily standup where "nearly 20 people participated and
+shared updates, and the meeting still took less than 7 minutes," which "made our 9-person 45-minute
+meetings look amateur in comparison." That comparison is the chapter's hinge — not "have fewer
+meetings" but "an unstructured meeting with fewer people can cost more time than a structured one with
+more." What followed is a concrete, ownable structure: a named meeting owner ("Lesley owns meetings for
+our team, and handles scheduling and moderating"), a fixed, timeboxed, identical-skeleton agenda run
+Monday through Friday (Monday Recap at 30 minutes, Tuesday–Thursday standups at 10, Friday Update at
+20), with named, seconds-denominated segments. That is "meetings that aren't theater" as a mechanism,
+not a slogan: the theater was the *un*structured, on-demand and mood-scheduled versions that came
+before it, and the post is explicit that those were tried in good faith and still failed.
+
+**Primary documents and evidence class (§5).**
+- `groove-meetings-2016` — groovehq.com via web.archive.org, published 2016-02-18, archived
+  2016-03-05 (capture `20160305122806`, the earliest available and the one actually registered in
+  `checks/sources.tsv`), consulted 2026-08-06. First-party, founder's own account of his own company:
+  §5's **weaker** class, attributed in the prose as "by Turnbull's own account," the same footing as
+  `groove-fire-2015`. Not audited, not independently verified.
+- **Capture choice, checked rather than assumed.** A live CDX query
+  (`web.archive.org/cdx/search/cdx?url=groovehq.com/blog/how-to-optimize-remote-team-meetings`) run
+  during this task returned 34 captures from 2016-03-05 to 2026-03-09. The 2016-03-05 and 2018-01-26
+  captures were diffed directly: the earlier names Turnbull's coach ("Kris, our business coach,
+  pushed us to try it"); the 2018 capture silently redacts this to "our coach" throughout, with the
+  rest of the article's text otherwise unchanged. Registering the earlier capture is therefore not
+  cosmetic — it is the more complete and more clearly sourced version of the same document, and the
+  five claims registered below were verified against it live during this task
+  (`./verify.sh --strict 21` → 5 verified, 0 drifted).
+- **The Jason Fried "true cost of meetings" quote inside the post, deliberately not registered.**
+  Turnbull opens by quoting Fried on trading ten person-hours for a one-hour, ten-person meeting. That
+  line is attractive for the chapter's opening but is **Fried's claim, not Groove's**, relayed at one
+  remove inside a Groove blog post — registering it under `groove-meetings-2016` would misattribute a
+  third party's words to this case's evidence. If the eventual draft wants it, it needs its own
+  citation to Fried/Basecamp material, not this row.
+- **The 1-800-Got-Junk figures are Turnbull's secondhand relay of a video his coach showed him**, not
+  sourced to 1-800-Got-Junk directly or verified by this book. The nearly-20-people/under-7-minutes
+  claim is registered as a claim about what the video showed Turnbull and what he says about it — not
+  as this book's own confirmation of another company's meeting length. The prose must attribute it two
+  layers deep: Turnbull's account of what his coach's video showed.
+
+**The unspent inference (§6b).** Ch. 20 used `groove-fire-2015` to support a distinct inference: that
+the harm in managing people is not misjudging who to hire but delaying a firing decision once already
+made, with the 2-4-week trial as the forcing function that substitutes for the willpower a founder
+lacks in the moment. Nothing in that entry touched meeting design, meeting cadence, or the specific
+failure mode of a meeting that produces talk without action. This chapter's candidate inference —
+that an *unstructured* meeting is not a smaller cost than a *structured* one, and that fixed ownership,
+a repeating timeboxed skeleton and a named agenda are what convert meeting time from cost to signal —
+is new ground under the "name the inference" test: different source document, different inference,
+only the company and founder repeat, exactly the pattern already accepted for Gymdesk's ch. 18/ch. 19
+sequence and for ConvertKit's ch. 08/ch. 22 sequence.
+
+**Recognisability (§7) — resolving, not just naming, the conflict ch. 22's entry flagged.** Ch. 22's
+entry found this chapter's claims and source already sitting uncommitted in the worktree and recorded
+that it could not confirm whether "the one slot" ch. 20 left open (running total "four of four or
+five" after ch. 20) was still available, warning that if both ch. 21 and ch. 22 charged a half-slot
+for reusing an already-recognisable company, the book would sit at **5.0 of a stated ceiling of "four
+or five"** with zero recognisability budget left for chapters 23–28. That arithmetic is confirmed
+here rather than left open: ch. 22 already committed its ConvertKit reuse. **This entry spends the
+book's last half-slot on Groove and closes the budget at 5.0 of 5.** The ruling for whoever settles or
+drafts chapters 23–28: **no chapter from here to the end of the book may anchor on a company the
+reader has heard of.** This is a tighter constraint than the epic's own framing of Part V as "leaning
+into" small unknown businesses — it makes that lean mandatory rather than stylistic, and it is a
+direct, arithmetic consequence of ch. 21 and ch. 22 having been settled in the same narrow window
+without either one deferring to the other. Recorded honestly rather than smoothed over: this is a
+tighter corner than the book intended to paint itself into, and a future editorial pass could still
+choose to drop one of the two half-slots (most likely ch. 22's, since ConvertKit already had a full
+chapter at ch. 08 and Groove's ch. 21 use is the newer, less-recognisable-a-second-time case) rather
+than accept the 5.0 ceiling — that trade is named here, not decided, because it is a two-chapter
+decision and this task's scope is ch. 21 alone.
+
+**Domain-competence declaration (§8).** Not a 🇳🇱 chapter — ch. 21 is not among the four the epic names
+as carrying Dutch legal content (19, 20, 24, 28), and this entry adds no statutory content. No
+accounting or legal risk. The competence risk here is entirely interpretive, and has three parts:
+- **Never present Groove's specific minute-by-minute agenda as a template to copy.** The post's own
+  words undercut a prescriptive reading — "Our team is different from your team, and what works for
+  us might be different from what works for you" — and the chapter's thesis is the *mechanism*
+  (ownership, timeboxing, a repeating skeleton), not Groove's specific minute counts.
+  Reproducing "30 minutes on Monday, 10 on Tuesday–Thursday" as advice would overshoot exactly the way
+  §6f's ch. 15 review caught twice for other chapters: a caveat-free specific standing in for a
+  general claim.
+- **Attribute the Fried quote to Fried, or leave it out** — see above; it must not be filed as
+  evidence of Groove's own practice or thinking.
+- **Attribute the 1-800-Got-Junk figures two layers deep** — Turnbull's account of a video his coach
+  showed him, not this book's own verification of that company's meeting length, and not Groove's
+  own record.
+
+**Registered.** Five claims against `groove-meetings-2016` under `checks/claims.tsv` chapter 21: the
+"9-person 45-minute meetings" self-comparison, the 1-800-Got-Junk nearly-20-people/under-7-minutes
+figure (attributed two layers deep per above), the named-owner sentence, and the Monday and
+Tuesday–Thursday agenda-block lines (the clearest, tag-boundary-safe strings for the timeboxed
+structure — checked directly against the fetched source rather than assumed, since the source uses an
+em dash between the segment name and its minute count). `./verify.sh --strict 21` passes all five (5
+verified, 0 drifted, 0 skipped), confirmed by a live fetch run during this task.
+
 ### Ch. 22 — Measuring the Right Three Things
 
 **Status: has a case, with a real tension the settlement must resolve rather than paper over.**
