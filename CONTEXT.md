@@ -2550,6 +2550,138 @@ not assumed safe), and the "brand remains strong... real deal versus the knockof
 `checks/sources.tsv` row — `sn-howto` already exists. `./verify.sh --strict 25` passes all four (4
 verified, 0 drifted, 0 skipped), run live during this task against the already-cached source.
 
+### Ch. 26 — When the Ground Moves
+
+**Status: has a case.**
+
+**What this chapter owns, read from the Part V sequence before candidates were judged against it.**
+Ch. 25's own entry already fixed the sequence: "23 *Slack* — capacity held in reserve; 24 *What You
+Signed* — the paper; 25 *What Protects You*; 26 *When the Ground Moves* — external shocks; 27 *Built
+to Leave*; 28 *Knowing When to Stop*." Ch. 23 owns margin held **before** a shock arrives — staff
+depth, an owner's week not fully booked — and its own entry says plainly that the WP Curve case it
+used shows "accumulation, not proof of resilience": no source found in that task's time box showed
+the reserve actually being drawn on. That is precisely the gap ch. 26 is positioned to fill: not
+capacity held in reserve, but a shock actually arriving and a business's response to it, live rather
+than hypothetical. Ch. 26 is not 🇳🇱 in the register or the epic's own list of the four Dutch-legal
+chapters (19, 20, 24, 28), checked directly rather than assumed.
+
+**Candidate.** Gymdesk / Eran Galperin — the book's recurring counter-case/case (ch. 04, ch. 05,
+ch. 18, ch. 19), returning here on an **already-registered source read for a section neither earlier
+chapter opened**: `galperin-2023-covid`, "Building A Fitness Tech Company During COVID"
+(erangalperin.com, published 2023-05-12, consulted 2026-08-06), already sitting in
+`checks/sources.tsv` and already spent once, at ch. 19, for its hiring paragraphs (the June 2021
+first full-time hire, the customer-service hire, the "transition from a one-man, owner-run business
+to an actual company" line, the 8-employees-and-4-contractors end-2022 headcount). This entry uses
+the same document's earlier paragraphs — the ones about March–August 2020 — which ch. 19 never
+touched.
+
+**A fifth Galperin appearance, named as a judgement call rather than assumed free.** Ch. 20's entry
+and ch. 23's entry both already flagged that a fifth Gymdesk/Galperin chapter crosses the point where,
+in this book's own words, "a cast stops reading as continuity and starts reading as a shortage of
+research," and ch. 23 declined to pay that cost for a candidate (`eg_safer`, bootstrapped-versus-VC
+exits) it judged off-theme. Two things distinguish this case from that decision rather than repeating
+it. First, Galperin was never charged against the §7 recognisability budget (that budget closed at
+5.0 of 5 after ch. 21 and rules out Plausible, ConvertKit, Pinboard and Groove for the rest of the
+book — it does not touch Gymdesk, which §7's own cast table lists as "not famous," a genuinely small
+company). Second, and more load-bearing: this task searched the shared cache for a non-Galperin
+external-shock candidate before reaching for a fifth use — `danorris.html` (empty, a dead capture),
+`wpcurve_2017.html` (no shock content beyond stray keyword collisions on "fire" and "hack" that do
+not name an actual event), Baremetrics' Open Startups directory (`openstartups.html`/`os_2019.html`,
+a many-company revenue dashboard with no single dated shock narrative), Scrumpy, SweetProcess and
+Geocodio (`scrumpy.html`, `sweet.html`/`sweet_home.html`, `geo_blog.html`, none mentioning a
+disruption, closure, breach, lawsuit or comparable event) — and Studio Neat and Pinboard are excluded
+outright, the first because its only unused material (the imitation aftermath) is already spent at
+ch. 25 and the second because the ch. 21 recognisability ruling forbids it for any chapter 23–28. No
+other dated, quantified, named external-shock account turned up in the cache within this task's time
+box. Weighed against that absence, a global pandemic shutting down the entire physical-world vertical
+a B2B SaaS company serves is about as direct a fit for "when the ground moves" as this book's existing
+cast offers, and the paragraphs in question are new: ch. 19 never opened them. The judgement made
+here, explicitly: the thematic fit is strong enough to pay the recurring-cast cost this once, and the
+next chapter (27, 28) should not reach for Galperin again without an equally specific justification.
+
+**What this chapter would use it for.** Gymdesk serves gyms and martial-arts studios — a single
+physical-world vertical. The account: the company relaunched a redesigned product at the start of
+2020 and was growing MRR by "$1k+... every month" with "extremely strong trial-to-paid-account
+conversion rates, at around 40%" through the first weeks of the year — a business accelerating, not
+struggling, right before the shock. Then, in the founder's own words, COVID "hit the fitness industry
+hard — almost all gyms were closed for months," and as the vendor to that industry, "we were likewise
+impacted. Users were reaching out to freeze or cancel their accounts. We had significant churn from
+March to around August." That is the shock itself: not something the business did, not a market
+choice, a government-and-public-health event that removed the operating conditions of the company's
+entire customer base overnight. What makes the account useful rather than merely dramatic is what
+follows: the company "kept adapting... added many features to support our users during those
+times — from booking functionality with capacity restrictions, COVID vaccination checks, online
+training features" — and, despite the mid-year churn, "ended 2020 on a pretty good pace still, having
+grown our MRR by 60% to around $19.5k." The following year: "We ended 2021 strongly, having grown our
+MRR by around x2.5 compared to 2020." The chapter's job is not to prove that feature-adaptation
+*caused* the recovery — see the domain-competence caution below — but to use a real, dated, figure-
+bearing account of a business whose entire customer vertical was shut by external decree, which lost
+customers to that shock and can name roughly when, and which was still standing and growing a year
+later. That is a different question from ch. 23's (capacity built in advance) and from ch. 25's (a
+legal protection correctly declined and a competitive risk that materialised): here the shock is
+external to the business in the fullest sense — nothing Gymdesk did caused gyms to close.
+
+**Primary documents and evidence class (§5).**
+- `galperin-2023-covid` — erangalperin.com, published 2023-05-12, consulted 2026-08-06. Already
+  registered at ch. 19; no new `checks/sources.tsv` row needed, the same reuse pattern `sn-howto`,
+  `bw7-2026` and `bw6-2026` already establish. First-party, but a founder's own account of his own
+  company, **and written in May 2023 — roughly three years after the events it describes**: §5's
+  **weaker** class, compounded by hindsight the founder did not have in March 2020. Attributed in
+  prose as "by Galperin's own account," consistent with `galperin-2022`, `galperin-2023-fire` and
+  this same document's ch. 19 use.
+- **Not pursued — an independent, contemporaneous (2020-dated) account of the same churn or
+  recovery.** This task did not find a second Gymdesk source, a customer-side account, or industry
+  data on gym-services SaaS churn during 2020 corroborating the "significant churn" claim or the
+  60%/x2.5 MRR figures. They stand as the founder's unaudited self-report, exactly as `galperin-2022`
+  and `galperin-2023-fire` already do for this book's earlier Gymdesk material.
+
+**The unspent inference (§6b).** Ch. 04 took the stopping rule and improvised return-to-salary
+consequence; ch. 05 took the three-year path to full time, the 2018 MRR figure and the four-day week;
+ch. 18 took the post-hiring documentation account from a different, later source
+(`galperin-2023-fire`); ch. 19 took this same document's hiring paragraphs — the June 2021 first
+full-time hire, the customer-service hire, the one-man-to-company framing, the end-2022 headcount —
+for the employee-versus-contractor 🇳🇱 box. None of those four uses touched March–August 2020, the
+COVID churn, the 40% pre-shock conversion rate, or the 60%/x2.5 MRR figures spanning 2020–2021. This
+chapter's candidate inference — that an external shock can remove a company's entire customer
+vertical's ability to operate, cost it customers it cannot get back, and still leave the business
+larger a year later than before the shock, without the account being able to prove *why* — is new
+ground under the "name the inference" test in §6b: same company, same document even, but a different
+section and a different question than ch. 19 asked of it.
+
+**Domain-competence declaration (§8).** Not a 🇳🇱 chapter — no ground box, confirmed against the
+register and the epic's own list rather than assumed. The competence risk here is entirely
+interpretive, and sharper than usual because the source's own hindsight makes the mistakes easy to
+make without noticing:
+- **Never present the added features as the proven cause of the 2020/2021 growth.** The source
+  reports adaptation and recovery in the same paragraphs, but supplies no counterfactual: gyms also
+  reopened, vaccines also arrived, and the wider fitness-tech market moved with the pandemic
+  regardless of what any one vendor built. The chapter must say the account shows correlation the
+  founder himself did not test, not causation.
+- **Never let "40% trial-to-paid conversion" and "significant churn" collide into one figure.** They
+  describe different things at different times — conversion in the weeks *before* COVID, churn in the
+  months *during* it — and the source never states a churn rate, only "significant." Do not manufacture
+  a percentage the founder did not give.
+- **Never generalise from one surviving company to "adapting gets you through a shock."** This is a
+  survivorship account by construction: it is a post written by the founder of the company that made
+  it, three years on, and this task found no comparable account, in the cache or the time box
+  available, from a gym-services vendor that did not recover. The chapter must name that absence
+  rather than let one success stand in for a population.
+- **Never treat "March to around August" as a measured duration or the 60%/x2.5 figures as audited.**
+  Both are the founder's own recollection and self-reported MRR, not a filing — the same caveat this
+  book already attaches to every other Galperin figure, and the reused-source pattern (`sn-howto`,
+  `wpc-jun-2014`) that this book applies whenever the same weaker-class evidence returns for a new
+  inference.
+
+**Registered.** Four claims against `galperin-2023-covid` in `checks/claims.tsv` chapter 26: the
+"almost all gyms were closed for months" sentence, the "significant churn from March to around
+August" sentence, the "grown our MRR by 60% to around $19.5k" sentence, and the "grown our MRR by
+around x2.5 compared to 2020" sentence. All four checked clear of the tag-boundary trap by direct
+simulation against the cached raw source before registering (no `<em>`, `<a>` or similar inline tag
+falls inside any of the four spans; each sits inside a single `<p>` block). No new
+`checks/sources.tsv` row — `galperin-2023-covid` already exists, reused from ch. 19 for a different
+section and a different inference. `./verify.sh --strict 26` passes all four (4 verified, 0 drifted,
+0 skipped), run live during this task against the already-cached source.
+
 ## 7. Cases to avoid
 
 Overused to the point of meaninglessness, and in several instances misreported for decades:
