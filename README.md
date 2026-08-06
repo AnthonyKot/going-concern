@@ -145,6 +145,31 @@ of the Webvan story — the company's own 10-Q says it had "no obligation … an
 capital commitment" under that agreement. Pulling the actual documents changed the chapter's
 argument. `CONTEXT.md §8` keeps the table of what got caught.
 
+## Reviewing a chapter
+
+`verify.sh` only checks the half of accuracy that is mechanical. `CONTEXT.md §8` measured the other
+half directly: 47 substantive corrections across the first thirteen chapters, of which 41 were
+interpretive or domain errors — a backwards causal arrow, a category claiming more than its evidence,
+a legal scope error — and the claim register caught none of them. Every one of those 47 was found by
+reading.
+
+```bash
+scripts/review.sh 17                              # a bare chapter number
+scripts/review.sh chapters/17-you-are-the-bottleneck.html
+```
+
+Two reviewers (`grok`, `agy`) read the chapter independently against
+`scripts/prompts/review-checklist.md` — the counter-case/aftermath/limit/owed distinction, the
+case ledger's "spent" rule, backwards causal arrows, domain-technical accuracy, the `On Dutch ground`
+boundary — and do not see each other's output; a third model (`codex`) then consolidates, adversarial
+toward *their* findings rather than toward the chapter, dropping what does not survive and ranking
+what does. A failure of one reviewer does not abort the run.
+
+The report lands in `checks/reviews/<chapter-name>/report.md`. **Nothing in it is applied
+automatically.** The author reads it, accepts or rejects each finding by hand, and logs both in
+`CONTEXT.md §8` — the log of what got rejected and why is how a recurring failure mode gets noticed,
+which is worth more than any single correction.
+
 ## Status
 
 Parts I and II are complete and verified — chapters 1–10, each part closing with an exit test.
