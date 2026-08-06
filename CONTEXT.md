@@ -1678,6 +1678,1296 @@ ceiling with part-closes excluded. Self-tested against the chapter 6 markup bug 
 4. **The loop depends on external review.** All 47 were found by reading, not by me and not by the
    script. That dependency should be stated rather than assumed to be robust.
 
+## 6i. Case hunt — chapters 18–28
+
+One entry per chapter, written **before** its `§6x` settlement and before any prose, per the epic's
+binding order: candidate, sources and evidence class, the unspent inference against §6b, the
+domain-competence declaration §8 requires, and an honest status. A chapter whose figures cannot be
+registered is recorded as having no case rather than written around the gap.
+
+### Ch. 18 — Writing It Down
+
+**Status: has a case.**
+
+**Candidate.** Gymdesk / Eran Galperin — already the book's recurring counter-case (ch. 04, ch. 05),
+returning on a **different, later source**: "How to fire yourself as a founder"
+(erangalperin.com, 2023-06-29/30, sequel to a 2023-05-12 post it names and links, "the process I
+went through growing Gymdesk from a one-person operation to a company with over 10 FTE"). Self-funded
+B2B SaaS, at the reader's scale, no 🇳🇱 flag on this chapter.
+
+**What this chapter would use it for.** The post is a founder describing, mid-process, what he
+actually built after discovering that hiring people did not remove him from day-to-day operation: a
+Google Drive knowledge base with one folder per department, an internal employee handbook, a
+customer-service knowledge base of verification/debugging flows that reps themselves add to on every
+new ticket, and recorded weekly engineering walkthroughs of how parts of the system evolved. That is
+the case for "writing it down" as a mechanism. The same post supplies its own honest limit, in one
+sentence: he could transfer knowledge but not "the intuition and cross functional experience with all
+aspects of the business" that came from years of doing every job himself — a customer-service example
+he can resolve in minutes takes a documented-but-inexperienced rep close to an hour. That limit is the
+chapter's counter-case material sitting inside its own primary source, not invented separately.
+
+**Primary documents and evidence class (§5).**
+- `galperin-2023-fire` — erangalperin.com, 2023-06-30, consulted 2026-08-06. First-party, but a
+  founder's own account of his own company: §5's **weaker** class, to be attributed in the prose as
+  "by Galperin's own account" exactly as `galperin-2022` already is in ch. 04/05. Not a filing, not
+  audited, not independently verified — the FTE count, the five-year figure and the minutes-versus-
+  hours comparison are all his own numbers.
+- The post's own predecessor, "From business to company" (erangalperin.com, 2023-05-12, linked
+  in-text as "I wrote about the process"), was **not fetched** — not needed for the two claims this
+  entry registers, and pulling it was out of scope for a single-chapter, time-boxed hunt. Flagged here
+  as a possible further-reading or second-source candidate if the eventual draft wants the fuller
+  growth narrative; do not assume it corroborates anything until read.
+
+**The unspent inference (§6b).** Ch. 04 took Gymdesk's stopping rule and improvised consequence
+(runway, return-to-salary). Ch. 05 took the three-year path to full-time, the MRR figure and the
+four-day week (a transition-funding inference). Neither touched hiring past the founder, operational
+knowledge, or what happens when headcount grows and the owner is still the bottleneck — that is
+new ground for this book's use of Galperin. It is also distinct from ch. 17's inference from Bingo
+Card Creator (workload volume) and Pinboard (credential/migration concentration): ch. 17's own §6h
+correction table left an explicit open question — *"whether another engineer could have done it with
+documentation and time is unknown"*, and *"documented and understood by two people [dependence] it
+reduces both"* — without a case to test it. This post is a founder's real, contemporaneous attempt at
+exactly that, reporting a partial and qualified result rather than a clean win. Available under the
+"name the inference" test in §6b: the inference is new, the source document is new, only the company
+repeats.
+
+**Domain-competence declaration (§8).** None required beyond ordinary reading and business reasoning.
+Not a 🇳🇱 chapter — no register lists a Dutch-ground flag for ch. 18, and this entry adds none. No
+accounting, tax or statutory content. The only risk is interpretive, per the recursive-error lesson at
+§8: the post is one founder's felt account of hiring and partial documentation, not a controlled
+comparison of documented versus undocumented handoffs, not a measurement of how much bottleneck
+actually eased, and not the employees' side of the story. The chapter must say what the case does not
+show as plainly as what it does.
+
+**Registered.** Five claims under `checks/claims.tsv` (chapter 18) against `galperin-2023-fire` in
+`checks/sources.tsv`: the "over 10 FTE" growth figure, the "first 5 years" solo-founder figure, the
+15-20-minutes-versus-hours handoff-cost comparison, the "documenting all of the knowledge" sentence,
+and the customer-service-SOP mechanism sentence. `./verify.sh --strict 18` passes all five.
+
+### Ch. 19 — The First Hire 🇳🇱
+
+**Status: has a case.**
+
+**Candidate.** Gymdesk / Eran Galperin — third use of the recurring cast (ch. 04, ch. 05, ch. 18),
+on a **third, distinct source**: "Building A Fitness Tech Company During COVID"
+(erangalperin.com, 2023-05-12). This is, in fact, the ch. 18 entry's own predecessor — that entry
+named "From business to company" as "the post's own predecessor… linked in-text as 'I wrote about
+the process'" and recorded it as **not fetched.** Checked, not assumed: the ch. 18 fire post's own
+HTML links that phrase to `erangalperin.com/2023/05/12/business-to-company/`, which now 404s live —
+but the Wayback Machine holds eleven captures of that exact URL between 2023-05-12 and 2025-11-15,
+and the last of them (2025-11-15) is byte-for-byte the same article, under the same title, "Building
+A Fitness Tech Company During COVID." The slug was `business-to-company` and was renamed sometime
+after November 2025; the content this task fetched at the renamed URL is the predecessor post, not a
+different one that happens to share a date. Recorded here so the ch. 18 entry's "possible
+further-reading candidate" note can be closed: it is not further reading, it is this chapter's case.
+
+**What this chapter would use it for.** The post narrates Gymdesk's 2020–2022 stretch in order:
+COVID-driven churn survived, a decision after "a few failed experiments engaging 'growth' and
+advertising agencies" that outside consultants would never understand the audience the way Galperin
+did, and then two concrete first hires — a content-marketing/editor role in **June 2021** (a former
+freelance writer with an SEO background, to double down on organic acquisition), followed later that
+year by the first full-time customer-service hire, after customer service handled through Upwork
+contractors "just wasn't working out." Galperin frames the June 2021 hire explicitly as a threshold
+decision, not a scaling detail: *"This was a big decision for me personally — it's different engaging
+freelancers for fixed term / cost work, than bringing on someone as a full time employee that you're
+now responsible to make sure they are paid every month. It was here that we started to make the
+transition from a one-man, owner run business to an actual company."* That sentence is the chapter's
+thesis material, stated by the founder himself rather than authored by this book. The post also gives
+a later checkpoint — 8 employees and 4 contractors by the end of 2022 — which lets the chapter show
+that the employee/contractor line was a decision made repeatedly, not settled once.
+
+**Primary documents and evidence class (§5).**
+- `galperin-2023-covid` — erangalperin.com, 2023-05-12, consulted 2026-08-06. First-party, founder's
+  own account of his own company: §5's **weaker** class, same attribution rule already used for
+  `galperin-2022` and `galperin-2023-fire` — "by Galperin's own account." Not a filing, not audited.
+  The hire dates, the reason given for each hire, and the 2022 headcount split are all his own report.
+- `bw7-2026` — Burgerlijk Wetboek Boek 7, art. 610 and art. 610a, `wetten.overheid.nl/BWBR0005290/
+  2026-01-01`, consulted 2026-08-06. **Not a new source** — already registered at ch. 05 for the
+  non-compete box, reused here for two different articles, which needs no new ledger entry per §6b
+  (the case ledger tracks company cases and dedicated regime chapters; a statute cited a second time
+  for different articles is the same pattern ch. 12/13/15 already establish for BW2/BW6/the Wet LB).
+  Art. 610 lid 1 supplies the statutory test for who is a `werknemer`: an agreement to perform work
+  *"in dienst van"* another party, *"tegen loon"*, *"gedurende zekere tijd."* Art. 610a supplies the
+  `rechtsvermoeden` — a worker who works for someone else, for pay, for three consecutive months,
+  weekly or at least twenty hours a month, **is presumed** to be doing so under an employment
+  contract. This is the box's "enforcement" content per §5b's chapter list: the statute does not wait
+  for a label the two parties agreed on: sustained, regular, paid work triggers a presumption that
+  shifts the burden onto whoever wants to call it something else.
+- **Not found, and time-boxed rather than pursued further.** A second, independent primary source for
+  the same distinction — a Belastingdienst or Rijksoverheid page on `zzp'er of werknemer`, the Wet DBA,
+  or its enforcement moratorium, which §6f would want as the second source for the operative rule —
+  was searched for and not obtained inside this task's time box. Every guessed Belastingdienst and
+  Rijksoverheid URL for this subject returned a real, served 404 (confirmed against the site's own
+  404 template, not a network failure), and every search engine tried (DuckDuckGo, DuckDuckGo Lite,
+  Bing, Startpage) returned a blocked or challenge response rather than results — consistent with the
+  earlier attempt's cached `ddg*.html` / `bing*.html` / `mojeek.html` files, which show the same
+  engines were already failing before this task started. `kvk-hire.html` and `tryout.html`, the two
+  files this task was told to salvage, are both cached copies of the KVK "Pagina niet gevonden" 404
+  template — dead ends, not usable sources. **This is a real gap, not a cosmetic one**: the statute
+  alone gives the test and the presumption; a Belastingdienst source would additionally ground how the
+  distinction is actually enforced in practice (audits, the withdrawn VAR system, model agreements),
+  which this entry cannot yet source. Flagged for whoever settles this chapter under §6f: budget
+  time for **one** more attempt at the Belastingdienst/Rijksoverheg guidance page before accepting the
+  statute alone, and if it still fails, the box should say plainly that it quotes the test and the
+  presumption and not the administrative practice around them.
+
+**The unspent inference (§6b).** Ch. 04 and ch. 05 used Gymdesk's stopping-rule and transition-to-
+full-time history (2018–2019). Ch. 18 used a 2023 post about post-hoc documentation, after headcount
+had already passed ten. Neither touches the decision this chapter needs: **why and when to make the
+first hire at all**, and what changes the moment a business takes on its first employee rather than
+its first contractor. This post is the one Galperin source that actually narrates that decision, with
+dates and a stated reason for each hire — new ground under the "name the inference" test in §6b: the
+inference (the threshold between hiring freelance help and taking on an employee) is new, the source
+is new (never registered before), only the company repeats. It is also the ch. 18 entry's own
+predecessor, closing a gap that entry left open rather than reopening spent ground.
+
+**Domain-competence declaration (§8).** This chapter is one of the four the epic names as carrying
+Dutch legal content a reader can act on and be harmed by, and needs the ch. 15 process at settlement.
+What this entry can already say: the competence risk is not the statute's plain words — art. 610 and
+610a are short and were read directly, not summarized from memory — it is **not overstating what a
+presumption does.** `Vermoed` is a rebuttable presumption, not a reclassification: it shifts who has
+to prove what, it does not itself convert a contractor into an employee by operation of the sentence
+alone, and the twenty-hours/three-months figures are the presumption's trigger, not a universal
+definition of employment (art. 610's own three-part test is the definition; 610a is evidentiary).
+A chapter that reports the presumption as "you become an employee automatically at twenty hours a
+month" would be exactly the kind of caveat-that-overshoots-into-a-false-claim §6f's ch. 15 review
+caught twice. The box must say what the statute says and stop, name the professional (employment
+lawyer) per §5b, and — per the gap above — be honest that it has not sourced how this is enforced in
+practice, only what the law itself states. No accounting content; the risk here is entirely legal-
+interpretive, and it is smaller than ch. 15's because the two articles quoted do not require
+arithmetic or a jurisdiction fork, only a correct account of what a presumption is.
+
+**Registered.** Four claims against `galperin-2023-covid` (the June 2021 hire, the first customer-
+service hire, the one-man-to-company framing sentence, and the 8-employees/4-contractors 2022
+figure) and two against `bw7-2026` (art. 610 lid 1's definition, art. 610a's presumption), all under
+`checks/claims.tsv` chapter 19. `./verify.sh --strict 19` passes all six.
+
+### Ch. 20 — Managing People 🇳🇱
+
+**Status: has a case.**
+
+**Candidate.** Groove (GrooveHQ), the shared-inbox/helpdesk SaaS founded by Alex Turnbull — a
+**new company for the recurring cast**, not a return of Gymdesk or Bingo Card Creator. Source:
+"Firing: How I Do the Hardest Thing as an Entrepreneur" (groovehq.com, published 2015-01-29,
+archived by the Internet Archive 2015-03-16; the live domain now serves a 2026-dated rebrand,
+"Helply," and the original blog is gone — checked, not assumed: the live URL 404s and the CDX record
+for the whole `groovehq.com/blog/*` path was pulled to confirm the archive is the only copy). Groove
+was three years old and self-funded-to-VC-backed at the time of writing (the chapter would frame it
+at the reader's stage-of-company, not its later size); the post is Turnbull's own, first-party,
+contemporaneous account of hiring and firing practice, not a retrospective written years later.
+
+**Why not a fourth Gymdesk chapter.** Gymdesk/Galperin has now carried ch. 04, ch. 05, ch. 18 and
+ch. 19 — two of those in immediate succession. §7's own recurring-cast rule says two of five chapters
+with no fresh sourcing is "the point at which a cast stops reading as continuity and starts reading
+as a shortage of research"; a fifth use, back-to-back with the fourth, would cross that line for real
+rather than as a figure of speech. A new company was actively sought for this reason, not merely
+found by default.
+
+**What this chapter would use it for.** The post is not a general theory of management; it is one
+founder's account of two specific mechanisms, offered because they are what he actually changed after
+"screwing up plenty of times." First: a non-negotiable 2-4 week paid trial for every hire, at every
+level, before any permanent offer — explicitly a **forcing function**, in his words, that makes the
+difficult go/no-go conversation happen on a schedule rather than being deferred indefinitely. Second:
+direct, honest feedback given *during* the trial, as often as daily, and logged in writing, because
+waiting until the trial's end to say anything "helped nobody" — his own correction of his own earlier
+practice. The trial's evaluation draws on more than the founder's own judgement: teammates who work
+closely with the new hire, and the new hire's own stated assessment of fit, both feed the decision.
+The chapter's other load-bearing fact is a turnover figure offered without being asked for social
+credit: Groove "turned over nearly 40% of the team we launched with" in its first three years — on a
+small team, a large fraction, and Turnbull's stated reason is his *own* hesitation to fire promptly,
+not the hires' quality: every person let go, he says, "has been more than qualified to do the job."
+That reframes "managing people" away from screening for competence (ch. 19's territory, and hiring
+generally) and onto a distinct, later failure mode: knowing a fit is wrong and delaying the
+conversation anyway, at a cost the post itemises as slower milestones, reduced team productivity from
+unhappy colleagues, and the founder's own productivity lost to "trying to force a fit where there was
+none."
+
+**Primary documents and evidence class (§5).**
+- `groove-fire-2015` — groovehq.com via web.archive.org, published 2015-01-29, archived 2015-03-16,
+  consulted 2026-08-06. First-party, but a founder's own account of his own company: §5's **weaker**
+  class, attributed in the prose as "by Turnbull's own account," on the same footing as every
+  Galperin post already in the book. Not audited, not independently verified. The turnover figure is
+  round ("nearly 40%") and self-reported — flagged here so the eventual draft does not present it with
+  false precision.
+- `bw7-2026` — Burgerlijk Wetboek Boek 7, arts. 669, 671, 672 and 673,
+  `wetten.overheid.nl/BWBR0005290/2026-01-01`, consulted 2026-08-06. **Not a new source** — already
+  registered at ch. 05 and reused at ch. 19 for different articles, which needs no new ledger entry
+  per §6b. This is the chapter's ground-box content, and it is what makes ch. 20 the second of the
+  four Dutch-legal chapters the epic names: §5b's subject list assigns ch. 20 "ending an employment,
+  notice, and severance," confirmed directly against the file rather than assumed from the task
+  description. Art. 669 lid 1 sets the general rule the reader needs before anything else: dismissal
+  requires a `redelijke grond` (reasonable ground) *and* a finding that redeployment to another
+  suitable role, within a reasonable period, is not possible or not sensible — there is no
+  at-will dismissal in this jurisdiction, ever, for any reason, which is the single most important
+  fact for a reader whose only frame of reference may be US practice. Art. 669 lid 3 onderdeel d
+  supplies the ground that speaks directly to "performance problems": unsuitability for the role,
+  *other than through illness*, provided the employer notified the employee of this **in good time**
+  and gave them a **real opportunity to improve** — a documented improvement process is not best
+  practice under Dutch law, it is close to a precondition for the ground being available at all. Art.
+  672 lid 2 gives the statutory notice-period ladder an employer must observe (one month under five
+  years of service, rising to four months at fifteen years or more). Art. 673 lid 2 and lid 3 give the
+  transitievergoeding (statutory severance) formula — one third of a month's salary per year of
+  service — and its current cap, €102.000 or twelve months' salary if higher.
+- **Not pursued.** A Belastingdienst or Rijksoverheid page on how dismissal grounds are actually
+  assessed by the UWV or the kantonrechter in practice (case volumes, how often each `redelijke grond`
+  succeeds) was not searched for — out of this task's time box, and arguably out of scope for a box
+  whose job, per §5b and the stricter ch. 15/19 process, is to quote the statute and stop rather than
+  to survey enforcement. Flagged for whoever settles this chapter under §6f, as ch. 19's entry flagged
+  the equivalent gap for the employee/contractor test.
+
+**The unspent inference (§6b — new case, so this records the inference for future use rather than
+testing it against a prior entry).** No earlier chapter has used Groove. The inference this source
+supports — that the harm in "managing people" badly is not misjudging who to hire but delaying the
+conversation once the judgement is already made, and that a scheduled forcing function (the trial
+period) substitutes for the willpower a founder does not reliably have in the moment — is distinct
+from ch. 18's inference (documentation transfers operational knowledge) and ch. 19's (the
+contractor/employee threshold is a decision made at a specific, nameable moment). If Groove returns
+in a later chapter, the fact to record here for that test is: this entry took the trial-period
+mechanism, the during-trial feedback practice, and the three-year turnover figure. Nothing else in
+the post — its hiring-channel material (WeWorkRemotely, referrals from the blog itself), its account
+of remote-work skill, or its later Q&A material on hiring junior developers — has been drawn on, and
+would be available to a future ch. 19-adjacent hiring chapter without re-litigating this one, subject
+to the "name the inference" test.
+
+**Scale note (§7).** Groove is not famous — it never reached the scale that would put it outside the
+reader's plausible future — but it is **recognisable** to the same bootstrapper/indie-SaaS audience
+that already knows Plausible, ConvertKit and Pinboard, on the strength of its own "path to $500k MRR"
+open-revenue blog series (visible in this very post's own sidebar). Under the distinction §7 draws at
+ch. 06, that charges **another half-slot** against the four-or-five-chapter recognisability budget.
+Running total after ch. 16 was three and a half of four or five; this entry brings it to **four of
+four or five**, with eight chapters remaining after ch. 20. Whoever settles ch. 20 under §6f should
+treat this as close to the ceiling: at most one more recognisable business fits inside the stated
+budget for the rest of the book, and Parts IV and V were supposed to lean into businesses nobody has
+heard of. This entry is made anyway because the alternative — a fifth consecutive Gymdesk chapter, or
+no case at all for a chapter the epic marks as carrying actionable legal content — is worse than the
+recognisability cost; but the tradeoff should be named at settlement, not discovered there.
+
+**Domain-competence declaration (§8).** This is one of the four chapters the epic names as carrying
+Dutch legal content a reader can act on and be harmed by, and needs the ch. 15/19 stricter process at
+settlement. The competence risk is not the statute's plain words — arts. 669, 671, 672 and 673 were
+read directly from the consolidated text, not summarised from memory or a law firm's blog — it is
+**conflating the American and Dutch defaults.** The Groove case is entirely a US at-will-adjacent
+practice (trial periods as internal culture, not law) and must not be allowed to leak into the ground
+box's account of what Dutch law requires, or vice versa: the box must not imply that a Dutch employer
+can replicate Turnbull's "fire quickly, on my own judgement" model, because art. 669 lid 1 forecloses
+exactly that outside a short statutory proeftijd. The second risk, specific to this chapter, is
+presenting the transitievergoeding as a penalty for firing badly rather than what art. 673 actually
+makes it: a payment owed on dismissal initiated by the employer *for any qualifying reason*,
+performance included, provided the ground is valid — it is not a fine for wrongful dismissal, and
+conflating the two would be exactly the kind of overshoot §6f's ch. 15 review caught twice. A chapter
+that reports "you can fire someone for underperformance the way Groove did, you just have to pay
+severance" would still be wrong, because the ground itself — lid 3 onderdeel d's notice-and-real-
+opportunity-to-improve requirement — is a precondition independent of the money. No accounting
+content; the risk is entirely legal-interpretive, and it is larger than ch. 19's because this box
+carries four articles and a live formula with a cap, not two articles and a single presumption.
+
+**Registered.** Three claims against `groove-fire-2015` (the 2-4-week trial as a forcing function, the
+during-trial feedback practice, and the "nearly 40%" turnover figure) and six against `bw7-2026`
+(art. 669 lid 1's reasonable-ground-and-redeployment test, art. 669 lid 3 onderdeel d's notice-and-
+opportunity-to-improve requirement, art. 672 lid 2's notice-period rule and its under-five-years tier,
+and art. 673 lid 2's transitievergoeding formula and its cap), all under `checks/claims.tsv` chapter
+20. `./verify.sh --strict 20` passes all nine.
+
+### Ch. 21 — Meetings That Aren't Theater
+
+**Status: has a case, with a consecutive-chapter-reuse cost that this entry names and settles rather
+than leaves open.**
+
+**Candidate.** Groove (GrooveHQ) / Alex Turnbull — second use of the company introduced at ch. 20, on
+a **different, dated article**: "How We've Optimized Remote Team Meetings For Ultimate Efficiency"
+(groovehq.com, published 2016-02-18, roughly a year after the firing post ch. 20 used). Same
+first-party, contemporaneous-founder evidence class as ch. 20; the live domain is the same 2026-dated
+"Helply" rebrand with the original blog gone, so this is an archive-only source like ch. 20's.
+
+**Why a second Groove chapter, immediately after the first, rather than a new company.** This needed
+its own judgement call, made explicitly rather than by default. Two considerations pulled in opposite
+directions and are both recorded here:
+- *Against reuse:* §7's recurring-cast rule, invoked by ch. 20's own entry to justify *avoiding* a
+  fifth consecutive Gymdesk chapter, warns that a cast reused too densely "stops reading as
+  continuity and starts reading as a shortage of research." Putting Groove in ch. 20 **and** ch. 21,
+  back-to-back, risks exactly that impression on a casual read.
+- *For reuse, checked against the actual text rather than assumed:* the line ch. 20 crossed was not
+  "adjacency," it was **cumulative count** — the entry's own words are "a *fifth* use, back-to-back
+  with the fourth, would cross that line for real," and it says so *after* accepting ch. 18/ch. 19's
+  adjacent third-and-fourth Gymdesk uses without objection. Groove at ch. 21 would only be a
+  **second** use — the same position Gymdesk was in at ch. 05, which nobody flagged. And unlike the
+  Gymdesk repeats, ch. 20 and ch. 21 are not the same material twice: they are two different,
+  independently dated posts about two different problems (firing versus meeting design), inside two
+  chapters that are *already* thematically adjacent in Part IV's own sequence ("Managing People" then
+  "Meetings That Aren't Theater"). §7 explicitly wants "the reader to watch the same decisions
+  interact over time" — a company visibly maturing its management practice across two consecutive
+  chapters is closer to that goal than a new stranger introduced for one chapter and never seen again.
+  **Ruling: proceed with Groove**, on the cumulative-count reading of the book's own rule, not the
+  adjacency reading — but the adjacency cost is real at the prose level (two chapters in Turnbull's
+  voice in a row) and whoever drafts ch. 21 under §6f should open it without re-introducing Groove as
+  if new, and should make the reader feel the throughline rather than the coincidence.
+
+**What this chapter would use it for.** The post narrates, in order, four meeting rhythms Groove tried
+and mostly abandoned — no scheduled meetings, a Monday-only call, a non-work "Friday Fun Day," daily
+Slack-only standups — each with a stated reason it failed, before naming the piece that was actually
+missing: structure. The turn is a specific, named comparator: at a coaching retreat, Turnbull's coach
+showed him a video of 1-800-Got-Junk running a daily standup where "nearly 20 people participated and
+shared updates, and the meeting still took less than 7 minutes," which "made our 9-person 45-minute
+meetings look amateur in comparison." That comparison is the chapter's hinge — not "have fewer
+meetings" but "an unstructured meeting with fewer people can cost more time than a structured one with
+more." What followed is a concrete, ownable structure: a named meeting owner ("Lesley owns meetings for
+our team, and handles scheduling and moderating"), a fixed, timeboxed, identical-skeleton agenda run
+Monday through Friday (Monday Recap at 30 minutes, Tuesday–Thursday standups at 10, Friday Update at
+20), with named, seconds-denominated segments. That is "meetings that aren't theater" as a mechanism,
+not a slogan: the theater was the *un*structured, on-demand and mood-scheduled versions that came
+before it, and the post is explicit that those were tried in good faith and still failed.
+
+**Primary documents and evidence class (§5).**
+- `groove-meetings-2016` — groovehq.com via web.archive.org, published 2016-02-18, archived
+  2016-03-05 (capture `20160305122806`, the earliest available and the one actually registered in
+  `checks/sources.tsv`), consulted 2026-08-06. First-party, founder's own account of his own company:
+  §5's **weaker** class, attributed in the prose as "by Turnbull's own account," the same footing as
+  `groove-fire-2015`. Not audited, not independently verified.
+- **Capture choice, checked rather than assumed.** A live CDX query
+  (`web.archive.org/cdx/search/cdx?url=groovehq.com/blog/how-to-optimize-remote-team-meetings`) run
+  during this task returned 34 captures from 2016-03-05 to 2026-03-09. The 2016-03-05 and 2018-01-26
+  captures were diffed directly: the earlier names Turnbull's coach ("Kris, our business coach,
+  pushed us to try it"); the 2018 capture silently redacts this to "our coach" throughout, with the
+  rest of the article's text otherwise unchanged. Registering the earlier capture is therefore not
+  cosmetic — it is the more complete and more clearly sourced version of the same document, and the
+  five claims registered below were verified against it live during this task
+  (`./verify.sh --strict 21` → 5 verified, 0 drifted).
+- **The Jason Fried "true cost of meetings" quote inside the post, deliberately not registered.**
+  Turnbull opens by quoting Fried on trading ten person-hours for a one-hour, ten-person meeting. That
+  line is attractive for the chapter's opening but is **Fried's claim, not Groove's**, relayed at one
+  remove inside a Groove blog post — registering it under `groove-meetings-2016` would misattribute a
+  third party's words to this case's evidence. If the eventual draft wants it, it needs its own
+  citation to Fried/Basecamp material, not this row.
+- **The 1-800-Got-Junk figures are Turnbull's secondhand relay of a video his coach showed him**, not
+  sourced to 1-800-Got-Junk directly or verified by this book. The nearly-20-people/under-7-minutes
+  claim is registered as a claim about what the video showed Turnbull and what he says about it — not
+  as this book's own confirmation of another company's meeting length. The prose must attribute it two
+  layers deep: Turnbull's account of what his coach's video showed.
+
+**The unspent inference (§6b).** Ch. 20 used `groove-fire-2015` to support a distinct inference: that
+the harm in managing people is not misjudging who to hire but delaying a firing decision once already
+made, with the 2-4-week trial as the forcing function that substitutes for the willpower a founder
+lacks in the moment. Nothing in that entry touched meeting design, meeting cadence, or the specific
+failure mode of a meeting that produces talk without action. This chapter's candidate inference —
+that an *unstructured* meeting is not a smaller cost than a *structured* one, and that fixed ownership,
+a repeating timeboxed skeleton and a named agenda are what convert meeting time from cost to signal —
+is new ground under the "name the inference" test: different source document, different inference,
+only the company and founder repeat, exactly the pattern already accepted for Gymdesk's ch. 18/ch. 19
+sequence and for ConvertKit's ch. 08/ch. 22 sequence.
+
+**Recognisability (§7) — resolving, not just naming, the conflict ch. 22's entry flagged.** Ch. 22's
+entry found this chapter's claims and source already sitting uncommitted in the worktree and recorded
+that it could not confirm whether "the one slot" ch. 20 left open (running total "four of four or
+five" after ch. 20) was still available, warning that if both ch. 21 and ch. 22 charged a half-slot
+for reusing an already-recognisable company, the book would sit at **5.0 of a stated ceiling of "four
+or five"** with zero recognisability budget left for chapters 23–28. That arithmetic is confirmed
+here rather than left open: ch. 22 already committed its ConvertKit reuse. **This entry spends the
+book's last half-slot on Groove and closes the budget at 5.0 of 5.** The ruling for whoever settles or
+drafts chapters 23–28: **no chapter from here to the end of the book may anchor on a company the
+reader has heard of.** This is a tighter constraint than the epic's own framing of Part V as "leaning
+into" small unknown businesses — it makes that lean mandatory rather than stylistic, and it is a
+direct, arithmetic consequence of ch. 21 and ch. 22 having been settled in the same narrow window
+without either one deferring to the other. Recorded honestly rather than smoothed over: this is a
+tighter corner than the book intended to paint itself into, and a future editorial pass could still
+choose to drop one of the two half-slots (most likely ch. 22's, since ConvertKit already had a full
+chapter at ch. 08 and Groove's ch. 21 use is the newer, less-recognisable-a-second-time case) rather
+than accept the 5.0 ceiling — that trade is named here, not decided, because it is a two-chapter
+decision and this task's scope is ch. 21 alone.
+
+**Domain-competence declaration (§8).** Not a 🇳🇱 chapter — ch. 21 is not among the four the epic names
+as carrying Dutch legal content (19, 20, 24, 28), and this entry adds no statutory content. No
+accounting or legal risk. The competence risk here is entirely interpretive, and has three parts:
+- **Never present Groove's specific minute-by-minute agenda as a template to copy.** The post's own
+  words undercut a prescriptive reading — "Our team is different from your team, and what works for
+  us might be different from what works for you" — and the chapter's thesis is the *mechanism*
+  (ownership, timeboxing, a repeating skeleton), not Groove's specific minute counts.
+  Reproducing "30 minutes on Monday, 10 on Tuesday–Thursday" as advice would overshoot exactly the way
+  §6f's ch. 15 review caught twice for other chapters: a caveat-free specific standing in for a
+  general claim.
+- **Attribute the Fried quote to Fried, or leave it out** — see above; it must not be filed as
+  evidence of Groove's own practice or thinking.
+- **Attribute the 1-800-Got-Junk figures two layers deep** — Turnbull's account of a video his coach
+  showed him, not this book's own verification of that company's meeting length, and not Groove's
+  own record.
+
+**Registered.** Five claims against `groove-meetings-2016` under `checks/claims.tsv` chapter 21: the
+"9-person 45-minute meetings" self-comparison, the 1-800-Got-Junk nearly-20-people/under-7-minutes
+figure (attributed two layers deep per above), the named-owner sentence, and the Monday and
+Tuesday–Thursday agenda-block lines (the clearest, tag-boundary-safe strings for the timeboxed
+structure — checked directly against the fetched source rather than assumed, since the source uses an
+em dash between the segment name and its minute count). `./verify.sh --strict 21` passes all five (5
+verified, 0 drifted, 0 skipped), confirmed by a live fetch run during this task.
+
+### Ch. 22 — Measuring the Right Three Things
+
+**Status: has a case, with a real tension the settlement must resolve rather than paper over.**
+
+**Candidate.** ConvertKit / Nathan Barry — second use of the ch. 08 company, on a **new, later
+source**: "Understanding ConvertKit's open metrics" (nathanbarry.com/metrics/, published 2019-01-14,
+dateModified 2019-02-27). Written shortly after ConvertKit crossed $1m MRR, well past the 2014
+near-death and 2017 direct-sales recovery ch. 08 already used — this is a mature-stage founder
+narrating how he reads the company's own public Baremetrics dashboard, not a turnaround story.
+
+**What this chapter would use it for, and the tension in using it.** The post walks through, in
+order, what Barry says he actually looks at: the five components of MRR movement (new, expansion,
+reactivation, contraction, churn), the MRR-versus-net-revenue distinction, user churn versus revenue
+churn versus net revenue churn, total customers and net-new customers, the quick ratio, ARPU against
+Buffer's, and an 80/20 revenue-concentration breakdown by customer. **That is at least seven things,
+not three**, and the post never claims otherwise — nowhere does Barry say a smaller number would
+suffice; if anything his stated posture is the opposite of delegation, a founder personally auditing
+a public dashboard in detail. A chapter titled "Measuring the Right Three Things" cannot cite this
+post as evidence that Barry himself measures three things, because he does not say that and the case
+does not show it. What the case *can* support, if the chapter is honest about doing the editorial
+work itself rather than attributing it to the source: Barry's own ordering is not flat — he opens
+with MRR's composition and treats churn as the necessary second question before quick ratio, ARPU and
+the concentration breakdown are introduced as progressively more supplementary. A chapter arguing that
+an owner stepping back needs a compressed, delegable set could use that ordering as evidence for
+*which* three are load-bearing (revenue movement, churn, and one measure of customer-revenue
+concentration or efficiency), while explicitly naming the other four as color a business can review
+less often. That argument is this book's, not Barry's, and the prose must say so in those terms — the
+single biggest risk this entry can name is a chapter that silently smooths "here are seven things one
+founder tracks" into "a founder should only track three," dressed as if the case said it.
+
+**Primary documents and evidence class (§5).**
+- `nb-metrics-2019` — nathanbarry.com, published 2019-01-14, dateModified 2019-02-27, consulted
+  2026-08-06. First-party, but a founder's own account of his own company: §5's **weaker** class,
+  attributed as such in the prose, on the same footing as `nb-convertkit-5k` and `nb-direct-sales`
+  already registered at ch. 08. Not audited, not independently verified — the underlying numbers come
+  from ConvertKit's own Baremetrics instance, which the post says is open to public view but which
+  this book has not itself queried; the book is trusting Barry's transcription of his own dashboard,
+  one layer removed from the dashboard itself.
+- **Not pursued.** ConvertKit's live Baremetrics/Open Startups page (the dashboard the post describes)
+  was not fetched independently — `openstartups.html` and `os_2019.html` are already in the shared
+  cache from an earlier ledger check, but both render their figures via JavaScript and contain no
+  ConvertKit text in the saved HTML (checked: zero matches for "ConvertKit" in either file), so they
+  cannot corroborate anything without a live, script-rendered fetch this task's time box did not
+  attempt. The entry rests on the blog post alone, at the weaker evidence class that implies.
+
+**The unspent inference (§6b).** Ch. 08's ledger entry explicitly reserved this: "another ConvertKit
+chapter would need evidence outside this recovery," and this is exactly that — a different source
+(the 2019 metrics post, never registered before), a different company-moment ($1m+ MRR and stable,
+not $1,207 and dying), and a different inference. Ch. 08 took the failure-and-recovery MRR ladder to
+show that asking customers directly finds a load-bearing objection an analytics package cannot, and
+that founder-run selling need not survive the founder's absence. Ch. 22's candidate inference — what
+a small number of composite metrics can tell an owner about a business's health, and what the rest
+are for — touches revenue and churn arithmetic ch. 08 never opened. Passes the "name the inference"
+test: new source, new inference, only the company and founder repeat.
+
+**Domain-competence declaration (§8).** Not a 🇳🇱 chapter — no legal content. The competence risk is
+financial-literacy precision, not statute:
+- **User churn, revenue churn and net revenue churn are three distinct ratios**, not three names for
+  one number — the post itself distinguishes them (revenue churn adds contraction; net revenue churn
+  nets out expansion), and a chapter that uses "churn" as an undifferentiated word after citing this
+  source would misrepresent its own evidence.
+- **The quick ratio formula must be reproduced exactly** — (New MRR + Expansion MRR) / (Churned MRR +
+  Contraction MRR) — and ConvertKit's own value (1.47) reported as what it is: low, by Barry's own
+  framing, and specific to a comparison against exactly two other named open-startups companies
+  (Buffer 1.08, Hubstaff 1.38), not a general benchmark.
+- **The ARPU and 80/20 figures are Barry's own arithmetic on a filtered dashboard view**, not a
+  published cohort study — the 6,994/20,812 customer split and the 33%/68% revenue split are a
+  same-day snapshot from one export, and the prose must not present them as a stable or audited
+  segmentation.
+- **Never attribute the "three things" framing to Barry** — see the tension above. This is the
+  chapter's own compression argument and must be presented as such.
+
+**Recognisability (§7) — a real constraint, and possibly already spent by the time this is read.**
+ConvertKit already carries a half-slot from ch. 08 under the "chapters anchored on a company the
+reader has heard of" rule; reusing it for a second chapter charges **another** half-slot under the
+same rule that charged Plausible, ConvertKit, Pinboard and Groove once each. Ch. 20's entry left the
+running total at "four of four or five," with "at most one more recognisable business" fitting the
+rest of the book. **This task cannot confirm whether that one slot is still open.** `checks/claims.tsv`
+and `checks/sources.tsv` carry uncommitted, unsettled rows for ch. 21 (Groove, a *second* Groove
+article) found already present in this worktree when this task started — evidence that ch. 21's case
+hunt ran before this one and may itself already have spent the last slot by the same "another chapter,
+another half-slot" logic this entry just applied to ConvertKit. If so, registering ConvertKit again
+here would put the book at 5.0 of a stated ceiling of "four or five," and no recognisable company
+could appear in any of chapters 23–28 without either amending the budget or dropping one of ch. 21's
+or ch. 22's cases. Whoever settles ch. 21 and ch. 22 under §6f-equivalent process should reconcile
+this before either chapter drafts — recorded here rather than silently assumed either way.
+
+**Registered.** Seven claims against `nb-metrics-2019` under `checks/claims.tsv` chapter 22: the
+five-component MRR-growth sentence, the user-churn-versus-revenue-churn definition, the 2.2% net
+revenue churn figure, the 1.47 quick ratio, the $21-versus-$57 ARPU comparison with Buffer, the
+20,812-customers/$1,188,580-MRR total, and the 6,994-customers(33%)/$811,117-MRR(68%) concentration
+figure. `./verify.sh --strict 22` passes all seven.
+
+### Ch. 23 — Slack
+
+**Status: has a case, deliberately not the one the ledger earmarked.**
+
+**What this chapter owns, restated from §6g before candidates are judged against it.** Ch. 16's
+own boundary-setting sentence: "Ch. 23 (*Slack*) owns capacity held in reserve; ch. 28 (*Knowing
+When to Stop*) owns ending." Not personal financial sufficiency (ch. 16), not a stopping decision
+(ch. 28) — margin held inside the operating business itself, before a shock arrives, that lets it
+absorb one without breaking: staff depth beyond the minimum needed today, an owner's week that is
+not fully booked, a process that does not depend on one specific person being reachable.
+
+**Why not Studio Neat, which §7's recurring-cast section names as the earmarked candidate.** The
+ch. 03/09 ledger entry is explicit: "the same gate applies to the possible ch. 23 return on
+operating with two people and no slack. [Ch. 11 is a return only if a separate first-party record
+supplies repeat-purchase, referral or retention evidence; the existing campaign post does not.]"
+This task searched for that separate record inside its time box — the only Studio Neat material in
+the shared cache (`studioneat_text.txt` / `studioneat.html`) is the same "How to Kickstarter"
+round-up already fully spent at ch. 03 and ch. 09, and no independent Studio Neat interview or
+post about staying a two-person shop turned up in the cache or in the live fetches this task had
+time to run (search engines that were not already dead in the cache — Bing, DuckDuckGo HTML — were
+tried live and returned either a bot challenge or an empty results page). The gate is not cleared,
+so Studio Neat is recorded here as **still unavailable for ch. 23**, exactly as the earmark warned
+it might be, rather than used anyway on the strength of the earlier campaign post.
+
+**Why not a fourth recognisable company, and why not a fifth Gymdesk chapter.** Ch. 21's entry
+closed the recognisability budget at "5.0 of a stated ceiling of four or five" and ruled that "no
+chapter from here to the end of the book may anchor on a company the reader has heard of." That
+rules out any further use of Plausible, ConvertKit, Pinboard or Groove — which also rules out the
+one piece of leftover material in this book's own ledger that reads as a plant for exactly this
+chapter: Pinboard's ch. 16 entry names "the bookmark, tag, archive and URL rows, the 2017 Delicious
+acquisition, and the 2020 platform-migration post" as "enough for a Part IV or V return on
+maintenance, obsolescence or one-person operational risk" — a description that fits "capacity held
+in reserve" better than almost anything else available. It is excluded anyway: the ch. 21 ruling is
+later, more specific to chapters 23–28, and binding. A fifth Gymdesk/Galperin chapter was also
+considered and set aside — not for recognisability (Galperin was never charged a budget slot) but
+because ch. 04, ch. 05, ch. 18 and ch. 19 already draw on him four times, and ch. 20's own entry
+already treated a fifth, adjacent use as crossing the point where "a cast stops reading as
+continuity and starts reading as a shortage of research." Nothing found in this task's time box
+(`eran_safer.html`/`eg_safer.txt`, a 2026-01-15 post on bootstrapped-versus-VC exits) was
+on-theme enough to justify paying that cost.
+
+**Candidate.** WP Curve / Dan Norris and Alex McClafferty — third use of the ch. 10/ch. 14 company,
+on a **new, dated source**: "People, Product and Process — June monthly report"
+(wpcurve.com, published 2014-07-01). One year into the company, about six months after the
+December 2013 figures ch. 10 and ch. 14 already used. WP Curve was never charged against the
+recognisability budget (§7's own ledger only ever names Plausible, ConvertKit, Pinboard and
+Groove) and the live domain is dead today — checked live during this task: `wpcurve.com` now
+immediately redirects to `/lander`, a parked-domain pattern, consistent with the existing
+(unsourced-by-this-task) note already sitting in `checks/sources.tsv` that the company was
+acquired in 2016.
+
+**What this chapter would use it for.** The post is Norris's own account of a specific month in
+which the business visibly built margin rather than spent it. Three facts, read together, are the
+case: the team grew to 15 people against $23,535 MRR, with Norris stating plainly that "at our
+current growth rate we are hiring every 2 weeks" — hiring paced ahead of being fully booked, not
+staffing reactively to a backlog. The first hire made by someone other than either founder happened
+that same month, handled by a team admin now running a written 20-page onboarding process. And a
+named list of previously founder-owned tasks — hiring logistics, affiliate approval, social-media
+image creation, paying staff and affiliates, "90% of the Xero bookkeeping" — had just been handed
+off, to the point that Norris writes the two founders "realized we don't have a lot to do" in their
+own weekly check-in, then jokes about a "4 hour work week." That joke is the chapter's cleanest
+illustration of the difference between *slack* and *idleness dressed up as a lifestyle claim*: the
+post is self-aware that this is not literally a 4-hour week, and the chapter must not borrow the
+line as if the founders meant it. What the case actually supports is narrower and more useful: a
+service business whose core promise (24/7, unlimited small fixes) structurally requires spare
+capacity to keep, and a specific, dated month in which the owners can point to margin building up
+in three places at once — headcount ahead of demand, a process no longer routed through either
+founder, and founder time that was not fully claimed.
+
+**Primary documents and evidence class (§5).**
+- `wpc-jun-2014` — wpcurve.com via web.archive.org, published 2014-07-01, archived 2014-07-27
+  (earliest available capture; two later captures, 2014-08-06 and 2016-03-11, carry different
+  content digests per a live CDX query run during this task and were **not diffed** — flagged for
+  whoever drafts the chapter, on the pattern ch. 21 already established for Groove's meetings
+  post), consulted 2026-08-06. First-party, founder's own account: §5's **weaker** class, same
+  attribution rule as `wpc-jul-2013`/`wpc-oct-2013`/`wpc-nov-2013`/`wpc-dec-2013` already
+  registered at ch. 10/ch. 14 — "by Norris's own account." Not audited. The team-size figure, the
+  hiring cadence and the delegated-task list are all the founders' own report of their own month.
+- **The acquisition claim, not sourced by this task.** `checks/sources.tsv`'s existing ch. 10 note
+  states "wpcurve.com was acquired in 2016" without a citation. This task did not attempt to source
+  it — out of scope for a single-chapter, time-boxed hunt — and it is not registered as a claim
+  here. If the eventual ch. 23 draft wants to say anything about what became of WP Curve's slack
+  (whether it was tested by a real shock, or the business was simply bought while things were
+  still working), that needs its own sourcing pass first; this entry supplies none.
+- **Not pursued.** A later WP Curve monthly report showing whether the June 2014 margin was ever
+  actually drawn down by a real disruption — a bad month, a key developer leaving, a demand
+  spike — would make the chapter's argument far stronger than a single snapshot of slack being
+  built. `wpcurve_slugs.txt`/`wpcurve_urls.txt` in the shared cache list dozens of further monthly
+  reports through 2016 that were not fetched inside this task's time box. Flagged as the single
+  highest-value next search for whoever settles this chapter under its own process.
+
+**The unspent inference (§6b).** Ch. 10 took the launch date, the week-one doubling, the customer
+counts, the agency-segment removal and the Oct–Dec 2013 MRR ladder from three earlier reports
+(`wpc-oct-2013`, `wpc-nov-2013`, `wpc-dec-2013`). Ch. 14 returned to `wpc-dec-2013`/`wpc-nov-2013`
+only for the blogger-versus-business segment contrast, and the ledger's own Prohibited field rules
+out a customer-value number from this source forever. Neither chapter opened `wpc-jun-2014`, which
+did not exist in either entry's source list, and neither touched headcount, hiring pace, or which
+tasks the founders still personally held — this book's existing WP Curve ledger note flags that
+gap directly: "**Repeatable by this owner next month is not the same as delegable to staff. The
+latter belongs to Part IV.**" That inference was never actually spent by a Part IV chapter (18–22
+used Gymdesk and Groove instead), and this entry does not spend it either — ch. 23's use is
+narrower still: not delegation as a bottleneck fix (ch. 17's and ch. 18's territory) but the
+*margin* that a small business builds when it hires and documents ahead of the immediate need
+rather than exactly to it. New source, new inference, only the founders and the company repeat —
+available under the "name the inference" test in §6b.
+
+**Domain-competence declaration (§8).** Not a 🇳🇱 chapter — no register lists a Dutch-ground flag
+for ch. 23, and this entry adds none. No accounting, tax or statutory content. The interpretive
+risks are real and specific to this case:
+- **The 15-people-to-$23,535-MRR ratio must never be presented as a staffing benchmark.** It is
+  specific to a $69/month unlimited-ticket support model staffed substantially from the
+  Philippines, named in the post itself — a different cost structure and a different service
+  category from almost anything the reader might run, and the chapter must say so rather than let
+  the ratio imply "hire one person per roughly $1,500 of MRR."
+- **"4 hour work week, baby!" is a joke inside the source, immediately undercut by the next line
+  ("Unlikely... Even when I'm in a hammock I have my computer handy")** — quoting it without that
+  context would misrepresent the founders' own stated view of their situation, the same
+  caveat-that-overshoots error §6f's ch. 15 review caught twice for other chapters.
+- **A single month is a snapshot of slack being built, not evidence that the slack held.** This
+  entry found no source (inside its time box) showing the reserve capacity actually absorbing a
+  shock — the chapter's argument should say plainly that this case shows accumulation, not proof of
+  resilience, unless a later search fills that gap.
+- **Never imply hiring ahead of demand is costless or always right.** Ch. 01 (Webvan) is this
+  book's own cautionary case for fixed capacity committed ahead of demonstrated demand destroying a
+  company; ch. 23 must not read as a contradiction of that lesson. The distinction the chapter needs
+  to hold is scale: a services business adding people two at a time on $23K of MRR is a different
+  risk than a warehouse network built for demand that never arrived, and the chapter should name
+  that difference rather than let the two cases silently disagree.
+
+**Registered.** Four claims against `wpc-jun-2014` in `checks/claims.tsv` chapter 23: the
+15-person team-size sentence, the "grew by 22% to $23,535" MRR sentence, the "hiring every 2 weeks"
+sentence, and the first-hire-by-someone-other-than-the-founders sentence. `./verify.sh --strict 23`
+passes all four (4 verified, 0 drifted, 0 skipped), confirmed by a live fetch run during this task.
+
+### Ch. 24 — What You Signed 🇳🇱
+
+**Status: no company case found within this task's time box.** Recorded honestly, per the epic's own
+instruction and the §7 precedent set by ch. 12 and ch. 15: "the two 🇳🇱 regime chapters (12, 15) are
+the model for what to do when no case at the right scale can be found: anchor on something checkable
+and say in the chapter that there is no company behind it." This entry does the same — statutory
+sources are registered below; no company is.
+
+**What this chapter owns.** Per §6 the register's "new chapter" note: "contracts, liability,
+insurance, IP ownership. Not a legal manual; a map of which vague agreements become expensive and
+when to pay someone who knows." Per §5b it carries a `.ground` box on "liability, professional
+indemnity insurance, standard terms, and who owns code written by an employee," under the stricter
+ch. 15 process because a reader can act on this chapter's content and be harmed by it.
+
+**What was tried.** Three lines of search, all time-boxed:
+1. **The shared cache.** Reviewed the full `/home/diablo/casehunt-cache/` inventory. Confirmed
+   `bw2.txt`, `bw7.txt` and `auteurswet.html` are genuine fetched content; `bw6.html` (9KB) is a
+   `wetten.nl | Fout` **error page**, not usable, and was refetched fresh (below). Nothing else in
+   the cache is on-topic for contracts, liability, insurance or IP ownership — the remaining files
+   (`groove-*`, `nb_*`, `wpcurve_*`, `pinboard_*`, `danorris_*`, search-engine result pages, and a
+   `readme-head.md`/`run1.json`/chess-fixture cluster that belongs to an unrelated project sharing
+   the directory) are leftovers from other chapters' hunts or from a different repository entirely,
+   not from any research aimed at this chapter.
+2. **Eran Galperin's other venture, considered and rejected.** `eg_binpress.txt` is Galperin's own
+   "Startup Postmortem: Binpress" (erangalperin.com, 2016-02-11) — a code-and-license marketplace he
+   ran before Gymdesk, which "paid an IP lawyer to help us create a custom software license
+   generator." Read in full. Rejected for two reasons, not one: **(a)** it does not support this
+   chapter's thesis — it describes proactively paying a lawyer, not a vague agreement becoming
+   expensive, and the postmortem contains no dispute, breach, lawsuit or liability event (checked
+   directly: no hit for "sued", "dispute", "lawsuit", "breach" anywhere in the document); **(b)**
+   Binpress took a seed round through 500 Startups, which is off this book's self-funded scale, and
+   Galperin would be a fifth appearance by the same voice after ch. 04, ch. 05, ch. 18 and ch. 19 —
+   ch. 23's entry already declined a fifth Galperin use on exactly this "shortage of research" ground,
+   and that reasoning applies here too, on top of the thesis mismatch.
+3. **Live search**, three targeted queries run against `html.duckduckgo.com` (the only engine this
+   environment could reach without a bot challenge): a freelance/client "who owns the code" dispute,
+   a founder blog post on standard terms or liability that "cost us" something, and a solo developer
+   or bootstrapped founder writing about a professional-indemnity or errors-and-omissions insurance
+   claim. All three returned only generic legal-services marketing content (law-firm and
+   insurance-broker blogs written to rank for the query, not to report a real, named, dated event) —
+   exactly the contamination §5 warns against, and exactly the material a "two easy figures" pass
+   would have used. None named a real company with a checkable primary document.
+
+**What the missing evidence would have to be.** A real, small, self-funded business — software or
+otherwise, at the reader's scale — that can point to a specific dated agreement (a client contract,
+a standard-terms document, an employment or contractor agreement, an insurance policy) and a specific
+cost that followed from what that agreement did or did not say: a client withheld payment on a
+liability clause, a contractor kept the IP because nothing was signed, an insurer denied a claim on a
+technicality, or a standard-terms dispute was voided under art. 6:233/6:234 BW6 for lack of
+terhandstelling. This is a narrower ask than most of this book's cases: it needs a **cost event**, not
+just a company's existence, and small self-funded companies — true to the epic's own framing — do not
+routinely publish that kind of story with figures attached. A next attempt should search specifically
+for indie-hacker "here's what I got wrong in my contract" retrospectives and small-claims or
+kantonrechter judgments involving a one- or two-person Dutch bv or eenmanszaak, neither of which this
+task's time box reached.
+
+**Domain-competence declaration (§8).** 🇳🇱 chapter, carrying content a reader can act on and be
+harmed by, so the standing rule applies: **never state Dutch law from memory.** Both statutes below
+were fetched live during this task (not recalled, not paraphrased from a secondary source) and the
+registered claims quote them verbatim. Two things this task explicitly did **not** do, because §6f
+reserves them for whoever settles this chapter under its own process: it drew no conclusion about
+what these articles mean for a specific reader's situation, and it did not compare the employee
+default (Auteurswet art. 7) against the contractor gap (art. 2 lid 3) beyond stating what each article
+says — that comparison is interpretive work belonging to the `.ground` box, not to a case-hunt entry.
+One risk to flag now: art. 7's employer-default copyright applies only to work made "in dienst van een
+ander" (in another's employ) — an ordinary employment relationship — and does **not** extend to
+independent contractors or freelancers, who keep authorship, and whose copyright can only be
+transferred by a **written** instrument under art. 2 lid 3. A chapter (or a reader) that assumes
+"we paid for it, so we own it" for contractor-built code would be relying on a default that does not
+exist. This is precisely the kind of scope error §6f's ch. 15 review caught twice for other chapters
+and it is the single most important sentence this entry can hand forward.
+
+**Registered — statutory claims, no company case.** `checks/sources.tsv` gains one new source,
+`auteurswet-2026` (wetten.overheid.nl/BWBR0001886/2026-01-01, a dated consolidation that — like
+`lb-12a` and unlike Books 2 and 6 of the BW — serves full article bodies at a dated URL, fetched live
+during this task, 2026-08-06). `bw6-2026` already exists (registered for the distance-contract
+withdrawal right) and is reused here for the algemene-voorwaarden articles, per §6b — same pattern as
+`bw7-2026`'s reuse across ch. 05/19/20. Four claims added to `checks/claims.tsv` under chapter 24: the
+Auteurswet art. 7 employer-default sentence, the Auteurswet art. 2 lid 3 written-transfer sentence, the
+BW6 art. 233 voidability grounds (the full a./b. clause), and the BW6 art. 234 terhandstelling clause.
+`./verify.sh --strict 24` passes all four (4 verified, 0 drifted, 0 skipped), confirmed by a live
+fetch run during this task — `auteurswet-2026` fetched fresh (200, 1,076,473 bytes) and `bw6-2026`
+served from cache.
+
+### Ch. 25 — What Protects You
+
+**Status: has a case.**
+
+**What this chapter owns, read from the register and the epic before candidates were judged
+against it.** Ch. 25 carries no 🇳🇱 flag in §6 or in the epic's own list of the four Dutch-legal
+chapters (19, 20, 24, 28) — checked directly against both rather than assumed, since three of this
+chapter's four Part V neighbours (24 and 28, plus 20 earlier) do carry the flag and it would have
+been easy to assume this one does too. §5b's subject list already assigns ch. 24 "liability,
+professional indemnity insurance, standard terms, and who owns code written by an employee" — so
+whatever "protects you" turns out to mean, it is not that box's territory a second time. Reading the
+Part V sequence in order (23 *Slack* — capacity held in reserve; 24 *What You Signed* — the paper;
+25 *What Protects You*; 26 *When the Ground Moves* — external shocks; 27 *Built to Leave*; 28
+*Knowing When to Stop*), the open ground left for ch. 25 is the gap between the paper protections
+ch. 24 quotes and the shocks ch. 26 will describe: **the protective measures owners actually reach
+for, and whether they work the way the owner assumed.** This entry's editorial judgement, made
+explicit rather than assumed: the clearest, best-sourced version of that question in the material
+available is not insurance or entity structure (no case for either turned up — see below), but
+intellectual-property protection for a physical product, because it is the one place this book's
+existing cast left a real, undrawn decision on the record, complete with a moment the risk actually
+materialised.
+
+**Candidate.** Studio Neat (Tom Gerhardt & Dan Provost) — third use of the ch. 03/ch. 09 company, on
+the **same source** already registered as `sn-howto` but a section of it neither earlier chapter
+drew on: "A Word on Patents," inside "How to Kickstarter" (studioneat.com, archived 2015-02-21).
+Checked against §6b's Studio Neat ledger entry before use, per the file's own "name the inference"
+test: the **Spent** field lists exactly what ch. 03 (the five-campaign table, the Glif launch, the
+prototype rule, delivery evidence) and ch. 09 (the Cosmonaut goal, slots, tiers, fees, shipping,
+fulfilment cost) drew from this document, and the patents section appears in neither list. §7's
+recurring-cast rule ("two of five chapters with no fresh sourcing" reads as a shortage of research)
+was written about a five-chapter window in Part II; ch. 25 sits sixteen chapters and three Parts away
+from ch. 09, drawing on content genuinely untouched until now, which is a different situation from a
+back-to-back reuse of the same material — but it is still a third use of the same two people, and is
+named as a judgement call here rather than left implicit, the same way ch. 21 and ch. 23 named their
+own reuse decisions. Studio Neat itself was never charged against the §7 recognisability budget
+("Studio Neat, two people, which spends nothing" — only the Coolest Cooler `.limit` was charged), so
+this use does not touch the budget ch. 21 closed at 5.0 of 5 or the ruling that followed it.
+
+**What this chapter would use it for.** The section is Gerhardt and Provost's own account of
+deciding not to patent the Glif — their first product, the one whose Kickstarter success is ch. 03's
+own case — despite being "freaked out" at first that they had no patent while it was taking off. Two
+things make the passage more useful than a generic "should I patent this" post. First, it names and
+corrects a specific misconception the reader is likely to share, in the source's own words: *"Many
+people seem to have the misconception that patents are magical things that act like a force field
+around your product, preventing anyone from ever ripping it off... Patents do nothing to prevent
+people from stealing your idea. All they do is give you the legal authority to take action if you
+believe someone is infringing** — [and] you would still need to hire a lawyer to take the perp to
+court."* Protection, in other words, is not a status you acquire by filing paperwork; it is, at
+best, a standing to sue that costs more money on top of what the patent itself cost. Second, and this
+is the part that makes the case rather than just the argument: **the risk they were weighing was not
+hypothetical by the time they wrote this.** "Since launching the Glif, there have been a few direct
+imitations that have cropped up, out of Germany and Taiwan" — named, linked knockoffs, not a
+worst-case scenario. Their stated response was to do nothing about it ("There is not much we can do,
+other than shrug our shoulders and carry on"), reasoning explicitly that even a hypothetical
+international utility patent would not have been worth the time and money to enforce, and naming what
+they leaned on instead: *"As long as our brand remains strong, we think enough customers will choose
+the real deal versus the knockoff."* That is a real business, at the reader's scale, that faced the
+exact event a legal protection is supposed to prevent, had decided in advance not to buy that
+protection, and named a different thing — brand strength, not a legal instrument — as what it was
+actually counting on. The chapter's job is to use this as the concrete instance of a more general
+question the title asks: when an owner reaches for something because it feels protective, does it
+actually change the outcome, or does it just feel like it does.
+
+**Primary documents and evidence class (§5).**
+- `sn-howto` — studioneat.com via web.archive.org, archived 2015-02-21, consulted 2026-08-06.
+  Already registered at ch. 03/ch. 09; no new `sources.tsv` row needed, per the same reuse pattern
+  `bw7-2026` and `bw6-2026` already establish for statutes reused across chapters. First-party,
+  founder's own account of their own company and their own (non-lawyer) understanding of patent law:
+  §5's **weaker** class, same footing as the campaign and pricing material already drawn from this
+  document at ch. 03/ch. 09. The document itself flags its own limits on this point, unprompted —
+  "make sure you contact an expert rather than relying solely on the advice from two dudes with no
+  legal expertise" — which the chapter should keep rather than smooth away.
+- **Not pursued — insurance, and a Studio Neat second source on the imitation aftermath.** Two gaps,
+  both time-boxed rather than closed. First, no case for *insurance* specifically (professional
+  indemnity, product liability, business interruption) turned up in the shared cache or the small
+  number of live searches this task's time box allowed before the search engines available in this
+  environment (DuckDuckGo HTML, DuckDuckGo Lite, Startpage, Marginalia) returned bot challenges or
+  proof-of-work walls rather than results — the same dead-end already logged at ch. 19, ch. 23 and
+  ch. 24's entries, confirmed again here rather than assumed from those earlier notes. If a future
+  pass wants an insurance case specifically, it needs either a different retrieval method or a much
+  larger time box than a single chapter's hunt allows. Second, the Glif imitations are named but not
+  dated, and no follow-up Studio Neat post confirming whether the "shrug and carry on" bet actually
+  paid off (sales unaffected, brand held) was found — the post asserts confidence, not a measured
+  outcome, and the chapter must say so rather than imply the bet was later vindicated by evidence this
+  entry does not have.
+- **Considered and rejected: Binpress (Eran Galperin), a second time.** `eg_binpress.txt` — "Startup
+  Postmortem: Binpress," already read in full and rejected for ch. 24 for naming a lawyer paid to
+  build a custom software-license generator, with no dispute or cost event in the record. Reconsidered
+  here because "paying for protection in advance" is closer to this chapter's question than to ch.
+  24's, but rejected again on the same two grounds ch. 24 already found: it is a proactive purchase
+  with no realised risk to test it against (unlike the Glif's actual imitations), and it would be a
+  fifth Galperin appearance after ch. 04, ch. 05, ch. 18 and ch. 19 — a cost ch. 23's entry already
+  declined to pay once for a weaker fit than this.
+
+**The unspent inference (§6b).** Ch. 03 used this document for the pre-sale evidence ladder (a
+non-refundable payment before the thing exists is obtainable and survivable); ch. 09 used it for
+pricing (buyer enthusiasm and a testable commercial price are not the same thing). Neither opened the
+patents section, and neither chapter's *Permitted*/*Prohibited* fields say anything about
+intellectual property, competitive imitation, or what actually deters a copycat. This chapter's
+candidate inference — that a legal protection can be correctly understood, correctly declined, and
+the business can still survive contact with the exact risk it was meant to prevent, because something
+else (brand, in this instance) was doing the protective work instead — is new ground under the "name
+the inference" test: new section of an existing source, new inference, only the company repeats.
+
+**Domain-competence declaration (§8).** Not a 🇳🇱 chapter — confirmed against both the register and
+the epic's own list before writing this entry, not assumed. No ground box, and this entry's content
+must not be read as one. The competence risk here is real but has a narrower shape than the Dutch
+chapters':
+- **This is US patent law, described by two non-lawyers, and it must not travel as if it were
+  general or Dutch/European law.** The source's own design-patent/utility-patent distinction, the
+  "most patents only protect infringement within the United States" line, and the cost claims are
+  Gerhardt and Provost's understanding of the US system, stated with their own explicit caveat that
+  they are not a legal source. A Dutch or EU reader's actual options — an EPO or Benelux-route patent,
+  Benelux/EUIPO trademark registration, design-right protection — are a different regime with
+  different costs and mechanics, not covered by this document at all. The chapter must present the
+  *lesson* (protection is not a force field; it is a standing to sue, priced separately from the
+  filing) as portable, and must not let the source's US-specific mechanics stand in for what an EU
+  reader would actually face. This is the same "portable argument, quarantined specifics" discipline
+  §5b states for jurisdiction-dependent chapters, applied here even though the chapter itself carries
+  no ground box.
+- **Never imply the "shrug and carry on" bet is proven correct.** The source states a belief about
+  brand strength, not a measured result — see the not-pursued gap above. The chapter can use the
+  decision and the reasoning; it cannot borrow a result the source does not report.
+- **Never generalise from one design-patent case to "patents are never worth it."** The source itself
+  scopes its claim to a two-person company with this product; ch. 04's Cydoc, elsewhere in this book,
+  held two US patents under a different calculus (healthcare software, higher stakes, different
+  economics) and this chapter must not read as silently contradicting that case. The distinction is
+  the same kind ch. 23's entry drew between Webvan's fixed-capacity failure and WP Curve's small-scale
+  hiring: two real cases reaching different decisions at different scales are not in tension, and the
+  chapter should name the difference rather than let the two silently disagree.
+
+**Registered.** Four claims against `sn-howto` in `checks/claims.tsv` chapter 25: the "patents do
+nothing to prevent people from stealing your idea" sentence, the "designed to protect large
+corporations... we decided to pass" sentence, the "direct imitations... out of Germany and Taiwan"
+sentence (tag-boundary-checked — the source wraps "direct" and "imitations" in separate `<a>` tags
+with a space already between them, which `verify.sh`'s tag-to-space substitution and whitespace
+collapse both tolerate; confirmed by direct simulation against the cached HTML before registering,
+not assumed safe), and the "brand remains strong... real deal versus the knockoff" sentence. No new
+`checks/sources.tsv` row — `sn-howto` already exists. `./verify.sh --strict 25` passes all four (4
+verified, 0 drifted, 0 skipped), run live during this task against the already-cached source.
+
+### Ch. 26 — When the Ground Moves
+
+**Status: has a case.**
+
+**What this chapter owns, read from the Part V sequence before candidates were judged against it.**
+Ch. 25's own entry already fixed the sequence: "23 *Slack* — capacity held in reserve; 24 *What You
+Signed* — the paper; 25 *What Protects You*; 26 *When the Ground Moves* — external shocks; 27 *Built
+to Leave*; 28 *Knowing When to Stop*." Ch. 23 owns margin held **before** a shock arrives — staff
+depth, an owner's week not fully booked — and its own entry says plainly that the WP Curve case it
+used shows "accumulation, not proof of resilience": no source found in that task's time box showed
+the reserve actually being drawn on. That is precisely the gap ch. 26 is positioned to fill: not
+capacity held in reserve, but a shock actually arriving and a business's response to it, live rather
+than hypothetical. Ch. 26 is not 🇳🇱 in the register or the epic's own list of the four Dutch-legal
+chapters (19, 20, 24, 28), checked directly rather than assumed.
+
+**Candidate.** Gymdesk / Eran Galperin — the book's recurring counter-case/case (ch. 04, ch. 05,
+ch. 18, ch. 19), returning here on an **already-registered source read for a section neither earlier
+chapter opened**: `galperin-2023-covid`, "Building A Fitness Tech Company During COVID"
+(erangalperin.com, published 2023-05-12, consulted 2026-08-06), already sitting in
+`checks/sources.tsv` and already spent once, at ch. 19, for its hiring paragraphs (the June 2021
+first full-time hire, the customer-service hire, the "transition from a one-man, owner-run business
+to an actual company" line, the 8-employees-and-4-contractors end-2022 headcount). This entry uses
+the same document's earlier paragraphs — the ones about March–August 2020 — which ch. 19 never
+touched.
+
+**A fifth Galperin appearance, named as a judgement call rather than assumed free.** Ch. 20's entry
+and ch. 23's entry both already flagged that a fifth Gymdesk/Galperin chapter crosses the point where,
+in this book's own words, "a cast stops reading as continuity and starts reading as a shortage of
+research," and ch. 23 declined to pay that cost for a candidate (`eg_safer`, bootstrapped-versus-VC
+exits) it judged off-theme. Two things distinguish this case from that decision rather than repeating
+it. First, Galperin was never charged against the §7 recognisability budget (that budget closed at
+5.0 of 5 after ch. 21 and rules out Plausible, ConvertKit, Pinboard and Groove for the rest of the
+book — it does not touch Gymdesk, which §7's own cast table lists as "not famous," a genuinely small
+company). Second, and more load-bearing: this task searched the shared cache for a non-Galperin
+external-shock candidate before reaching for a fifth use — `danorris.html` (empty, a dead capture),
+`wpcurve_2017.html` (no shock content beyond stray keyword collisions on "fire" and "hack" that do
+not name an actual event), Baremetrics' Open Startups directory (`openstartups.html`/`os_2019.html`,
+a many-company revenue dashboard with no single dated shock narrative), Scrumpy, SweetProcess and
+Geocodio (`scrumpy.html`, `sweet.html`/`sweet_home.html`, `geo_blog.html`, none mentioning a
+disruption, closure, breach, lawsuit or comparable event) — and Studio Neat and Pinboard are excluded
+outright, the first because its only unused material (the imitation aftermath) is already spent at
+ch. 25 and the second because the ch. 21 recognisability ruling forbids it for any chapter 23–28. No
+other dated, quantified, named external-shock account turned up in the cache within this task's time
+box. Weighed against that absence, a global pandemic shutting down the entire physical-world vertical
+a B2B SaaS company serves is about as direct a fit for "when the ground moves" as this book's existing
+cast offers, and the paragraphs in question are new: ch. 19 never opened them. The judgement made
+here, explicitly: the thematic fit is strong enough to pay the recurring-cast cost this once, and the
+next chapter (27, 28) should not reach for Galperin again without an equally specific justification.
+
+**What this chapter would use it for.** Gymdesk serves gyms and martial-arts studios — a single
+physical-world vertical. The account: the company relaunched a redesigned product at the start of
+2020 and was growing MRR by "$1k+... every month" with "extremely strong trial-to-paid-account
+conversion rates, at around 40%" through the first weeks of the year — a business accelerating, not
+struggling, right before the shock. Then, in the founder's own words, COVID "hit the fitness industry
+hard — almost all gyms were closed for months," and as the vendor to that industry, "we were likewise
+impacted. Users were reaching out to freeze or cancel their accounts. We had significant churn from
+March to around August." That is the shock itself: not something the business did, not a market
+choice, a government-and-public-health event that removed the operating conditions of the company's
+entire customer base overnight. What makes the account useful rather than merely dramatic is what
+follows: the company "kept adapting... added many features to support our users during those
+times — from booking functionality with capacity restrictions, COVID vaccination checks, online
+training features" — and, despite the mid-year churn, "ended 2020 on a pretty good pace still, having
+grown our MRR by 60% to around $19.5k." The following year: "We ended 2021 strongly, having grown our
+MRR by around x2.5 compared to 2020." The chapter's job is not to prove that feature-adaptation
+*caused* the recovery — see the domain-competence caution below — but to use a real, dated, figure-
+bearing account of a business whose entire customer vertical was shut by external decree, which lost
+customers to that shock and can name roughly when, and which was still standing and growing a year
+later. That is a different question from ch. 23's (capacity built in advance) and from ch. 25's (a
+legal protection correctly declined and a competitive risk that materialised): here the shock is
+external to the business in the fullest sense — nothing Gymdesk did caused gyms to close.
+
+**Primary documents and evidence class (§5).**
+- `galperin-2023-covid` — erangalperin.com, published 2023-05-12, consulted 2026-08-06. Already
+  registered at ch. 19; no new `checks/sources.tsv` row needed, the same reuse pattern `sn-howto`,
+  `bw7-2026` and `bw6-2026` already establish. First-party, but a founder's own account of his own
+  company, **and written in May 2023 — roughly three years after the events it describes**: §5's
+  **weaker** class, compounded by hindsight the founder did not have in March 2020. Attributed in
+  prose as "by Galperin's own account," consistent with `galperin-2022`, `galperin-2023-fire` and
+  this same document's ch. 19 use.
+- **Not pursued — an independent, contemporaneous (2020-dated) account of the same churn or
+  recovery.** This task did not find a second Gymdesk source, a customer-side account, or industry
+  data on gym-services SaaS churn during 2020 corroborating the "significant churn" claim or the
+  60%/x2.5 MRR figures. They stand as the founder's unaudited self-report, exactly as `galperin-2022`
+  and `galperin-2023-fire` already do for this book's earlier Gymdesk material.
+
+**The unspent inference (§6b).** Ch. 04 took the stopping rule and improvised return-to-salary
+consequence; ch. 05 took the three-year path to full time, the 2018 MRR figure and the four-day week;
+ch. 18 took the post-hiring documentation account from a different, later source
+(`galperin-2023-fire`); ch. 19 took this same document's hiring paragraphs — the June 2021 first
+full-time hire, the customer-service hire, the one-man-to-company framing, the end-2022 headcount —
+for the employee-versus-contractor 🇳🇱 box. None of those four uses touched March–August 2020, the
+COVID churn, the 40% pre-shock conversion rate, or the 60%/x2.5 MRR figures spanning 2020–2021. This
+chapter's candidate inference — that an external shock can remove a company's entire customer
+vertical's ability to operate, cost it customers it cannot get back, and still leave the business
+larger a year later than before the shock, without the account being able to prove *why* — is new
+ground under the "name the inference" test in §6b: same company, same document even, but a different
+section and a different question than ch. 19 asked of it.
+
+**Domain-competence declaration (§8).** Not a 🇳🇱 chapter — no ground box, confirmed against the
+register and the epic's own list rather than assumed. The competence risk here is entirely
+interpretive, and sharper than usual because the source's own hindsight makes the mistakes easy to
+make without noticing:
+- **Never present the added features as the proven cause of the 2020/2021 growth.** The source
+  reports adaptation and recovery in the same paragraphs, but supplies no counterfactual: gyms also
+  reopened, vaccines also arrived, and the wider fitness-tech market moved with the pandemic
+  regardless of what any one vendor built. The chapter must say the account shows correlation the
+  founder himself did not test, not causation.
+- **Never let "40% trial-to-paid conversion" and "significant churn" collide into one figure.** They
+  describe different things at different times — conversion in the weeks *before* COVID, churn in the
+  months *during* it — and the source never states a churn rate, only "significant." Do not manufacture
+  a percentage the founder did not give.
+- **Never generalise from one surviving company to "adapting gets you through a shock."** This is a
+  survivorship account by construction: it is a post written by the founder of the company that made
+  it, three years on, and this task found no comparable account, in the cache or the time box
+  available, from a gym-services vendor that did not recover. The chapter must name that absence
+  rather than let one success stand in for a population.
+- **Never treat "March to around August" as a measured duration or the 60%/x2.5 figures as audited.**
+  Both are the founder's own recollection and self-reported MRR, not a filing — the same caveat this
+  book already attaches to every other Galperin figure, and the reused-source pattern (`sn-howto`,
+  `wpc-jun-2014`) that this book applies whenever the same weaker-class evidence returns for a new
+  inference.
+
+**Registered.** Four claims against `galperin-2023-covid` in `checks/claims.tsv` chapter 26: the
+"almost all gyms were closed for months" sentence, the "significant churn from March to around
+August" sentence, the "grown our MRR by 60% to around $19.5k" sentence, and the "grown our MRR by
+around x2.5 compared to 2020" sentence. All four checked clear of the tag-boundary trap by direct
+simulation against the cached raw source before registering (no `<em>`, `<a>` or similar inline tag
+falls inside any of the four spans; each sits inside a single `<p>` block). No new
+`checks/sources.tsv` row — `galperin-2023-covid` already exists, reused from ch. 19 for a different
+section and a different inference. `./verify.sh --strict 26` passes all four (4 verified, 0 drifted,
+0 skipped), run live during this task against the already-cached source.
+
+### Ch. 27 — Built to Leave
+
+**Status: has a case.**
+
+**What this chapter owns, read from the Part V sequence and §9 before candidates were judged
+against it.** Ch. 25's entry already fixed the order: "23 *Slack*... 24 *What You Signed*... 25
+*What Protects You*; 26 *When the Ground Moves* — external shocks; 27 *Built to Leave*; 28 *Knowing
+When to Stop*." §9's own open question about this chapter — "whether Part V needs a chapter on
+selling the business as distinct from ch. 27 (*Built to Leave*)" — is read as confirming, not
+deciding, that ch. 27's territory is **transferability**, not the mechanics of a sale process: can
+the business survive a change of who owns or runs it, as opposed to Part IV's question (17–22,
+"can it run without you" day to day). Ch. 27 is not 🇳🇱 — checked against the register and the
+epic's own list of the four Dutch-legal chapters (19, 20, 24, 28) rather than assumed. §2's own
+framing is the sharpest statement of the question this chapter needs a case for: Part IV's answer
+has "two legitimate answers" (a practice built for the owner's own good work and income, or an
+asset that runs without them), and "the failure mode is building the first while believing you are
+building the second, and discovering the difference at the moment you want to stop, get ill, or
+sell." A case for this chapter needs to show that discovery actually happening — not a company that
+merely delegated tasks (Part IV's material) but one that was priced, or handed to new ownership or
+management, and whose value did or did not survive contact with that transfer.
+
+**Candidate.** Black Hops Brewing — a craft brewery founded 2014–2015 on the Gold Coast, Queensland,
+Australia, by Dan Norris, Michael McGovern and Eddie Oldfield. This is a **new company** for the
+book's cast, not a return to the WP Curve ledger entry (ch. 10, ch. 14): Black Hops is a different
+business, with its own primary sources and its own figures, and no `checks/sources.tsv` row or
+ledger fact from WP Curve is reused here. **A named-overlap caution, stated rather than assumed
+resolved:** this task did not independently verify whether the Dan Norris co-founding Black Hops is
+the same Dan Norris who founded WP Curve. The two named sources below (Brews News, a specialist
+Australian brewing-trade outlet) never mention WP Curve, "7 Day Startup" or software in connection
+with him — only "Dan Norris, Co-founder/Former CEO" of Black Hops, from a third-party industry
+profile (`brewsnews.com.au/black-hops-and-brewing-the-story/`, a vendor-supplied case-study piece,
+not itself registered as a source here since it supplied no load-bearing figure). A Gold Coast Bulletin profile
+("My rise and fall: \$65m brewery co-founder to 'feeling like a loser'") that a `news.google.com`
+RSS search surfaced as the likely piece connecting his earlier career to Black Hops returned HTTP 403
+(News Corp Australia paywall) inside this task's time box and was not read. **The eventual draft
+must not assert the WP Curve connection without independently confirming it**, and this entry does
+not rely on it: the case below stands on Black Hops alone.
+
+**What this chapter would use it for.** Two dated, quantified moments from the same company, seven
+weeks apart in early 2023, that between them make the chapter's question concrete rather than
+abstract. First: on 2023-02-14, Brews News reported that co-founder Dan Norris had stepped down as a
+director and CEO, replaced by an external hire (Nathan Hyde, previously a general manager at another
+beverage company), following the earlier departure of co-founder and former head brewer Michael
+McGovern — leaving only the third co-founder, Eddie Oldfield, still on the board. Norris's own
+reported reasoning, in his own words to the reporter: "in hindsight, Black Hops had outgrown him and
+staying would create confusion," and the company "started as a fun idea at the pub between a few
+friends, at no point did we think it would get to be what it is today." That is a founder recognising,
+and acting on, the Part IV question — the business had grown past what he could run, and he handed
+day-to-day control to a professional manager rather than staying and improvising. **Second, and this
+is what makes the case rather than a tidy exit story:** seven weeks later, on 2023-04-04, Brews News
+reported the company's FY2021–22 annual report, filed with ASIC, showing a before-tax loss of \$1.8
+million — a \$2.6 million swing from the prior year — attributed by the new managing director to
+rising raw-material, packaging and freight costs and the end of COVID-era off-trade demand. The same
+article carries the number that gives the loss its shape: fifteen months earlier, in January 2022,
+Black Hops had raised more than \$2.2 million from 996 investors in a single day through an equity
+crowd-funding campaign (via the Birchal platform), at a valuation of more than \$67 million — a
+valuation the company's own offer documents supported with a stated \$129,000 six-month pre-raise
+profit and a \$867,223 FY2021 profit. A business the market had just priced at \$67 million, whose
+founder had just handed control to a manager on the strength of its trajectory, filed a \$1.8 million
+loss within months of both events. The chapter's job is not to say the departure caused the loss, or
+that the crowdfunding valuation was fraudulent — see the domain-competence caution below — but to
+use this as a real, dated instance of the exact gap §2 names: a business can look, from the outside
+and even to a market of 996 people who priced it, like an asset built to run and be owned by others,
+and still not have the underlying economics to survive the transfer once it happens. **Not pursued
+inside this task's time box, and named rather than silently dropped:** Google News search headlines
+(not fetched as primary sources, so not registered) indicate Black Hops entered voluntary
+administration in March 2024, was bought out by a shareholder consortium in May 2024, and — per a
+headline dated within days of this task running — entered voluntary administration a second time in
+July 2026. If a future pass wants the chapter to close the loop on whether the 2023 transfer
+ultimately held, those events need their own primary sourcing (a Crafty Pint and a Business News
+Australia domain both returned Cloudflare/bot-challenge pages to this task, the same dead end already
+logged at ch. 25 and ch. 26 for other search engines) — this entry does not use them for any claim.
+
+**Primary documents and evidence class (§5).**
+- `bh-ceo-2023` — brewsnews.com.au, "Black Hops announces new CEO as founder departs", published
+  2023-02-14, consulted 2026-08-06, byline Matt Kirkegaard. Named journalist, industry trade outlet
+  covering Australian brewing since 2010, reporting quotes obtained directly from Norris rather than
+  self-published by him — a different, somewhat stronger footing than the founder-blog class that
+  most of this book's Part IV/V cast (Galperin, Turnbull, Barry, Norris's own WP Curve posts) sits
+  on. This task did not locate a formally published corrections policy for the outlet within its time
+  box, so it is not claimed as fully meeting that clause of §5 — flagged honestly rather than assumed.
+- `bh-loss-2023` — brewsnews.com.au, "Black Hops reveals large loss post-crowdfund", published
+  2023-04-04, consulted 2026-08-06, same byline and outlet. Reports figures sourced to a document
+  filed with ASIC (the FY2021–22 annual report) and to the company's CSF offer documents — closer to
+  §5's filing standard than most of this book's Part IV/V evidence, though mediated through the
+  reporter rather than the filing itself, which this task did not obtain directly (ASIC company
+  filings typically require a paid search; not pursued inside this task's time box).
+- **Not pursued — the ASIC filing itself, the Birchal offer document, and independent confirmation
+  of the Norris/WP Curve identity question.** All three would strengthen the case; none were
+  reachable within this task's time box (paid ASIC search, a Birchal company page that returned an
+  empty JS-rendered shell to a static fetch, and a paywalled profile piece). Named so a future pass
+  knows what would upgrade this entry rather than having to rediscover the gap.
+
+**The unspent inference (§6b).** Not applicable in the reuse sense — this is a new company, not a
+return to an existing ledger entry, so there is nothing to check against a *Prohibited* field. If
+this case is used, it should receive its own new §6b ledger entry when the chapter is drafted,
+covering: **Facts** (the two dated figures above), **Permitted** (a market-priced valuation and a
+founder's voluntary, well-reasoned handover are not proof that a business is durably transferable;
+the two can coexist with the business proving, months later, that its underlying economics had not
+caught up to how it had just been priced or handed over), **Confounders** (COVID-era demand
+inflated the comparison year; industry-wide input-cost inflation hit at the same time; the CSF
+valuation is a number the company itself proposed to investors, not an independent appraisal; the
+new manager's letter to shareholders is itself a party to the outcome, not a neutral account), and
+**Prohibited** (never that Norris's departure caused the loss, or that the loss proves the departure
+was wrong — the two events are seven weeks and one unrelated causal chain apart on the record this
+task found; never treat the \$67 million valuation as the business's proven worth; never use the
+2024/2026 administration headlines as fact, since this task did not source them).
+
+**Domain-competence declaration (§8).** Not a 🇳🇱 chapter — confirmed against the register and the
+epic's list rather than assumed. The domain risk here is Australian corporate-finance and
+insolvency vocabulary, not law the reader can act on directly, but real enough that a careless draft
+would mislead:
+- **A crowd-sourced-funding "valuation" is a number the company and its advisers proposed to price an
+  offer, not an audited or independently appraised figure.** The chapter must not present the \$67
+  million figure as what the business was "worth" in any settled sense — only as what a specific
+  funding round was priced at, on the strength of specific (and, on this record, short-lived) trailing
+  financials.
+- **"Before-tax loss," "EBITDA" and "profit" are not interchangeable, and the source's own numbers
+  span more than one of them** (a \$129,000 six-month before-tax profit pre-raise, a \$1.76 million
+  FY2021 EBITDA, a \$867,223 FY2021 profit, a \$1.8 million FY2022 before-tax loss). The chapter must
+  keep these distinct rather than flattening them into one "how the company did" number.
+- **Voluntary administration, if the chapter uses the 2024/2026 events at all, is a distinct legal
+  status from liquidation or bankruptcy** under Australian insolvency law, and this task did not
+  source those events primary-hand — so the safer instruction is to not use them without a future
+  task doing that sourcing properly, rather than risk the chapter stating a legal outcome (sold,
+  liquidated, restructured, returned to the founders) this entry cannot back with a document.
+- **Never assert the Norris/WP Curve identity connection** without independent confirmation — see the
+  candidate note above. If confirmed later, it would be a genuine continuity thread (the reader
+  watching one recurring figure build a business designed to run without him, then a second business
+  that could not survive being handed to someone else); if used before confirming, it is exactly the
+  kind of unforced factual error §8's own corrections record warns this book has made before.
+
+**Registered.** Five claims in `checks/claims.tsv` chapter 27: two from `bh-ceo-2023` (the "outgrown
+him... create confusion" sentence and the "at no point did we think..." sentence) and three from
+`bh-loss-2023` (the "\$1.8 million" before-tax-loss sentence, the "\$2.2 million from 996 investors...
+\$67 million" sentence, and the "\$867,223 for the 2021 financial year" sentence). Both new source
+rows added to `checks/sources.tsv`. All five checked clear of the tag-boundary trap by direct
+inspection of the live-fetched HTML before registering — each span sits inside a single
+`<p>`/`<strong>` block with no inline tag crossing it. `./verify.sh --strict 27` passes all five (5
+verified, 0 drifted, 0 skipped), run live during this task.
+
+### Ch. 28 — Knowing When to Stop 🇳🇱
+
+**Status: has a case**, with an honesty flag on the recurring cast that the eventual §6x settlement
+needs to weigh, not this task.
+
+**What this chapter owns, read from the spine and the register before candidates were judged
+against it.** §2 puts ch. 28 last in the book, closing Part V ("Will it last?") after 27 *Built to
+Leave* (transferability — can the business survive a change of owner). §5b names this chapter's
+Dutch subject directly, in its list of boxes by chapter: **"how to wind up cleanly (28)."** Read
+together, ch. 28's territory is narrower than "the business failed" — it is the deliberate,
+executed decision to stop operating, and doing that in an orderly way, as distinct from either
+grinding on past the point of return or collapsing into an unplanned mess. The epic's own task list
+confirms this is one of the four Dutch-legal chapters (19, 20, 24, 28) carrying content a reader can
+act on and be harmed by, alongside 24's contracts material — checked against the epic text rather
+than assumed.
+
+**Candidate.** Binpress — Eran Galperin's first company (2010–2016), co-founded with a partner named
+Adam, a marketplace for developer code libraries that later expanded into digital products generally.
+**Honesty flag, stated rather than buried:** this is Eran Galperin's *sixth* appearance in the book's
+case ledger, after Gymdesk carried ch. 04, ch. 05, ch. 18 (`galperin-2023-fire`), ch. 19
+(`galperin-2023-covid`) and ch. 26 (`galperin-2023-covid`, second section). §7's "Recurring companies"
+section asks the book to follow "two or three small businesses across multiple chapters," and the
+ratified cast (McKenzie/Bingo Card Creator, Galperin/Gymdesk, Studio Neat) has already been stretched
+once by Dan Norris appearing as WP Curve (ch. 10, ch. 14, ch. 23) and then again as Black Hops (ch.
+27, a different company, accepted there as "new... not a return to the WP Curve ledger entry"). This
+task follows that same precedent — Binpress is a different company from Gymdesk, with its own
+sources and its own figures, and no `checks/sources.tsv` row or ledger fact from Gymdesk is reused
+here — but the precedent is being invoked a second time, by the same author of this task's own
+candidate search rather than a neutral check, and Galperin will now be the named founder in six of
+twenty-eight chapters if this case is used. That is a real cost to the "two or three businesses" goal
+even though no single inference repeats. **Recorded honestly for whoever settles ch. 28 under §6f: if
+a future pass has time to find a non-Galperin alternative, that would be the better outcome purely on
+cast-diversity grounds, even though the Binpress case itself is well-sourced and fits the chapter's
+question closely.** This task's time box did not find one — see "not pursued" below.
+
+**What this chapter would use it for.** Binpress ran for roughly five years. It struggled for its
+first two months (about 10 users), found traction through a code-library contest that seeded its
+marketplace, grew through several product pivots to a peak of **\$30k in monthly revenue**, was
+accepted into the 500 Startups accelerator in February 2013 on the strength of a \$20k one-month
+local maximum, and during the accelerator **raised a seed round of almost \$1M**. Hiring marketing
+and sales talent to spend that money on repeatedly failed to work — five different hires across
+different backgrounds, none landing in the role the company actually needed. By September 2014,
+about a year after raising, the founders had spent over half the money "at a healthy rate, but only
+when you are growing," and had not grown. They tried one more move: a full pivot, relaunched January
+2015, built to become "the Shopify for digital products." It also did not grow. Galperin's own
+account of what followed is the chapter's load-bearing material: *"As the months went by, it was
+becoming clear we had exhausted every option... eventually, we had that talk and faced the music. We
+had given 5 years of our lives to the company, we had some successes, but we had taken it as far as
+we could. It was time to move on."* What makes this a *knowing-when-to-stop* case rather than a
+straightforward failure story is what happened next: the founders tried to sell Binpress as a going
+concern, could not close that sale, and **"eventually we settled for selling the assets only (site
+and code-base), while dissolving the company."** They call this "definitely not the outcome we were
+looking for" — the chapter's job is to use that honestly, as a second-best but still deliberate and
+orderly stop, not a triumphant one: recognizing exhausted options, converting what could be sold into
+something for the investors who backed them, and closing the company formally rather than either
+letting it drift on unfunded or letting it collapse into an uncontrolled failure.
+
+**Primary documents and evidence class (§5).**
+- `eg-binpress-2016` — erangalperin.com, "Startup Postmortem: Binpress", published 2016-02-11,
+  consulted 2026-08-06. Founder's own retrospective account, written a few months after the asset
+  sale closed — §5's **weaker** class, same attribution rule as every other Galperin source in this
+  book ("by his own account"). The page's schema metadata carries a `dateModified` of 2023-09-15,
+  which this task did not diff against a Wayback capture of the 2016 original within its time box —
+  named as an open caveat (most likely a WordPress theme migration rather than a content edit, given
+  the site's other posts carry similar modified dates, but not confirmed).
+- `kvk-eenmanszaak-2026` and `kvk-turboliquidatie-2026` — both www.kvk.nl, consulted 2026-08-06, both
+  live and current (not the dead JS-error-shell captures the earlier attempt left in the cache as
+  `kvk-stop.html`/`kvk-hire.html` — this task located the real URLs via the KVK's own sitemap, already
+  present in `/home/diablo/casehunt-cache/pages.xml` and `documents-*.xml` from the earlier attempt,
+  and fetched them fresh with a standard browser user-agent after the project's own `SEC_UA` string
+  also worked once the URL itself was correct). Official KVK guidance on the two winding-up paths a
+  reader could face: `eenmanszaak-uitschrijven` for a sole proprietorship (free, done online via
+  DigiD with Mijn KVK, and — the fact that removes the reader's most likely wrong belief — KVK itself
+  forwards the deregistration to the Belastingdienst, the owner does not separately notify the tax
+  authority, though the owner must keep filing returns until the Belastingdienst says to stop); and
+  `een-rechtspersoon-beeindigen-via-de-turboliquidatie` for a bv, the fast-track dissolution route
+  available only when there are no baten (assets) left at the moment of dissolution, gated since 15
+  November 2023 by the tijdelijke wet Transparantie turboliquidatie's fourteen-day accounting filing
+  requirement and carrying real personal-liability and bestuursverbod risk for a director who misuses
+  it. This is the §5b box's "how to wind up cleanly" content, sourced to KVK rather than derived.
+- **Not pursued — a second independent primary source for the turboliquidatie fourteen-day filing
+  requirement**, which §6f's model would want (the operative Wet LB figure at ch. 15 had two
+  independent sources; this task found the requirement stated clearly on the KVK page alone, and did
+  not locate the underlying statute — Boek 2 BW's ontbinding-en-vereffening titel — within its time
+  box). Also not pursued: any figure for what Binpress's investors actually recovered from the asset
+  sale (the source says only "as much as we could," not a number) and independent confirmation of the
+  amount raised beyond "almost \$1M" (no S-1-grade filing exists for a seed-stage private company).
+  Both flagged so a future draft does not invent precision the source does not have.
+
+**The unspent inference (§6b).** New company, so nothing to check against a *Prohibited* field yet.
+If used, this needs its own new §6b ledger entry when the chapter is drafted, distinct from the
+Gymdesk entry, covering roughly: **Facts** (the \$30k/month peak, the \$1M seed, the September 2014
+pivot decision, the January 2015 relaunch, the "it was time to move on" decision, the asset sale plus
+formal dissolution). **Permitted** (recognizing that every available option has been tried, and
+converting a failing venture into an orderly, formal stop — sell what can be sold, dissolve properly,
+account to the people who funded it — is a distinct and teachable skill from either grinding on
+indefinitely or collapsing into an unplanned failure). **Confounders** (Binpress was accelerator- and
+VC-backed — almost \$1M raised, a multi-person hired team — which is a materially better-resourced
+position than most of this book's Part IV/V cast and should be named as such per §7's scale
+discipline, even though the company itself is not famous and charges no recognisability slot; the
+account is retrospective, written by the founder after the outcome was known, with the narrative
+shape hindsight tends to supply; the "we settled for" framing is the founders' own characterization of
+a sale that fell short of what they wanted, not a neutral description). **Prohibited** (never present
+this as a stop planned or triggered in advance — the record shows it recognized late, over months of
+"what more can we do," not at a predetermined threshold; never state a specific investor-recovery
+figure, since the source gives none; never treat the almost-\$1M raise or the accelerator backing as
+this reader's likely starting position, per the standing §7 scale caution).
+
+**Domain-competence declaration (§8).** One of the epic's four 🇳🇱 chapters, and it needs the ch. 15
+process at settlement — sources and claim rows before prose, nothing derived, the fork stated before
+the number. What this entry can already say: the two KVK pages fetched here quote the *procedure*
+(who files what, with which authority, on what timeline) rather than tax or liability *consequences*
+of stopping, which keeps the domain risk narrower than ch. 15's arithmetic-heavy gebruikelijkloon
+box or ch. 24's liability content — there is no computation for a careless draft to get wrong, only a
+process to state accurately. Three risks worth naming in advance for whoever drafts the box:
+- **Turboliquidatie is gated on having *no* baten (assets) at the moment of dissolution, and the KVK
+  page itself warns that "baten" is broader than most owners assume** — it includes money owed to the
+  business, not just cash in hand. A chapter that implies any small, insolvent-looking bv can simply
+  "turboliquidate and walk away" without addressing outstanding receivables or unresolved contracts
+  would be exactly the kind of overshoot §6f's ch. 15 review caught twice, applied to a new subject.
+- **Deregistering an eenmanszaak and dissolving a bv are procedurally different**, and the box must
+  keep the fork stated rather than defaulting to one legal form's process for both — the eenmanszaak
+  page's "just log in with DigiD and pick a date" is not the bv page's multi-step ontbinden /
+  vereffenen / uitschrijven sequence, and conflating them would misstate both.
+- **Never suggest turboliquidatie as a way to avoid paying creditors.** The KVK page is explicit that
+  misuse carries personal director liability and a possible bestuursverbod; the box must carry that
+  warning alongside the mechanism, not the mechanism alone.
+- Name the professional per §5b: for a bv with any remaining assets or debts, that is an accountant
+  and, per the KVK page's own escalation path, potentially a curator if a rechtbank-supervised
+  bankruptcy becomes necessary rather than a voluntary wind-down.
+
+**Registered.** Seven claims in `checks/claims.tsv` chapter 28: four from `eg-binpress-2016` (the
+"almost \$1M" seed sentence, the "\$30k in monthly revenue" sentence, the "it was time to move on"
+sentence, and the "selling the assets only... while dissolving the company" sentence) and one each
+from `kvk-eenmanszaak-2026` (the Belastingdienst-notification sentence) and two from
+`kvk-turboliquidatie-2026` (the fourteen-day filing sentence and the no-baten-at-dissolution
+sentence). Three new source rows added to `checks/sources.tsv`. Every claim checked against the
+live-fetched, tag-stripped text before registering, not just the visually-rendered page — one
+candidate KVK sentence ("Sinds 15 november 2023 geldt de tijdelijke wet Transparantie
+turboliquidatie") was dropped after this check failed it: the operative phrase sits inside an inline
+`<a>` link with no surrounding whitespace on one side, exactly the tag-boundary trap this task was
+warned about, and it was replaced with two sentences that sit cleanly inside a single `<p>` each.
+`./verify.sh --strict 28` passes all seven (7 verified, 0 drifted, 0 skipped), run live during this
+task against freshly fetched pages, not cache.
+
 ## 7. Cases to avoid
 
 Overused to the point of meaninglessness, and in several instances misreported for decades:
