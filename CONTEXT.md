@@ -2325,6 +2325,90 @@ risks are real and specific to this case:
 sentence, and the first-hire-by-someone-other-than-the-founders sentence. `./verify.sh --strict 23`
 passes all four (4 verified, 0 drifted, 0 skipped), confirmed by a live fetch run during this task.
 
+### Ch. 24 — What You Signed 🇳🇱
+
+**Status: no company case found within this task's time box.** Recorded honestly, per the epic's own
+instruction and the §7 precedent set by ch. 12 and ch. 15: "the two 🇳🇱 regime chapters (12, 15) are
+the model for what to do when no case at the right scale can be found: anchor on something checkable
+and say in the chapter that there is no company behind it." This entry does the same — statutory
+sources are registered below; no company is.
+
+**What this chapter owns.** Per §6 the register's "new chapter" note: "contracts, liability,
+insurance, IP ownership. Not a legal manual; a map of which vague agreements become expensive and
+when to pay someone who knows." Per §5b it carries a `.ground` box on "liability, professional
+indemnity insurance, standard terms, and who owns code written by an employee," under the stricter
+ch. 15 process because a reader can act on this chapter's content and be harmed by it.
+
+**What was tried.** Three lines of search, all time-boxed:
+1. **The shared cache.** Reviewed the full `/home/diablo/casehunt-cache/` inventory. Confirmed
+   `bw2.txt`, `bw7.txt` and `auteurswet.html` are genuine fetched content; `bw6.html` (9KB) is a
+   `wetten.nl | Fout` **error page**, not usable, and was refetched fresh (below). Nothing else in
+   the cache is on-topic for contracts, liability, insurance or IP ownership — the remaining files
+   (`groove-*`, `nb_*`, `wpcurve_*`, `pinboard_*`, `danorris_*`, search-engine result pages, and a
+   `readme-head.md`/`run1.json`/chess-fixture cluster that belongs to an unrelated project sharing
+   the directory) are leftovers from other chapters' hunts or from a different repository entirely,
+   not from any research aimed at this chapter.
+2. **Eran Galperin's other venture, considered and rejected.** `eg_binpress.txt` is Galperin's own
+   "Startup Postmortem: Binpress" (erangalperin.com, 2016-02-11) — a code-and-license marketplace he
+   ran before Gymdesk, which "paid an IP lawyer to help us create a custom software license
+   generator." Read in full. Rejected for two reasons, not one: **(a)** it does not support this
+   chapter's thesis — it describes proactively paying a lawyer, not a vague agreement becoming
+   expensive, and the postmortem contains no dispute, breach, lawsuit or liability event (checked
+   directly: no hit for "sued", "dispute", "lawsuit", "breach" anywhere in the document); **(b)**
+   Binpress took a seed round through 500 Startups, which is off this book's self-funded scale, and
+   Galperin would be a fifth appearance by the same voice after ch. 04, ch. 05, ch. 18 and ch. 19 —
+   ch. 23's entry already declined a fifth Galperin use on exactly this "shortage of research" ground,
+   and that reasoning applies here too, on top of the thesis mismatch.
+3. **Live search**, three targeted queries run against `html.duckduckgo.com` (the only engine this
+   environment could reach without a bot challenge): a freelance/client "who owns the code" dispute,
+   a founder blog post on standard terms or liability that "cost us" something, and a solo developer
+   or bootstrapped founder writing about a professional-indemnity or errors-and-omissions insurance
+   claim. All three returned only generic legal-services marketing content (law-firm and
+   insurance-broker blogs written to rank for the query, not to report a real, named, dated event) —
+   exactly the contamination §5 warns against, and exactly the material a "two easy figures" pass
+   would have used. None named a real company with a checkable primary document.
+
+**What the missing evidence would have to be.** A real, small, self-funded business — software or
+otherwise, at the reader's scale — that can point to a specific dated agreement (a client contract,
+a standard-terms document, an employment or contractor agreement, an insurance policy) and a specific
+cost that followed from what that agreement did or did not say: a client withheld payment on a
+liability clause, a contractor kept the IP because nothing was signed, an insurer denied a claim on a
+technicality, or a standard-terms dispute was voided under art. 6:233/6:234 BW6 for lack of
+terhandstelling. This is a narrower ask than most of this book's cases: it needs a **cost event**, not
+just a company's existence, and small self-funded companies — true to the epic's own framing — do not
+routinely publish that kind of story with figures attached. A next attempt should search specifically
+for indie-hacker "here's what I got wrong in my contract" retrospectives and small-claims or
+kantonrechter judgments involving a one- or two-person Dutch bv or eenmanszaak, neither of which this
+task's time box reached.
+
+**Domain-competence declaration (§8).** 🇳🇱 chapter, carrying content a reader can act on and be
+harmed by, so the standing rule applies: **never state Dutch law from memory.** Both statutes below
+were fetched live during this task (not recalled, not paraphrased from a secondary source) and the
+registered claims quote them verbatim. Two things this task explicitly did **not** do, because §6f
+reserves them for whoever settles this chapter under its own process: it drew no conclusion about
+what these articles mean for a specific reader's situation, and it did not compare the employee
+default (Auteurswet art. 7) against the contractor gap (art. 2 lid 3) beyond stating what each article
+says — that comparison is interpretive work belonging to the `.ground` box, not to a case-hunt entry.
+One risk to flag now: art. 7's employer-default copyright applies only to work made "in dienst van een
+ander" (in another's employ) — an ordinary employment relationship — and does **not** extend to
+independent contractors or freelancers, who keep authorship, and whose copyright can only be
+transferred by a **written** instrument under art. 2 lid 3. A chapter (or a reader) that assumes
+"we paid for it, so we own it" for contractor-built code would be relying on a default that does not
+exist. This is precisely the kind of scope error §6f's ch. 15 review caught twice for other chapters
+and it is the single most important sentence this entry can hand forward.
+
+**Registered — statutory claims, no company case.** `checks/sources.tsv` gains one new source,
+`auteurswet-2026` (wetten.overheid.nl/BWBR0001886/2026-01-01, a dated consolidation that — like
+`lb-12a` and unlike Books 2 and 6 of the BW — serves full article bodies at a dated URL, fetched live
+during this task, 2026-08-06). `bw6-2026` already exists (registered for the distance-contract
+withdrawal right) and is reused here for the algemene-voorwaarden articles, per §6b — same pattern as
+`bw7-2026`'s reuse across ch. 05/19/20. Four claims added to `checks/claims.tsv` under chapter 24: the
+Auteurswet art. 7 employer-default sentence, the Auteurswet art. 2 lid 3 written-transfer sentence, the
+BW6 art. 233 voidability grounds (the full a./b. clause), and the BW6 art. 234 terhandstelling clause.
+`./verify.sh --strict 24` passes all four (4 verified, 0 drifted, 0 skipped), confirmed by a live
+fetch run during this task — `auteurswet-2026` fetched fresh (200, 1,076,473 bytes) and `bw6-2026`
+served from cache.
+
 ## 7. Cases to avoid
 
 Overused to the point of meaninglessness, and in several instances misreported for decades:
