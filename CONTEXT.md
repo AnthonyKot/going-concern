@@ -1503,6 +1503,58 @@ Found by machine review rather than by reading — the first defect in the book'
 that way. It says nothing about whether reading can be reduced; it says the register's coverage gap
 is real and had already cost a live error.
 
+## 6j. Ch. 18 — Writing It Down: settled before drafting
+
+**Thesis.** Writing it down is either a transfer of procedure that actually shrinks what only you
+can do, or a transfer of comfort that leaves the bottleneck exactly where it was — and nothing in
+the act of writing tells you which one happened. Only someone else using the document without you in
+the room does.
+
+**The decision.** Which pieces of what only you currently know are procedure — checklists,
+verification steps, debugging flows, the steps a competent stranger could follow — worth writing down
+this week, and which pieces are judgment a document will not carry, so you stop budgeting for a
+transfer that will not happen.
+
+**Boundaries.** Ch. 17 already diagnosed the four shapes of dependence and assigned two of them a
+remedy that is not documentation: credentials fail mechanically and are fixed with authorised
+redundancy and a tested recovery procedure; a relationship fails socially and is fixed by months of
+another person being in the room. Ch. 18 does not reopen that diagnosis — it is spent — and does not
+claim writing things down repairs either of those two categories. Its territory is the other two:
+operational knowledge, and the slice of recurring work that is actually procedure rather than
+presence. Ch. 19 owns whether and when to make the first hire, and the statutory threshold that
+follows from doing so; ch. 18 does not decide or discuss hiring — its case begins after hiring is
+already under way, and documentation is not contingent on headcount, it is a prerequisite to headcount
+paying off. Ch. 20 owns managing the people who receive the documentation — trials, feedback,
+dismissal; ch. 18 stops at the document and does not follow the reader into evaluating a hire. Ch. 23
+owns slack, the margin a business builds ahead of the immediate need; ch. 18 owns delegation as a
+bottleneck fix, which is a different question asked of a business that already has enough hands and
+still can't move without its owner.
+
+**Where §3 bites.** This chapter's whole subject is a task with no deadline, no confrontation and a
+visible, comforting artefact at the end of it — exactly the shape of activity that reads as progress
+while substituting for the harder thing the reader is actually avoiding. "I'll delegate once it's
+properly documented" is an unfalsifiable stopping condition: documentation can always be made more
+complete, and completeness is not the thing being measured. The mechanical defence: a document does
+not count as written down until a named other person has used it, unsupervised, on a live instance of
+the task, with the time or outcome gap recorded — the same test ch. 17 named and neither of its own
+cases ran for real. Monday must require a dated handoff test, not a dated document.
+
+**Case decision and what to watch.** The load-bearing evidence is Galperin's own account of building
+a documentation system while Gymdesk grew past ten FTE — the SOP mechanism, the internal knowledge
+base, and his own comparison of a fifteen-to-twenty-minute task ballooning to an hour in a documented
+but inexperienced rep's hands. That comparison is the chapter's real find: it is evidence *for*
+transfer (the rep could do it at all) and evidence of transfer's limit (it cost her three to four
+times as long) in the same sentence, from a source with every incentive to report only the win. What
+the case does not show: no controlled comparison of documented versus undocumented handoffs, no
+measurement of how much the founder's own bottleneck actually eased, none of the employees' side, and
+— stated by Galperin himself, the chapter's honest ceiling — no transfer of "the intuition and cross
+functional experience" that only years of doing every job produces. The interpretive trap is reading
+the growth to ten-plus FTE as caused by, or evidence for, the documentation programme: the source
+places them in the same stretch of years and establishes no arrow between them, the same adjacency
+ch. 16's review caught. The chapter may say the two happened together under one founder's own report;
+it may not say one produced the other. Attribute every figure as "by Galperin's own account," the
+same rule already used for `galperin-2022` and `galperin-2023-covid`.
+
 ## 6c. Handoff: ch. 10 → ch. 11
 
 Recorded before either is drafted, so neither absorbs the other. Ch. 10 establishes that **the sale
