@@ -2191,6 +2191,140 @@ revenue churn figure, the 1.47 quick ratio, the $21-versus-$57 ARPU comparison w
 20,812-customers/$1,188,580-MRR total, and the 6,994-customers(33%)/$811,117-MRR(68%) concentration
 figure. `./verify.sh --strict 22` passes all seven.
 
+### Ch. 23 — Slack
+
+**Status: has a case, deliberately not the one the ledger earmarked.**
+
+**What this chapter owns, restated from §6g before candidates are judged against it.** Ch. 16's
+own boundary-setting sentence: "Ch. 23 (*Slack*) owns capacity held in reserve; ch. 28 (*Knowing
+When to Stop*) owns ending." Not personal financial sufficiency (ch. 16), not a stopping decision
+(ch. 28) — margin held inside the operating business itself, before a shock arrives, that lets it
+absorb one without breaking: staff depth beyond the minimum needed today, an owner's week that is
+not fully booked, a process that does not depend on one specific person being reachable.
+
+**Why not Studio Neat, which §7's recurring-cast section names as the earmarked candidate.** The
+ch. 03/09 ledger entry is explicit: "the same gate applies to the possible ch. 23 return on
+operating with two people and no slack. [Ch. 11 is a return only if a separate first-party record
+supplies repeat-purchase, referral or retention evidence; the existing campaign post does not.]"
+This task searched for that separate record inside its time box — the only Studio Neat material in
+the shared cache (`studioneat_text.txt` / `studioneat.html`) is the same "How to Kickstarter"
+round-up already fully spent at ch. 03 and ch. 09, and no independent Studio Neat interview or
+post about staying a two-person shop turned up in the cache or in the live fetches this task had
+time to run (search engines that were not already dead in the cache — Bing, DuckDuckGo HTML — were
+tried live and returned either a bot challenge or an empty results page). The gate is not cleared,
+so Studio Neat is recorded here as **still unavailable for ch. 23**, exactly as the earmark warned
+it might be, rather than used anyway on the strength of the earlier campaign post.
+
+**Why not a fourth recognisable company, and why not a fifth Gymdesk chapter.** Ch. 21's entry
+closed the recognisability budget at "5.0 of a stated ceiling of four or five" and ruled that "no
+chapter from here to the end of the book may anchor on a company the reader has heard of." That
+rules out any further use of Plausible, ConvertKit, Pinboard or Groove — which also rules out the
+one piece of leftover material in this book's own ledger that reads as a plant for exactly this
+chapter: Pinboard's ch. 16 entry names "the bookmark, tag, archive and URL rows, the 2017 Delicious
+acquisition, and the 2020 platform-migration post" as "enough for a Part IV or V return on
+maintenance, obsolescence or one-person operational risk" — a description that fits "capacity held
+in reserve" better than almost anything else available. It is excluded anyway: the ch. 21 ruling is
+later, more specific to chapters 23–28, and binding. A fifth Gymdesk/Galperin chapter was also
+considered and set aside — not for recognisability (Galperin was never charged a budget slot) but
+because ch. 04, ch. 05, ch. 18 and ch. 19 already draw on him four times, and ch. 20's own entry
+already treated a fifth, adjacent use as crossing the point where "a cast stops reading as
+continuity and starts reading as a shortage of research." Nothing found in this task's time box
+(`eran_safer.html`/`eg_safer.txt`, a 2026-01-15 post on bootstrapped-versus-VC exits) was
+on-theme enough to justify paying that cost.
+
+**Candidate.** WP Curve / Dan Norris and Alex McClafferty — third use of the ch. 10/ch. 14 company,
+on a **new, dated source**: "People, Product and Process — June monthly report"
+(wpcurve.com, published 2014-07-01). One year into the company, about six months after the
+December 2013 figures ch. 10 and ch. 14 already used. WP Curve was never charged against the
+recognisability budget (§7's own ledger only ever names Plausible, ConvertKit, Pinboard and
+Groove) and the live domain is dead today — checked live during this task: `wpcurve.com` now
+immediately redirects to `/lander`, a parked-domain pattern, consistent with the existing
+(unsourced-by-this-task) note already sitting in `checks/sources.tsv` that the company was
+acquired in 2016.
+
+**What this chapter would use it for.** The post is Norris's own account of a specific month in
+which the business visibly built margin rather than spent it. Three facts, read together, are the
+case: the team grew to 15 people against $23,535 MRR, with Norris stating plainly that "at our
+current growth rate we are hiring every 2 weeks" — hiring paced ahead of being fully booked, not
+staffing reactively to a backlog. The first hire made by someone other than either founder happened
+that same month, handled by a team admin now running a written 20-page onboarding process. And a
+named list of previously founder-owned tasks — hiring logistics, affiliate approval, social-media
+image creation, paying staff and affiliates, "90% of the Xero bookkeeping" — had just been handed
+off, to the point that Norris writes the two founders "realized we don't have a lot to do" in their
+own weekly check-in, then jokes about a "4 hour work week." That joke is the chapter's cleanest
+illustration of the difference between *slack* and *idleness dressed up as a lifestyle claim*: the
+post is self-aware that this is not literally a 4-hour week, and the chapter must not borrow the
+line as if the founders meant it. What the case actually supports is narrower and more useful: a
+service business whose core promise (24/7, unlimited small fixes) structurally requires spare
+capacity to keep, and a specific, dated month in which the owners can point to margin building up
+in three places at once — headcount ahead of demand, a process no longer routed through either
+founder, and founder time that was not fully claimed.
+
+**Primary documents and evidence class (§5).**
+- `wpc-jun-2014` — wpcurve.com via web.archive.org, published 2014-07-01, archived 2014-07-27
+  (earliest available capture; two later captures, 2014-08-06 and 2016-03-11, carry different
+  content digests per a live CDX query run during this task and were **not diffed** — flagged for
+  whoever drafts the chapter, on the pattern ch. 21 already established for Groove's meetings
+  post), consulted 2026-08-06. First-party, founder's own account: §5's **weaker** class, same
+  attribution rule as `wpc-jul-2013`/`wpc-oct-2013`/`wpc-nov-2013`/`wpc-dec-2013` already
+  registered at ch. 10/ch. 14 — "by Norris's own account." Not audited. The team-size figure, the
+  hiring cadence and the delegated-task list are all the founders' own report of their own month.
+- **The acquisition claim, not sourced by this task.** `checks/sources.tsv`'s existing ch. 10 note
+  states "wpcurve.com was acquired in 2016" without a citation. This task did not attempt to source
+  it — out of scope for a single-chapter, time-boxed hunt — and it is not registered as a claim
+  here. If the eventual ch. 23 draft wants to say anything about what became of WP Curve's slack
+  (whether it was tested by a real shock, or the business was simply bought while things were
+  still working), that needs its own sourcing pass first; this entry supplies none.
+- **Not pursued.** A later WP Curve monthly report showing whether the June 2014 margin was ever
+  actually drawn down by a real disruption — a bad month, a key developer leaving, a demand
+  spike — would make the chapter's argument far stronger than a single snapshot of slack being
+  built. `wpcurve_slugs.txt`/`wpcurve_urls.txt` in the shared cache list dozens of further monthly
+  reports through 2016 that were not fetched inside this task's time box. Flagged as the single
+  highest-value next search for whoever settles this chapter under its own process.
+
+**The unspent inference (§6b).** Ch. 10 took the launch date, the week-one doubling, the customer
+counts, the agency-segment removal and the Oct–Dec 2013 MRR ladder from three earlier reports
+(`wpc-oct-2013`, `wpc-nov-2013`, `wpc-dec-2013`). Ch. 14 returned to `wpc-dec-2013`/`wpc-nov-2013`
+only for the blogger-versus-business segment contrast, and the ledger's own Prohibited field rules
+out a customer-value number from this source forever. Neither chapter opened `wpc-jun-2014`, which
+did not exist in either entry's source list, and neither touched headcount, hiring pace, or which
+tasks the founders still personally held — this book's existing WP Curve ledger note flags that
+gap directly: "**Repeatable by this owner next month is not the same as delegable to staff. The
+latter belongs to Part IV.**" That inference was never actually spent by a Part IV chapter (18–22
+used Gymdesk and Groove instead), and this entry does not spend it either — ch. 23's use is
+narrower still: not delegation as a bottleneck fix (ch. 17's and ch. 18's territory) but the
+*margin* that a small business builds when it hires and documents ahead of the immediate need
+rather than exactly to it. New source, new inference, only the founders and the company repeat —
+available under the "name the inference" test in §6b.
+
+**Domain-competence declaration (§8).** Not a 🇳🇱 chapter — no register lists a Dutch-ground flag
+for ch. 23, and this entry adds none. No accounting, tax or statutory content. The interpretive
+risks are real and specific to this case:
+- **The 15-people-to-$23,535-MRR ratio must never be presented as a staffing benchmark.** It is
+  specific to a $69/month unlimited-ticket support model staffed substantially from the
+  Philippines, named in the post itself — a different cost structure and a different service
+  category from almost anything the reader might run, and the chapter must say so rather than let
+  the ratio imply "hire one person per roughly $1,500 of MRR."
+- **"4 hour work week, baby!" is a joke inside the source, immediately undercut by the next line
+  ("Unlikely... Even when I'm in a hammock I have my computer handy")** — quoting it without that
+  context would misrepresent the founders' own stated view of their situation, the same
+  caveat-that-overshoots error §6f's ch. 15 review caught twice for other chapters.
+- **A single month is a snapshot of slack being built, not evidence that the slack held.** This
+  entry found no source (inside its time box) showing the reserve capacity actually absorbing a
+  shock — the chapter's argument should say plainly that this case shows accumulation, not proof of
+  resilience, unless a later search fills that gap.
+- **Never imply hiring ahead of demand is costless or always right.** Ch. 01 (Webvan) is this
+  book's own cautionary case for fixed capacity committed ahead of demonstrated demand destroying a
+  company; ch. 23 must not read as a contradiction of that lesson. The distinction the chapter needs
+  to hold is scale: a services business adding people two at a time on $23K of MRR is a different
+  risk than a warehouse network built for demand that never arrived, and the chapter should name
+  that difference rather than let the two cases silently disagree.
+
+**Registered.** Four claims against `wpc-jun-2014` in `checks/claims.tsv` chapter 23: the
+15-person team-size sentence, the "grew by 22% to $23,535" MRR sentence, the "hiring every 2 weeks"
+sentence, and the first-hire-by-someone-other-than-the-founders sentence. `./verify.sh --strict 23`
+passes all four (4 verified, 0 drifted, 0 skipped), confirmed by a live fetch run during this task.
+
 ## 7. Cases to avoid
 
 Overused to the point of meaninglessness, and in several instances misreported for decades:
