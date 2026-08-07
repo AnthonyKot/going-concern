@@ -525,3 +525,90 @@
 17	pb-11	Much of the core code on the site dated back to 2009-2010
 17	pb-11	Doing this on a live system is like performing kidney transplants on a playing mariachi band
 17	pb-11	run a bug-for-bug identical copy of the site on a modern laptop
+
+# ch18 — Gymdesk / Galperin, "How to fire yourself as a founder" (2023). Case hunt in §6i.
+18	galperin-2023-fire	I went through growing Gymdesk from a one-person operation to a company with over 10 FTE at that point in time
+18	galperin-2023-fire	for the first 5 years of the company
+18	galperin-2023-fire	Tasks that would take 15-20 minutes of my day as a side activity, required hours for a dedicated person to complete
+18	galperin-2023-fire	I started also documenting all of the knowledge I accumulated for each function of the business
+18	galperin-2023-fire	Creating an internal customer service knowledge-base / SOPs, containing verification and debugging flows that are repeatable and can be used immediately by new reps. Reps input a new entry every time they encounter a ticket and we collaboratively document the steps to resolve it.
+18	galperin-2023-fire	What I failed to take into consideration was that I can transfer knowledge, but not the intuition and cross functional experience with all aspects of the business that came with years of performing all roles in the company
+18	galperin-2023-fire	would take me a couple of minutes to go through and respond
+18	galperin-2023-fire	can take close to an hour, and require my participation at each one of those decision points
+18	galperin-2023-fire	still a work in progress, and I still feel too embedded in many of the processes
+
+# ch19 — Gymdesk / Galperin, "Building A Fitness Tech Company During COVID" (2023). Case hunt in §6i.
+19	galperin-2023-covid	We made our first full time hire in June 2021
+19	galperin-2023-covid	hired my first full time customer service person
+19	galperin-2023-covid	started to make the transition from a one-man, owner run business to an actual company
+19	galperin-2023-covid	ending the year with 8 employees and 4 contractors
+# ch19 — Dutch ground box, employee-versus-contractor distinction (§5b). bw7-2026 registered at ch. 05; reused for different articles per §6b (not a case, no ledger entry needed).
+19	bw7-2026	De arbeidsovereenkomst is de overeenkomst waarbij de ene partij, de werknemer, zich verbindt in dienst van de andere partij, de werkgever, tegen loon gedurende zekere tijd arbeid te verrichten.
+19	bw7-2026	Hij die ten behoeve van een ander tegen beloning door die ander gedurende drie opeenvolgende maanden, wekelijks dan wel gedurende ten minste twintig uren per maand arbeid verricht, wordt vermoed deze arbeid te verrichten krachtens arbeidsovereenkomst.
+# ch20 — Groove / Alex Turnbull, "Firing: How I Do the Hardest Thing as an Entrepreneur" (2015). Case hunt in §6i.
+20	groove-fire-2015	turned over nearly 40% of the team we launched with
+20	groove-fire-2015	start with a 2-4 week paid trial run where the prospective employee joins the team on a temporary
+20	groove-fire-2015	giving direct and honest feedback often, even as often as
+# ch20 — Dutch ground box, ending an employment: notice and severance (§5b). bw7-2026 registered at ch. 05; reused here for different articles per §6b (not a case, no ledger entry needed).
+20	bw7-2026	De werkgever kan de arbeidsovereenkomst opzeggen indien daar een redelijke grond voor is en herplaatsing van de werknemer binnen een redelijke termijn
+20	bw7-2026	hiervan tijdig in kennis heeft gesteld en hem in voldoende mate in de gelegenheid heeft gesteld zijn functioneren te verbeteren
+20	bw7-2026	De door de werkgever in acht te nemen termijn van opzegging bedraagt bij een arbeidsovereenkomst die op de dag van opzegging:
+20	bw7-2026	korter dan vijf jaar heeft geduurd: één maand
+20	bw7-2026	De transitievergoeding is voor elk jaar dat de arbeidsovereenkomst heeft geduurd gelijk aan een derde van het loon per maand
+20	bw7-2026	De transitievergoeding bedraagt maximaal € 102.000,00 of een bedrag gelijk aan ten hoogste het loon over twaalf maanden
+
+# ch21 — Groove / Alex Turnbull, "How We've Optimized Remote Team Meetings For Ultimate Efficiency" (2016). Case hunt in §6i.
+21	groove-meetings-2016	It made our 9-person 45-minute meetings look amateur in comparison.
+21	groove-meetings-2016	nearly 20 people participated and shared updates, and the meeting still took less than 7 minutes.
+21	groove-meetings-2016	Lesley owns meetings for our team, and handles scheduling and moderating.
+21	groove-meetings-2016	Monday Recap Meeting — 30 Minutes
+21	groove-meetings-2016	Tuesday–Thursday Daily Standup — 10 Minutes
+
+# ch22 — ConvertKit / Nathan Barry, "Understanding ConvertKit's open metrics" (2019). Case hunt in §6i.
+22	nb-metrics-2019	MRR growth is actually the summary of five metrics: new, expansion, reactivation, contraction, and churn
+22	nb-metrics-2019	Revenue churn is the percentage of your revenue base you lost in a month, whereas user churn is the percentage of customers you lost in a month
+22	nb-metrics-2019	At ConvertKit we are at 2.2% net revenue churn
+22	nb-metrics-2019	At ConvertKit we have a quick ratio of 1.47
+22	nb-metrics-2019	Buffer is at $21 per customer and ConvertKit is at $57 per customer
+22	nb-metrics-2019	we have 20,812 generating $1,188,580 in MRR
+22	nb-metrics-2019	6,994 customers (33% of the total) generating $811,117 in MRR (68% of the total)
+
+# ch23 — WP Curve / Dan Norris, "People, Product and Process — June monthly report" (2014). Case hunt in §6i.
+23	wpc-jun-2014	We increased the team to 15 people
+23	wpc-jun-2014	In June, our MRR grew by 22% to $23,535
+23	wpc-jun-2014	we are hiring every 2 weeks
+23	wpc-jun-2014	we had our first staff employed by another team member, instead of me or Alex
+
+# ch24 — no company case found within this task's time box; statutory claims only, for the mandatory Dutch ground box (§5b, §6i). Quote-only per the stricter §6f-style process for this chapter.
+24	auteurswet-2026	Indien de arbeid, in dienst van een ander verricht, bestaat in het vervaardigen van bepaalde werken van letterkunde, wetenschap of kunst, dan wordt, tenzij tusschen partijen anders is overeengekomen, als de maker van die werken aangemerkt degene, in wiens dienst de werken zijn vervaardigd.
+24	auteurswet-2026	De overeenkomst op grond waarvan het auteursrecht geheel of gedeeltelijk wordt overgedragen of waarin een exclusieve licentie wordt verleend, wordt schriftelijk aangegaan.
+24	bw6-2026	Een beding in algemene voorwaarden is vernietigbaar a. indien het, gelet op de aard en de overige inhoud van de overeenkomst, de wijze waarop de voorwaarden zijn tot stand gekomen, de wederzijds kenbare belangen van partijen en de overige omstandigheden van het geval, onredelijk bezwarend is voor de wederpartij; of b. indien de gebruiker aan de wederpartij niet een redelijke mogelijkheid heeft geboden om van de algemene voorwaarden kennis te nemen.
+24	bw6-2026	De gebruiker heeft aan de wederpartij de in artikel 233 onder b bedoelde mogelijkheid geboden, indien hij de algemene voorwaarden voor of bij het sluiten van de overeenkomst aan de wederpartij ter hand heeft gesteld
+
+# ch25 — Studio Neat / Gerhardt & Provost, third use of the ch. 03/ch. 09 company, same source, new (never-drawn-on) section and new inference: what patents actually do and do not protect, and what the founders leaned on instead. sn-howto already exists (registered at ch. 03/ch. 09) and is reused here for the "A Word on Patents" section, per §6b. Case hunt in §6i.
+25	sn-howto	Patents do nothing to prevent people from stealing your idea.
+25	sn-howto	we have realized that patents are basically designed to protect large corporations, and the idea of a small company of two people obtaining a patent is fairly ridiculous. We decided to pass.
+25	sn-howto	there have been a few direct imitations that have cropped up, out of Germany and Taiwan.
+25	sn-howto	As long as our brand remains strong, we think enough customers will choose the real deal versus the knockoff.
+
+# ch26 — Gymdesk / Eran Galperin, fifth appearance, same document already registered at ch. 19 (galperin-2023-covid) but a different, earlier section — the 2020 COVID shock to the fitness industry, not the 2021-22 hiring paragraphs ch. 19 used — and a new inference: a shock external to the business, not capacity or a legal choice. Case hunt in §6i.
+26	galperin-2023-covid	almost all gyms were closed for months
+26	galperin-2023-covid	We had significant churn from March to around August.
+26	galperin-2023-covid	having grown our MRR by 60% to around $19.5k
+26	galperin-2023-covid	having grown our MRR by around x2.5 compared to 2020
+
+# ch27 — Black Hops Brewing / Dan Norris, Michael McGovern & Eddie Oldfield, new company. Named-journalist reporting (Brews News / Matt Kirkegaard) citing an ASIC filing and CSF offer documents, not a founder's own account. Case hunt in §6i.
+27	bh-ceo-2023	in hindsight, Black Hops had outgrown him and staying would create confusion
+27	bh-ceo-2023	at no point did we think it would get to be what it is today
+27	bh-loss-2023	revealed a before-tax loss of $1.8 million
+27	bh-loss-2023	raised more than $2.2 million from 996 investors in a day at a valuation of more than $67 million
+27	bh-loss-2023	profit of $867,223 for the 2021 financial year
+
+# ch28 — Binpress / Eran Galperin, sixth appearance of the recurring name but a genuinely new, earlier company (2010-2016) — not a return to the Gymdesk ledger entry — plus the mandatory Dutch ground box on winding up (§5b). Case hunt in §6i.
+28	eg-binpress-2016	we raised our seed round of almost $1M
+28	eg-binpress-2016	getting to $30k in monthly revenue
+28	eg-binpress-2016	It was time to move on
+28	eg-binpress-2016	Eventually we settled for selling the assets only (site and code-base), while dissolving the company
+28	kvk-eenmanszaak-2026	Wij geven je uitschrijving door aan de Belastingdienst.
+28	kvk-turboliquidatie-2026	Binnen veertien dagen na het ontbindingsbesluit moet het bestuur verschillende (financiële) documenten indienen bij ons.
+28	kvk-turboliquidatie-2026	Als er geen bezittingen zijn op het moment van ontbinding, dan stop je direct met je bedrijf.
