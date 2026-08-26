@@ -1,0 +1,7 @@
+1. The chapter overstates the superiority of the present self: a founder eighteen months later is not merely more compromised but also better informed about customers, costs, competitors and possible pivots. Treating an advance consequence as binding can turn a useful safeguard against sunk-cost bias into a commitment to ignore genuine new evidence—the very failure the successful Gymdesk case illustrates.
+
+2. “Money from independent customers” is too narrow to be the sole legitimate metric. In regulated healthcare, enterprise software, marketplaces and research-heavy businesses, procurement cycles, approvals, retention, usage or technically successful pilots may provide essential evidence before repeatable revenue is possible; the correct lesson from Cydoc is to test unit economics and willingness to pay early, not to dismiss every non-cash signal as answering “a question you did not need answered.”
+
+3. The evidentiary base does not support the prescription’s confidence. Cydoc never used the proposed three-part rule, while Gymdesk missed its loose threshold, improvised a consequence and ultimately succeeded; neither demonstrates that specifying a consequence in advance improves decisions, and the chapter supplies no comparison group or qualifying counter-case.
+
+Yes: it explicitly concedes, “It does not show that choosing the consequence in advance was necessary” and, more broadly, “No qualifying case has been found, and the shortfall is recorded.”

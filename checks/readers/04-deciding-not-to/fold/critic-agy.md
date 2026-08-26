@@ -1,0 +1,11 @@
+**1. The rigid revenue metric**
+The absolute insistence that a stopping rule must be denominated solely in "money from independent customers" would preemptively kill businesses with mandatory long R&D, regulatory, or network-effect lead times. If a founder building a medical device or a two-sided marketplace strictly followed this advice, they would hit their calendar deadline before being legally or functionally able to charge, triggering their pre-written consequence. The chapter dismisses patents, pilots, and grants as deceptive validation, but for many complex startups, these are obligatory prerequisites to revenue rather than mere distractions.
+
+**2. The contradiction on pre-committing consequences**
+The argument insists that pre-committing to a specific consequence is essential because the future founder is a "compromised judge," yet its own success story actively undermines this premise. Eran Galperin (Gymdesk) failed to write down a consequence, but "improvised under pressure" by taking part-time work, which ultimately saved his business. A strict reader who dutifully followed the book's template and pre-committed to a narrower consequence—like shutting down completely—might destroy a viable business, proving the future self with actual context can make better strategic pivots than the uninformed present self.
+
+**3. Arbitrary timelines vs. market realities**
+Requiring founders to fix a date and revenue threshold in advance falsely assumes that early-stage market discovery operates on a predictable, linear schedule. A reader following this method might base their deadline purely on personal financial runway rather than the reality of their industry's sales cycles, such as sluggish enterprise B2B procurement. If a rigid calendar date arrives while an enterprise client is simply stuck in a slow compliance review, the rule would force the founder to fold a winning hand simply because their initial timeline was a guess.
+
+**Acknowledgment**
+The chapter explicitly acknowledges these gaps, admitting regarding Gymdesk that "That you should decide which one now is a smaller claim, and Gymdesk does not prove it," and conceding it lacks any counter-case of an owner who followed the complete rule "and should not have because the market was there."
