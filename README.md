@@ -170,6 +170,18 @@ automatically.** The author reads it, accepts or rejects each finding by hand, a
 `CONTEXT.md §8` — the log of what got rejected and why is how a recurring failure mode gets noticed,
 which is worth more than any single correction.
 
+```
+scripts/readers.sh 02
+```
+
+A different pass: four models each *read* the chapter twice as a distinct reader — a US senior
+developer (`codex`), a Ukrainian refugee in the Netherlands (`agy`), a Lagos Instagram trader
+(`grok`), a café owner in the north of England (`claude`) — and report what landed, what didn't,
+and what changed between reads. Personas are files in `scripts/prompts/readers/`; the readers never
+see the repo, only the chapter's prose. Reports land in `checks/readers/<chapter-name>/`. The
+finding is where they disagree — a passage that is evidence to one reader and noise to another, or a
+sentence written for one reader that costs two others. Nothing is applied automatically.
+
 ## Status
 
 Parts I and II are complete and verified — chapters 1–10, each part closing with an exit test.
