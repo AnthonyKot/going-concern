@@ -72,7 +72,9 @@ for entry in "${PERSONAS[@]}"; do
     codex)  ( timeout 900 codex exec --skip-git-repo-check -C "$PWD" "$prompt" \
                 < /dev/null > "$out" 2> "$err" ) & ;;
     agy)    ( timeout 900 agy --print-timeout 14m -p "$prompt" > "$out" 2> "$err" ) & ;;
-    grok)   ( timeout 900 grok --cwd "$PWD" --output-format plain -p "$prompt" \
+    # grok has been the slowest by minutes on long outputs (Aug 2026); give it a
+    # short cap so a slow or throttled grok is skipped rather than waited on.
+    grok)   ( timeout "${GROK_TIMEOUT:-300}" grok --cwd "$PWD" --output-format plain -p "$prompt" \
                 > "$out" 2> "$err" ) & ;;
     claude) ( timeout 900 claude -p "$prompt" > "$out" 2> "$err" ) & ;;
     *)      echo "  unknown model $model"; continue ;;
