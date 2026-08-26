@@ -20,3 +20,4 @@ Thumbs.db
 
 # Cached primary sources fetched by verify.sh
 .cache/
+checks/readers/**/*.err
