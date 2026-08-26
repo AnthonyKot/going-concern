@@ -182,6 +182,17 @@ see the repo, only the chapter's prose. Reports land in `checks/readers/<chapter
 finding is where they disagree — a passage that is evidence to one reader and noise to another, or a
 sentence written for one reader that costs two others. Nothing is applied automatically.
 
+```
+scripts/drops.sh 03
+```
+
+The same four readers, walked through one chapter block by block and required to finish it — but told
+to mark every block where, left to themselves, they would have left. The marks are written back into
+the chapter source as HTML comments (`<!-- drop: grok-lagos — "why" -->`) immediately before the
+block: invisible on the site, visible to the author, removable with one `sed`. Where three readers
+leave on the same block, that block is the rewrite. On the first run (ch. 3) both such blocks were
+figures whose qualification arrived fifteen blocks later.
+
 ## Status
 
 Parts I and II are complete and verified — chapters 1–10, each part closing with an exit test.
