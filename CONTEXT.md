@@ -609,7 +609,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 | 18 | Writing It Down | ☑ 6 claims · Gymdesk / Galperin (2023) · *owed* |
 | 19 | The First Hire | ☑ 20 claims · Gymdesk / Galperin (2021–2022), fourth use, new source · BW7 art. 610/610a + Rijksoverheid enforcement page · *owed* 🇳🇱 · drafted 2026-08-28 |
 | 20 | Managing People | ☑ 27 claims · Groove / Turnbull (2015), new company · BW7 arts. 652, 669, 671, 672, 673 · *owed* 🇳🇱 · drafted 2026-08-28 |
-| 21 | Meetings That Aren't Theater | ☐ |
+| 21 | Meetings That Aren't Theater | ☑ 19 claims · Groove / Turnbull (2016), second use, new source · *owed* · drafted 2026-08-28 |
 | 22 | Measuring the Right Three Things | ☐ |
 
 ### Part V — Will it last?
