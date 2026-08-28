@@ -619,8 +619,8 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 | 24 | What You Signed | ☑ 11 claims · *no company case, by finding* (§6i) · Auteurswet arts. 1, 2, 7 + BW6 arts. 233, 234 · four-agreements map is the book's · *case and counter-case owed* 🇳🇱 · drafted 2026-08-28 |
 | 25 | What Protects You | ☑ 13 claims · Studio Neat / Glif patents section (sn-howto), third use, unspent section · bet unmeasured, US law by non-lawyers · *owed* · drafted 2026-08-28 |
 | 26 | When the Ground Moves | ☑ 13 claims · Gymdesk / Galperin 2020 (galperin-2023-covid, the pre-hire paragraphs), fifth use by §6i judgement · survivor account, no causation claimed · *owed* · drafted 2026-08-28 |
-| 27 | Built to Leave | ☐ |
-| 28 | Knowing When to Stop | ☐ 🇳🇱 |
+| 27 | Built to Leave | ☑ 22 claims · Black Hops / Norris (Brews News 2023, named journalist, ASIC filing reported) · Norris = WP Curve's Norris confirmed from dannorris.me title · no post-April-2023 events used · *owed* · drafted 2026-08-28 |
+| 28 | Knowing When to Stop | ☑ 30 claims · Binpress / Galperin (2016 postmortem; sixth appearance, named) · KVK eenmanszaak + turboliquidatie pages · book close · *owed* 🇳🇱 · drafted 2026-08-28 |
 
 ### What changed, and why
 
