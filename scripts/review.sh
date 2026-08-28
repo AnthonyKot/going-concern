@@ -60,9 +60,11 @@ echo "── reviewing $NAME ─────────────────
 echo "  nothing below is applied automatically — this produces a report only."
 
 # -- independent passes, in parallel ----------------------------------------
-echo "  grok   … "
-( timeout 900 grok --cwd "$PWD" --always-approve --max-turns 60 \
-    --output-format plain -p "$PROMPT" > "$OUT/grok.json" 2>"$OUT/grok.err" ) &
+# grok replaced by claude on 2026-08-28 (grok subscription ended); the output
+# file keeps the reviewer's own name so the consolidation prompt reads it.
+echo "  claude … "
+( timeout 900 claude --dangerously-skip-permissions -p "$PROMPT" \
+    > "$OUT/claude.json" 2>"$OUT/claude.err" ) &
 GROK=$!
 
 echo "  agy    … "
@@ -75,8 +77,8 @@ GEM=$!
 wait $GROK; grok_rc=$?
 wait $GEM;  gem_rc=$?
 
-[ $grok_rc -eq 0 ] && echo "  grok   ok ($(wc -c < "$OUT/grok.json") bytes)" \
-                   || echo "  grok   FAILED (rc=$grok_rc) — see $OUT/grok.err"
+[ $grok_rc -eq 0 ] && echo "  claude ok ($(wc -c < "$OUT/claude.json") bytes)" \
+                   || echo "  claude FAILED (rc=$grok_rc) — see $OUT/claude.err"
 [ $gem_rc  -eq 0 ] && echo "  agy    ok ($(wc -c < "$OUT/agy.json") bytes)" \
                    || echo "  agy    FAILED (rc=$gem_rc) — see $OUT/agy.err"
 
@@ -128,7 +130,7 @@ is a report for a human to accept or reject finding by finding.
 
 ## Reviewer A (grok)
 
-$(cat "$OUT/grok.json" 2>/dev/null || echo '(failed)')
+$(cat "$OUT/claude.json" 2>/dev/null || echo '(failed)')
 
 ## Reviewer B (agy)
 

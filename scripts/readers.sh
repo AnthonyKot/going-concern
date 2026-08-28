@@ -43,7 +43,7 @@ mkdir -p "$OUT"
 PERSONAS=(
   "codex:dev"
   "agy:refugee"
-  "grok:lagos"
+  "claude:lagos"
   "claude:cafe"
 )
 
