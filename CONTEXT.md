@@ -930,6 +930,53 @@ teach a mechanism, on claim rows that ch. 01 never touched.
 - **Spent.** ch. 13 takes the three period comparisons, the valuation-allowance benefit and the two
   timing quotations. Nothing reserved.
 
+### Ledger additions from the Part IV–V drafting, 2026-08-28
+
+Written after ch. 19–28 were drafted and craft-reviewed in one day; each entry records only what
+its chapter actually spent, so a later return has something to test against.
+
+- **Gymdesk / Galperin — spent, continued.** Ch. 19 spent `galperin-2023-covid`'s hiring paragraphs
+  *and* one sentence on the 2020 churn plus the end-2020 $19.5k figure (the §6i ch. 26 entry's
+  claim that ch. 19 "never touched" the churn is wrong; corrected here). Ch. 26 spent the pre-shock
+  quarter, freeze-or-cancel, the feature list, the June stabilisation sentence, the 2021 and 2022
+  context sentences and the "I strongly believe" reading. Ch. 28 spent `eg-binpress-2016` — a
+  different company, sixth Galperin appearance, named in the chapter's Reading. **Nothing further is
+  reserved; the cast has carried him as far as it should.**
+- **Groove / Turnbull — ch. 20, ch. 21.** Facts: `groove-fire-2015` (nearly 40% of the launch team
+  turned over in three years; 2–4-week paid trial as "a paid consulting gig"; feedback during, in
+  writing; team and candidate input; the forcing function) and `groove-meetings-2016` (four rhythms;
+  9-person 45-minute meetings; the coach's video, nearly 20 people under 7 minutes, attributed two
+  layers deep; owner, clocked segments, same skeleton). Permitted: a date set in advance substitutes
+  for willpower; structure, not fewer meetings. Prohibited: never the at-will country (unsourced);
+  never that the standup "went from 45 to 10" (not on the page); never Groove's minute counts as a
+  template. Recognisability budget closed at 5.0 of 5 (ch. 21 entry) — no further use.
+- **WP Curve — ch. 23 spent.** `wpc-jun-2014`: the target and June figures, 15 people, hiring every
+  two weeks *at* the rate of growth (not ahead — "we don't want to grow faster"), the first hire by
+  another team member with founders at key intervals, the delegated list, "not a lot to do" and
+  Alex's aside, Happy % 96→82 with Norris's reasons and no arrow to the team. Prohibited: never that
+  WP Curve hired ahead of need; never the 15:$23,535 ratio as a benchmark; never the Happy % drop
+  attributed to growth.
+- **ConvertKit — ch. 22 spent.** `nb-metrics-2019` end to end. Prohibited: never "three" in Barry's
+  mouth; never the annual-plan push as "the business not changing"; never a discount as a lever that
+  flatters net revenue churn (it raises it); never Barry's 0% goal used against him.
+- **Studio Neat — ch. 25 spent.** "A Word on Patents" from `sn-howto`. Prohibited: never an order
+  between the decision and the imitations; never the brand bet as a result; never the US-law
+  reading as law anywhere.
+- **Black Hops / Norris — ch. 27 (new company).** Facts: `bh-ceo-2023`, `bh-loss-2023` as
+  registered; identity with WP Curve's Norris confirmed from `dannorris-site-2026` (page title only).
+  Permitted: a clean handover and a market price can coexist with books nobody read from outside.
+  Confounders: COVID comparison year, industry-wide input inflation, the valuation is the company's
+  own offer price, the new manager is a party. Prohibited: never that the departure caused the loss;
+  never the 2024/2026 administration headlines (unsourced, unused); never $67m as worth.
+- **Binpress / Galperin — ch. 28 (new company).** Facts as registered. Permitted: exhausted options
+  as a date; the order of an orderly stop (whole, parts, who is owed, filing). Prohibited: never that
+  the stop was planned in advance; never an investor-recovery figure; never the ~$1M raise as the
+  reader's position.
+- **Statute reuse.** `bw7-2026` at ch. 19 (610, 610a) and ch. 20 (652, 669, 671, 671a, 671b, 672,
+  673); `bw6-2026` at ch. 24 (233, 234, 235, 247); `auteurswet-2026` at ch. 24 (1, 2, 7); new
+  `rijks-schijnzelfstandigheid-2026` at ch. 19; `kvk-eenmanszaak-2026` and `kvk-turboliquidatie-2026`
+  at ch. 28. Each box quotes; none derives.
+
 ## 6e. Ch. 14 — What a Customer Is Worth: settled before drafting
 
 **Thesis.** Not how much revenue a customer produces, but how much remains after acquiring and
@@ -3308,6 +3355,40 @@ did not exist. That single fact changed the chapter's argument: the trap was not
 warehouses Webvan never built, it was the first one it did.
 
 Keep this table. It is the standing argument for why the book is built this way.
+
+### Ch. 19–28 drafted in one day — what the two review instruments found
+
+Written 2026-08-28. Ten chapters drafted and craft-reviewed (one Fable reviewer per chapter, reports
+in `checks/craft/`), with `scripts/review.sh` run on ch. 19 only (grok and agy independent, codex
+consolidating; report in `checks/reviews/19-the-first-hire/`). What recurred, in order of frequency:
+
+1. **The chapter reading the source for what it ought to show.** Every first draft added words the
+   source did not contain — "for years", "by the hour", "as a freelancer", "fully remote",
+   "deliberately", "ahead of need", "end to end", "close to half" — and in four chapters reordered
+   the source's sentences into a causal sequence (19's agencies, 21's standup and video, 23's hire
+   and Happy %, 26's features and June). The reviewers caught all of it by reading the raw source
+   beside the chapter; nothing else would have.
+2. **Dutch law leaking out of the box** in looser English: ch. 19's Monday turned a presumption into
+   a determination; ch. 20 sent a performance dismissal to the UWV (art. 671a is grounds a and b;
+   ground d is the kantonrechter under 671b); ch. 24 glossed art. 2 lid 3's scope clause onto
+   transfers by non-makers (lid 5 excludes art. 7/8 makers) and stated the terms mechanism backwards
+   ("bind nobody" — they bind and are voidable). All corrected with claim rows from the registered
+   statutes. Rule confirmed: the portable paragraph must stay portable; the box quotes.
+3. **Instruments borrowed from the wrong chapter**: ch. 22 forgot ch. 12's weekly three and ch. 21's
+   reader; ch. 26 borrowed ch. 23's hours-reserve for a demand shock; ch. 28's Monday pointed at
+   ch. 23 for a months figure that lives in ch. 13 and ch. 16. The fix each time was one reconciling
+   sentence and a corrected pointer.
+4. **Caveats said three or four times** (Move 2, Move 3, owed, Reading) where §6d allows one in the
+   argument. Cut to once in every chapter.
+5. **Counting openers and self-announcing climaxes** in every draft; cut.
+
+The codex consolidation on ch. 19 agreed with the craft reviewer on the presumption overshoot and
+the agency causation, and added three the craft pass had not: "therefore" in the decision box
+(task/job does not determine legal form), the funding test without a decision date (a licence to
+wait — §3's own rule), and an unregistered figure carried from the ch. 18 source. All applied.
+review.sh was not run on 20–28 (grok's quota is unreliable; the craft reviewer caught the same class
+of error) — running it on the four 🇳🇱 chapters (20, 24, 28 and 19 again) before the user's read is
+the next verification step.
 
 ## 9. Open questions
 
