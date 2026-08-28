@@ -63,7 +63,7 @@ echo "  nothing below is applied automatically — this produces a report only."
 # grok replaced by claude on 2026-08-28 (grok subscription ended); the output
 # file keeps the reviewer's own name so the consolidation prompt reads it.
 echo "  claude … "
-( timeout 900 claude --dangerously-skip-permissions -p "$PROMPT" \
+( timeout 900 claude --model opus --dangerously-skip-permissions -p "$PROMPT" \
     > "$OUT/claude.json" 2>"$OUT/claude.err" ) &
 GROK=$!
 

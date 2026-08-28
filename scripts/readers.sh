@@ -76,7 +76,7 @@ for entry in "${PERSONAS[@]}"; do
     # short cap so a slow or throttled grok is skipped rather than waited on.
     grok)   ( timeout "${GROK_TIMEOUT:-300}" grok --cwd "$PWD" --output-format plain -p "$prompt" \
                 > "$out" 2> "$err" ) & ;;
-    claude) ( timeout 900 claude -p "$prompt" > "$out" 2> "$err" ) & ;;
+    claude) ( timeout 900 claude --model opus -p "$prompt" > "$out" 2> "$err" ) & ;;
     *)      echo "  unknown model $model"; continue ;;
   esac
   pids+=($!); labels+=("$model/$persona")
