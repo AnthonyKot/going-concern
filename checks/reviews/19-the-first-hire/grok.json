@@ -1,1 +1,94 @@
-I'll start by reading the full review brief and the constitution sections it cites, then judge chapter 19 against those rules rather than the checklist summary.The constitution is long; next I’ll pull the template, sourcing, ledger, and chapter-19 settlement sections, then the chapter itself.The Gymdesk ledger and chapter-19 hunt are in; next I’ll read the claims register, the primary sources, and the earlier chapters this one leans on.I’ll pull the Galperin post, the Dutch sources, and the existing review files so I can check quotations and causal claims against the originals.
+I'll start by reading the full review brief and the constitution sections it cites, then judge chapter 19 against those rules rather than the checklist summary.The constitution is long; next I’ll pull the template, sourcing, ledger, and chapter-19 settlement sections, then the chapter itself.The Gymdesk ledger and chapter-19 hunt are in; next I’ll read the claims register, the primary sources, and the earlier chapters this one leans on.I’ll pull the Galperin post, the Dutch sources, and the existing review files so I can check quotations and causal claims against the originals.Checked the chapter against `CONTEXT.md` §§3, 5, 5b, 6, 6b, 6i and 8, the Gymdesk ledger, `checks/claims.tsv` (all chapter-19 rows), the Galperin post, BW7 610/610a, the Rijksoverheid page, and chapters 17 and 18.
+
+```json
+[
+  {
+    "category": "domain-error",
+    "severity": "high",
+    "quote": "Weekly, or twenty-plus a month, for all three: you have already made the decision in practice, and if you are in the Netherlands the presumption in the box has too. Decide it on paper this week or accept that it has been decided for you.",
+    "problem": "Article 7:610a is a rebuttable presumption that shifts the burden of proof; this Monday item treats the trigger as deciding the legal relationship, which is the exact overshoot the chapter's own domain-competence note forbade.",
+    "evidence": "CONTEXT.md §6i (Ch. 19): “A chapter that reports the presumption as ‘you become an employee automatically at twenty hours a month’ would be exactly the kind of caveat-that-overshoots-into-a-false-claim.” The ground box itself is careful (“A presumption is not a reclassification — it can be rebutted — but it moves the burden”), and claims.tsv registers the statute’s vermoed wording, not a reclassification. Monday sits outside the box, so the false legal effect also leaks the Dutch rule into the general action list (§5b quarantine). The three-month / weekly-or-twenty-hours numbers are 610a’s trigger, used here as a universal operational test.",
+    "fix": "Keep the operational instruction (count the hours; if the work already recurs, decide the form this week). For the Netherlands, point at the box and stop: past the 610a threshold the burden moves, it is not “decided for you.” Leave the three-month / twenty-hour figures inside the ground box."
+  },
+  {
+    "category": "category-overreach",
+    "severity": "high",
+    "quote": "Whether the work you are about to hand over is a task or a job — and therefore whether the person is a contractor or an employee",
+    "problem": "The therefore collapses four different distinctions into one binary: nature of the work, legal form, variable versus fixed cost, and a hire funded by hoped-for growth (“a task priced as a job”).",
+    "evidence": "CONTEXT.md §8 / the ch. 07 “owned vs. rented” lesson: a label that needs a paragraph explaining what it does not mean is doing too much work. The same chapter later says both forms are legitimate and that Gymdesk still had four contractors next to eight employees, which is incompatible with task/job therefore contractor/employee. Galperin’s source never uses that binary; he contrasts “freelancers for fixed term / cost work” with “a full time employee that you’re now responsible to make sure they are paid every month.”",
+    "fix": "State two decisions, in order: (1) is the work a recurring job or a bounded task; (2) given that, which contract the jurisdiction will treat it as. Drop “therefore.” Use “a salary funded by growth you have not yet earned” for the funding failure, not “a task priced as a job.”"
+  },
+  {
+    "category": "backwards-causal",
+    "severity": "high",
+    "quote": "Galperin's agencies were tasks, bought correctly, and they failed for a reason the task form cannot fix: the work needed context that only accumulates in someone who stays.",
+    "problem": "The source gives a different mechanism — agencies would not understand the audience — and does not show that the task form was correctly bought or that only an employee could have supplied the missing knowledge.",
+    "evidence": "Galperin, 12 May 2023: “After a few failed experiments engaging ‘growth’ and advertising agencies, I came to the conclusion that outside consultants and agencies were never going to understand our audience like I did. I decided to start building an in-house team, that would live and breath our product and vertical.” That is audience-knowledge and in-house context, not a demonstration that a specialist freelancer or a better-briefed agency was structurally incapable. “Bought correctly” is not in the post. This is the §8 failure: every quotation in the paragraph can be true while the arrow from “agencies failed” to “it had become a job” is the chapter’s.",
+    "fix": "Attribute his conclusion as his: the agencies did not understand the audience, so he hired in-house. Treat “hours worth more the longer the same person does them” as a reasoned test for the reader, not as what this failure proved."
+  },
+  {
+    "category": "category-overreach",
+    "severity": "medium",
+    "quote": "The work that had been eating his own day — support, the thing chapter seventeen would have ranked first — was the second job he created, not the first",
+    "problem": "Chapter 17 ranks by tolerable delay, not by what consumes the founder’s day, and its default order puts recurring work last; this sentence rewrites that chapter as support-first and uses the metric it told the reader not to use.",
+    "evidence": "Ch. 17: “Rank what you find by tolerable delay rather than by how much time it takes. … the things that consume the most time are usually the things you have already made routine.” Default with a blank table: “Access first” … “Recurring work last — where its tolerable delay allows, which for support often it does not. It is the most visible and the most annoying, and it is where owners start for exactly those reasons.” CONTEXT.md §6h records that a fixed “support first” order was already corrected because it contradicted the ranking rule. Galperin’s regret is about distractions removed from his routine (“a godsend, removing a large chunk of distractions”), which is workload, not an absence-table result. The later claim that “this case is consistent with” chapter 17’s ranking inherits the same substitution.",
+    "fix": "Say he hired growth before the work that was eating his day, and that he regrets the order. Do not conscript chapter 17. If you invoke its rule, score support against tolerable delay in this business, and say the case does not run that table."
+  },
+  {
+    "category": "domain-error",
+    "severity": "medium",
+    "quote": "The first employee is the first cost that cannot be varied: it falls due monthly, in the months revenue is down as well as the months it is up, and it cannot be cancelled in an afternoon.",
+    "problem": "Employment cost can be ended, including in an afternoon during a Dutch probation period; it is also not the first unvariable cost this book has already treated, so “cannot” and “first” are both false as domain fact.",
+    "evidence": "Chapter 1’s case is fixed capacity (distribution centres) committed before any hire. Chapter 20 is on the calendar specifically to own ending employment, notice and severance (CONTEXT.md §5b, §6). BW7 and ordinary Dutch practice include proeftijd, during which either party may terminate with immediate effect. The same overclaim is in the decision strip: “the first employee converts a cost you could stop into one you cannot.” That irreversibility is jurisdiction-shaped and belongs in the ground box or in chapter 20, not in the portable argument.",
+    "fix": "“The first employee is usually the first cost that is expensive to stop: it falls due in the bad months as well as the good, and it cannot be cancelled on the same terms as a contractor’s invoice.” Point at chapter 20 for how it actually ends."
+  },
+  {
+    "category": "unsourced-claim",
+    "severity": "medium",
+    "quote": "but it ended with him doing every job, as he had for five years.",
+    "problem": "“Five years” is not in this chapter’s source or its claim rows, and “doing every job” is contradicted by the same post — which this chapter’s own claims.tsv already registers as containing a contracted UX designer, writers, and Upwork contractors.",
+    "evidence": "Grep of checks/claims.tsv for chapter 19: no “five years” / “5 years” row. The phrase is registered only under chapter 18 against galperin-2023-fire (“for the first 5 years of the company”). galperin-2023-covid, the source this chapter cites, says he “contracted a very talented UX designer,” “hired a person who used to write for us,” and “engaged customer service people through Upwork previously as contractors.” A further Move 2 sentence, “He had been buying that work by the hour for years,” is likewise unregistered; the source says only “previously.”",
+    "fix": "End 2020 with him still the remaining bottleneck, having already bought design, writing and support as tasks. Drop “every job” and “five years,” or quote the chapter-18 source and register it. Replace “for years” with “previously,” which is what he wrote."
+  },
+  {
+    "category": "backwards-causal",
+    "severity": "medium",
+    "quote": "Gymdesk made its first hire with monthly revenue near twenty thousand dollars and eighteen months of it recurring through a shutdown of its whole market.",
+    "problem": "The $19.5k figure is end-2020, six months before the June 2021 hire, and the same stretch includes “significant churn,” so it cannot be used as eighteen months of revenue recurring through the shutdown, nor as the revenue the hire was made on.",
+    "evidence": "Source timeline: mid-2019 $12k MRR, rest of 2019 “stagnant,” early 2020 growth, “significant churn from March to around August,” end-2020 “grown our MRR by 60% to around $19.5k,” first hire June 2021, end-2021 “grown our MRR by around x2.5.” Claims.tsv registers the $19.5k and the churn sentence; it does not register a June 2021 MRR. Net growth despite churn is not “it recurring through a shutdown.” The first role was also a growth hire (“double down on our strongest acquisition channel”), which is the thing the next sentence warns against as “a hire funded by the growth it is supposed to produce.”",
+    "fix": "“The last figure he published before the hire was about $19.5k MRR at the end of 2020, after a year that included significant COVID churn and still ended up 60%. He does not give a June 2021 number.” Do not recruit that stretch as proof the hire was funded by revenue that had already repeated through a shutdown."
+  },
+  {
+    "category": "unsourced-claim",
+    "severity": "medium",
+    "quote": "The person was already doing the work for him, as a freelancer, before the job existed.",
+    "problem": "“Used to write for us” does not establish that this person was a freelancer already doing the content-marketing/editor job, which is the entire case for “convert before you recruit”; the hire he says mattered more went the other way.",
+    "evidence": "Source: “I hired a person who used to write for us, and had a background in SEO, to be our in house content marketing / editor.” Claims.tsv registers only “used to write for us.” The freelancer contrast in the next paragraph is general, not about this person. The CS hire — “I still regret not doing this sooner” — came after Upwork contractors “just wasn’t working out” and a “new CS rep,” i.e. not a conversion. Monday item 4 still says “If they exist, the trial has already happened,” with no branch for a failed trial, so scored clause-by-clause against the chapter’s own test (§8) the case supports convert-when-the-trial-worked, not convert-first.",
+    "fix": "“The first employee was someone who used to write for him; he does not say for how long, or whether they were already doing the editor job.” Bound the principle: offer the job first where the same person has already done the work well. If the existing contractors failed, that is a completed trial against conversion — which is what his CS hire actually was."
+  },
+  {
+    "category": "domain-error",
+    "severity": "medium",
+    "quote": "If the low month does not cover it, the hire is funded by revenue you have not yet had.",
+    "problem": "A shortfall on chapter 13’s weekly cash figure is a cash fact; calling it “revenue you have not yet had” is the quantity confusion chapter 13 exists to stop.",
+    "evidence": "Move 3 asks whether “the revenue that repeats — chapter eleven’s second test — covers it after acquisition and service.” Monday then switches the instrument to “the lowest month of the last twelve in your weekly cash figure” (ch. 13) and names a cash miss as missing revenue. Ch. 13: profit, operating cash and the bank balance “are not the same — which is why the previous chapter asked for a weekly cash figure separately from profit.” A seasonal cash trough, a receivables lag, or a buffer already earned can fail this test while repeating revenue already covers the salary. (Chapter 11’s second test is also the wrong citation: it is whether customers stayed the course, not whether payroll is covered by repeating revenue.)",
+    "fix": "“If the low cash month does not cover the loaded cost, you are funding the hire from some other month’s cash, from a buffer, or from revenue you have not yet had — say which, in writing, before you offer.” Keep revenue coverage and cash coverage as two checks."
+  },
+  {
+    "category": "unsourced-claim",
+    "severity": "medium",
+    "quote": "Eighteen months later a third of the people doing the work were still being bought as tasks, on purpose, next to the ones being paid as jobs.",
+    "problem": "The 8/4 split is in the source; that it was a deliberate task-versus-job choice is not, and the next sentence admits he does not say which work went which way.",
+    "evidence": "Source: “In 2022 we continued to grow as a company, ending the year with 8 employees and 4 contractors.” Claims.tsv registers that split and nothing about intent. The chapter’s own following sentence: “He does not say which work went which way.” “On purpose” is what makes the split evidence that “both forms are legitimate” rather than leftover contractors, a hiring lag, or people who would not take employment.",
+    "fix": "“Eighteen months later he still had four contractors next to eight employees. He does not say which work was which, or that the split was a task-or-job decision.” Keep the numbers; drop the intent."
+  },
+  {
+    "category": "licence-to-wait",
+    "severity": "medium",
+    "quote": "The question is not whether this month's profit covers a salary. It is whether the revenue that repeats — chapter eleven's second test — covers it after acquisition and service, at the level you have now rather than the level you are hiring in order to reach.",
+    "problem": "This is an evidence bar with no date by which the reader must stop waiting for the low month to cover the hire, and in a Part IV chapter whose own case is a regret about hiring too late.",
+    "evidence": "CONTEXT.md §3 standing constraint, rule 2: “Every evidence standard needs an expiry. A threshold with no date is an invitation to wait.” Rule 3 is partly met (Galperin’s “I still regret not doing this sooner”; dependence without commitment; the owed block’s liability). Monday item 3 restates the bar against the lowest of the last twelve cash months and still has no decide-by date. Combined with “cannot be cancelled in an afternoon,” the cautious reading is to wait another quarter. Monday items themselves are imperatives (rule 1 is clean).",
+    "fix": "Keep the funding test, then add the expiry the rest of the book requires: write the date by which the low month must cover the loaded cost, and what you will do on that date if it does not — hire a smaller role, keep buying a task, or accept the gap. Put the cost of waiting in the same breath: the work is already a job if the day does not run without that person."
+  }
+]
+```
