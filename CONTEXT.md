@@ -607,7 +607,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 |---|---|---|
 | 17 | You Are the Bottleneck | ☑ 13 claims · Bingo Card Creator (2010) + Pinboard (2020) · *owed* · opens Part IV |
 | 18 | Writing It Down | ☑ 6 claims · Gymdesk / Galperin (2023) · *owed* |
-| 19 | The First Hire | ☐ 🇳🇱 |
+| 19 | The First Hire | ☑ 20 claims · Gymdesk / Galperin (2021–2022), fourth use, new source · BW7 art. 610/610a + Rijksoverheid enforcement page · *owed* 🇳🇱 · drafted 2026-08-28 |
 | 20 | Managing People | ☐ 🇳🇱 |
 | 21 | Meetings That Aren't Theater | ☐ |
 | 22 | Measuring the Right Three Things | ☐ |
@@ -1923,6 +1923,17 @@ lawyer) per §5b, and — per the gap above — be honest that it has not source
 practice, only what the law itself states. No accounting content; the risk here is entirely legal-
 interpretive, and it is smaller than ch. 15's because the two articles quoted do not require
 arithmetic or a jurisdiction fork, only a correct account of what a presumption is.
+
+**Gap closed at drafting (2026-08-28).** The Rijksoverheid page "Aanpak schijnzelfstandigheid"
+(`rijks-schijnzelfstandigheid-2026`, Ministerie van SZW) was reachable via the live zzp hub and is
+registered: it states that the Belastingdienst has enforced fully against schijnzelfstandigheid
+again since 1 January 2025, lists what an employer pays after the fact (loonbelasting, premies
+werknemersverzekeringen, bijdragen Zvw, sometimes pension), and that client and worker share the
+responsibility. The box quotes the statute's definition and presumption plus these three sentences,
+and says explicitly that the Belastingdienst's assessment framework (the *Toelichting Beoordeling
+arbeidsrelaties*, linked from that page but not fetched) is not quoted. Fourteen further claims
+registered at drafting: eleven Galperin quotations used in Move 2 and three from the Rijksoverheid
+page. `./verify.sh 19`: 20 verified.
 
 **Registered.** Four claims against `galperin-2023-covid` (the June 2021 hire, the first customer-
 service hire, the one-man-to-company framing sentence, and the 8-employees/4-contractors 2022
