@@ -1,0 +1,40 @@
+```json
+[
+  {
+    "category": "dutch-ground",
+    "severity": "high",
+    "quote": "Count the hours you have bought from the same person over the last three months. Weekly, or twenty-plus a month, for all three: you have already made the decision in practice, and if you are in the Netherlands the presumption in the box has too.",
+    "problem": "The specific Dutch statutory threshold for an employment contract has leaked out of the quarantine box and is being presented as the general standard for all readers.",
+    "evidence": "Checked against CONTEXT.md §5b (On Dutch ground), which requires that 'the general argument stays portable, the local specifics stay quarantined, and neither rots the other.' Monday step 2 violates this by using the exact numerical test from the Dutch Burgerlijk Wetboek Boek 7 art. 610a (three months, weekly, twenty-plus hours) to instruct the general reader outside of the box.",
+    "fix": "Remove the statutory numbers from the general instruction. For example: \"Count the hours you have bought from the same person over the last quarter. If they are on the schedule every week without fail, you have already made the decision in practice (if you are in the Netherlands, the statutory presumption in the box has too).\""
+  },
+  {
+    "category": "backwards-causal",
+    "severity": "high",
+    "quote": "Galperin put the first job on the growth channel and the second on his own bottleneck, and regrets the order",
+    "problem": "The chapter invents a regret about the sequence of hires that the source did not actually express.",
+    "evidence": "Checked against CONTEXT.md §3 (A causal arrow pointing backwards, or a category doing more work than its evidence) and the source quote in Move 2. The source states 'I still regret not doing this sooner' in reference to the customer service hire. He does not say he wishes he had hired support before growth, only that he wishes he had hired support earlier.",
+    "fix": "Change to: \"Galperin put the first job on the growth channel and the second on his own bottleneck, and regrets not making the second one sooner\""
+  }
+]
+```
+```json
+[
+  {
+    "category": "dutch-ground",
+    "severity": "high",
+    "quote": "Count the hours you have bought from the same person over the last three months. Weekly, or twenty-plus a month, for all three: you have already made the decision in practice, and if you are in the Netherlands the presumption in the box has too.",
+    "problem": "The specific Dutch statutory threshold for an employment contract has leaked out of the quarantine box and is being presented as the general standard for all readers.",
+    "evidence": "Checked against CONTEXT.md §5b (On Dutch ground), which requires that 'the general argument stays portable, the local specifics stay quarantined, and neither rots the other.' Monday step 2 violates this by using the exact numerical test from the Dutch Burgerlijk Wetboek Boek 7 art. 610a (three months, weekly, twenty-plus hours) to instruct the general reader outside of the box.",
+    "fix": "Remove the statutory numbers from the general instruction. For example: \"Count the hours you have bought from the same person over the last quarter. If they are on the schedule every week without fail, you have already made the decision in practice (if you are in the Netherlands, the statutory presumption in the box has too).\""
+  },
+  {
+    "category": "backwards-causal",
+    "severity": "high",
+    "quote": "Galperin put the first job on the growth channel and the second on his own bottleneck, and regrets the order",
+    "problem": "The chapter invents a regret about the sequence of hires that the source did not actually express.",
+    "evidence": "Checked against CONTEXT.md §3 (A causal arrow pointing backwards, or a category doing more work than its evidence) and the source quote in Move 2. The source states 'I still regret not doing this sooner' in reference to the customer service hire. He does not say he wishes he had hired support before growth, only that he wishes he had hired support earlier.",
+    "fix": "Change to: \"Galperin put the first job on the growth channel and the second on his own bottleneck, and regrets not making the second one sooner\""
+  }
+]
+```
