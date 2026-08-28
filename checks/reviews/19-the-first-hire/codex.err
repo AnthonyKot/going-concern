@@ -3600,3 +3600,270 @@ exec
 .cache/galperin-2023-fire.raw-455-
 .cache/galperin-2023-fire.raw-456-<p class="wp-block-paragraph">As a result, I developed cross-functional knowledge and processes to make complicated decisions quickly and independently, out of necessity. This is likely a very common story for solopreneurs. </p>
 
+exec
+/bin/bash -lc "sed -n '30,180p' chapters/19-the-first-hire.html; sed -n '180,300p' chapters/19-the-first-hire.html" in /home/diablo/book4
+ succeeded in 211ms:
+
+<main class="wrap">
+
+  <p class="kicker">Part IV · Can it run without you? · Chapter 19</p>
+  <h1>The First Hire</h1>
+  <p class="lede">You have been buying hours for a while — a freelancer, a contractor, someone on a
+  platform — and now you are about to give one person the same hours every week. The question you
+  think you are asking is whether you can afford it. Whether this is a task or a job comes first,
+  and in the Netherlands the answer is not only yours to give.</p>
+
+  <div class="decision">
+    <span class="tag">The decision</span>
+    Whether the work you are about to hand over is a task or a job — and therefore whether the
+    person is a contractor or an employee — decided before the budget, because the first employee
+    converts a cost you could stop into one you cannot, and because on Dutch ground the law has a test of its own for the same question.
+  </div>
+
+  <section class="move">
+    <h2><span class="num">Move 1</span> The situation</h2>
+
+    <p>Something on the ranked list from <a href="17-you-are-the-bottleneck.html">chapter
+    seventeen</a> is recurring work — the same shape every week, no judgment in it, and yours only
+    because nobody else is there. Until now you have handled that by buying it in pieces. A designer
+    for the relaunch, a writer per article, a support person by the hour through a platform, an
+    agency for the quarter. Each of those was a task: it had a scope, a price and an end, and when it
+    ended so did your obligation.</p>
+
+    <p>Now the pieces have run together. The same person has been invoicing you every week for
+    months, or the platform contractor has been on the shift so long that the customers know their
+    name, or you have simply admitted that the work needs someone who is there on Monday whether or
+    not you found anything for them to do. You have started to think about a salary, and the thought
+    arrived as arithmetic: what does a person cost a month, and is there room for it.</p>
+
+    <p>Hold the arithmetic. <strong>The first question is whether this is a task or a job</strong> —
+    whether you are buying an output or a person's regular time under your direction — because the
+    two are different things to own and the difference is not a matter of what you call it.
+    <strong>The second is what you owe once it is a job</strong>: not the wage, which you can look
+    up, but the fact that it falls due every month from now on, including the months the revenue does
+    not. Only after those two does the arithmetic mean anything, and by then it is a different
+    sum.</p>
+  </section>
+
+  <section class="move">
+    <h2><span class="num">Move 2</span> What actually happened</h2>
+
+    <p><a href="18-writing-it-down.html">Chapter eighteen</a> met Eran Galperin a year further on
+    than this, with more than ten people at Gymdesk and a knowledge base for getting them unstuck.
+    This is how the first of them arrived, told in a post he wrote in May 2023 about the two years
+    before that.</p>
+
+    <p>Where he starts: Gymdesk <em>"had reached $12k in MRR in the middle of 2019"</em>, enough for
+    him to leave his job and work on it full time — chapter five's threshold, met. He spent the rest
+    of that year and the start of 2020 on the product — <em>"I contracted a very talented UX
+    designer"</em> for the redesign, a task bought well, and it did what it was bought for — relaunched
+    with a new interface, and then the gyms that were his whole market closed. <em>"We had significant churn from March to around
+    August."</em> The year still ended up — <em>"having grown our MRR by 60% to around $19.5k"</em>
+    — but it ended with him doing every job, as he had for five years.</p>
+
+    <p>The first attempt to change that was not a hire. In 2021 he bought growth as a task, from
+    people whose business was selling it: <em>"After a few failed experiments engaging ‘growth’ and
+    advertising agencies, I came to the conclusion that outside consultants and agencies were never
+    going to understand our audience like I did."</em> His own reason is about the audience: outsiders <em>"were never going to understand our
+    audience like I did."</em> Read as a purchase, that is the task form failing on its own terms —
+    what he needed was not an output but someone inside the business, for as long as the business
+    needed them.</p>
+
+    <p>So: <em>"We made our first full time hire in June 2021"</em> — a person who <em>"used to
+    write for us"</em>, with an SEO background, brought in-house as content marketer and editor to
+    double down on the channel that already worked, organic search. The person had written for the business before the job existed. And the sentence he gives
+    the moment is not about a budget: <em>"This was a big decision for me personally – it's different engaging freelancers for fixed
+    term / cost work, than bringing on someone as a full time employee that you're now responsible
+    to make sure they are paid every month. It was here that we started to make the transition from
+    a one-man, owner run business to an actual company."</em></p>
+
+    <p>Later in 2021 came the second: <em>"I hired my first full time customer service person as
+    well."</em> He had been buying that work before, as contractors: <em>"We have engaged customer
+    service people through Upwork previously as contractors, and it just wasn't working out."</em>
+    The work that had been eating his own day — support — was the second job he created, not the first, and it is the one he
+    passes judgment on: <em>"I still regret not doing this sooner."</em></p>
+
+    <p>Monthly revenue ended 2021 up <em>"by around x2.5"</em> on 2020. The business <em>"passed $1M
+    in ARR in mid 2022"</em>, and in 2022 kept hiring, <em>"ending the year with 8 employees and 4
+    contractors."</em> The task-or-job decision was not made once, at the first hire, and then settled: at the end of
+    2022 the business was paying eight people as jobs and buying four as tasks, side by side. He does
+    not say which work went which way. He does say what the
+    jobs cost him that the tasks had not: <em>"The more people I hire, the more work I need to do
+    every day getting them “unstuck” when they encounter things outside of their comfort zone."</em>
+    That sentence is where chapter eighteen begins; this one stops before it.</p>
+  </section>
+
+  <section class="move">
+    <h2><span class="num">Move 3</span> The reasoning</h2>
+
+    <h3>A task ends. A job does not.</h3>
+
+    <p><strong>A task is an output you buy: it has a scope, a price and a finish, and your
+    obligation finishes with it. A job is a person's regular time under your direction, and it has
+    no finish until one of you ends it.</strong> The test is not the hours, the contract, or the
+    invoice, all of which can be arranged to say what you would prefer. The test is what happens if
+    the person is not there on Monday. If a deliverable is late, you bought a task. If the day does
+    not run, you have a job, whatever the paperwork says — and you probably had one some months
+    before you noticed.</p>
+
+    <p>Galperin's agencies were tasks, bought correctly, and they failed for a reason the task form
+    cannot fix: the work needed context that only accumulates in someone who stays. That is the
+    honest signal that a piece of work has become a job. Not that it takes many hours — a real task
+    can take hundreds — but that the hours are worth more the longer the same person does them, so
+    that buying them fresh each time throws away the part you were paying for.</p>
+
+    <p>The failure mode is the mirror of the one in chapter eighteen. There, documentation was the
+    comfortable way not to hand work over; here, <em>keeping it a task</em> is the comfortable way
+    not to take on a person. The platform contractor who has covered the same shift for a year is a
+    job wearing a task's contract, and the arrangement has already given you most of a job's
+    dependence without any of its commitment. Galperin's support contractors ran that way for long enough that "I still regret not doing
+    this sooner" is his whole verdict on it. The regret is not about the money. It is about the
+    time.</p>
+
+    <p>Both forms are legitimate. The four contractors at Gymdesk at the end of 2022 are not a
+    mistake in the post and are not one here. What is not legitimate is not knowing which one you
+    have — and this is where a business in the Netherlands stops choosing its own words, because on Dutch ground the state has a test of its own, in the box below.</p>
+
+    <h3>What the first job actually costs</h3>
+
+    <p><a href="01-the-only-question.html">Chapter one</a> asked you to keep every cost you could
+    variable until demand had been proved. The first employee is, for most businesses, the first cost that cannot be varied and has a
+    person attached: it falls due monthly, in the months revenue is down as well as the months it is up, and
+    it cannot be cancelled in an afternoon. Galperin names exactly that as the thing that made June
+    2021 a big decision — responsible <em>"to make sure they are paid every month"</em> — and he
+    names it, not the wage, as the moment the business became a company. <strong>The wage is the
+    small part of the cost. The obligation is the large part, and it is what you are actually
+    deciding to take on.</strong></p>
+
+    <p>Which changes the sum. The question is not whether this month's profit covers a salary. It is
+    whether the revenue that repeats — <a href="11-what-happens-after-the-sale.html">chapter
+    eleven</a>'s second test — covers it after acquisition and service, at the level you have now
+    rather than the level you are hiring in order to reach. Gymdesk made its first hire in the middle of 2021, on revenue that had ended the previous year
+    near $19.5k a month after churning through a shutdown of its whole market. A hire funded by the
+    growth it is supposed to produce is a job bought on a task's reasoning:
+    if the growth does not come, you are left with the obligation and not the output.</p>
+
+    <p>The figure to check is not the wage but what the employee costs the business in a month with
+    every employer's charge in it, and the month to check it against is the lowest one in the last
+    year of <a href="13-profit-is-not-cash.html">chapter thirteen</a>'s weekly cash figure — the
+    lowest, because that is the month the obligation will still fall due.</p>
+
+    <h3>Convert before you recruit</h3>
+
+    <p>The first person Galperin employed was someone whose work he had already been buying as a
+    task. That is not incidental. Someone who has done the work for you for a while has been on trial the whole time — you know
+    the output and the speed, and none of that came from an interview. <strong>Where the job is growing out of work
+    you already buy, offer it first to the person you already buy it from.</strong> Where it is not
+    you already buy, offer it first to the person you already buy it from.</strong> Where it is not
+    — where there is nobody whose tasks you could convert — you are recruiting a stranger for a job
+    that has never been done, and the trial period, the expectations and the difficult conversation
+    that follow belong to <a href="20-managing-people.html">chapter twenty</a>, which starts where this one
+    ends.</p>
+
+    <p>One thing this case cannot tell you is where to hire first. Galperin put the first job on the growth channel and the second on the work that was eating his
+    day, and regrets only that the second came late; one sequence, judged by the person who chose it,
+    says nothing about whether the reverse would have been better. Chapter seventeen's table is still
+    what sets the order.</p>
+
+    <div class="ground">
+      <h3>On Dutch ground · who counts as an employee</h3>
+
+      <p>If you are not hiring in the Netherlands, skip to Monday. If you are, the task-or-job
+      question above has a statutory version, and it does not wait for your answer.</p>
+
+      <p><strong>The definition.</strong> Article 7:610 of the Civil Code says what an employment
+      contract is: <em lang="nl">"De arbeidsovereenkomst is de overeenkomst waarbij de ene partij, de
+      werknemer, zich verbindt in dienst van de andere partij, de werkgever, tegen loon gedurende
+      zekere tijd arbeid te verrichten."</em> Three elements — work performed <span
+      lang="nl">in dienst van</span> the other party, for pay, over a period of time. The statute
+      defines the relationship by those elements, not by the heading on the contract.</p>
+
+      <p><strong>The presumption.</strong>  Article 7:610a goes further: <em lang="nl">"Hij die ten behoeve van een ander tegen beloning door die ander
+      gedurende drie opeenvolgende maanden, wekelijks dan wel gedurende ten minste twintig uren per
+      maand arbeid verricht, wordt vermoed deze arbeid te verrichten krachtens
+      arbeidsovereenkomst."</em> Someone who works for you, for pay, for three consecutive months,
+      weekly or at least twenty hours a month, is <em>presumed</em> to be doing so under an
+      employment contract. A presumption is not a reclassification — it can be rebutted — but it
+      moves the burden: past that threshold, whoever wants the arrangement to be something other
+      than employment is the one who has to show it. </p>
+
+      <p><strong>Enforcement.</strong> The government's own page on <span
+      lang="nl">schijnzelfstandigheid</span> — self-employment in name only — states that
+      <em lang="nl">"De Belastingdienst controleert sinds 1 januari 2025 weer volledig op
+      schijnzelfstandigheid."</em> The consequence for the business that got it wrong is that it
+      <em lang="nl">"betaalt de werkgever alsnog loonbelasting, premies werknemersverzekeringen,
+      bijdragen Zorgverzekeringswet en soms pensioenpremies"</em>, and the same page notes that
+      responsibility is shared: <em lang="nl">"Bedrijven en zzp'ers zijn samen verantwoordelijk om
+      schijnzelfstandigheid te voorkomen."</em></p>
+
+      <p>None of this is advice. This box quotes the definition, the presumption and the fact of
+      enforcement; it does not say how the assessment goes in your case, what the criteria weigh, or
+      what a rebuttal would need. Before the first contract of either kind, pay an <span
+      lang="nl">arbeidsrechtadvocaat</span> for an hour with the actual working arrangement  in front of them.</p>
+
+      <span class="checked">Checked 28 August 2026 against Burgerlijk Wetboek Boek 7 art. 610 and
+      610a (consolidated text at 1 January 2026) and the Rijksoverheid page "Aanpak
+      schijnzelfstandigheid". The statute and the enforcement statement are quoted, not
+      paraphrased; the administrative assessment framework the Belastingdienst applies is not
+      quoted here and is what the lawyer is for.</span>
+    </div>
+  </section>
+
+  <section class="monday">
+    <h2>Monday</h2>
+    <ol>
+      <li><strong>Take the top recurring item from chapter seventeen's list and write one sentence: what is missing on Monday if the person doing it is not there?</strong> A late deliverable means it is a task — keep buying it as one. A day that does not run means it is a job, and the rest of this list applies.</li>
+      <li><strong>Count the hours you have bought from the same person over the last three months.</strong> If it is every week, or more than twenty hours a month, for all three, you have made the decision in practice, and on Dutch ground that is the threshold at which the box's presumption starts running against you. Decide it on paper this week.</li>
+      <li><strong>Ask your accountant for the loaded monthly cost of one employee at the wage you have in mind — the figure with every employer's charge in it, not the offer.</strong> Set it against the lowest four weeks of the last twelve months in your weekly cash figure. If the low month does not cover it, the hire is funded by revenue you have not yet had.</li>
+      <li><strong>Offer the job first to the person whose task work you already buy.</strong> If they exist, the trial has already happened. If nobody does, buy one task from a candidate before you offer them a job, and read chapter twenty before the offer.</li>
+      <li><strong>Write the date and the number by which you would know it was wrong.</strong> Chapter four's rule, applied to a person: what the role must have produced, by when, and what you do if it has not — with the answer being something short of ending it, because ending an employment is a different act with its own cost, and it is chapter twenty's.</li>
+    </ol>
+  </section>
+
+  <div class="owed">
+    <p class="case-head"><span class="who">What would prove this chapter wrong</span></p>
+
+    <p>What is owed is an owner who did this properly — identified a job rather than a task, funded
+    it from revenue that already repeated, converted someone whose work they had already bought —
+    and the business was worse for it: the fixed obligation that could not be shed in the bad
+    quarter, the converted freelancer who was excellent on tasks and could not hold a job, the
+    hire that turned an owner into a manager of one and slowed both. Galperin's account is the
+    inverse: his regret is that the job was created too late, not that it was created. The case is
+    hard to find for the reason this part keeps meeting — an owner who made a careful first hire and
+    then let them go is describing a failure with a person in it, and does not write it up. Until it
+    is found, note the asymmetry: this chapter's test is cheap to run and its errors are visible
+    within a quarter, while the arrangement it argues against, a job kept on a task's contract, costs nothing on any given Monday and, on Dutch ground, carries the liability the box above quotes.</p>
+  </div>
+
+  <section class="reading">
+    <h2>Reading</h2>
+    <ul>
+      <li><span class="src">Source ·</span> <a href="https://erangalperin.com/2023/05/12/building-a-fitness-tech-company-during-covid/">Eran Galperin, "Building A Fitness Tech Company During COVID"</a>, 12 May 2023 — the 2019 revenue level, the 2020 churn and year-end figure, the failed agency experiments, the June 2021 first full-time hire and the sentence framing it, the first customer-service employee and the Upwork contractors before them, the 2021 and mid-2022 growth figures, and the end-2022 split of eight employees and four contractors. The post was originally published at a URL ending <code>business-to-company</code> and is the one chapter eighteen's source links as "I wrote about the process."</li>
+      <li><span class="src">Source ·</span> <a href="https://wetten.overheid.nl/BWBR0005290/2026-01-01">Burgerlijk Wetboek Boek 7</a>, consolidated text at 1 January 2026, articles 610 and 610a — the definition of the employment contract and the presumption of employment.</li>
+      <li><span class="src">Source ·</span> <a href="https://www.rijksoverheid.nl/themas/werk/zelfstandigen-zonder-personeel-zzp/aanpak-schijnzelfstandigheid">Rijksoverheid, "Aanpak schijnzelfstandigheid"</a>, consulted 28 August 2026 — the resumption of full enforcement from 1 January 2025, the charges an employer pays after the fact, and the shared responsibility for getting the contract right.</li>
+      <li><span class="src">Note ·</span> A founder's own account of his own company — the same weaker evidence class used for Galperin in chapters four, five and eighteen, and attributed the same way. The hire dates, the reason given for each hire, the revenue figures and the 2022 headcount split are all his own numbers; nothing here is a filing or audited. The order of his two hires and his regret about it are one person's judgment of one sequence, and the chapter treats them as that.</li>
+    </ul>
+  </section>
+
+  <nav class="chapter-nav">
+    <a href="18-writing-it-down.html"><span class="dir">Previous</span>18 · Writing It Down</a>
+    <a class="next" href="20-managing-people.html"><span class="dir">Next chapter</span>20 · Managing People</a>
+  </nav>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>The Going Concern · Chapter 19 of 28.</p>
+  </div>
+</footer>
+
+</body>
+</html>
+
+exec
+/bin/bash -lc "sed -n '1,260p' checks/reviews/19-the-first-hire/report.md 2>/dev/null || true; git log -1 --oneline -- chapters/19-the-first-hire.html; git show HEAD:chapters/19-the-first-hire.html | sed -n '70,175p' | sha256sum" in /home/diablo/book4
+ succeeded in 192ms:
+6487745 Ch. 20 (draft): Managing People — the right judgment acted on late; Groove/Turnbull 2015, the date as forcing function, feedback during and in writing, the team's and the person's judgment; Dutch box on no-at-will, art. 669 grounds, proeftijd, notice and transitievergoeding; index and ch. 19 nav wired
+7823bce4f86e6b5b036e0b9a0e4d50c3eb5f4f17d403d05315ac50681eca24cf  -
+
