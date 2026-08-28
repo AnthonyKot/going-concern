@@ -3138,3 +3138,465 @@ codex
 The strongest surviving pattern so far is interpretive: several quotations verify, but the chapter promotes Galperin’s hindsight into mechanisms or comparisons he did not state. I’m checking the full source context now, especially the first writer, agency failure, hire timing, and support regret.
 web search: 
 web search: https://erangalperin.com/2023/05/12/building-a-fitness-tech-company-during-covid/
+exec
+/bin/bash -lc "rg -n -C 4 'second test|stayed the course|repeat|revenue|weekly cash|bank balance|profit|lowest month|cash figure' chapters/11-what-happens-after-the-sale.html chapters/13-profit-is-not-cash.html chapters/05-leaving-well.html chapters/01-the-only-question.html | head -260; sed -n '150,245p' chapters/19-the-first-hire.html" in /home/diablo/book4
+ succeeded in 150ms:
+chapters/01-the-only-question.html-111-      volume. In the third quarter of 2000, after five full quarters of operation, the Oakland
+chapters/01-the-only-question.html-112-      prototype still did not break even on a cash-flow basis, and the company estimated that order
+chapters/01-the-only-question.html-113-      volume would have to rise <strong>"by a minimum of forty percent"</strong> from September's
+chapters/01-the-only-question.html-114-      level to get there. It also disclosed, flatly, that "to date no Webvan facility has become
+chapters/01-the-only-question.html:115:      profitable on a cash-flow basis."</p>
+chapters/01-the-only-question.html-116-
+chapters/01-the-only-question.html-117-      <p>The accumulated deficit ran $159.4 million at the end of 1999, $440 million by September
+chapters/01-the-only-question.html-118-      2000, and <strong>$612.7 million</strong> by December 2000 — a net loss of $453.3 million in
+chapters/01-the-only-question.html-119-      that year alone. Webvan filed for Chapter 11 in July 2001.</p>
+--
+chapters/01-the-only-question.html-149-    the ones already standing. Webvan's error was not the contract for twenty-six warehouses. It was
+chapters/01-the-only-question.html-150-    the first one: committing to a facility whose economics required eight thousand orders a day
+chapters/01-the-only-question.html-151-    before a single customer had placed one. Everything after that was an attempt to grow demand up
+chapters/01-the-only-question.html-152-    to a cost structure that had been fixed in advance — a race run on the cost structure's terms,
+chapters/01-the-only-question.html:153:    against a deadline set by the bank balance.</p>
+chapters/01-the-only-question.html-154-
+chapters/01-the-only-question.html-155-    <p>Put the model the other way round and it is a forecast. A centre that pays only at 8,000
+chapters/01-the-only-question.html-156-    orders a day, at $103 an order, at a 12% margin, is a prediction that 8,000 households in one
+chapters/01-the-only-question.html-157-    city will order groceries every day — written in concrete before it was written down. That is
+--
+chapters/01-the-only-question.html-191-    looks like a business that is working — and the second clause is stated in terms of your cost
+chapters/01-the-only-question.html-192-    structure rather than the market because demand can be real and simply <em>early</em>. Webvan's
+chapters/01-the-only-question.html-193-    market existed in 1999. It did not exist at 1999's cost of labour, smartphone penetration, or
+chapters/01-the-only-question.html-194-    consumer habit. Being ten years early is indistinguishable, from inside the business, from being
+chapters/01-the-only-question.html:195:    wrong: the spreadsheet looks the same, the bank balance looks the same, and the market research
+chapters/01-the-only-question.html-196-    says people want it, which they do. You cannot control when a market arrives. You can control
+chapters/01-the-only-question.html-197-    whether you are still solvent when it does.</p>
+chapters/01-the-only-question.html-198-
+chapters/01-the-only-question.html-199-    <p>Three consequences follow.</p>
+--
+chapters/01-the-only-question.html-256-    <p>Instacart, founded in 2012, went after the same appetite and built no warehouses at all. It
+chapters/01-the-only-question.html-257-    used the shops that already existed and paid people to walk around them. In 2022 it fulfilled
+chapters/01-the-only-question.html-258-    <strong>262.6 million orders</strong> across the United States — up from 223.4 million the year
+chapters/01-the-only-question.html-259-    before — on gross transaction value of <strong>$28.8 billion</strong>, and reported its first
+chapters/01-the-only-question.html:260:    annual net profit: $428 million, of which $358 million was a tax benefit from releasing a
+chapters/01-the-only-question.html-261-    valuation allowance rather than anything that happened in the business.</p>
+chapters/01-the-only-question.html-262-
+chapters/01-the-only-question.html-263-    <p>Two cautions, because it is easy to take too much from that. Those are national figures set
+chapters/01-the-only-question.html-264-    against one Oakland facility, so any ratio between them is arithmetic without meaning. And
+--
+chapters/01-the-only-question.html-280-
+chapters/01-the-only-question.html-281-  <section class="reading">
+chapters/01-the-only-question.html-282-    <h2>Reading</h2>
+chapters/01-the-only-question.html-283-    <ul>
+chapters/01-the-only-question.html:284:      <li><span class="src">Source ·</span> Webvan Group, Inc., <a href="https://www.sec.gov/Archives/edgar/data/1092657/0000891618-00-001877.txt">Form 10-K405 for FY1999</a> (filed 30 March 2000) — the 18-supermarket sizing, the 8,000-orders-per-day designed capacity, the 12% operating margin at $103 per order, the $300 million revenue figure, the $81.31 average order in Q4 1999, the "less than 25% of such designed capacity" disclosure, the Bechtel agreement for up to 26 centres at $30–35 million each, and the $159.4 million accumulated deficit.</li>
+chapters/01-the-only-question.html-285-      <li><span class="src">Source ·</span> Webvan Group, Inc., <a href="https://www.sec.gov/Archives/edgar/data/1092657/0000891618-00-005126.txt">Form 10-Q for the quarter ended 30 September 2000</a> — "less than 40% of such designed capacity"; the Oakland centre's failure to reach cash-flow breakeven in its fifth full quarter and the "minimum of forty percent" volume increase required; "no obligation … no capital commitment" under the Bechtel agreement; $440 million accumulated deficit.</li>
+chapters/01-the-only-question.html-286-      <li><span class="src">Source ·</span> Webvan Group, Inc., <a href="https://www.sec.gov/Archives/edgar/data/1092657/0001012870-01-001485.txt">Form 10-K for FY2000</a> (filed 2 April 2001) — $612.7 million accumulated deficit, $453.3 million net loss for 2000, average order size $104 for the year and $112 in Q4.</li>
+chapters/01-the-only-question.html-287-      <li><span class="src">Source ·</span> Maplebear Inc. (Instacart), <a href="https://www.sec.gov/Archives/edgar/data/1579091/000119312523221345/d55348ds1.htm">Form S-1</a>, 2023 — 262.6 million orders in 2022 against 223.4 million in 2021; GTV of $28,826 million; net income of $428 million "including a $358 million tax benefit from the release of our valuation allowance."</li>
+chapters/01-the-only-question.html-288-      <li>Josh Kaufman, <em>The Personal MBA</em> (2010) — "Iron Law of the Market," for the principle in its crude and more quotable form.</li>
+--
+chapters/05-leaving-well.html-89-
+chapters/05-leaving-well.html-90-      <p>What makes this case usable rather than merely charming is that he published the numbers
+chapters/05-leaving-well.html-91-      while it was happening. At the end of 2009 — still employed — the business had sold 1,049
+chapters/05-leaving-well.html-92-      copies, taken <strong>$31,156.18</strong> net of refunds, spent $12,630.47, and returned
+chapters/05-leaving-well.html:93:      <strong>$18,525.71</strong> in profit, which he reckoned at an effective
+chapters/05-leaving-well.html-94-      <strong>$125–$150 an hour</strong> for the time he put in.</p>
+chapters/05-leaving-well.html-95-
+chapters/05-leaving-well.html-96-      <p>In March 2010 he wrote that the business <em>"has made it possible to quit my day job at the
+chapters/05-leaving-well.html-97-      end of this month."</em> He went full time on 1 April 2010, and the business barely
+--
+chapters/05-leaving-well.html-103-      <div class="figures">
+chapters/05-leaving-well.html-104-        <div><span class="k">Time on the business</span><span class="v">~5 h/week</span></div>
+chapters/05-leaving-well.html-105-        <div><span class="k">Years before leaving</span><span class="v">~4</span></div>
+chapters/05-leaving-well.html-106-        <div><span class="k">2009 net sales</span><span class="v">$31,156</span></div>
+chapters/05-leaving-well.html:107:        <div><span class="k">2009 profit</span><span class="v">$18,526</span></div>
+chapters/05-leaving-well.html-108-        <div><span class="k">Effective rate</span><span class="v">$125–150/h</span></div>
+chapters/05-leaving-well.html-109-        <div><span class="k">Left day job</span><span class="v">1 Apr 2010</span></div>
+chapters/05-leaving-well.html-110-      </div>
+chapters/05-leaving-well.html-111-    </div>
+chapters/05-leaving-well.html-112-
+chapters/05-leaving-well.html-113-    <p>The headline is the four years. Two quieter details matter more.</p>
+chapters/05-leaving-well.html-114-
+chapters/05-leaving-well.html-115-    <p>The first is that he did not leave when the business was exciting. He left when it was
+chapters/05-leaving-well.html:116:    <em>boring</em> — a mature product, four years old, with a demonstrated repeat pattern across two
+chapters/05-leaving-well.html:117:    published annual cycles and a profit line that had roughly doubled year on year while he was
+chapters/05-leaving-well.html-118-    barely touching it. The evidence he acted on was not a good month. It was a shape.</p>
+chapters/05-leaving-well.html-119-
+chapters/05-leaving-well.html-120-    <p>The second is a detail worth pausing on, because this book is supposed to be about where
+chapters/05-leaving-well.html-121-    numbers come from. His 2010 review restates the previous year's figures as $31,855.08 in net
+chapters/05-leaving-well.html:122:    sales and $16,369.80 in profit — <em>different numbers for the same year</em> than the ones he
+chapters/05-leaving-well.html-123-    published twelve months earlier. Nothing sinister: small businesses re-cut their books, refunds
+chapters/05-leaving-well.html-124-    land late, categories move. But this is the best-documented small software business of its era,
+chapters/05-leaving-well.html-125-    published in good faith by a meticulous person, and its own figures for a single year do not
+chapters/05-leaving-well.html:126:    agree with each other across two posts. And note that the two figures move differently: the revenue restatement is
+chapters/05-leaving-well.html:127:    about two per cent, the profit restatement nearly twelve. Treat any single revenue or profit
+chapters/05-leaving-well.html-128-    figure from a small business — including your own — as provisional unless you know when the books
+chapters/05-leaving-well.html-129-    were closed, which costs were counted, and whether the number was later restated.</p>
+chapters/05-leaving-well.html-130-  </section>
+chapters/05-leaving-well.html-131-
+--
+chapters/05-leaving-well.html-143-
+chapters/05-leaving-well.html-144-    <p>Some businesses compound on five hours a week. A software product with near-zero marginal
+chapters/05-leaving-well.html-145-    support cost is the obvious case: McKenzie's January work was still selling
+chapters/05-leaving-well.html-146-    in June while he slept at his desk in Nagoya. Others do not compound at all on part-time attention. A consultancy is
+chapters/05-leaving-well.html:147:    the clearest example — its revenue is a direct function of hours you are not currently able to
+chapters/05-leaving-well.html-148-    give it, and four years of evenings will produce four years of evenings, not a business. So will
+chapters/05-leaving-well.html-149-    anything requiring you to answer a phone during working hours, hold stock, or show up.</p>
+chapters/05-leaving-well.html-150-
+chapters/05-leaving-well.html-151-    <p>So the first question is not <em>when do I leave</em> but <em>does this kind of business
+--
+chapters/05-leaving-well.html-180-    <h3>When the business cannot accumulate</h3>
+chapters/05-leaving-well.html-181-
+chapters/05-leaving-well.html-182-    <p>Everything above assumes the business earns while you are at a desk somewhere else. For a
+chapters/05-leaving-well.html-183-    consultancy, an agency, or anything needing you to answer a phone at eleven on a Tuesday, it does
+chapters/05-leaving-well.html:184:    not. Told to leave on repeat paid revenue covering your floor, you get a bar you can
+chapters/05-leaving-well.html-185-    only clear by first doing the thing it is meant to authorise. That is circular, and it wants a
+chapters/05-leaving-well.html-186-    different standard.</p>
+chapters/05-leaving-well.html-187-
+chapters/05-leaving-well.html-188-    <p>Three parts, replacing the three above rather than supplementing them.</p>
+chapters/05-leaving-well.html-189-
+chapters/05-leaving-well.html-190-    <ul>
+chapters/05-leaving-well.html:191:      <li><strong>Signed pipeline instead of revenue.</strong> You cannot bill hours you do not
+chapters/05-leaving-well.html-192-      have, so what accumulates is commitments to buy them later — written, dated, from independent
+chapters/05-leaving-well.html-193-      buyers who know you are unavailable until you resign. This is
+chapters/05-leaving-well.html-194-      <a href="03-selling-it-before-it-exists.html">chapter three's</a> ladder applied to your own
+chapters/05-leaving-well.html-195-      time: rung two at minimum, and a deposit beats a warm letter from someone who will not miss the
+--
+chapters/05-leaving-well.html-198-      market stall, a weekend pop-up, a standing order for an office's Friday lunch. Its takings
+chapters/05-leaving-well.html-199-      are your signed pipeline, and the shape they make over three months is the evidence.</li>
+chapters/05-leaving-well.html-200-      <li><strong>Runway counted in months of floor.</strong> Same floor as above; what matters is
+chapters/05-leaving-well.html-201-      how many months of it you hold, not what is in the account. Consultancy
+chapters/05-leaving-well.html:202:      revenue arrives late even when it arrives: signed in March, worked in May, invoiced in June,
+chapters/05-leaving-well.html-203-      paid in August, and only if nobody is slow. Count to the payment, not the signature.</li>
+chapters/05-leaving-well.html-204-      <li><strong>A bounded experiment with the consequence written first.</strong> The evidence
+chapters/05-leaving-well.html-205-      cannot be gathered while employed, so leaving <em>is</em> the experiment, and an experiment has
+chapters/05-leaving-well.html-206-      a duration and an exit. <a href="04-deciding-not-to.html">Chapter four's</a> three components
+--
+chapters/05-leaving-well.html-271-    <p class="case-head"><span class="who">The counter-case: Gymdesk</span> — when the stopping rule is wrong</p>
+chapters/05-leaving-well.html-272-
+chapters/05-leaving-well.html-273-    <p>Eran Galperin built a runway and gave the business a defined period in which to prove it could
+chapters/05-leaving-well.html-274-    support him — the threshold discipline of Monday item four. By his own later account: <em>"I had hoped
+chapters/05-leaving-well.html:275:    that I could focus on Gymdesk full time and hopefully reach enough revenue within the 6 months
+chapters/05-leaving-well.html-276-    runway I had built."</em></p>
+chapters/05-leaving-well.html-277-
+chapters/05-leaving-well.html-278-    <p>What he did not have was the evidence standard set out above: no customers at all on the day
+chapters/05-leaving-well.html:279:    he went full time, and no revenue for months after. So this tests the threshold, not the advice
+chapters/05-leaving-well.html:280:    to leave only once repeated paid revenue covers your floor.</p>
+chapters/05-leaving-well.html-281-
+chapters/05-leaving-well.html-282-    <p>The six months came and the answer was no. His account is blunt about it — <em>"I was wrong. In
+chapters/05-leaving-well.html-283-    reality it took 3 whole years for the business to grow to the point it could provide for me full
+chapters/05-leaving-well.html-284-    time."</em> He went back to paid work and kept part of each week for the business;
+--
+chapters/05-leaving-well.html-298-  </div>
+chapters/05-leaving-well.html-299-
+chapters/05-leaving-well.html-300-  <div class="owed">
+chapters/05-leaving-well.html-301-    <strong>A counter-case is still owed for the central advice.</strong> It would be someone who
+chapters/05-leaving-well.html:302:    left only after repeated paid revenue covered their floor, then failed because leaving itself
+chapters/05-leaving-well.html-303-    damaged the business or the evidence did not transfer. Gymdesk tests the threshold instead. No
+chapters/05-leaving-well.html-304-    qualifying case has been found; the <a href="../about.html#counter">debt remains</a>.
+chapters/05-leaving-well.html-305-  </div>
+chapters/05-leaving-well.html-306-
+--
+chapters/05-leaving-well.html-325-    </ol>
+chapters/05-leaving-well.html-326-
+chapters/05-leaving-well.html-327-    <p>Now the limitation, because it is larger than the achievement. Everything above concerns
+chapters/05-leaving-well.html-328-    <em>one</em> sale, or a handful. You still do not know whether customers can be found
+chapters/05-leaving-well.html:329:    <em>repeatedly</em>, what they should be charged, or whether the economics survive doing it a
+chapters/05-leaving-well.html-330-    hundred times. A single commitment proves a person exists who wanted this. It says nothing about
+chapters/05-leaving-well.html-331-    whether there is a second one, or where you would find them, or what it would cost to.</p>
+chapters/05-leaving-well.html-332-
+chapters/05-leaving-well.html-333-    <p>Those are the questions of Parts II and III, and they are where most of the businesses that
+--
+chapters/05-leaving-well.html-336-
+chapters/05-leaving-well.html-337-  <section class="reading">
+chapters/05-leaving-well.html-338-    <h2>Reading</h2>
+chapters/05-leaving-well.html-339-    <ul>
+chapters/05-leaving-well.html:340:      <li><span class="src">Source ·</span> Patrick McKenzie, <a href="https://www.kalzumeus.com/2009/12/18/bingo-card-creator-year-in-review-2009/">"Bingo Card Creator Year In Review 2009"</a> — sales, refunds, expenses, profit and effective hourly rate, published while still employed.</li>
+chapters/05-leaving-well.html-341-      <li><span class="src">Source ·</span> Patrick McKenzie, <a href="https://www.kalzumeus.com/2010/03/20/running-a-software-business-on-5-hours-a-week/">"Running A Software Business On 5 Hours A Week"</a>, March 2010 — the five-hour average, the Nagoya working day, the $200-a-month original ambition, and the announcement of leaving.</li>
+chapters/05-leaving-well.html-342-      <li><span class="src">Source ·</span> Patrick McKenzie, <a href="https://www.kalzumeus.com/2010/12/17/bingo-card-creator-etc-year-in-review-2010/">"Bingo Card Creator (&amp; etc) Year In Review 2010"</a> — the 1 April departure, the 2010 figures, and the restated 2009 figures that do not match the 2009 post.</li>
+chapters/05-leaving-well.html:343:      <li><span class="src">Source ·</span> Eran Galperin, <a href="https://erangalperin.com/2022/12/25/bootstrapping-to-profitability-the-story-of-a-b2b-saas-founder/">"Bootstrapping to Profitability"</a>, 2022 — the six-month runway, the return to employment at four days a week, $10k MRR, and the June 2019 departure. A later retelling by the founder, and weaker evidence than the contemporaneous posts above; treated as such here.</li>
+chapters/05-leaving-well.html-344-      <li><span class="src">Source ·</span> <a href="https://wetten.overheid.nl/BWBR0005290/2026-01-01">Burgerlijk Wetboek Boek 7</a>, articles 653 and 653a, and <a href="https://wetten.overheid.nl/BWBR0004045/2026-01-01">Werkloosheidswet</a>, article 24 — consolidated texts, wetten.overheid.nl.</li>
+chapters/05-leaving-well.html-345-      <li>Jason Fried and David Heinemeier Hansson, <em>Rework</em> (2010) — on building a business inside the hours you actually have.</li>
+chapters/05-leaving-well.html-346-    </ul>
+chapters/05-leaving-well.html-347-  </section>
+--
+chapters/11-what-happens-after-the-sale.html-54-
+chapters/11-what-happens-after-the-sale.html-55-    <p>What follows is one paying population followed through three successive tests. Of the people
+chapters/11-what-happens-after-the-sale.html-56-    who paid: how many actually used what they bought; of those, how many finished or stayed the
+chapters/11-what-happens-after-the-sale.html-57-    course; of those, how many got the result the sale promised. Each is a smaller population than
+chapters/11-what-happens-after-the-sale.html:58:    the one before, and the gaps between them are where a business quietly dies while its revenue
+chapters/11-what-happens-after-the-sale.html-59-    looks fine.</p>
+chapters/11-what-happens-after-the-sale.html-60-
+chapters/11-what-happens-after-the-sale.html:61:    <p>Renewal and referral are signs of the second test — staying the course — and neither settles
+chapters/11-what-happens-after-the-sale.html-62-    the third. People refer
+chapters/11-what-happens-after-the-sale.html-63-    before they have received anything, renew out of inertia or the cost of switching, and stay with
+chapters/11-what-happens-after-the-sale.html-64-    a supplier they like while quietly not getting what they came for. Renewal is evidence worth
+chapters/11-what-happens-after-the-sale.html-65-    investigating, not a verdict.</p>
+chapters/11-what-happens-after-the-sale.html-66-
+chapters/11-what-happens-after-the-sale.html:67:    <p>Whether the sale can be repeated at all was
+chapters/11-what-happens-after-the-sale.html-68-    <a href="10-the-first-ten-customers.html">the last chapter</a>. Whether the resulting money is
+chapters/11-what-happens-after-the-sale.html-69-    enough, soon enough, is the rest of this part. This chapter is only about whether the relationship
+chapters/11-what-happens-after-the-sale.html-70-    persists, and why.</p>
+chapters/11-what-happens-after-the-sale.html-71-  </section>
+--
+chapters/11-what-happens-after-the-sale.html-220-    <strong>Count from everyone who paid.</strong> <strong>And give the unreachable their own
+chapters/11-what-happens-after-the-sale.html-221-    line</strong>, rather than letting them evaporate.</p>
+chapters/11-what-happens-after-the-sale.html-222-
+chapters/11-what-happens-after-the-sale.html-223-    <p>For a thing sold forty times a morning the outcome is not one large result but a small one
+chapters/11-what-happens-after-the-sale.html:224:    repeated, and the sentence still has a date and a test in it: <em>by the end of the month, half
+chapters/11-what-happens-after-the-sale.html-225-    of this week's new faces have been back</em>; <em>the dress was worn out of the house, and a
+chapters/11-what-happens-after-the-sale.html-226-    second was ordered in another colour</em>. The population is still everyone who paid, and the
+chapters/11-what-happens-after-the-sale.html-227-    could-not-reach line is still the people who paid once and were not seen again.</p>
+chapters/11-what-happens-after-the-sale.html-228-  </section>
+--
+chapters/13-profit-is-not-cash.html-3-<head>
+chapters/13-profit-is-not-cash.html-4-<meta charset="utf-8">
+chapters/13-profit-is-not-cash.html-5-<meta name="viewport" content="width=device-width, initial-scale=1">
+chapters/13-profit-is-not-cash.html-6-<title>13 · Profit Is Not Cash — The Going Concern</title>
+chapters/13-profit-is-not-cash.html:7:<meta name="description" content="A profitable business can run out of money on a Tuesday, and a loss-making one can be filling up. Instacart's own statements show the gap running both ways, and Dutch law sets how long you can be made to wait.">
+chapters/13-profit-is-not-cash.html:8:<link rel="canonical" href="https://anthonykot.github.io/going-concern/chapters/13-profit-is-not-cash.html">
+chapters/13-profit-is-not-cash.html-9-<meta property="og:type" content="article">
+chapters/13-profit-is-not-cash.html-10-<meta property="og:site_name" content="The Going Concern">
+chapters/13-profit-is-not-cash.html-11-<meta property="og:title" content="13 · Profit Is Not Cash">
+chapters/13-profit-is-not-cash.html:12:<meta property="og:description" content="A profitable business can run out of money on a Tuesday, and a loss-making one can be filling up.">
+chapters/13-profit-is-not-cash.html:13:<meta property="og:url" content="https://anthonykot.github.io/going-concern/chapters/13-profit-is-not-cash.html">
+chapters/13-profit-is-not-cash.html-14-<meta name="twitter:card" content="summary">
+chapters/13-profit-is-not-cash.html-15-<link rel="stylesheet" href="../static/style.css">
+chapters/13-profit-is-not-cash.html-16-<script src="../static/theme.js"></script>
+chapters/13-profit-is-not-cash.html-17-</head>
+--
+chapters/13-profit-is-not-cash.html-32-
+chapters/13-profit-is-not-cash.html-33-  <p class="kicker">Part III · Does the money work? · Chapter 13</p>
+chapters/13-profit-is-not-cash.html-34-  <h1>Profit Is Not Cash</h1>
+chapters/13-profit-is-not-cash.html-35-  <p class="lede">They are not the same measurement, and the gap between them runs in both
+chapters/13-profit-is-not-cash.html:36:  directions. A profitable business can run out of money on a Tuesday. A loss-making one can be
+chapters/13-profit-is-not-cash.html-37-  quietly filling up. Only one of the two can pay anybody.</p>
+chapters/13-profit-is-not-cash.html-38-
+chapters/13-profit-is-not-cash.html-39-  <div class="decision">
+chapters/13-profit-is-not-cash.html-40-    <span class="tag">The decision</span>
+--
+chapters/13-profit-is-not-cash.html-51-    expensive and May was the relief.</p>
+chapters/13-profit-is-not-cash.html-52-
+chapters/13-profit-is-not-cash.html-53-    <p>Three numbers get mistaken for one another when an owner says "we made money this month",
+chapters/13-profit-is-not-cash.html-54-    and they are not the same — which is why <a href="12-reading-your-own-business.html">the previous
+chapters/13-profit-is-not-cash.html:55:    chapter</a> asked for a weekly cash figure separately from profit:</p>
+chapters/13-profit-is-not-cash.html-56-
+chapters/13-profit-is-not-cash.html-57-    <ul>
+chapters/13-profit-is-not-cash.html-58-      <li><strong>Profit</strong> measures performance over a period under accounting rules. It
+chapters/13-profit-is-not-cash.html:59:      records revenue when you earn it, not when the money lands, and costs when you incur them, not
+chapters/13-profit-is-not-cash.html-60-      when they leave.</li>
+chapters/13-profit-is-not-cash.html-61-      <li><strong>Operating cash flow</strong> measures the cash your ordinary operations generated
+chapters/13-profit-is-not-cash.html-62-      or consumed in that period.</li>
+chapters/13-profit-is-not-cash.html:63:      <li><strong>The change in the bank balance</strong> is that, and then everything else —
+chapters/13-profit-is-not-cash.html-64-      equipment bought, loans drawn or repaid, money you put in or took out.</li>
+chapters/13-profit-is-not-cash.html-65-    </ul>
+chapters/13-profit-is-not-cash.html-66-
+chapters/13-profit-is-not-cash.html-67-    <p>All three are honest. They answer different questions, and only the third one pays anybody.</p>
+chapters/13-profit-is-not-cash.html-68-
+chapters/13-profit-is-not-cash.html-69-    <p>Which produces the corollary that catches you precisely when things are going well:
+chapters/13-profit-is-not-cash.html-70-    <strong>growth magnifies the cash cycle</strong>, in whichever direction that cycle already runs.
+chapters/13-profit-is-not-cash.html:71:    When you pay before you collect, growth consumes cash, and selling more at a profit is exactly
+chapters/13-profit-is-not-cash.html-72-    what empties the account. When customers pay before you incur the costs — deposits, prepaid
+chapters/13-profit-is-not-cash.html-73-    subscriptions, retail takings, a supplier who waits — growth can supply cash instead. Neither
+chapters/13-profit-is-not-cash.html:74:    arrangement tells you whether the underlying work is profitable. It tells you which way the
+chapters/13-profit-is-not-cash.html-75-    account moves while you find out.</p>
+chapters/13-profit-is-not-cash.html-76-  </section>
+chapters/13-profit-is-not-cash.html-77-
+chapters/13-profit-is-not-cash.html-78-  <section class="move">
+chapters/13-profit-is-not-cash.html-79-    <h2><span class="num">Move 2</span> What actually happened</h2>
+chapters/13-profit-is-not-cash.html-80-
+
+    <h3>What the first job actually costs</h3>
+
+    <p><a href="01-the-only-question.html">Chapter one</a> asked you to keep every cost you could
+    variable until demand had been proved. The first employee is, for most businesses, the first cost that cannot be varied and has a
+    person attached: it falls due monthly, in the months revenue is down as well as the months it is up, and
+    it cannot be cancelled in an afternoon. Galperin names exactly that as the thing that made June
+    2021 a big decision — responsible <em>"to make sure they are paid every month"</em> — and he
+    names it, not the wage, as the moment the business became a company. <strong>The wage is the
+    small part of the cost. The obligation is the large part, and it is what you are actually
+    deciding to take on.</strong></p>
+
+    <p>Which changes the sum. The question is not whether this month's profit covers a salary. It is
+    whether the revenue that repeats — <a href="11-what-happens-after-the-sale.html">chapter
+    eleven</a>'s second test — covers it after acquisition and service, at the level you have now
+    rather than the level you are hiring in order to reach. Gymdesk made its first hire in the middle of 2021, on revenue that had ended the previous year
+    near $19.5k a month after churning through a shutdown of its whole market. A hire funded by the
+    growth it is supposed to produce is a job bought on a task's reasoning:
+    if the growth does not come, you are left with the obligation and not the output.</p>
+
+    <p>The figure to check is not the wage but what the employee costs the business in a month with
+    every employer's charge in it, and the month to check it against is the lowest one in the last
+    year of <a href="13-profit-is-not-cash.html">chapter thirteen</a>'s weekly cash figure — the
+    lowest, because that is the month the obligation will still fall due.</p>
+
+    <h3>Convert before you recruit</h3>
+
+    <p>The first person Galperin employed was someone whose work he had already been buying as a
+    task. That is not incidental. Someone who has done the work for you for a while has been on trial the whole time — you know
+    the output and the speed, and none of that came from an interview. <strong>Where the job is growing out of work
+    you already buy, offer it first to the person you already buy it from.</strong> Where it is not
+    — where there is nobody whose tasks you could convert — you are recruiting a stranger for a job
+    that has never been done, and the trial period, the expectations and the difficult conversation
+    that follow belong to <a href="20-managing-people.html">chapter twenty</a>, which starts where this one
+    ends.</p>
+
+    <p>One thing this case cannot tell you is where to hire first. Galperin put the first job on the growth channel and the second on the work that was eating his
+    day, and regrets only that the second came late; one sequence, judged by the person who chose it,
+    says nothing about whether the reverse would have been better. Chapter seventeen's table is still
+    what sets the order.</p>
+
+    <div class="ground">
+      <h3>On Dutch ground · who counts as an employee</h3>
+
+      <p>If you are not hiring in the Netherlands, skip to Monday. If you are, the task-or-job
+      question above has a statutory version, and it does not wait for your answer.</p>
+
+      <p><strong>The definition.</strong> Article 7:610 of the Civil Code says what an employment
+      contract is: <em lang="nl">"De arbeidsovereenkomst is de overeenkomst waarbij de ene partij, de
+      werknemer, zich verbindt in dienst van de andere partij, de werkgever, tegen loon gedurende
+      zekere tijd arbeid te verrichten."</em> Three elements — work performed <span
+      lang="nl">in dienst van</span> the other party, for pay, over a period of time. The statute
+      defines the relationship by those elements, not by the heading on the contract.</p>
+
+      <p><strong>The presumption.</strong>  Article 7:610a goes further: <em lang="nl">"Hij die ten behoeve van een ander tegen beloning door die ander
+      gedurende drie opeenvolgende maanden, wekelijks dan wel gedurende ten minste twintig uren per
+      maand arbeid verricht, wordt vermoed deze arbeid te verrichten krachtens
+      arbeidsovereenkomst."</em> Someone who works for you, for pay, for three consecutive months,
+      weekly or at least twenty hours a month, is <em>presumed</em> to be doing so under an
+      employment contract. A presumption is not a reclassification — it can be rebutted — but it
+      moves the burden: past that threshold, whoever wants the arrangement to be something other
+      than employment is the one who has to show it. </p>
+
+      <p><strong>Enforcement.</strong> The government's own page on <span
+      lang="nl">schijnzelfstandigheid</span> — self-employment in name only — states that
+      <em lang="nl">"De Belastingdienst controleert sinds 1 januari 2025 weer volledig op
+      schijnzelfstandigheid."</em> The consequence for the business that got it wrong is that it
+      <em lang="nl">"betaalt de werkgever alsnog loonbelasting, premies werknemersverzekeringen,
+      bijdragen Zorgverzekeringswet en soms pensioenpremies"</em>, and the same page notes that
+      responsibility is shared: <em lang="nl">"Bedrijven en zzp'ers zijn samen verantwoordelijk om
+      schijnzelfstandigheid te voorkomen."</em></p>
+
+      <p>None of this is advice. This box quotes the definition, the presumption and the fact of
+      enforcement; it does not say how the assessment goes in your case, what the criteria weigh, or
+      what a rebuttal would need. Before the first contract of either kind, pay an <span
+      lang="nl">arbeidsrechtadvocaat</span> for an hour with the actual working arrangement  in front of them.</p>
+
+      <span class="checked">Checked 28 August 2026 against Burgerlijk Wetboek Boek 7 art. 610 and
+      610a (consolidated text at 1 January 2026) and the Rijksoverheid page "Aanpak
+      schijnzelfstandigheid". The statute and the enforcement statement are quoted, not
+      paraphrased; the administrative assessment framework the Belastingdienst applies is not
+      quoted here and is what the lawyer is for.</span>
+    </div>
+  </section>
+
+  <section class="monday">
+    <h2>Monday</h2>
+    <ol>
+      <li><strong>Take the top recurring item from chapter seventeen's list and write one sentence: what is missing on Monday if the person doing it is not there?</strong> A late deliverable means it is a task — keep buying it as one. A day that does not run means it is a job, and the rest of this list applies.</li>
+      <li><strong>Count the hours you have bought from the same person over the last three months.</strong> If it is every week, or more than twenty hours a month, for all three, you have made the decision in practice, and on Dutch ground that is the threshold at which the box's presumption starts running against you. Decide it on paper this week.</li>
+      <li><strong>Ask your accountant for the loaded monthly cost of one employee at the wage you have in mind — the figure with every employer's charge in it, not the offer.</strong> Set it against the lowest four weeks of the last twelve months in your weekly cash figure. If the low month does not cover it, the hire is funded by revenue you have not yet had.</li>
+      <li><strong>Offer the job first to the person whose task work you already buy.</strong> If they exist, the trial has already happened. If nobody does, buy one task from a candidate before you offer them a job, and read chapter twenty before the offer.</li>
+      <li><strong>Write the date and the number by which you would know it was wrong.</strong> Chapter four's rule, applied to a person: what the role must have produced, by when, and what you do if it has not — with the answer being something short of ending it, because ending an employment is a different act with its own cost, and it is chapter twenty's.</li>
+    </ol>
+  </section>
+
+
+web search: 
+web search: site:wetten.overheid.nl BWBR0005290 artikel 676 proeftijd onverwijld opzeggen ...
+web search: 
+web search: site:rijksoverheid.nl proeftijd ontslag direct opzeggen werkgever werknemer ...
+exec
+/bin/bash -lc './verify.sh --strict 19' in /home/diablo/book4
+ succeeded in 418ms:
+── internal links ─────────────────────────────────────────────
+  0 broken internal link(s)
+[32m  links OK[0m
+
+── sources ────────────────────────────────────────────────────
+[2m  chapter filter: 19[0m
+[2m  cached   bw7-2026[0m
+[2m  cached   galperin-2023-covid[0m
+[2m  cached   rijks-schijnzelfstandigheid-2026[0m
+
+── claims ─────────────────────────────────────────────────────
+
+  22 verified, 0 drifted, 0 skipped
+
+[32mverify.sh: everything checks out.[0m
+
+exec
+/bin/bash -lc "rg -n 'CACHE|cache' verify.sh | head -30; find . -type f -path '*cache*' | rg 'galperin|bw7|schijn' | head -20" in /home/diablo/book4
+ succeeded in 277ms:
+14:#   ./verify.sh --refresh    re-download sources even if cached
+33:# Sources are cached in .cache/ (gitignored). SEC asks for a descriptive
+43:CACHE=".cache"
+76:    if '/.cache/' in f: continue
+113:mkdir -p "$CACHE"
+121:  out="$CACHE/$id.raw"
+123:    dim "  cached   $id"
+143:cache, filt = ".cache", os.environ.get("FILTER", "")
+165:        p = os.path.join(cache, sid + ".raw")
+184:        why = "unreachable" if not os.path.exists(os.path.join(cache, sid + ".raw")) \
+./.cache/rijks-schijnzelfstandigheid-2026.raw
+./.cache/bw7-2026.raw
+./.cache/galperin-2023-covid.raw
+./.cache/galperin-2022.raw
+./.cache/galperin-2023-fire.raw
+
+exec
+/bin/bash -lc "python3 - <<'PY'
+from bs4 import BeautifulSoup
+for f in ['.cache/galperin-2023-covid.raw','.cache/galperin-2023-fire.raw']:
+ print('\\nFILE',f)
+ s=BeautifulSoup(open(f,encoding='utf8').read(),'html.parser').get_text(' ',strip=True)
+ for needle in ['first 5 years','few failed experiments','used to write for us','8 employees and 4 contractors','Upwork previously']:
+  i=s.find(needle)
+  if i>=0: print(s[max(0,i-300):i+700])
+PY" in /home/diablo/book4
+ exited 1 in 361ms:
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'bs4'
+
+exec
+/bin/bash -lc "rg -n -C 4 'first 5 years|few failed experiments|used to write for us|8 employees and 4 contractors|Upwork previously' .cache/galperin-2023-covid.raw .cache/galperin-2023-fire.raw" in /home/diablo/book4
+ succeeded in 228ms:
+.cache/galperin-2023-covid.raw-469-<p class="wp-block-paragraph">COVID was not over by any stretch at the beginning of 2021, however most people were starting to get used to this new reality, and gyms were following suit. We started investing more in marketing, and were looking forward to seeing how much we can scale in this new climate.</p>
+.cache/galperin-2023-covid.raw-470-
+.cache/galperin-2023-covid.raw-471-
+.cache/galperin-2023-covid.raw-472-
+.cache/galperin-2023-covid.raw:473:<p class="wp-block-paragraph">After a few failed experiments engaging &#8220;growth&#8221; and advertising agencies, I came to the conclusion that outside consultants and agencies were never going to understand our audience like I did. I decided to start building an in-house team, that would live and breath our product and vertical.</p>
+.cache/galperin-2023-covid.raw-474-
+.cache/galperin-2023-covid.raw-475-
+.cache/galperin-2023-covid.raw-476-
+.cache/galperin-2023-covid.raw:477:<p class="wp-block-paragraph">We made our first full time hire in June 2021 &#8211; I hired a person who used to write for us, and had a background in SEO, to be our in house content marketing / editor. The goal was to start producing quality content on a regular basis, and to double down on our strongest acquisition channel &#8211; organic traffic. </p>
+.cache/galperin-2023-covid.raw-478-
+.cache/galperin-2023-covid.raw-479-
+.cache/galperin-2023-covid.raw-480-
+.cache/galperin-2023-covid.raw-481-<p class="wp-block-paragraph">This was a big decision for me personally &#8211; it&#8217;s different engaging freelancers for fixed term / cost work, than bringing on someone as a full time employee that you&#8217;re now responsible to make sure they are paid every month. It was here that we started to make the transition from a one-man, owner run business to an actual company.</p>
+.cache/galperin-2023-covid.raw-482-
+.cache/galperin-2023-covid.raw-483-
+.cache/galperin-2023-covid.raw-484-
+.cache/galperin-2023-covid.raw:485:<p class="wp-block-paragraph">Later in the year, I hired my first full time customer service person as well. We have engaged customer service people through Upwork previously as contractors, and it just wasn&#8217;t working out. Our new CS rep was a godsend, removing a large chunk of distractions from my daily routine. <strong>I still regret not doing this sooner.</strong></p>
+.cache/galperin-2023-covid.raw-486-
+.cache/galperin-2023-covid.raw-487-
+.cache/galperin-2023-covid.raw-488-
+.cache/galperin-2023-covid.raw-489-<h2 class="wp-block-heading">Joining The TinySeed Accelerator</h2>
+--
+.cache/galperin-2023-covid.raw-521-<p class="wp-block-paragraph">While COVID did not go away in 2022, it became a part of our daily lives, to an extent. And so gyms started opening again, or scaling up their operations. </p>
+.cache/galperin-2023-covid.raw-522-
+.cache/galperin-2023-covid.raw-523-
+.cache/galperin-2023-covid.raw-524-
+.cache/galperin-2023-covid.raw:525:<p class="wp-block-paragraph">In 2022 we continued to grow as a company, ending the year with 8 employees and 4 contractors. I continued to optimize our MRR growth and cashflow, trying to bottle the formula for a profitable, recurring revenue company. </p>
+.cache/galperin-2023-covid.raw-526-
+.cache/galperin-2023-covid.raw-527-
+.cache/galperin-2023-covid.raw-528-
+.cache/galperin-2023-covid.raw-529-<p class="wp-block-paragraph">We passed $1M in ARR in mid 2022 &#8211; a number like any other, but somehow still significant. I still remember thinking mid-2019, that if I could just grow our revenue to $16K MRR over the next couple of years, I would be very happy. <strong>The goalposts keep moving.</strong></p>
+--
+.cache/galperin-2023-fire.raw-448-<p class="wp-block-paragraph">In a small startup, founders need to be jack-of-all-trades operators. This is doubly true for solo founders &#8211; you have to be able to do everything yourself until you can afford to hire help. </p>
+.cache/galperin-2023-fire.raw-449-
+.cache/galperin-2023-fire.raw-450-
+.cache/galperin-2023-fire.raw-451-
+.cache/galperin-2023-fire.raw:452:<p class="wp-block-paragraph">And this was the case for me with Gymdesk as well &#8211; for the first 5 years of the company&#8217;s existence, I was doing everything. From product, to development, to customer service, to operations. </p>
+.cache/galperin-2023-fire.raw-453-
+.cache/galperin-2023-fire.raw-454-
+.cache/galperin-2023-fire.raw-455-
+.cache/galperin-2023-fire.raw-456-<p class="wp-block-paragraph">As a result, I developed cross-functional knowledge and processes to make complicated decisions quickly and independently, out of necessity. This is likely a very common story for solopreneurs. </p>
+
