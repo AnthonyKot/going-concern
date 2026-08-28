@@ -3867,3 +3867,755 @@ exec
 6487745 Ch. 20 (draft): Managing People — the right judgment acted on late; Groove/Turnbull 2015, the date as forcing function, feedback during and in writing, the team's and the person's judgment; Dutch box on no-at-will, art. 669 grounds, proeftijd, notice and transitievergoeding; index and ch. 19 nav wired
 7823bce4f86e6b5b036e0b9a0e4d50c3eb5f4f17d403d05315ac50681eca24cf  -
 
+exec
+/bin/bash -lc "nl -ba CONTEXT.md | sed -n '43,75p;260,310p;324,360p;748,770p;1383,1475p;1834,1935p;3184,3270p'; nl -ba checks/claims.tsv | sed -n '531,550p;612,633p'; nl -ba chapters/11-what-happens-after-the-sale.html | sed -n '52,72p'; nl -ba chapters/13-profit-is-not-cash.html | sed -n '52,76p'; nl -ba chapters/17-you-are-the-bottleneck.html | sed -n '156,194p'" in /home/diablo/book4
+ succeeded in 183ms:
+    43	## 3. Chapter template
+    44	
+    45	Filename: `chapters/NN-slug.html`. Four moves, fixed order, fixed headings:
+    46	
+    47	1. **The situation** — the decision stated concretely, second person, present tense. No throat-clearing. Open on the reader's actual position, not on history.
+    48	2. **What actually happened** — one named company. Date it. Give at least two hard figures. This is the load-bearing part of the chapter; if the case is thin the chapter is thin.
+    49	3. **The reasoning** — the transferable principle, *with its boundaries stated in the same breath*. Every principle here has a domain of validity; naming it is what separates this from a LinkedIn post.
+    50	4. **Monday** — three to five numbered actions a reader could take this week. Concrete enough to fail at. No "consider" or "think about."
+    51	
+    52	Then the **counter-case** block: same advice, applied well, bad outcome, ~150–300 words. Then the
+    53	**reading** list.
+    54	
+    55	### Counter-case, aftermath, and the debt register
+    56	
+    57	These are three different things and must not be confused, because the whole credibility of the
+    58	device rests on the distinction:
+    59	
+    60	| Block | What it is | Allowed to satisfy the rule? |
+    61	|---|---|---|
+    62	| `.counter` | The chapter's advice, followed correctly by capable people, failing | **Yes** — this is the rule |
+    63	| `.aftermath` | What became of the idea or market later. Illuminates the case. | **No** |
+    64	| `.limit` | A real case that qualifies the advice without falsifying it — the advice half-followed, or followed against a subsidiary claim | **No** |
+    65	| `.owed` | A visible note that the counter-case has not been found, saying what it would have to be | **No — but it is the honest fallback** |
+    66	
+    67	`.limit` was added late, for ch. 04, and the reason matters: a near-miss needs somewhere truthful to
+    68	go, or it gets called a counter-case in order to earn a border. It is not a loosening of the
+    69	definition — it is what makes holding the definition survivable.
+    70	
+    71	Counter-cases are structurally hard to source: businesses that took good advice and died do not
+    72	publish. The temptation is to widen the definition until the available material fits — to let a
+    73	survivor who ignored the advice count. **Do not.** Hold the definition and carry the debt visibly.
+    74	
+    75	**Debt register — counter-cases owed:**
+   260	- `.figures` — the hard numbers strip inside a case (`.k` label / `.v` value)
+   261	- `.monday` — the action box
+   262	- `.reading` — the sources list
+   263	- `.unverified` — inline mark on any figure not yet checked against a primary source
+   264	
+   265	### Standing constraint: the book must not become a licence to wait
+   266	
+   267	Set 2026-08-02, after ch. 07, and it applies to every remaining chapter including all of Part III.
+   268	
+   269	The reader is forty, has a mortgage, and has been salaried fifteen years. **Their dominant failure
+   270	mode is almost certainly not building the wrong thing. It is never leaving.** And the apparatus this
+   271	book has built — evidence standards, stopping rules, thresholds, four-part tests, debt registers,
+   272	`.limit` blocks, a chapter admitting its own standard is unreachable for consultancies — reads, to a
+   273	cautious person, as a rigorous and well-sourced licence to wait one more quarter, indefinitely.
+   274	
+   275	The risk is created by the book's virtues, not despite them, which is why no reviewer has caught it:
+   276	every review optimises for correctness, and every correction so far has made a claim weaker.
+   277	Note the asymmetry, because it will not fix itself — **a reviewer is never wrong to say "you
+   278	overclaimed", so nothing in the process ever pushes the other way.** Across seven chapters that
+   279	ratchets in one direction: more defensible, less usable.
+   280	
+   281	Three rules follow.
+   282	
+   283	1. **Precision in the claims, confidence in the instructions.** The argument may hedge. The `Monday`
+   284	   list may not. If a `Monday` item ever reads *consider possibly*, the ratchet has gone too far.
+   285	   This is a checkable trip-wire and should be checked when each part closes.
+   286	2. **Every evidence standard needs an expiry.** A threshold with no date is an invitation to wait.
+   287	   Ch. 04 already requires a date; the rest of the book must not state a bar without one.
+   288	3. **Waiting is a decision with a cost, and the book must say so where it bites.** Ch. 05's
+   289	   *"Employed time is not free"* boundary is the only place this currently appears. Part III is where
+   290	   it matters next — the chapters on cash and customer value can each be read as reasons to defer,
+   291	   and each must name what deferring costs.
+   292	
+   293	Not a reason to loosen any claim already corrected. The corrections were right. This is about what
+   294	gets written next, and about noticing when accuracy has started serving the author rather than the
+   295	reader.
+   296	
+   297	## 4. Voice
+   298	
+   299	Rules that hold across all 28:
+   300	
+   301	- **Second person for the reader, third for the case.** "You have to decide" / "Swinmurn decided."
+   302	- **No hedging verbs in the actions.** The Monday list says *call*, *open*, *cancel*, *write down*.
+   303	- **Numbers or nothing.** A case without figures is an anecdote. If the figures cannot be found, either find a different case or mark the claim `unverified` and say so in the prose.
+   304	- **No hero founders.** The point of a case is the decision, not the person. Nobody in this book is a genius; several are lucky and say so.
+   305	- **Name the failure mode inside the principle**, not in a footnote. "Preselling proves demand — and it also creates an obligation you may not be able to discharge, which is a different problem from the one you just solved."
+   306	- **No war-metaphor register.** No crushing, killing, dominating, or beasts. The reader has a hardware shop or a two-person studio, not an army.
+   307	- **Nothing sold.** No newsletter, no course, no consulting. The book ends and that is all it does.
+   308	
+   309	### Provocations are not laws
+   310	
+   324	## 5. Sourcing standard
+   325	
+   326	- A figure is quotable if it comes from: a company filing, a court document, a named journalist's reporting in an outlet with corrections policy, or a first-party statement by the company at the time.
+   327	- A founder's later retelling of their own numbers is **weaker** evidence and must be attributed as such in the prose ("by Swinmurn's own account").
+   328	- Round numbers that appear in every blog post about a company are the single biggest contamination risk in this genre. If a figure cannot be traced past the blogs, mark it `unverified` and keep it visible.
+   329	- The reading list distinguishes `source` (where the case facts came from) from further reading (where the reader goes next).
+   330	
+   331	## 5b. On Dutch ground
+   332	
+   333	Where the answer depends on jurisdiction, the chapter carries a boxed `<div class="ground">` — the
+   334	general argument stays portable, the local specifics stay quarantined, and neither rots the other.
+   335	
+   336	Rules, all of them non-negotiable because this is the part of the book most able to cause real harm:
+   337	
+   338	- **Never state Dutch law from memory.** Every claim in a ground box is sourced to a government or
+   339	  official body — rijksoverheid.nl, KVK, Belastingdienst, UWV, wetten.overheid.nl, Rechtspraak.nl —
+   340	  and added to `checks/claims.tsv` like any other figure.
+   341	- **Date every box.** Rules move. Each box ends with a "checked" line carrying the date and the
+   342	  source, so a reader in two years knows exactly how stale it is.
+   343	- **Say who to ask.** The box's job is to tell the reader that a question exists and is expensive,
+   344	  not to answer it definitively. Every box names the professional — accountant, employment lawyer,
+   345	  notaris — whose job this actually is.
+   346	- **No tax planning.** Structures, deductions and thresholds get named as things to ask about, never
+   347	  recommended.
+   348	
+   349	Subjects known to need boxes, by chapter: side activities and non-compete clauses while still
+   350	employed, and what resigning does to unemployment entitlement (05); VAT on invoices and whether you
+   351	quote inclusive (09); payment terms and late payment (13); owner remuneration where the tax
+   352	authority sets expectations for director-shareholders (15); the employee-versus-contractor
+   353	distinction and its enforcement (19); ending an employment, notice, and severance (20); liability,
+   354	professional indemnity insurance, standard terms, and who owns code written by an employee (24);
+   355	how to wind up cleanly (28).
+   356	
+   357	The 🇳🇱 mark in the register below flags chapters that need one.
+   358	
+   359	**Ch. 15 is the highest-risk box in the book and is written under a stricter process**, set out in
+   360	§6f: claim rows before prose, nothing derived, two independent primary sources for the operative
+   748	### Gymdesk / Galperin — ch. 04, ch. 05
+   749	- **Facts.** Six months of runway; three years to full time; $10k MRR by end of 2018; full time June
+   750	  2019; four days a week.
+   751	- **Permitted.** A stopping rule needs consequences short of demolition. A failed threshold can mean
+   752	  return-to-salary rather than stop.
+   753	- **Confounders.** He improvised; there was no written consequence; the account is retrospective.
+   754	- **Prohibited.** Never that choosing the consequence *in advance* was necessary. Four review passes
+   755	  landed on that wording; do not let it drift back.
+   756	- **Spent.** Ch. 04 used the six-month runway and improvised return-to-salary consequence. Ch. 05
+   757	  used the three-year path to full time, $10k MRR, June 2019 transition and four-day week. No further
+   758	  use is reserved.
+   759	
+   760	### Bingo Card Creator / McKenzie — ch. 05, ch. 07
+   761	- **Facts.** Revenue and hours; traffic, channel split and conversion for 2009 and 2010; $3,000 of
+   762	  writing to $30,000 of sales; Appointment Reminder's six-month figures.
+   763	- **Permitted.** Content that ranks accumulates while paid traffic does not. A growing channel
+   764	  dilutes conversion. A business that accumulates part-time can fund a resignation.
+   765	- **Confounders.** 2008–2010 search conditions; a consumer long tail with enormous volume; he was
+   766	  twenty-six with no dependents when the engine was built.
+   767	- **Prohibited.** Never that the tactic works now — the chapter says it is closed. Never that
+   768	  distribution skill transfers across markets. And AR must not be used the other way either: it does
+   769	  not prove the skill *cannot* transfer, because he did not run the playbook and says so.
+   770	- **Spent.** Ch. 05 used Bingo Card Creator's revenue, hours and part-time accumulation to support
+  1383	## 6h. Ch. 17 — You Are the Bottleneck: settled before drafting
+  1384	
+  1385	**The distinction the chapter turns on**, and it is not the obvious one:
+  1386	
+  1387	> A workload is what consumes your time. A **bottleneck** is what cannot move without you.
+  1388	
+  1389	Five hours a week is not evidence of absence of dependence: a founder working five hours can be the
+  1390	bottleneck if every unusual decision waits for those hours, and a founder working sixty can fail to
+  1391	be one if the work is ordinary capacity a trained person could take. **The chapter must not measure
+  1392	hours and call it dependence.**
+  1393	
+  1394	**The decision.** Which recurring work, which exceptional decisions, and which pieces of operational
+  1395	knowledge stop moving when you are unavailable — and which one you remove from yourself first.
+  1396	
+  1397	**Case: McKenzie / Bingo Card Creator**, returning by design (§7), and permitted to carry: designing
+  1398	around a hard time constraint, choosing work that accumulates rather than resets, keeping the support
+  1399	and operational surface small, and spending automation on scarce founder attention. Check the ch. 05
+  1400	and ch. 07 ledger entries before reuse — the inference must be new, per the *spent* rule.
+  1401	
+  1402	**Limit or second movement: Pinboard**, from ch. 16's unspent evidence — the 2020 platform migration,
+  1403	performed alone on a live system, and the concentrated operational risk underneath a business that
+  1404	had run quietly for years. It makes the distinction visible: **low routine labour does not eliminate
+  1405	concentrated dependence.** A system can run for a decade on credentials, memory and one person's
+  1406	ability to perform an exceptional migration.
+  1407	
+  1408	**Watch.** Part IV's §2 rule applies from its first page: practice and asset are both legitimate, and
+  1409	the failure is not knowing which you built. Ch. 17 diagnoses; it does not sell the asset.
+  1410	
+  1411	### How it went — written after drafting
+  1412	
+  1413	**The plan held and the case did the work it was assigned.** Thirteen claim rows registered and
+  1414	green before prose, per the ch. 15 ordering, which is now simply how chapters are written here.
+  1415	
+  1416	**The four categories are the chapter's own framework, and the chapter says so.** Recurring work,
+  1417	exceptional decisions, operational knowledge, credentials and relationships. They are not a finding
+  1418	from either source — they are built from what the two records contain and, more importantly, from
+  1419	what they leave out. Declared in the boundaries rather than presented as evidence, because the
+  1420	alternative is a taxonomy borrowing authority from figures that do not support it.
+  1421	
+  1422	**The interesting result: McKenzie's post is an excellent answer to a question the chapter does not
+  1423	ask.** Everything in it is about volume of work — time assets, time debt, email A and email B, the
+  1424	hours themselves. Volume is not dependence, and the post does not claim it is. So the chapter uses
+  1425	it as a *positive* case of the first category handled superbly, then says plainly that the other
+  1426	three were not addressed by it. That is the honest reading and it is also the more useful one: the
+  1427	most competent workload management in the book leaves the dependence question untouched.
+  1428	
+  1429	**Pinboard carries the counterweight from the same series ch. 16 used.** The 2020 migration —
+  1430	2009-era code, a site that could not be run bug-for-bug on a modern laptop, performed alone on a
+  1431	live system — is a decade of near-zero routine labour sitting on top of one unschedulable job with
+  1432	no second candidate. Different question of the same source, per the corrected *spent* rule.
+  1433	
+  1434	**Both cases share a limit, stated in the chapter:** neither owner was ever involuntarily absent, so
+  1435	no figure in either record measures dependence directly. It is inferred from their own descriptions
+  1436	of the work. The chapter's own recommendation — run the absence test on paper — is the thing neither
+  1437	case ran for real.
+  1438	
+  1439	**Sequencing claim worth watching.** Move 3 tells the reader to fix credentials first and recurring
+  1440	work last, which inverts what most owners do. Credentials-first is defensible from the argument
+  1441	(shortest fuse, fixable in an afternoon, no skill transfer). Recurring-work-last has no case behind
+  1442	it at all; it is reasoning from the same argument, and if a reviewer pushes on one thing it should
+  1443	be that.
+  1444	
+  1445	### Ch. 17 on review — eight corrections, and the predicted one was worse than predicted
+  1446	
+  1447	The flagged weakness was real and the reviewer found the sharper version of it: the fixed category
+  1448	order did not merely lack a case, it **contradicted the chapter's own ranking rule three paragraphs
+  1449	earlier**. *Rank by tolerable delay* and *do these four in this order* cannot both govern. Urgent
+  1450	support is recurring work with a one-hour tolerance; a deployment procedure is operational knowledge
+  1451	that stops the business immediately. Now the absence table governs explicitly and the categories are
+  1452	demoted to a checklist for looking everywhere, with the disagreements named. **General lesson: a
+  1453	framework offered after a rule will quietly replace the rule, because a list is easier to follow
+  1454	than a judgement.**
+  1455	
+  1456	**The worst error was mine and it was a quantity confusion — in the chapter about not confusing
+  1457	quantities.** The draft said Pinboard "had asked almost nothing of its owner week to week for a
+  1458	decade — the flat line of the previous chapter". Ch. 16's flat line is a **revenue** series. Revenue
+  1459	says nothing about hours. The chapter inferred a workload from a financial series while its own
+  1460	thesis is that these are different quantities that cannot be substituted for one another. Fixed, and
+  1461	the correction is now *in* the chapter as an explicit caution against reading ch. 16 backwards.
+  1462	**Watch for this shape wherever a later chapter reaches back for an earlier chapter's evidence: the
+  1463	figure is inherited but the quantity it measures is not.**
+  1464	
+  1465	Six more, all of them the same species as the ch. 15 rounds — claims running ahead of what the
+  1466	source carries:
+  1467	
+  1468	| Drafted | Corrected to |
+  1469	|---|---|
+  1470	| workload and dependence "are not correlated" | either can be large while the other is small — hours alone cannot diagnose dependence. The statistical claim was never needed |
+  1471	| "Three unusual emails a week still waited for him" | his example is one illustrative batch of twelve, not a weekly rate: *even his own example leaves three fairly unique issues that no process absorbs* |
+  1472	| "So did every decision about price, product and market" | the post does not *show* those decisions could have proceeded without him — missing evidence, not demonstrated dependence |
+  1473	| the migration was work "only one person on earth could do", "could not be scheduled", a "catastrophe" in other hands | the record identifies no second operator and old-code knowledge plainly mattered; whether another engineer could have done it with documentation and time is unknown. **Concentration that was never measured, not irreplaceability** |
+  1474	| "the rule is usually better than your judgement" | more consistent and easier to check than an improvised call, *and blunter* — hence stated conditions and an escalation point |
+  1475	| "Automating creates a smaller, harder dependence" | automation *can* exchange visible labour for concealed dependence; documented and understood by two people it reduces both. The failure mode is the owner-only kind |
+  1834	### Ch. 19 — The First Hire 🇳🇱
+  1835	
+  1836	**Status: has a case.**
+  1837	
+  1838	**Candidate.** Gymdesk / Eran Galperin — third use of the recurring cast (ch. 04, ch. 05, ch. 18),
+  1839	on a **third, distinct source**: "Building A Fitness Tech Company During COVID"
+  1840	(erangalperin.com, 2023-05-12). This is, in fact, the ch. 18 entry's own predecessor — that entry
+  1841	named "From business to company" as "the post's own predecessor… linked in-text as 'I wrote about
+  1842	the process'" and recorded it as **not fetched.** Checked, not assumed: the ch. 18 fire post's own
+  1843	HTML links that phrase to `erangalperin.com/2023/05/12/business-to-company/`, which now 404s live —
+  1844	but the Wayback Machine holds eleven captures of that exact URL between 2023-05-12 and 2025-11-15,
+  1845	and the last of them (2025-11-15) is byte-for-byte the same article, under the same title, "Building
+  1846	A Fitness Tech Company During COVID." The slug was `business-to-company` and was renamed sometime
+  1847	after November 2025; the content this task fetched at the renamed URL is the predecessor post, not a
+  1848	different one that happens to share a date. Recorded here so the ch. 18 entry's "possible
+  1849	further-reading candidate" note can be closed: it is not further reading, it is this chapter's case.
+  1850	
+  1851	**What this chapter would use it for.** The post narrates Gymdesk's 2020–2022 stretch in order:
+  1852	COVID-driven churn survived, a decision after "a few failed experiments engaging 'growth' and
+  1853	advertising agencies" that outside consultants would never understand the audience the way Galperin
+  1854	did, and then two concrete first hires — a content-marketing/editor role in **June 2021** (a former
+  1855	freelance writer with an SEO background, to double down on organic acquisition), followed later that
+  1856	year by the first full-time customer-service hire, after customer service handled through Upwork
+  1857	contractors "just wasn't working out." Galperin frames the June 2021 hire explicitly as a threshold
+  1858	decision, not a scaling detail: *"This was a big decision for me personally — it's different engaging
+  1859	freelancers for fixed term / cost work, than bringing on someone as a full time employee that you're
+  1860	now responsible to make sure they are paid every month. It was here that we started to make the
+  1861	transition from a one-man, owner run business to an actual company."* That sentence is the chapter's
+  1862	thesis material, stated by the founder himself rather than authored by this book. The post also gives
+  1863	a later checkpoint — 8 employees and 4 contractors by the end of 2022 — which lets the chapter show
+  1864	that the employee/contractor line was a decision made repeatedly, not settled once.
+  1865	
+  1866	**Primary documents and evidence class (§5).**
+  1867	- `galperin-2023-covid` — erangalperin.com, 2023-05-12, consulted 2026-08-06. First-party, founder's
+  1868	  own account of his own company: §5's **weaker** class, same attribution rule already used for
+  1869	  `galperin-2022` and `galperin-2023-fire` — "by Galperin's own account." Not a filing, not audited.
+  1870	  The hire dates, the reason given for each hire, and the 2022 headcount split are all his own report.
+  1871	- `bw7-2026` — Burgerlijk Wetboek Boek 7, art. 610 and art. 610a, `wetten.overheid.nl/BWBR0005290/
+  1872	  2026-01-01`, consulted 2026-08-06. **Not a new source** — already registered at ch. 05 for the
+  1873	  non-compete box, reused here for two different articles, which needs no new ledger entry per §6b
+  1874	  (the case ledger tracks company cases and dedicated regime chapters; a statute cited a second time
+  1875	  for different articles is the same pattern ch. 12/13/15 already establish for BW2/BW6/the Wet LB).
+  1876	  Art. 610 lid 1 supplies the statutory test for who is a `werknemer`: an agreement to perform work
+  1877	  *"in dienst van"* another party, *"tegen loon"*, *"gedurende zekere tijd."* Art. 610a supplies the
+  1878	  `rechtsvermoeden` — a worker who works for someone else, for pay, for three consecutive months,
+  1879	  weekly or at least twenty hours a month, **is presumed** to be doing so under an employment
+  1880	  contract. This is the box's "enforcement" content per §5b's chapter list: the statute does not wait
+  1881	  for a label the two parties agreed on: sustained, regular, paid work triggers a presumption that
+  1882	  shifts the burden onto whoever wants to call it something else.
+  1883	- **Not found, and time-boxed rather than pursued further.** A second, independent primary source for
+  1884	  the same distinction — a Belastingdienst or Rijksoverheid page on `zzp'er of werknemer`, the Wet DBA,
+  1885	  or its enforcement moratorium, which §6f would want as the second source for the operative rule —
+  1886	  was searched for and not obtained inside this task's time box. Every guessed Belastingdienst and
+  1887	  Rijksoverheid URL for this subject returned a real, served 404 (confirmed against the site's own
+  1888	  404 template, not a network failure), and every search engine tried (DuckDuckGo, DuckDuckGo Lite,
+  1889	  Bing, Startpage) returned a blocked or challenge response rather than results — consistent with the
+  1890	  earlier attempt's cached `ddg*.html` / `bing*.html` / `mojeek.html` files, which show the same
+  1891	  engines were already failing before this task started. `kvk-hire.html` and `tryout.html`, the two
+  1892	  files this task was told to salvage, are both cached copies of the KVK "Pagina niet gevonden" 404
+  1893	  template — dead ends, not usable sources. **This is a real gap, not a cosmetic one**: the statute
+  1894	  alone gives the test and the presumption; a Belastingdienst source would additionally ground how the
+  1895	  distinction is actually enforced in practice (audits, the withdrawn VAR system, model agreements),
+  1896	  which this entry cannot yet source. Flagged for whoever settles this chapter under §6f: budget
+  1897	  time for **one** more attempt at the Belastingdienst/Rijksoverheg guidance page before accepting the
+  1898	  statute alone, and if it still fails, the box should say plainly that it quotes the test and the
+  1899	  presumption and not the administrative practice around them.
+  1900	
+  1901	**The unspent inference (§6b).** Ch. 04 and ch. 05 used Gymdesk's stopping-rule and transition-to-
+  1902	full-time history (2018–2019). Ch. 18 used a 2023 post about post-hoc documentation, after headcount
+  1903	had already passed ten. Neither touches the decision this chapter needs: **why and when to make the
+  1904	first hire at all**, and what changes the moment a business takes on its first employee rather than
+  1905	its first contractor. This post is the one Galperin source that actually narrates that decision, with
+  1906	dates and a stated reason for each hire — new ground under the "name the inference" test in §6b: the
+  1907	inference (the threshold between hiring freelance help and taking on an employee) is new, the source
+  1908	is new (never registered before), only the company repeats. It is also the ch. 18 entry's own
+  1909	predecessor, closing a gap that entry left open rather than reopening spent ground.
+  1910	
+  1911	**Domain-competence declaration (§8).** This chapter is one of the four the epic names as carrying
+  1912	Dutch legal content a reader can act on and be harmed by, and needs the ch. 15 process at settlement.
+  1913	What this entry can already say: the competence risk is not the statute's plain words — art. 610 and
+  1914	610a are short and were read directly, not summarized from memory — it is **not overstating what a
+  1915	presumption does.** `Vermoed` is a rebuttable presumption, not a reclassification: it shifts who has
+  1916	to prove what, it does not itself convert a contractor into an employee by operation of the sentence
+  1917	alone, and the twenty-hours/three-months figures are the presumption's trigger, not a universal
+  1918	definition of employment (art. 610's own three-part test is the definition; 610a is evidentiary).
+  1919	A chapter that reports the presumption as "you become an employee automatically at twenty hours a
+  1920	month" would be exactly the kind of caveat-that-overshoots-into-a-false-claim §6f's ch. 15 review
+  1921	caught twice. The box must say what the statute says and stop, name the professional (employment
+  1922	lawyer) per §5b, and — per the gap above — be honest that it has not sourced how this is enforced in
+  1923	practice, only what the law itself states. No accounting content; the risk here is entirely legal-
+  1924	interpretive, and it is smaller than ch. 15's because the two articles quoted do not require
+  1925	arithmetic or a jurisdiction fork, only a correct account of what a presumption is.
+  1926	
+  1927	**Gap closed at drafting (2026-08-28).** The Rijksoverheid page "Aanpak schijnzelfstandigheid"
+  1928	(`rijks-schijnzelfstandigheid-2026`, Ministerie van SZW) was reachable via the live zzp hub and is
+  1929	registered: it states that the Belastingdienst has enforced fully against schijnzelfstandigheid
+  1930	again since 1 January 2025, lists what an employer pays after the fact (loonbelasting, premies
+  1931	werknemersverzekeringen, bijdragen Zvw, sometimes pension), and that client and worker share the
+  1932	responsibility. The box quotes the statute's definition and presumption plus these three sentences,
+  1933	and says explicitly that the Belastingdienst's assessment framework (the *Toelichting Beoordeling
+  1934	arbeidsrelaties*, linked from that page but not fetched) is not quoted. Fourteen further claims
+  1935	registered at drafting: eleven Galperin quotations used in Move 2 and three from the Rijksoverheid
+  3184	## 8. Verification
+  3185	
+  3186	**Advice, not a gate — for claims.** Claims are checked against documents on other people's servers.
+  3187	Drift usually means the source moved, was redesigned or repaginated, not that the book is wrong.
+  3188	Failing a build every time a founder rebuilds their blog trains you to ignore the colour red, which
+  3189	costs more than it catches. So claim drift is reported loudly and exits 0; `--strict` turns it back
+  3190	into a gate when you want one.
+  3191	
+  3192	**Internal links stay gating.** They are entirely inside this repository, always the author's fault,
+  3193	and always fixable. That is what a red build should mean.
+  3194	
+  3195	The weekly CI run is advisory and writes its report into the job summary rather than failing. The
+  3196	risk this accepts is obvious and worth naming: an advisory check that nobody reads is the same as no
+  3197	check. The mitigation is that drift is *visible* — in the summary, in colour locally — rather than
+  3198	silent. If the book ever ships a citation that has been drifting for months, that is the failure
+  3199	mode to blame.
+  3200	
+  3201	Every figure quoted in the book must appear in a primary source, and the check is mechanical:
+  3202	
+  3203	```bash
+  3204	SEC_UA="you@example.com" ./verify.sh        # all chapters
+  3205	./verify.sh 01                              # one chapter
+  3206	./verify.sh --links                         # internal links only, no network
+  3207	```
+  3208	
+  3209	`checks/sources.tsv` maps a source id to its URL. `checks/claims.tsv` lists, per chapter, the exact
+  3210	string that must appear in that source. `verify.sh` downloads each source into a gitignored
+  3211	`.cache/`, strips tags, normalises whitespace, and confirms every string is present. A chapter is
+  3212	not `☑` until its claims are in `claims.tsv` and the script passes.
+  3213	
+  3214	**PDFs.** Added for ch. 02, whose central evidence is three Google Consumer Survey reports and an
+  3215	ad-spend deck. A PDF's text lives in compressed streams, so the raw bytes contain none of the words
+  3216	on the page and a naive match would report drift on a perfectly good citation. `verify.sh` shells
+  3217	out to `pdftotext -layout`; where poppler is missing the claim is reported as **skipped**, never as
+  3218	passed, because a check that could not run must not look like a check that ran. CI installs
+  3219	`poppler-utils` for this reason. When writing claim rows against a converted PDF, avoid the soft
+  3220	hyphens (U+00AD) that Google's reports use for minus signs and en-dashes — they survive conversion
+  3221	and will not match a typed `-`.
+  3222	
+  3223	**Write claims against the filing's own words, not against the prose.** The claim rows are the
+  3224	sentences the filing actually contains; the chapter then paraphrases them. This way a rewrite of the
+  3225	prose cannot silently break the sourcing, and a claim that fails tells you the filing changed or the
+  3226	citation was wrong — never that a sentence got reworded.
+  3227	
+  3228	### Two kinds of accuracy, and the script only checks one
+  3229	
+  3230	Added after external review found chapter 4 asserting that Galperin *"did exactly what this chapter
+  3231	asks"* while its own next-but-one paragraph said he *"chose a consequence he had not written down in
+  3232	advance"* — a direct contradiction, in a block where **every claim row passed and still does**.
+  3233	
+  3234	| | What it means | What checks it |
+  3235	|---|---|---|
+  3236	| **Factual** | the numbers, dates and quotations are present in the cited source | `verify.sh`, mechanically |
+  3237	| **Interpretive** | the case actually supports the lesson the chapter draws from it | nothing but reading |
+  3238	
+  3239	The second is where this genre fails, and it is invisible to the tooling by construction. A chapter
+  3240	can be assembled entirely from correctly quoted figures and still be wrong about what they show.
+  3241	`verify.sh` makes the first kind of error nearly impossible and does nothing whatever about the
+  3242	second, which means the tooling's existence is itself a hazard: it produces a feeling of rigour that
+  3243	covers half the surface. Say so publicly rather than letting the script imply more than it does.
+  3244	
+  3245	Two rules follow.
+  3246	
+  3247	**Score the case against the chapter's own test, clause by clause.** Where a chapter states a
+  3248	numbered test — ch. 04's three components, ch. 02's five extractions — write the case against every
+  3249	numbered item before claiming it fits. Ch. 04's counter-case met one and a half of three, and nobody
+  3250	noticed because every sentence in it was true.
+  3251	
+  3252	**The error is recursive, and that is the thing to internalise.** Chapter 4's Gymdesk block has now
+  3253	been corrected three times, each pass catching a finer-grained version of the same move:
+  3254	
+  3255	| Pass | The overclaim | What was actually true |
+  3256	|---|---|---|
+  3257	| 1 | "counter-case: the rule, honoured, would have been wrong" | he never followed the rule |
+  3258	| 2 | "did exactly what this chapter asks" | one and a half of three components |
+  3259	| 3 | "the pair make the same point: the third component is load-bearing" | the case supports *widening the menu of consequences*; it does not establish **choosing one in advance**, because Galperin improvised and succeeded |
+  3260	| 4 | "it says nothing about choosing in advance — if anything it cuts the other way" | **the correction overshot.** It does not show pre-selection was *necessary*, but it does show the mechanism pre-selection guards against, running in real time: with no consequence written down he took the decision under pressure, at the worst moment, as the person least able to take it. Good judgement, not a plan. |
+  3261	
+  3262	Each fix was honest and each left a smaller instance of itself behind, because the pull is not toward
+  3263	one wrong sentence but toward extracting the maximum lesson a case will bear. Pass 4 shows the pull
+  3264	also runs backwards: **"the case is silent on this" is itself a claim about the case, and needs the
+  3265	same test as "the case proves this."** Over-correction reads as rigour and costs the chapter a real
+  3266	piece of evidence.
+  3267	
+  3268	The countermeasure is mechanical, not moral: **after fixing an overclaim, re-read the corrected
+  3269	passage as if it were a stranger's, and ask what the case would have to have done differently for
+  3270	the new sentence to be false.** If the answer is "nothing", the sentence is still not saying anything
+   531	18	galperin-2023-fire	I went through growing Gymdesk from a one-person operation to a company with over 10 FTE at that point in time
+   532	18	galperin-2023-fire	for the first 5 years of the company
+   533	18	galperin-2023-fire	Tasks that would take 15-20 minutes of my day as a side activity, required hours for a dedicated person to complete
+   534	18	galperin-2023-fire	I started also documenting all of the knowledge I accumulated for each function of the business
+   535	18	galperin-2023-fire	Creating an internal customer service knowledge-base / SOPs, containing verification and debugging flows that are repeatable and can be used immediately by new reps. Reps input a new entry every time they encounter a ticket and we collaboratively document the steps to resolve it.
+   536	18	galperin-2023-fire	What I failed to take into consideration was that I can transfer knowledge, but not the intuition and cross functional experience with all aspects of the business that came with years of performing all roles in the company
+   537	18	galperin-2023-fire	would take me a couple of minutes to go through and respond
+   538	18	galperin-2023-fire	can take close to an hour, and require my participation at each one of those decision points
+   539	18	galperin-2023-fire	still a work in progress, and I still feel too embedded in many of the processes
+   540	
+   541	# ch19 — Gymdesk / Galperin, "Building A Fitness Tech Company During COVID" (2023). Case hunt in §6i.
+   542	19	galperin-2023-covid	We made our first full time hire in June 2021
+   543	19	galperin-2023-covid	hired my first full time customer service person
+   544	19	galperin-2023-covid	started to make the transition from a one-man, owner run business to an actual company
+   545	19	galperin-2023-covid	ending the year with 8 employees and 4 contractors
+   546	# ch19 — Dutch ground box, employee-versus-contractor distinction (§5b). bw7-2026 registered at ch. 05; reused for different articles per §6b (not a case, no ledger entry needed).
+   547	19	bw7-2026	De arbeidsovereenkomst is de overeenkomst waarbij de ene partij, de werknemer, zich verbindt in dienst van de andere partij, de werkgever, tegen loon gedurende zekere tijd arbeid te verrichten.
+   548	19	bw7-2026	Hij die ten behoeve van een ander tegen beloning door die ander gedurende drie opeenvolgende maanden, wekelijks dan wel gedurende ten minste twintig uren per maand arbeid verricht, wordt vermoed deze arbeid te verrichten krachtens arbeidsovereenkomst.
+   549	# ch20 — Groove / Alex Turnbull, "Firing: How I Do the Hardest Thing as an Entrepreneur" (2015). Case hunt in §6i.
+   550	20	groove-fire-2015	turned over nearly 40% of the team we launched with
+   612	28	eg-binpress-2016	Eventually we settled for selling the assets only (site and code-base), while dissolving the company
+   613	28	kvk-eenmanszaak-2026	Wij geven je uitschrijving door aan de Belastingdienst.
+   614	28	kvk-turboliquidatie-2026	Binnen veertien dagen na het ontbindingsbesluit moet het bestuur verschillende (financiële) documenten indienen bij ons.
+   615	28	kvk-turboliquidatie-2026	Als er geen bezittingen zijn op het moment van ontbinding, dan stop je direct met je bedrijf.
+   616	19	galperin-2023-covid	had reached $12k in MRR in the middle of 2019
+   617	19	galperin-2023-covid	We had significant churn from March to around August
+   618	19	galperin-2023-covid	having grown our MRR by 60% to around $19.5k
+   619	19	galperin-2023-covid	After a few failed experiments engaging “growth” and advertising agencies, I came to the conclusion that outside consultants and agencies were never going to understand our audience like I did
+   620	19	galperin-2023-covid	used to write for us
+   621	19	galperin-2023-covid	This was a big decision for me personally – it’s different engaging freelancers for fixed term / cost work, than bringing on someone as a full time employee that you’re now responsible to make sure they are paid every month
+   622	19	galperin-2023-covid	We have engaged customer service people through Upwork previously as contractors, and it just wasn’t working out
+   623	19	galperin-2023-covid	I still regret not doing this sooner
+   624	19	galperin-2023-covid	by around x2.5
+   625	19	galperin-2023-covid	passed $1M in ARR in mid 2022
+   626	19	galperin-2023-covid	The more people I hire, the more work I need to do every day getting them “unstuck” when they encounter things outside of their comfort zone
+   627	19	rijks-schijnzelfstandigheid-2026	De Belastingdienst controleert sinds 1 januari 2025 weer volledig op schijnzelfstandigheid
+   628	19	rijks-schijnzelfstandigheid-2026	betaalt de werkgever alsnog loonbelasting, premies werknemersverzekeringen, bijdragen Zorgverzekeringswet en soms pensioenpremies
+   629	19	rijks-schijnzelfstandigheid-2026	Bedrijven en zzp’ers zijn samen verantwoordelijk om schijnzelfstandigheid te voorkomen
+   630	19	galperin-2023-covid	I contracted a very talented UX designer
+   631	19	galperin-2023-covid	were never going to understand our audience like I did
+   632	20	groove-fire-2015	In our three years, we’ve only let a handful of employees ago. But still, on a small team, a few employees is a lot.
+   633	20	groove-fire-2015	I can confidently say that every single person I’ve hired at Groove has been more than qualified to do the job they were hired for
+    52	    the least likely to say so. They do not complain. They go quiet, and quiet reads like contentment
+    53	    in every system you are likely to have built.</p>
+    54	
+    55	    <p>What follows is one paying population followed through three successive tests. Of the people
+    56	    who paid: how many actually used what they bought; of those, how many finished or stayed the
+    57	    course; of those, how many got the result the sale promised. Each is a smaller population than
+    58	    the one before, and the gaps between them are where a business quietly dies while its revenue
+    59	    looks fine.</p>
+    60	
+    61	    <p>Renewal and referral are signs of the second test — staying the course — and neither settles
+    62	    the third. People refer
+    63	    before they have received anything, renew out of inertia or the cost of switching, and stay with
+    64	    a supplier they like while quietly not getting what they came for. Renewal is evidence worth
+    65	    investigating, not a verdict.</p>
+    66	
+    67	    <p>Whether the sale can be repeated at all was
+    68	    <a href="10-the-first-ten-customers.html">the last chapter</a>. Whether the resulting money is
+    69	    enough, soon enough, is the rest of this part. This chapter is only about whether the relationship
+    70	    persists, and why.</p>
+    71	  </section>
+    72	
+    52	
+    53	    <p>Three numbers get mistaken for one another when an owner says "we made money this month",
+    54	    and they are not the same — which is why <a href="12-reading-your-own-business.html">the previous
+    55	    chapter</a> asked for a weekly cash figure separately from profit:</p>
+    56	
+    57	    <ul>
+    58	      <li><strong>Profit</strong> measures performance over a period under accounting rules. It
+    59	      records revenue when you earn it, not when the money lands, and costs when you incur them, not
+    60	      when they leave.</li>
+    61	      <li><strong>Operating cash flow</strong> measures the cash your ordinary operations generated
+    62	      or consumed in that period.</li>
+    63	      <li><strong>The change in the bank balance</strong> is that, and then everything else —
+    64	      equipment bought, loans drawn or repaid, money you put in or took out.</li>
+    65	    </ul>
+    66	
+    67	    <p>All three are honest. They answer different questions, and only the third one pays anybody.</p>
+    68	
+    69	    <p>Which produces the corollary that catches you precisely when things are going well:
+    70	    <strong>growth magnifies the cash cycle</strong>, in whichever direction that cycle already runs.
+    71	    When you pay before you collect, growth consumes cash, and selling more at a profit is exactly
+    72	    what empties the account. When customers pay before you incur the costs — deposits, prepaid
+    73	    subscriptions, retail takings, a supplier who waits — growth can supply cash instead. Neither
+    74	    arrangement tells you whether the underlying work is profitable. It tells you which way the
+    75	    account moves while you find out.</p>
+    76	  </section>
+   156	    and then catches up is a workload problem. Work that stops, or that decays while it waits — a
+   157	    customer who goes elsewhere, a certificate that expires, an opportunity with a date on it — is a
+   158	    bottleneck.</p>
+   159	
+   160	    <p>Rank what you find by <strong>tolerable delay</strong> rather than by how much time it takes.
+   161	    A four-hour task that cannot wait a day outranks a two-day task that can safely wait a month.
+   162	    This ordering is unintuitive and it is the point of the exercise: the things that consume the
+   163	    most time are usually the things you have already made routine, and the things that cannot wait
+   164	    are usually rare enough to feel harmless.</p>
+   165	
+   166	    <h3>The absence table sets the order, not the categories</h3>
+   167	
+   168	    <p><strong>The ranking rule governs: shortest tolerable delay first, from your own
+   169	    table.</strong> The four categories are for making sure you looked everywhere, and they will
+   170	    disagree with it — urgent support is recurring work with a one-hour tolerance, a deployment
+   171	    procedure is operational knowledge that stops the business at once, a safety or regulatory call
+   172	    outranks any password, and some access is recoverable in a week. Where they disagree, the table
+   173	    is right. With a blank table, look in this order:</p>
+   174	
+   175	    <ul>
+   176	      <li><strong>Access first</strong>, because losing it usually has the shortest fuse of anything
+   177	      on the list and some of it is fixable the same afternoon: accounts in the business's name, a
+   178	      second authorised person, a recovery procedure written down and tested rather than assumed.
+   179	      Little skill transfer is required, which is what makes it cheap. <strong>Relationships share the fuse and not the timescale</strong> — introducing a second person to your largest customer is months of ordinary contact, so it starts early and finishes late.</li>
+   180	      <li><strong>Exceptional decisions second</strong>, by writing the rule instead of making the
+   181	      call. A refund limit, a discount ceiling, a set of conditions under which the answer is yes
+   182	      without asking. Every decision you convert into a rule is one that stops waiting for you. A
+   183	      rule written calm is more consistent and easier to check than an improvised call under
+   184	      pressure; it is also blunter, which is why it needs its conditions stated and an escalation
+   185	      point for the case it was not written for.</li>
+   186	      <li><strong>Operational knowledge third</strong>, and it is the slowest. It is the next
+   187	      chapter's subject, because knowledge that lives only in your head cannot be delegated by
+   188	      deciding to delegate it.</li>
+   189	      <li><strong>Recurring work last</strong> — where its tolerable delay allows, which for support
+   190	      often it does not. It is the most visible and the most annoying, and it is where owners start
+   191	      for exactly those reasons; but taking it off yourself while the other three are untouched buys
+   192	      you time in a business that still stops when you do.</li>
+   193	    </ul>
+   194	
+
+exec
+/bin/bash -lc "nl -ba CONTEXT.md | sed -n '1850,1926p'; nl -ba checks/sources.tsv | sed -n '60,66p;82,86p'" in /home/diablo/book4
+ succeeded in 195ms:
+  1850	
+  1851	**What this chapter would use it for.** The post narrates Gymdesk's 2020–2022 stretch in order:
+  1852	COVID-driven churn survived, a decision after "a few failed experiments engaging 'growth' and
+  1853	advertising agencies" that outside consultants would never understand the audience the way Galperin
+  1854	did, and then two concrete first hires — a content-marketing/editor role in **June 2021** (a former
+  1855	freelance writer with an SEO background, to double down on organic acquisition), followed later that
+  1856	year by the first full-time customer-service hire, after customer service handled through Upwork
+  1857	contractors "just wasn't working out." Galperin frames the June 2021 hire explicitly as a threshold
+  1858	decision, not a scaling detail: *"This was a big decision for me personally — it's different engaging
+  1859	freelancers for fixed term / cost work, than bringing on someone as a full time employee that you're
+  1860	now responsible to make sure they are paid every month. It was here that we started to make the
+  1861	transition from a one-man, owner run business to an actual company."* That sentence is the chapter's
+  1862	thesis material, stated by the founder himself rather than authored by this book. The post also gives
+  1863	a later checkpoint — 8 employees and 4 contractors by the end of 2022 — which lets the chapter show
+  1864	that the employee/contractor line was a decision made repeatedly, not settled once.
+  1865	
+  1866	**Primary documents and evidence class (§5).**
+  1867	- `galperin-2023-covid` — erangalperin.com, 2023-05-12, consulted 2026-08-06. First-party, founder's
+  1868	  own account of his own company: §5's **weaker** class, same attribution rule already used for
+  1869	  `galperin-2022` and `galperin-2023-fire` — "by Galperin's own account." Not a filing, not audited.
+  1870	  The hire dates, the reason given for each hire, and the 2022 headcount split are all his own report.
+  1871	- `bw7-2026` — Burgerlijk Wetboek Boek 7, art. 610 and art. 610a, `wetten.overheid.nl/BWBR0005290/
+  1872	  2026-01-01`, consulted 2026-08-06. **Not a new source** — already registered at ch. 05 for the
+  1873	  non-compete box, reused here for two different articles, which needs no new ledger entry per §6b
+  1874	  (the case ledger tracks company cases and dedicated regime chapters; a statute cited a second time
+  1875	  for different articles is the same pattern ch. 12/13/15 already establish for BW2/BW6/the Wet LB).
+  1876	  Art. 610 lid 1 supplies the statutory test for who is a `werknemer`: an agreement to perform work
+  1877	  *"in dienst van"* another party, *"tegen loon"*, *"gedurende zekere tijd."* Art. 610a supplies the
+  1878	  `rechtsvermoeden` — a worker who works for someone else, for pay, for three consecutive months,
+  1879	  weekly or at least twenty hours a month, **is presumed** to be doing so under an employment
+  1880	  contract. This is the box's "enforcement" content per §5b's chapter list: the statute does not wait
+  1881	  for a label the two parties agreed on: sustained, regular, paid work triggers a presumption that
+  1882	  shifts the burden onto whoever wants to call it something else.
+  1883	- **Not found, and time-boxed rather than pursued further.** A second, independent primary source for
+  1884	  the same distinction — a Belastingdienst or Rijksoverheid page on `zzp'er of werknemer`, the Wet DBA,
+  1885	  or its enforcement moratorium, which §6f would want as the second source for the operative rule —
+  1886	  was searched for and not obtained inside this task's time box. Every guessed Belastingdienst and
+  1887	  Rijksoverheid URL for this subject returned a real, served 404 (confirmed against the site's own
+  1888	  404 template, not a network failure), and every search engine tried (DuckDuckGo, DuckDuckGo Lite,
+  1889	  Bing, Startpage) returned a blocked or challenge response rather than results — consistent with the
+  1890	  earlier attempt's cached `ddg*.html` / `bing*.html` / `mojeek.html` files, which show the same
+  1891	  engines were already failing before this task started. `kvk-hire.html` and `tryout.html`, the two
+  1892	  files this task was told to salvage, are both cached copies of the KVK "Pagina niet gevonden" 404
+  1893	  template — dead ends, not usable sources. **This is a real gap, not a cosmetic one**: the statute
+  1894	  alone gives the test and the presumption; a Belastingdienst source would additionally ground how the
+  1895	  distinction is actually enforced in practice (audits, the withdrawn VAR system, model agreements),
+  1896	  which this entry cannot yet source. Flagged for whoever settles this chapter under §6f: budget
+  1897	  time for **one** more attempt at the Belastingdienst/Rijksoverheg guidance page before accepting the
+  1898	  statute alone, and if it still fails, the box should say plainly that it quotes the test and the
+  1899	  presumption and not the administrative practice around them.
+  1900	
+  1901	**The unspent inference (§6b).** Ch. 04 and ch. 05 used Gymdesk's stopping-rule and transition-to-
+  1902	full-time history (2018–2019). Ch. 18 used a 2023 post about post-hoc documentation, after headcount
+  1903	had already passed ten. Neither touches the decision this chapter needs: **why and when to make the
+  1904	first hire at all**, and what changes the moment a business takes on its first employee rather than
+  1905	its first contractor. This post is the one Galperin source that actually narrates that decision, with
+  1906	dates and a stated reason for each hire — new ground under the "name the inference" test in §6b: the
+  1907	inference (the threshold between hiring freelance help and taking on an employee) is new, the source
+  1908	is new (never registered before), only the company repeats. It is also the ch. 18 entry's own
+  1909	predecessor, closing a gap that entry left open rather than reopening spent ground.
+  1910	
+  1911	**Domain-competence declaration (§8).** This chapter is one of the four the epic names as carrying
+  1912	Dutch legal content a reader can act on and be harmed by, and needs the ch. 15 process at settlement.
+  1913	What this entry can already say: the competence risk is not the statute's plain words — art. 610 and
+  1914	610a are short and were read directly, not summarized from memory — it is **not overstating what a
+  1915	presumption does.** `Vermoed` is a rebuttable presumption, not a reclassification: it shifts who has
+  1916	to prove what, it does not itself convert a contractor into an employee by operation of the sentence
+  1917	alone, and the twenty-hours/three-months figures are the presumption's trigger, not a universal
+  1918	definition of employment (art. 610's own three-part test is the definition; 610a is evidentiary).
+  1919	A chapter that reports the presumption as "you become an employee automatically at twenty hours a
+  1920	month" would be exactly the kind of caveat-that-overshoots-into-a-false-claim §6f's ch. 15 review
+  1921	caught twice. The box must say what the statute says and stop, name the professional (employment
+  1922	lawyer) per §5b, and — per the gap above — be honest that it has not sourced how this is enforced in
+  1923	practice, only what the law itself states. No accounting content; the risk here is entirely legal-
+  1924	interpretive, and it is smaller than ch. 15's because the two articles quoted do not require
+  1925	arithmetic or a jurisdiction fork, only a correct account of what a presumption is.
+  1926	
+    60	# ch18 — Gymdesk / Galperin, second post. Recurring cast, new source, new inference (§6i).
+    61	galperin-2023-fire	https://erangalperin.com/2023/06/30/how-to-fire-yourself-as-a-founder/	Eran Galperin — "How to fire yourself as a founder", published 2023-06-29/30 (dateModified 2023-10-02), consulted 2026-08-06. Founder's own contemporaneous account of building a written knowledge base — an internal handbook, per-department SOPs, a customer-service knowledge base populated by the reps themselves, and recorded engineering walkthroughs — after discovering that hiring alone did not remove him from day-to-day operation. Founder's own account: weaker evidence class per §5, attributed as such in the prose.
+    62	# ch19 — Gymdesk / Galperin, third post (the ch. 18 predecessor named but not fetched). The first-hire decision. bw7-2026 already exists (registered at ch. 05 for the non-compete box) and is reused here for different articles.
+    63	galperin-2023-covid	https://erangalperin.com/2023/05/12/building-a-fitness-tech-company-during-covid/	Eran Galperin — "Building A Fitness Tech Company During COVID", published 2023-05-12 (dateModified 2023-10-02), consulted 2026-08-06. Founder's own contemporaneous-retrospective account: the first full-time hire (content marketing/editor, June 2021) made after outside agencies failed, a second first-time hire for customer service after Upwork contractors were not working out, the framing of that decision as the shift from a one-man business to a company, and the end-2022 headcount split of 8 employees and 4 contractors. Founder's own account: weaker evidence class per §5, attributed as such in the prose. This is the "From business to company" predecessor the ch. 18 entry (§6i) named as linked in-text and left unfetched; the live page's title is "Building A Fitness Tech Company During COVID", not the linked anchor text.
+    64	# ch20 — Groove / Alex Turnbull, new company for the recurring cast. Case hunt in §6i.
+    65	groove-fire-2015	http://web.archive.org/web/20150316193110/https://www.groovehq.com/blog/how-to-fire-an-employee	Alex Turnbull / Groove — "Firing: How I Do the Hardest Thing as an Entrepreneur", published 2015-01-29, archived 2015-03-16, consulted 2026-08-06. Founder's own contemporaneous account, three years into Groove: the 2-4 week paid trial run before any permanent offer, direct feedback given often and logged (not saved for a end-of-trial review) during that trial, team and candidate input built into the decision, and the headcount-turnover figure from Groove's first three years. Founder's own account: weaker evidence class per §5, attributed as such in the prose.
+    66	# ch21 — Groove / Alex Turnbull, second use, different article and inference. Case hunt in §6i.
+    82	kvk-eenmanszaak-2026	https://www.kvk.nl/stoppen-en-uitschrijven/eenmanszaak-uitschrijven/	KVK (Dutch Chamber of Commerce) — "Eenmanszaak uitschrijven", consulted 2026-08-06. Official guidance on deregistering a sole proprietorship from the Handelsregister: the deregistration is done online via Mijn KVK with DigiD, is free, and is definitive; the owner must keep filing tax returns until the Belastingdienst confirms otherwise; and KVK itself forwards the deregistration to the Belastingdienst rather than the owner having to notify them separately. The eenmanszaak side of the winding-up fork (§5b's "how to wind up cleanly" chapter-28 subject).
+    83	kvk-turboliquidatie-2026	https://www.kvk.nl/stoppen-en-uitschrijven/een-rechtspersoon-beeindigen-via-de-turboliquidatie/	KVK — "Een rechtspersoon beëindigen via de turboliquidatie", "Bijgewerkt" (updated) 2026-08-04, consulted 2026-08-06. Official guidance on the fast-track dissolution route for a bv (and other legal persons): usable only when there are no baten (assets) left at the moment of dissolution, with an explicit warning that the definition of baten is broader than owners expect; since the tijdelijke wet Transparantie turboliquidatie (15 November 2023), the board must file financial accounting documents with KVK within fourteen days of the dissolution resolution, and can face personal liability or a bestuursverbod (director's disqualification) for misuse. The bv side of the winding-up fork, and the source for why "just stop" is not in fact simple for an incorporated business.
+    84	rijks-schijnzelfstandigheid-2026	https://www.rijksoverheid.nl/themas/werk/zelfstandigen-zonder-personeel-zzp/aanpak-schijnzelfstandigheid	Rijksoverheid — "Aanpak schijnzelfstandigheid" (Ministerie van SZW), consulted 2026-08-28. Government page stating that the Belastingdienst has enforced fully against schijnzelfstandigheid again since 2025-01-01, the charges an employer pays after the fact (loonbelasting, premies werknemersverzekeringen, bijdragen Zvw, sometimes pension), and that client and zzp'er share responsibility for the correct contract. Closes the §6i ch. 19 enforcement gap; used in the ground box alongside BW7 art. 610/610a.
+
+codex
+## Confirmed findings
+
+1. **Dutch-ground / domain error — High.** Both reviewers found this independently.
+
+   **Offending text:** “Weekly, or twenty-plus a month, for all three … the presumption in the box has too … accept that it has been decided for you.”
+
+   **What is wrong:** The Dutch numerical threshold has escaped its box, and the sentence turns a rebuttable presumption into a legal determination. Article 7:610a shifts the burden; it does not decide employment status automatically.
+
+   **Evidence:** [CONTEXT.md §5b](/home/diablo/book4/CONTEXT.md:331) requires quarantine. [§6i](/home/diablo/book4/CONTEXT.md:1911) explicitly forbids this exact overstatement. [Claim row 548](/home/diablo/book4/checks/claims.tsv:548) says *vermoed*—presumed—not reclassified. The [statutory text](https://wetten.overheid.nl/BWBR0005290/2026-01-01) agrees.
+
+   **Fix:** Remove all Dutch numbers and legal effects from Monday. Say: “Record how regularly the work recurs and decide the form this week. If you are in the Netherlands, apply the presumption described in the box with an employment lawyer.”
+
+2. **Category overreach — High.**
+
+   **Offending text:** “Whether the work … is a task or a job — and therefore whether the person is a contractor or an employee.”
+
+   **What is wrong:** The operational task/job distinction does not itself determine legal status. The chapter’s Monday-absence heuristic is useful business reasoning, but employment classification is jurisdictional and legally multi-element.
+
+   **Evidence:** Article 7:610 defines employment through work, pay, duration and *in dienst van*; 7:610a adds only an evidentiary presumption. [CONTEXT.md §6i](/home/diablo/book4/CONTEXT.md:1876) distinguishes the definition from the presumption and [§5b](/home/diablo/book4/CONTEXT.md:331) requires the portable and legal questions to remain separate.
+
+   **Fix:** Drop “therefore.” State two decisions: first whether the business needs a bounded output or continuing capacity; second which legal form the actual arrangement permits.
+
+3. **Backwards causal / interpretive error — High.**
+
+   **Offending text:** “Galperin’s agencies were tasks, bought correctly, and they failed for a reason the task form cannot fix: the work needed context that only accumulates in someone who stays.”
+
+   **What is wrong:** Galperin reports failed agency experiments and his conclusion that outsiders would not understand the audience. He does not establish that the agencies were bought correctly, that the contractual form caused failure, or that only an employee could acquire the missing context.
+
+   **Evidence:** The source says he concluded the agencies would not understand the audience and therefore chose an in-house team; it supplies no controlled comparison with a long-term specialist or better-briefed agency. [Galperin’s post](https://erangalperin.com/2023/05/12/building-a-fitness-tech-company-during-covid/); [claim row 619](/home/diablo/book4/checks/claims.tsv:619). This is precisely the factual-versus-interpretive gap in [CONTEXT.md §8](/home/diablo/book4/CONTEXT.md:3228).
+
+   **Fix:** Attribute the conclusion: “Galperin concluded that these agencies did not understand his audience, so he hired in-house.” Present accumulated context as the chapter’s proposed test, not what the case proved.
+
+4. **Backwards causal / category overreach — High.** Both reviewers independently caught adjacent versions of this error.
+
+   **Offending text:** “support, the thing chapter seventeen would have ranked first” and “regrets the order.”
+
+   **What is wrong:** Chapter 17 ranks by tolerable delay, not workload. Galperin says only that he regrets not hiring customer service sooner; he does not say support should have preceded growth.
+
+   **Evidence:** [Chapter 17](/home/diablo/book4/chapters/17-you-are-the-bottleneck.html:160) says the absence table governs and explicitly warns that recurring support may rank differently depending on tolerance. Galperin calls support a large source of distractions and says “I still regret not doing this sooner,” without supplying the counterfactual order. [Source](https://erangalperin.com/2023/05/12/building-a-fitness-tech-company-during-covid/); [claims rows 622–623](/home/diablo/book4/checks/claims.tsv:622).
+
+   **Fix:** “He hired growth first and customer service later, and regrets only that the latter came late. The source does not show whether reversing them would have been better.”
+
+5. **Domain error — Medium.**
+
+   **Offending text:** “If the low month does not cover it, the hire is funded by revenue you have not yet had.”
+
+   **What is wrong:** Failure of a cash-coverage test does not identify missing revenue. The hire could be funded from retained cash, borrowing, capital, another month’s collections, or revenue already earned but not yet received.
+
+   **Evidence:** [Chapter 13](/home/diablo/book4/chapters/13-profit-is-not-cash.html:53) explicitly separates revenue/profit, operating cash flow and bank balance. Chapter 11’s second test is customer persistence, not payroll coverage: [chapter 11](/home/diablo/book4/chapters/11-what-happens-after-the-sale.html:55).
+
+   **Fix:** “If the low cash month does not cover it, name the other funding source—buffer, borrowing, another month’s cash, or future revenue—before making the offer.”
+
+6. **Backwards causal / unsupported chronology — Medium.**
+
+   **Offending text:** “Gymdesk made its first hire with monthly revenue near twenty thousand dollars and eighteen months of it recurring through a shutdown.”
+
+   **What is wrong:** $19.5k is the end-2020 figure, not the June 2021 hiring figure; no June MRR is published. Nor does aggregate MRR after significant churn establish that the same revenue repeated for eighteen months.
+
+   **Evidence:** The source reports $19.5k at end-2020, significant churn from March through August 2020, and the first hire in June 2021. [Claims rows 617–618](/home/diablo/book4/checks/claims.tsv:617) and [542](/home/diablo/book4/checks/claims.tsv:542); [source chronology](https://erangalperin.com/2023/05/12/building-a-fitness-tech-company-during-covid/).
+
+   **Fix:** “The last published figure before the June 2021 hire was about $19.5k MRR at the end of 2020, after a year that included significant churn. Galperin gives no June figure.”
+
+7. **Domain error — Medium.**
+
+   **Offending text:** “The first employee is the first cost that cannot be varied … and it cannot be cancelled in an afternoon.”
+
+   **What is wrong:** Employment is harder and often costlier to end than a task contract, but not literally incapable of immediate termination. Dutch probation periods permit direct termination; other jurisdictions and employment forms differ. “First cost” is also false—the book opens with fixed capacity incurred before hiring.
+
+   **Evidence:** [Rijksoverheid’s probation guidance](https://www.rijksoverheid.nl/vraag-en-antwoord/arbeidsovereenkomst-en-cao/regels-bij-proeftijd) permits immediate termination during a valid probation period. Chapter 20 owns notice and dismissal under [CONTEXT.md §5b](/home/diablo/book4/CONTEXT.md:349).
+
+   **Fix:** “An employee is usually a continuing obligation that is slower or more expensive to end than a contractor’s invoice; the actual exit rules depend on the contract and jurisdiction.”
+
+8. **Licence to wait — Medium.**
+
+   **Offending text:** “whether the revenue that repeats … covers it” and Monday’s lowest-month test.
+
+   **What is wrong:** This is the chapter’s funding threshold, but it has no decide-by date or prescribed branch if it remains unmet. Monday item five dates evaluation after hiring, not expiry of the pre-hire evidence bar.
+
+   **Evidence:** [CONTEXT.md §3](/home/diablo/book4/CONTEXT.md:265) says every evidence standard needs an expiry because an undated threshold invites indefinite waiting.
+
+   **Fix:** Require a written decision date and branch: hire the smaller funded role, continue buying a bounded task, knowingly fund the gap from reserves, or decline the role.
+
+9. **Unregistered sourcing — Medium.**
+
+   **Offending text:** “as he had for five years” and “He had been buying that work by the hour for years.”
+
+   **What is wrong:** “Five years” comes from the separate chapter-18 source and is not registered or cited for chapter 19; “for years” is not stated by either relevant source—Galperin says only “previously.”
+
+   **Evidence:** “First 5 years” appears at [claim row 532](/home/diablo/book4/checks/claims.tsv:532) under chapter 18, while chapter 19’s rows begin at [542](/home/diablo/book4/checks/claims.tsv:542). Its customer-service row says only “previously”: [row 622](/home/diablo/book4/checks/claims.tsv:622). [CONTEXT.md §8](/home/diablo/book4/CONTEXT.md:3201) requires every figure to be registered.
+
+   **Fix:** Cite and register the chapter-18 source for “five years,” or remove it; replace “for years” with “previously.”
+
+## Rejected findings
+
+- **“The first employee was not shown to be a former freelancer.”** Rejected. The source says the person “used to write for us” and immediately frames the change as freelancers versus full-time employment; [CONTEXT.md §6i](/home/diablo/book4/CONTEXT.md:1854) expressly records a former freelance writer. The source does not establish duration or every duty of the later role, but the reviewer’s categorical rejection overshoots.
+- **“The customer-service case proves conversion failed.”** Rejected. The source does not identify whether the new representative was or was not one of the earlier Upwork contractors.
+- **“The 8/4 split cannot show that both forms were used deliberately.”** Rejected. The source establishes concurrent employee and contractor relationships, and [CONTEXT.md §6i](/home/diablo/book4/CONTEXT.md:1862) expressly permits it as evidence that the line was decided repeatedly. The chapter also concedes that the allocation and rationale are unknown.
+- **“Doing every job is contradicted by using contractors.”** Rejected. Galperin’s other registered source says he was “doing everything” for the first five years; buying assistance does not establish that he ceased owning every function. Only the chapter-19 citation/registration defect survives.
+- **Reviewer B’s duplicated JSON block.** Counted once; it is repetition, not additional independent agreement.
+
+The chapter is not publishable as-is because its central operational metaphor is allowed to decide legal status, then the Monday list overstates the Dutch presumption. The single most important change is to separate the portable task-versus-capacity decision from employee-versus-contractor classification, keeping the Dutch threshold and its strictly rebuttable effect entirely inside the sourced box.
+tokens used
+209,776
