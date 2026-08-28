@@ -3386,9 +3386,32 @@ The codex consolidation on ch. 19 agreed with the craft reviewer on the presumpt
 the agency causation, and added three the craft pass had not: "therefore" in the decision box
 (task/job does not determine legal form), the funding test without a decision date (a licence to
 wait — §3's own rule), and an unregistered figure carried from the ch. 18 source. All applied.
-review.sh was not run on 20–28 (grok's quota is unreliable; the craft reviewer caught the same class
-of error) — running it on the four 🇳🇱 chapters (20, 24, 28 and 19 again) before the user's read is
-the next verification step.
+review.sh was then run on the three remaining 🇳🇱 chapters (20, 24, 28) the same evening, with the
+instrument rewired: Gemini 3.7 Flash and Gemini 3.1 Pro review independently, codex consolidates
+(reports in `checks/reviews/`). Eight findings survived consolidation; all eight were accepted:
+
+- **Ch. 20** — Monday 1 was a licence to wait (the four items after it "wait until" the sentence
+  exists; §3 rule 2 — both reviewers independently). Now the date goes in regardless and the weeks
+  before it are for finding the words. And "three years of hiring" widened Groove's 40% past its
+  denominator — the source says "the team we launched with"; the sentence now says that.
+- **Ch. 24** — the standard-terms mechanism was backwards *again* ("bind only if delivered"), the
+  same inversion §8 had already corrected once in this chapter: terms bind and are voidable
+  (art. 6:233 b) when there was no reasonable chance to read them. And "every one is a term you
+  agreed to by clicking" was false on the chapter's own facts (the lease was signed) — now "by a
+  checkbox or a signature".
+- **Ch. 28** — six source facts were carried without claim rows (over $40k in prizes, ~200
+  products, around Feb. 2013, $20k month, ~3 months, Jan. 2015) and two had been hardened in the
+  carrying ("$40,000", "in February 2013") — quoted or softened to the source's words, seven rows
+  added including the KVK's "zoveel mogelijk", which the box quoted unregistered.
+
+Rejected by the consolidator, and the rejections agreed with on reading: ch. 20's trial-period
+causation (the source does not date the trial's introduction) and "decision already made"; ch. 24's
+copyright-scope objection (the colon carries the statutory "or necessarily flowing from") and the
+Dutch-in-Monday objection (the instruction is conditioned "on Dutch ground"); three demands for
+claim rows on fragments whose sentences are already registered. The lesson of the evening is item
+2 above, seen for the third time in ch. 24: a legal mechanism stated in loose English drifts back
+to the intuitive (wrong) version on every rewrite unless the sentence keeps the statute's own
+structure — bind, then voidable.
 
 ## 9. Open questions
 

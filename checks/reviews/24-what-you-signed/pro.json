@@ -1,0 +1,28 @@
+```json
+[
+  {
+    "category": "domain-error",
+    "severity": "high",
+    "quote": "the transfer reaches only as far as the writing goes",
+    "problem": "The text claims the transfer is strictly limited to explicit written terms, which directly contradicts the second half of the Dutch statute quoted immediately after it.",
+    "evidence": "Checked against the quoted Auteurswet article 2 lid 3 in the box. The statute explicitly includes unwritten powers that necessarily flow from the agreement's nature and purpose ('of die uit de aard en de strekking ervan noodzakelijkerwijs voortvloeien').",
+    "fix": "Change the prose to match the statute: \"the transfer reaches only as far as the writing and the necessary purpose of the agreement go:\""
+  },
+  {
+    "category": "dutch-ground",
+    "severity": "medium",
+    "quote": "on Dutch ground, in writing, naming what is transferred",
+    "problem": "Dutch-specific legal instructions have leaked out of the quarantined box into the globally portable Monday action list.",
+    "evidence": "Checked against CONTEXT.md §5b rules, which require local specifics to stay quarantined in the On Dutch ground box so the general argument outside remains portable.",
+    "fix": "Remove the jurisdiction-specific clause from the Monday list: \"ask the person who made it for one this week, while they still answer your emails — and on the lawyer's paper if the work is one the business could not replace.\""
+  },
+  {
+    "category": "quantifier-drift",
+    "severity": "low",
+    "quote": "every one is a term you agreed to by clicking, and every one is written in the other side's favour",
+    "problem": "The absolute claim 'every one... by clicking' is factually false for one of the sentence's own examples, as a commercial landlord's break clause is found in a signed lease, not a click-through agreement.",
+    "evidence": "Evaluated the sentence against the provided examples (payment processor, marketplace, software vendor, landlord). A lease is not agreed to 'by clicking', making the universal claim unsupported.",
+    "fix": "Soften the absolute to accommodate the lease example: \"most of them are terms you agreed to by clicking, and they are drafted in the other side's favour\""
+  }
+]
+```

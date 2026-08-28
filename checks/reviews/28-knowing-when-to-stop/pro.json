@@ -1,0 +1,72 @@
+```json
+[
+  {
+    "category": "dutch-ground",
+    "severity": "high",
+    "quote": "<em lang=\"nl\">\"zoveel mogelijk\"</em>",
+    "problem": "A quotation presented as a legal standard in the Dutch ground box is not registered in the claim register.",
+    "evidence": "Searched checks/claims.tsv for \"zoveel mogelijk\" and found no hits. CONTEXT.md §5b requires every legal claim to be sourced to an official body and present as a row in claims.tsv.",
+    "fix": "Add the exact quotation \"zoveel mogelijk\" to checks/claims.tsv linked to the KVK source, or remove the quotation if it does not appear in the source text."
+  },
+  {
+    "category": "unsourced-claim",
+    "severity": "medium",
+    "quote": "A contest with $40,000 in sponsored prizes seeded the marketplace with around two hundred products;",
+    "problem": "The figures \"$40,000\" and \"two hundred\" are stated as fact in Move 2 but do not appear in the chapter's claims.tsv rows, and they lack the explicit \"by their own account\" attribution required for a founder's retrospective.",
+    "evidence": "Grepped checks/claims.tsv for \"40,000\" and \"two hundred\" (and checked all ^28 rows) and found no matches. CONTEXT.md §5 requires weaker evidence to be explicitly attributed in the prose.",
+    "fix": "Register the figures in checks/claims.tsv if they are in the source, and add attribution to the prose (e.g., \"what the founders later stated was a $40,000 contest\")."
+  },
+  {
+    "category": "unsourced-claim",
+    "severity": "medium",
+    "quote": "and in February 2013, after a month that had reached $20,000, an application made",
+    "problem": "The date \"February 2013\" and the figure \"$20,000\" are stated as fact in Move 2 but are absent from claims.tsv and lack the necessary attribution.",
+    "evidence": "Grepped checks/claims.tsv for \"2013\" and \"20,000\" and found no matches for Chapter 28.",
+    "fix": "Register the figures in checks/claims.tsv and add the \"by their own account\" attribution."
+  },
+  {
+    "category": "unsourced-claim",
+    "severity": "medium",
+    "quote": "built in around three months, Galperin \"programming for 10-12 hours a day\", and launched in January 2015",
+    "problem": "The duration \"three months\" and date \"January 2015\" are stated as fact in Move 2 but are not registered in claims.tsv and lack attribution.",
+    "evidence": "Grepped checks/claims.tsv for \"three months\" and \"2015\" and found no matches for Chapter 28.",
+    "fix": "Register the figures in checks/claims.tsv and add the required attribution."
+  }
+]
+```
+```json
+[
+  {
+    "category": "dutch-ground",
+    "severity": "high",
+    "quote": "<em lang=\"nl\">\"zoveel mogelijk\"</em>",
+    "problem": "A quotation presented as a legal standard in the Dutch ground box is not registered in the claim register.",
+    "evidence": "Searched checks/claims.tsv for \"zoveel mogelijk\" and found no hits. CONTEXT.md §5b requires every legal claim to be sourced to an official body and present as a row in claims.tsv.",
+    "fix": "Add the exact quotation \"zoveel mogelijk\" to checks/claims.tsv linked to the KVK source, or remove the quotation if it does not appear in the source text."
+  },
+  {
+    "category": "unsourced-claim",
+    "severity": "medium",
+    "quote": "A contest with $40,000 in sponsored prizes seeded the marketplace with around two hundred products;",
+    "problem": "The figures \"$40,000\" and \"two hundred\" are stated as fact in Move 2 but do not appear in the chapter's claims.tsv rows, and they lack the explicit \"by their own account\" attribution required for a founder's retrospective.",
+    "evidence": "Grepped checks/claims.tsv for \"40,000\" and \"two hundred\" (and checked all ^28 rows) and found no matches. CONTEXT.md §5 requires weaker evidence to be explicitly attributed in the prose.",
+    "fix": "Register the figures in checks/claims.tsv if they are in the source, and add attribution to the prose (e.g., \"what the founders later stated was a $40,000 contest\")."
+  },
+  {
+    "category": "unsourced-claim",
+    "severity": "medium",
+    "quote": "and in February 2013, after a month that had reached $20,000, an application made",
+    "problem": "The date \"February 2013\" and the figure \"$20,000\" are stated as fact in Move 2 but are absent from claims.tsv and lack the necessary attribution.",
+    "evidence": "Grepped checks/claims.tsv for \"2013\" and \"20,000\" and found no matches for Chapter 28.",
+    "fix": "Register the figures in checks/claims.tsv and add the \"by their own account\" attribution."
+  },
+  {
+    "category": "unsourced-claim",
+    "severity": "medium",
+    "quote": "built in around three months, Galperin \"programming for 10-12 hours a day\", and launched in January 2015",
+    "problem": "The duration \"three months\" and date \"January 2015\" are stated as fact in Move 2 but are not registered in claims.tsv and lack attribution.",
+    "evidence": "Grepped checks/claims.tsv for \"three months\" and \"2015\" and found no matches for Chapter 28.",
+    "fix": "Register the figures in checks/claims.tsv and add the required attribution."
+  }
+]
+```

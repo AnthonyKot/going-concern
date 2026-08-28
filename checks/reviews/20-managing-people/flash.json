@@ -1,0 +1,20 @@
+```json
+[
+  {
+    "category": "licence-to-wait",
+    "severity": "high",
+    "quote": "If it will not go into those words, you have a feeling, not a finding — and the next four items wait until it does.",
+    "problem": "The first Monday action sets an undated threshold that instructs the reader to pause the entire management sequence until they can articulate their feeling in words, creating an open-ended licence to defer the decision date indefinitely.",
+    "evidence": "CONTEXT.md §3 (Standing constraint: the book must not become a licence to wait, Rule 2: 'Every evidence standard needs an expiry. A threshold with no date is an invitation to wait... the rest of the book must not state a bar without one.'). Move 1 diagnoses the deferral of the conversation as 'what an owner does when the decision has been made and the conversation has not', but Monday item 1 sanctions indefinite deferral by placing an undated gate before items 2–5.",
+    "fix": "Add a concrete deadline to articulate the finding or drop the objection, e.g.: 'If it will not go into those words, you have a feeling, not a finding — give yourself until Friday to write it down, or drop the objection and proceed with item 2.'"
+  },
+  {
+    "category": "backwards-causal",
+    "severity": "medium",
+    "quote": "What he built in response is a calendar, not a temperament. <em>\"We always — at every level — start with a 2-4 week paid trial run where the prospective employee joins the team on a temporary (and sometimes part-time, depending on their current work situation) basis.\"</em>",
+    "problem": "The chapter frames the 2–4 week trial period as what Turnbull instituted in response to his hesitation and delay, whereas the source indicates trial periods were already in place early on and what he actually built in response was giving direct feedback during the trial and enforcing its end as a forcing function.",
+    "evidence": "CONTEXT.md §8 (A causal arrow pointing backwards). In groove-fire-2015.raw, under Step 2, Turnbull states: 'Early on, I used to wait until the trial period was over to give feedback. This helped nobody.' The trial period existed before he solved his hesitance; the calendar alone without active feedback during the trial had failed to prevent delay.",
+    "fix": "Clarify that the trial period was already in place and that what he built in response was turning it into a forcing function with active feedback during the trial: 'What he built in response is a discipline around the calendar, not a temperament.'"
+  }
+]
+```

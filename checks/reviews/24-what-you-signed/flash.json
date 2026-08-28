@@ -1,0 +1,12 @@
+```json
+[
+  {
+    "category": "domain-error",
+    "severity": "medium",
+    "quote": "Terms bind only if delivered: a limit on your liability that the customer never had the chance to read is a limit on nothing.",
+    "problem": "Stating that terms 'bind only if delivered' inverts the contract formation and voidability mechanism of general terms and conditions law (e.g. Dutch BW 6:232 and 6:233 sub b), where agreed standard terms form part of the contract but are voidable (and cannot be enforced against the customer) if the required opportunity to review was not provided.",
+    "evidence": "Checked CONTEXT.md §8 (which recorded that an earlier draft 'stated the terms mechanism backwards (\"bind nobody\" — they bind and are voidable)') and Burgerlijk Wetboek Boek 6 articles 232, 233, and 234; while Move 2 was corrected to state that terms 'protect you only to the extent the customer can be held to them' and describes 'terms it cannot hold anyone to', Move 3 in paragraph 2 retained the inverted 'Terms bind only if delivered' formulation.",
+    "fix": "Replace 'Terms bind only if delivered:' with 'Terms protect you only if delivered:' or 'You can hold a customer to terms only if delivered:'."
+  }
+]
+```

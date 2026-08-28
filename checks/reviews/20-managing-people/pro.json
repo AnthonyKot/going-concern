@@ -1,0 +1,44 @@
+```json
+[
+  {
+    "category": "licence-to-wait",
+    "severity": "high",
+    "quote": "If it will not go into those words, you have a feeling, not a finding — and the next four items wait until it does.",
+    "problem": "This establishes an evidence standard with no expiry date and explicitly instructs the reader to wait indefinitely before taking action, providing a direct licence to wait.",
+    "evidence": "CONTEXT.md §3 Standing constraint rules 7(b) and 7(c) prohibit thresholds with no expiry date that give the reader a reason to defer. Instructing the reader that the next items 'wait until it does' halts all subsequent Monday actions indefinitely.",
+    "fix": "If it will not go into those words, you have a feeling, not a finding. Do not wait for the words to arrive; put the date in anyway (item 2), and use the time until the date to figure out what exactly is missing in the work."
+  },
+  {
+    "category": "backwards-causal",
+    "severity": "high",
+    "quote": "Three costs, and the third is the one from Move 1: the owner's attention, spent on a decision already made.",
+    "problem": "The source explicitly says the founder was 'preoccupied with trying to force a fit where there was none'—meaning he had not yet made the decision and was actively trying to make the hire work, which contradicts Move 1's premise that the decision was already made.",
+    "evidence": "checks/claims.tsv and the Groove post show Turnbull's mistake was a 'hesitance to spot poor fits' and 'trying to force a fit'. He failed to identify the problem, rather than failing to act on a decision already made as Move 1 claims.",
+    "fix": "Three costs, and the third is the attention spent trying to force a fit that isn't there, instead of setting a date to decide."
+  },
+  {
+    "category": "category-overreach",
+    "severity": "high",
+    "quote": "By his own account, that is the cost side of three years of hiring, and the post is about the part of it he calls his own.",
+    "problem": "Turnbull's 40% figure describes the turnover rate of the original launch team, not the cost or turnover rate of all hiring done over the subsequent three years.",
+    "evidence": "checks/claims.tsv confirms the quote is 'turned over nearly 40% of the team we launched with', which only applies to the launch team. Turnbull also notes they only let 'a handful' go in three years.",
+    "fix": "By his own account, that is the cost they paid on their launch team, and the post is about the part of it he calls his own."
+  },
+  {
+    "category": "dutch-ground",
+    "severity": "medium",
+    "quote": "bedraagt maximaal € 102.000,00 of een bedrag gelijk aan ten hoogste het loon over twaalf maanden indien dat loon hoger is dan dat bedrag",
+    "problem": "The condition 'indien dat loon hoger is dan dat bedrag' is presented as a direct quotation of the statute in the Dutch ground box, but this phrase is missing from the claims register.",
+    "evidence": "I searched checks/claims.tsv for 'indien dat loon hoger' and found no matches, violating the §5b rule that every legal claim in the box must be present as a row in the register.",
+    "fix": "Register the full quotation in checks/claims.tsv to satisfy the Dutch ground sourcing rule."
+  },
+  {
+    "category": "unsourced-claim",
+    "severity": "medium",
+    "quote": "(and sometimes part-time, depending on their current work situation) basis.",
+    "problem": "This portion of the quotation in Move 2 is not registered in the claims register.",
+    "evidence": "I searched checks/claims.tsv for 'depending on their current work situation' and found no matches, violating the rule that all quotations stated as fact must be in the register.",
+    "fix": "Register the missing portion of the quote in checks/claims.tsv."
+  }
+]
+```

@@ -1,0 +1,29 @@
+I am searching for the repository root and `CONTEXT.md` to begin the review of Chapter 28.
+```json
+[
+  {
+    "category": "unsourced-claim",
+    "severity": "medium",
+    "quote": "A contest with $40,000 in sponsored prizes seeded the marketplace with around two hundred products;",
+    "problem": "The figures \"$40,000\" and \"around two hundred products\" are stated as factual numbers in Move 2 but neither is registered as a claim row in checks/claims.tsv.",
+    "evidence": "Checked checks/claims.tsv for chapter 28 (grep -E '^28\\b' checks/claims.tsv); among the 40 registered rows, none matches '$40,000', '40k', '200', or 'two hundred', even though the cached source .cache/eg-binpress-2016.raw contains 'Over $40k(!) in cash and prizes' and 'around 200 products on the marketplace'. CONTEXT.md §5 and §8 require every hard figure stated as fact in Move 2 to be registered.",
+    "fix": "Register the claim rows in checks/claims.tsv (e.g. '28\\teg-binpress-2016\\tOver $40k(!) in cash and prizes' and '28\\teg-binpress-2016\\taround 200 products on the marketplace') or attribute the numbers explicitly to Galperin's retrospective account."
+  },
+  {
+    "category": "unsourced-claim",
+    "severity": "medium",
+    "quote": "and in February 2013, after a month that had reached $20,000, an application made <em>\"on a whim\"</em> put them in an accelerator",
+    "problem": "The revenue figure \"$20,000\" is stated as fact in Move 2 without a corresponding claim row in checks/claims.tsv.",
+    "evidence": "Checked checks/claims.tsv for chapter 28; while other revenue figures ($500, $3k, $5k, $10k, $30k) are registered, '$20,000' (or '$20k') is absent from claims.tsv despite appearing in .cache/eg-binpress-2016.raw as 'reached a local maxima of $20k revenue in one month'.",
+    "fix": "Add the row '28\\teg-binpress-2016\\treached a local maxima of $20k revenue in one month' to checks/claims.tsv, or rephrase to connect directly to the already registered revenue ladder."
+  },
+  {
+    "category": "dutch-ground",
+    "severity": "low",
+    "quote": "sell everything and pay the creditors first, <em lang=\"nl\">\"zoveel mogelijk\"</em>, and <em lang=\"nl\">\"Hierbij houd je rekening met de belangen en rangorde van schuldeisers\"</em>",
+    "problem": "The phrase \"zoveel mogelijk\" is formatted as a direct quoted excerpt from KVK in the Dutch ground box, but is not registered as a row in checks/claims.tsv.",
+    "evidence": "Checked checks/claims.tsv for 'zoveel mogelijk' across chapter 28 rows; 0 rows match. The phrase appears in .cache/kvk-turboliquidatie-2026.raw ('En je schuldeisers zoveel mogelijk afbetaalt, zodat er geen baten meer overblijven.'), but CONTEXT.md §5b requires all quoted legal claims in ground boxes to be present in checks/claims.tsv.",
+    "fix": "Register the full sentence '28\\tkvk-turboliquidatie-2026\\tEn je schuldeisers zoveel mogelijk afbetaalt, zodat er geen baten meer overblijven.' in checks/claims.tsv, or drop the quotation tags around the two-word Dutch phrase."
+  }
+]
+```

@@ -1,0 +1,20 @@
+```json
+[
+  {
+    "category": "backwards-causal",
+    "severity": "high",
+    "quote": "What he built in response is a calendar, not a temperament. <em>\"We always — at every level — start with a 2-4 week paid trial run",
+    "problem": "The chapter claims Turnbull instituted the trial period in response to his hesitance and its costs, but the source evidence shows the trial period was already in place while he was failing.",
+    "evidence": "CONTEXT.md §8 (A causal arrow pointing backwards). `checks/claims.tsv` contains 'I used to wait until the trial period was over to give feedback', proving the trial period predated his realization of the problem. What he actually built in response was the practice of giving daily feedback during the existing trial.",
+    "fix": "Correct the timeline. Acknowledge that the calendar/trial period was already a fixture, but it failed as a forcing function until he changed his process to actually give feedback during it."
+  },
+  {
+    "category": "licence-to-wait",
+    "severity": "high",
+    "quote": "If it will not go into those words, you have a feeling, not a finding — and the next four items wait until it does.",
+    "problem": "Telling the reader to wait until their feeling coalesces into a finding, without providing an expiry date, gives them permission to defer the difficult conversation indefinitely.",
+    "evidence": "CONTEXT.md §3 (Standing constraint). Rule 2 explicitly states: 'Every evidence standard needs an expiry. A threshold with no date is an invitation to wait... the rest of the book must not state a bar without one.'",
+    "fix": "Attach a concrete deadline to the standard. For example: '...and you have until Friday to find the words, or you drop the objection and keep them.'"
+  }
+]
+```

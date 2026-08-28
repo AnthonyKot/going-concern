@@ -1,5 +1,125 @@
-=== review 20 19:21
+=== review 20 19:25
 ── reviewing 20-managing-people ────────────────────────────────────────────
   nothing below is applied automatically — this produces a report only.
-  grok   … 
+  claude … 
   agy    … 
+=== review 20 19:30
+── reviewing 20-managing-people ────────────────────────────────────────────
+  nothing below is applied automatically — this produces a report only.
+  flash  … (gemini-3.7-flash-high)
+  pro    … (gemini-3.1-pro-high)
+  flash  ok (2559 bytes)
+  pro    ok (3790 bytes)
+  codex  … consolidating (gpt-5.6-sol)
+
+  report: checks/reviews/20-managing-people/report.md
+  nothing above was applied to the chapter. Read the report and accept or
+  reject each finding by hand, then log both in CONTEXT.md §8.
+
+# Confirmed findings
+
+1. **Licence to wait — high**  
+   **Offending text:** “If it will not go into those words, you have a feeling, not a finding — and the next four items wait until it does.”  
+   **What is wrong:** This makes work-specific evidence an undated gate and explicitly suspends every subsequent action. Both reviewers found this independently.  
+   **Evidence:** [CONTEXT.md §3](/home/diablo/book4/CONTEXT.md:265), rule 2: “Every evidence standard needs an expiry.”  
+   **Fix:** “If it will not go into those words, you have a feeling, not a finding. Put the date in anyway, and use the four weeks before it to gather and give work-specific feedback.”
+
+2. **Category overreach — medium**  
+   **Offending text:** “By his own account, that is the cost side of three years of hiring…”  
+   **What is wrong:** The 40% denominator is the team Groove launched with, not everyone hired during three years. The sentence silently broadens a cohort-specific turnover figure.  
+   **Evidence:** [claims.tsv row 20/groove-fire-2015](/home/diablo/book4/checks/claims.tsv:550) says “turned over nearly 40% of the team we launched with”; the §6b Groove ledger preserves the same denominator.  
+   **Fix:** “By his own account, that is the attrition Groove’s launch team suffered across its first three years…”
+
+# Rejected findings
+
+- **Trial-period backwards causation:** “Early on” proves that Turnbull once withheld feedback during an existing trial; it does not establish when the trial was introduced. The source also calls the non-negotiable trial something learned from three years of experience, so “built in response” is not demonstrably backwards.
+- **Decision already made:** “Trying to force a fit” does not prove Turnbull had not reached a judgment; the same source says he would “wait too long.” Reviewer B turns an ambiguous psychological sequence into a contradiction the source does not establish.
+- **Dutch cap quotation unregistered:** The complete quotation is exact in `.cache/bw7-2026.raw`, while [the registered row](/home/diablo/book4/checks/claims.tsv:559) covers the operative €102,000/twelve-month cap. Section 5b requires the legal claim to be registered, not every trailing word as a separate row.
+- **Part-time parenthetical unregistered:** The complete sentence is present in the cached Groove source, and [claims.tsv](/home/diablo/book4/checks/claims.tsv:551) already registers that quotation by a substantial identifying fragment. This is not an unregistered figure or unsupported claim.
+
+The chapter is not publishable as-is because Monday’s first action directly violates the book’s standing constraint and can halt the entire prescribed sequence indefinitely. The single most important change is to remove that gate: set the decision date immediately and gather work-specific evidence before it.
+=== review 24 19:39
+── reviewing 24-what-you-signed ────────────────────────────────────────────
+  nothing below is applied automatically — this produces a report only.
+  flash  … (gemini-3.7-flash-high)
+  pro    … (gemini-3.1-pro-high)
+  flash  ok (1222 bytes)
+  pro    ok (2252 bytes)
+  codex  … consolidating (gpt-5.6-sol)
+
+  report: checks/reviews/24-what-you-signed/report.md
+  nothing above was applied to the chapter. Read the report and accept or
+  reject each finding by hand, then log both in CONTEXT.md §8.
+
+## Confirmed findings
+
+### 1. Standard-terms mechanism is backwards
+
+- **Category:** domain-error
+- **Severity:** high
+- **Offending text:** “Terms bind only if delivered: a limit on your liability that the customer never had the chance to read is a limit on nothing.”
+- **What is wrong:** Under the Dutch mechanism presented here, accepted general terms can bind despite not being read; failure to provide a reasonable opportunity to inspect them makes the term voidable. “Bind only if delivered” repeats the precise inversion the repository says was corrected earlier.
+- **Evidence:** [CONTEXT.md §8](/home/diablo/book4/CONTEXT.md:3371) records: “they bind and are voidable.” [Claims row 586](/home/diablo/book4/checks/claims.tsv:586) verifies article 233’s voidability rule; the cached official article 232 states that a counterparty remains bound even when the user knew it had not read the terms.
+- **Fix:** “Terms protect you only to the extent the customer can be held to them: a liability limit the customer had no reasonable opportunity to read may be one you cannot rely on.”
+
+### 2. The click-through universal is false on the chapter’s own facts
+
+- **Category:** quantifier-drift
+- **Severity:** low
+- **Offending text:** “the landlord’s break clause — every one is a term you agreed to by clicking”
+- **What is wrong:** The chapter distinguishes the signed lease from platform terms and then treats the lease clause as checkbox acceptance. This is a genuinely false universal, not an absolutes-checker false positive.
+- **Evidence:** The lede says “You have signed a lease” while separately naming “a platform’s terms you did not read”; the same sentence later explains the supposed universality with “you had a checkbox.”
+- **Fix:** “The payment processor’s reserve, the marketplace’s right to delist, the software vendor’s price change and the landlord’s break clause — whether behind a checkbox or in a signed lease, each was drafted for the other side.”
+
+## Rejected findings
+
+- **Copyright transfer scope:** Rejected. Reviewer B adds “strictly limited to explicit written terms,” which the chapter does not say. The colon immediately introduces the statutory qualification—express powers **or** powers necessarily flowing from the agreement’s nature and purpose—verified at [claims row 705](/home/diablo/book4/checks/claims.tsv:705). The surrounding text also correctly limits this rule to transfer by the maker and states the article 7/8 exception.
+- **Dutch law leaking into Monday:** Rejected. The instruction is expressly conditional—“on Dutch ground”—rather than presented as a portable rule, repeats the sourced writing/scope requirements in [claims rows 585 and 705](/home/diablo/book4/checks/claims.tsv:585), and routes irreplaceable work to a lawyer. The repository’s existing chapter review explicitly adjudicates this signposted Monday formulation as acceptable.
+
+The chapter is not publishable as-is because its main reasoning still states an actionable legal mechanism backwards, despite all 11 registered claims verifying with zero drift. The single most important change is replacing “Terms bind only if delivered” with language distinguishing binding from voidability and practical enforceability.
+=== review 28 19:44
+── reviewing 28-knowing-when-to-stop ────────────────────────────────────────────
+  nothing below is applied automatically — this produces a report only.
+  flash  … (gemini-3.7-flash-high)
+  pro    … (gemini-3.1-pro-high)
+  flash  ok (3040 bytes)
+  pro    ok (5140 bytes)
+  codex  … consolidating (gpt-5.6-sol)
+
+  report: checks/reviews/28-knowing-when-to-stop/report.md
+  nothing above was applied to the chapter. Read the report and accept or
+  reject each finding by hand, then log both in CONTEXT.md §8.
+
+## Confirmed findings
+
+1. **Dutch-ground · Medium** — Both reviewers found this independently.  
+   **Offending text:** `<em lang="nl">"zoveel mogelijk"</em>`  
+   **Wrong:** This legal quotation is absent from Chapter 28’s claim rows, violating the non-negotiable ground-box rule.  
+   **Evidence:** `CONTEXT.md §5b`; [claims.tsv](/home/diablo/book4/checks/claims.tsv:794) registers the adjacent ranking quotation but not this phrase. The full sentence does appear in the official KVK [source cache](/home/diablo/book4/.cache/kvk-turboliquidatie-2026.raw:86).  
+   **Fix:** Register `En je schuldeisers zoveel mogelijk afbetaalt, zodat er geen baten meer overblijven.` under `kvk-turboliquidatie-2026`.
+
+2. **Unsourced-claim · Medium** — Both reviewers found this independently.  
+   **Offending text:** “A contest with $40,000 in sponsored prizes seeded the marketplace with around two hundred products”  
+   **Wrong:** Neither figure is registered. The prose also hardens the source’s “over $40k” to `$40,000`.  
+   **Evidence:** `CONTEXT.md §5 and §8`; no Chapter 28 claim row covers either figure. Galperin’s source says “over $40k” and “around 200 products” ([source](/home/diablo/book4/.cache/eg-binpress-2016.raw:497)).  
+   **Fix:** Write “Galperin later reported over $40,000 in cash and prizes and around 200 products,” and register both source excerpts.
+
+3. **Unsourced-claim · Medium** — Both reviewers found this independently.  
+   **Offending text:** “in February 2013, after a month that had reached $20,000”  
+   **Wrong:** The date and revenue figure lack a claim row; moreover, the source says “around Feb. 2013,” not an exact February date.  
+   **Evidence:** `CONTEXT.md §5 and §8`; the Chapter 28 register contains no matching row. The source supplies both facts in one sentence ([source](/home/diablo/book4/.cache/eg-binpress-2016.raw:569)).  
+   **Fix:** Use “around February 2013, after a month that had reached $20,000” and register the complete source sentence.
+
+4. **Unsourced-claim · Medium** — Reviewer B only.  
+   **Offending text:** “built in around three months … and launched in January 2015”  
+   **Wrong:** The duration and launch date are unregistered. The intervening `10–12 hours a day` quotation is already registered, so that portion survives review.  
+   **Evidence:** `CONTEXT.md §5 and §8`; [claims.tsv](/home/diablo/book4/checks/claims.tsv:788) covers only the working-hours quotation. The other facts appear in the source at [three months](/home/diablo/book4/.cache/eg-binpress-2016.raw:747) and [January 2015](/home/diablo/book4/.cache/eg-binpress-2016.raw:759).  
+   **Fix:** Add those two source sentences as claim rows.
+
+## Rejected findings
+
+- Reviewer B’s attribution objections do not independently survive: Move 2 repeatedly says “by his account” or “in his words,” and the Reading note explicitly identifies the source as a founder’s retrospective. The missing registrations remain valid findings.
+- The KVK quotation is not substantively unsupported or false: it appears verbatim in the cited official source. The defect is solely its missing claim row.
+- Reviewer B’s second JSON block is a verbatim duplicate and adds no findings or additional independent agreement.
+
+The chapter is not publishable as-is because its supposedly complete 40-row register omits six source excerpts required by `CONTEXT.md §§5, 5b, and 8`. The single most important change is to complete those claim rows, while preserving the source’s qualifiers—especially “over $40k” and “around February 2013.”

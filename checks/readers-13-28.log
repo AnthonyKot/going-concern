@@ -1,7 +1,203 @@
-=== readers 13 19:21
-── readers on 13-profit-is-not-cash ───────────────────────────────────────────
+=== readers 14 19:25
+── readers on 14-what-a-customer-is-worth ───────────────────────────────────────────
   nothing below is applied automatically — this produces reports only.
   codex/dev …
   agy/refugee …
-  grok/lagos …
+  claude/lagos …
   claude/cafe …
+  codex/dev  ok (3065 bytes)
+  agy/refugee  ok (2597 bytes)
+  claude/lagos  ok (3714 bytes)
+  claude/cafe  ok (3788 bytes)
+
+  reports: checks/readers/14-what-a-customer-is-worth/
+  read them side by side; the disagreements are the finding.
+=== readers 15 19:25
+── readers on 15-paying-yourself ───────────────────────────────────────────
+  nothing below is applied automatically — this produces reports only.
+  codex/dev …
+  agy/refugee …
+  claude/lagos …
+  claude/cafe …
+  codex/dev  ok (3547 bytes)
+  agy/refugee  ok (2998 bytes)
+  claude/lagos  ok (3638 bytes)
+  claude/cafe  ok (3688 bytes)
+
+  reports: checks/readers/15-paying-yourself/
+  read them side by side; the disagreements are the finding.
+=== readers 16 19:26
+── readers on 16-enough ───────────────────────────────────────────
+  nothing below is applied automatically — this produces reports only.
+  codex/dev …
+  agy/refugee …
+  claude/lagos …
+  claude/cafe …
+  codex/dev  ok (3654 bytes)
+  agy/refugee  ok (2773 bytes)
+  claude/lagos  ok (3732 bytes)
+  claude/cafe  ok (3385 bytes)
+
+  reports: checks/readers/16-enough/
+  read them side by side; the disagreements are the finding.
+=== readers 17 19:26
+── readers on 17-you-are-the-bottleneck ───────────────────────────────────────────
+  nothing below is applied automatically — this produces reports only.
+  codex/dev …
+  agy/refugee …
+  claude/lagos …
+  claude/cafe …
+  codex/dev  ok (3590 bytes)
+  agy/refugee  ok (2658 bytes)
+  claude/lagos  ok (3796 bytes)
+  claude/cafe  ok (3769 bytes)
+
+  reports: checks/readers/17-you-are-the-bottleneck/
+  read them side by side; the disagreements are the finding.
+=== readers 18 19:27
+── readers on 18-writing-it-down ───────────────────────────────────────────
+  nothing below is applied automatically — this produces reports only.
+  codex/dev …
+  agy/refugee …
+  claude/lagos …
+  claude/cafe …
+  codex/dev  ok (3251 bytes)
+  agy/refugee  ok (2590 bytes)
+  claude/lagos  ok (3554 bytes)
+  claude/cafe  ok (3419 bytes)
+
+  reports: checks/readers/18-writing-it-down/
+  read them side by side; the disagreements are the finding.
+=== readers 19 19:27
+── readers on 19-the-first-hire ───────────────────────────────────────────
+  nothing below is applied automatically — this produces reports only.
+  codex/dev …
+  agy/refugee …
+  claude/lagos …
+  claude/cafe …
+  codex/dev  ok (3208 bytes)
+  agy/refugee  ok (2863 bytes)
+  claude/lagos  ok (4109 bytes)
+  claude/cafe  ok (3685 bytes)
+
+  reports: checks/readers/19-the-first-hire/
+  read them side by side; the disagreements are the finding.
+=== readers 20 19:27
+── readers on 20-managing-people ───────────────────────────────────────────
+  nothing below is applied automatically — this produces reports only.
+  codex/dev …
+  agy/refugee …
+  claude/lagos …
+  claude/cafe …
+  codex/dev  ok (3465 bytes)
+  agy/refugee  ok (2734 bytes)
+  claude/lagos  ok (4028 bytes)
+  claude/cafe  ok (4091 bytes)
+
+  reports: checks/readers/20-managing-people/
+  read them side by side; the disagreements are the finding.
+=== readers 21 19:28
+── readers on 21-meetings-that-arent-theater ───────────────────────────────────────────
+  nothing below is applied automatically — this produces reports only.
+  codex/dev …
+  agy/refugee …
+  claude/lagos …
+  claude/cafe …
+  codex/dev  ok (3697 bytes)
+  agy/refugee  ok (2913 bytes)
+  claude/lagos  ok (3516 bytes)
+  claude/cafe  ok (3839 bytes)
+
+  reports: checks/readers/21-meetings-that-arent-theater/
+  read them side by side; the disagreements are the finding.
+=== readers 22 19:28
+── readers on 22-measuring-the-right-three-things ───────────────────────────────────────────
+  nothing below is applied automatically — this produces reports only.
+  codex/dev …
+  agy/refugee …
+  claude/lagos …
+  claude/cafe …
+  codex/dev  ok (3704 bytes)
+  agy/refugee  ok (3123 bytes)
+  claude/lagos  ok (3688 bytes)
+  claude/cafe  ok (3606 bytes)
+
+  reports: checks/readers/22-measuring-the-right-three-things/
+  read them side by side; the disagreements are the finding.
+=== readers 23 19:29
+── readers on 23-slack ───────────────────────────────────────────
+  nothing below is applied automatically — this produces reports only.
+  codex/dev …
+  agy/refugee …
+  claude/lagos …
+  claude/cafe …
+=== readers 24 19:30
+── readers on 24-what-you-signed ───────────────────────────────────────────
+  nothing below is applied automatically — this produces reports only.
+  codex/dev …
+  flash/refugee …
+  pro/lagos …
+  flash/cafe …
+  codex/dev  ok (3588 bytes)
+  flash/refugee  ok (3224 bytes)
+  pro/lagos  ok (3409 bytes)
+  flash/cafe  ok (3098 bytes)
+
+  reports: checks/readers/24-what-you-signed/
+  read them side by side; the disagreements are the finding.
+=== readers 25 19:30
+── readers on 25-what-protects-you ───────────────────────────────────────────
+  nothing below is applied automatically — this produces reports only.
+  codex/dev …
+  flash/refugee …
+  pro/lagos …
+  flash/cafe …
+  codex/dev  ok (3332 bytes)
+  flash/refugee  ok (2948 bytes)
+  pro/lagos  ok (3054 bytes)
+  flash/cafe  ok (3141 bytes)
+
+  reports: checks/readers/25-what-protects-you/
+  read them side by side; the disagreements are the finding.
+=== readers 26 19:31
+── readers on 26-when-the-ground-moves ───────────────────────────────────────────
+  nothing below is applied automatically — this produces reports only.
+  codex/dev …
+  flash/refugee …
+  pro/lagos …
+  flash/cafe …
+  codex/dev  ok (3763 bytes)
+  flash/refugee  ok (3433 bytes)
+  pro/lagos  ok (2773 bytes)
+  flash/cafe  ok (3497 bytes)
+
+  reports: checks/readers/26-when-the-ground-moves/
+  read them side by side; the disagreements are the finding.
+=== readers 27 19:31
+── readers on 27-built-to-leave ───────────────────────────────────────────
+  nothing below is applied automatically — this produces reports only.
+  codex/dev …
+  flash/refugee …
+  pro/lagos …
+  flash/cafe …
+  codex/dev  ok (3578 bytes)
+  flash/refugee  ok (3453 bytes)
+  pro/lagos  ok (3237 bytes)
+  flash/cafe  ok (3496 bytes)
+
+  reports: checks/readers/27-built-to-leave/
+  read them side by side; the disagreements are the finding.
+=== readers 28 19:32
+── readers on 28-knowing-when-to-stop ───────────────────────────────────────────
+  nothing below is applied automatically — this produces reports only.
+  codex/dev …
+  flash/refugee …
+  pro/lagos …
+  flash/cafe …
+  codex/dev  ok (3549 bytes)
+  flash/refugee  ok (3153 bytes)
+  pro/lagos  ok (2985 bytes)
+  flash/cafe  ok (3391 bytes)
+
+  reports: checks/readers/28-knowing-when-to-stop/
+  read them side by side; the disagreements are the finding.
