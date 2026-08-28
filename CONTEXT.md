@@ -617,7 +617,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 |---|---|---|
 | 23 | Slack | ☑ 22 claims · WP Curve / Norris (June 2014), third use, new source · accumulation only, no shock shown absorbed (Archive offline 2026-08-28; later reports still unfetched) · *owed* · opens Part V · drafted 2026-08-28 |
 | 24 | What You Signed | ☑ 7 claims · *no company case, by finding* (§6i) · Auteurswet arts. 1, 2, 7 + BW6 arts. 233, 234 · four-agreements map is the book's · *case and counter-case owed* 🇳🇱 · drafted 2026-08-28 |
-| 25 | What Protects You | ☐ |
+| 25 | What Protects You | ☑ 13 claims · Studio Neat / Glif patents section (sn-howto), third use, unspent section · bet unmeasured, US law by non-lawyers · *owed* · drafted 2026-08-28 |
 | 26 | When the Ground Moves | ☐ |
 | 27 | Built to Leave | ☐ |
 | 28 | Knowing When to Stop | ☐ 🇳🇱 |
