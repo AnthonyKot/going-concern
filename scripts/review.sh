@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# review.sh — adversarial review of one chapter, by three models.
+# review.sh — adversarial review of one chapter: two Gemini reviewers, codex consolidates.
 #
 #   scripts/review.sh chapters/17-you-are-the-bottleneck.html
 #   scripts/review.sh 17
@@ -11,8 +11,10 @@
 #
 # WHY THREE.
 #
-# Grok and agy review independently against the same checklist and do not see
-# each other's output. Independence is the point: two reviewers shown the same
+# Gemini 3.7 Flash and Gemini 3.1 Pro (both via agy --model) review independently
+# against the same checklist and do not see each other's output. Claude is not
+# in the loop on purpose (2026-08-28): its tokens are the expensive ones and the
+# checklist review does not need them. Independence is the point: two reviewers shown the same
 # prior findings agree with them, and agreement is not verification.
 #
 # Codex then consolidates. Its job is adversarial toward the reviewers, not
@@ -60,16 +62,19 @@ echo "── reviewing $NAME ─────────────────
 echo "  nothing below is applied automatically — this produces a report only."
 
 # -- independent passes, in parallel ----------------------------------------
-# grok replaced by claude on 2026-08-28 (grok subscription ended); the output
-# file keeps the reviewer's own name so the consolidation prompt reads it.
-echo "  claude … "
-( timeout 900 claude --model opus --dangerously-skip-permissions -p "$PROMPT" \
-    > "$OUT/claude.json" 2>"$OUT/claude.err" ) &
+# History: grok (retired 2026-08-28, subscription ended) then claude opus held
+# slot A; both replaced by Gemini via agy the same day to save Claude tokens.
+# NB agy: every option must precede -p, because -p takes the prompt as its argument.
+FLASH="${FLASH_MODEL:-gemini-3.7-flash-high}"
+PRO="${PRO_MODEL:-gemini-3.1-pro-high}"
+echo "  flash  … ($FLASH)"
+( timeout 900 agy --dangerously-skip-permissions --print-timeout 14m --model "$FLASH" \
+    -p "$PROMPT" > "$OUT/flash.json" 2>"$OUT/flash.err" ) &
 GROK=$!
 
-echo "  agy    … "
-( timeout 900 agy --dangerously-skip-permissions --print-timeout 14m \
-    -p "$PROMPT" > "$OUT/agy.json" 2>"$OUT/agy.err" ) &
+echo "  pro    … ($PRO)"
+( timeout 900 agy --dangerously-skip-permissions --print-timeout 14m --model "$PRO" \
+    -p "$PROMPT" > "$OUT/pro.json" 2>"$OUT/pro.err" ) &
 GEM=$!
 
 # A failure of either reviewer must not abort the run — wait on each
@@ -77,17 +82,20 @@ GEM=$!
 wait $GROK; grok_rc=$?
 wait $GEM;  gem_rc=$?
 
-[ $grok_rc -eq 0 ] && echo "  claude ok ($(wc -c < "$OUT/claude.json") bytes)" \
-                   || echo "  claude FAILED (rc=$grok_rc) — see $OUT/claude.err"
-[ $gem_rc  -eq 0 ] && echo "  agy    ok ($(wc -c < "$OUT/agy.json") bytes)" \
-                   || echo "  agy    FAILED (rc=$gem_rc) — see $OUT/agy.err"
+# An empty file is a failure too: agy is known to exit 0 having written nothing.
+[ $grok_rc -eq 0 ] && [ -s "$OUT/flash.json" ] || grok_rc=1
+[ $gem_rc  -eq 0 ] && [ -s "$OUT/pro.json" ]   || gem_rc=1
+[ $grok_rc -eq 0 ] && echo "  flash  ok ($(wc -c < "$OUT/flash.json") bytes)" \
+                   || echo "  flash  FAILED (rc=$grok_rc, $(wc -c < "$OUT/flash.json") bytes) — see $OUT/flash.err"
+[ $gem_rc  -eq 0 ] && echo "  pro    ok ($(wc -c < "$OUT/pro.json") bytes)" \
+                   || echo "  pro    FAILED (rc=$gem_rc, $(wc -c < "$OUT/pro.json") bytes) — see $OUT/pro.err"
 
 if [ $grok_rc -ne 0 ] && [ $gem_rc -ne 0 ]; then
   echo "  both reviewers failed — nothing to consolidate."; exit 1
 fi
 
 # -- consolidation ----------------------------------------------------------
-echo "  codex  … consolidating"
+echo "  codex  … consolidating (${CODEX_MODEL:-gpt-5.6-sol})"
 
 CONSOLIDATE="You are the meta-reviewer for a chapter of The Going Concern. Two models reviewed it
 independently against a fixed checklist (scripts/prompts/review-checklist.md). Your job is to be
@@ -128,13 +136,13 @@ Output a markdown report:
 Be concise. The author reads every word of this. Nothing you write is applied automatically — this
 is a report for a human to accept or reject finding by finding.
 
-## Reviewer A (grok)
+## Reviewer A (Gemini 3.7 Flash)
 
-$(cat "$OUT/claude.json" 2>/dev/null || echo '(failed)')
+$(cat "$OUT/flash.json" 2>/dev/null || echo '(failed)')
 
-## Reviewer B (agy)
+## Reviewer B (Gemini 3.1 Pro)
 
-$(cat "$OUT/agy.json" 2>/dev/null || echo '(failed)')
+$(cat "$OUT/pro.json" 2>/dev/null || echo '(failed)')
 
 ## The chapter
 
@@ -142,7 +150,7 @@ $BODY"
 
 # stdin must be closed: with a positional prompt, `codex exec` still waits on
 # stdin and will hang forever inside a background job.
-timeout 900 codex exec --skip-git-repo-check -C "$PWD" "$CONSOLIDATE" \
+timeout 900 codex exec --skip-git-repo-check -m "${CODEX_MODEL:-gpt-5.6-sol}" -C "$PWD" "$CONSOLIDATE" \
   < /dev/null > "$OUT/report.md" 2>"$OUT/codex.err" || {
     echo "  codex FAILED — see $OUT/codex.err"
     echo "  raw reviewer output is in $OUT/"; exit 1; }

@@ -40,12 +40,16 @@ OUT="checks/readers/$NAME"
 mkdir -p "$OUT"
 
 # model:persona — persona is scripts/prompts/readers/<persona>.txt
+# flash = gemini-3.7-flash-high, pro = gemini-3.1-pro-high, both via agy.
+# claude dropped 2026-08-28 to save its tokens; persona reading does not need it.
 PERSONAS=(
   "codex:dev"
-  "agy:refugee"
-  "claude:lagos"
-  "claude:cafe"
+  "flash:refugee"
+  "pro:lagos"
+  "flash:cafe"
 )
+FLASH="${FLASH_MODEL:-gemini-3.7-flash-high}"
+PRO="${PRO_MODEL:-gemini-3.1-pro-high}"
 
 PROSE=$(sed -e 's/<[^>]*>//g' "$CHAPTER" | sed 's/&lt;/</g;s/&gt;/>/g;s/&amp;/\&/g' | grep -v '^\s*$')
 FRAME=$(cat scripts/prompts/readers/_frame.txt)
@@ -71,12 +75,15 @@ for entry in "${PERSONAS[@]}"; do
   case $model in
     codex)  ( timeout 900 codex exec --skip-git-repo-check -C "$PWD" "$prompt" \
                 < /dev/null > "$out" 2> "$err" ) & ;;
+    # agy: options must precede -p (it takes the prompt as its argument).
+    flash)  ( timeout 900 agy --print-timeout 14m --model "$FLASH" -p "$prompt" > "$out" 2> "$err" ) & ;;
+    pro)    ( timeout 900 agy --print-timeout 14m --model "$PRO"   -p "$prompt" > "$out" 2> "$err" ) & ;;
     agy)    ( timeout 900 agy --print-timeout 14m -p "$prompt" > "$out" 2> "$err" ) & ;;
     # grok has been the slowest by minutes on long outputs (Aug 2026); give it a
     # short cap so a slow or throttled grok is skipped rather than waited on.
     grok)   ( timeout "${GROK_TIMEOUT:-300}" grok --cwd "$PWD" --output-format plain -p "$prompt" \
                 > "$out" 2> "$err" ) & ;;
-    claude) ( timeout 900 claude --model opus -p "$prompt" > "$out" 2> "$err" ) & ;;
+    claude) ( timeout 900 claude --model opus -p "$prompt" > "$out" 2> "$err" ) & ;;  # not in PERSONAS by default
     *)      echo "  unknown model $model"; continue ;;
   esac
   pids+=($!); labels+=("$model/$persona")
@@ -85,6 +92,7 @@ done
 for i in "${!pids[@]}"; do
   wait "${pids[$i]}"; rc=$?
   f="$OUT/${labels[$i]/\//-}.md"
+  [ -s "$f" ] || rc=1   # empty output counts as a failure
   [ $rc -eq 0 ] && echo "  ${labels[$i]}  ok ($(wc -c < "$f") bytes)" \
                 || echo "  ${labels[$i]}  FAILED (rc=$rc) — see ${f%.md}.err"
 done
