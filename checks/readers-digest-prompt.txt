@@ -1,0 +1,10 @@
+You are synthesising reader reports for chapters 13–28 of "The Going Concern". For each chapter directory under checks/readers/ from 13-* through 28-* (including 13b-*), read every *.md persona report in it (personas: dev, refugee, lagos, cafe; the model prefix on the filename does not matter). Do not open the chapters themselves, CONTEXT.md, or anything else — only the reader reports.
+
+Write ONE markdown file, checks/readers/DIGEST-13-28.md, with a section per chapter (heading = directory name). Per chapter, at most 180 words:
+- **Disagreements** — where a passage is evidence to one reader and noise/exclusion to another. Quote the passage fragment the readers quote, name the readers on each side. This is the main output; be specific.
+- **Consensus complaints** — anything 3+ readers independently flag (quote it). Skip if none.
+- **Item 6 tally** — the four "one thing I'd change" requests, one line each, marked DUP if two readers asked for the same thing.
+
+Then a closing section "Recurring across chapters" — patterns that appear in 4+ chapters (e.g. a persona consistently excluded by a case type, caveats, Dutch boxes), each with the chapter numbers. Under 400 words.
+
+No recommendations, no fixes, no praise. Nothing you write is applied automatically.

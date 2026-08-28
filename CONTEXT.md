@@ -3413,6 +3413,33 @@ claim rows on fragments whose sentences are already registered. The lesson of th
 to the intuitive (wrong) version on every rewrite unless the sentence keeps the statute's own
 structure — bind, then voidable.
 
+**Readers 13–28 (four personas, digest in `checks/readers/DIGEST-13-28.md`).** Sixty-four persona
+reads, condensed by codex to the disagreements. Nothing in it is a source error; almost all of it
+is design, and it is recorded here for the author rather than applied:
+
+1. **Case scale.** In 13, 14, 16–23 and 25–28 all four readers, including the developer, say the
+   case is too large or too software-shaped to carry the chapter for a shop, a café, a WhatsApp
+   trade — Instacart, Cydoc, Pinboard, Gymdesk, ConvertKit, WP Curve, Studio Neat, Binpress. This
+   is the §7 scale problem seen from the reader's chair; the §6i hunt already chose these cases for
+   their records, and the trade-off (a documented case over a relatable one) is the book's — but the
+   readers are unanimous, and the bridge sentence that translates each case to a counter business
+   is the cheapest thing the book could add.
+2. **The Dutch boxes divide** (13, 15, 19, 20, 24, 28): the refugee reads them as protection, the
+   other three as untranslated interruption; "skip to Monday" fails when Monday imports the rule
+   again. An English gloss line per box, or the appendix the readers keep asking for, is the open
+   question — §9.
+3. **Stable ground assumed** (13b, 14–16, 19, 21–23, 27): the Lagos reader's inflation, devaluation
+   and power-cut objections to annual comparisons and fixed review cadences. Out of the book's
+   scope by §3, but the scope is nowhere stated to the reader.
+4. **Chapter-number callbacks** as a reading burden in 21, 23, 25–28 (up to fourteen a chapter).
+   The links are the book's spine; the count is high. Ch. 26 and ch. 28 carry a near-identical
+   reserve paragraph in Monday — the author should decide whether that is a repeat or a reference.
+
+Applied from the digest: one sentence — ch. 16's "almost every reader has some" other income, which
+the developer read as false for a sole earner; the line now says what to do when it is zero. Not
+applied: ch. 13b's "same week last year" complaint (the text already says "once there is one").
+
+
 ## 9. Open questions
 
 - Whether Part V needs a chapter on selling the business as distinct from ch. 27 (*Built to Leave*), or whether that is one chapter's worth of material stretched into two.
@@ -3424,4 +3451,5 @@ structure — bind, then voidable.
   usually has months of warning and several remedies. Part V inherits the position; it does not
   reopen it. What is still owed is a *case* — no business in the book is yet shown running out of
   owner attention with figures on both sides.
+- Whether the 🇳🇱 boxes get a one-line English gloss each, or move to an appendix — the readers' most repeated request (13, 15, 19, 20, 24, 28); and whether each large case gets a one-sentence bridge to a counter business.
 - Whether ch. 07 needs a dedicated **standing vs access** subsection in a future pass, or whether the 06→07 bridge plus one Monday item is enough. Do not rewrite 07 until Part II's remaining chapters exist — enrichment, not a blocking rewrite.
