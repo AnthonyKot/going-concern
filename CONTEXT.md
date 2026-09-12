@@ -3477,6 +3477,30 @@ where it uses figures at all, and adds no fact about the case. Nothing registere
 verify. The trade-off stands as §7 states it — documented cases over relatable ones — and the
 bridge is the cheapest repair the readers identified, not a replacement of any case.
 
+**Part V callbacks (2026-09-12, digest item 4).** Decision: the callbacks are the spine and most
+stay; only doubled and decorative ones were cut. Ch. 28's Monday reserve item is now a
+*reference* to ch. 26's reading (one line of arithmetic, linked) rather than a repeat of it —
+that was the near-identical paragraph the digest flagged, and the repeat is gone from 28, kept in
+26 where it is first used. Also cut: ch. 23's "sixteen's question wearing this chapter's word"
+(a second ch. 16 callback in one paragraph), ch. 26's "the cost chapter twenty-three told you to
+hold" (a second ch. 23 callback; the later one carries the argument), ch. 25's second
+"chapter twenty-four's" in one paragraph. Not cut: ch. 27's "as chapter ten's reading notes" — it
+is the attribution for the 2016 acquisition, which ch. 27 does not otherwise source. Counts
+after: 23 → 8 links, 25 → 8, 26 → 9, 27 → 10, 28 → 10.
+
+**Move 2 quotation thinned in ch. 20 and ch. 22 (2026-09-12, digest item 5).** Both case
+sections had become the source's sentences stitched together. Rewritten so that the figures and
+the load-bearing sentences stay quoted (Groove's 40%, "2-4 week paid trial run", the forcing
+function sentence, "helped nobody"; ConvertKit's $73,000, 2.2%, 1.47, Buffer/Hubstaff, $21/$57,
+20,812/$1,188,580, 6,994/33%/68%, $3 million) and the connective material — definitions, the
+list of three costs, the feedback routine, the S-1 anecdote — is paraphrased in the chapter's
+voice. Quotation count in Move 2: ch. 20 from 15 to 9, ch. 22 from 18 to 8. No claim row
+changed: rows match the source, and every paraphrase was written from the quotation it replaces,
+with the §8 warning in view (quoting correctly is not characterising correctly) — reviewers
+should read the paraphrases against `.cache/groove-fire-2015.raw` and
+`.cache/nb-metrics-2019.raw`. Ch. 13 was looked at and left: its quotation is the filing's
+figures, which §4 says to quote, and the connective prose is already the chapter's own.
+
 
 ## 9. Open questions
 
