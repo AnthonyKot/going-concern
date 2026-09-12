@@ -3516,6 +3516,29 @@ both, Pro found two each, codex kept one each).** Both accepted:
   attribute throughout. The same signpost pass caught ch. 28's second reference in one paragraph
   ("which that section quotes"); cut.
 
+**Close editorial reviews, 12 September 2026.** Two files in `checks/`: `editorial-review-2026-09-12.md`
+(chapters 9, 16, 28; the author's, via codex) and `editorial-review-2026-09-12-fable.md` (chapters 4,
+19, 24). Both find the same seam — the connective between Move 2's last paragraph and Move 3's
+first, where the case is made to speak in the instrument's voice (§8 failure mode 1). Applied from
+the second, as plain defects rather than design: ch. 19's "were never going to understand our
+audience like I did" was quoted twice in consecutive sentences (second instance now "His own
+reason is about the audience, not the output"); ch. 28's bridge paragraph, written that morning,
+ended "The only line that changes is whose money it was", which the chapter's own Dutch section
+contradicts — now says what the legal form changes is that section's subject and the order is the
+part that travels. Everything else in both reviews is for the author: ch. 4's tempo ("it took
+seven years to ask" against a source whose costs rose late and whose model broke when a contract
+did), ch. 19's seam (the hire "funded by growth" placed beside a record that does not say so),
+ch. 24's reach ("every jurisdiction", "commonest", "everywhere this book knows of"), ch. 16's
+"the number was named", ch. 28's "had the date in the record". Suggested pipeline addition, not
+yet made: a checklist item that lists the Move 2/Move 3 connective sentences and asks which source
+sentence licenses each.
+
+*Record of an accident:* commit `6d42028` (the two review files) was made with `git add -A` while a
+codex session was revising ch. 9 and ch. 16 from the first review in the same working tree, so
+that commit also carries those two chapters' in-progress revisions under a message that does not
+name them. Nothing was reverted; structure.py and the link check passed at that commit. Later
+commits use explicit paths.
+
 
 ## 9. Open questions
 
