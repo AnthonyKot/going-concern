@@ -13,7 +13,7 @@ These were settled at the outset and should not be relitigated without a reason.
 |---|---|---|
 | Sourcing | **Company cases first.** Each chapter is anchored on a real, named, dated company. Business books appear only in the reading list — as adversarial foils and further reading, never as claim sources (§5c). | The subject has no canon the way quantum mechanics does. Comparing eight business books would inherit their collective blind spots. Companies are checkable; frameworks are not. |
 | Audience | **The experienced developer going out on their own.** ~40, fifteen-plus years salaried, Netherlands or similar. Self-funded, heading for 1–20 people, still doing the work. | Underserved, and unusually shaped: arrives fluent in systems, constraints, iteration and measurement, illiterate in demand, distribution, selling, pricing and cash. Also old enough to have a mortgage, which changes every risk calculation in the book. |
-| Jurisdiction | **General argument, Dutch specifics quarantined** in `On Dutch ground` boxes. | Employment law, invoicing, dismissal and side-work rules genuinely change the answer, and a reader who cannot act on a chapter has not been helped. Quarantining keeps the general argument portable and stops law from rotting the prose. |
+| Jurisdiction | **General argument, Dutch specifics quarantined** in `On Dutch ground` sections at the end of the chapter. | Employment law, invoicing, dismissal and side-work rules genuinely change the answer, and a reader who cannot act on a chapter has not been helped. Quarantining keeps the general argument portable and stops law from rotting the prose. |
 | Chapter length | **2,000–3,000 words**, measured on chapter content. Raised from 2,500 after both finished chapters overran (01: 2,958, 05: 2,606). | 2,500 was a guess made before a chapter existed; 2,600–2,950 is where the form actually sits once a case with real figures, a bounded principle and a counter-case are all present. This is now a hard ceiling, not a target — anything over 3,000 gets cut, not excused. Ch. 02 drafted at 3,333 and was cut to 3,000; the ceiling held and the chapter is better for it. **Part-closing passages are counted separately** — they close a part rather than a chapter, appear once per five chapters, and would otherwise force real argument out of whichever chapter happens to sit last. Ch. 05 is 2,804 of chapter plus a 321-word Part I close. Declared rather than quietly absorbed. |
 | Honesty mechanism | **The counter-case**, not a ledger. | The sibling volume tracked formal debts because a proof has them. A business book's equivalent failure is advice that works until it doesn't. Show that, don't tally it. |
 
@@ -256,7 +256,7 @@ Structural markup already in `static/style.css`:
 - `.move` + `<span class="num">` — the four sections
 - `.case` / `.counter` / `.aftermath` — green, clay and sage bordered blocks, each with `.case-head > .who`
 - `.owed` — dashed clay note recording a counter-case the chapter does not yet have
-- `.ground` — the `On Dutch ground` box
+- `.ground` — the `On Dutch ground` section, `id="ground"`, placed after `.reading` and before the chapter nav (moved there 2026-09-12; see §5b)
 - `.figures` — the hard numbers strip inside a case (`.k` label / `.v` value)
 - `.monday` — the action box
 - `.reading` — the sources list
@@ -330,8 +330,22 @@ still standing unqualified at the end of the chapter, either qualify it or cut i
 
 ## 5b. On Dutch ground
 
-Where the answer depends on jurisdiction, the chapter carries a boxed `<div class="ground">` — the
+Where the answer depends on jurisdiction, the chapter carries a boxed `<div class="ground" id="ground">` — the
 general argument stays portable, the local specifics stay quarantined, and neither rots the other.
+
+**Placement (decided 2026-09-12, after readers 13–28).** The section sits at the *end* of the
+chapter, after `.reading` and before the chapter nav — not inside a Move and not before Monday.
+The argument keeps exactly one English sentence at the point where the law bites, saying that the
+question exists and linking to `#ground`; Monday items may point there but must not import the
+rule. The section's opener says who it is for ("This section is for readers employing in the
+Netherlands…") rather than "skip to Monday", since there is nothing below it to skip to. Inside the
+section, refer to it as "this section", and to another chapter's as "chapter N's Dutch-ground
+section" with an `#ground` link. Reason: sixty-four persona reads split three-to-one on the boxes
+as untranslated interruption, and "skip to Monday" failed wherever Monday quoted the rule again;
+the one reader who valued the box as protection is served by the in-place sentence. A single
+appendix page was rejected so that the checked date and sources stay with the chapter they cover
+and the claim checks stay chapter-scoped. `checks/structure.py` excludes the section from the body
+word count, as it does the reading list.
 
 Rules, all of them non-negotiable because this is the part of the book most able to cause real harm:
 
@@ -3439,6 +3453,20 @@ Applied from the digest: one sentence — ch. 16's "almost every reader has some
 the developer read as false for a sole earner; the line now says what to do when it is zero. Not
 applied: ch. 13b's "same week last year" complaint (the text already says "once there is one").
 
+**Dutch boxes moved to the end of their chapters (2026-09-12, author's decision on digest item 2).**
+All ten `.ground` boxes (03, 05, 09, 12, 13, 15, 19, 20, 24, 28; about 5,000 words, 59 Dutch
+quotations) lifted out of the argument and placed after the reading list, unchanged in content,
+with `id="ground"`. Every in-argument reference rewritten to point at the section (about twenty
+sentences, mostly "in the box below" → "the section at the end of this chapter", linked); Monday
+items in 13, 15, 19 now link rather than import; "skip to Monday" / "skip to Move 3" openers
+replaced with "This section is for readers … in the Netherlands"; three chapters that had no
+in-argument sentence (03, 05, 09) were given one at the box's old position. Cross-chapter
+references ("chapter nineteen's box") now link to that chapter's `#ground`. No claim row changed;
+verify.sh --links and structure.py clean. Placement rule recorded in §5b. One consequence worth
+the author's eye: with the section excluded from the body count, **ch. 24 falls to 1,843 words,
+under the 2,000 floor** — the chapter has no company case (its own Reading note says so) and the
+statute had been doing the case's work. Not padded; logged in §9.
+
 
 ## 9. Open questions
 
@@ -3451,5 +3479,11 @@ applied: ch. 13b's "same week last year" complaint (the text already says "once 
   usually has months of warning and several remedies. Part V inherits the position; it does not
   reopen it. What is still owed is a *case* — no business in the book is yet shown running out of
   owner attention with figures on both sides.
-- Whether the 🇳🇱 boxes get a one-line English gloss each, or move to an appendix — the readers' most repeated request (13, 15, 19, 20, 24, 28); and whether each large case gets a one-sentence bridge to a counter business.
+- ~~Whether the 🇳🇱 boxes get a one-line English gloss each, or move to an appendix~~ — **settled
+  2026-09-12: both, in the chapter.** Each box moved to the end of its chapter (§5b, placement),
+  and the argument keeps one English sentence pointing to it. Still open: whether each large case
+  gets a one-sentence bridge to a counter business.
+- **Ch. 24 is 1,843 body words without its Dutch section** (2026-09-12). The chapter has no company
+  case and the statute was carrying Move 2. Either a documented case of an unwritten agreement
+  costing a small business money is found, or the floor is waived for this chapter by decision.
 - Whether ch. 07 needs a dedicated **standing vs access** subsection in a future pass, or whether the 06→07 bridge plus one Monday item is enough. Do not rewrite 07 until Part II's remaining chapters exist — enrichment, not a blocking rewrite.

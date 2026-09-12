@@ -50,6 +50,10 @@ def body_words(raw):
     b = re.sub(r"(?is)<(script|style|head).*?</\1>", " ", raw)
     b = re.sub(r"(?is)<(header|footer|nav)[^>]*>.*?</\1>", " ", b)
     b = re.sub(r'(?is)<section class="(reading|part-close)">.*?</section>', " ", b)
+    # The On Dutch ground section sits after the reading list (CONTEXT §5b,
+    # placement) and is end matter like it: statute quoted for one jurisdiction,
+    # outside the argument the ceiling is meant to bound.
+    b = re.sub(r'(?is)<div class="ground"[^>]*>.*?<span class="checked">.*?</span>\s*</div>', " ", b)
     return len(html.unescape(re.sub(r"<[^>]+>", " ", b)).split())
 
 
