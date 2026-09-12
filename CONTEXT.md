@@ -3467,6 +3467,16 @@ the author's eye: with the section excluded from the body count, **ch. 24 falls 
 under the 2,000 floor** — the chapter has no company case (its own Reading note says so) and the
 statute had been doing the case's work. Not padded; logged in §9.
 
+**Bridge paragraphs (2026-09-12, author's decision on digest item 1).** Thirteen chapters — 13,
+14, 16, 17, 18, 19, 20, 22, 23, 25, 26, 27, 28 — each got one short paragraph, placed directly
+after the sentence that concedes the case's scale, translating the mechanism to a counter-sized
+business (a fitter, a bakery, a two-partner practice, a shop with one employee). Ch. 21 already
+had one ("For two people at a counter, this book's translation…") and set the form: every bridge
+names itself as *this book's translation* and not the source's, uses round hypothetical figures
+where it uses figures at all, and adds no fact about the case. Nothing registered; nothing to
+verify. The trade-off stands as §7 states it — documented cases over relatable ones — and the
+bridge is the cheapest repair the readers identified, not a replacement of any case.
+
 
 ## 9. Open questions
 
@@ -3481,8 +3491,9 @@ statute had been doing the case's work. Not padded; logged in §9.
   owner attention with figures on both sides.
 - ~~Whether the 🇳🇱 boxes get a one-line English gloss each, or move to an appendix~~ — **settled
   2026-09-12: both, in the chapter.** Each box moved to the end of its chapter (§5b, placement),
-  and the argument keeps one English sentence pointing to it. Still open: whether each large case
-  gets a one-sentence bridge to a counter business.
+  and the argument keeps one English sentence pointing to it. ~~Still open: whether each large case
+  gets a one-sentence bridge to a counter business~~ — **settled 2026-09-12: yes, one paragraph per
+  chapter, labelled as this book's translation** (§8).
 - **Ch. 24 is 1,843 body words without its Dutch section** (2026-09-12). The chapter has no company
   case and the statute was carrying Move 2. Either a documented case of an unwritten agreement
   costing a small business money is found, or the floor is waived for this chapter by decision.
