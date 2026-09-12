@@ -335,9 +335,7 @@ general argument stays portable, the local specifics stay quarantined, and neith
 
 **Placement (decided 2026-09-12, after readers 13–28).** The section sits at the *end* of the
 chapter, after `.reading` and before the chapter nav — not inside a Move and not before Monday.
-The argument keeps exactly one English sentence at the point where the law bites, saying that the
-question exists and linking to `#ground`; Monday items may point there but must not import the
-rule. The section's opener says who it is for ("This section is for readers employing in the
+The argument keeps at most one English sentence per legal question the section answers (ch. 24's section answers two), placed where that question bites, saying that it exists and linking to `#ground`; the decision box carries none; Monday items may point there but must not import the rule. (Tightened from "exactly one" after review.sh on ch. 20 found three signposts plus the decision box, 2026-09-12.) The section's opener says who it is for ("This section is for readers employing in the
 Netherlands…") rather than "skip to Monday", since there is nothing below it to skip to. Inside the
 section, refer to it as "this section", and to another chapter's as "chapter N's Dutch-ground
 section" with an `#ground` link. Reason: sixty-four persona reads split three-to-one on the boxes
@@ -3500,6 +3498,23 @@ with the §8 warning in view (quoting correctly is not characterising correctly)
 should read the paraphrases against `.cache/groove-fire-2015.raw` and
 `.cache/nb-metrics-2019.raw`. Ch. 13 was looked at and left: its quotation is the filing's
 figures, which §4 says to quote, and the connective prose is already the chapter's own.
+
+**review.sh on ch. 20 and 22 after the rewrite (2026-09-12; Gemini Flash returned nothing on
+both, Pro found two each, codex kept one each).** Both accepted:
+
+- **Ch. 20** — three Dutch signposts in the argument plus one in the decision box, against §5b's
+  one-sentence rule. The decision box's clause, Move 3's "the date is only partly yours" sentence
+  and the "ground the statute quotes" aside are gone; the Move 2 sentence at the consulting-trial /
+  employment boundary is the one that stays. Monday's "call the lawyer" items stay (§5b allows
+  them). Rejected by codex and agreed: the "another month" escape as a licence to wait — it requires
+  a written change and a new date before the conversation ends, which is §3's expiry.
+- **Ch. 22** — "Same business, same customers, one decision, three figures" and Move 3's "the
+  customers themselves were the same people, now paying yearly" presented the annual-plan push as
+  the business not changing, which §6b's ConvertKit entry prohibits. Both now say the decision
+  changed what those customers paid, when and for how long, and each figure recorded a different
+  part of it. Rejected and agreed: missing "by his own account" — Move 2 and the Reading note
+  attribute throughout. The same signpost pass caught ch. 28's second reference in one paragraph
+  ("which that section quotes"); cut.
 
 
 ## 9. Open questions

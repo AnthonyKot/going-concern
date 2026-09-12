@@ -1,0 +1,20 @@
+```json
+[
+  {
+    "category": "spent-case",
+    "severity": "high",
+    "quote": "Same business, same customers, one decision, three figures swinging on a sales calendar.",
+    "problem": "The text frames the November annual-plan push as a measurement artifact where the underlying business did not change, which directly violates the ledger's explicit prohibition.",
+    "evidence": "CONTEXT.md §6b case ledger for ConvertKit (ch. 22) states in the Prohibited field: \"never the annual-plan push as 'the business not changing'.\"",
+    "fix": "A real change in cash and commitment — one decision — swinging three figures in three different directions on a sales calendar."
+  },
+  {
+    "category": "unsourced-claim",
+    "severity": "medium",
+    "quote": "In January 2019, past a million a month in recurring revenue and with its dashboard open to the public, Nathan Barry wrote a walkthrough of what he actually looks at",
+    "problem": "The chapter relies on a founder's own account of his company's metrics but fails to include the required attribution in the prose.",
+    "evidence": "CONTEXT.md §5 requires the 'by their own account' attribution for founder accounts, and the chapter's own Reading note claims the evidence is 'attributed as such', but the phrase is missing from the text.",
+    "fix": "In January 2019, past a million a month in recurring revenue and with its dashboard open to the public, Nathan Barry wrote a walkthrough, by his own account, of what he actually looks at"
+  }
+]
+```

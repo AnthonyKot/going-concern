@@ -1,0 +1,936 @@
+=== Section 2 ===
+## 2. The spine
+
+The parts are ordered because the questions are ordered. Part IV's question is not merely later than
+Part III's — it is *illegible* until Part III is answered. An owner who systematises a business
+whose unit economics don't work has built a machine for losing money faster.
+
+**demand → payment → economics → operations → resilience**
+
+| Part | Question | Chapters | What it costs to get wrong |
+|---|---|---|---|
+| I | Is there anything here? | 1–5 | Years, the savings, and a career. The cheapest failure available. |
+| II | Will someone pay? | 6–10 | The business never starts; it just keeps almost starting. |
+| III | Does the money work? | 11–16 | Growth kills you, or the sale never repeats. The most common death. |
+| IV | Can it run without you? | 17–22 | Not automatically a failure — see below — but not knowing which you built is. |
+| V | Will it last? | 23–28 | Fine for years, then gone in one quarter, often on paperwork. |
+
+Part IV's question has **two legitimate answers** and the book must keep saying so. A practice built
+to give its owner good work and a good income is a real thing to own; so is an organisational asset
+that runs without them. Neither is inferior. The failure mode is building the first while believing
+you are building the second, and discovering the difference at the moment you want to stop, get ill,
+or sell. Do not let the prose slide into "you own a job" contempt — it is a good line and it is not
+true.
+
+
+=== Section 3 ===
+## 3. Chapter template
+
+Filename: `chapters/NN-slug.html`. Four moves, fixed order, fixed headings:
+
+1. **The situation** — the decision stated concretely, second person, present tense. No throat-clearing. Open on the reader's actual position, not on history.
+2. **What actually happened** — one named company. Date it. Give at least two hard figures. This is the load-bearing part of the chapter; if the case is thin the chapter is thin.
+3. **The reasoning** — the transferable principle, *with its boundaries stated in the same breath*. Every principle here has a domain of validity; naming it is what separates this from a LinkedIn post.
+4. **Monday** — three to five numbered actions a reader could take this week. Concrete enough to fail at. No "consider" or "think about."
+
+Then the **counter-case** block: same advice, applied well, bad outcome, ~150–300 words. Then the
+**reading** list.
+
+### Counter-case, aftermath, and the debt register
+
+These are three different things and must not be confused, because the whole credibility of the
+device rests on the distinction:
+
+| Block | What it is | Allowed to satisfy the rule? |
+|---|---|---|
+| `.counter` | The chapter's advice, followed correctly by capable people, failing | **Yes** — this is the rule |
+| `.aftermath` | What became of the idea or market later. Illuminates the case. | **No** |
+| `.limit` | A real case that qualifies the advice without falsifying it — the advice half-followed, or followed against a subsidiary claim | **No** |
+| `.owed` | A visible note that the counter-case has not been found, saying what it would have to be | **No — but it is the honest fallback** |
+
+`.limit` was added late, for ch. 04, and the reason matters: a near-miss needs somewhere truthful to
+go, or it gets called a counter-case in order to earn a border. It is not a loosening of the
+definition — it is what makes holding the definition survivable.
+
+Counter-cases are structurally hard to source: businesses that took good advice and died do not
+publish. The temptation is to widen the definition until the available material fits — to let a
+survivor who ignored the advice count. **Do not.** Hold the definition and carry the debt visibly.
+
+**Debt register — counter-cases owed:**
+
+- **ch. 01** — needs a business that stayed deliberately cheap and variable, exactly as the chapter
+  recommends, and lost its market to someone who committed to fixed capacity early and won on scale.
+  The Instacart block was mislabelled as a counter-case in the first draft and is now an `.aftermath`.
+- **ch. 02** — needs an owner who ran the five extractions (past behaviour, workaround, urgency,
+  authority, spending) properly, on people who were genuinely the customer, drew the correct
+  conclusion from consistent answers, and was wrong. Two shapes: a *no* that should have been a yes,
+  or a *yes* describing a market that did not exist at the required price. The first shape is
+  structurally unpublishable — nobody writes up the business they correctly declined to start. The
+  second should be findable; everything checked so far failed because the owners either did not run
+  the conversations or ran them on people who liked them, which makes the case an illustration of
+  the chapter rather than a counter to it. Declared in the chapter in an `.owed` block rather than
+  papered over.
+- **ch. 03** — needs someone who cleared *both* axes — a real commitment at rung four or five from
+  independent buyers, with making, price and date checked beforehand — delivered what they promised,
+  and still had no business. Or the mirror: a presale that correctly returned no, was honoured, and
+  should not have been. The Coolest Cooler block is a `.limit`: Grepper cleared the buyer axis
+  emphatically and never checked deliverability, so he did not follow the prescription and fail — he
+  followed half of it. Note the second shape is hard to isolate even in principle, because a business
+  that delivers and then dies usually dies of something in Part III.
+- **ch. 04** — needs an owner who wrote a rule carrying all three components (money threshold from
+  independent customers, date, stated consequence), reached the date short of it, honoured the
+  consequence, and should not have. The Gymdesk block was called a counter-case in the first two
+  drafts and is now a `.limit`: measured against the chapter's own three-part test, Galperin had a
+  date, a vague threshold, and no written consequence at all — about one and a half of three. He did
+  not follow the advice and fail; he half-followed it and got away with it. The settled reading: it
+  shows a stopping rule needs consequences short of demolition, and that choosing one in advance
+  would have made the rule easier to honour than to renegotiate under pressure — but not that
+  choosing in advance was *necessary*. Four passes on external review; see §8, where the sequence
+  matters more than any single fix.
+- **ch. 05** — the Gymdesk block is a real counter-case, but only to the *threshold* advice: Galperin
+  went full time with no customers, so he did not follow the chapter's central recommendation at all.
+  Still owed: someone who cleared a conservative evidence bar — repeat paid revenue covering their
+  floor — resigned, and failed. Caught on review one commit after the policy in §3 was written, which
+  is a fair measure of how easily this device slides.
+- **ch. 06** — two shapes, and the second is the one that matters. First: a business that narrowed
+  hard, gave up the customers it said it would, executed properly on what remained, and found the
+  remainder too small to live on. Structurally unpublishable for the usual reason — it stops, and
+  stopping is not written up. Second, and more damaging: a business with published monthly revenue
+  whose owner deliberately declined to narrow, stayed general on purpose, and grew anyway. General-
+  purpose tools succeed constantly; what is missing is one whose owner both says so explicitly and
+  publishes numbers, so the claim can be checked rather than asserted. This is the largest debt in
+  the book so far, because the chapter rests on a single self-reported winner. Anything found here
+  should be checked before ch. 07 is written, since the same objection applies to distribution.
+
+**Ch. 06, on external review — a chronology error the register could not have caught.** The draft
+said the positioning statement *determined* the business model: once the sentence said
+`privacy-first`, the advertising path was closed. Backwards. Paid subscriptions launched May 2019,
+the open-source licence September 2019, the privacy argument earlier still; the statement is March
+2020. Every fact needed to catch this was in the chapter's own paragraphs — the September date is
+quoted three lines above the claim — and all 51 claims verified, because each quotation was accurate
+and only the arrow between them was wrong. Settled wording: **the model arrives in fragments and the
+positioning turns the fragments into constraints.** Weaker than the draft and more useful, since it
+is the version a reader can act on. Three related fixes in the same pass: `simple` time-bound to the
+2020 product (their docs now list funnels, so an untimed claim would be falsified by the current
+product); `privacy-first` no longer said to leave *only* user revenue, which was a logical overreach —
+grants and services remain available, it is simply what they chose; and the incumbent's funding model
+attributed to Plausible as their reading rather than asserted as fact. **The general lesson: a
+chapter can be 100% verified and still have its arrows pointing the wrong way. Dates in the source
+constrain causal order, and nothing in the pipeline checks that.**
+
+- **ch. 07** — needs someone who picked two channels, practised them properly for a year or more,
+  published the numbers, and found the compounding never arrived while a competitor who simply
+  bought attention took the market. Different difficulty from the earlier debts: the buy-attention
+  winners are highly visible, and what is missing is the other half of the pair — patient work that
+  failed, which does not get a year-in-review post. Appointment Reminder is the nearest thing in the
+  record and disqualifies itself, in McKenzie's own words: he did not run the playbook, naming
+  burnout, consulting and an earthquake, and calling the failure *"Insufficient pre-launch
+  marketing."* Kept as a `.limit` because what survives is real — the asset has a minimum duration
+  the second product could not wait out, and the skill was one channel in one market rather than
+  "distribution".
+
+- **ch. 08** — needs someone who did the asking properly (a real list, frustration questions rather
+  than pitches, tracked follow-up, several hundred conversations) and either learned nothing that
+  changed the business, or was actively misled — took a stated objection at face value, built its
+  removal, and found it was a polite substitute for a different and fatal one. The second shape is
+  more likely real and harder to find: it requires publishing an account in which you listened
+  carefully to customers and were led astray. **Every published sales account is written by someone
+  for whom asking worked, so the base rate on asking is unknown to this book and probably to
+  everyone.** That sentence is the honest state of the evidence and should not be softened later.
+
+- **ch. 10** — needs an owner who read the first ten carefully, dropped the segment the evidence
+  pointed at, rebuilt acquisition around the remainder, and was **wrong** — because the dropped
+  segment was the real market and ten was too small a sample to fire a class of customer on. The
+  chapter recommends acting on n=10, which is its most exposed advice.
+
+- **ch. 11** — needs a business that measured outcomes properly (defined in advance, counted from
+  everyone who paid, tracked the unreachable) and was made *worse off* by it: either it chased a
+  measurable outcome that was not the one customers valued, or the follow-up itself drove buyers
+  away. The first is the more interesting failure, because a defined outcome is a target and targets
+  get hit at the expense of what they stood for. Neither shape found with numbers on both sides.
+
+- **ch. 13** — needs an owner who measured the cash gap, funded it deliberately and shortened terms,
+  and was **worse off**: who lost good customers by demanding deposits, or held a buffer so large the
+  business starved of the investment that would have grown it. The second matters more, because every
+  instruction in the chapter has a cost and the chapter does not price it. Cash discipline is
+  presented as free and it is not. Separately, the timing half of the argument has **no reader-scale
+  case at all** — the arithmetic is arithmetic and the statute is real, but no small business here is
+  shown measuring its own gap.
+
+- **ch. 15** — two shapes, and the second was found by review rather than by looking for it. One: an
+  owner who priced their labour honestly, found the business could not cover it, and stopped or sold,
+  while a peer who never ran the calculation carried the same lean years and ended up with a business
+  worth having. Two: an owner whose like-for-like replacement pricing was internally consistent and
+  described **a replacement nobody would have hired** — the successor would have automated, combined
+  or dropped half the work — so the calculation returned unviable and the business was not. The
+  second attacks the method rather than the discipline, which makes it the sharper debt.
+  **What was removed to make room, and why it matters:** the first draft's second debt was an owner
+  who drew a full market wage the business could not afford. That is not a counter-case, because the
+  chapter's boundary explicitly says not to draw it. A `.owed` block can fail the same way a
+  `.counter` can — by naming a case that would falsify advice the chapter never gave — and nothing
+  in §3's table or in the register catches it. **Check every debt against the chapter's actual
+  prescription, not against its subject.**
+
+**A second kind of debt, opened at ch. 05 on external review: an unevidenced prescription.**
+Distinct from a missing counter-case and worse. Ch. 05's evidence standard — repeat paid revenue
+covering your floor — is unreachable for a consultancy, because the chapter itself says such a
+business does not accumulate on part-time attention. The draft noticed the tension and deferred it
+to "a different chapter's problem", which named no chapter and no chapter owns it. Same class as the
+Part III/SaaS error in §8: an assertion about the book's own structure that nothing checks. Fixed by
+writing the alternative into ch. 05 — signed pipeline at ch. 03's rung two or better, runway counted
+in months of floor to the *payment* rather than the signature, and a bounded experiment carrying
+ch. 04's three components with Galperin's return-to-salary consequence — and by declaring in the
+chapter that **no case in the book supports it.** Reasoning, not evidence. Track it as a debt of its
+own kind: a prescription with no case behind it is thinner than one that merely lacks a counter-case,
+and the register cannot tell them apart because neither produces a failed claim.
+
+**Ch. 01, same review — an overclaim in a single word.** "A worse per-unit economics you can switch
+off is *strictly superior* to a better one you cannot" is inconsistent with ch. 01's own debt, which
+is a search for a case where early fixed commitment won on capacity. If that case exists, variable is
+not dominant in every state, and "strictly superior" claims exactly that. Now "usually worth the
+premium", with the reason stated in the prose. Rule: **words with a technical meaning are claims.**
+Strictly superior, necessary, sufficient, always, proves — the register does not check any of them.
+
+**Named at ch. 11, after it had recurred in ch. 01, 04, 06, 07 and 10: quantifier drift.** The
+diagnosis, in the reviewer's words, is that *"the argument is right, but its sharpest sentences
+occasionally convert a conditional relationship into a universal law."* The mechanism is that the
+most quotable version of a true tendency is usually its absolute form, and the absolute form is
+false. Ch. 11 alone produced six: *the direction it drifts is always the same*; *the honest early
+number is always the disappointing one*; *someone else's payroll passes it*; *the delivery was
+excellent*; *only one of them is yours*; *the worse your outcomes, the more people go quiet*.
+
+**The fix is not hedging.** Hedging everything is the §3 ratchet, and it makes the book unusable.
+The fix is quantifier discipline: keep the sharp sentence and remove the absolute from it. *Always*,
+*only*, *never*, *every*, *nothing*, *proves* — treat each as a claim requiring the same evidence as
+a number. When the true statement is conditional, say the condition; a stated condition is usually
+sharper than the false universal it replaces, because it tells the reader when the rule applies.
+
+Worked example from ch. 11. Draft: *"the direction it drifts is always the same, because the honest
+early number is always the disappointing one."* Corrected: *"No date is intrinsically the honest one.
+The honesty is in choosing it before you have seen the number, and not moving it afterwards."*
+Shorter, true, and more actionable than the version it replaced.
+
+**Ch. 07, same review — a label doing more work than the evidence.** "Owned versus rented" conflates
+two independent axes: whether an effect persists after spending stops, and whether a third party can
+revoke it. The case establishes only the first. You may own an article and not own its rank. Renamed
+to **accumulating versus contemporaneous**; McKenzie's asset/leasing language is kept but attributed
+to him and corrected in the next sentence. The revocability axis belongs to question two of the
+channel test, where it now lives alone. Warning sign to reuse: if a term needs a paragraph explaining
+what it does not mean, the term is wrong, not the paragraph.
+
+**The recurring failure to watch for:** the pull is always to call a nearly-fitting case a
+counter-case, because the alternative is an admission. Three of the four written chapters have done
+it. Check the label against the chapter's *central* advice, clause by clause, not against whatever
+advice the case happens to counter — and if the chapter states a numbered test, score the case
+against every numbered item before claiming a fit.
+
+**Settled: a low hit-rate is acceptable.** Part I complete and ch. 06–07 written, and the honest score
+is **no chapter carrying a counter-case that meets the definition against its own central advice**;
+one (ch. 05) carrying a real counter-case to a subsidiary claim; four `.limit` blocks (03, 04, 06,
+07); and seven recorded debts (01–07). That
+ratio is expected to hold — the device may only be satisfiable in
+something like half the chapters, because failure is under-published. This is **not** a reason to
+loosen the definition later. `.owed` notes are a permanent feature of the book, not a temporary
+embarrassment to be tidied away before publication. A book that shows where it could not find the
+disconfirming evidence is doing something the genre never does.
+
+Structural markup already in `static/style.css`:
+
+- `.decision` — the strip at the top stating the decision in one sentence
+- `.move` + `<span class="num">` — the four sections
+- `.case` / `.counter` / `.aftermath` — green, clay and sage bordered blocks, each with `.case-head > .who`
+- `.owed` — dashed clay note recording a counter-case the chapter does not yet have
+- `.ground` — the `On Dutch ground` section, `id="ground"`, placed after `.reading` and before the chapter nav (moved there 2026-09-12; see §5b)
+- `.figures` — the hard numbers strip inside a case (`.k` label / `.v` value)
+- `.monday` — the action box
+- `.reading` — the sources list
+- `.unverified` — inline mark on any figure not yet checked against a primary source
+
+### Standing constraint: the book must not become a licence to wait
+
+Set 2026-08-02, after ch. 07, and it applies to every remaining chapter including all of Part III.
+
+The reader is forty, has a mortgage, and has been salaried fifteen years. **Their dominant failure
+mode is almost certainly not building the wrong thing. It is never leaving.** And the apparatus this
+book has built — evidence standards, stopping rules, thresholds, four-part tests, debt registers,
+`.limit` blocks, a chapter admitting its own standard is unreachable for consultancies — reads, to a
+cautious person, as a rigorous and well-sourced licence to wait one more quarter, indefinitely.
+
+The risk is created by the book's virtues, not despite them, which is why no reviewer has caught it:
+every review optimises for correctness, and every correction so far has made a claim weaker.
+Note the asymmetry, because it will not fix itself — **a reviewer is never wrong to say "you
+overclaimed", so nothing in the process ever pushes the other way.** Across seven chapters that
+ratchets in one direction: more defensible, less usable.
+
+Three rules follow.
+
+1. **Precision in the claims, confidence in the instructions.** The argument may hedge. The `Monday`
+   list may not. If a `Monday` item ever reads *consider possibly*, the ratchet has gone too far.
+   This is a checkable trip-wire and should be checked when each part closes.
+2. **Every evidence standard needs an expiry.** A threshold with no date is an invitation to wait.
+   Ch. 04 already requires a date; the rest of the book must not state a bar without one.
+3. **Waiting is a decision with a cost, and the book must say so where it bites.** Ch. 05's
+   *"Employed time is not free"* boundary is the only place this currently appears. Part III is where
+   it matters next — the chapters on cash and customer value can each be read as reasons to defer,
+   and each must name what deferring costs.
+
+Not a reason to loosen any claim already corrected. The corrections were right. This is about what
+gets written next, and about noticing when accuracy has started serving the author rather than the
+reader.
+
+
+=== Section 5 ===
+## 5. Sourcing standard
+
+- A figure is quotable if it comes from: a company filing, a court document, a named journalist's reporting in an outlet with corrections policy, or a first-party statement by the company at the time.
+- A founder's later retelling of their own numbers is **weaker** evidence and must be attributed as such in the prose ("by Swinmurn's own account").
+- Round numbers that appear in every blog post about a company are the single biggest contamination risk in this genre. If a figure cannot be traced past the blogs, mark it `unverified` and keep it visible.
+- The reading list distinguishes `source` (where the case facts came from) from further reading (where the reader goes next).
+
+
+=== Section 5b ===
+## 5b. On Dutch ground
+
+Where the answer depends on jurisdiction, the chapter carries a boxed `<div class="ground" id="ground">` — the
+general argument stays portable, the local specifics stay quarantined, and neither rots the other.
+
+**Placement (decided 2026-09-12, after readers 13–28).** The section sits at the *end* of the
+chapter, after `.reading` and before the chapter nav — not inside a Move and not before Monday.
+The argument keeps exactly one English sentence at the point where the law bites, saying that the
+question exists and linking to `#ground`; Monday items may point there but must not import the
+rule. The section's opener says who it is for ("This section is for readers employing in the
+Netherlands…") rather than "skip to Monday", since there is nothing below it to skip to. Inside the
+section, refer to it as "this section", and to another chapter's as "chapter N's Dutch-ground
+section" with an `#ground` link. Reason: sixty-four persona reads split three-to-one on the boxes
+as untranslated interruption, and "skip to Monday" failed wherever Monday quoted the rule again;
+the one reader who valued the box as protection is served by the in-place sentence. A single
+appendix page was rejected so that the checked date and sources stay with the chapter they cover
+and the claim checks stay chapter-scoped. `checks/structure.py` excludes the section from the body
+word count, as it does the reading list.
+
+Rules, all of them non-negotiable because this is the part of the book most able to cause real harm:
+
+- **Never state Dutch law from memory.** Every claim in a ground box is sourced to a government or
+  official body — rijksoverheid.nl, KVK, Belastingdienst, UWV, wetten.overheid.nl, Rechtspraak.nl —
+  and added to `checks/claims.tsv` like any other figure.
+- **Date every box.** Rules move. Each box ends with a "checked" line carrying the date and the
+  source, so a reader in two years knows exactly how stale it is.
+- **Say who to ask.** The box's job is to tell the reader that a question exists and is expensive,
+  not to answer it definitively. Every box names the professional — accountant, employment lawyer,
+  notaris — whose job this actually is.
+- **No tax planning.** Structures, deductions and thresholds get named as things to ask about, never
+  recommended.
+
+Subjects known to need boxes, by chapter: side activities and non-compete clauses while still
+employed, and what resigning does to unemployment entitlement (05); VAT on invoices and whether you
+quote inclusive (09); payment terms and late payment (13); owner remuneration where the tax
+authority sets expectations for director-shareholders (15); the employee-versus-contractor
+distinction and its enforcement (19); ending an employment, notice, and severance (20); liability,
+professional indemnity insurance, standard terms, and who owns code written by an employee (24);
+how to wind up cleanly (28).
+
+The 🇳🇱 mark in the register below flags chapters that need one.
+
+**Ch. 15 is the highest-risk box in the book and is written under a stricter process**, set out in
+§6f: claim rows before prose, nothing derived, two independent primary sources for the operative
+number, and claims treated as gating rather than advisory. The general rules above are the floor;
+§6f is what ch. 15 actually has to clear.
+
+
+=== Section 6b ===
+## 6b. Case ledger
+
+Five fields per case. The first four are written **when the case is first used** and consulted before
+it is reused; **Spent** is updated after publication so a later chapter knows which evidence and
+interpretive work it would be repeating rather than inheriting.
+
+**What "spent" means — corrected at ch. 14, after the field was misread.** A case is spent when it
+has already carried **the same inference**, not when it has merely appeared. Reading it the loose way
+retires a business the first time it is used and throws away the book's own recurring-cast principle
+in §7. Cydoc is the instance that exposed this: ch. 04 used it to show that impressive validation
+milestones can keep satisfying a badly written stopping rule, and ch. 14 returns to answer the
+economic question ch. 04 deliberately left open. Same evidence, a different question asked of it —
+which is continuity, not repetition. The test to apply before declaring a case spent: *name the
+inference the earlier chapter drew.* If the new chapter draws a different one, the case is available.
+Working-file only — none of this is reader-facing, which is the point: it constrains interpretation
+without adding another qualification to the prose. *Prohibited claim* is the load-bearing field; it
+is what would have caught ch. 04's "did exactly what this chapter asks" and ch. 06's backwards
+causal arrow, both of which passed every claim row.
+
+### Webvan — ch. 01
+- **Facts.** SEC filings: capital raised, distribution centres planned and built, losses, the
+  capacity committed before the demand existed.
+- **Permitted.** Fixed capacity committed ahead of demonstrated demand can destroy a company, and
+  the size of the commitment can outrun the evidence for it.
+- **Confounders.** The dot-com collapse and the closing of capital markets; grocery margins;
+  management. The filings evidence commitments, not causation.
+- **Prohibited.** Never that fixed investment is wrong in general. Never that variable is *strictly
+  superior* — the word was corrected for exactly this reason. Never as a decision the reader faces:
+  the scale is unreachable and that is why the case budget exists.
+- **Spent.** Ch. 01 used the centre sizing, capacity commitments, demand shortfall, losses and the
+  Instacart comparison. No later use is reserved; returning requires a different decision and new
+  evidence rather than another tour of the collapse.
+
+### Everpix — ch. 02
+- **Facts.** Survey results (12.1% would-pay against 11.9% for the free framing), paid-versus-organic
+  conversion, the financials and timeline in the published post-mortem.
+- **Permitted.** Stated intent barely moved when a price was introduced; a survey of intention did
+  not predict behaviour.
+- **Confounders.** The company had funding, distribution and product problems simultaneously. Nobody
+  there ran the chapter's five extractions.
+- **Prohibited.** Never that the five questions would have saved them. The chapter says this in its
+  own text — *"tests the diagnosis, not the cure"* — and that sentence must survive any future edit.
+- **Spent.** Ch. 02 used the survey framing, paid-versus-organic conversion and the shutdown
+  financials. Nothing in the current file evidences that the chapter's interview method was tried;
+  a later use cannot turn the post-mortem into evidence for the cure.
+
+### Studio Neat — ch. 03 and ch. 09; ch. 11 only with new evidence
+- **Facts.** Five campaigns with goals, totals, backers and delivery; the prototype rule; the
+  eighty-five minutes after the Daring Fireball link. For the Cosmonaut: a $50,000 goal and 3,000
+  pay-what-you-want slots; all slots taken in forty-eight hours while the campaign remained about
+  $5,000 short; new unlimited tiers opened; $134,236 pledged by 6,192 backers; delivery slipped from
+  June to December. Studio Neat's later cost account names Kickstarter's 5%, payment processing at
+  about 3%, about 5% dropped backers, underestimated international shipping, and fulfilment at about
+  $2 an item before packing materials, postage and storage.
+- **Permitted.** A non-refundable payment before the thing exists is obtainable, informative and
+  survivable. At ch. 09: buyer enthusiasm and buyer choice do not by themselves produce a price
+  that carries the seller's costs and promises; a price is a testable commercial proposal, and
+  gross pledges are not profit.
+- **Confounders.** The Daring Fireball link is a distribution event, not a demand measurement. Two
+  designers with an existing audience. The Cosmonaut ran inside Kickstarter's all-or-nothing,
+  deadline-bound and socially visible mechanics; generosity and cross-subsidy were part of the
+  experiment; press, the added tiers and time all moved together.
+- **Prohibited.** Never that the five-rung sequence is validated — the case supports one rung. At
+  ch. 09, never that Studio Neat used value-based rather than cost-plus pricing; never that opening
+  new tiers alone caused the final total; never treat the average pledge as a willingness-to-pay
+  distribution; never treat $134,236 pledged as revenue or profit.
+- **Spent.** Ch. 03 used the five-campaign table, the Glif launch and distribution event, the
+  prototype rule and delivery evidence. Ch. 09 used the Cosmonaut goal, slots, forty-eight-hour
+  shortfall, added tiers, final pledges, fees, failed payments, shipping surprise, fulfilment cost
+  and June-to-December slip. **The current Studio Neat source contains no evidence of repeat
+  purchase, renewal, retention or referral.** Ch. 11 therefore needs a separate first-party Studio
+  Neat record that supplies one of those, or a different case; the earmark is not evidence.
+
+### Cydoc / Draelos — ch. 04, returning as the case in ch. 14
+
+Written retrospectively at ch. 14: the case predates this ledger, which is itself a finding — the
+four fields would have been written when Cydoc was first used had §6b existed, and reconstructing
+them afterwards is harder than writing them at the time.
+
+- **Facts.** All from `draelos-2026`, the founder's own shutdown post-mortem, and all already
+  registered and passing under ch. 04: seven years, April 2018 to August 2025; a $35,000 annual
+  MD/PhD stipend; $265,000 raised from family, friends and physicians; over 35 VC firms uninterested
+  in a solo founder without revenue; four paying customers, acquired one each by cold call, cold
+  email, a warm intro and a consulting network; four-figure recurring and five-figure custom
+  development revenue; two US patents; 11 minutes saved per visit; customers wanting to pay fewer
+  than $100 per month; about $70 per doctor in monthly hosting and AI cost; an EHR integration at
+  around $4,000 to $6,000; an estimated 11 years per practice just to break even.
+- **Permitted.** Ch. 04: validation milestones can keep satisfying a badly written stopping rule.
+  Ch. 14, the different inference: a sale can be real and the customer still not worth having, once
+  customer-specific delivery and setup cost and the time to recover them are counted.
+- **Confounders.** Healthcare software carries integration costs most businesses do not, and a
+  regulated buyer with a long cycle. The founder was simultaneously in an MD/PhD programme, so
+  founder time was constrained in a way the reader's may not be. Every figure is the founder's own
+  and unaudited.
+- **Prohibited.** Never that the eleven-year payback is a computed or audited figure — it is
+  Draelos's estimate from her own costs, and the prose must say so. Never a retention, churn,
+  expansion or lifetime conclusion: **four customers cannot establish any of them**, and the absence
+  is the chapter's point rather than a gap to fill. Never a customer acquisition cost — none is
+  published, so the record's acquisition-spend field is demonstrated with the reader's numbers, not
+  Cydoc's. Never that health AI was doomed; the chapter is about a specific arithmetic, not a sector.
+- **Spent.** Ch. 04 took the stopping rule, the milestones, the stipend and raise, the VC refusals
+  and the too-late customer conversations. Ch. 14 takes the price ceiling, the per-doctor service
+  cost, the integration cost, the eleven-year estimate and the four acquisition channels. After
+  ch. 14 the case is genuinely exhausted: a third use would need evidence outside this post-mortem.
+
+### Gymdesk / Galperin — ch. 04, ch. 05
+- **Facts.** Six months of runway; three years to full time; $10k MRR by end of 2018; full time June
+  2019; four days a week.
+- **Permitted.** A stopping rule needs consequences short of demolition. A failed threshold can mean
+  return-to-salary rather than stop.
+- **Confounders.** He improvised; there was no written consequence; the account is retrospective.
+- **Prohibited.** Never that choosing the consequence *in advance* was necessary. Four review passes
+  landed on that wording; do not let it drift back.
+- **Spent.** Ch. 04 used the six-month runway and improvised return-to-salary consequence. Ch. 05
+  used the three-year path to full time, $10k MRR, June 2019 transition and four-day week. No further
+  use is reserved.
+
+### Bingo Card Creator / McKenzie — ch. 05, ch. 07
+- **Facts.** Revenue and hours; traffic, channel split and conversion for 2009 and 2010; $3,000 of
+  writing to $30,000 of sales; Appointment Reminder's six-month figures.
+- **Permitted.** Content that ranks accumulates while paid traffic does not. A growing channel
+  dilutes conversion. A business that accumulates part-time can fund a resignation.
+- **Confounders.** 2008–2010 search conditions; a consumer long tail with enormous volume; he was
+  twenty-six with no dependents when the engine was built.
+- **Prohibited.** Never that the tactic works now — the chapter says it is closed. Never that
+  distribution skill transfers across markets. And AR must not be used the other way either: it does
+  not prove the skill *cannot* transfer, because he did not run the playbook and says so.
+- **Spent.** Ch. 05 used Bingo Card Creator's revenue, hours and part-time accumulation to support
+  the exit decision. Ch. 07 used its traffic, channel split, conversion and writing economics, then
+  spent Appointment Reminder's six-month figures on the transfer limit. A future ch. 17 return must
+  source operational bottleneck evidence rather than reuse the revenue-and-traffic story.
+
+### Plausible — ch. 06
+- **Facts.** Month-by-month MRR; the dates; the five changes of March 2020; the positioning sentence;
+  the Product Hunt numbers.
+- **Permitted.** A positioning statement can bind scattered choices into constraints. Refusals have
+  costs that can be named.
+- **Confounders.** Five simultaneous changes, plus a marketing specialist joining the same month.
+- **Prohibited.** Never a return-on-positioning figure. Never that positioning caused the
+  acceleration. The model predated the statement — see §8.
+- **Spent.** Ch. 06 used the complete MRR ladder, the five simultaneous March changes, the
+  positioning sentence and Product Hunt limit. No later use is reserved.
+
+### ConvertKit / Barry — ch. 08
+- **Facts.** MRR through the failure and the recovery; $1,207 bottom; a hundred emails to 5–7
+  customers; migrated-account churn 1.5% against 5.5%; the January fortnight.
+- **Permitted.** Asking returns reasons that no analytics package can. A single load-bearing
+  objection can be found by asking and removed. Founder-run selling need not survive the founder's
+  absence.
+- **Confounders.** Repositioned and started selling in the same fortnight. A $50,000 injection, book
+  income of $15–25k a month, and a developer hired.
+- **Prohibited.** Never that the recovery was caused by selling alone. Never that direct sales
+  scales — his own claim, and his own contemporaneous account contradicts it.
+- **Spent.** Ch. 08 used the failure-and-recovery MRR ladder, the hundred-email conversion,
+  positioning/sales confound, migration objection and churn, cash injection and Thailand fortnight.
+  No later use is reserved; another ConvertKit chapter would need evidence outside this recovery.
+
+### WP Curve — ch. 10
+- **Facts.** Launched 26 June 2013 against a $476 base from Norris's previous business, Informly;
+  within a week the combined total was $952. July grew 70% and covered costs. Revenue reporting was
+  suspended in July on advice and resumed in November. October: 64 recurring customers at the start,
+  59 added, 123 at the end, 88% revenue growth, against a previous best signup month of 13. About
+  fifty conversations with web agencies produced no traction and the agency offering was removed.
+  November: 155 customers, $8,371 MRR, 35% growth. December: 178 customers, $9,812 MRR, $188 short
+  of the $10,000 target, a $117,744 run rate, against a 10% monthly growth target. The customers
+  cancelling inside their first month were blogs rather than businesses, at a $69 price.
+- **Permitted.** Acquisition can be wholly non-viral and won one customer at a time. Delivering to
+  early customers can identify an entire segment that should never have been sold to. The same
+  finding can arrive twice by two different instruments — once from selling, once from delivering.
+- **Confounders.** **The MRR and customer figures are company-wide, not WP Curve's.** Informly,
+  Content Club and ConvertPress ran alongside it; the pre-June $476 is Informly alone. The series
+  also has a self-selected hole: no revenue was published from July to October. And the founders had
+  mentor and audience access — Hiten Shah, Noah Kagan, Danny Iny, John Lee Dumas — which is not the
+  reader's starting position and supplied several of the early customers.
+- **Prohibited.** Never that the MRR ladder is WP Curve's own revenue. **Never a churn or retention
+  conclusion** — retention is ch. 11's, and the December cancellation material may be used here only
+  as evidence that a segment was mis-acquired, not as evidence about retention. Never that the
+  week-one customer count is sourced: it is division, and conditional on Informly being flat.
+  Never that ten customers are sufficient evidence to drop a segment: ten is a review point, while
+  WP Curve's decisions arrived after roughly fifty conversations and more than 150 customers.
+  **Repeatable by this owner next month is not the same as delegable to staff.** The latter belongs
+  to Part IV.
+- **Spent.** ch. 10 takes the launch date, the week-one doubling, the customer counts, the agency
+  removal, the blogger discovery and the MRR ladder. **Ch. 14 returns for the segment contrast only**
+  — one $69 price producing different relationships, bloggers leaving inside the month while business
+  owners stayed — which is a different inference from ch. 10's (that a segment was mis-acquired):
+  ch. 14's point is that averaging across those customers destroys the information. Permitted under
+  the corrected spent-test above. The Prohibited field still governs, and rules out exactly what
+  ch. 14 might be tempted by: **WP Curve can never supply a customer-value number**, because the
+  revenue is company-wide, the customer totals are not cleanly isolated, and delivery cost was never
+  published. Contrast and boundary, never the calculation.
+
+### Turing School (CIRR outcomes reports) — ch. 11
+- **Facts.** 2016 H1, all programmes: 86 enrolled against a 210-day published length; 67.95%
+  graduated on time, 80.77% within 150%; 83.10% employed full-time in-field at 180 days, of which
+  5.63% were hired by the school itself. 2019 H1 Back End: 67 graduates, 60.2% on time, 79.5% within
+  150%, 80.6% employed in-field at 180 days, 9.0% still seeking, 7.5% could not contact, median pay
+  $75,000. 2020 H1 Back End: 61.4% on time, 87.5% within 150%, 63.1% employed in-field, 26.2% still
+  seeking, 7.7% could not contact, median pay $75,000.
+- **Permitted.** Paying, finishing and getting the promised result are three different populations. A
+  business can hold its delivery constant and watch the outcome move. A reporting standard written by
+  someone other than the seller produces categories the seller would not have volunteered.
+- **Confounders.** **The bases differ: 2016 counts enrolled students, 2019 and 2020 count "graduates
+  included in report".** 2019 and 2020 are Back End only; 2016 is all programmes. The 2020 fall
+  coincides with the pandemic labour market, which the report does not isolate and this book cannot.
+  And *could not contact* is not a neutral category — it plausibly conceals worse outcomes than the
+  ones recorded.
+- **Prohibited.** Never that the three reports form a trend line — different bases, different
+  programmes. Never that the pandemic caused the 2020 fall; the report does not say so. Never that
+  these figures describe bootcamps generally, or that Turing is representative of anything but itself.
+- **Spent.** ch. 11 takes the graduation figures, the 180-day employment breakdown, the
+  could-not-contact category and the school-hired disclosure. Nothing reserved.
+
+### Pinboard / Cegłowski — ch. 16
+- **Facts.** Eleven anniversary posts, 2010–2020. Revenue (K$): 117, 178, 181, 175, 193, 160, 234,
+  **259**, 253, 222, 212. Funding: zero in every year. Running costs about $17K (2016). Active users
+  24K (2016), 29K (2017), 21K (2019), 19K (2020) — **2018 blank in the published table**. Revenue was
+  added to the table in 2016, stated reason: no longer afraid of competitors, and to encourage a
+  *"one- or zero-person business"*. 2017: a year of travel, support email ignored *"for weeks at a
+  time"*, then a *"reverse sabbatical"*.
+- **Permitted.** That a sufficiency number can be named, met and published. That a flat line means
+  different things at different times and looks identical. That the interval between reaching enough
+  and noticing decline can be years.
+- **Confounders.** The owner's own: annual subscriptions introduced in 2015 depress that year and
+  lift 2016 as first renewals fall due, so the revenue row moves on pricing mechanics as well as
+  demand. Also a category with unusually loyal users, one person, no staff, near-zero marginal cost.
+- **Prohibited.** Never that the neglect caused the decline — sequence, not cause; this is ch. 06's
+  arrow error waiting to happen. Never a 2018 user figure. Never that flat revenue is generally a
+  choice: it is cheap at this shape and expensive with payroll or stock.
+- **Spent.** Ch. 16 used the revenue and funding rows end to end, the $17K cost line, the 2014
+  stability argument, and the 2017 travel/sabbatical account. What remains unused: the bookmark,
+  tag, archive and URL rows, the 2017 Delicious acquisition, and the 2020 platform-migration post —
+  enough for a Part IV or V return on maintenance, obsolescence or one-person operational risk.
+
+### The Dutch filing regime (BW2 Titel 9) — ch. 12
+**Not a company case.** Ch. 12 is the book's first chapter anchored on a regime rather than a
+business, decided deliberately: the chapter teaches reading, and the thing worth reading is what the
+statutory accounts contain and omit. Recorded as an exception to the company-cases-first rule in §1,
+not a drift away from it.
+- **Facts.** **Whether you file at all turns on legal form, not size** — RVO/Ondernemersplein:
+  *"De rechtsvorm van uw bedrijf bepaalt of u een jaarrekening moet deponeren."* A bv, nv and
+  co-operative must; an eenmanszaak and an ordinary vof need not. Deadlines: within eight days of
+  adoption and in any event within twelve months of the year end, with no extension available; SBR
+  filing mandatory from financial year 2025. Micro (art. 2:395a): assets ≤ €450,000, turnover
+  ≤ €900,000, fewer than 10 employees — the article body still reads €350,000 and €700,000, with the
+  uprating carried as an editorial note from 13 March 2024. Small (art. 2:396): ≤ €7,500,000, ≤ €15,000,000, fewer than 50. Medium (art. 2:397):
+  ≤ €25,000,000, ≤ €50,000,000, fewer than 250. Art. 2:396 lid 8 limits publication for a small
+  company to a restricted balance sheet and the notes. Art. 2:394 lid 1 requires deposit at the
+  handelsregister within eight days of adoption.
+- **Permitted.** What a small Dutch company must publish contains no profit-and-loss account. The
+  published set is a disclosure to creditors, not a management instrument.
+- **Confounders.** **The statute governs publication, not preparation.** A company still prepares a
+  P&L and still files one with the tax authority; what is exempted is putting it on the public
+  record. The 2024 uprating appears as an editorial insertion in the consolidated text rather than in
+  the article body.
+- **Prohibited.** **Never that every small business files accounts** — this was the draft's largest
+  scope error and it excluded much of the audience. Sole traders publish nothing. **Never that a
+  small company need not produce a profit-and-loss account** — only
+  that it need not publish one; conflating the two would be a serious error with practical
+  consequences for a reader. Never that other jurisdictions work this way without a source for each.
+  Never that the regime is designed against the owner: it is designed for creditors and does that
+  job.
+- **Spent.** ch. 12 takes the size thresholds, art. 396 lid 8 and art. 394 lid 1. Ch. 13 and ch. 15
+  may cite the same statute for different articles; this entry does not reserve them.
+
+### Instacart's S-1, second use — ch. 13
+Permitted return under the ch. 01 ledger's terms: **a different decision and new evidence.** Ch. 01
+used it as an `.aftermath` on scale and timing of the model; ch. 13 uses its cash flow statement to
+teach a mechanism, on claim rows that ch. 01 never touched.
+- **Facts.** 2022: operating cash of $277m against net income of $428m, the difference being $275m of
+  non-cash items — of which a $358m tax benefit from releasing a US deferred-tax valuation allowance.
+  Six months to June 2022: a **net loss of $74m alongside $99m of operating cash**. Six months to June
+  2023: net income $242m and operating cash $242m. The company attributes the swings to *"timing of
+  collection of accounts receivable"* and *"timing of vendor payments"* in its own words.
+- **Permitted.** Reported profit and operating cash are different measures that can diverge in either
+  direction. A loss period can generate cash; a profitable one can consume it. Non-cash accounting
+  entries can dominate a reported profit.
+- **Confounders.** This is a very large business with negotiating power over its payment terms; the
+  reader has the opposite. The direction and size of the gap here say nothing about the direction and
+  size at €200k of revenue. And the valuation-allowance release is a US tax mechanism, not a general
+  feature of profit.
+- **Prohibited.** **Never treat operating cash flow as the bank balance** — the draft did, writing
+  that a loss period meant "the bank balance rose", which does not follow: what the balance then did
+  depends on investing and financing activity on other lines. Three quantities, not two: profit,
+  operating cash, and the change in the balance. Never that profit systematically overstates cash — the H1 2022 figures show the
+  reverse in the same document. Never that a reader's gap will resemble Instacart's. Never any
+  inference about Instacart's business quality; the chapter uses the statement, not the company.
+- **Spent.** ch. 13 takes the three period comparisons, the valuation-allowance benefit and the two
+  timing quotations. Nothing reserved.
+
+### Ledger additions from the Part IV–V drafting, 2026-08-28
+
+Written after ch. 19–28 were drafted and craft-reviewed in one day; each entry records only what
+its chapter actually spent, so a later return has something to test against.
+
+- **Gymdesk / Galperin — spent, continued.** Ch. 19 spent `galperin-2023-covid`'s hiring paragraphs
+  *and* one sentence on the 2020 churn plus the end-2020 $19.5k figure (the §6i ch. 26 entry's
+  claim that ch. 19 "never touched" the churn is wrong; corrected here). Ch. 26 spent the pre-shock
+  quarter, freeze-or-cancel, the feature list, the June stabilisation sentence, the 2021 and 2022
+  context sentences and the "I strongly believe" reading. Ch. 28 spent `eg-binpress-2016` — a
+  different company, sixth Galperin appearance, named in the chapter's Reading. **Nothing further is
+  reserved; the cast has carried him as far as it should.**
+- **Groove / Turnbull — ch. 20, ch. 21.** Facts: `groove-fire-2015` (nearly 40% of the launch team
+  turned over in three years; 2–4-week paid trial as "a paid consulting gig"; feedback during, in
+  writing; team and candidate input; the forcing function) and `groove-meetings-2016` (four rhythms;
+  9-person 45-minute meetings; the coach's video, nearly 20 people under 7 minutes, attributed two
+  layers deep; owner, clocked segments, same skeleton). Permitted: a date set in advance substitutes
+  for willpower; structure, not fewer meetings. Prohibited: never the at-will country (unsourced);
+  never that the standup "went from 45 to 10" (not on the page); never Groove's minute counts as a
+  template. Recognisability budget closed at 5.0 of 5 (ch. 21 entry) — no further use.
+- **WP Curve — ch. 23 spent.** `wpc-jun-2014`: the target and June figures, 15 people, hiring every
+  two weeks *at* the rate of growth (not ahead — "we don't want to grow faster"), the first hire by
+  another team member with founders at key intervals, the delegated list, "not a lot to do" and
+  Alex's aside, Happy % 96→82 with Norris's reasons and no arrow to the team. Prohibited: never that
+  WP Curve hired ahead of need; never the 15:$23,535 ratio as a benchmark; never the Happy % drop
+  attributed to growth.
+- **ConvertKit — ch. 22 spent.** `nb-metrics-2019` end to end. Prohibited: never "three" in Barry's
+  mouth; never the annual-plan push as "the business not changing"; never a discount as a lever that
+  flatters net revenue churn (it raises it); never Barry's 0% goal used against him.
+- **Studio Neat — ch. 25 spent.** "A Word on Patents" from `sn-howto`. Prohibited: never an order
+  between the decision and the imitations; never the brand bet as a result; never the US-law
+  reading as law anywhere.
+- **Black Hops / Norris — ch. 27 (new company).** Facts: `bh-ceo-2023`, `bh-loss-2023` as
+  registered; identity with WP Curve's Norris confirmed from `dannorris-site-2026` (page title only).
+  Permitted: a clean handover and a market price can coexist with books nobody read from outside.
+  Confounders: COVID comparison year, industry-wide input inflation, the valuation is the company's
+  own offer price, the new manager is a party. Prohibited: never that the departure caused the loss;
+  never the 2024/2026 administration headlines (unsourced, unused); never $67m as worth.
+- **Binpress / Galperin — ch. 28 (new company).** Facts as registered. Permitted: exhausted options
+  as a date; the order of an orderly stop (whole, parts, who is owed, filing). Prohibited: never that
+  the stop was planned in advance; never an investor-recovery figure; never the ~$1M raise as the
+  reader's position.
+- **Statute reuse.** `bw7-2026` at ch. 19 (610, 610a) and ch. 20 (652, 669, 671, 671a, 671b, 672,
+  673); `bw6-2026` at ch. 24 (233, 234, 235, 247); `auteurswet-2026` at ch. 24 (1, 2, 7); new
+  `rijks-schijnzelfstandigheid-2026` at ch. 19; `kvk-eenmanszaak-2026` and `kvk-turboliquidatie-2026`
+  at ch. 28. Each box quotes; none derives.
+
+
+=== Section 6x (Ch 20) ===
+### Ch. 20 — Managing People 🇳🇱
+
+**Status: has a case.**
+
+**Candidate.** Groove (GrooveHQ), the shared-inbox/helpdesk SaaS founded by Alex Turnbull — a
+**new company for the recurring cast**, not a return of Gymdesk or Bingo Card Creator. Source:
+"Firing: How I Do the Hardest Thing as an Entrepreneur" (groovehq.com, published 2015-01-29,
+archived by the Internet Archive 2015-03-16; the live domain now serves a 2026-dated rebrand,
+"Helply," and the original blog is gone — checked, not assumed: the live URL 404s and the CDX record
+for the whole `groovehq.com/blog/*` path was pulled to confirm the archive is the only copy). Groove
+was three years old and self-funded-to-VC-backed at the time of writing (the chapter would frame it
+at the reader's stage-of-company, not its later size); the post is Turnbull's own, first-party,
+contemporaneous account of hiring and firing practice, not a retrospective written years later.
+
+**Why not a fourth Gymdesk chapter.** Gymdesk/Galperin has now carried ch. 04, ch. 05, ch. 18 and
+ch. 19 — two of those in immediate succession. §7's own recurring-cast rule says two of five chapters
+with no fresh sourcing is "the point at which a cast stops reading as continuity and starts reading
+as a shortage of research"; a fifth use, back-to-back with the fourth, would cross that line for real
+rather than as a figure of speech. A new company was actively sought for this reason, not merely
+found by default.
+
+**What this chapter would use it for.** The post is not a general theory of management; it is one
+founder's account of two specific mechanisms, offered because they are what he actually changed after
+"screwing up plenty of times." First: a non-negotiable 2-4 week paid trial for every hire, at every
+level, before any permanent offer — explicitly a **forcing function**, in his words, that makes the
+difficult go/no-go conversation happen on a schedule rather than being deferred indefinitely. Second:
+direct, honest feedback given *during* the trial, as often as daily, and logged in writing, because
+waiting until the trial's end to say anything "helped nobody" — his own correction of his own earlier
+practice. The trial's evaluation draws on more than the founder's own judgement: teammates who work
+closely with the new hire, and the new hire's own stated assessment of fit, both feed the decision.
+The chapter's other load-bearing fact is a turnover figure offered without being asked for social
+credit: Groove "turned over nearly 40% of the team we launched with" in its first three years — on a
+small team, a large fraction, and Turnbull's stated reason is his *own* hesitation to fire promptly,
+not the hires' quality: every person let go, he says, "has been more than qualified to do the job."
+That reframes "managing people" away from screening for competence (ch. 19's territory, and hiring
+generally) and onto a distinct, later failure mode: knowing a fit is wrong and delaying the
+conversation anyway, at a cost the post itemises as slower milestones, reduced team productivity from
+unhappy colleagues, and the founder's own productivity lost to "trying to force a fit where there was
+none."
+
+**Primary documents and evidence class (§5).**
+- `groove-fire-2015` — groovehq.com via web.archive.org, published 2015-01-29, archived 2015-03-16,
+  consulted 2026-08-06. First-party, but a founder's own account of his own company: §5's **weaker**
+  class, attributed in the prose as "by Turnbull's own account," on the same footing as every
+  Galperin post already in the book. Not audited, not independently verified. The turnover figure is
+  round ("nearly 40%") and self-reported — flagged here so the eventual draft does not present it with
+  false precision.
+- `bw7-2026` — Burgerlijk Wetboek Boek 7, arts. 669, 671, 672 and 673,
+  `wetten.overheid.nl/BWBR0005290/2026-01-01`, consulted 2026-08-06. **Not a new source** — already
+  registered at ch. 05 and reused at ch. 19 for different articles, which needs no new ledger entry
+  per §6b. This is the chapter's ground-box content, and it is what makes ch. 20 the second of the
+  four Dutch-legal chapters the epic names: §5b's subject list assigns ch. 20 "ending an employment,
+  notice, and severance," confirmed directly against the file rather than assumed from the task
+  description. Art. 669 lid 1 sets the general rule the reader needs before anything else: dismissal
+  requires a `redelijke grond` (reasonable ground) *and* a finding that redeployment to another
+  suitable role, within a reasonable period, is not possible or not sensible — there is no
+  at-will dismissal in this jurisdiction, ever, for any reason, which is the single most important
+  fact for a reader whose only frame of reference may be US practice. Art. 669 lid 3 onderdeel d
+  supplies the ground that speaks directly to "performance problems": unsuitability for the role,
+  *other than through illness*, provided the employer notified the employee of this **in good time**
+  and gave them a **real opportunity to improve** — a documented improvement process is not best
+  practice under Dutch law, it is close to a precondition for the ground being available at all. Art.
+  672 lid 2 gives the statutory notice-period ladder an employer must observe (one month under five
+  years of service, rising to four months at fifteen years or more). Art. 673 lid 2 and lid 3 give the
+  transitievergoeding (statutory severance) formula — one third of a month's salary per year of
+  service — and its current cap, €102.000 or twelve months' salary if higher.
+- **Not pursued.** A Belastingdienst or Rijksoverheid page on how dismissal grounds are actually
+  assessed by the UWV or the kantonrechter in practice (case volumes, how often each `redelijke grond`
+  succeeds) was not searched for — out of this task's time box, and arguably out of scope for a box
+  whose job, per §5b and the stricter ch. 15/19 process, is to quote the statute and stop rather than
+  to survey enforcement. Flagged for whoever settles this chapter under §6f, as ch. 19's entry flagged
+  the equivalent gap for the employee/contractor test.
+
+**The unspent inference (§6b — new case, so this records the inference for future use rather than
+testing it against a prior entry).** No earlier chapter has used Groove. The inference this source
+supports — that the harm in "managing people" badly is not misjudging who to hire but delaying the
+conversation once the judgement is already made, and that a scheduled forcing function (the trial
+period) substitutes for the willpower a founder does not reliably have in the moment — is distinct
+from ch. 18's inference (documentation transfers operational knowledge) and ch. 19's (the
+contractor/employee threshold is a decision made at a specific, nameable moment). If Groove returns
+in a later chapter, the fact to record here for that test is: this entry took the trial-period
+mechanism, the during-trial feedback practice, and the three-year turnover figure. Nothing else in
+the post — its hiring-channel material (WeWorkRemotely, referrals from the blog itself), its account
+of remote-work skill, or its later Q&A material on hiring junior developers — has been drawn on, and
+would be available to a future ch. 19-adjacent hiring chapter without re-litigating this one, subject
+to the "name the inference" test.
+
+**Scale note (§7).** Groove is not famous — it never reached the scale that would put it outside the
+reader's plausible future — but it is **recognisable** to the same bootstrapper/indie-SaaS audience
+that already knows Plausible, ConvertKit and Pinboard, on the strength of its own "path to $500k MRR"
+open-revenue blog series (visible in this very post's own sidebar). Under the distinction §7 draws at
+ch. 06, that charges **another half-slot** against the four-or-five-chapter recognisability budget.
+Running total after ch. 16 was three and a half of four or five; this entry brings it to **four of
+four or five**, with eight chapters remaining after ch. 20. Whoever settles ch. 20 under §6f should
+treat this as close to the ceiling: at most one more recognisable business fits inside the stated
+budget for the rest of the book, and Parts IV and V were supposed to lean into businesses nobody has
+heard of. This entry is made anyway because the alternative — a fifth consecutive Gymdesk chapter, or
+no case at all for a chapter the epic marks as carrying actionable legal content — is worse than the
+recognisability cost; but the tradeoff should be named at settlement, not discovered there.
+
+**Domain-competence declaration (§8).** This is one of the four chapters the epic names as carrying
+Dutch legal content a reader can act on and be harmed by, and needs the ch. 15/19 stricter process at
+settlement. The competence risk is not the statute's plain words — arts. 669, 671, 672 and 673 were
+read directly from the consolidated text, not summarised from memory or a law firm's blog — it is
+**conflating the American and Dutch defaults.** The Groove case is entirely a US at-will-adjacent
+practice (trial periods as internal culture, not law) and must not be allowed to leak into the ground
+box's account of what Dutch law requires, or vice versa: the box must not imply that a Dutch employer
+can replicate Turnbull's "fire quickly, on my own judgement" model, because art. 669 lid 1 forecloses
+exactly that outside a short statutory proeftijd. The second risk, specific to this chapter, is
+presenting the transitievergoeding as a penalty for firing badly rather than what art. 673 actually
+makes it: a payment owed on dismissal initiated by the employer *for any qualifying reason*,
+performance included, provided the ground is valid — it is not a fine for wrongful dismissal, and
+conflating the two would be exactly the kind of overshoot §6f's ch. 15 review caught twice. A chapter
+that reports "you can fire someone for underperformance the way Groove did, you just have to pay
+severance" would still be wrong, because the ground itself — lid 3 onderdeel d's notice-and-real-
+opportunity-to-improve requirement — is a precondition independent of the money. No accounting
+content; the risk is entirely legal-interpretive, and it is larger than ch. 19's because this box
+carries four articles and a live formula with a cap, not two articles and a single presumption.
+
+**Registered.** Three claims against `groove-fire-2015` (the 2-4-week trial as a forcing function, the
+during-trial feedback practice, and the "nearly 40%" turnover figure) and six against `bw7-2026`
+(art. 669 lid 1's reasonable-ground-and-redeployment test, art. 669 lid 3 onderdeel d's notice-and-
+opportunity-to-improve requirement, art. 672 lid 2's notice-period rule and its under-five-years tier,
+and art. 673 lid 2's transitievergoeding formula and its cap), all under `checks/claims.tsv` chapter
+20. `./verify.sh --strict 20` passes all nine.
+
+
+=== Section 8 ===
+## 8. Verification
+
+**Advice, not a gate — for claims.** Claims are checked against documents on other people's servers.
+Drift usually means the source moved, was redesigned or repaginated, not that the book is wrong.
+Failing a build every time a founder rebuilds their blog trains you to ignore the colour red, which
+costs more than it catches. So claim drift is reported loudly and exits 0; `--strict` turns it back
+into a gate when you want one.
+
+**Internal links stay gating.** They are entirely inside this repository, always the author's fault,
+and always fixable. That is what a red build should mean.
+
+The weekly CI run is advisory and writes its report into the job summary rather than failing. The
+risk this accepts is obvious and worth naming: an advisory check that nobody reads is the same as no
+check. The mitigation is that drift is *visible* — in the summary, in colour locally — rather than
+silent. If the book ever ships a citation that has been drifting for months, that is the failure
+mode to blame.
+
+Every figure quoted in the book must appear in a primary source, and the check is mechanical:
+
+```bash
+SEC_UA="you@example.com" ./verify.sh        # all chapters
+./verify.sh 01                              # one chapter
+./verify.sh --links                         # internal links only, no network
+```
+
+`checks/sources.tsv` maps a source id to its URL. `checks/claims.tsv` lists, per chapter, the exact
+string that must appear in that source. `verify.sh` downloads each source into a gitignored
+`.cache/`, strips tags, normalises whitespace, and confirms every string is present. A chapter is
+not `☑` until its claims are in `claims.tsv` and the script passes.
+
+**PDFs.** Added for ch. 02, whose central evidence is three Google Consumer Survey reports and an
+ad-spend deck. A PDF's text lives in compressed streams, so the raw bytes contain none of the words
+on the page and a naive match would report drift on a perfectly good citation. `verify.sh` shells
+out to `pdftotext -layout`; where poppler is missing the claim is reported as **skipped**, never as
+passed, because a check that could not run must not look like a check that ran. CI installs
+`poppler-utils` for this reason. When writing claim rows against a converted PDF, avoid the soft
+hyphens (U+00AD) that Google's reports use for minus signs and en-dashes — they survive conversion
+and will not match a typed `-`.
+
+**Write claims against the filing's own words, not against the prose.** The claim rows are the
+sentences the filing actually contains; the chapter then paraphrases them. This way a rewrite of the
+prose cannot silently break the sourcing, and a claim that fails tells you the filing changed or the
+citation was wrong — never that a sentence got reworded.
+
+### Two kinds of accuracy, and the script only checks one
+
+Added after external review found chapter 4 asserting that Galperin *"did exactly what this chapter
+asks"* while its own next-but-one paragraph said he *"chose a consequence he had not written down in
+advance"* — a direct contradiction, in a block where **every claim row passed and still does**.
+
+| | What it means | What checks it |
+|---|---|---|
+| **Factual** | the numbers, dates and quotations are present in the cited source | `verify.sh`, mechanically |
+| **Interpretive** | the case actually supports the lesson the chapter draws from it | nothing but reading |
+
+The second is where this genre fails, and it is invisible to the tooling by construction. A chapter
+can be assembled entirely from correctly quoted figures and still be wrong about what they show.
+`verify.sh` makes the first kind of error nearly impossible and does nothing whatever about the
+second, which means the tooling's existence is itself a hazard: it produces a feeling of rigour that
+covers half the surface. Say so publicly rather than letting the script imply more than it does.
+
+Two rules follow.
+
+**Score the case against the chapter's own test, clause by clause.** Where a chapter states a
+numbered test — ch. 04's three components, ch. 02's five extractions — write the case against every
+numbered item before claiming it fits. Ch. 04's counter-case met one and a half of three, and nobody
+noticed because every sentence in it was true.
+
+**The error is recursive, and that is the thing to internalise.** Chapter 4's Gymdesk block has now
+been corrected three times, each pass catching a finer-grained version of the same move:
+
+| Pass | The overclaim | What was actually true |
+|---|---|---|
+| 1 | "counter-case: the rule, honoured, would have been wrong" | he never followed the rule |
+| 2 | "did exactly what this chapter asks" | one and a half of three components |
+| 3 | "the pair make the same point: the third component is load-bearing" | the case supports *widening the menu of consequences*; it does not establish **choosing one in advance**, because Galperin improvised and succeeded |
+| 4 | "it says nothing about choosing in advance — if anything it cuts the other way" | **the correction overshot.** It does not show pre-selection was *necessary*, but it does show the mechanism pre-selection guards against, running in real time: with no consequence written down he took the decision under pressure, at the worst moment, as the person least able to take it. Good judgement, not a plan. |
+
+Each fix was honest and each left a smaller instance of itself behind, because the pull is not toward
+one wrong sentence but toward extracting the maximum lesson a case will bear. Pass 4 shows the pull
+also runs backwards: **"the case is silent on this" is itself a claim about the case, and needs the
+same test as "the case proves this."** Over-correction reads as rigour and costs the chapter a real
+piece of evidence.
+
+The countermeasure is mechanical, not moral: **after fixing an overclaim, re-read the corrected
+passage as if it were a stranger's, and ask what the case would have to have done differently for
+the new sentence to be false.** If the answer is "nothing", the sentence is still not saying anything
+about the case — and if the answer is "nothing could make it false because it asserts absence", check
+whether the absence is real.
+
+The settled wording, after four passes: Gymdesk shows that a stopping rule needs consequences short
+of demolition, and that choosing one in advance would have made the rule easier to honour rather than
+renegotiate under pressure. It does not show that choosing in advance was necessary.
+
+Ch. 04 now separates its own component 3 into two claims and marks them differently: *the menu must
+be wider than stop* (demonstrated by Gymdesk) and *you must choose which, in advance* (reasoned from
+the sunk-cost argument, no case behind it, and the chapter says so).
+
+**The hierarchy, and none of the steps is automatic:**
+
+> a true anecdote → a valid case → evidence for the chapter's full prescription
+
+Ch. 02 clears the first two and not the third, and now says so in its own boundaries: Everpix
+supports the *diagnosis* (stated interest is weak, self-selected enthusiasm is a sampling artefact)
+and cannot support the *cure*, because nobody there ran the conversations the chapter recommends.
+Expect this gap often — the diagnosis usually comes from a company that failed, and the cure usually
+has no case at all behind it. Where that is true, say it in the chapter.
+
+### What the first pass caught
+
+Chapter 1 was drafted from web search results that *cited* SEC filings. Pulling the actual documents
+falsified four things, which is a useful calibration on how much of this genre is downstream of
+nobody:
+
+| Drafted | Filing says |
+|---|---|
+| DCs held "around 50,000 product lines" | ~18,000 SKUs at end of 1999 |
+| "$100 million in annual revenue" per centre at capacity | $300 million at designed capacity |
+| "signed a contract with Bechtel… reported at around $1 billion" | Programme *estimated* at ~$1.0bn — and Webvan disclosed **"no obligation… to build any distribution centers and, consequently, no capital commitment"** until it chose to proceed |
+| Bay Area "2,350 orders a day", breakeven "3,300–3,500" | Not disclosed. The filing gives the gap as a percentage: volume needed to rise **"by a minimum of forty percent"** |
+
+The Bechtel correction is the important one. The billion-dollar contract is load-bearing in every
+popular retelling — it is the moral of the story — and the company's own filing says the commitment
+did not exist. That single fact changed the chapter's argument: the trap was not the twenty-six
+warehouses Webvan never built, it was the first one it did.
+
+Keep this table. It is the standing argument for why the book is built this way.
+
+

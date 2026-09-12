@@ -1,0 +1,1708 @@
+Reading additional input from stdin...
+OpenAI Codex v0.154.0
+--------
+workdir: /home/diablo/book4
+model: gpt-5.6-sol
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR]
+reasoning effort: medium
+reasoning summaries: none
+session id: 01a09535-7c50-7481-a0fc-c34de93fd4e7
+--------
+user
+You are the meta-reviewer for a chapter of The Going Concern. Two models reviewed it
+independently against a fixed checklist (scripts/prompts/review-checklist.md). Your job is to be
+adversarial toward THEIR findings, not toward the chapter.
+
+For each finding they report:
+
+1. **Verify it against the repository.** You have shell access at the repo root. Check the finding
+   against CONTEXT.md (the case ledger in §6b, the counter-case/aftermath/limit/owed rules in §3,
+   the sourcing standard in §5 and §5b, the relevant §6x settlement section), and against
+   checks/claims.tsv / checks/sources.tsv where the finding concerns a figure. A reviewer that flags
+   a quantifier as drift without the underlying claim actually being false is reproducing the
+   absolutes checker CONTEXT.md §8 already measured at 29 false positives per chapter and explicitly
+   rejected — drop findings of that shape.
+2. **Drop what does not survive.** Wrong findings cost more than missed ones here, because the
+   author has to spend attention rejecting them.
+3. **Merge duplicates.** If both reviewers found the same problem, that is one finding, and note
+   that both found it independently — independent agreement is a real signal.
+4. **Rank by severity**, most serious first, favouring the categories CONTEXT.md's own record says
+   matter most: a mislabelled case block, a case reused past 'spent,' a backwards causal arrow, a
+   domain-technical error in accounting/tax/law, and a Dutch-ground box that isn't quarantined,
+   dated or sourced.
+
+The book's own §8 measured that 41 of 47 substantive corrections across chapters 01–13 were
+interpretive or domain errors the claim register cannot see, and that the register sat at '0
+drifted' on every one of them. A finding of exactly that shape — the case is real, the quotes are
+real, and the argument built on top of them is still wrong — is the most valuable kind. Weight it
+accordingly.
+
+Output a markdown report:
+
+- **Confirmed findings**, ranked, each with: category, severity, the offending text, what is wrong,
+  the evidence you verified (cite the CONTEXT.md section or claims.tsv row), and a concrete fix.
+- **Rejected findings**, with one line each on why they did not survive.
+- **A closing paragraph** on whether this chapter is publishable as-is, and what the single most
+  important change is.
+
+Be concise. The author reads every word of this. Nothing you write is applied automatically — this
+is a report for a human to accept or reject finding by finding.
+
+## Reviewer A (Gemini 3.7 Flash)
+
+```json
+[]
+```
+
+## Reviewer B (Gemini 3.1 Pro)
+
+```json
+[
+  {
+    "category": "spent-case",
+    "severity": "high",
+    "quote": "Same business, same customers, one decision, three figures swinging on a sales calendar.",
+    "problem": "The text frames the November annual-plan push as a measurement artifact where the underlying business did not change, which directly violates the ledger's explicit prohibition.",
+    "evidence": "CONTEXT.md §6b case ledger for ConvertKit (ch. 22) states in the Prohibited field: \"never the annual-plan push as 'the business not changing'.\"",
+    "fix": "A real change in cash and commitment — one decision — swinging three figures in three different directions on a sales calendar."
+  },
+  {
+    "category": "unsourced-claim",
+    "severity": "medium",
+    "quote": "In January 2019, past a million a month in recurring revenue and with its dashboard open to the public, Nathan Barry wrote a walkthrough of what he actually looks at",
+    "problem": "The chapter relies on a founder's own account of his company's metrics but fails to include the required attribution in the prose.",
+    "evidence": "CONTEXT.md §5 requires the 'by their own account' attribution for founder accounts, and the chapter's own Reading note claims the evidence is 'attributed as such', but the phrase is missing from the text.",
+    "fix": "In January 2019, past a million a month in recurring revenue and with its dashboard open to the public, Nathan Barry wrote a walkthrough, by his own account, of what he actually looks at"
+  }
+]
+```
+
+## The chapter
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>22 · Measuring the Right Three Things — The Going Concern</title>
+<meta name="description" content="A founder walks through the seven numbers he reads on his company's public dashboard. This book takes three of them — movement, loss, concentration — and says why, and then shows, from the same post, how each one bends the moment it becomes a target.">
+<link rel="canonical" href="https://anthonykot.github.io/going-concern/chapters/22-measuring-the-right-three-things.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="The Going Concern">
+<meta property="og:title" content="22 · Measuring the Right Three Things">
+<meta property="og:description" content="Movement, loss, concentration — three numbers someone other than you can read every week — and what happens to each the moment it becomes a target.">
+<meta property="og:url" content="https://anthonykot.github.io/going-concern/chapters/22-measuring-the-right-three-things.html">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../static/style.css">
+<script src="../static/theme.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html">The Going <span>Concern</span></a>
+    <nav class="site-nav">
+      <a href="../index.html">Chapters</a>
+      <a href="../about.html">Method</a>
+      <button class="theme-toggle" type="button">☾ Dark</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <p class="kicker">Part IV · Can it run without you? · Chapter 22</p>
+  <h1>Measuring the Right Three Things</h1>
+  <p class="lede">Thirty seconds of numbers, every morning — that was
+  <a href="21-meetings-that-arent-theater.html">chapter twenty-one</a>'s instruction, and it leaves
+  open which numbers, and who reads them. Not the total. The total is the one figure that tells a person who
+  is not you nothing they can act on. What follows is three numbers underneath it, and the reason
+  each one stops telling the truth the day you start managing to it.</p>
+
+  <div class="decision">
+    <span class="tag">The decision</span>
+    Which three weekly figures the business reads at the morning meeting without you in the room — chosen so that a
+    capable person who did not build the business can tell from them whether it is moving, what it
+    is losing, and how much of it rests on how few customers — and which figures you deliberately
+    leave for a monthly look, so that the weekly three stay readable.
+  </div>
+
+  <section class="move">
+    <h2><span class="num">Move 1</span> The situation</h2>
+
+    <p>You know the number. Last month's takings, this month's so far, the week's cash figure from
+    <a href="12-reading-your-own-business.html">chapter twelve</a> — you can say them without
+    looking, and when someone asks how the business is doing, one of them is the answer. The
+    trouble is that they are answers only to you. You hear a month's total and know, from
+    everything else in your head, that it is fine or that it is not; the person you hired hears the
+    same figure and knows only that it is a number.</p>
+
+    <p>Now that other people are in the business, the figures have to work without the head that
+    used to interpret them. That is a different requirement from knowing your own numbers. A figure
+    that needs you to explain it is one more thing that only you can do, and
+    <a href="17-you-are-the-bottleneck.html">chapter seventeen</a> already ranked those. So the
+    question is not which numbers matter — dozens do — but <strong>which few can be read, weekly,
+    by someone who is not you, and read correctly</strong>. And behind that, quieter: what happens
+    to a number once the people reading it are also the people being judged by it.</p>
+  </section>
+
+  <section class="move">
+    <h2><span class="num">Move 2</span> What actually happened</h2>
+
+    <p>ConvertKit was in this book at <a href="08-asking-for-money.html">chapter eight</a>, at
+    $1,207 a month, its bottom. In January 2019, past a million a month in recurring revenue and
+    with its dashboard open to the public, Nathan Barry wrote a walkthrough of what he actually
+    looks at, because the attention that came with the milestone had brought readers who took the
+    metrics at surface level. What he wrote is a list of the questions he asks of the figures, in
+    order, with the figures attached.</p>
+
+    <p>He starts where everyone does, and immediately moves off it. Monthly recurring revenue is,
+    for him, the most important metric in the business, but its growth is a summary of five
+    movements — new, expansion, reactivation, contraction and churn — so the graph he reads is not
+    the total but the breakout, where the monthly change is <em>"all over the map. From as high as
+    $73,000 net new in March to a couple negative months in the summer."</em></p>
+
+    <p>Then loss, which is not one number. Revenue churn is the share of the revenue base lost in a
+    month; user churn is the share of customers lost. They diverge for a reason he can name:
+    ConvertKit's beginner customers leave more often than its larger ones, so user churn there is
+    always the higher of the two. Then a third version, net revenue churn, which nets upgrades
+    against the losses, and the figure: <em>"At ConvertKit we are at 2.2% net revenue churn."</em>
+    Then the customer count, read the same way as revenue — not the total but the net new each
+    month — and the admission that goes with it, that it is both interesting and depressing to
+    watch so many new accounts arrive each month and be cancelled out by so many leaving.</p>
+
+    <p>Then a ratio, an average, and a split. A quick ratio — new and expansion revenue over
+    churned and contracted — at <em>"1.47, which is fairly low"</em>, though the highest of the
+    three open companies he compares it with, <em>"Buffer at 1.08 and Hubstaff at 1.38"</em>.
+    Average revenue per customer: <em>"Buffer is at $21 per customer and ConvertKit is at $57 per
+    customer."</em> And last, concentration: <em>"we have 20,812 generating $1,188,580 in MRR"</em>,
+    of whom everyone paying more than the base plan is <em>"6,994 customers (33% of the total)
+    generating $811,117 in MRR (68% of the total)"</em> — or, as he puts it the other way round,
+    two thirds of the customers producing a third of the revenue.</p>
+
+    <p>That is seven, and Barry nowhere says fewer would do. The compression that
+    follows is this book's, made on the reader's behalf and for a reason the post supplies: a
+    founder auditing his own dashboard can hold seven; a business that has to run without him
+    cannot. What the post does show is an order. Movement first, loss second, and the rest
+    introduced as refinements of those two — which is the order the next section keeps.</p>
+
+    <p>One more thing in the post is not a metric. Once in it, one event moves three numbers three
+    different ways. Each November ConvertKit pushes annual plans, sold at a discount: net revenue
+    that month climbs <em>"as high as $3 million"</em>, while MRR <em>drops</em>, because the
+    discount is a contraction — and revenue churn spikes with it, then falls again once the
+    annual-plan contraction has moved out of the thirty-day window the figure is computed over.
+    Same business, same customers, one decision, three figures swinging on a sales calendar. And on
+    comparing churn between companies, he recalls reading an S-1 from a company with net negative
+    churn and realising that it did not count any account cancelling in its first ninety days as
+    churn at all — convenient, he says, and no wonder. A number nobody had to falsify. They only
+    had to define it.</p>
+  </section>
+
+  <section class="move">
+    <h2><span class="num">Move 3</span> The reasoning</h2>
+
+    <h3>Movement, loss, concentration</h3>
+
+    <p><strong>Three figures, read weekly by someone other than you: what came in and what went out
+    underneath the total; what you lost, counted as customers and as money separately; and how much
+    of the money rests on how few of the customers.</strong> The ground for choosing these three is what each lets a person who is not you see.</p>
+
+    <p>For a business with no subscriptions — a bakery, a two-partner practice — the three are the same figures under plainer names, this book's translation and not Barry's: what came in against what went out, by week; the regulars who stopped coming, counted as people and as money; and how much of the month rests on the three largest accounts.</p>
+
+    <p><em>Movement</em> is the total taken apart. The total says the month was up; the breakout
+    says whether it was up because new customers came or because old ones spent more, and whether
+    the quiet loss underneath was small or merely covered. Barry's summer had negative months
+    inside a year that rose. For a business that does not sell subscriptions the breakout is
+    coarser and still exists: new customers this week against returning ones, from the record <a href="10-the-first-ten-customers.html">chapter ten</a> started and
+    <a href="11-what-happens-after-the-sale.html">chapter eleven</a> added the renew-and-reorder
+    column to. <em>Loss</em>
+    is counted twice because the two counts disagree in an instructive way. Losing five customers
+    is one thing if they were the five smallest and another if one of them was the account that
+    paid for the shop's rent; user churn and revenue churn are the two answers, and which is higher
+    tells you who is leaving. <em>Concentration</em> is the figure you can state and least like to: the share of the money
+    that comes from the top handful. Barry's is a third of the customers for two thirds of the
+    revenue, and he gives the split without a verdict. The verdict he does give is on the average
+    — he wants it to rise, <em>"but not see it so high that we are beholden to a few
+    customers"</em> — and that is the same worry from the other end: the average can rise because
+    everyone pays more, or because a few pay for everyone.
+    <a href="14-what-a-customer-is-worth.html">Chapter fourteen</a>'s segments are the same figure
+    from the other side.</p>
+
+    <p>What is left out, and why. The quick ratio and average revenue per customer are arithmetic on
+    the first two figures; the cash figure is not left out at all: it is the one
+    <a href="12-reading-your-own-business.html">chapter twelve</a> already has you reading weekly,
+    it measures survival rather than the business, and it stays where chapter twenty-one put it.
+    Chapter twelve's other two — committed demand and the quantity that leads revenue — are the
+    movement figure before it lands; if you have kept them, the first of this chapter's three is
+    already half filled in. Net revenue against recurring is a distinction a subscription business
+    needs and most of this book's readers do not. Those go in the monthly look, and they stay out
+    of the thirty seconds because a person reading seven numbers aloud is
+    reading none of them.</p>
+
+    <h3>The moment a measure becomes a target</h3>
+
+    <p>The reason to keep the three separate, and to have someone other than you read them, is the
+    quiet thing in the post. Every figure on that dashboard is honest, and one November decision moved three of them in three
+    directions at once — net revenue up, MRR down, churn up and then down again on a thirty-day
+    window — while the customers themselves were the same people, now paying yearly. Barry
+    knows this, which is why he can read his own numbers. <strong>A person who does not know it
+    will manage to the figure, and a figure that is managed to stops measuring what it was chosen
+    to measure.</strong> The S-1 company did not lie; it had a definition of churn under which a customer leaving in the
+    first ninety days was not a loss, and Barry's word for that is "convenient". A target set
+    against such a figure — his own for the year is net revenue churn <em>"down to 0%"</em>, on a
+    dashboard whose definitions he does not set — is safe only for as long as the definition is not
+    the goal-setter's to move. Yours will be.</p>
+
+    <p>The defence is not to stop measuring. It is to fix the definition before anyone is judged by
+    the figure, in writing, and to change it only in the open. A lost customer is lost on the day you wrote down in advance — thirty days without a return,
+    sixty, a cancelled contract — and not on a later day chosen once the number is in; a discount
+    that lowers the monthly figure is written down as a discount; the concentration figure is read
+    as a share with the customers named behind it, not as a percentage alone.
+    And the person reading the three aloud should be someone whose week does not improve when the
+    number does. That is the limit of the advice: it keeps a figure honest against ordinary
+    pressure, not against a business that wants to deceive itself, and it is worth nothing for the
+    fourth thing you did not measure, which is where the surprise will come from.</p>
+
+    <p>Three is also a claim about your size, and so is weekly. Barry looks at his breakout monthly —
+    <em>"Monthly is as granular as you need to go"</em> — and a business of ConvertKit's shape has
+    the staff to read seven and the churn to need them. At two or five people, on chapter twelve's
+    rule, the cadence follows the operating cycle, and for most readers of this book that is the
+    week; the three are what fits in a morning, and the test of whether they are the right three
+    is not this chapter's argument but Monday's fifth item: whether, after a quarter of reading them,
+    anything happened to the business that they did not show first.</p>
+  </section>
+
+  <section class="monday">
+    <h2>Monday</h2>
+    <ol>
+      <li><strong>Write the three definitions on one page before you write any numbers.</strong> What counts as a new customer, what counts as a lost one and on which day, and which customers make up "the top". Date the page. The definitions do not change without a note on the page saying when and why.</li>
+      <li><strong>Fill in last week's three from the records you already keep.</strong> New against returning; customers lost and money lost, as two numbers; the share of the week's money from the top customers as you defined them in item one, with their names. If any of the three cannot be filled from what you record now, the gap is item one for next week, not a reason to skip it.</li>
+      <li><strong>Hand the reading to someone else.</strong> The thirty seconds in chapter twenty-one's meeting are theirs, not yours, and the person should be someone the numbers do not pay. You listen.</li>
+      <li><strong>Put the rest on a monthly page.</strong> Averages, ratios, the cash figure's trend — reviewed once a month, by you, and not read aloud weekly. If you find yourself adding a number to the three and the cash figure, take one away.</li>
+      <li><strong>After a quarter, write down what surprised you.</strong> Every event that mattered — the lost account, the slow month, the supplier — and whether one of the three moved before it happened. If none did, the three are wrong for your business, and this list starts again with different ones.</li>
+    </ol>
+  </section>
+
+  <div class="owed">
+    <p class="case-head"><span class="who">What would prove this chapter wrong</span></p>
+
+    <p>What is owed is a business that read three well-chosen figures, honestly defined, weekly, by
+    someone who was not the owner — and was blindsided anyway by something the three could not
+    have shown, or, worse, was steered wrong by them: a concentration figure that read as healthy
+    while the top customers were all the same fragile kind, a loss figure that stayed flat while the
+    quality of what came in fell. ConvertKit's post cannot supply that; it is one founder reading
+    seven numbers he already understands, and it reports no decision made on them and no surprise
+    they missed. The chapter's own compression to three is an argument, and the honest statement of
+    its risk is that it is made for a reader the post was not written for, which is why the last
+    Monday item exists: the quarter's surprises are the counter-case, kept by you.</p>
+  </div>
+
+  <section class="reading">
+    <h2>Reading</h2>
+    <ul>
+      <li><span class="src">Source ·</span> <a href="https://nathanbarry.com/metrics/">Nathan Barry, "Understanding ConvertKit's open metrics"</a>, 14 January 2019 — the five components of MRR movement and the March-to-summer swing, the user/revenue/net revenue churn distinctions and the 2.2% figure, the quick ratio and its two comparators, the ARPU comparison with Buffer, the customer and revenue totals and the concentration split, the November annual-plan effect on net revenue, MRR and revenue churn, and the S-1 churn-definition anecdote.</li>
+      <li><span class="src">Note ·</span> A founder's own account, the weaker evidence class this book uses for every founder post, attributed as such. The figures are his transcription of ConvertKit's own Baremetrics dashboard, which the post says is public but which this book has not queried; the concentration split is a same-day search on one export, not a stable segmentation. The "three things" of the title are this book's selection, made in Move 2 and Move 3 as such; Barry describes seven and does not say fewer would serve.</li>
+    </ul>
+  </section>
+
+  <nav class="chapter-nav">
+    <a href="21-meetings-that-arent-theater.html"><span class="dir">Previous</span>21 · Meetings That Aren't Theater</a>
+    <a class="next" href="23-slack.html"><span class="dir">Next chapter</span>23 · Slack</a>
+  </nav>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>The Going Concern · Chapter 22 of 28.</p>
+  </div>
+</footer>
+
+</body>
+</html>
+warning: Codex could not find bubblewrap on PATH. Install bubblewrap with your OS package manager. See the sandbox prerequisites: https://developers.openai.com/codex/concepts/sandboxing#prerequisites. Codex will use the bundled bubblewrap in the meantime.
+codex
+I’ll verify both findings against the chapter ledger, evidence rules, and the claim/source registers, then retain only issues whose exact rationale survives.
+exec
+/bin/bash -lc 'rg -n "''^(#|##|###)|ConvertKit|founder|own account|attributed|Prohibited|annual-plan|annual plan|spent|counter-case|aftermath|Dutch|owed|settlement" CONTEXT.md && rg -n "ConvertKit|Nathan Barry|annual.plan|1,188,580|20,812|2'"\\.2%|1\\.47|2019\" checks/claims.tsv checks/sources.tsv scripts/prompts/review-checklist.md" in /home/diablo/book4
+ succeeded in 135ms:
+1:# CONTEXT — The Going Concern
+8:## 1. The decision record
+16:| Jurisdiction | **General argument, Dutch specifics quarantined** in `On Dutch ground` sections at the end of the chapter. | Employment law, invoicing, dismissal and side-work rules genuinely change the answer, and a reader who cannot act on a chapter has not been helped. Quarantining keeps the general argument portable and stops law from rotting the prose. |
+17:| Chapter length | **2,000–3,000 words**, measured on chapter content. Raised from 2,500 after both finished chapters overran (01: 2,958, 05: 2,606). | 2,500 was a guess made before a chapter existed; 2,600–2,950 is where the form actually sits once a case with real figures, a bounded principle and a counter-case are all present. This is now a hard ceiling, not a target — anything over 3,000 gets cut, not excused. Ch. 02 drafted at 3,333 and was cut to 3,000; the ceiling held and the chapter is better for it. **Part-closing passages are counted separately** — they close a part rather than a chapter, appear once per five chapters, and would otherwise force real argument out of whichever chapter happens to sit last. Ch. 05 is 2,804 of chapter plus a 321-word Part I close. Declared rather than quietly absorbed. |
+18:| Honesty mechanism | **The counter-case**, not a ledger. | The sibling volume tracked formal debts because a proof has them. A business book's equivalent failure is advice that works until it doesn't. Show that, don't tally it. |
+20:## 2. The spine
+43:## 3. Chapter template
+52:Then the **counter-case** block: same advice, applied well, bad outcome, ~150–300 words. Then the
+55:### Counter-case, aftermath, and the debt register
+60:| Block | What it is | Allowed to satisfy the rule? |
+62:| `.counter` | The chapter's advice, followed correctly by capable people, failing | **Yes** — this is the rule |
+63:| `.aftermath` | What became of the idea or market later. Illuminates the case. | **No** |
+64:| `.limit` | A real case that qualifies the advice without falsifying it — the advice half-followed, or followed against a subsidiary claim | **No** |
+65:| `.owed` | A visible note that the counter-case has not been found, saying what it would have to be | **No — but it is the honest fallback** |
+68:go, or it gets called a counter-case in order to earn a border. It is not a loosening of the
+75:**Debt register — counter-cases owed:**
+79:  The Instacart block was mislabelled as a counter-case in the first draft and is now an `.aftermath`.
+87:  the chapter rather than a counter to it. Declared in the chapter in an `.owed` block rather than
+94:  followed half of it. Note the second shape is hard to isolate even in principle, because a business
+98:  consequence, and should not have. The Gymdesk block was called a counter-case in the first two
+101:  not follow the advice and fail; he half-followed it and got away with it. The settled reading: it
+106:- **ch. 05** — the Gymdesk block is a real counter-case, but only to the *threshold* advice: Galperin
+108:  Still owed: someone who cleared a conservative evidence bar — repeat paid revenue covering their
+111:- **ch. 06** — two shapes, and the second is the one that matters. First: a business that narrowed
+133:attributed to Plausible as their reading rather than asserted as fact. **The general lesson: a
+184:  who drew a full market wage the business could not afford. That is not a counter-case, because the
+185:  chapter's boundary explicitly says not to draw it. A `.owed` block can fail the same way a
+191:Distinct from a missing counter-case and worse. Ch. 05's evidence standard — repeat paid revenue
+200:own kind: a prescription with no case behind it is thinner than one that merely lacks a counter-case,
+232:to **accumulating versus contemporaneous**; McKenzie's asset/leasing language is kept but attributed
+238:counter-case, because the alternative is an admission. Three of the four written chapters have done
+244:is **no chapter carrying a counter-case that meets the definition against its own central advice**;
+245:one (ch. 05) carrying a real counter-case to a subsidiary claim; four `.limit` blocks (03, 04, 06,
+249:loosen the definition later. `.owed` notes are a permanent feature of the book, not a temporary
+257:- `.case` / `.counter` / `.aftermath` — green, clay and sage bordered blocks, each with `.case-head > .who`
+258:- `.owed` — dashed clay note recording a counter-case the chapter does not yet have
+259:- `.ground` — the `On Dutch ground` section, `id="ground"`, placed after `.reading` and before the chapter nav (moved there 2026-09-12; see §5b)
+265:### Standing constraint: the book must not become a licence to wait
+297:## 4. Voice
+304:- **No hero founders.** The point of a case is the decision, not the person. Nobody in this book is a genius; several are lucky and say so.
+309:### Provocations are not laws
+324:## 5. Sourcing standard
+327:- A founder's later retelling of their own numbers is **weaker** evidence and must be attributed as such in the prose ("by Swinmurn's own account").
+331:## 5b. On Dutch ground
+342:section, refer to it as "this section", and to another chapter's as "chapter N's Dutch-ground
+352:- **Never state Dutch law from memory.** Every claim in a ground box is sourced to a government or
+378:## 5c. Adversarial books (not sources)
+384:Two books currently matter for that job. Neither is a co-author of the spine. Both are allowed to
+388:### Role, hard rules
+390:| Allowed | Forbidden |
+393:| "Agrees / challenges / evidence owed" against our outline | Registering claims against a book extract, PDF, or third-party dump |
+394:| Further-reading line in a chapter, attributed by title and author | Treating a public GitHub extract as licensed text |
+396:| Tracing a *principle* to a primary source (filing, founder post, Graham essay) | "Rewrite this chapter in our style" against the book's prose |
+405:### The Personal MBA (Kaufman) — foil, corrected
+421:### The Minimalist Entrepreneur (Lavingia) — adversarial map
+435:#### Two highest-value challenges (act on these first)
+452:#### Full concept map (our words only)
+458:| Concept (restated, not quoted) | Hits our chapters | Stance | What to do / evidence owed |
+460:| Start where people already gather; earn trust before extracting | 02, 06, 07 | challenge | Add *standing* vs *access* to ch. 07; do not demote interviews or positioning. Case owed: someone who only "showed up" without contribution and failed, or who contributed for years with no path to payment. |
+471:#### What we explicitly do **not** take
+477:  counter-case. That is how this book becomes interchangeable with every indie SaaS thread.  
+480:#### Safe research workflow (when consulting this foil)
+496:#### Dilution watch
+500:mortgage arithmetic, evidence before resignation, counter-case honesty, and company-first sourcing.
+503:## 6. Chapter register
+507:### Part I — Is there anything here?
+510:| 01 | The Only Question That Matters | Webvan (1996–2001) | *owed* — Instacart is an `.aftermath` | ☑ 27 claims |
+511:| 02 | Talking to People Who Will Lie to You | Everpix (2011–2013) | *owed* — see debt register | ☑ 38 claims |
+512:| 03 | Selling It Before It Exists | Studio Neat (2010–) | *owed* — Coolest Cooler is a `.limit` | ☑ 28 claims 🇳🇱 |
+513:| 04 | Deciding Not To | Cydoc (2018–2025) | *owed* — Gymdesk demoted to `.limit` | ☑ 21 claims |
+516:🇳🇱 marks a chapter that needs an `On Dutch ground` box.
+558:anchor on Plausible, Bingo Card Creator and ConvertKit — three software businesses in a row, which is
+571:- **07 Where They Already Are** — distribution is a skill practised, not a budget spent. Case:
+575:  sales conversations was wrong: Nathan Barry's contemporaneous ConvertKit post gives
+583:  buyer's alternatives, then holds one proposal through ten comparable asks. Dutch box: consumer
+586:  two founders, humans not software, monthly reports archived because the live domain no longer
+595:regulators, so case selection is really a search for owners who publish revenue. And the `.owed` rate
+600:### Part II — Will someone pay?
+603:| 06 | Who Is This For | ☑ 60 claims · Plausible Analytics (2018–2022) · *owed* — Product Hunt is a `.limit` |
+604:| 07 | Where They Already Are | ☑ 58 claims · Bingo Card Creator (2008–2011) · *owed* — Appointment Reminder is a `.limit` |
+605:| 08 | Asking for Money | ☑ 47 claims · ConvertKit (2013–2015) · *owed* — the Thailand fortnight is a `.limit` |
+606:| 09 | What to Charge | ☑ 30 claims · Studio Neat / Cosmonaut (2011) · *owed* 🇳🇱 |
+607:| 10 | The First Ten Customers | ☑ 36 claims · WP Curve (2013) · *owed* |
+609:### Part III — Does the money work?
+612:| 11 | What Happens After the Sale | ☑ 24 claims · Turing School CIRR reports (2016–2020) · *owed* |
+613:| 12 | Reading Your Own Business | ☑ 23 claims · Dutch filing regime (BW2 Titel 9) · *no company case, by decision* 🇳🇱 |
+614:| 13 | Profit Is Not Cash | ☑ 17 claims · Instacart S-1 cash flows + BW6 payment terms · *owed* 🇳🇱 |
+615:| 14 | What a Customer Is Worth | ☑ 13 claims · Cydoc (2018–2025), returning from ch. 04 · WP Curve as segment contrast · *owed* |
+616:| 15 | Paying Yourself | ☑ 17 claims · Dutch owner-remuneration regime · *no company case, by decision* · written under §6f; 8 corrections pre-push, 6 more after, none of the second set legal 🇳🇱 |
+617:| 16 | Enough | ☑ 17 claims · Pinboard / Cegłowski (2010–2020) · *owed* · closes Part III |
+619:### Part IV — Can it run without you?
+622:| 17 | You Are the Bottleneck | ☑ 13 claims · Bingo Card Creator (2010) + Pinboard (2020) · *owed* · opens Part IV |
+623:| 18 | Writing It Down | ☑ 6 claims · Gymdesk / Galperin (2023) · *owed* |
+624:| 19 | The First Hire | ☑ 23 claims · Gymdesk / Galperin (2021–2022), fourth use, new source · BW7 art. 610/610a + Rijksoverheid enforcement page · *owed* 🇳🇱 · drafted 2026-08-28 |
+625:| 20 | Managing People | ☑ 33 claims · Groove / Turnbull (2015), new company · BW7 arts. 652, 669, 671, 672, 673 · *owed* 🇳🇱 · drafted 2026-08-28 |
+626:| 21 | Meetings That Aren't Theater | ☑ 19 claims · Groove / Turnbull (2016), second use, new source · *owed* · drafted 2026-08-28 |
+627:| 22 | Measuring the Right Three Things | ☑ 22 claims · ConvertKit / Barry (2019), second use, new source · the three are the book's compression, said as such · *owed* · drafted 2026-08-28 |
+629:### Part V — Will it last?
+632:| 23 | Slack | ☑ 22 claims · WP Curve / Norris (June 2014), third use, new source · accumulation only, no shock shown absorbed (Archive offline 2026-08-28; later reports still unfetched) · *owed* · opens Part V · drafted 2026-08-28 |
+633:| 24 | What You Signed | ☑ 11 claims · *no company case, by finding* (§6i) · Auteurswet arts. 1, 2, 7 + BW6 arts. 233, 234 · four-agreements map is the book's · *case and counter-case owed* 🇳🇱 · drafted 2026-08-28 |
+634:| 25 | What Protects You | ☑ 13 claims · Studio Neat / Glif patents section (sn-howto), third use, unspent section · bet unmeasured, US law by non-lawyers · *owed* · drafted 2026-08-28 |
+635:| 26 | When the Ground Moves | ☑ 17 claims · Gymdesk / Galperin 2020 (galperin-2023-covid, the pre-hire paragraphs), fifth use by §6i judgement · survivor account, no causation claimed · *owed* · drafted 2026-08-28 |
+636:| 27 | Built to Leave | ☑ 32 claims · Black Hops / Norris (Brews News 2023, named journalist, ASIC filing reported) · Norris = WP Curve's Norris confirmed from dannorris.me title · no post-April-2023 events used · *owed* · drafted 2026-08-28 |
+637:| 28 | Knowing When to Stop | ☑ 40 claims · Binpress / Galperin (2016 postmortem; sixth appearance, named) · KVK eenmanszaak + turboliquidatie pages · book close · *owed* 🇳🇱 · drafted 2026-08-28 |
+639:### What changed, and why
+657:## 6b. Case ledger
+663:**What "spent" means — corrected at ch. 14, after the field was misread.** A case is spent when it
+669:which is continuity, not repetition. The test to apply before declaring a case spent: *name the
+672:without adding another qualification to the prose. *Prohibited claim* is the load-bearing field; it
+676:### Webvan — ch. 01
+681:- **Confounders.** The dot-com collapse and the closing of capital markets; grocery margins;
+683:- **Prohibited.** Never that fixed investment is wrong in general. Never that variable is *strictly
+690:### Everpix — ch. 02
+695:- **Confounders.** The company had funding, distribution and product problems simultaneously. Nobody
+697:- **Prohibited.** Never that the five questions would have saved them. The chapter says this in its
+703:### Studio Neat — ch. 03 and ch. 09; ch. 11 only with new evidence
+715:- **Confounders.** The Daring Fireball link is a distribution event, not a demand measurement. Two
+719:- **Prohibited.** Never that the five-rung sequence is validated — the case supports one rung. At
+730:### Cydoc / Draelos — ch. 04, returning as the case in ch. 14
+736:- **Facts.** All from `draelos-2026`, the founder's own shutdown post-mortem, and all already
+739:  in a solo founder without revenue; four paying customers, acquired one each by cold call, cold
+747:- **Confounders.** Healthcare software carries integration costs most businesses do not, and a
+748:  regulated buyer with a long cycle. The founder was simultaneously in an MD/PhD programme, so
+749:  founder time was constrained in a way the reader's may not be. Every figure is the founder's own
+751:- **Prohibited.** Never that the eleven-year payback is a computed or audited figure — it is
+762:### Gymdesk / Galperin — ch. 04, ch. 05
+767:- **Confounders.** He improvised; there was no written consequence; the account is retrospective.
+768:- **Prohibited.** Never that choosing the consequence *in advance* was necessary. Four review passes
+774:### Bingo Card Creator / McKenzie — ch. 05, ch. 07
+779:- **Confounders.** 2008–2010 search conditions; a consumer long tail with enormous volume; he was
+781:- **Prohibited.** Never that the tactic works now — the chapter says it is closed. Never that
+786:  spent Appointment Reminder's six-month figures on the transfer limit. A future ch. 17 return must
+789:### Plausible — ch. 06
+794:- **Confounders.** Five simultaneous changes, plus a marketing specialist joining the same month.
+795:- **Prohibited.** Never a return-on-positioning figure. Never that positioning caused the
+800:### ConvertKit / Barry — ch. 08
+804:  objection can be found by asking and removed. Founder-run selling need not survive the founder's
+806:- **Confounders.** Repositioned and started selling in the same fortnight. A $50,000 injection, book
+808:- **Prohibited.** Never that the recovery was caused by selling alone. Never that direct sales
+812:  No later use is reserved; another ConvertKit chapter would need evidence outside this recovery.
+814:### WP Curve — ch. 10
+826:- **Confounders.** **The MRR and customer figures are company-wide, not WP Curve's.** Informly,
+828:  also has a self-selected hole: no revenue was published from July to October. And the founders had
+831:- **Prohibited.** Never that the MRR ladder is WP Curve's own revenue. **Never a churn or retention
+844:  the corrected spent-test above. The Prohibited field still governs, and rules out exactly what
+849:### Turing School (CIRR outcomes reports) — ch. 11
+859:- **Confounders.** **The bases differ: 2016 counts enrolled students, 2019 and 2020 count "graduates
+864:- **Prohibited.** Never that the three reports form a trend line — different bases, different
+870:### Pinboard / Cegłowski — ch. 16
+880:- **Confounders.** The owner's own: annual subscriptions introduced in 2015 depress that year and
+883:- **Prohibited.** Never that the neglect caused the decline — sequence, not cause; this is ch. 06's
+891:### The Dutch filing regime (BW2 Titel 9) — ch. 12
+906:- **Permitted.** What a small Dutch company must publish contains no profit-and-loss account. The
+908:- **Confounders.** **The statute governs publication, not preparation.** A company still prepares a
+912:- **Prohibited.** **Never that every small business files accounts** — this was the draft's largest
+922:### Instacart's S-1, second use — ch. 13
+924:used it as an `.aftermath` on scale and timing of the model; ch. 13 uses its cash flow statement to
+934:- **Confounders.** This is a very large business with negotiating power over its payment terms; the
+938:- **Prohibited.** **Never treat operating cash flow as the bank balance** — the draft did, writing
+947:### Ledger additions from the Part IV–V drafting, 2026-08-28
+950:its chapter actually spent, so a later return has something to test against.
+952:- **Gymdesk / Galperin — spent, continued.** Ch. 19 spent `galperin-2023-covid`'s hiring paragraphs
+954:  claim that ch. 19 "never touched" the churn is wrong; corrected here). Ch. 26 spent the pre-shock
+956:  context sentences and the "I strongly believe" reading. Ch. 28 spent `eg-binpress-2016` — a
+962:  9-person 45-minute meetings; the coach's video, nearly 20 people under 7 minutes, attributed two
+964:  for willpower; structure, not fewer meetings. Prohibited: never the at-will country (unsourced);
+967:- **WP Curve — ch. 23 spent.** `wpc-jun-2014`: the target and June figures, 15 people, hiring every
+969:  another team member with founders at key intervals, the delegated list, "not a lot to do" and
+970:  Alex's aside, Happy % 96→82 with Norris's reasons and no arrow to the team. Prohibited: never that
+972:  attributed to growth.
+973:- **ConvertKit — ch. 22 spent.** `nb-metrics-2019` end to end. Prohibited: never "three" in Barry's
+974:  mouth; never the annual-plan push as "the business not changing"; never a discount as a lever that
+976:- **Studio Neat — ch. 25 spent.** "A Word on Patents" from `sn-howto`. Prohibited: never an order
+982:  Confounders: COVID comparison year, industry-wide input inflation, the valuation is the company's
+983:  own offer price, the new manager is a party. Prohibited: never that the departure caused the loss;
+986:  as a date; the order of an orderly stop (whole, parts, who is owed, filing). Prohibited: never that
+994:## 6e. Ch. 14 — What a Customer Is Worth: settled before drafting
+1021:4. Acquisition cost includes founder time — free channels often consume expensive labour (ch. 05's
+1036:**Case: Cydoc, returning from ch. 04.** No Dutch box is flagged for this chapter. Ch. 04 asked
+1072:her own costs, not audited unit economics — §5's weaker class, attributed in prose.
+1094:**Counter-case owed, and defined rather than left open:** a customer that looked uneconomic inside
+1096:refused, and later evidence showed that segment expanded, referred others, or became highly
+1111:## 6f. Ch. 15 — Paying Yourself 🇳🇱: settled before drafting, under a stricter process
+1121:everything else is paid. A business that is profitable only because nobody costed the founder is not
+1130:what the evidence is allowed to mean — ch. 15 may observe that a founder took nothing without ceding
+1144:1. **Sources and claim rows first, prose second.** Every Dutch claim registered and `./verify.sh 15`
+1146:   claims; reversing the order means no Dutch sentence can exist that was not sourced first.
+1147:2. **Derive nothing.** No arithmetic on Dutch tax figures, no worked DGA salary, no combined
+1181:**Shape.** Move 1 the invisible line item, portable and with no Dutch content; Move 2 the regime as
+1194:### How the stricter process actually went — written 2026-08-02, after drafting
+1214:be read by a reader who does not need the Dutch. That paraphrase is where an error would now hide,
+1218:### The pre-push review — eight corrections, and the prediction was half right
+1271:computed for a different question. Now a stated boundary in Move 3. The `.owed` block, the three
+1285:### The second review — six corrections, and none of them legal
+1288:composition is the finding: **not one was in the Dutch box or the regime paraphrase.** Every one was
+1295:| 3 | "price each at what hiring it would cost… at the hours it genuinely takes", "a real advertisement" | One advert is not an estimate; advertised gross is not employer cost; and a replacement need not take the founder's hours — some of the work would be automated or dropped, not reproduced. Now four steps, and Move 1 says the business would have to *pay someone, redesign the work, automate it or stop*. |
+1296:| 4 | "what you are **owed** versus what you drew" | "Owed" silently assumed one legal form in a chapter whose whole subject is that there are two. A sole trader cannot straightforwardly owe themselves a wage. Split into imputed cost, cash received, and — separately, by legal form — any actual debt. |
+1297:| 5 | "the business is not profitable **and never has been**" | One restatement of one year cannot reach *never*. Narrowed to the measured period, with the remedies before the stopping rule. |
+1298:| 6 | the second counter-case | See the debt register: it counter-cased advice the chapter does not give. |
+1302:chapter's own test, §3's definition of a counter-case. The stricter process in §6f pointed *outward*
+1305:does not protect the argument, and attention spent on the declared risk is attention taken from
+1306:everything else.** The Dutch box came through two reviews with two small errors; the management prose
+1309:**Also cut: an unregistered Dutch claim, hiding in the boundary line.** The `checked` note asserted
+1324:## 6g. Ch. 16 — Enough: settled before drafting, and it closes Part III
+1362:**Prohibited claims — written before drafting, because this case invites exactly one error.**
+1367:- **The source supplies its own confounder and the chapter must carry it:** the 2015 dip and 2016
+1368:  rise are attributed by him to *"an annual subscription system"* and its first renewals, so the
+1376:**Counter-case: expected `.owed`.** The shape needed is an owner who named a sufficiency number, held
+1378:deliberately static offer. The 2017–2020 stretch is *not* that: it is the advice half-followed —
+1379:number named, never re-decided — and it belongs in the case, not in a counter-case block.
+1384:no amount of arithmetic decides. No Dutch box — ch. 15 carried the jurisdictional weight and ch. 16
+1387:### Ch. 16 on review — the two joints held, and the audit found a third thing
+1391:Move 2 ended *"the business had reached enough. Its owner then spent a year on something else… and
+1393:does the causal work no verb was allowed to do. **Adjacency is a claim.** Rewritten so the sequence
+1405:with its own date**, allowed once and not twice.
+1440:boundary and the `.owed` block, in the reviewer's own three terms — delayed expansion, referrals,
+1444:## 6h. Ch. 17 — You Are the Bottleneck: settled before drafting
+1450:Five hours a week is not evidence of absence of dependence: a founder working five hours can be the
+1451:bottleneck if every unusual decision waits for those hours, and a founder working sixty can fail to
+1460:and operational surface small, and spending automation on scarce founder attention. Check the ch. 05
+1461:and ch. 07 ledger entries before reuse — the inference must be new, per the *spent* rule.
+1463:**Limit or second movement: Pinboard**, from ch. 16's unspent evidence — the 2020 platform migration,
+1472:### How it went — written after drafting
+1493:no second candidate. Different question of the same source, per the corrected *spent* rule.
+1506:### Ch. 17 on review — eight corrections, and the predicted one was worse than predicted
+1548:### A ninth, found after publication — and it doubled a figure
+1567:## 6j. Ch. 18 — Writing It Down: settled before drafting
+1582:another person being in the room. Ch. 18 does not reopen that diagnosis — it is spent — and does not
+1603:**Case decision and what to watch.** The load-bearing evidence is Galperin's own account of building
+1610:measurement of how much the founder's own bottleneck actually eased, none of the employees' side, and
+1615:ch. 16's review caught. The chapter may say the two happened together under one founder's own report;
+1616:it may not say one produced the other. Attribute every figure as "by Galperin's own account," the
+1619:### Ch. 18 on review — three corrections, and the draft walked into the trap this section had named
+1626:| a documented rep "took three to four times as long" | the source says *hours* against fifteen to twenty minutes and gives no ratio at all. The figure was **derived, unregistered, and attributed to Galperin's own evidence** |
+1638:measurement of how much the founder's own bottleneck actually eased." Both corrections are exactly
+1639:those two sentences being ignored. A settlement that names an interpretive trap does not prevent it;
+1654:## 6c. Handoff: ch. 10 → ch. 11
+1686:allowed to mean.** The same fact can be retention evidence and acquisition evidence at once; ch. 10
+1707:## 6d. Caveat placement — adopted for ch. 09 onward
+1711:argument. Practically: keep `.owed` to one compact paragraph; stop re-explaining the counter-case
+1719:`.owed` blocks became one compact paragraph; repeated explanations of `.limit` versus `.counter`
+1725:### Finding from the ch. 10 case hunt: the evidence base itself is skewed
+1731:automated requests, Ugmonk and Hiut Denim rate-limit, and one founder's personal site was empty.
+1735:habit is close to universal among software founders and rare among everyone else — cabinetmakers and
+1748:### Part II coherence pass — done 2026-08-02
+1776:### What thirteen chapters of corrections actually show — measured 2026-08-02
+1829:## 6i. Case hunt — chapters 18–28
+1831:One entry per chapter, written **before** its `§6x` settlement and before any prose, per the epic's
+1832:binding order: candidate, sources and evidence class, the unspent inference against §6b, the
+1836:### Ch. 18 — Writing It Down
+1840:**Candidate.** Gymdesk / Eran Galperin — already the book's recurring counter-case (ch. 04, ch. 05),
+1841:returning on a **different, later source**: "How to fire yourself as a founder"
+1846:**What this chapter would use it for.** The post is a founder describing, mid-process, what he
+1855:chapter's counter-case material sitting inside its own primary source, not invented separately.
+1859:  founder's own account of his own company: §5's **weaker** class, to be attributed in the prose as
+1860:  "by Galperin's own account" exactly as `galperin-2022` already is in ch. 04/05. Not a filing, not
+1869:**The unspent inference (§6b).** Ch. 04 took Gymdesk's stopping rule and improvised consequence
+1871:four-day week (a transition-funding inference). Neither touched hiring past the founder, operational
+1877:reduces both"* — without a case to test it. This post is a founder's real, contemporaneous attempt at
+1883:Not a 🇳🇱 chapter — no register lists a Dutch-ground flag for ch. 18, and this entry adds none. No
+1885:§8: the post is one founder's felt account of hiring and partial documentation, not a controlled
+1891:`checks/sources.tsv`: the "over 10 FTE" growth figure, the "first 5 years" solo-founder figure, the
+1895:### Ch. 19 — The First Hire 🇳🇱
+1916:freelance writer with an SEO background, to double down on organic acquisition), followed later that
+1923:thesis material, stated by the founder himself rather than authored by this book. The post also gives
+1928:- `galperin-2023-covid` — erangalperin.com, 2023-05-12, consulted 2026-08-06. First-party, founder's
+1929:  own account of his own company: §5's **weaker** class, same attribution rule already used for
+1930:  `galperin-2022` and `galperin-2023-fire` — "by Galperin's own account." Not a filing, not audited.
+1962:**The unspent inference (§6b).** Ch. 04 and ch. 05 used Gymdesk's stopping-rule and transition-to-
+1970:predecessor, closing a gap that entry left open rather than reopening spent ground.
+1973:Dutch legal content a reader can act on and be harmed by, and needs the ch. 15 process at settlement.
+2004:### Ch. 20 — Managing People 🇳🇱
+2026:founder's account of two specific mechanisms, offered because they are what he actually changed after
+2032:practice. The trial's evaluation draws on more than the founder's own judgement: teammates who work
+2041:unhappy colleagues, and the founder's own productivity lost to "trying to force a fit where there was
+2046:  consulted 2026-08-06. First-party, but a founder's own account of his own company: §5's **weaker**
+2047:  class, attributed in the prose as "by Turnbull's own account," on the same footing as every
+2055:  four Dutch-legal chapters the epic names: §5b's subject list assigns ch. 20 "ending an employment,
+2065:  practice under Dutch law, it is close to a precondition for the ground being available at all. Art.
+2077:**The unspent inference (§6b — new case, so this records the inference for future use rather than
+2081:period) substitutes for the willpower a founder does not reliably have in the moment — is distinct
+2093:that already knows Plausible, ConvertKit and Pinboard, on the strength of its own "path to $500k MRR"
+2102:recognisability cost; but the tradeoff should be named at settlement, not discovered there.
+2105:Dutch legal content a reader can act on and be harmed by, and needs the ch. 15/19 stricter process at
+2106:settlement. The competence risk is not the statute's plain words — arts. 669, 671, 672 and 673 were
+2108:**conflating the American and Dutch defaults.** The Groove case is entirely a US at-will-adjacent
+2109:practice (trial periods as internal culture, not law) and must not be allowed to leak into the ground
+2110:box's account of what Dutch law requires, or vice versa: the box must not imply that a Dutch employer
+2114:makes it: a payment owed on dismissal initiated by the employer *for any qualifying reason*,
+2130:### Ch. 21 — Meetings That Aren't Theater
+2138:first-party, contemporaneous-founder evidence class as ch. 20; the live domain is the same 2026-dated
+2168:showed him a video of 1-800-Got-Junk running a daily standup where "nearly 20 people participated and
+2172:more." What followed is a concrete, ownable structure: a named meeting owner ("Lesley owns meetings for
+2182:  `checks/sources.tsv`), consulted 2026-08-06. First-party, founder's own account of his own company:
+2183:  §5's **weaker** class, attributed in the prose as "by Turnbull's own account," the same footing as
+2200:- **The 1-800-Got-Junk figures are Turnbull's secondhand relay of a video his coach showed him**, not
+2202:  claim is registered as a claim about what the video showed Turnbull and what he says about it — not
+2204:  layers deep: Turnbull's account of what his coach's video showed.
+2206:**The unspent inference (§6b).** Ch. 20 used `groove-fire-2015` to support a distinct inference: that
+2208:made, with the 2-4-week trial as the forcing function that substitutes for the willpower a founder
+2214:only the company and founder repeat, exactly the pattern already accepted for Gymdesk's ch. 18/ch. 19
+2215:sequence and for ConvertKit's ch. 08/ch. 22 sequence.
+2223:here rather than left open: ch. 22 already committed its ConvertKit reuse. **This entry spends the
+2231:choose to drop one of the two half-slots (most likely ch. 22's, since ConvertKit already had a full
+2237:as carrying Dutch legal content (19, 20, 24, 28), and this entry adds no statutory content. No
+2249:  showed him, not this book's own verification of that company's meeting length, and not Groove's
+2254:figure (attributed two layers deep per above), the named-owner sentence, and the Monday and
+2260:### Ch. 22 — Measuring the Right Three Things
+2262:**Status: has a case, with a real tension the settlement must resolve rather than paper over.**
+2264:**Candidate.** ConvertKit / Nathan Barry — second use of the ch. 08 company, on a **new, later
+2265:source**: "Understanding ConvertKit's open metrics" (nathanbarry.com/metrics/, published 2019-01-14,
+2266:dateModified 2019-02-27). Written shortly after ConvertKit crossed $1m MRR, well past the 2014
+2267:near-death and 2017 direct-sales recovery ch. 08 already used — this is a mature-stage founder
+2276:suffice; if anything his stated posture is the opposite of delegation, a founder personally auditing
+2288:founder tracks" into "a founder should only track three," dressed as if the case said it.
+2292:  2026-08-06. First-party, but a founder's own account of his own company: §5's **weaker** class,
+2293:  attributed as such in the prose, on the same footing as `nb-convertkit-5k` and `nb-direct-sales`
+2295:  from ConvertKit's own Baremetrics instance, which the post says is open to public view but which
+2298:- **Not pursued.** ConvertKit's live Baremetrics/Open Startups page (the dashboard the post describes)
+2301:  ConvertKit text in the saved HTML (checked: zero matches for "ConvertKit" in either file), so they
+2305:**The unspent inference (§6b).** Ch. 08's ledger entry explicitly reserved this: "another ConvertKit
+2310:that founder-run selling need not survive the founder's absence. Ch. 22's candidate inference — what
+2313:test: new source, new inference, only the company and founder repeat.
+2322:  Contraction MRR) — and ConvertKit's own value (1.47) reported as what it is: low, by Barry's own
+2332:**Recognisability (§7) — a real constraint, and possibly already spent by the time this is read.**
+2333:ConvertKit already carries a half-slot from ch. 08 under the "chapters anchored on a company the
+2335:same rule that charged Plausible, ConvertKit, Pinboard and Groove once each. Ch. 20's entry left the
+2340:hunt ran before this one and may itself already have spent the last slot by the same "another chapter,
+2341:another half-slot" logic this entry just applied to ConvertKit. If so, registering ConvertKit again
+2353:### Ch. 23 — Slack
+2370:round-up already fully spent at ch. 03 and ch. 09, and no independent Studio Neat interview or
+2380:rules out any further use of Plausible, ConvertKit, Pinboard or Groove — which also rules out the
+2398:recognisability budget (§7's own ledger only ever names Plausible, ConvertKit, Pinboard and
+2404:**What this chapter would use it for.** The post is Norris's own account of a specific month in
+2405:which the business visibly built margin rather than spent it. Three facts, read together, are the
+2408:staffing reactively to a backlog. The first hire made by someone other than either founder happened
+2410:named list of previously founder-owned tasks — hiring logistics, affiliate approval, social-media
+2412:off, to the point that Norris writes the two founders "realized we don't have a lot to do" in their
+2416:line as if the founders meant it. What the case actually supports is narrower and more useful: a
+2420:founder, and founder time that was not fully claimed.
+2427:  post), consulted 2026-08-06. First-party, founder's own account: §5's **weaker** class, same
+2429:  registered at ch. 10/ch. 14 — "by Norris's own account." Not audited. The team-size figure, the
+2430:  hiring cadence and the delegated-task list are all the founders' own report of their own month.
+2444:**The unspent inference (§6b).** Ch. 10 took the launch date, the week-one doubling, the customer
+2447:only for the blogger-versus-business segment contrast, and the ledger's own Prohibited field rules
+2450:tasks the founders still personally held — this book's existing WP Curve ledger note flags that
+2452:latter belongs to Part IV.**" That inference was never actually spent by a Part IV chapter (18–22
+2456:rather than exactly to it. New source, new inference, only the founders and the company repeat —
+2459:**Domain-competence declaration (§8).** Not a 🇳🇱 chapter — no register lists a Dutch-ground flag
+2469:  context would misrepresent the founders' own stated view of their situation, the same
+2484:sentence, and the first-hire-by-someone-other-than-the-founders sentence. `./verify.sh --strict 23`
+2487:### Ch. 24 — What You Signed 🇳🇱
+2523:   a founder blog post on standard terms or liability that "cost us" something, and a solo developer
+2524:   or bootstrapped founder writing about a professional-indemnity or errors-and-omissions insurance
+2533:cost that followed from what that agreement did or did not say: a client withheld payment on a
+2540:kantonrechter judgments involving a one- or two-person Dutch bv or eenmanszaak, neither of which this
+2544:harmed by, so the standing rule applies: **never state Dutch law from memory.** Both statutes below
+2571:### Ch. 25 — What Protects You
+2576:against it.** Ch. 25 carries no 🇳🇱 flag in §6 or in the epic's own list of the four Dutch-legal
+2607:this use does not touch the budget ch. 21 closed at 5.0 of 5 or the ruling that followed it.
+2609:**What this chapter would use it for.** The section is Gerhardt and Provost's own account of
+2638:  founder's own account of their own company and their own (non-lawyer) understanding of patent law:
+2643:- **Not pursued — insurance, and a Studio Neat second source on the imitation aftermath.** Two gaps,
+2646:  number of live searches this task's time box allowed before the search engines available in this
+2665:**The unspent inference (§6b).** Ch. 03 used this document for the pre-sale evidence ladder (a
+2668:patents section, and neither chapter's *Permitted*/*Prohibited* fields say anything about
+2677:must not be read as one. The competence risk here is real but has a narrower shape than the Dutch
+2680:  general or Dutch/European law.** The source's own design-patent/utility-patent distinction, the
+2683:  they are not a legal source. A Dutch or EU reader's actual options — an EPO or Benelux-route patent,
+2712:### Ch. 26 — When the Ground Moves
+2721:used shows "accumulation, not proof of resilience": no source found in that task's time box showed
+2724:than hypothetical. Ch. 26 is not 🇳🇱 in the register or the epic's own list of the four Dutch-legal
+2727:**Candidate.** Gymdesk / Eran Galperin — the book's recurring counter-case/case (ch. 04, ch. 05,
+2731:`checks/sources.tsv` and already spent once, at ch. 19, for its hiring paragraphs (the June 2021
+2743:5.0 of 5 after ch. 21 and rules out Plausible, ConvertKit, Pinboard and Groove for the rest of the
+2752:outright, the first because its only unused material (the imitation aftermath) is already spent at
+2765:struggling, right before the shock. Then, in the founder's own words, COVID "hit the fitness industry
+2786:  `bw7-2026` and `bw6-2026` already establish. First-party, but a founder's own account of his own
+2788:  **weaker** class, compounded by hindsight the founder did not have in March 2020. Attributed in
+2789:  prose as "by Galperin's own account," consistent with `galperin-2022`, `galperin-2023-fire` and
+2794:  60%/x2.5 MRR figures. They stand as the founder's unaudited self-report, exactly as `galperin-2022`
+2797:**The unspent inference (§6b).** Ch. 04 took the stopping rule and improvised return-to-salary
+2818:  founder himself did not test, not causation.
+2822:  a percentage the founder did not give.
+2824:  survivorship account by construction: it is a post written by the founder of the company that made
+2829:  Both are the founder's own recollection and self-reported MRR, not a filing — the same caveat this
+2844:### Ch. 27 — Built to Leave
+2856:epic's own list of the four Dutch-legal chapters (19, 20, 24, 28) rather than assumed. §2's own
+2873:with him — only "Dan Norris, Co-founder/Former CEO" of Black Hops, from a third-party industry
+2876:("My rise and fall: \$65m brewery co-founder to 'feeling like a loser'") that a `news.google.com`
+2884:abstract. First: on 2023-02-14, Brews News reported that co-founder Dan Norris had stepped down as a
+2886:beverage company), following the earlier departure of co-founder and former head brewer Michael
+2887:McGovern — leaving only the third co-founder, Eddie Oldfield, still on the board. Norris's own
+2890:friends, at no point did we think it would get to be what it is today." That is a founder recognising,
+2895:million — a \$2.6 million swing from the prior year — attributed by the new managing director to
+2902:founder had just handed control to a manager on the strength of its trajectory, filed a \$1.8 million
+2918:- `bh-ceo-2023` — brewsnews.com.au, "Black Hops announces new CEO as founder departs", published
+2921:  self-published by him — a different, somewhat stronger footing than the founder-blog class that
+2937:**The unspent inference (§6b).** Not applicable in the reuse sense — this is a new company, not a
+2938:return to an existing ledger entry, so there is nothing to check against a *Prohibited* field. If
+2941:founder's voluntary, well-reasoned handover are not proof that a business is durably transferable;
+2943:caught up to how it had just been priced or handed over), **Confounders** (COVID-era demand
+2947:**Prohibited** (never that Norris's departure caused the loss, or that the loss proves the departure
+2969:  liquidated, restructured, returned to the founders) this entry cannot back with a document.
+2985:### Ch. 28 — Knowing When to Stop 🇳🇱
+2987:**Status: has a case**, with an honesty flag on the recurring cast that the eventual §6x settlement
+2993:Dutch subject directly, in its list of boxes by chapter: **"how to wind up cleanly (28)."** Read
+2997:confirms this is one of the four Dutch-legal chapters (19, 20, 24, 28) carrying content a reader can
+3013:candidate search rather than a neutral check, and Galperin will now be the named founder in six of
+3027:about a year after raising, the founders had spent over half the money "at a healthy rate, but only
+3030:account of what followed is the chapter's load-bearing material: *"As the months went by, it was
+3034:straightforward failure story is what happened next: the founders tried to sell Binpress as a going
+3046:  book ("by his own account"). The page's schema metadata carries a `dateModified` of 2023-09-15,
+3074:**The unspent inference (§6b).** New company, so nothing to check against a *Prohibited* field yet.
+3081:indefinitely or collapsing into an unplanned failure). **Confounders** (Binpress was accelerator- and
+3085:account is retrospective, written by the founder after the outcome was known, with the narrative
+3086:shape hindsight tends to supply; the "we settled for" framing is the founders' own characterization of
+3087:a sale that fell short of what they wanted, not a neutral description). **Prohibited** (never present
+3094:process at settlement — sources and claim rows before prose, nothing derived, the fork stated before
+3101:  page itself warns that "baten" is broader than most owners assume** — it includes money owed to the
+3130:## 7. Cases to avoid
+3140:### The scale problem
+3162:**half a slot**. **Running total: three of four or five** — ConvertKit charged a second half-slot at ch. 08 on the same reasoning (recognisable to this reader, but two people and $1,207 MRR at the moment the chapter turns). The rest of Part II spends none;
+3196:Where a case rests on a founder's blog post, say so in the prose — *by his own account* — and archive
+3199:### Recurring companies
+3213:| **Eran Galperin** | Gymdesk — B2B SaaS, 2015– | ch. 05 counter-case, ch. 04 `.limit` | Retrospective (2022). Weaker; always attributed as his own later account. |
+3218:five of their campaigns. Ch. 09 has now spent its cost, fee, shipping and fulfilment evidence. Ch. 11
+3234:decisions interact over time: Galperin's six-month runway is the counter-case in ch. 05 and the
+3245:## 8. Verification
+3249:Failing a build every time a founder rebuilds their blog trains you to ignore the colour red, which
+3289:### Two kinds of accuracy, and the script only checks one
+3310:numbered item before claiming it fits. Ch. 04's counter-case met one and a half of three, and nobody
+3318:| 1 | "counter-case: the rule, honoured, would have been wrong" | he never followed the rule |
+3353:### What the first pass caught
+3373:### Ch. 19–28 drafted in one day — what the two review instruments found
+3385:2. **Dutch law leaking out of the box** in looser English: ch. 19's Monday turned a presumption into
+3391:3. **Instruments borrowed from the wrong chapter**: ch. 22 forgot ch. 12's weekly three and ch. 21's
+3392:   reader; ch. 26 borrowed ch. 23's hours-reserve for a demand shock; ch. 28's Monday pointed at
+3395:4. **Caveats said three or four times** (Move 2, Move 3, owed, Reading) where §6d allows one in the
+3424:Dutch-in-Monday objection (the instruction is conditioned "on Dutch ground"); three demands for
+3436:   trade — Instacart, Cydoc, Pinboard, Gymdesk, ConvertKit, WP Curve, Studio Neat, Binpress. This
+3441:2. **The Dutch boxes divide** (13, 15, 19, 20, 24, 28): the refugee reads them as protection, the
+3456:**Dutch boxes moved to the end of their chapters (2026-09-12, author's decision on digest item 2).**
+3457:All ten `.ground` boxes (03, 05, 09, 12, 13, 15, 19, 20, 24, 28; about 5,000 words, 59 Dutch
+3494:function sentence, "helped nobody"; ConvertKit's $73,000, 2.2%, 1.47, Buffer/Hubstaff, $21/$57,
+3505:## 9. Open questions
+3514:  reopen it. What is still owed is a *case* — no business in the book is yet shown running out of
+3521:- **Ch. 24 is 1,843 body words without its Dutch section** (2026-09-12). The chapter has no company
+checks/sources.tsv:28:elreg-coolest-2019	https://www.theregister.com/2019/12/11/coolest_cooler_fail/	Matthew Hughes, The Register, 2019-12-11 — the collapse, the unfulfilled orders, the $97 request and the Oregon settlement terms. Secondary class: named journalist, outlet with a corrections policy, attributed in the prose.
+checks/sources.tsv:30:plausible-1m	https://plausible.io/blog/open-source-saas	Marko Saric, Plausible Analytics — "How we built a $1M ARR open source SaaS", 22 June 2022. First-party: the month-by-month MRR ladder from $64 (May 2019) to $83,637 (June 2022), the date the second founder joined, the five changes made in his first weeks, and their own account of the Product Hunt launch.
+checks/sources.tsv:35:nb-convertkit-5k	https://nathanbarry.com/5k/	Nathan Barry — "Growing ConvertKit to $5,020 in Monthly Recurring Revenue", 2015-03-11. Contemporaneous: written at $5,020 MRR, before the outcome was known, and reports the failed public goal and the decline as well as the recovery. Month-by-month MRR, the October 2014 bottom, and the cold-outreach conversion.
+checks/sources.tsv:36:nb-direct-sales	https://nathanbarry.com/sales/	Nathan Barry — "Direct Sales for Bootstrapped SaaS Startups: from $1,300 to $725,000 MRR", 2017-07-06. Retrospective, written at $725,000 MRR: the objections, the outreach email sent over a thousand times, the prospecting method, and the concierge-migration churn figures.
+checks/sources.tsv:47:turing-cirr-2019h1be	https://cdn.prod.website-files.com/6189a90bab32c37c5095341f/61a4ff87cde91778eeb7164f_CIRR-2019-H1-BE.pdf	Turing School Denver, Back End Engineering — CIRR Outcomes Report, H1 2019. Graduation rates, employment at 180 days broken into eight categories including still-seeking and could-not-contact, median pay and salary distribution.
+checks/sources.tsv:68:# ch22 — ConvertKit / Nathan Barry, second use of the ch. 08 company, new source and new inference. Case hunt in §6i.
+checks/sources.tsv:69:nb-metrics-2019	https://nathanbarry.com/metrics/	Nathan Barry — "Understanding ConvertKit's open metrics", published 2019-01-14, dateModified 2019-02-27, consulted 2026-08-06. Founder's own contemporaneous walkthrough of ConvertKit's public Baremetrics dashboard shortly after crossing $1m MRR: the five components of MRR movement, the MRR-versus-net-revenue distinction, user churn versus revenue versus net revenue churn, the quick ratio, ARPU against Buffer's, and the revenue concentration among higher-paying customers. Founder's own account: weaker evidence class per §5, attributed as such in the prose. Not an audited or independently verified figure set — the underlying numbers come from ConvertKit's own Baremetrics instance, which the post itself says is open to public view but which this book has not independently queried.
+checks/sources.tsv:78:bh-loss-2023	https://brewsnews.com.au/black-hops-reveals-large-loss-post-crowdfund/	Matt Kirkegaard / Brews News — "Black Hops reveals large loss post-crowdfund", published 2023-04-04, consulted 2026-08-06. Reports the figures from Black Hops Brewing's FY2021-22 annual report as filed with ASIC: a before-tax loss of $1.8 million (a $2.6 million swing from the prior year), attributed by incoming managing director Nathan Hyde to rising raw-material, packaging and freight costs and the end of COVID-era off-trade demand. Also reports, from the company's January 2022 crowd-sourced-funding offer documents (via the Birchal platform): more than $2.2 million raised from 996 investors in a single day at a valuation of more than $67 million, a stated before-tax profit of $129,000 for the six months preceding the raise, and a $867,223 profit for FY2021 (EBITDA $1.76 million) — with FY2019/20 and FY2020/21 annual reports not filed. Same evidence footing as `bh-ceo-2023`: named trade-press reporting citing a regulatory filing and offer documents, not the company's own self-published account.
+checks/claims.tsv:97:03	elreg-coolest-2019	collapsed earlier this week with 20,000 orders unfulfilled
+checks/claims.tsv:98:03	elreg-coolest-2019	spruiked over 60,000 units costing $185 apiece
+checks/claims.tsv:99:03	elreg-coolest-2019	Coolest asked backers for a further $97 in order for them to receive their product before the July 4 holidays of 2016
+checks/claims.tsv:100:03	elreg-coolest-2019	this obligation cannot be discharged in bankruptcy
+checks/claims.tsv:124:05	galperin-2022	working on Gymdesk full time in June 2019
+checks/claims.tsv:278:# --- Chapter 8: Asking for Money (ConvertKit) ---
+checks/claims.tsv:279:08	nb-convertkit-5k	Growing ConvertKit to $5,020 in Monthly Recurring Revenue
+checks/claims.tsv:282:08	nb-convertkit-5k	July 1st, 2013 arrived and ConvertKit was only at $2,480/month
+checks/claims.tsv:287:08	nb-convertkit-5k	Either give ConvertKit the attention it deserved or shut it down
+checks/claims.tsv:291:08	nb-convertkit-5k	tracking every conversation in a ConvertKit Sales Trello board
+checks/claims.tsv:296:08	nb-convertkit-5k	on January 1st, 2014 I invested $50,000 into ConvertKit
+checks/claims.tsv:303:08	nb-convertkit-5k	Rebrand ConvertKit to be
+checks/claims.tsv:405:11	turing-cirr-2019h1be	Turing School Denver - Back End Engineering
+checks/claims.tsv:406:11	turing-cirr-2019h1be	Graduates Included in Report: 67
+checks/claims.tsv:407:11	turing-cirr-2019h1be	How many students graduated on-time? 60.2%
+checks/claims.tsv:408:11	turing-cirr-2019h1be	How many students graduated within 150% of program length? 79.5%
+checks/claims.tsv:409:11	turing-cirr-2019h1be	80.6% Employed In-Field
+checks/claims.tsv:410:11	turing-cirr-2019h1be	9.0% Still Seeking a Job In-Field
+checks/claims.tsv:411:11	turing-cirr-2019h1be	7.5% Could Not Contact
+checks/claims.tsv:412:11	turing-cirr-2019h1be	What median pay rate do graduates earn? $75,000
+checks/claims.tsv:413:11	turing-cirr-2019h1be	73.1% Software Engineer
+checks/claims.tsv:568:# ch22 — ConvertKit / Nathan Barry, "Understanding ConvertKit's open metrics" (2019). Case hunt in §6i.
+checks/claims.tsv:569:22	nb-metrics-2019	MRR growth is actually the summary of five metrics: new, expansion, reactivation, contraction, and churn
+checks/claims.tsv:570:22	nb-metrics-2019	Revenue churn is the percentage of your revenue base you lost in a month, whereas user churn is the percentage of customers you lost in a month
+checks/claims.tsv:571:22	nb-metrics-2019	At ConvertKit we are at 2.2% net revenue churn
+checks/claims.tsv:572:22	nb-metrics-2019	At ConvertKit we have a quick ratio of 1.47
+checks/claims.tsv:573:22	nb-metrics-2019	Buffer is at $21 per customer and ConvertKit is at $57 per customer
+checks/claims.tsv:574:22	nb-metrics-2019	we have 20,812 generating $1,188,580 in MRR
+checks/claims.tsv:575:22	nb-metrics-2019	6,994 customers (33% of the total) generating $811,117 in MRR (68% of the total)
+checks/claims.tsv:616:19	galperin-2023-covid	had reached $12k in MRR in the middle of 2019
+checks/claims.tsv:664:22	nb-metrics-2019	people reading the metrics only on the surface level
+checks/claims.tsv:665:22	nb-metrics-2019	the most important metric in the business
+checks/claims.tsv:666:22	nb-metrics-2019	all over the map. From as high as $73,000 net new in March to a couple negative months in the summer
+checks/claims.tsv:667:22	nb-metrics-2019	Monthly is as granular as you need to go
+checks/claims.tsv:668:22	nb-metrics-2019	Because our beginner customers churn more often than our larger customers, user churn at ConvertKit is always higher than revenue churn
+checks/claims.tsv:669:22	nb-metrics-2019	It’s both interesting and depressing to see so many new accounts come in each month and be canceled out by so many customers leaving
+checks/claims.tsv:670:22	nb-metrics-2019	Quick Ratio = (New MRR + Expansion MRR) / (Churned MRR + Contraction MRR)
+checks/claims.tsv:671:22	nb-metrics-2019	1.47, which is fairly low
+checks/claims.tsv:672:22	nb-metrics-2019	Buffer at 1.08 and Hubstaff at 1.38
+checks/claims.tsv:673:22	nb-metrics-2019	Or put another way, 67% of our customers are generating only 32% of our revenue
+checks/claims.tsv:674:22	nb-metrics-2019	as high as $3 million
+checks/claims.tsv:675:22	nb-metrics-2019	the contraction from annual plans is now outside the rolling 30 day window
+checks/claims.tsv:676:22	nb-metrics-2019	I remember reading an S1 from a company with net negative churn and realizing that they didn’t consider any account canceling in the first 90 days as churn. That’s convenient, no wonder they had negative net churn!
+checks/claims.tsv:677:22	nb-metrics-2019	that we are beholden to a few customers
+checks/claims.tsv:678:22	nb-metrics-2019	down to 0%
+checks/claims.tsv:746:27	bh-loss-2023	the company has not filed annual reports 2019/20 and 2020/21 financial years
+
+exec
+/bin/bash -lc "sed -n '43,115p' CONTEXT.md; sed -n '319,378p' CONTEXT.md; sed -n '639,677p' CONTEXT.md; sed -n '947,978p' CONTEXT.md; rg -n \"### Ch\\. 22|Ch\\. 22|chapter 22|annual-plan|business not changing|attributed as such\" CONTEXT.md scripts/prompts/review-checklist.md; sed -n '1,240p' scripts/prompts/review-checklist.md; sed -n '560,685p' checks/claims.tsv; sed -n '64,72p' checks/sources.tsv" in /home/diablo/book4
+ succeeded in 113ms:
+## 3. Chapter template
+
+Filename: `chapters/NN-slug.html`. Four moves, fixed order, fixed headings:
+
+1. **The situation** — the decision stated concretely, second person, present tense. No throat-clearing. Open on the reader's actual position, not on history.
+2. **What actually happened** — one named company. Date it. Give at least two hard figures. This is the load-bearing part of the chapter; if the case is thin the chapter is thin.
+3. **The reasoning** — the transferable principle, *with its boundaries stated in the same breath*. Every principle here has a domain of validity; naming it is what separates this from a LinkedIn post.
+4. **Monday** — three to five numbered actions a reader could take this week. Concrete enough to fail at. No "consider" or "think about."
+
+Then the **counter-case** block: same advice, applied well, bad outcome, ~150–300 words. Then the
+**reading** list.
+
+### Counter-case, aftermath, and the debt register
+
+These are three different things and must not be confused, because the whole credibility of the
+device rests on the distinction:
+
+| Block | What it is | Allowed to satisfy the rule? |
+|---|---|---|
+| `.counter` | The chapter's advice, followed correctly by capable people, failing | **Yes** — this is the rule |
+| `.aftermath` | What became of the idea or market later. Illuminates the case. | **No** |
+| `.limit` | A real case that qualifies the advice without falsifying it — the advice half-followed, or followed against a subsidiary claim | **No** |
+| `.owed` | A visible note that the counter-case has not been found, saying what it would have to be | **No — but it is the honest fallback** |
+
+`.limit` was added late, for ch. 04, and the reason matters: a near-miss needs somewhere truthful to
+go, or it gets called a counter-case in order to earn a border. It is not a loosening of the
+definition — it is what makes holding the definition survivable.
+
+Counter-cases are structurally hard to source: businesses that took good advice and died do not
+publish. The temptation is to widen the definition until the available material fits — to let a
+survivor who ignored the advice count. **Do not.** Hold the definition and carry the debt visibly.
+
+**Debt register — counter-cases owed:**
+
+- **ch. 01** — needs a business that stayed deliberately cheap and variable, exactly as the chapter
+  recommends, and lost its market to someone who committed to fixed capacity early and won on scale.
+  The Instacart block was mislabelled as a counter-case in the first draft and is now an `.aftermath`.
+- **ch. 02** — needs an owner who ran the five extractions (past behaviour, workaround, urgency,
+  authority, spending) properly, on people who were genuinely the customer, drew the correct
+  conclusion from consistent answers, and was wrong. Two shapes: a *no* that should have been a yes,
+  or a *yes* describing a market that did not exist at the required price. The first shape is
+  structurally unpublishable — nobody writes up the business they correctly declined to start. The
+  second should be findable; everything checked so far failed because the owners either did not run
+  the conversations or ran them on people who liked them, which makes the case an illustration of
+  the chapter rather than a counter to it. Declared in the chapter in an `.owed` block rather than
+  papered over.
+- **ch. 03** — needs someone who cleared *both* axes — a real commitment at rung four or five from
+  independent buyers, with making, price and date checked beforehand — delivered what they promised,
+  and still had no business. Or the mirror: a presale that correctly returned no, was honoured, and
+  should not have been. The Coolest Cooler block is a `.limit`: Grepper cleared the buyer axis
+  emphatically and never checked deliverability, so he did not follow the prescription and fail — he
+  followed half of it. Note the second shape is hard to isolate even in principle, because a business
+  that delivers and then dies usually dies of something in Part III.
+- **ch. 04** — needs an owner who wrote a rule carrying all three components (money threshold from
+  independent customers, date, stated consequence), reached the date short of it, honoured the
+  consequence, and should not have. The Gymdesk block was called a counter-case in the first two
+  drafts and is now a `.limit`: measured against the chapter's own three-part test, Galperin had a
+  date, a vague threshold, and no written consequence at all — about one and a half of three. He did
+  not follow the advice and fail; he half-followed it and got away with it. The settled reading: it
+  shows a stopping rule needs consequences short of demolition, and that choosing one in advance
+  would have made the rule easier to honour than to renegotiate under pressure — but not that
+  choosing in advance was *necessary*. Four passes on external review; see §8, where the sequence
+  matters more than any single fix.
+- **ch. 05** — the Gymdesk block is a real counter-case, but only to the *threshold* advice: Galperin
+  went full time with no customers, so he did not follow the chapter's central recommendation at all.
+  Still owed: someone who cleared a conservative evidence bar — repeat paid revenue covering their
+  floor — resigned, and failed. Caught on review one commit after the policy in §3 was written, which
+  is a fair measure of how easily this device slides.
+- **ch. 06** — two shapes, and the second is the one that matters. First: a business that narrowed
+  hard, gave up the customers it said it would, executed properly on what remained, and found the
+  remainder too small to live on. Structurally unpublishable for the usual reason — it stops, and
+  stopping is not written up. Second, and more damaging: a business with published monthly revenue
+  whose owner deliberately declined to narrow, stayed general on purpose, and grew anyway. General-
+| "Lifetime value is a lie before year three." | Too broad. Subscription businesses get usable cohort evidence much earlier. The real lesson is that *precision in an immature model is fiction with decimal places* — three significant figures on a number you have eight months of data for. |
+
+Rule of thumb: a provocation may open a chapter or a part. It may not close one. If a sentence is
+still standing unqualified at the end of the chapter, either qualify it or cut it.
+
+## 5. Sourcing standard
+
+- A figure is quotable if it comes from: a company filing, a court document, a named journalist's reporting in an outlet with corrections policy, or a first-party statement by the company at the time.
+- A founder's later retelling of their own numbers is **weaker** evidence and must be attributed as such in the prose ("by Swinmurn's own account").
+- Round numbers that appear in every blog post about a company are the single biggest contamination risk in this genre. If a figure cannot be traced past the blogs, mark it `unverified` and keep it visible.
+- The reading list distinguishes `source` (where the case facts came from) from further reading (where the reader goes next).
+
+## 5b. On Dutch ground
+
+Where the answer depends on jurisdiction, the chapter carries a boxed `<div class="ground" id="ground">` — the
+general argument stays portable, the local specifics stay quarantined, and neither rots the other.
+
+**Placement (decided 2026-09-12, after readers 13–28).** The section sits at the *end* of the
+chapter, after `.reading` and before the chapter nav — not inside a Move and not before Monday.
+The argument keeps exactly one English sentence at the point where the law bites, saying that the
+question exists and linking to `#ground`; Monday items may point there but must not import the
+rule. The section's opener says who it is for ("This section is for readers employing in the
+Netherlands…") rather than "skip to Monday", since there is nothing below it to skip to. Inside the
+section, refer to it as "this section", and to another chapter's as "chapter N's Dutch-ground
+section" with an `#ground` link. Reason: sixty-four persona reads split three-to-one on the boxes
+as untranslated interruption, and "skip to Monday" failed wherever Monday quoted the rule again;
+the one reader who valued the box as protection is served by the in-place sentence. A single
+appendix page was rejected so that the checked date and sources stay with the chapter they cover
+and the claim checks stay chapter-scoped. `checks/structure.py` excludes the section from the body
+word count, as it does the reading list.
+
+Rules, all of them non-negotiable because this is the part of the book most able to cause real harm:
+
+- **Never state Dutch law from memory.** Every claim in a ground box is sourced to a government or
+  official body — rijksoverheid.nl, KVK, Belastingdienst, UWV, wetten.overheid.nl, Rechtspraak.nl —
+  and added to `checks/claims.tsv` like any other figure.
+- **Date every box.** Rules move. Each box ends with a "checked" line carrying the date and the
+  source, so a reader in two years knows exactly how stale it is.
+- **Say who to ask.** The box's job is to tell the reader that a question exists and is expensive,
+  not to answer it definitively. Every box names the professional — accountant, employment lawyer,
+  notaris — whose job this actually is.
+- **No tax planning.** Structures, deductions and thresholds get named as things to ask about, never
+  recommended.
+
+Subjects known to need boxes, by chapter: side activities and non-compete clauses while still
+employed, and what resigning does to unemployment entitlement (05); VAT on invoices and whether you
+quote inclusive (09); payment terms and late payment (13); owner remuneration where the tax
+authority sets expectations for director-shareholders (15); the employee-versus-contractor
+distinction and its enforcement (19); ending an employment, notice, and severance (20); liability,
+professional indemnity insurance, standard terms, and who owns code written by an employee (24);
+how to wind up cleanly (28).
+
+The 🇳🇱 mark in the register below flags chapters that need one.
+
+**Ch. 15 is the highest-risk box in the book and is written under a stricter process**, set out in
+§6f: claim rows before prose, nothing derived, two independent primary sources for the operative
+number, and claims treated as gating rather than advisory. The general rules above are the floor;
+§6f is what ch. 15 actually has to clear.
+
+## 5c. Adversarial books (not sources)
+### What changed, and why
+
+Grew from 25 to 28 on review. Four subjects were missing for this reader and one chapter was
+redundant:
+
+- **05 Leaving Well** *(new)* — transition design. The reader has a salary and a mortgage. How to
+  test a business while employed, what the employment contract actually permits, how much runway is
+  enough, what evidence justifies resigning. Nothing else in the book is useful if this goes wrong.
+- **11 What Happens After the Sale** *(new)* — retention. The outline jumped from the first ten
+  customers straight to financial statements. A business with acquisition and no retention looks
+  healthy for about a year, which is exactly long enough to commit to it.
+- **20 Managing People** *(new)* — hiring was present; managing was not. For a 1–20 person business
+  this is larger than hiring: delegation, expectations, feedback, performance problems, dismissal.
+- **24 What You Signed** *(new)* — contracts, liability, insurance, IP ownership. Not a legal
+  manual; a map of which vague agreements become expensive and when to pay someone who knows.
+- **04 The Cost of Finding Out** *(cut)* — genuinely overlapped chapters 02 and 03. Its content
+  folds into 03, and *Deciding Not To* moves up to 04.
+
+## 6b. Case ledger
+
+Five fields per case. The first four are written **when the case is first used** and consulted before
+it is reused; **Spent** is updated after publication so a later chapter knows which evidence and
+interpretive work it would be repeating rather than inheriting.
+
+**What "spent" means — corrected at ch. 14, after the field was misread.** A case is spent when it
+has already carried **the same inference**, not when it has merely appeared. Reading it the loose way
+retires a business the first time it is used and throws away the book's own recurring-cast principle
+in §7. Cydoc is the instance that exposed this: ch. 04 used it to show that impressive validation
+milestones can keep satisfying a badly written stopping rule, and ch. 14 returns to answer the
+economic question ch. 04 deliberately left open. Same evidence, a different question asked of it —
+which is continuity, not repetition. The test to apply before declaring a case spent: *name the
+inference the earlier chapter drew.* If the new chapter draws a different one, the case is available.
+Working-file only — none of this is reader-facing, which is the point: it constrains interpretation
+without adding another qualification to the prose. *Prohibited claim* is the load-bearing field; it
+is what would have caught ch. 04's "did exactly what this chapter asks" and ch. 06's backwards
+causal arrow, both of which passed every claim row.
+
+### Webvan — ch. 01
+- **Facts.** SEC filings: capital raised, distribution centres planned and built, losses, the
+### Ledger additions from the Part IV–V drafting, 2026-08-28
+
+Written after ch. 19–28 were drafted and craft-reviewed in one day; each entry records only what
+its chapter actually spent, so a later return has something to test against.
+
+- **Gymdesk / Galperin — spent, continued.** Ch. 19 spent `galperin-2023-covid`'s hiring paragraphs
+  *and* one sentence on the 2020 churn plus the end-2020 $19.5k figure (the §6i ch. 26 entry's
+  claim that ch. 19 "never touched" the churn is wrong; corrected here). Ch. 26 spent the pre-shock
+  quarter, freeze-or-cancel, the feature list, the June stabilisation sentence, the 2021 and 2022
+  context sentences and the "I strongly believe" reading. Ch. 28 spent `eg-binpress-2016` — a
+  different company, sixth Galperin appearance, named in the chapter's Reading. **Nothing further is
+  reserved; the cast has carried him as far as it should.**
+- **Groove / Turnbull — ch. 20, ch. 21.** Facts: `groove-fire-2015` (nearly 40% of the launch team
+  turned over in three years; 2–4-week paid trial as "a paid consulting gig"; feedback during, in
+  writing; team and candidate input; the forcing function) and `groove-meetings-2016` (four rhythms;
+  9-person 45-minute meetings; the coach's video, nearly 20 people under 7 minutes, attributed two
+  layers deep; owner, clocked segments, same skeleton). Permitted: a date set in advance substitutes
+  for willpower; structure, not fewer meetings. Prohibited: never the at-will country (unsourced);
+  never that the standup "went from 45 to 10" (not on the page); never Groove's minute counts as a
+  template. Recognisability budget closed at 5.0 of 5 (ch. 21 entry) — no further use.
+- **WP Curve — ch. 23 spent.** `wpc-jun-2014`: the target and June figures, 15 people, hiring every
+  two weeks *at* the rate of growth (not ahead — "we don't want to grow faster"), the first hire by
+  another team member with founders at key intervals, the delegated list, "not a lot to do" and
+  Alex's aside, Happy % 96→82 with Norris's reasons and no arrow to the team. Prohibited: never that
+  WP Curve hired ahead of need; never the 15:$23,535 ratio as a benchmark; never the Happy % drop
+  attributed to growth.
+- **ConvertKit — ch. 22 spent.** `nb-metrics-2019` end to end. Prohibited: never "three" in Barry's
+  mouth; never the annual-plan push as "the business not changing"; never a discount as a lever that
+  flatters net revenue churn (it raises it); never Barry's 0% goal used against him.
+- **Studio Neat — ch. 25 spent.** "A Word on Patents" from `sn-howto`. Prohibited: never an order
+  between the decision and the imitations; never the brand bet as a result; never the US-law
+  reading as law anywhere.
+scripts/prompts/review-checklist.md:19:  evidence and must be attributed as such in the prose.
+CONTEXT.md:327:- A founder's later retelling of their own numbers is **weaker** evidence and must be attributed as such in the prose ("by Swinmurn's own account").
+CONTEXT.md:974:  mouth; never the annual-plan push as "the business not changing"; never a discount as a lever that
+CONTEXT.md:2217:**Recognisability (§7) — resolving, not just naming, the conflict ch. 22's entry flagged.** Ch. 22's
+CONTEXT.md:2260:### Ch. 22 — Measuring the Right Three Things
+CONTEXT.md:2293:  attributed as such in the prose, on the same footing as `nb-convertkit-5k` and `nb-direct-sales`
+CONTEXT.md:2310:that founder-run selling need not survive the founder's absence. Ch. 22's candidate inference — what
+CONTEXT.md:2347:**Registered.** Seven claims against `nb-metrics-2019` under `checks/claims.tsv` chapter 22: the
+# Chapter review checklist
+
+You are reviewing one chapter of *The Going Concern*, a book on running a small self-funded
+business, written for an experienced software developer (~40, fifteen-plus years salaried,
+Netherlands or similar) going out on their own. Your job is to find what is wrong with it. Praise
+is not useful output.
+
+You have shell access to this repository (`--cwd` / working directory is the repo root). Use it.
+`CONTEXT.md` is the authoring constitution — read the sections cited below before you judge
+anything against them, rather than relying on this checklist's summary of them. `checks/claims.tsv`
+and `checks/sources.tsv` are the claim register; `checks/.cache/` (if present) holds downloaded
+primary sources. Read the chapters this one references (`chapters/NN-*.html`) when a finding
+depends on what an earlier chapter already said.
+
+## What the book is trying to be
+
+- **One real, named, dated company per chapter**, with at least two hard figures traceable to a
+  primary source (`CONTEXT.md §5`). A founder's later retelling of their own numbers is weaker
+  evidence and must be attributed as such in the prose.
+- **Four fixed moves** — the situation, what actually happened, the reasoning (principle *with its
+  boundaries stated in the same breath*), Monday (concrete numbered actions) — then a counter-case
+  block and a reading list (`CONTEXT.md §3`).
+- **The counter-case is the book's honesty mechanism**, and it is a specific, narrow claim: the
+  chapter's own advice, followed by capable people, failing. Not related-but-different, not "the
+  idea aged badly," not "someone half-followed this and it worked out anyway."
+- **Second person for the reader, third for the case, never "we."** No hero founders. No war
+  metaphors. Nothing sold.
+- **Where the answer depends on Dutch law**, it is quarantined in a boxed `<div class="ground">`,
+  dated, sourced to an official body, and never derived from memory (`CONTEXT.md §5b`).
+
+## Reference material — read these sections before judging
+
+- `CONTEXT.md §3` (Chapter template) and its subsection *Counter-case, aftermath, and the debt
+  register* — the `.counter` / `.aftermath` / `.limit` / `.owed` distinction and the debt register.
+- `CONTEXT.md §3`, *Standing constraint: the book must not become a licence to wait*.
+- `CONTEXT.md §5` (Sourcing standard) and `§5b` (On Dutch ground).
+- `CONTEXT.md §6b` (Case ledger) — the *spent* rule and the per-case Facts / Permitted / Confounders
+  / Prohibited / Spent entries for whatever case this chapter uses.
+- `CONTEXT.md §6` (Chapter register) and the relevant `§6x` settlement section for this chapter, if
+  one exists — it states the thesis, the case, the spent-check and the domain-competence declaration
+  that were supposed to hold *before* the chapter was drafted.
+- `CONTEXT.md §8`, *Two kinds of accuracy, and the script only checks one* — this is the failure
+  mode the review pipeline exists to catch. The claim register verifies quotations, never whether
+  the case supports the lesson drawn from it.
+
+## Find these, in this priority order
+
+1. **A case block mislabelled against `CONTEXT.md §3`'s table.** A `.counter` block whose case does
+   not actually falsify the chapter's own central advice — check it clause by clause against every
+   numbered component the chapter states, not against whatever advice the case happens to counter.
+   A near-miss (advice half-followed, or a related idea aging badly) belongs in `.limit` or
+   `.aftermath`, never `.counter`. This is the single most-recurring defect in the book's own record
+   (`§3`: "three of the four written chapters have done it") and mislabelling it is a credibility
+   failure, not a stylistic one — say so plainly if you find it.
+
+2. **A case reused past what `§6b` calls "spent."** A case is spent when it has already carried
+   *the same inference*, not when it has merely appeared again. If this chapter reuses a company
+   from an earlier chapter, open that case's ledger entry in `§6b`, name the inference the earlier
+   chapter drew, and check whether this chapter draws a *different* one. If it repeats the earlier
+   inference, or if it asserts something the ledger's **Prohibited** field rules out, that is a
+   finding — quote the Prohibited line you're checking against.
+
+3. **A causal arrow pointing backwards, or a category doing more work than its evidence.** The two
+   most common real defects in this book's corrected record (`§8`). Check every "because," "so,"
+   "which led to," and "therefore" against the actual dates and mechanism in the source — a chapter
+   can quote every figure correctly and still get the arrow between them backwards (ch. 06's
+   positioning-statement error is the worked example in `§3`). Separately: does a named category or
+   label (e.g. "owned vs. rented," "credentials and relationships") claim to cover more than the
+   cited evidence actually establishes? If a term needs a paragraph explaining what it does *not*
+   mean, the term is doing too much work.
+
+4. **Domain-technical error — accounting, tax, or law.** This is the error class that rose from
+   1-of-17 in early chapters to 8-of-21 in Part III (`§8`), and it is the class a reader can act on
+   and be harmed by. Check every accounting mechanism, tax rule, or legal claim against what the
+   cited source actually says, not against what sounds right. Flag anything stated as domain fact
+   that is not directly traceable to the quoted source or statute.
+
+5. **An `On Dutch ground` box that fails `§5b`'s rules.** For every `<div class="ground">` in the
+   chapter, check: is every legal claim sourced to an official body (rijksoverheid.nl, KVK,
+   Belastingdienst, UWV, wetten.overheid.nl, Rechtspraak.nl) and present as a row in
+   `checks/claims.tsv`? Is the box dated with a "checked" line? Does it name the professional to
+   ask rather than answering definitively? Does it recommend a tax structure or deduction (not
+   allowed — "no tax planning")? Does the box stay quarantined, or does its content leak into the
+   general argument outside the box?
+
+6. **Quantifier drift that actually overclaims — judged in context, not by keyword.** `CONTEXT.md
+   §8` measured an absolutes checker (`always`, `only`, `never`, `every`, `nothing`, `proves`) at
+   **378 hits across 13 chapters, ~29 per chapter, overwhelmingly on legitimate uses**, and it was
+   explicitly rejected as noise. Do not reproduce that checker. Only report a quantifier as a finding
+   when the *sentence* converts a true conditional relationship into a false universal one — i.e.
+   the absolute claim is actually false or unsupported by the evidence given, not merely present.
+   ("The direction it drifts is always the same" was a real finding because the case does not
+   support "always." "Never state Dutch law from memory" is not a finding — it is a true rule.) If
+   you are not confident the absolute is actually wrong, do not report it.
+
+7. **The standing constraint — the book must not become a licence to wait (`§3`).** Three checks:
+   (a) does the `Monday` list contain any hedge — "consider," "think about," "possibly" — where the
+   rest of the book requires an imperative verb the reader can fail at? (b) does the chapter state an
+   evidence standard or threshold with no expiry date attached? (c) where the chapter's advice can be
+   read as a reason to defer a decision, does it name what waiting costs? This applies with most
+   force to Part IV and V chapters, where "diagnose first" is easy to write as "wait longer."
+
+8. **Part IV's two-legitimate-answers rule, where applicable (`§2`).** For chapters in Part IV
+   (17–22): does the prose ever slide into treating "you own a job" (an owner-operated practice, not
+   systematised) as an inferior or embarrassing outcome? The book's own position is that both a
+   practice and a systematised asset are legitimate, and the failure is not knowing which you built,
+   not building the practice. Flag any sentence that reads as contempt for the practice outcome.
+
+9. **An unsourced or unregistered figure.** Any number, date, or quotation stated as fact in Move 2
+   that you cannot find as a row in `checks/claims.tsv` for this chapter, or that is a founder's
+   later account presented without the "by their own account" attribution `§5` requires. Note what
+   you searched (grep the chapter number in `claims.tsv`) before reporting a figure as unregistered —
+   do not report absence you have not checked for.
+
+10. **Voice breaks.** First-person plural ("we"), a hero-founder framing that makes the case about
+    the person rather than the decision, war-metaphor language (crushing, killing, dominating,
+    beasts), anything that reads as sold (a newsletter, a course, consulting).
+
+## What not to do
+
+- Do not rebuild the absolutes checker (§6 above exists precisely to stop you doing this).
+- Do not report a claim as unsupported merely because you didn't find it in `claims.tsv` — say what
+  you searched.
+- Do not report style preferences as findings.
+- Do not flag a `.owed` block for lacking a counter-case — that is the honest, intended state, not a
+  defect. Only flag an `.owed` block if the missing case it describes would itself violate a
+  chapter's own numbered test if it existed as stated.
+
+## Output
+
+Return findings as a JSON array, most severe first. Each finding:
+
+```json
+{
+  "category": "mislabeled-case-block | spent-case | backwards-causal | category-overreach | domain-error | dutch-ground | quantifier-drift | licence-to-wait | job-contempt | unsourced-claim | voice",
+  "severity": "high | medium | low",
+  "quote": "the exact text from the chapter that is wrong",
+  "problem": "one sentence on what is wrong with it",
+  "evidence": "what you checked — which CONTEXT.md section, ledger entry, claims.tsv row, or source — and what you found",
+  "fix": "a concrete suggested replacement or correction"
+}
+```
+
+Return `[]` if you find nothing. An empty array is a legitimate answer and is far better than an
+invented finding.
+
+# ch21 — Groove / Alex Turnbull, "How We've Optimized Remote Team Meetings For Ultimate Efficiency" (2016). Case hunt in §6i.
+21	groove-meetings-2016	It made our 9-person 45-minute meetings look amateur in comparison.
+21	groove-meetings-2016	nearly 20 people participated and shared updates, and the meeting still took less than 7 minutes.
+21	groove-meetings-2016	Lesley owns meetings for our team, and handles scheduling and moderating.
+21	groove-meetings-2016	Monday Recap Meeting — 30 Minutes
+21	groove-meetings-2016	Tuesday–Thursday Daily Standup — 10 Minutes
+
+# ch22 — ConvertKit / Nathan Barry, "Understanding ConvertKit's open metrics" (2019). Case hunt in §6i.
+22	nb-metrics-2019	MRR growth is actually the summary of five metrics: new, expansion, reactivation, contraction, and churn
+22	nb-metrics-2019	Revenue churn is the percentage of your revenue base you lost in a month, whereas user churn is the percentage of customers you lost in a month
+22	nb-metrics-2019	At ConvertKit we are at 2.2% net revenue churn
+22	nb-metrics-2019	At ConvertKit we have a quick ratio of 1.47
+22	nb-metrics-2019	Buffer is at $21 per customer and ConvertKit is at $57 per customer
+22	nb-metrics-2019	we have 20,812 generating $1,188,580 in MRR
+22	nb-metrics-2019	6,994 customers (33% of the total) generating $811,117 in MRR (68% of the total)
+
+# ch23 — WP Curve / Dan Norris, "People, Product and Process — June monthly report" (2014). Case hunt in §6i.
+23	wpc-jun-2014	We increased the team to 15 people
+23	wpc-jun-2014	In June, our MRR grew by 22% to $23,535
+23	wpc-jun-2014	we are hiring every 2 weeks
+23	wpc-jun-2014	we had our first staff employed by another team member, instead of me or Alex
+
+# ch24 — no company case found within this task's time box; statutory claims only, for the mandatory Dutch ground box (§5b, §6i). Quote-only per the stricter §6f-style process for this chapter.
+24	auteurswet-2026	Indien de arbeid, in dienst van een ander verricht, bestaat in het vervaardigen van bepaalde werken van letterkunde, wetenschap of kunst, dan wordt, tenzij tusschen partijen anders is overeengekomen, als de maker van die werken aangemerkt degene, in wiens dienst de werken zijn vervaardigd.
+24	auteurswet-2026	De overeenkomst op grond waarvan het auteursrecht geheel of gedeeltelijk wordt overgedragen of waarin een exclusieve licentie wordt verleend, wordt schriftelijk aangegaan.
+24	bw6-2026	Een beding in algemene voorwaarden is vernietigbaar a. indien het, gelet op de aard en de overige inhoud van de overeenkomst, de wijze waarop de voorwaarden zijn tot stand gekomen, de wederzijds kenbare belangen van partijen en de overige omstandigheden van het geval, onredelijk bezwarend is voor de wederpartij; of b. indien de gebruiker aan de wederpartij niet een redelijke mogelijkheid heeft geboden om van de algemene voorwaarden kennis te nemen.
+24	bw6-2026	De gebruiker heeft aan de wederpartij de in artikel 233 onder b bedoelde mogelijkheid geboden, indien hij de algemene voorwaarden voor of bij het sluiten van de overeenkomst aan de wederpartij ter hand heeft gesteld
+
+# ch25 — Studio Neat / Gerhardt & Provost, third use of the ch. 03/ch. 09 company, same source, new (never-drawn-on) section and new inference: what patents actually do and do not protect, and what the founders leaned on instead. sn-howto already exists (registered at ch. 03/ch. 09) and is reused here for the "A Word on Patents" section, per §6b. Case hunt in §6i.
+25	sn-howto	Patents do nothing to prevent people from stealing your idea.
+25	sn-howto	we have realized that patents are basically designed to protect large corporations, and the idea of a small company of two people obtaining a patent is fairly ridiculous. We decided to pass.
+25	sn-howto	there have been a few direct imitations that have cropped up, out of Germany and Taiwan.
+25	sn-howto	As long as our brand remains strong, we think enough customers will choose the real deal versus the knockoff.
+
+# ch26 — Gymdesk / Eran Galperin, fifth appearance, same document already registered at ch. 19 (galperin-2023-covid) but a different, earlier section — the 2020 COVID shock to the fitness industry, not the 2021-22 hiring paragraphs ch. 19 used — and a new inference: a shock external to the business, not capacity or a legal choice. Case hunt in §6i.
+26	galperin-2023-covid	almost all gyms were closed for months
+26	galperin-2023-covid	We had significant churn from March to around August.
+26	galperin-2023-covid	having grown our MRR by 60% to around $19.5k
+26	galperin-2023-covid	having grown our MRR by around x2.5 compared to 2020
+
+# ch27 — Black Hops Brewing / Dan Norris, Michael McGovern & Eddie Oldfield, new company. Named-journalist reporting (Brews News / Matt Kirkegaard) citing an ASIC filing and CSF offer documents, not a founder's own account. Case hunt in §6i.
+27	bh-ceo-2023	in hindsight, Black Hops had outgrown him and staying would create confusion
+27	bh-ceo-2023	at no point did we think it would get to be what it is today
+27	bh-loss-2023	revealed a before-tax loss of $1.8 million
+27	bh-loss-2023	raised more than $2.2 million from 996 investors in a day at a valuation of more than $67 million
+27	bh-loss-2023	profit of $867,223 for the 2021 financial year
+
+# ch28 — Binpress / Eran Galperin, sixth appearance of the recurring name but a genuinely new, earlier company (2010-2016) — not a return to the Gymdesk ledger entry — plus the mandatory Dutch ground box on winding up (§5b). Case hunt in §6i.
+28	eg-binpress-2016	we raised our seed round of almost $1M
+28	eg-binpress-2016	getting to $30k in monthly revenue
+28	eg-binpress-2016	It was time to move on
+28	eg-binpress-2016	Eventually we settled for selling the assets only (site and code-base), while dissolving the company
+28	kvk-eenmanszaak-2026	Wij geven je uitschrijving door aan de Belastingdienst.
+28	kvk-turboliquidatie-2026	Binnen veertien dagen na het ontbindingsbesluit moet het bestuur verschillende (financiële) documenten indienen bij ons.
+28	kvk-turboliquidatie-2026	Als er geen bezittingen zijn op het moment van ontbinding, dan stop je direct met je bedrijf.
+19	galperin-2023-covid	had reached $12k in MRR in the middle of 2019
+19	galperin-2023-covid	We had significant churn from March to around August
+19	galperin-2023-covid	having grown our MRR by 60% to around $19.5k
+19	galperin-2023-covid	After a few failed experiments engaging “growth” and advertising agencies, I came to the conclusion that outside consultants and agencies were never going to understand our audience like I did
+19	galperin-2023-covid	used to write for us
+19	galperin-2023-covid	This was a big decision for me personally – it’s different engaging freelancers for fixed term / cost work, than bringing on someone as a full time employee that you’re now responsible to make sure they are paid every month
+19	galperin-2023-covid	We have engaged customer service people through Upwork previously as contractors, and it just wasn’t working out
+19	galperin-2023-covid	I still regret not doing this sooner
+19	galperin-2023-covid	by around x2.5
+19	galperin-2023-covid	passed $1M in ARR in mid 2022
+19	galperin-2023-covid	The more people I hire, the more work I need to do every day getting them “unstuck” when they encounter things outside of their comfort zone
+19	rijks-schijnzelfstandigheid-2026	De Belastingdienst controleert sinds 1 januari 2025 weer volledig op schijnzelfstandigheid
+19	rijks-schijnzelfstandigheid-2026	betaalt de werkgever alsnog loonbelasting, premies werknemersverzekeringen, bijdragen Zorgverzekeringswet en soms pensioenpremies
+19	rijks-schijnzelfstandigheid-2026	Bedrijven en zzp’ers zijn samen verantwoordelijk om schijnzelfstandigheid te voorkomen
+19	galperin-2023-covid	I contracted a very talented UX designer
+19	galperin-2023-covid	were never going to understand our audience like I did
+20	groove-fire-2015	In our three years, we’ve only let a handful of employees ago. But still, on a small team, a few employees is a lot.
+20	groove-fire-2015	I can confidently say that every single person I’ve hired at Groove has been more than qualified to do the job they were hired for
+20	groove-fire-2015	my own hesitance to spot poor fits and wait too long has resulted in
+20	groove-fire-2015	Our team taking longer to hit milestones that we should have because we weren’t collaborating as well as we could have. Our growth slowing because unhappy employees weren’t working at optimal productivity. My own productivity dropping because I was preoccupied with trying to force a fit where there was none.
+20	groove-fire-2015	a trial is not a guaranteed job, but a paid consulting gig to see if there’s interest from both of us in moving forward
+20	groove-fire-2015	This might lock us out of some very talented people who might be excellent fits for Groove. But it’s a non-negotiable for us
+20	groove-fire-2015	the end of the trial — where we have to either sign a permanent contract or part ways — acts as a forcing function that makes the difficult conversation inescapable
+20	groove-fire-2015	doesn’t get any easier. Not the third time, the fifth time or the tenth time
+20	groove-fire-2015	I used to wait until the trial period was over to give feedback. This helped nobody
+20	groove-fire-2015	After two weeks, you won’t remember every small thing you said to someone. But if you took notes, you’ll be able to easily spot the trends in your feedback, and separate the true strengths and weaknesses from the anomalies.
+20	groove-fire-2015	I trust my team’s (who works much more closely with the new employee) judgment even more than my own
+20	groove-fire-2015	I’ve had several people, when I asked them how they felt about their trial, tell me that they didn’t think they were as productive at Groove as they could be elsewhere, or that they simply didn’t think there was a fit
+20	bw7-2026	De werkgever kan de arbeidsovereenkomst niet rechtsgeldig opzeggen zonder schriftelijke instemming van de werknemer, tenzij
+20	bw7-2026	De proeftijd wordt schriftelijk overeengekomen
+20	bw7-2026	een proeftijd worden overeengekomen van ten hoogste twee maanden
+20	bw7-2026	is aangegaan voor ten hoogste zes maanden
+20	bw7-2026	wordt telkens met ingang van 1 januari
+20	bw7-2026	al dan niet met behulp van scholing, in een andere passende functie niet mogelijk is of niet in de rede ligt
+21	groove-meetings-2016	Our team is different from your team, and what works for us might be different from what works for you
+21	groove-meetings-2016	we scheduled no meetings, and opted only to meet on demand when things arose. To put it bluntly, it simply didn’t work
+21	groove-meetings-2016	often started in the form of an instant message saying something like “hey can we chat about this?”, they were the remote equivalent of the tap-on-the-shoulder interruption that destroys so much focus and productivity in office environments
+21	groove-meetings-2016	An hour-long meeting can certainly be disruptive
+21	groove-meetings-2016	perhaps the biggest mistake we made was trying to schedule non-work activities during the work day
+21	groove-meetings-2016	We felt guilty doing these calls because we had work we needed to do
+21	groove-meetings-2016	which we had previously only done via Slack posts
+21	groove-meetings-2016	scared me a bit
+21	groove-meetings-2016	But Kris, our business coach, pushed us to try it
+21	groove-meetings-2016	That missing piece is structure
+21	groove-meetings-2016	No more than 60 seconds per person, often less
+21	groove-meetings-2016	Friday Update — 20 Minutes
+21	groove-meetings-2016	after a couple of months of this
+21	groove-meetings-2016	our team has never been operating more efficiently
+22	nb-metrics-2019	people reading the metrics only on the surface level
+22	nb-metrics-2019	the most important metric in the business
+22	nb-metrics-2019	all over the map. From as high as $73,000 net new in March to a couple negative months in the summer
+22	nb-metrics-2019	Monthly is as granular as you need to go
+22	nb-metrics-2019	Because our beginner customers churn more often than our larger customers, user churn at ConvertKit is always higher than revenue churn
+22	nb-metrics-2019	It’s both interesting and depressing to see so many new accounts come in each month and be canceled out by so many customers leaving
+22	nb-metrics-2019	Quick Ratio = (New MRR + Expansion MRR) / (Churned MRR + Contraction MRR)
+22	nb-metrics-2019	1.47, which is fairly low
+22	nb-metrics-2019	Buffer at 1.08 and Hubstaff at 1.38
+22	nb-metrics-2019	Or put another way, 67% of our customers are generating only 32% of our revenue
+22	nb-metrics-2019	as high as $3 million
+22	nb-metrics-2019	the contraction from annual plans is now outside the rolling 30 day window
+22	nb-metrics-2019	I remember reading an S1 from a company with net negative churn and realizing that they didn’t consider any account canceling in the first 90 days as churn. That’s convenient, no wonder they had negative net churn!
+22	nb-metrics-2019	that we are beholden to a few customers
+22	nb-metrics-2019	down to 0%
+20	bw7-2026	als bedoeld in artikel 671a
+20	bw7-2026	op grond van artikel 669, lid 3, onderdeel a of b
+20	bw7-2026	verzoekt hiervoor schriftelijk toestemming aan het Uitvoeringsinstituut werknemersverzekeringen
+20	bw7-2026	De kantonrechter kan op verzoek van de werkgever de arbeidsovereenkomst ontbinden: a. op grond van artikel 669, lid 3, onderdelen c tot en met i
+20	bw7-2026	en de ongeschiktheid niet het gevolg is van onvoldoende zorg van de werkgever voor scholing van de werknemer of voor de arbeidsomstandigheden van de werknemer
+20	groove-fire-2015	I should’ve been better at spotting the poor fit before I hired them
+23	wpc-jun-2014	24 / 7 unlimited WordPress small fixes for $69 / month
+# ch20 — Groove / Alex Turnbull, new company for the recurring cast. Case hunt in §6i.
+groove-fire-2015	http://web.archive.org/web/20150316193110/https://www.groovehq.com/blog/how-to-fire-an-employee	Alex Turnbull / Groove — "Firing: How I Do the Hardest Thing as an Entrepreneur", published 2015-01-29, archived 2015-03-16, consulted 2026-08-06. Founder's own contemporaneous account, three years into Groove: the 2-4 week paid trial run before any permanent offer, direct feedback given often and logged (not saved for a end-of-trial review) during that trial, team and candidate input built into the decision, and the headcount-turnover figure from Groove's first three years. Founder's own account: weaker evidence class per §5, attributed as such in the prose.
+# ch21 — Groove / Alex Turnbull, second use, different article and inference. Case hunt in §6i.
+groove-meetings-2016	http://web.archive.org/web/20160305122806/https://www.groovehq.com/blog/how-to-optimize-remote-team-meetings	Alex Turnbull / Groove — "How We've Optimized Remote Team Meetings For Ultimate Efficiency", published 2016-02-18, archived 2016-03-05 (the capture closest to publication, chosen over a later 2018 capture because the later one silently redacted a named coach to "our coach" — the article text is otherwise identical), consulted 2026-08-06. Founder's own contemporaneous account of Groove's meeting rhythm: four earlier formats tried and abandoned or kept (no scheduled meetings, a weekly Monday call, an all-culture Friday call, an unstructured daily standup), the "9-person 45-minute" meetings that resulted, a video of 1-800-Got-Junk's own daily standup (nearly 20 people, under 7 minutes) that reset Turnbull's expectations, and the fixed, timeboxed, owned agenda structure adopted afterward. Founder's own account: weaker evidence class per §5, attributed as such in the prose. The 1-800-Got-Junk figures are Turnbull's secondhand relay of a video his business coach showed him, not sourced to 1-800-Got-Junk directly — flagged so the eventual draft attributes them two layers deep, not as this book's own verification of another company's meeting length.
+# ch22 — ConvertKit / Nathan Barry, second use of the ch. 08 company, new source and new inference. Case hunt in §6i.
+nb-metrics-2019	https://nathanbarry.com/metrics/	Nathan Barry — "Understanding ConvertKit's open metrics", published 2019-01-14, dateModified 2019-02-27, consulted 2026-08-06. Founder's own contemporaneous walkthrough of ConvertKit's public Baremetrics dashboard shortly after crossing $1m MRR: the five components of MRR movement, the MRR-versus-net-revenue distinction, user churn versus revenue versus net revenue churn, the quick ratio, ARPU against Buffer's, and the revenue concentration among higher-paying customers. Founder's own account: weaker evidence class per §5, attributed as such in the prose. Not an audited or independently verified figure set — the underlying numbers come from ConvertKit's own Baremetrics instance, which the post itself says is open to public view but which this book has not independently queried.
+# ch23 — WP Curve / Dan Norris, third use of the ch. 10/ch. 14 company, new (June 2014) monthly report and new inference. Case hunt in §6i.
+wpc-jun-2014	http://web.archive.org/web/20140727204812/http://wpcurve.com/june-wp-curve-monthly-report-people-product-and-process/	Dan Norris & Alex McClafferty / WP Curve — "People, Product and Process — June monthly report", published 2014-07-01, archived 2014-07-27 (the capture closest to publication; two later captures, 2014-08-06 and 2016-03-11, carry different content digests per a live CDX query and were not diffed inside this task's time box — flagged for whoever drafts ch. 23 to check what changed before quoting further), consulted 2026-08-06. Founder's own contemporaneous account, one year into the company: the team grown to 15 people (mostly Philippines-based developers) against $23,535 MRR, hiring running about every two weeks ahead of being fully booked, the first staff member hired by someone other than either founder, a 20-page onboarding process now owned by a team admin rather than either founder, and a list of founder tasks (hiring logistics, affiliate approval, social images, bookkeeping) newly delegated away. Founder's own account: weaker evidence class per §5, attributed as such in the prose. Archive-cited, same footing as `wpc-jul-2013`/`wpc-oct-2013`/`wpc-nov-2013`/`wpc-dec-2013` — wpcurve.com is a dead, redirecting domain today (checked live during this task, 2026-08-06: the current site immediately redirects to `/lander`), consistent with the ch. 10 sources.tsv note that the company was acquired in 2016. This task did not independently source the acquisition; it is carried here as existing, unverified context, not registered as a claim.
+
+
+exec
+/bin/bash -lc "sed -n '2260,2365p' CONTEXT.md; sed -n '3280,3335p' CONTEXT.md; sed -n '3368,3410p' CONTEXT.md; rg -n \"by .*own account|own account|wrote a walkthrough|founder.*account\" chapters/22-measuring-the-right-three-things.html chapters/19-*.html chapters/20-*.html chapters/21-*.html chapters/23-*.html | head -80" in /home/diablo/book4
+ succeeded in 154ms:
+### Ch. 22 — Measuring the Right Three Things
+
+**Status: has a case, with a real tension the settlement must resolve rather than paper over.**
+
+**Candidate.** ConvertKit / Nathan Barry — second use of the ch. 08 company, on a **new, later
+source**: "Understanding ConvertKit's open metrics" (nathanbarry.com/metrics/, published 2019-01-14,
+dateModified 2019-02-27). Written shortly after ConvertKit crossed $1m MRR, well past the 2014
+near-death and 2017 direct-sales recovery ch. 08 already used — this is a mature-stage founder
+narrating how he reads the company's own public Baremetrics dashboard, not a turnaround story.
+
+**What this chapter would use it for, and the tension in using it.** The post walks through, in
+order, what Barry says he actually looks at: the five components of MRR movement (new, expansion,
+reactivation, contraction, churn), the MRR-versus-net-revenue distinction, user churn versus revenue
+churn versus net revenue churn, total customers and net-new customers, the quick ratio, ARPU against
+Buffer's, and an 80/20 revenue-concentration breakdown by customer. **That is at least seven things,
+not three**, and the post never claims otherwise — nowhere does Barry say a smaller number would
+suffice; if anything his stated posture is the opposite of delegation, a founder personally auditing
+a public dashboard in detail. A chapter titled "Measuring the Right Three Things" cannot cite this
+post as evidence that Barry himself measures three things, because he does not say that and the case
+does not show it. What the case *can* support, if the chapter is honest about doing the editorial
+work itself rather than attributing it to the source: Barry's own ordering is not flat — he opens
+with MRR's composition and treats churn as the necessary second question before quick ratio, ARPU and
+the concentration breakdown are introduced as progressively more supplementary. A chapter arguing that
+an owner stepping back needs a compressed, delegable set could use that ordering as evidence for
+*which* three are load-bearing (revenue movement, churn, and one measure of customer-revenue
+concentration or efficiency), while explicitly naming the other four as color a business can review
+less often. That argument is this book's, not Barry's, and the prose must say so in those terms — the
+single biggest risk this entry can name is a chapter that silently smooths "here are seven things one
+founder tracks" into "a founder should only track three," dressed as if the case said it.
+
+**Primary documents and evidence class (§5).**
+- `nb-metrics-2019` — nathanbarry.com, published 2019-01-14, dateModified 2019-02-27, consulted
+  2026-08-06. First-party, but a founder's own account of his own company: §5's **weaker** class,
+  attributed as such in the prose, on the same footing as `nb-convertkit-5k` and `nb-direct-sales`
+  already registered at ch. 08. Not audited, not independently verified — the underlying numbers come
+  from ConvertKit's own Baremetrics instance, which the post says is open to public view but which
+  this book has not itself queried; the book is trusting Barry's transcription of his own dashboard,
+  one layer removed from the dashboard itself.
+- **Not pursued.** ConvertKit's live Baremetrics/Open Startups page (the dashboard the post describes)
+  was not fetched independently — `openstartups.html` and `os_2019.html` are already in the shared
+  cache from an earlier ledger check, but both render their figures via JavaScript and contain no
+  ConvertKit text in the saved HTML (checked: zero matches for "ConvertKit" in either file), so they
+  cannot corroborate anything without a live, script-rendered fetch this task's time box did not
+  attempt. The entry rests on the blog post alone, at the weaker evidence class that implies.
+
+**The unspent inference (§6b).** Ch. 08's ledger entry explicitly reserved this: "another ConvertKit
+chapter would need evidence outside this recovery," and this is exactly that — a different source
+(the 2019 metrics post, never registered before), a different company-moment ($1m+ MRR and stable,
+not $1,207 and dying), and a different inference. Ch. 08 took the failure-and-recovery MRR ladder to
+show that asking customers directly finds a load-bearing objection an analytics package cannot, and
+that founder-run selling need not survive the founder's absence. Ch. 22's candidate inference — what
+a small number of composite metrics can tell an owner about a business's health, and what the rest
+are for — touches revenue and churn arithmetic ch. 08 never opened. Passes the "name the inference"
+test: new source, new inference, only the company and founder repeat.
+
+**Domain-competence declaration (§8).** Not a 🇳🇱 chapter — no legal content. The competence risk is
+financial-literacy precision, not statute:
+- **User churn, revenue churn and net revenue churn are three distinct ratios**, not three names for
+  one number — the post itself distinguishes them (revenue churn adds contraction; net revenue churn
+  nets out expansion), and a chapter that uses "churn" as an undifferentiated word after citing this
+  source would misrepresent its own evidence.
+- **The quick ratio formula must be reproduced exactly** — (New MRR + Expansion MRR) / (Churned MRR +
+  Contraction MRR) — and ConvertKit's own value (1.47) reported as what it is: low, by Barry's own
+  framing, and specific to a comparison against exactly two other named open-startups companies
+  (Buffer 1.08, Hubstaff 1.38), not a general benchmark.
+- **The ARPU and 80/20 figures are Barry's own arithmetic on a filtered dashboard view**, not a
+  published cohort study — the 6,994/20,812 customer split and the 33%/68% revenue split are a
+  same-day snapshot from one export, and the prose must not present them as a stable or audited
+  segmentation.
+- **Never attribute the "three things" framing to Barry** — see the tension above. This is the
+  chapter's own compression argument and must be presented as such.
+
+**Recognisability (§7) — a real constraint, and possibly already spent by the time this is read.**
+ConvertKit already carries a half-slot from ch. 08 under the "chapters anchored on a company the
+reader has heard of" rule; reusing it for a second chapter charges **another** half-slot under the
+same rule that charged Plausible, ConvertKit, Pinboard and Groove once each. Ch. 20's entry left the
+running total at "four of four or five," with "at most one more recognisable business" fitting the
+rest of the book. **This task cannot confirm whether that one slot is still open.** `checks/claims.tsv`
+and `checks/sources.tsv` carry uncommitted, unsettled rows for ch. 21 (Groove, a *second* Groove
+article) found already present in this worktree when this task started — evidence that ch. 21's case
+hunt ran before this one and may itself already have spent the last slot by the same "another chapter,
+another half-slot" logic this entry just applied to ConvertKit. If so, registering ConvertKit again
+here would put the book at 5.0 of a stated ceiling of "four or five," and no recognisable company
+could appear in any of chapters 23–28 without either amending the budget or dropping one of ch. 21's
+or ch. 22's cases. Whoever settles ch. 21 and ch. 22 under §6f-equivalent process should reconcile
+this before either chapter drafts — recorded here rather than silently assumed either way.
+
+**Registered.** Seven claims against `nb-metrics-2019` under `checks/claims.tsv` chapter 22: the
+five-component MRR-growth sentence, the user-churn-versus-revenue-churn definition, the 2.2% net
+revenue churn figure, the 1.47 quick ratio, the $21-versus-$57 ARPU comparison with Buffer, the
+20,812-customers/$1,188,580-MRR total, and the 6,994-customers(33%)/$811,117-MRR(68%) concentration
+figure. `./verify.sh --strict 22` passes all seven.
+
+### Ch. 23 — Slack
+
+**Status: has a case, deliberately not the one the ledger earmarked.**
+
+**What this chapter owns, restated from §6g before candidates are judged against it.** Ch. 16's
+own boundary-setting sentence: "Ch. 23 (*Slack*) owns capacity held in reserve; ch. 28 (*Knowing
+When to Stop*) owns ending." Not personal financial sufficiency (ch. 16), not a stopping decision
+(ch. 28) — margin held inside the operating business itself, before a shock arrives, that lets it
+absorb one without breaking: staff depth beyond the minimum needed today, an owner's week that is
+not fully booked, a process that does not depend on one specific person being reachable.
+
+**Why not Studio Neat, which §7's recurring-cast section names as the earmarked candidate.** The
+ch. 03/09 ledger entry is explicit: "the same gate applies to the possible ch. 23 return on
+`poppler-utils` for this reason. When writing claim rows against a converted PDF, avoid the soft
+hyphens (U+00AD) that Google's reports use for minus signs and en-dashes — they survive conversion
+and will not match a typed `-`.
+
+**Write claims against the filing's own words, not against the prose.** The claim rows are the
+sentences the filing actually contains; the chapter then paraphrases them. This way a rewrite of the
+prose cannot silently break the sourcing, and a claim that fails tells you the filing changed or the
+citation was wrong — never that a sentence got reworded.
+
+### Two kinds of accuracy, and the script only checks one
+
+Added after external review found chapter 4 asserting that Galperin *"did exactly what this chapter
+asks"* while its own next-but-one paragraph said he *"chose a consequence he had not written down in
+advance"* — a direct contradiction, in a block where **every claim row passed and still does**.
+
+| | What it means | What checks it |
+|---|---|---|
+| **Factual** | the numbers, dates and quotations are present in the cited source | `verify.sh`, mechanically |
+| **Interpretive** | the case actually supports the lesson the chapter draws from it | nothing but reading |
+
+The second is where this genre fails, and it is invisible to the tooling by construction. A chapter
+can be assembled entirely from correctly quoted figures and still be wrong about what they show.
+`verify.sh` makes the first kind of error nearly impossible and does nothing whatever about the
+second, which means the tooling's existence is itself a hazard: it produces a feeling of rigour that
+covers half the surface. Say so publicly rather than letting the script imply more than it does.
+
+Two rules follow.
+
+**Score the case against the chapter's own test, clause by clause.** Where a chapter states a
+numbered test — ch. 04's three components, ch. 02's five extractions — write the case against every
+numbered item before claiming it fits. Ch. 04's counter-case met one and a half of three, and nobody
+noticed because every sentence in it was true.
+
+**The error is recursive, and that is the thing to internalise.** Chapter 4's Gymdesk block has now
+been corrected three times, each pass catching a finer-grained version of the same move:
+
+| Pass | The overclaim | What was actually true |
+|---|---|---|
+| 1 | "counter-case: the rule, honoured, would have been wrong" | he never followed the rule |
+| 2 | "did exactly what this chapter asks" | one and a half of three components |
+| 3 | "the pair make the same point: the third component is load-bearing" | the case supports *widening the menu of consequences*; it does not establish **choosing one in advance**, because Galperin improvised and succeeded |
+| 4 | "it says nothing about choosing in advance — if anything it cuts the other way" | **the correction overshot.** It does not show pre-selection was *necessary*, but it does show the mechanism pre-selection guards against, running in real time: with no consequence written down he took the decision under pressure, at the worst moment, as the person least able to take it. Good judgement, not a plan. |
+
+Each fix was honest and each left a smaller instance of itself behind, because the pull is not toward
+one wrong sentence but toward extracting the maximum lesson a case will bear. Pass 4 shows the pull
+also runs backwards: **"the case is silent on this" is itself a claim about the case, and needs the
+same test as "the case proves this."** Over-correction reads as rigour and costs the chapter a real
+piece of evidence.
+
+The countermeasure is mechanical, not moral: **after fixing an overclaim, re-read the corrected
+passage as if it were a stranger's, and ask what the case would have to have done differently for
+the new sentence to be false.** If the answer is "nothing", the sentence is still not saying anything
+about the case — and if the answer is "nothing could make it false because it asserts absence", check
+whether the absence is real.
+
+The settled wording, after four passes: Gymdesk shows that a stopping rule needs consequences short
+did not exist. That single fact changed the chapter's argument: the trap was not the twenty-six
+warehouses Webvan never built, it was the first one it did.
+
+Keep this table. It is the standing argument for why the book is built this way.
+
+### Ch. 19–28 drafted in one day — what the two review instruments found
+
+Written 2026-08-28. Ten chapters drafted and craft-reviewed (one Fable reviewer per chapter, reports
+in `checks/craft/`), with `scripts/review.sh` run on ch. 19 only (grok and agy independent, codex
+consolidating; report in `checks/reviews/19-the-first-hire/`). What recurred, in order of frequency:
+
+1. **The chapter reading the source for what it ought to show.** Every first draft added words the
+   source did not contain — "for years", "by the hour", "as a freelancer", "fully remote",
+   "deliberately", "ahead of need", "end to end", "close to half" — and in four chapters reordered
+   the source's sentences into a causal sequence (19's agencies, 21's standup and video, 23's hire
+   and Happy %, 26's features and June). The reviewers caught all of it by reading the raw source
+   beside the chapter; nothing else would have.
+2. **Dutch law leaking out of the box** in looser English: ch. 19's Monday turned a presumption into
+   a determination; ch. 20 sent a performance dismissal to the UWV (art. 671a is grounds a and b;
+   ground d is the kantonrechter under 671b); ch. 24 glossed art. 2 lid 3's scope clause onto
+   transfers by non-makers (lid 5 excludes art. 7/8 makers) and stated the terms mechanism backwards
+   ("bind nobody" — they bind and are voidable). All corrected with claim rows from the registered
+   statutes. Rule confirmed: the portable paragraph must stay portable; the box quotes.
+3. **Instruments borrowed from the wrong chapter**: ch. 22 forgot ch. 12's weekly three and ch. 21's
+   reader; ch. 26 borrowed ch. 23's hours-reserve for a demand shock; ch. 28's Monday pointed at
+   ch. 23 for a months figure that lives in ch. 13 and ch. 16. The fix each time was one reconciling
+   sentence and a corrected pointer.
+4. **Caveats said three or four times** (Move 2, Move 3, owed, Reading) where §6d allows one in the
+   argument. Cut to once in every chapter.
+5. **Counting openers and self-announcing climaxes** in every draft; cut.
+
+The codex consolidation on ch. 19 agreed with the craft reviewer on the presumption overshoot and
+the agency causation, and added three the craft pass had not: "therefore" in the decision box
+(task/job does not determine legal form), the funding test without a decision date (a licence to
+wait — §3's own rule), and an unregistered figure carried from the ch. 18 source. All applied.
+review.sh was then run on the three remaining 🇳🇱 chapters (20, 24, 28) the same evening, with the
+instrument rewired: Gemini 3.7 Flash and Gemini 3.1 Pro review independently, codex consolidates
+(reports in `checks/reviews/`). Eight findings survived consolidation; all eight were accepted:
+
+- **Ch. 20** — Monday 1 was a licence to wait (the four items after it "wait until" the sentence
+  exists; §3 rule 2 — both reviewers independently). Now the date goes in regardless and the weeks
+  before it are for finding the words. And "three years of hiring" widened Groove's 40% past its
+  denominator — the source says "the team we launched with"; the sentence now says that.
+chapters/21-meetings-that-arent-theater.html:212:      <li><span class="src">Note ·</span> A founder's own account, the weaker evidence class used for every founder post in this book. The nearly-twenty-people, under-seven-minutes figure is Turnbull's description of a video his coach showed him of another company; it is not sourced to that company and this book has not verified it. "Never been operating more efficiently" is his assessment after roughly two months, with no figure behind it. The post opens by quoting Jason Fried on the arithmetic of meeting cost; that is Fried's line, not Groove's evidence, and it is not used here.</li>
+chapters/23-slack.html:105:    two people who, by their own account, did not have a lot to do — and the post shows that
+chapters/23-slack.html:226:      <li><span class="src">Note ·</span> A founder's own account, the weaker evidence class used for every founder post in this book, attributed as such. The revenue figure carries the qualification chapter ten set out: it is company-wide, not the one product's. The team size, the hiring cadence and the delegated list are the founders' own report of their own month; the Happy % is at least the second month of their own rating system's data, and the post offers reasons for its fall without linking it to the growth, as this chapter does not. WP Curve's domain no longer serves the blog; the archive is the copy used. What became of the company later is not sourced here and is not used.</li>
+chapters/22-measuring-the-right-three-things.html:73:    with its dashboard open to the public, Nathan Barry wrote a walkthrough of what he actually
+chapters/22-measuring-the-right-three-things.html:223:      <li><span class="src">Note ·</span> A founder's own account, the weaker evidence class this book uses for every founder post, attributed as such. The figures are his transcription of ConvertKit's own Baremetrics dashboard, which the post says is public but which this book has not queried; the concentration split is a same-day search on one export, not a stable segmentation. The "three things" of the title are this book's selection, made in Move 2 and Move 3 as such; Barry describes seven and does not say fewer would serve.</li>
+chapters/20-managing-people.html:78:    own account, that is what became of the team Groove launched with, and the post is about the
+chapters/20-managing-people.html:188:    that had not built the forcing function. Turnbull's own account offers only the other side —
+chapters/20-managing-people.html:202:      <li><span class="src">Note ·</span> A founder's own contemporaneous account, three years in — the weaker evidence class this book uses for every founder post, attributed as "by his own account." The turnover figure is round and self-reported; "a handful" is the only count of dismissals given; the people let go appear only as he relays them — several who said the fit was not there, and some who told him later it had been for the best — and no figure shows the forcing function producing the faster milestones he says the delay had cost.</li>
+chapters/19-the-first-hire.html:12:<meta property="og:description" content="Task or job is decided before employee or contractor, and long before the budget. A founder's own account of the hire he made and the one he regrets not making sooner.">
+chapters/19-the-first-hire.html:229:      <li><span class="src">Note ·</span> A founder's own account of his own company — the same weaker evidence class used for Galperin in chapters four, five and eighteen, and attributed the same way. The hire dates, the reason given for each hire, the revenue figures and the 2022 headcount split are all his own numbers; nothing here is a filing or audited. The order of his two hires and his regret about it are one person's judgment of one sequence, and the chapter treats them as that.</li>
+
+codex
+The ledger makes the first issue unusually clear: it records this exact annual-plan inference as prohibited, even though the underlying figures and quotations are correctly registered. I’m checking whether the second issue is a real attribution failure or merely a demand for one preferred phrase.
+exec
+/bin/bash -lc "rg --files checks/.cache | rg 'metrics|nathan|nb-' | head -30; rg -n -i \"annual plans|annual plan|3 million|rolling 30|net revenue|contraction\" checks/.cache 2>/dev/null | head -100; nl -ba CONTEXT.md | sed -n '324,333p;2260,2300p;2965,2977p'; nl -ba chapters/22-measuring-the-right-three-things.html | sed -n '68,125p;217,229p'" in /home/diablo/book4
+ succeeded in 82ms:
+rg: checks/.cache: IO error for operation on checks/.cache: No such file or directory (os error 2)
+   324	## 5. Sourcing standard
+   325	
+   326	- A figure is quotable if it comes from: a company filing, a court document, a named journalist's reporting in an outlet with corrections policy, or a first-party statement by the company at the time.
+   327	- A founder's later retelling of their own numbers is **weaker** evidence and must be attributed as such in the prose ("by Swinmurn's own account").
+   328	- Round numbers that appear in every blog post about a company are the single biggest contamination risk in this genre. If a figure cannot be traced past the blogs, mark it `unverified` and keep it visible.
+   329	- The reading list distinguishes `source` (where the case facts came from) from further reading (where the reader goes next).
+   330	
+   331	## 5b. On Dutch ground
+   332	
+   333	Where the answer depends on jurisdiction, the chapter carries a boxed `<div class="ground" id="ground">` — the
+  2260	### Ch. 22 — Measuring the Right Three Things
+  2261	
+  2262	**Status: has a case, with a real tension the settlement must resolve rather than paper over.**
+  2263	
+  2264	**Candidate.** ConvertKit / Nathan Barry — second use of the ch. 08 company, on a **new, later
+  2265	source**: "Understanding ConvertKit's open metrics" (nathanbarry.com/metrics/, published 2019-01-14,
+  2266	dateModified 2019-02-27). Written shortly after ConvertKit crossed $1m MRR, well past the 2014
+  2267	near-death and 2017 direct-sales recovery ch. 08 already used — this is a mature-stage founder
+  2268	narrating how he reads the company's own public Baremetrics dashboard, not a turnaround story.
+  2269	
+  2270	**What this chapter would use it for, and the tension in using it.** The post walks through, in
+  2271	order, what Barry says he actually looks at: the five components of MRR movement (new, expansion,
+  2272	reactivation, contraction, churn), the MRR-versus-net-revenue distinction, user churn versus revenue
+  2273	churn versus net revenue churn, total customers and net-new customers, the quick ratio, ARPU against
+  2274	Buffer's, and an 80/20 revenue-concentration breakdown by customer. **That is at least seven things,
+  2275	not three**, and the post never claims otherwise — nowhere does Barry say a smaller number would
+  2276	suffice; if anything his stated posture is the opposite of delegation, a founder personally auditing
+  2277	a public dashboard in detail. A chapter titled "Measuring the Right Three Things" cannot cite this
+  2278	post as evidence that Barry himself measures three things, because he does not say that and the case
+  2279	does not show it. What the case *can* support, if the chapter is honest about doing the editorial
+  2280	work itself rather than attributing it to the source: Barry's own ordering is not flat — he opens
+  2281	with MRR's composition and treats churn as the necessary second question before quick ratio, ARPU and
+  2282	the concentration breakdown are introduced as progressively more supplementary. A chapter arguing that
+  2283	an owner stepping back needs a compressed, delegable set could use that ordering as evidence for
+  2284	*which* three are load-bearing (revenue movement, churn, and one measure of customer-revenue
+  2285	concentration or efficiency), while explicitly naming the other four as color a business can review
+  2286	less often. That argument is this book's, not Barry's, and the prose must say so in those terms — the
+  2287	single biggest risk this entry can name is a chapter that silently smooths "here are seven things one
+  2288	founder tracks" into "a founder should only track three," dressed as if the case said it.
+  2289	
+  2290	**Primary documents and evidence class (§5).**
+  2291	- `nb-metrics-2019` — nathanbarry.com, published 2019-01-14, dateModified 2019-02-27, consulted
+  2292	  2026-08-06. First-party, but a founder's own account of his own company: §5's **weaker** class,
+  2293	  attributed as such in the prose, on the same footing as `nb-convertkit-5k` and `nb-direct-sales`
+  2294	  already registered at ch. 08. Not audited, not independently verified — the underlying numbers come
+  2295	  from ConvertKit's own Baremetrics instance, which the post says is open to public view but which
+  2296	  this book has not itself queried; the book is trusting Barry's transcription of his own dashboard,
+  2297	  one layer removed from the dashboard itself.
+  2298	- **Not pursued.** ConvertKit's live Baremetrics/Open Startups page (the dashboard the post describes)
+  2299	  was not fetched independently — `openstartups.html` and `os_2019.html` are already in the shared
+  2300	  cache from an earlier ledger check, but both render their figures via JavaScript and contain no
+  2965	- **Voluntary administration, if the chapter uses the 2024/2026 events at all, is a distinct legal
+  2966	  status from liquidation or bankruptcy** under Australian insolvency law, and this task did not
+  2967	  source those events primary-hand — so the safer instruction is to not use them without a future
+  2968	  task doing that sourcing properly, rather than risk the chapter stating a legal outcome (sold,
+  2969	  liquidated, restructured, returned to the founders) this entry cannot back with a document.
+  2970	- **Never assert the Norris/WP Curve identity connection** without independent confirmation — see the
+  2971	  candidate note above. If confirmed later, it would be a genuine continuity thread (the reader
+  2972	  watching one recurring figure build a business designed to run without him, then a second business
+  2973	  that could not survive being handed to someone else); if used before confirming, it is exactly the
+  2974	  kind of unforced factual error §8's own corrections record warns this book has made before.
+  2975	
+  2976	**Registered.** Five claims in `checks/claims.tsv` chapter 27: two from `bh-ceo-2023` (the "outgrown
+  2977	him... create confusion" sentence and the "at no point did we think..." sentence) and three from
+    68	  <section class="move">
+    69	    <h2><span class="num">Move 2</span> What actually happened</h2>
+    70	
+    71	    <p>ConvertKit was in this book at <a href="08-asking-for-money.html">chapter eight</a>, at
+    72	    $1,207 a month, its bottom. In January 2019, past a million a month in recurring revenue and
+    73	    with its dashboard open to the public, Nathan Barry wrote a walkthrough of what he actually
+    74	    looks at, because the attention that came with the milestone had brought readers who took the
+    75	    metrics at surface level. What he wrote is a list of the questions he asks of the figures, in
+    76	    order, with the figures attached.</p>
+    77	
+    78	    <p>He starts where everyone does, and immediately moves off it. Monthly recurring revenue is,
+    79	    for him, the most important metric in the business, but its growth is a summary of five
+    80	    movements — new, expansion, reactivation, contraction and churn — so the graph he reads is not
+    81	    the total but the breakout, where the monthly change is <em>"all over the map. From as high as
+    82	    $73,000 net new in March to a couple negative months in the summer."</em></p>
+    83	
+    84	    <p>Then loss, which is not one number. Revenue churn is the share of the revenue base lost in a
+    85	    month; user churn is the share of customers lost. They diverge for a reason he can name:
+    86	    ConvertKit's beginner customers leave more often than its larger ones, so user churn there is
+    87	    always the higher of the two. Then a third version, net revenue churn, which nets upgrades
+    88	    against the losses, and the figure: <em>"At ConvertKit we are at 2.2% net revenue churn."</em>
+    89	    Then the customer count, read the same way as revenue — not the total but the net new each
+    90	    month — and the admission that goes with it, that it is both interesting and depressing to
+    91	    watch so many new accounts arrive each month and be cancelled out by so many leaving.</p>
+    92	
+    93	    <p>Then a ratio, an average, and a split. A quick ratio — new and expansion revenue over
+    94	    churned and contracted — at <em>"1.47, which is fairly low"</em>, though the highest of the
+    95	    three open companies he compares it with, <em>"Buffer at 1.08 and Hubstaff at 1.38"</em>.
+    96	    Average revenue per customer: <em>"Buffer is at $21 per customer and ConvertKit is at $57 per
+    97	    customer."</em> And last, concentration: <em>"we have 20,812 generating $1,188,580 in MRR"</em>,
+    98	    of whom everyone paying more than the base plan is <em>"6,994 customers (33% of the total)
+    99	    generating $811,117 in MRR (68% of the total)"</em> — or, as he puts it the other way round,
+   100	    two thirds of the customers producing a third of the revenue.</p>
+   101	
+   102	    <p>That is seven, and Barry nowhere says fewer would do. The compression that
+   103	    follows is this book's, made on the reader's behalf and for a reason the post supplies: a
+   104	    founder auditing his own dashboard can hold seven; a business that has to run without him
+   105	    cannot. What the post does show is an order. Movement first, loss second, and the rest
+   106	    introduced as refinements of those two — which is the order the next section keeps.</p>
+   107	
+   108	    <p>One more thing in the post is not a metric. Once in it, one event moves three numbers three
+   109	    different ways. Each November ConvertKit pushes annual plans, sold at a discount: net revenue
+   110	    that month climbs <em>"as high as $3 million"</em>, while MRR <em>drops</em>, because the
+   111	    discount is a contraction — and revenue churn spikes with it, then falls again once the
+   112	    annual-plan contraction has moved out of the thirty-day window the figure is computed over.
+   113	    Same business, same customers, one decision, three figures swinging on a sales calendar. And on
+   114	    comparing churn between companies, he recalls reading an S-1 from a company with net negative
+   115	    churn and realising that it did not count any account cancelling in its first ninety days as
+   116	    churn at all — convenient, he says, and no wonder. A number nobody had to falsify. They only
+   117	    had to define it.</p>
+   118	  </section>
+   119	
+   120	  <section class="move">
+   121	    <h2><span class="num">Move 3</span> The reasoning</h2>
+   122	
+   123	    <h3>Movement, loss, concentration</h3>
+   124	
+   125	    <p><strong>Three figures, read weekly by someone other than you: what came in and what went out
+   217	  </div>
+   218	
+   219	  <section class="reading">
+   220	    <h2>Reading</h2>
+   221	    <ul>
+   222	      <li><span class="src">Source ·</span> <a href="https://nathanbarry.com/metrics/">Nathan Barry, "Understanding ConvertKit's open metrics"</a>, 14 January 2019 — the five components of MRR movement and the March-to-summer swing, the user/revenue/net revenue churn distinctions and the 2.2% figure, the quick ratio and its two comparators, the ARPU comparison with Buffer, the customer and revenue totals and the concentration split, the November annual-plan effect on net revenue, MRR and revenue churn, and the S-1 churn-definition anecdote.</li>
+   223	      <li><span class="src">Note ·</span> A founder's own account, the weaker evidence class this book uses for every founder post, attributed as such. The figures are his transcription of ConvertKit's own Baremetrics dashboard, which the post says is public but which this book has not queried; the concentration split is a same-day search on one export, not a stable segmentation. The "three things" of the title are this book's selection, made in Move 2 and Move 3 as such; Barry describes seven and does not say fewer would serve.</li>
+   224	    </ul>
+   225	  </section>
+   226	
+   227	  <nav class="chapter-nav">
+   228	    <a href="21-meetings-that-arent-theater.html"><span class="dir">Previous</span>21 · Meetings That Aren't Theater</a>
+   229	    <a class="next" href="23-slack.html"><span class="dir">Next chapter</span>23 · Slack</a>
+
+codex
+## Confirmed findings
+
+1. **Category:** spent-case / prohibited inference  
+   **Severity:** High  
+   **Offending text:** “Same business, same customers, one decision, three figures swinging on a sales calendar.”  
+   **What is wrong:** The annual-plan push changed payment timing, customer commitment, and pricing through a discount. It was not merely an unchanged business distorted by metric definitions. The reasoning repeats the implication later with “the customers themselves were the same people, now paying yearly.”  
+   **Verified evidence:** `CONTEXT.md` §6b, “ConvertKit — ch. 22 spent,” expressly prohibits presenting “the annual-plan push as ‘the business not changing.’” The underlying movements are correctly registered in `checks/claims.tsv`, ch. 22, `nb-metrics-2019`: net revenue reached $3 million and the annual-plan contraction later left the rolling thirty-day window. The facts are sound; the interpretation is not.  
+   **Concrete fix:** Replace both formulations with: “One decision changed payment timing and customer commitment while moving three dashboard figures in different directions.”  
+   *Found by Reviewer B only.*
+
+## Rejected findings
+
+- **Missing founder-account attribution:** Does not survive. Move 2 explicitly introduces the evidence as “Nathan Barry wrote a walkthrough of what he actually looks at,” consistently attributes the observations to him, and the Reading note expressly labels it “A founder’s own account” and discloses that the dashboard was not independently queried. `CONTEXT.md` §5 requires substantive attribution, not the exact incantation “by his own account.”
+
+The chapter is not publishable as-is because it violates an explicit case-ledger prohibition at the heart of its argument. The single most important change is to acknowledge that the annual-plan campaign altered the commercial reality, not merely the measurements.
+tokens used
+43,199
