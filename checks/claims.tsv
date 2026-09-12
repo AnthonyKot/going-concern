@@ -800,3 +800,38 @@
 28	eg-binpress-2016	It took around 3 months to build the new product
 28	eg-binpress-2016	We launched the new product Jan. 2015
 28	kvk-turboliquidatie-2026	En je schuldeisers zoveel mogelijk afbetaalt, zodat er geen baten meer overblijven
+
+# Editorial rework, 2026-09-12: newly used passages in the existing source set.
+16	pb-5	So the biggest risk in a project like this remains burnout.
+16	pb-5	What burns you out is the constant strain of being responsible for a lot of other people's stuff.
+16	pb-5	People have been very understanding about my occasional need to flee the Internet.
+16	pb-11	moving Pinboard onto modern versions of PHP and MySQL
+16	pb-11	the servers themselves were overdue for system upgrades
+28	eg-binpress-2016	As we had moderate success with the external checkout feature I mentioned above.
+28	eg-binpress-2016	There was a lot of excitement from our existing publisher community, especially the bigger publishers with an established brand and significant revenue stream.
+28	eg-binpress-2016	Yes, some new users were signing up and creating their own stores.
+28	eg-binpress-2016	However, the overall scale of it was very minor compared to the marketplace.
+28	eg-binpress-2016	It’s hard for me to pinpoint exactly why we failed to take Binpress to where we believed it can go.
+
+# Targeted editorial corrections, 2026-09-12: case chronology and sourced legal explanation.
+04	draelos-2026	We’d sacrificed months of work at a loss building a custom product for an imaginary $5,000/month contract.
+04	draelos-2026	Now that we’d added the AI scribe, the hosting and AI costs for our platform had gone up to about $70 per doctor.
+04	draelos-2026	A major personal health event during this period also reduced my availability and highlighted how we had not sufficiently distributed leadership and decision-making.
+04	draelos-2026	Unfortunately, they told us they couldn’t subscribe until we added more features beyond the original scope.
+04	draelos-2026	The practice owner informed me that they didn’t have five psychologists.
+19	rijks-arbeidsovereenkomst-2026	Is uw werkgever het hier niet mee eens? Dan moet hij bewijzen dat u geen arbeidsovereenkomst heeft.
+
+# Ch. 16 launch date: fifth anniversary on 9 July 2014 supports July 2009.
+16	pb-5	July 09, 2014
+16	pb-5	Today marks five years since I launched the website
+
+# Pre-commit review, ch. 28: register the dated KVK warning with its conditions.
+28	kvk-turboliquidatie-2026	Sinds 15 november 2023 geldt de tijdelijke wet Transparantie turboliquidatie
+28	kvk-turboliquidatie-2026	Blijkt dat er achteraf nog een baat opduikt of dat een turboliquidatie (bewust of onbewust) verkeerd is toegepast?
+28	kvk-turboliquidatie-2026	Dan kunnen schuldeisers aan de rechter vragen om opnieuw te vereffenen.
+28	kvk-turboliquidatie-2026	Schuldeisers kunnen in sommige gevallen de voormalig bestuurder via de rechter persoonlijk aansprakelijk stellen.
+28	kvk-turboliquidatie-2026	Een bestuurder moet dan bewust onrechtmatig gehandeld hebben.
+28	kvk-turboliquidatie-2026	Bijvoorbeeld wanneer bij het afbetalen van schulden sommige schuldeisers zijn voorgetrokken, terwijl anderen eerst betaald hadden moeten worden.
+28	kvk-turboliquidatie-2026	Een ander voorbeeld is dat een bestuurder opzettelijk baten verborgen houdt en toch gebruikmaakt van de turboliquidatie.
+28	kvk-turboliquidatie-2026	Het Openbaar Ministerie kan in bepaalde gevallen bij de rechtbank om een bestuursverbod vragen.
+28	kvk-eenmanszaak-2026	De Belastingdienst stuurt je een brief wanneer je je laatste btw-aangifte moet doen.

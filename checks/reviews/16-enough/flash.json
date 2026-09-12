@@ -1,0 +1,12 @@
+```json
+[
+  {
+    "category": "voice",
+    "severity": "low",
+    "quote": "Nor does it tell us whether the later income remained sufficient for him. ... We cannot read that private decision out of a public revenue table. What we can see is an owner earning a living, pursuing other interests and returning to responsibilities that continued in his absence.",
+    "problem": "The case narrative in Move 2 slips into first-person plural ('us', 'We', 'we'), breaking the constitution's rule that cases must be narrated in the third person without editorial 'we'.",
+    "evidence": "Checked against CONTEXT.md §4 ('Second person for the reader, third for the case, never \"we.\"') and §1. In chapters/16-enough.html, Move 2 contains three first-person plural pronouns in lines 102–103 ('tell us') and lines 113–114 ('We cannot read', 'What we can see') when discussing the limits of the Pinboard revenue data.",
+    "fix": "Rephrase the narrative sentences in third-person / passive voice: 'Nor does the table show whether the later income remained sufficient for him.'; 'That private decision cannot be read out of a public revenue table. What the record shows is an owner earning a living, pursuing other interests and returning to responsibilities that continued in his absence.'"
+  }
+]
+```

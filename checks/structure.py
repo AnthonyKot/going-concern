@@ -28,6 +28,10 @@ import sys
 
 CEILING = 3000
 FLOOR = 2000
+# Editorial decision, 2026-09-12 (CONTEXT.md, targeted corrections): this
+# regime-based chapter has no company case. Do not pad it to meet the floor.
+# All other checks, including the ceiling and required sections, still apply.
+FLOOR_EXEMPTIONS = {"24-what-you-signed.html"}
 
 REQUIRED = {
     "decision box": r'<div class="decision">',
@@ -88,7 +92,7 @@ def check(path):
     n = body_words(raw)
     if n > CEILING:
         out.append("%d words, over the %d ceiling" % (n, CEILING))
-    elif n < FLOOR:
+    elif n < FLOOR and os.path.basename(path) not in FLOOR_EXEMPTIONS:
         out.append("%d words, under the %d floor" % (n, FLOOR))
 
     return out

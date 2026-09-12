@@ -1,0 +1,20 @@
+```json
+[
+  {
+    "category": "unsourced-claim",
+    "severity": "medium",
+    "quote": "Maciej Cegłowski launched the bookmarking service Pinboard in July 2009.",
+    "problem": "The specific month and year of launch are stated as a fact in Move 2 but are not registered in the claim register for this chapter.",
+    "evidence": "Grepped checks/claims.tsv for '^16\\t' and '2009' / 'July'. Found no row registering the July 2009 launch date (the register only includes the anniversary post dates like '9 July 2014').",
+    "fix": "Register the launch date in checks/claims.tsv, or remove the exact date from the prose (e.g., 'Maciej Cegłowski launched the bookmarking service Pinboard.')."
+  },
+  {
+    "category": "voice",
+    "severity": "high",
+    "quote": "Nor does it tell us whether the later income remained sufficient for him. [...] We cannot read that private decision out of a public revenue table. What we can see is an owner earning a living...",
+    "problem": "The narrator uses the first-person plural ('us', 'We', 'we') three times in Move 2, directly violating the book's strict voice rule.",
+    "evidence": "Checked CONTEXT.md §3 ('Second person for the reader, third for the case, never \"we.\"') against paragraphs 5 and 7 in Move 2.",
+    "fix": "Replace 'Nor does it tell us' with 'Nor does it show', 'We cannot read' with 'That private decision cannot be read', and 'What we can see is' with 'What the record shows is'."
+  }
+]
+```

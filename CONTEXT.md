@@ -5,6 +5,89 @@ sounding like one writer.
 
 ---
 
+## Current editorial direction — chapters 09, 16 and 28 (2026-09-12)
+
+The author requested a close review of these chapters, then authorised their rework because the
+book still felt formulaic. The review is `checks/editorial-review-2026-09-12.md`; it describes the
+pre-revision manuscript. **This amendment supersedes conflicting instructions and interpretations
+below for these three chapters**, including the old ch. 16 drafting brief and ch. 28 case inference.
+Historical review notes remain as history, not as requirements to restore removed wording.
+
+- **Case evidence and proposed practice stay distinct.** Ch. 09's ten comparable quotes are a
+  manageable starting exercise, not a validated threshold. An unexplained price objection stays
+  unexplained; Monday must not diagnose a trust problem from a buyer's silence.
+- **Ch. 16 concerns adequate income and continuing responsibility.** The four cited Pinboard posts
+  do not establish a personal household target, whether it was reviewed, or that it was left
+  undefended. Burnout and the work of keeping the service running belong in the argument. Do not
+  restore the earlier inference that the owner named a target and then failed to re-decide it.
+  Keep net household needs separate from gross business requirements and the imputed replacement
+  wage; do not add the same owner income twice. The annual review is a default, not a law about
+  how quickly decline can be seen. The four responses in the sentence are choices, not a ladder.
+- **Ch. 28 concerns whether another attempt is justified.** September 2014 is a retrospective date,
+  not a reported stopping deadline. Publisher enthusiasm and the external-checkout experience
+  explain why the pivot looked plausible. New evidence can justify an extension; a one-extension
+  cap does not establish that. Binpress's exit sequence is not a universal closure procedure.
+  Identify obligations and seek appropriate advice before committing to transactions or payments.
+- **Form can follow the question.** Ch. 09 retains Move headings. Ch. 16 and 28 use descriptive
+  headings within the existing semantic sections, three Monday actions each, shorter part closes
+  and plainly named limitations. The fixed-heading rule in §3 does not apply to these revisions.
+  All three remain within the existing 2,000–3,000 body-word range. Do not pad the action lists or
+  restore a concluding maxim just to reproduce the old template.
+- **Confidence in instructions does not license certainty in interpretation.** Asking a reader to
+  collect evidence or make a decision is concrete. Declaring what an ambiguous answer must mean
+  is a further claim and needs support, including in Monday. This qualifies §3's standing rule.
+
+The chapter 16 and 28 index descriptions and the decision callback in ch. 26 were updated for
+continuity. Source claims added for the newly used Pinboard and Binpress passages; older registered
+strings remain as historical checks, not a statement that every one is still quoted in the prose.
+The dated Dutch end sections were retained; the general closure passage was checked against the
+current KVK pages on 2026-09-12. The turboliquidatie page now shows an update of 31 August 2026;
+this does not turn the old quoted end section into a newly refreshed legal review.
+
+Validation: `./verify.sh 09 --strict`, `16 --strict` and `28 --strict` passed against cached
+sources: 30 + 22 + 52 registered strings, zero drift or skips. HTML nesting, duplicate IDs and
+local fragment targets passed for the three chapters, ch. 26 and the index. All three pass the
+existing structural checks. Body words relative to the starting commit `aae12af`: 09, 2,186 →
+2,150; 16, 2,868 → 2,014; 28, 2,261 → 2,012. The whole-book lint still reports only the existing
+ch. 24 floor shortfall (1,843 words). Source matching checks quotations, not the reasoning; the
+new interpretations were read against the Pinboard posts and Binpress postmortem separately.
+
+## Targeted corrections — chapters 04, 19 and 24 (2026-09-12)
+
+Authorised after the Fable review and the follow-up source comparison. These decisions supersede
+contradictory historical case interpretations below; the reviews remain records of earlier text.
+
+- **Ch. 04:** no inference that Draelos went seven years without doing the arithmetic. The
+  expected $5,000/month subscription was with a psychology practice, not an urgent-care customer,
+  and did not materialise as expected. The $70-per-doctor cost followed the AI-scribe addition.
+  Restore her reported personal health event and its effect on availability and leadership.
+  The three-component stopping rule is a recommendation; remove "exactly" and "everybody".
+  Gymdesk's account does not give the income threshold as a number or report a written consequence;
+  do not turn absence from the account into knowledge of an unwritten private decision.
+- **Ch. 19:** separate the low-month funding test from the Gymdesk case, which does not report
+  the hire's cost or funding source. Remove the promise that errors are visible within a quarter.
+  The presumption explanation now cites Rijksoverheid's employment-contract guidance, consulted
+  12 September 2026, and is labelled as an English summary. The checked line acknowledges that
+  explanations accompany quotations. Monday's hours threshold is "at least twenty", matching
+  the quoted provision, rather than "more than twenty".
+- **Ch. 24:** Dutch provisions support Dutch examples, not universal rules about ownership or
+  incorporation of terms. Remove prevalence claims, assumptions about who drafted suppliers'
+  contracts and the fixed ranking of risks. The four questions organise a review. Ownership or
+  a licence may supply the needed rights; payment alone is not a reliable record of those rights.
+  **The 2,000-word floor is waived for this chapter**, now 1,627 body words after the pre-commit signpost repair. The filename-specific
+  exception in checks/structure.py leaves the ceiling and all structural requirements active.
+- Chapters 12, 15 and 24 share the Move 2 title **What the rules establish**. Only that heading
+  changed in 12 and 15. Their sources and arguments were not revised in this pass.
+- The review checklist now requires a source comparison for the sentence turning case into
+  lesson, including implications from adjacent sentences and stronger claims in Monday or the
+  conclusion. It distinguishes reported fact, inference and proposed practice. It also points
+  to the correct source cache and recognises the authorised template variants.
+
+Validation: chapter source checks with --strict passed (04: 26, 19: 24, 24: 11), with zero drift
+or skips. The new official source was downloaded; existing registered sources were checked from
+cache. All 29 chapters pass the strict structural lint. The floor-exemption check confirms that
+other short chapters, missing required sections and excessive length still fail.
+
 ## 1. The decision record
 
 These were settled at the outset and should not be relitigated without a reason.
@@ -508,7 +591,7 @@ Legend: ☐ not started · ◐ drafted · ☑ written and sourced
 | 01 | The Only Question That Matters | Webvan (1996–2001) | *owed* — Instacart is an `.aftermath` | ☑ 27 claims |
 | 02 | Talking to People Who Will Lie to You | Everpix (2011–2013) | *owed* — see debt register | ☑ 38 claims |
 | 03 | Selling It Before It Exists | Studio Neat (2010–) | *owed* — Coolest Cooler is a `.limit` | ☑ 28 claims 🇳🇱 |
-| 04 | Deciding Not To | Cydoc (2018–2025) | *owed* — Gymdesk demoted to `.limit` | ☑ 21 claims |
+| 04 | Deciding Not To | Cydoc (2018–2025) | *owed* — Gymdesk demoted to `.limit` | ☑ 26 claims |
 | 05 | Leaving Well | Bingo Card Creator (2006–2010) | Gymdesk — the runway said stop | ☑ 21 claims 🇳🇱 |
 
 🇳🇱 marks a chapter that needs an `On Dutch ground` box.
@@ -612,14 +695,14 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 | 13 | Profit Is Not Cash | ☑ 17 claims · Instacart S-1 cash flows + BW6 payment terms · *owed* 🇳🇱 |
 | 14 | What a Customer Is Worth | ☑ 13 claims · Cydoc (2018–2025), returning from ch. 04 · WP Curve as segment contrast · *owed* |
 | 15 | Paying Yourself | ☑ 17 claims · Dutch owner-remuneration regime · *no company case, by decision* · written under §6f; 8 corrections pre-push, 6 more after, none of the second set legal 🇳🇱 |
-| 16 | Enough | ☑ 17 claims · Pinboard / Cegłowski (2010–2020) · *owed* · closes Part III |
+| 16 | Enough | ☑ 24 claims · Pinboard / Cegłowski (2010–2020) · *owed* · closes Part III |
 
 ### Part IV — Can it run without you?
 | # | Title | Status |
 |---|---|---|
 | 17 | You Are the Bottleneck | ☑ 13 claims · Bingo Card Creator (2010) + Pinboard (2020) · *owed* · opens Part IV |
 | 18 | Writing It Down | ☑ 6 claims · Gymdesk / Galperin (2023) · *owed* |
-| 19 | The First Hire | ☑ 23 claims · Gymdesk / Galperin (2021–2022), fourth use, new source · BW7 art. 610/610a + Rijksoverheid enforcement page · *owed* 🇳🇱 · drafted 2026-08-28 |
+| 19 | The First Hire | ☑ 24 claims · Gymdesk / Galperin (2021–2022), fourth use, new source · BW7 art. 610/610a + Rijksoverheid enforcement page · *owed* 🇳🇱 · drafted 2026-08-28 |
 | 20 | Managing People | ☑ 33 claims · Groove / Turnbull (2015), new company · BW7 arts. 652, 669, 671, 672, 673 · *owed* 🇳🇱 · drafted 2026-08-28 |
 | 21 | Meetings That Aren't Theater | ☑ 19 claims · Groove / Turnbull (2016), second use, new source · *owed* · drafted 2026-08-28 |
 | 22 | Measuring the Right Three Things | ☑ 22 claims · ConvertKit / Barry (2019), second use, new source · the three are the book's compression, said as such · *owed* · drafted 2026-08-28 |
@@ -632,7 +715,7 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 | 25 | What Protects You | ☑ 13 claims · Studio Neat / Glif patents section (sn-howto), third use, unspent section · bet unmeasured, US law by non-lawyers · *owed* · drafted 2026-08-28 |
 | 26 | When the Ground Moves | ☑ 17 claims · Gymdesk / Galperin 2020 (galperin-2023-covid, the pre-hire paragraphs), fifth use by §6i judgement · survivor account, no causation claimed · *owed* · drafted 2026-08-28 |
 | 27 | Built to Leave | ☑ 32 claims · Black Hops / Norris (Brews News 2023, named journalist, ASIC filing reported) · Norris = WP Curve's Norris confirmed from dannorris.me title · no post-April-2023 events used · *owed* · drafted 2026-08-28 |
-| 28 | Knowing When to Stop | ☑ 40 claims · Binpress / Galperin (2016 postmortem; sixth appearance, named) · KVK eenmanszaak + turboliquidatie pages · book close · *owed* 🇳🇱 · drafted 2026-08-28 |
+| 28 | Knowing When to Stop | ☑ 61 claims · Binpress / Galperin (2016 postmortem; sixth appearance, named) · KVK eenmanszaak + turboliquidatie pages · book close · *owed* 🇳🇱 · drafted 2026-08-28 |
 
 ### What changed, and why
 
@@ -866,25 +949,24 @@ them afterwards is harder than writing them at the time.
   could-not-contact category and the school-hired disclosure. Nothing reserved.
 
 ### Pinboard / Cegłowski — ch. 16
-- **Facts.** Eleven anniversary posts, 2010–2020. Revenue (K$): 117, 178, 181, 175, 193, 160, 234,
-  **259**, 253, 222, 212. Funding: zero in every year. Running costs about $17K (2016). Active users
-  24K (2016), 29K (2017), 21K (2019), 19K (2020) — **2018 blank in the published table**. Revenue was
-  added to the table in 2016, stated reason: no longer afraid of competitors, and to encourage a
-  *"one- or zero-person business"*. 2017: a year of travel, support email ignored *"for weeks at a
-  time"*, then a *"reverse sabbatical"*.
-- **Permitted.** That a sufficiency number can be named, met and published. That a flat line means
-  different things at different times and looks identical. That the interval between reaching enough
-  and noticing decline can be years.
-- **Confounders.** The owner's own: annual subscriptions introduced in 2015 depress that year and
-  lift 2016 as first renewals fall due, so the revenue row moves on pricing mechanics as well as
-  demand. Also a category with unusually loyal users, one person, no staff, near-zero marginal cost.
-- **Prohibited.** Never that the neglect caused the decline — sequence, not cause; this is ch. 06's
-  arrow error waiting to happen. Never a 2018 user figure. Never that flat revenue is generally a
-  choice: it is cheap at this shape and expensive with payroll or stock.
-- **Spent.** Ch. 16 used the revenue and funding rows end to end, the $17K cost line, the 2014
-  stability argument, and the 2017 travel/sabbatical account. What remains unused: the bookmark,
-  tag, archive and URL rows, the 2017 Delicious acquisition, and the 2020 platform-migration post —
-  enough for a Part IV or V return on maintenance, obsolescence or one-person operational risk.
+- **Facts.** The four cited anniversary posts (2014, 2016, 2017, 2020) include a historical
+  revenue table for 2010–2020. Revenue (K$): 117, 178, 181, 175, 193, 160, 234, 259, 253, 222,
+  212. Funding zero throughout. Running costs about $17K in the 2016 account. Active users 29K
+  in 2017 and 19K in 2020; the 2018 user entry is blank. Revenue was added in 2016 to encourage
+  very small businesses and because the owner was no longer afraid of competitors.
+- **Human and operational evidence.** The 2014 account identifies burnout and continuing
+  responsibility for users' material. The 2017 post describes travel for political organising,
+  delayed support and a return to maintenance. The 2020 post describes overdue technical upgrades.
+- **Permitted.** Earning a living does not remove the continuing responsibilities in this account.
+  Revenue and users changed; these records alone do not say why or whether the owner's personal
+  needs were still met. The household review is the book's proposal.
+- **Prohibited.** No claim that a personal sufficiency target was named, met, neglected or never
+  reviewed. A revenue table is not a target. No claim that neglect caused the decline, that all
+  eleven annual posts were inspected, or that a flat revenue line is a choice in every business.
+- **Confounders.** Annual subscriptions affected the 2015/2016 revenue movement. One-person
+  software economics differ from a business with premises, stock and payroll.
+- **Use.** Ch. 16 now uses the burnout discussion and the existence of maintenance obligations.
+  Ch. 17 retains the detailed 2020 migration for its different question of operational dependence.
 
 ### The Dutch filing regime (BW2 Titel 9) — ch. 12
 **Not a company case.** Ch. 12 is the book's first chapter anchored on a regime rather than a
@@ -1319,7 +1401,11 @@ Final: **2,987 body, 708 box, 2,279 argument.** Worth recording that the ceiling
 fought, the ceiling won, and the chapter is better for it — the compression pass found real slack.
 The rule that held: **cut prose to pay for precision, never precision to pay for prose.**
 
-## 6g. Ch. 16 — Enough: settled before drafting, and it closes Part III
+## 6g. Ch. 16 — Enough: original drafting record (superseded 2026-09-12)
+
+**Historical brief.** The current editorial direction at the top of this file replaces this
+brief's interpretation of Pinboard, hierarchy of money and energy, and fixed review rules.
+
 
 **Thesis.** Enough is a number you name in advance, or the business names it for you by absorbing
 whatever you have. And it is a decision with an expiry date, not a state you arrive at: the same
@@ -3540,23 +3626,44 @@ name them. Nothing was reverted; structure.py and the link check passed at that 
 commits use explicit paths.
 
 
+**Pre-commit verification and review, 12 September 2026.** Strict claim checks passed on
+all eight requested chapters: 04 (26), 12 (23), 15 (17), 16 (initially 22, now 24), 19 (24),
+24 (11), 26 (17), 28 (initially 52, now 61). Final total: **203 registered strings**, no drift
+or skips. Ch. 09 was also checked separately (30 passing) because its earlier rewrite was swept
+into another session's commit. All 29 chapters pass strict structural lint.
+
+Ran `scripts/review.sh` on 16, 24 and 28. The sandbox blocked the reviewer socket; reruns with
+permission completed. Both models returned results on every chapter. Ch. 28 Pro waited on a
+background task until the end of its window and then returned three findings; consolidation
+completed. Reports and per-finding dispositions are saved under each chapter's `checks/reviews/`
+directory in `resolution-2026-09-12.md` alongside the raw responses and consolidated report.
+
+Accepted: ch. 16's missing launch-date registration and minor narrator-plural edits; ch. 24's
+misplaced/repeated Dutch-law signposts; ch. 28's missing conditions and actors in the misuse
+warning, plus registration of the law/date and final-VAT-return notice. Rejected: treating the
+voice finding as high severity or the unregistered legal statements as invented from memory;
+the official cached documents contain them. The consolidated chapter-28 suggested reopening
+condition was narrower than the cached source, so the repaired text follows the source directly.
+Post-repair checks passed for affected chapters. Final body counts: 16, 2,012; 24, 1,627; 28,
+2,012 (the changed Dutch end section is excluded from body counts). No second model-review loop
+was needed for the narrow repairs; their exact wording, registration and links were checked.
+Generated reviewer traces are kept locally in `.cache/precommit-review-2026-09-12/`, not committed.
+
 ## 9. Open questions
 
 - Whether Part V needs a chapter on selling the business as distinct from ch. 27 (*Built to Leave*), or whether that is one chapter's worth of material stretched into two.
 - Whether to include a short appendix of the arithmetic — breakeven, contribution margin, runway — as a reference rather than dispersing it through Part III.
-- ~~How much **owner energy / exhaustion** belongs in the spine~~ — **settled at ch. 16, in the
-  chapter's own words.** Time is counted as a parallel ledger, with a stated ceiling and the same
-  review date as the money, and the reason for the ordering is now on the page rather than in this
-  file: a business that runs out of money stops, while one that runs out of its owner's patience
-  usually has months of warning and several remedies. Part V inherits the position; it does not
-  reopen it. What is still owed is a *case* — no business in the book is yet shown running out of
-  owner attention with figures on both sides.
+- **Owner energy / exhaustion:** ch. 16 was reworked on 2026-09-12 to treat continuing
+  responsibility alongside household income. The earlier instruction that energy is merely a
+  parallel ledger and may never affect the order of decisions is superseded for this chapter.
+  Pinboard provides an owner's account of the tension, not evidence of a business closing from
+  exhaustion or a calculation of its financial cost.
 - ~~Whether the 🇳🇱 boxes get a one-line English gloss each, or move to an appendix~~ — **settled
   2026-09-12: both, in the chapter.** Each box moved to the end of its chapter (§5b, placement),
   and the argument keeps one English sentence pointing to it. ~~Still open: whether each large case
   gets a one-sentence bridge to a counter business~~ — **settled 2026-09-12: yes, one paragraph per
   chapter, labelled as this book's translation** (§8).
-- **Ch. 24 is 1,843 body words without its Dutch section** (2026-09-12). The chapter has no company
-  case and the statute was carrying Move 2. Either a documented case of an unwritten agreement
-  costing a small business money is found, or the floor is waived for this chapter by decision.
+- **Ch. 24 word floor — waived, 2026-09-12.** The scoped regime-based chapter has 1,627 body
+  words and no company case. Keep the case debt visible; do not pad the argument to meet the
+  general minimum. The exception is recorded in the structural checker.
 - Whether ch. 07 needs a dedicated **standing vs access** subsection in a future pass, or whether the 06→07 bridge plus one Monday item is enough. Do not rewrite 07 until Part II's remaining chapters exist — enrichment, not a blocking rewrite.

@@ -8,7 +8,7 @@ is not useful output.
 You have shell access to this repository (`--cwd` / working directory is the repo root). Use it.
 `CONTEXT.md` is the authoring constitution — read the sections cited below before you judge
 anything against them, rather than relying on this checklist's summary of them. `checks/claims.tsv`
-and `checks/sources.tsv` are the claim register; `checks/.cache/` (if present) holds downloaded
+and `checks/sources.tsv` are the claim register; `.cache/` holds downloaded
 primary sources. Read the chapters this one references (`chapters/NN-*.html`) when a finding
 depends on what an earlier chapter already said.
 
@@ -17,9 +17,12 @@ depends on what an earlier chapter already said.
 - **One real, named, dated company per chapter**, with at least two hard figures traceable to a
   primary source (`CONTEXT.md §5`). A founder's later retelling of their own numbers is weaker
   evidence and must be attributed as such in the prose.
-- **Four fixed moves** — the situation, what actually happened, the reasoning (principle *with its
+- **Four moves, with recorded editorial variants** — the situation, the case or legal regime, the reasoning (principle *with its
   boundaries stated in the same breath*), Monday (concrete numbered actions) — then a counter-case
-  block and a reading list (`CONTEXT.md §3`).
+  block and a reading list (`CONTEXT.md §3`). Read the current editorial amendments at the top
+  of CONTEXT.md before applying older template rules. Chapters 12, 15 and 24 use "What the rules
+  establish"; chapters 16 and 28 have descriptive headings. Chapter 24 has a recorded word-floor
+  exception. Do not report these authorised differences as defects.
 - **The counter-case is the book's honesty mechanism**, and it is a specific, narrow claim: the
   chapter's own advice, followed by capable people, failing. Not related-but-different, not "the
   idea aged badly," not "someone half-followed this and it worked out anyway."
@@ -68,6 +71,19 @@ depends on what an earlier chapter already said.
    label (e.g. "owned vs. rented," "credentials and relationships") claim to cover more than the
    cited evidence actually establishes? If a term needs a paragraph explaining what it does *not*
    mean, the term is doing too much work.
+
+   **Required evidence check, including implications created by adjacency:** quote the sentence
+   that turns the case into a lesson and locate the source passage supporting it. Examine the
+   last case paragraph, the first reasoning paragraph, and claims repeated or strengthened in
+   Monday and the conclusion. Classify each connection as a reported fact, an inference, or the
+   author's proposed practice. For an inference, explain what supports it and what the source
+   leaves unknown; for proposed practice, check that it is not presented as a procedure the case
+   tested. Read adjacent sentences together: two accurate statements can imply an unsupported
+   explanation without a causal word between them. Inspect the surrounding source for changed
+   costs, chronology and competing explanations. Do not infer an unreported private decision
+   from the absence of a published one. Perform this check even if all registered quotes pass;
+   include the source comparison in the evidence field of any resulting finding. Report actual
+   overreach, not every inference or recommendation merely because it is the author's own.
 
 4. **Domain-technical error — accounting, tax, or law.** This is the error class that rose from
    1-of-17 in early chapters to 8-of-21 in Part III (`§8`), and it is the class a reader can act on

@@ -1,33 +1,34 @@
 ## Confirmed findings
 
-1. **Dutch-ground · Medium** — Both reviewers found this independently.  
-   **Offending text:** `<em lang="nl">"zoveel mogelijk"</em>`  
-   **Wrong:** This legal quotation is absent from Chapter 28’s claim rows, violating the non-negotiable ground-box rule.  
-   **Evidence:** `CONTEXT.md §5b`; [claims.tsv](/home/diablo/book4/checks/claims.tsv:794) registers the adjacent ranking quotation but not this phrase. The full sentence does appear in the official KVK [source cache](/home/diablo/book4/.cache/kvk-turboliquidatie-2026.raw:86).  
-   **Fix:** Register `En je schuldeisers zoveel mogelijk afbetaalt, zodat er geen baten meer overblijven.` under `kvk-turboliquidatie-2026`.
+### 1. Misuse consequences are materially overgeneralised
 
-2. **Unsourced-claim · Medium** — Both reviewers found this independently.  
-   **Offending text:** “A contest with $40,000 in sponsored prizes seeded the marketplace with around two hundred products”  
-   **Wrong:** Neither figure is registered. The prose also hardens the source’s “over $40k” to `$40,000`.  
-   **Evidence:** `CONTEXT.md §5 and §8`; no Chapter 28 claim row covers either figure. Galperin’s source says “over $40k” and “around 200 products” ([source](/home/diablo/book4/.cache/eg-binpress-2016.raw:497)).  
-   **Fix:** Write “Galperin later reported over $40,000 in cash and prizes and around 200 products,” and register both source excerpts.
+- **Category:** domain-error / dutch-ground
+- **Severity:** high
+- **Offending text:** “a creditor can ask the court to re-liquidate, a director who paid some creditors ahead of others or hid baten can be held personally liable, and a bestuursverbod is possible.”
+- **What is wrong:** KVK qualifies these consequences. Reopening liquidation concerns suspected concealed assets; personal liability requires conscious unlawful conduct, such as preferring creditors contrary to their proper ranking; and the Public Prosecution Service—not a creditor—requests a bestuursverbod. The chapter compresses these into a broader rule. None of these exact propositions is registered.
+- **Evidence verified:** CONTEXT.md §5b requires every Dutch-ground claim to be official-source-backed and registered. The cached KVK page contains the qualified rules. `checks/claims.tsv` row 794 registers creditor ranking, but no chapter-28 row registers reopening liquidation, misuse-based personal liability, or a bestuursverbod. Row 770 concerns liability from using turboliquidatie despite running contracts, a different proposition.
+- **Concrete fix:** Replace with: “If creditors suspect that assets were concealed, they can ask the court to reopen the liquidation. KVK says conscious unlawful conduct—such as paying creditors contrary to their proper ranking—can expose a former director to personal liability; in specified cases, the Public Prosecution Service can seek a bestuursverbod.” Register each proposition. Do not delete the warning entirely.
 
-3. **Unsourced-claim · Medium** — Both reviewers found this independently.  
-   **Offending text:** “in February 2013, after a month that had reached $20,000”  
-   **Wrong:** The date and revenue figure lack a claim row; moreover, the source says “around Feb. 2013,” not an exact February date.  
-   **Evidence:** `CONTEXT.md §5 and §8`; the Chapter 28 register contains no matching row. The source supplies both facts in one sentence ([source](/home/diablo/book4/.cache/eg-binpress-2016.raw:569)).  
-   **Fix:** Use “around February 2013, after a month that had reached $20,000” and register the complete source sentence.
+### 2. The law’s name and commencement date are unregistered
 
-4. **Unsourced-claim · Medium** — Reviewer B only.  
-   **Offending text:** “built in around three months … and launched in January 2015”  
-   **Wrong:** The duration and launch date are unregistered. The intervening `10–12 hours a day` quotation is already registered, so that portion survives review.  
-   **Evidence:** `CONTEXT.md §5 and §8`; [claims.tsv](/home/diablo/book4/checks/claims.tsv:788) covers only the working-hours quotation. The other facts appear in the source at [three months](/home/diablo/book4/.cache/eg-binpress-2016.raw:747) and [January 2015](/home/diablo/book4/.cache/eg-binpress-2016.raw:759).  
-   **Fix:** Add those two source sentences as claim rows.
+- **Category:** dutch-ground
+- **Severity:** medium
+- **Offending text:** “the route carries a filing duty since the temporary transparency law in force from 15 November 2023”
+- **What is wrong:** The fact is supported by KVK, but the law’s identity and commencement date are absent from the claim register. This violates the mandatory §5b process; it is not evidence that the statement came from memory.
+- **Evidence verified:** `checks/sources.tsv` entry `kvk-turboliquidatie-2026` expressly records the temporary law and 15 November 2023 date. `checks/claims.tsv` row 614 registers only the fourteen-day filing duty. CONTEXT.md’s chapter-28 settlement notes that the date sentence was deliberately not registered after a tag-boundary matching failure.
+- **Concrete fix:** Add a verifiable claim row from the official source or cite the underlying statute. If that cannot pass verification, remove only the date-and-law clause, retaining the registered fourteen-day duty.
+
+### 3. The final-VAT-return notice is sourced but unregistered
+
+- **Category:** dutch-ground
+- **Severity:** medium
+- **Offending text:** “The Belastingdienst writes to say when the last VAT return is due.”
+- **What is wrong:** This is an accurate paraphrase of the cached KVK guidance, but §5b still requires it to appear in `checks/claims.tsv`.
+- **Evidence verified:** The KVK source says, “De Belastingdienst stuurt je een brief wanneer je je laatste btw-aangifte moet doen.” `checks/claims.tsv` row 765 registers only the preceding instruction to keep filing while returns remain in the portal.
+- **Concrete fix:** Register the KVK sentence and retain the prose. Removal is unnecessary.
 
 ## Rejected findings
 
-- Reviewer B’s attribution objections do not independently survive: Move 2 repeatedly says “by his account” or “in his words,” and the Reading note explicitly identifies the source as a founder’s retrospective. The missing registrations remain valid findings.
-- The KVK quotation is not substantively unsupported or false: it appears verbatim in the cited official source. The defect is solely its missing claim row.
-- Reviewer B’s second JSON block is a verbatim duplicate and adds no findings or additional independent agreement.
+None were rejected wholesale. Reviewer B was wrong to characterize these statements as “derived from memory”: all three are present in the official KVK sources or source metadata. Its deletion fixes are therefore excessive; the real defects are incomplete registration and, in the first sentence, loss of legally important conditions.
 
-The chapter is not publishable as-is because its supposedly complete 40-row register omits six source excerpts required by `CONTEXT.md §§5, 5b, and 8`. The single most important change is to complete those claim rows, while preserving the source’s qualifiers—especially “over $40k” and “around February 2013.”
+The chapter is **not publishable as-is** because its Dutch-ground box violates the book’s non-negotiable registration rule and overstates actionable liability consequences. The single most important change is to rewrite and register the misuse paragraph with KVK’s conditions and the correct institutional actors.

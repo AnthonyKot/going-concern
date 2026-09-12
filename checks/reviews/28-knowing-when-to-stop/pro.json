@@ -3,70 +3,26 @@
   {
     "category": "dutch-ground",
     "severity": "high",
-    "quote": "<em lang=\"nl\">\"zoveel mogelijk\"</em>",
-    "problem": "A quotation presented as a legal standard in the Dutch ground box is not registered in the claim register.",
-    "evidence": "Searched checks/claims.tsv for \"zoveel mogelijk\" and found no hits. CONTEXT.md §5b requires every legal claim to be sourced to an official body and present as a row in claims.tsv.",
-    "fix": "Add the exact quotation \"zoveel mogelijk\" to checks/claims.tsv linked to the KVK source, or remove the quotation if it does not appear in the source text."
+    "quote": "Misuse is the Chamber's own warning: a creditor can ask the court to re-liquidate, a director who paid some creditors ahead of others or hid baten can be held personally liable, and a bestuursverbod is possible.",
+    "problem": "States specific legal consequences of misuse (re-liquidation, preference of creditors, bestuursverbod) from memory without supporting source claims in the register.",
+    "evidence": "CONTEXT.md §5b requires every claim in a ground box to be sourced to an official body and present in checks/claims.tsv. Checked checks/claims.tsv globally for 'bestuursverbod' and 're-liquidate' and neither is registered.",
+    "fix": "Remove the entire sentence, as it introduces specific legal consequences not supported by the claim register."
   },
-  {
-    "category": "unsourced-claim",
-    "severity": "medium",
-    "quote": "A contest with $40,000 in sponsored prizes seeded the marketplace with around two hundred products;",
-    "problem": "The figures \"$40,000\" and \"two hundred\" are stated as fact in Move 2 but do not appear in the chapter's claims.tsv rows, and they lack the explicit \"by their own account\" attribution required for a founder's retrospective.",
-    "evidence": "Grepped checks/claims.tsv for \"40,000\" and \"two hundred\" (and checked all ^28 rows) and found no matches. CONTEXT.md §5 requires weaker evidence to be explicitly attributed in the prose.",
-    "fix": "Register the figures in checks/claims.tsv if they are in the source, and add attribution to the prose (e.g., \"what the founders later stated was a $40,000 contest\")."
-  },
-  {
-    "category": "unsourced-claim",
-    "severity": "medium",
-    "quote": "and in February 2013, after a month that had reached $20,000, an application made",
-    "problem": "The date \"February 2013\" and the figure \"$20,000\" are stated as fact in Move 2 but are absent from claims.tsv and lack the necessary attribution.",
-    "evidence": "Grepped checks/claims.tsv for \"2013\" and \"20,000\" and found no matches for Chapter 28.",
-    "fix": "Register the figures in checks/claims.tsv and add the \"by their own account\" attribution."
-  },
-  {
-    "category": "unsourced-claim",
-    "severity": "medium",
-    "quote": "built in around three months, Galperin \"programming for 10-12 hours a day\", and launched in January 2015",
-    "problem": "The duration \"three months\" and date \"January 2015\" are stated as fact in Move 2 but are not registered in claims.tsv and lack attribution.",
-    "evidence": "Grepped checks/claims.tsv for \"three months\" and \"2015\" and found no matches for Chapter 28.",
-    "fix": "Register the figures in checks/claims.tsv and add the required attribution."
-  }
-]
-```
-```json
-[
   {
     "category": "dutch-ground",
     "severity": "high",
-    "quote": "<em lang=\"nl\">\"zoveel mogelijk\"</em>",
-    "problem": "A quotation presented as a legal standard in the Dutch ground box is not registered in the claim register.",
-    "evidence": "Searched checks/claims.tsv for \"zoveel mogelijk\" and found no hits. CONTEXT.md §5b requires every legal claim to be sourced to an official body and present as a row in claims.tsv.",
-    "fix": "Add the exact quotation \"zoveel mogelijk\" to checks/claims.tsv linked to the KVK source, or remove the quotation if it does not appear in the source text."
+    "quote": "And the route carries a filing duty since the temporary transparency law in force from 15 November 2023 —",
+    "problem": "The name of the temporary transparency law and its commencement date are stated as legal facts but are not registered in the claims.",
+    "evidence": "CONTEXT.md §5b requires every legal claim to be in checks/claims.tsv. Checked checks/claims.tsv for '2023' or 'November' in chapter 28 and found no such date or law name registered.",
+    "fix": "Remove the unregistered date and law name and rely only on the quoted duty: 'And the route carries a filing duty —'"
   },
   {
-    "category": "unsourced-claim",
+    "category": "dutch-ground",
     "severity": "medium",
-    "quote": "A contest with $40,000 in sponsored prizes seeded the marketplace with around two hundred products;",
-    "problem": "The figures \"$40,000\" and \"two hundred\" are stated as fact in Move 2 but do not appear in the chapter's claims.tsv rows, and they lack the explicit \"by their own account\" attribution required for a founder's retrospective.",
-    "evidence": "Grepped checks/claims.tsv for \"40,000\" and \"two hundred\" (and checked all ^28 rows) and found no matches. CONTEXT.md §5 requires weaker evidence to be explicitly attributed in the prose.",
-    "fix": "Register the figures in checks/claims.tsv if they are in the source, and add attribution to the prose (e.g., \"what the founders later stated was a $40,000 contest\")."
-  },
-  {
-    "category": "unsourced-claim",
-    "severity": "medium",
-    "quote": "and in February 2013, after a month that had reached $20,000, an application made",
-    "problem": "The date \"February 2013\" and the figure \"$20,000\" are stated as fact in Move 2 but are absent from claims.tsv and lack the necessary attribution.",
-    "evidence": "Grepped checks/claims.tsv for \"2013\" and \"20,000\" and found no matches for Chapter 28.",
-    "fix": "Register the figures in checks/claims.tsv and add the \"by their own account\" attribution."
-  },
-  {
-    "category": "unsourced-claim",
-    "severity": "medium",
-    "quote": "built in around three months, Galperin \"programming for 10-12 hours a day\", and launched in January 2015",
-    "problem": "The duration \"three months\" and date \"January 2015\" are stated as fact in Move 2 but are not registered in claims.tsv and lack attribution.",
-    "evidence": "Grepped checks/claims.tsv for \"three months\" and \"2015\" and found no matches for Chapter 28.",
-    "fix": "Register the figures in checks/claims.tsv and add the required attribution."
+    "quote": "The Belastingdienst writes to say when the last VAT return is due.",
+    "problem": "This administrative procedure is stated as a legal/tax fact but is derived from memory and missing from the claims register.",
+    "evidence": "Checked checks/claims.tsv for chapter 28; the only Belastingdienst claims registered are the KVK notification and the requirement to keep filing as long as returns appear in the portal.",
+    "fix": "Remove the sentence. The preceding quoted sentence 'Blijf je aangiftes doen zolang deze in Mijn Belastingdienst Zakelijk staan' is sufficient."
   }
 ]
 ```
