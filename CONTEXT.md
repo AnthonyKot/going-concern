@@ -5,6 +5,71 @@ sounding like one writer.
 
 ---
 
+## Incremental rework — chapter 11 (2026-09-18)
+
+The author requested chapter 11 next, followed by publication of the chapter 10–11 rework.
+This amendment supersedes the earlier chapter-11 brief and fixed-heading requirements. Lea and
+customers A/B/C continue unchanged from chapter 10, with explicitly hypothetical follow-up:
+A reports a benefit, B cannot use the tool because of access, C has not replied. The task is to
+recover the promise, ask about actual use, distinguish known/unknown/not-yet-due results, and choose
+an action. No repeat purchase is required for a one-off job to succeed. The reader may start here.
+
+The worked correction to B adds one delivery hour (11 to 12) and reduces the remainder after direct
+costs and costed sales/delivery labour from EUR150 to EUR100. A's estimated 90-to-30-minute change
+across two uses stays a reported comparison, not an independently measured or annualised return.
+The original promises did not contain a timed baseline; do not retrospectively invent one.
+
+Turing's H1 2019 Back End report remains as a shorter case about reporting categories and unknown
+outcomes, with its graduate denominator stated. Remove the old inference of identical delivery
+from graduation/pay statistics and the equation of enrolled students with confirmed payers. The
+historical 2016/2020 registered strings remain source checks, not a requirement to restore them.
+The sample review schedule and contact limit are proposed defaults, not findings from the report.
+
+The shared CSV retains every chapter-10 column and adds nine follow-up fields. It is still a blank
+record without formulas; dated updates can be kept in a separate notes sheet. No customer data is
+collected by the site. The existing responsive table wrapper is keyboard-focusable in both revised
+chapters. Index descriptions match the new tasks; chapter 12 remains the next incremental revision.
+
+Observed basis: the previous chapter conflated repeat purchases and customer benefit and presented
+unsupported cross-year comparisons. Design hypothesis: continuing the same jobs makes a reader
+better able to choose an action from evidence. This has not been tested with learners. Completion
+means accounting for the selected customers, including unknowns, and explaining the next action.
+
+## Incremental rework — chapter 10 (2026-09-18)
+
+The author authorised a practical rework starting with chapter 10, continuing forward through
+11 and later chapters incrementally, then returning to earlier chapters. This pass revises only
+10 and its index description, and adds `resources/first-customers.csv`. Chapter 11 is next;
+its prose has not yet been reworked. This amendment supersedes conflicting chapter-10 briefs,
+fixed Move-heading rules and the old requirement to defer interpretation of outcome evidence.
+
+The reader's task is to use completed jobs to decide what to keep, change or investigate before
+accepting more work. Observed weakness: the old chapter prescribed a detailed record without
+working through one, and its part close imposed a strict evidence sequence. Design hypothesis:
+a worked example followed by an independent review makes that task easier; no learner test has
+established this yet. Success means explaining a next decision from actual records, including
+uncertainty and capacity, rather than merely filling a spreadsheet.
+
+Lea is an explicitly fictional employed developer testing a report-automation consultancy. Three
+jobs distinguish corrections from unpriced additions. The arithmetic includes sales and delivery
+hours, unsuccessful sales effort, a stated labour allowance, and a calendar constraint. It keeps
+cash, the economic cost of owner time and net profit distinct. The example and the proposed review
+are not attributed to WP Curve. Its October–December cached reports support only the shorter case
+about agency sales, declined project work and cancellations; the founders' price explanation is
+attributed as their interpretation. Historical claim-register rows remain historical source checks,
+not a requirement to restore the removed launch/revenue ladder.
+
+Descriptive headings retain the three semantic move sections and existing site styles. Monday has
+three actions and a blank CSV; the CSV contains headings only, no formulas or invented customer
+observations. Its period-effort row records unsuccessful/pending selling once, outside customer
+rows. The chapter can be entered without completing chapters 6–9. Its handoff asks readers to
+record promised outcomes and follow-up dates immediately, leaving unknown outcomes visible.
+Future chapter 11 work can continue Lea's example; no later chapter is rewritten pre-emptively.
+
+The existing floor and ceiling still apply. Validate chapter-10 registered source strings against
+cache, all internal links and structural lint, HTML nesting and fragment targets, CSV consistency,
+and the worked arithmetic. Source matching does not establish the advice's effectiveness.
+
 ## Current editorial direction — chapters 09, 16 and 28 (2026-09-12)
 
 The author requested a close review of these chapters, then authorised their rework because the
