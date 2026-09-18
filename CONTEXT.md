@@ -5,6 +5,42 @@ sounding like one writer.
 
 ---
 
+## Incremental rework — chapter 12 (2026-09-18)
+
+Continues the author-approved chapter-by-chapter rework and publication. Chapter 12 now teaches a
+worked business review instead of leading with filing rules. The reader traces period totals to
+customer records, invoices and bank entries; reconciles cash; reads assets, liabilities and equity;
+and keeps an economic owner-time allowance separate from the accounts. Descriptive headings
+retain the three move sections. This supersedes conflicting chapter-12 briefs and fixed headings.
+
+Lea's same three jobs and B's correction are explicitly placed within one illustrative review
+period. New hypothetical assumptions: sole trader with no owner wage, opening cash/equity EUR500,
+EUR100 paid software expense and EUR100 unpaid bookkeeping expense, EUR600 drawings. VAT and taxes
+are excluded from the entire model, including model cash. No loans, fixed assets, depreciation,
+inventory or work in progress. This is not a statutory or tax-account template. Revenue 2700 less
+150 job expenses and 200 shared expenses gives model profit 2350. Operating cash is 2450; after
+600 drawings, cash rises 1850 to 2350. Assets 2350 = supplier payable 100 + equity 2250. Equity also
+reconciles as 500 + 2350 - 600. Matching profit/cash totals are coincidence, exposed by changing
+model drawings to 700. Owner hours: 10 sales + 38 delivery (including B correction) + 6 unsuccessful
+selling + 2 administration = 56; at EUR50, economic remainder is 2350 - 2800 = -450. Count drawings
+and unsuccessful sales effort once in their appropriate views. All example figures are invented.
+
+The companion resources/business-review.csv retains those worked figures with blank reader/source
+fields; it contains no executable formulas. It supplements, rather than duplicates, the customer
+record. Weekly review remains a proposed practice, not a validated three-number rule. Removes the
+six-week prerequisite and the claim that accountants never provide management information.
+
+SEC basic-statement guidance was read via the browser; direct download returned HTTP403, so this
+background source is registered as manually checked rather than given a fabricated cache. KVK's
+small-company filing description was checked live and cached with one registered source string.
+The old Dutch end section remains byte-for-byte unchanged and retains its 2 August date. No new
+legal conclusions are inferred from the hypothetical numbers. Chapter 13 is the next revision.
+
+Observed weakness: the previous chapter required a reconciliation without teaching one. Hypothesis:
+following the same jobs through three financial views makes the reader better able to explain their
+own figures. No learner test has established that. Completion means tracing and explaining figures,
+naming missing information and choosing an action, not producing a superficially balanced sheet.
+
 ## Incremental rework — chapter 11 (2026-09-18)
 
 The author requested chapter 11 next, followed by publication of the chapter 10–11 rework.

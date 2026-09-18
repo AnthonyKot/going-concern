@@ -1,0 +1,33 @@
+Item,Lea example (EUR unless hours or text),Your figure or answer,Source or calculation
+Period dates,Choose the interval covering all example jobs and follow-up,,State your actual dates
+Model assumptions,VAT and taxes excluded; sole trader; no wage to owner; no other assets or debts,,Use actual accounting basis; include applicable items
+Opening cash,500,,Opening bank balance
+Opening owner equity,500,,Opening balance sheet
+Revenue earned,2700,,Completed job records and invoices
+Direct job expenses,150,,Job purchase receipts
+Shared software expense,100,,Services used in the period
+Bookkeeping expense incurred,100,,Work received; bill unpaid
+Model profit before tax and owner labour,2350,,2700 - 150 - 100 - 100
+Customer receipts,2700,,Bank entries
+Direct purchase payments,150,,Bank entries
+Software payment,100,,Bank entry
+Bookkeeping payment,0,,Unpaid this period
+Owner drawings,600,,Transfer to personal account; not an expense in this model
+Net operating cash movement,2450,,2700 - 150 - 100
+Net change in cash,1850,,2450 - 600
+Closing cash,2350,,500 + 2700 - 150 - 100 - 600
+Closing customer receivables,0,,All three invoices paid
+Closing supplier payable,100,,Unpaid bookkeeping bill
+Closing owner equity,2250,,500 + 2350 - 600
+Sales hours on completed jobs,10,,2 + 3 + 5
+Delivery hours including B correction,38,,8 + 12 + 18
+Unsuccessful sales hours,6,,Separate period entry; count once
+General administration hours,2,,Includes this review
+Total owner hours,56,,10 + 38 + 6 + 2
+Labour allowance per hour,50,,"Illustrative economic assumption, not payroll"
+Owner labour allowance,2800,,56 * 50
+Economic remainder,-450,,2350 - 2800; do not also subtract drawings
+Payments due before next review,At least EUR100 bookkeeping; real tax amounts excluded here,,List amounts and due dates; include all actual obligations
+Accepted work and available hours,Not yet supplied,,Use current commitments and calendar
+Next action,Investigate whether scope and handover changes reduce effort,,State the evidence supporting your action
+Uncertainty and next review,Set an actual date,,Name missing information and who will obtain it
