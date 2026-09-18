@@ -1,0 +1,30 @@
+Scenario (alternatives; do not add together),Day,Movement,Cash in EUR,Cash out EUR,Projected balance EUR,Planning floor EUR,Status or assumption
+Original proposal,0,Opening cash from chapter 12,0,0,2350,500,Hypothetical; VAT and taxes excluded from model
+Original proposal,2,Prior bookkeeping bill and new software,0,200,2150,500,Assumed schedule; negative balances show an unfunded proposal
+Original proposal,3,D specialist and job purchases,0,1000,1150,500,Assumed schedule; negative balances show an unfunded proposal
+Original proposal,10,E specialist and job purchases,0,1000,150,500,Assumed schedule; negative balances show an unfunded proposal
+Original proposal,14,Planned owner drawings,0,300,-150,500,Assumed schedule; negative balances show an unfunded proposal
+Original proposal,28,D customer payment,1800,0,1650,500,Assumed schedule; negative balances show an unfunded proposal
+Original proposal,35,E customer payment,1800,0,3450,500,Assumed schedule; negative balances show an unfunded proposal
+Defer drawings beyond day 35,0,Opening cash from chapter 12,0,0,2350,500,Hypothetical; VAT and taxes excluded from model
+Defer drawings beyond day 35,2,Prior bookkeeping bill and new software,0,200,2150,500,Assumed schedule; negative balances show an unfunded proposal
+Defer drawings beyond day 35,3,D specialist and job purchases,0,1000,1150,500,Assumed schedule; negative balances show an unfunded proposal
+Defer drawings beyond day 35,10,E specialist and job purchases,0,1000,150,500,Assumed schedule; negative balances show an unfunded proposal
+Defer drawings beyond day 35,28,D customer payment,1800,0,1950,500,Assumed schedule; negative balances show an unfunded proposal
+Defer drawings beyond day 35,35,E customer payment,1800,0,3750,500,Assumed schedule; negative balances show an unfunded proposal
+D deposit agreed and received,0,Opening cash from chapter 12,0,0,2350,500,Hypothetical; VAT and taxes excluded from model
+D deposit agreed and received,2,Prior bookkeeping bill and new software,0,200,2150,500,Assumed schedule; negative balances show an unfunded proposal
+D deposit agreed and received,2,D deposit before work; receipt required,900,0,3050,500,Assumed schedule; negative balances show an unfunded proposal
+D deposit agreed and received,3,D specialist and job purchases,0,1000,2050,500,Assumed schedule; negative balances show an unfunded proposal
+D deposit agreed and received,10,E specialist and job purchases,0,1000,1050,500,Assumed schedule; negative balances show an unfunded proposal
+D deposit agreed and received,14,Planned owner drawings,0,300,750,500,Assumed schedule; negative balances show an unfunded proposal
+D deposit agreed and received,28,D remaining payment,900,0,1650,500,Assumed schedule; negative balances show an unfunded proposal
+D deposit agreed and received,35,E customer payment,1800,0,3450,500,Assumed schedule; negative balances show an unfunded proposal
+D deposit received; balance delayed to day 42,0,Opening cash from chapter 12,0,0,2350,500,Hypothetical; VAT and taxes excluded from model
+D deposit received; balance delayed to day 42,2,Prior bookkeeping bill and new software,0,200,2150,500,Assumed schedule; negative balances show an unfunded proposal
+D deposit received; balance delayed to day 42,2,D deposit before work; receipt required,900,0,3050,500,Assumed schedule; negative balances show an unfunded proposal
+D deposit received; balance delayed to day 42,3,D specialist and job purchases,0,1000,2050,500,Assumed schedule; negative balances show an unfunded proposal
+D deposit received; balance delayed to day 42,10,E specialist and job purchases,0,1000,1050,500,Assumed schedule; negative balances show an unfunded proposal
+D deposit received; balance delayed to day 42,14,Planned owner drawings,0,300,750,500,Assumed schedule; negative balances show an unfunded proposal
+D deposit received; balance delayed to day 42,35,E customer payment,1800,0,2550,500,Assumed schedule; negative balances show an unfunded proposal
+D deposit received; balance delayed to day 42,42,D remaining payment delayed,900,0,3450,500,Assumed schedule; negative balances show an unfunded proposal

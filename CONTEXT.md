@@ -5,6 +5,48 @@ sounding like one writer.
 
 ---
 
+## Incremental rework — chapter 13 (2026-09-18)
+
+Continues the authorised incremental rework/publication. The task is now to find the lowest cash
+balance before accepting work, compare alternatives and test a delayed receipt. Descriptive headings
+retain the existing three move sections. This amendment supersedes older chapter-13 briefs and
+fixed headings. Chapter 12 already teaches profit/cash reconciliation, so the main progression is
+forward into a dated forecast, not another retrospective explanation of the same statements.
+
+Lea carries forward EUR2350 opening cash and the EUR100 unpaid bookkeeping bill. All future events
+are hypothetical: separately scoped projects D/E priced at EUR1800 each (not a demonstrated price
+increase on the EUR900 offer); EUR1000 outlay each on days 3/10; estimated eight owner hours per job;
+delivery on days 14/21; proposed receipts on days 28/35. Day 2 pays the prior EUR100 bill and EUR100
+new software expense; day 14 includes EUR300 drawings. No other movements through day 35. VAT and
+taxes remain excluded throughout the model; actual reader forecasts must include applicable items.
+No overdraft is assumed. New projected profit 3600 - 2000 - 100 = 1500 before tax and owner labour;
+prior bill was already expensed. Closing cash 3450 conceals a -150 minimum on day 14. A chosen EUR500
+planning floor implies a EUR650 gap, not just the EUR150 required to reach zero.
+
+Alternatives: defer drawings beyond day 35 -> minimum 150, closing 3750; receive a EUR900 deposit
+from D on day 2 and the remaining 900 on day 28 -> minimum 750, closing 3450. The deposit is not
+extra revenue or an established agreement: the proposed start depends on receipt before specialist
+commitment. With deposit received but D's remainder delayed until day 42, minimum stays 750,
+day-35 cash is 2550 and day-42 cash 3450, assuming no additional movements. Extend the horizon and
+include any later bills in a real forecast. If deposit is absent, do not assume its protection.
+
+resources/cash-timeline.csv contains these four separate scenarios with precomputed values, not
+formulas; resources/cash-forecast-blank.csv provides blank headings for readers. Do not add rows
+across scenarios. The minimum test includes within-day order. Tax reserves/payment entries must
+not silently double-count the same obligation. Cash feasibility does not establish profitability,
+delivery capacity or a sustainable household income.
+
+Instacart's cached S-1 remains a shortened example of net-income/operating-cash divergence. Removed
+unsupported supplier-size inference and sweeping claims that invoicing earlier is always available
+or best. KVK forecast guidance is newly checked, cached and registered. Dutch legal end matter and
+its 2 August verification date remain byte-for-byte unchanged. Chapter navigation still leads to
+13b; the main progression then reaches 14. Neither later chapter is pre-emptively rewritten.
+
+Observed weakness: the previous chapter prescribed measuring overlap without a running timeline.
+Design hypothesis: a worked low-point comparison teaches the commitment decision more directly.
+No learner test has established this. Completion means identifying the first threatened payment or
+chosen floor, its assumptions, and an action that can actually be agreed before commitment.
+
 ## Incremental rework — chapter 12 (2026-09-18)
 
 Continues the author-approved chapter-by-chapter rework and publication. Chapter 12 now teaches a
