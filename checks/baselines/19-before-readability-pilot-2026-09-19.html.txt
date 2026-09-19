@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>19 · Deciding to Add Help — The Going Concern</title>
+<meta name="description" content="Define the work, compare ways to add help, and test the full commitment against dated cash and the owner’s support time.">
+<link rel="canonical" href="https://anthonykot.github.io/going-concern/chapters/19-the-first-hire.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="The Going Concern">
+<meta property="og:title" content="19 · Deciding to Add Help">
+<meta property="og:description" content="Define the work, compare ways to add help, and test the full commitment against dated cash and the owner’s support time.">
+<meta property="og:url" content="https://anthonykot.github.io/going-concern/chapters/19-the-first-hire.html">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../static/style.css">
+<script src="../static/theme.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html">The Going <span>Concern</span></a>
+    <nav class="site-nav">
+      <a href="../index.html">Chapters</a>
+      <a href="../about.html">Method</a>
+      <button class="theme-toggle" type="button">☾ Dark</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <p class="kicker">Part IV · Can it run without you? · Chapter 19</p>
+  <h1>Deciding to Add Help</h1>
+  <p class="lede">You can describe the work that needs to move, but nobody has the time to take
+  it. Before offering a role, establish what help would change, what it would require from you,
+  and how the business would meet the commitment if the hoped-for growth did not arrive.</p>
+
+  <div class="decision">
+    <span class="tag">The decision</span>
+    Whether to add help now, change the work or defer the commitment, using a clear requirement,
+    a realistic support plan and a dated funding scenario.
+  </div>
+
+  <section class="move">
+    <h2>Bring the unfilled requirement</h2>
+    <p>The handover review may have found a suitable recipient, or it may have ended with nobody
+    available. Start with that result. Name the work that waits, what a satisfactory result looks
+    like and when it is needed. “I need an assistant” names a possible solution before explaining
+    the problem.</p>
+    <p>Adding someone can serve different purposes: meeting an existing commitment, relieving
+    an owner, bringing a missing skill or pursuing new demand. State which applies. A growth role
+    may be funded deliberately before its work produces revenue, but the funding and the limit
+    on that experiment need to be visible. Future sales cannot pay a bill due before they arrive.</p>
+    <p>If you have no record of the work, reconstruct a recent period from requests, deliveries
+    and your calendar. Separate time doing it from time waiting for information or approval.
+    An estimate is a useful starting point when labelled; it is not proof of a permanent workload.
+    Where demand varies, compare a busy period with a quieter one before choosing the hours.</p>
+
+    <h3>Noor needs cover beyond the first handover</h3>
+    <p><strong>This continues chapter seventeen's invented consultancy, under a new proposed
+    arrangement.</strong> Ivo's limited Tuesday test has not established cover for other mornings.
+    In this scenario he cannot take on additional sessions. Noor is considering two four-hour
+    mornings a week of support and report checking. The aim is to cover existing promises and
+    protect time for her own delivery work, not to assume that free time automatically creates
+    another customer.</p>
+    <p>Her brief names the work: check incoming requests during the covered mornings, use the
+    approved recovery steps, check report output and send an accurate response within the agreed
+    time. It also names what stays with Noor: new integration quotes and changes outside the
+    recovery limits. She needs somebody with relevant troubleshooting skills who can learn the
+    customer context; she has not shown that every request fits a checklist.</p>
+    <p>She plans to spend four hours on preparation and training before the start, then two hours
+    each week reviewing work and handling exceptions during the first four weeks. That is twelve
+    owner hours, including preparation. It is a hypothetical allowance to test. She must put it
+    in her calendar before promising that hiring will free all eight covered hours each week.</p>
+  </section>
+
+  <section class="move">
+    <h2>Compare arrangements for the work</h2>
+    <p>Noor first asks whether the requirement can be reduced. Clearer input instructions might
+    prevent some requests; a different service promise might change the hours that need cover.
+    Those are proposals, not changes she can silently impose on customers who already bought a
+    particular response. Existing commitments need covering while any new arrangement is agreed.</p>
+    <p>She could investigate a service provider responsible for an agreed support result, a
+    suitably scoped addition to an existing arrangement, or a new employee role. For each, ask
+    who directs the work, when capacity is available, what context must be learned, who handles
+    exceptions and what happens if that person or service is unavailable. Compare what is actually
+    supplied, rather than treating every quoted hour as equivalent.</p>
+    <p>A fixed deliverable may still leave support, correction or other obligations. A recurring
+    service may have notice periods or minimum charges. A role may need equipment, administration
+    and substantial owner time. Find those commitments in the proposed arrangement; neither
+    an invoice nor a short description establishes how cheaply you could change it later.</p>
+
+    <h3>Operational need does not determine legal status</h3>
+    <p>Whether the business stops without someone tells you about dependence. It does not, by
+    itself, classify the working relationship. Describe the actual arrangement before choosing
+    its paperwork. On Dutch ground, the Belastingdienst's assessment guidance considers all the
+    facts and circumstances together. The dated <a href="#ground">legal section below</a>
+    explains a separate statutory presumption; it is not a task-versus-job scoring rule.</p>
+    <p>Take the proposed work, direction, hours, responsibilities and payment arrangements to
+    the appropriate adviser where classification is uncertain. Do the same for a proposed trial
+    or work sample. Calling something a trial does not settle its terms. This chapter's cost
+    example cannot establish which arrangement would be lawful in your circumstances.</p>
+
+    <h3>What Gymdesk's first hires establish</h3>
+    <p>In his May 2023 account, Eran Galperin described unsuccessful experiments with growth and
+    advertising agencies before deciding to build an in-house team. His first full-time hire,
+    in June 2021, had previously written for Gymdesk and had an SEO background. The role was
+    content marketing and editing, supporting the organic acquisition channel he already valued.</p>
+    <p>Later that year he hired a full-time customer-service person after earlier contractor
+    arrangements had not worked as he wanted. He reported that the new representative removed
+    a large part of his daily distractions and said he regretted not hiring sooner. His account
+    also emphasised the responsibility of ensuring an employee was paid each month. By the end
+    of 2022 he reported eight employees and four contractors.</p>
+    <p>These are the founder's retrospective observations. They do not show that agencies could
+    not have worked under a different brief, that prior writing proved suitability for every
+    part of the new role, or that customer support should always be the second hire. The account
+    does not disclose the costs and funding schedule needed to reproduce the decision. Its useful
+    question is what responsibility the business needed someone to hold, and what accepting that
+    responsibility required from the owner.</p>
+  </section>
+
+  <section class="move">
+    <h2>Cost the arrangement and the work you retain</h2>
+    <p>For a proposed employee, obtain an estimate of the total business cost for the actual role
+    and hours, including applicable employer charges, leave, pension and administration. For a
+    service, check included work, exclusions, minimum charges, notice and payment dates. In both
+    cases include recruitment, equipment, access, training and the work still left with you.
+    Record what an estimate includes so that you neither omit nor count the same item twice.</p>
+    <p>Keep three views beside each other. The economic review asks whether the business can
+    support the work at its full cost. The cash forecast asks when actual payments fall due.
+    The calendar asks whether you and the other person can do the work when required. The
+    <a href="12-reading-your-own-business.html">period review</a> and
+    <a href="13-profit-is-not-cash.html">cash forecast</a> provide the first two records;
+    extend them rather than inventing a salary-only affordability test.</p>
+    <p>When another person takes hours you previously supplied, replace the corresponding owner
+    allowance in the management comparison with the cost of that person's work. Keep an allowance
+    for the training, decisions and supervision you still do. Do not subtract both a full worker
+    cost and your old allowance for the same transferred hours. Equally, an hour released from
+    your calendar is not automatically an extra hour sold.</p>
+
+    <h3>A first-period forecast can rule out a proposed start</h3>
+    <p>Noor considers an employee arrangement for the two mornings. All figures below are
+    invented budget amounts, not wage rates, quotations or statutory calculations. For the
+    four-week window, assume €2,400 of total staffing cash outflows in two €1,200 instalments,
+    plus €600 of setup purchases. The staffing total includes the associated costs assumed due
+    in this window; a real estimate must identify each item and its actual date, including
+    obligations arising now but paid later.</p>
+    <p>Her opening business cash is €5,000. Other payments are €1,800 on day 2 and €800 on day 21;
+    for this simplified scenario those include the other business, tax and household outflows
+    due within the window. A completed job is expected to bring €2,800 on day 18. There are no
+    other movements in this illustration. Noor chooses a €1,500 minimum balance for comparison;
+    it is a planning choice, not a universal reserve.</p>
+    <p>Before reading the balances, calculate whether the proposal stays above that minimum.
+    Then move the customer's receipt to day 32, beyond the two staffing payments. Keep the
+    payments unchanged: the work would still have been supplied.</p>
+    <div class="table-scroll" tabindex="0" role="region" aria-label="Proposed staffing cash schedule">
+      <table>
+        <caption>Noor's proposed first four weeks — hypothetical EUR</caption>
+        <thead><tr><th scope="col">Day</th><th scope="col">Movement</th><th scope="col">Balance: receipt day 18</th><th scope="col">Balance: receipt day 32</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">0</th><td>Opening cash: 5,000</td><td>5,000</td><td>5,000</td></tr>
+          <tr><th scope="row">2</th><td>Other payments: −1,800</td><td>3,200</td><td>3,200</td></tr>
+          <tr><th scope="row">3</th><td>Setup: −600</td><td>2,600</td><td>2,600</td></tr>
+          <tr><th scope="row">14</th><td>Staffing outflow: −1,200</td><td>1,400</td><td>1,400</td></tr>
+          <tr><th scope="row">18</th><td>Customer: +2,800 in the first scenario only</td><td>4,200</td><td>1,400</td></tr>
+          <tr><th scope="row">21</th><td>Other payments: −800</td><td>3,400</td><td>600</td></tr>
+          <tr><th scope="row">28</th><td>Staffing outflow: −1,200</td><td>2,200</td><td>−600</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>The on-time version ends with €2,200 but falls to €1,400 on day 14, €100 below Noor's
+    chosen floor. The delayed version reaches −€600 on day 28. That is an unfunded proposal,
+    not an assumption that a bank allows the payment. The later €2,800 receipt would restore
+    €2,200 on day 32 only if no other payments occurred; extending the real forecast requires
+    including everything else due through that date.</p>
+    <p>The first version needs a change even under its expected receipt date. The second needs
+    €600 to avoid a negative balance at its lowest point, or €2,100 to preserve the chosen floor,
+    before other obligations. Those are different funding questions. Noor cannot count hoped-for
+    new sales from her released time as arranged funding.</p>
+    <p>This window is enough to expose a problem, but cannot approve the longer commitment.
+    Four weeks is a forecast boundary, not the end of an employment obligation. Extend the
+    schedule through further pay dates, delayed charges, quieter demand and whatever notice or
+    other commitments the actual arrangement entails. Check the economics over an appropriate
+    operating period as well; cash from earlier work can conceal an ongoing loss.</p>
+  </section>
+
+  <section class="move">
+    <h2>Decide what you can commit to now</h2>
+    <p>In the example, Noor has not offered the role or ordered the setup. She defers that start
+    while obtaining a costed alternative and checking whether a different receipt or start date
+    could support it. Until an alternative is agreed, she keeps covering existing promises and
+    declines extra work that depends on unavailable help. That has a cost in her own time and
+    possible sales; it is still a decision she can explain from the present record.</p>
+    <p>Your result may be different. You might deliberately fund a ramp-up from savings or
+    arranged borrowing, buy a narrower service, recruit for a revised role or choose a smaller
+    business. State how much money and time you will commit, what must be in place before the
+    start and when you will reconsider. A review date does not cancel obligations already made.</p>
+
+    <h3>Evaluate the actual role, including with someone you know</h3>
+    <p>Prior work is useful evidence. Ask what it demonstrates and what the new arrangement
+    adds: sustained availability, responsibility for exceptions, communication with customers,
+    or coordination with someone else. Ask whether the person wants those responsibilities.
+    An excellent occasional writer may have neither the interest nor the availability to run
+    an editorial schedule.</p>
+    <p>Where a work sample would answer an important uncertainty, define a relevant, bounded
+    piece of work, agreed payment and terms, and what you will assess. Avoid creating uncosted
+    customer obligations as an audition. A sample can reveal how somebody approaches that task;
+    it cannot establish performance across every part of an ongoing role.</p>
+    <p>Before the start, agree the initial outcome, quality standard, access, authority and help
+    available. Reserve your own support time. Set a review around work the person will actually
+    have an opportunity to do, and collect their account alongside yours. A delayed result may
+    expose your instructions or workload as well as their performance.</p>
+    <p>The <a href="17-you-are-the-bottleneck.html#handover">handover test</a> helps you discover
+    those gaps. <a href="20-managing-people.html">Chapter twenty</a> takes up agreed work, feedback and the
+    harder decision when an arrangement is not working. Keep a management review separate from
+    the legal process for changing or ending employment, covered in its dated end section.</p>
+  </section>
+
+  <section class="monday">
+    <h2>Monday · one requirement, one funded next step</h2>
+    <p>Use a short role or service brief beside your existing calendar, business review and
+    <a href="../resources/cash-forecast-blank.csv" download>dated cash forecast</a>.</p>
+    <ol>
+      <li><strong>Describe the missing work.</strong> State its result, timing, skill, authority
+      and supervision needs, with the observations behind your estimate. Include what stays with you.</li>
+      <li><strong>Compare feasible arrangements.</strong> Include changing or deferring the work.
+      Record availability, included service, limits and continuing obligations. Resolve uncertain
+      classification from the actual arrangement before relying on its proposed terms.</li>
+      <li><strong>Cost and date the commitment.</strong> Add setup, total worker costs and your
+      support time once each. Test expected receipts and a relevant setback; extend the horizon
+      through the obligations the decision creates. Name actual funding for any gap.</li>
+      <li><strong>Choose and prepare the next step.</strong> Hire, obtain a missing quote or
+      assessment, revise the role, or defer. Record the limit, preconditions, owner and review date.
+      If proceeding, agree the first assignment and the support needed to try it.</li>
+    </ol>
+    <p>You have finished when you can explain what help would change, what it would cost and
+    require from you, and why the next commitment fits the evidence and funding. An unresolved
+    quote or classification is a named next action, not a guessed input that makes the forecast pass.</p>
+  </section>
+
+  <div class="owed">
+    <p class="case-head"><span class="who">What remains uncertain</span></p>
+    <p>Gymdesk's account does not validate Noor's budget or this decision routine. A funded role
+    can still fail to deliver its intended result; deferring it can prolong overload or lose an
+    opportunity. A documented counter-case of an owner making this careful, funded commitment
+    and becoming worse off because of it remains owed. The worked example checks relationships
+    and arithmetic. The actual arrangement needs its own evidence and review.</p>
+  </div>
+
+  <section class="reading">
+    <h2>Reading</h2>
+    <ul>
+      <li><span class="src">Source ·</span> <a href="https://erangalperin.com/2023/05/12/building-a-fitness-tech-company-during-covid/">Eran Galperin, "Building A Fitness Tech Company During COVID"</a>, 12 May 2023 — the failed agency experiments, the June 2021 first full-time hire and the sentence framing it, the first customer-service employee and the Upwork contractors before them, the founder's regret and the responsibility of paying an employee each month, and the end-2022 split of eight employees and four contractors. Chapter twenty-six uses the same post's account of 2020. The post was originally published at a URL ending <code>business-to-company</code> and is the one Galperin's handover account links as "I wrote about the process."</li>
+      <li><span class="src">Source ·</span> <a href="https://wetten.overheid.nl/BWBR0005290/2026-01-01">Burgerlijk Wetboek Boek 7</a>, consolidated text at 1 January 2026, articles 610 and 610a — the definition of the employment contract and the presumption of employment.</li>
+      <li><span class="src">Source ·</span> <a href="https://www.rijksoverheid.nl/themas/werk/zelfstandigen-zonder-personeel-zzp/aanpak-schijnzelfstandigheid">Rijksoverheid, "Aanpak schijnzelfstandigheid"</a>, consulted 28 August 2026 — the resumption of full enforcement from 1 January 2025, the charges an employer pays after the fact, and the shared responsibility for getting the contract right.</li>
+      <li><span class="src">Official guidance ·</span> <a href="https://www.rijksoverheid.nl/vraag-en-antwoord/arbeidsovereenkomst-en-cao/wat-staat-er-in-een-arbeidsovereenkomst">Rijksoverheid, "Wat staat er in een arbeidsovereenkomst?"</a>, consulted 12 September 2026 — the explanation under "Geen arbeidsovereenkomst" of the employer's burden when disputing the presumed employment relationship.</li>
+      <li><span class="src">Current assessment guidance ·</span>
+      <a href="https://www.belastingdienst.nl/wps/wcm/connect/nl/arbeidsrelaties/content/wanneer-is-sprake-van-loondienst">Belastingdienst, Wanneer is er sprake van loondienst?</a>,
+      read 19 September 2026. All facts and circumstances matter to assessing the relationship;
+      used for the distinction above, not to classify Noor's hypothetical arrangement. The older
+      statutory quotations and their checked dates below are retained.</li>
+      <li><span class="src">Note ·</span> A founder's own account of his own company — the same weaker evidence class used for Galperin in chapters four, five and seventeen, and attributed the same way. The hire dates, the reason given for each hire and the 2022 headcount split are all his own numbers; nothing here is a filing or audited. The order of his two hires and his regret about it are one person's judgment of one sequence, and the chapter treats them as that.</li>
+    </ul>
+  </section>
+
+  <div class="ground" id="ground">
+    <h3>On Dutch ground · who counts as an employee</h3>
+
+    <p>This section is for readers hiring in the Netherlands. Employment status is a legal
+    assessment of the working relationship, separate from the operational decision about what
+    help the business needs.</p>
+
+    <p><strong>The definition.</strong> Article 7:610 of the Civil Code says what an employment
+    contract is: <em lang="nl">"De arbeidsovereenkomst is de overeenkomst waarbij de ene partij, de
+    werknemer, zich verbindt in dienst van de andere partij, de werkgever, tegen loon gedurende
+    zekere tijd arbeid te verrichten."</em> Three elements — work performed <span
+    lang="nl">in dienst van</span> the other party, for pay, over a period of time. The statute
+    defines the relationship by those elements, not by the heading on the contract.</p>
+
+    <p><strong>The presumption.</strong>  Article 7:610a goes further: <em lang="nl">"Hij die ten behoeve van een ander tegen beloning door die ander
+    gedurende drie opeenvolgende maanden, wekelijks dan wel gedurende ten minste twintig uren per
+    maand arbeid verricht, wordt vermoed deze arbeid te verrichten krachtens
+    arbeidsovereenkomst."</em> Someone who works for you, for pay, for three consecutive months,
+    weekly or at least twenty hours a month, is <em>presumed</em> to be doing so under an
+    employment contract.</p>
+
+    <p><strong>What the presumption means.</strong> Rijksoverheid's
+    <a href="https://www.rijksoverheid.nl/vraag-en-antwoord/arbeidsovereenkomst-en-cao/wat-staat-er-in-een-arbeidsovereenkomst">explanation of employment contracts</a>
+    says that an employer who disputes the presumed employment relationship must prove that
+    there is no employment contract. This is an English summary of that guidance; the
+    presumption can be rebutted, and what would rebut it in your arrangement needs legal advice.</p>
+
+    <p><strong>Enforcement.</strong> The government's own page on <span
+    lang="nl">schijnzelfstandigheid</span> — self-employment in name only — states that
+    <em lang="nl">"De Belastingdienst controleert sinds 1 januari 2025 weer volledig op
+    schijnzelfstandigheid."</em> The consequence for the business that got it wrong is that it
+    <em lang="nl">"betaalt de werkgever alsnog loonbelasting, premies werknemersverzekeringen,
+    bijdragen Zorgverzekeringswet en soms pensioenpremies"</em>, and the same page notes that
+    responsibility is shared: <em lang="nl">"Bedrijven en zzp'ers zijn samen verantwoordelijk om
+    schijnzelfstandigheid te voorkomen."</em></p>
+
+    <p>None of this is advice. This box quotes the definition, the presumption and the fact of
+    enforcement, and summarises the government's explanation of the presumption; it does not say how the assessment goes in your case, what the criteria weigh, or
+    what a rebuttal would need. Before the first contract of either kind, pay an <span
+    lang="nl">arbeidsrechtadvocaat</span> for an hour with the actual working arrangement  in front of them.</p>
+
+    <span class="checked">Checked 28 August 2026 against Burgerlijk Wetboek Boek 7 art. 610 and
+    610a (consolidated text at 1 January 2026) and the Rijksoverheid page "Aanpak
+    schijnzelfstandigheid". The English explanations distinguish the quotations from their
+    meaning. The explanation of the burden of proof was checked on 12 September 2026 against
+    Rijksoverheid's "Wat staat er in een arbeidsovereenkomst?" The administrative assessment
+    framework the Belastingdienst applies is not reproduced here and is what the lawyer is for.</span>
+  </div>
+
+  <nav class="chapter-nav">
+    <a href="17-you-are-the-bottleneck.html"><span class="dir">Previous</span>17 · Taking Work Off Yourself</a>
+    <a class="next" href="20-managing-people.html"><span class="dir">Next chapter</span>20 · Helping Someone Succeed</a>
+  </nav>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>The Going Concern · Chapter 19.</p>
+  </div>
+</footer>
+
+</body>
+</html>

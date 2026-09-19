@@ -14,15 +14,16 @@ depends on what an earlier chapter already said.
 
 ## What the book is trying to be
 
-- **One real, named, dated company per chapter**, with at least two hard figures traceable to a
-  primary source (`CONTEXT.md §5`). A founder's later retelling of their own numbers is weaker
-  evidence and must be attributed as such in the prose.
-- **Four moves, with recorded editorial variants** — the situation, the case or legal regime, the reasoning (principle *with its
-  boundaries stated in the same breath*), Monday (concrete numbered actions) — then a counter-case
-  block and a reading list (`CONTEXT.md §3`). Read the current editorial amendments at the top
-  of CONTEXT.md before applying older template rules. Chapters 12, 15 and 24 use "What the rules
-  establish"; chapters 16 and 28 have descriptive headings. Chapter 24 has a recorded word-floor
-  exception. Do not report these authorised differences as defects.
+- **Evidence appropriate to the decision.** Company claims must be sourced and dated; founder
+  retrospectives are attributed as weaker evidence. Worked examples must be explicitly invented,
+  arithmetically consistent and never presented as observed business or learner outcomes.
+- **Flexible chapter structure.** Read the current amendment in CONTEXT.md first. There is no
+  minimum length, fixed heading sequence or required three-move count. Default ceiling is 5,000
+  body words; longer exceptions need a recorded rationale and checker entry. Combined chapters
+  need one coherent decision journey and action sequence, not two essays joined end to end.
+  11 and 15 are compatibility routes, not chapters to review. Their content and claim rows now
+  live under 10 and 12. The stock example is optional. Both dated legal sections in 12 remain
+  scoped and sourced; owner-pay claims still gate publication and require external review.
 - **The counter-case is the book's honesty mechanism**, and it is a specific, narrow claim: the
   chapter's own advice, followed by capable people, failing. Not related-but-different, not "the
   idea aged badly," not "someone half-followed this and it worked out anyway."

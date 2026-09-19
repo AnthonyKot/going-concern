@@ -2,7 +2,7 @@
 
 **Read it: <https://anthonykot.github.io/going-concern/>**
 
-Twenty-eight chapters on running a small business you own, arranged as the sequence of decisions
+Seventeen core chapters, two optional chapters and one optional worked example on running a small business you own, arranged as the sequence of decisions
 that can actually kill it — from *is there anything here* to *knowing when to stop*.
 
 Fourth in a series built the same way, after
@@ -35,16 +35,23 @@ Five parts, each a question the business asks you whether or not you are ready:
 |------|----------|----------|
 | I    | Is there anything here?     | 1–5   |
 | II   | Will someone pay?           | 6–10  |
-| III  | Does the money work?        | 11–16 |
-| IV   | Can it run without you?     | 17–22 |
-| V    | Will it last?               | 23–28 |
+| III  | Does the money work?        | 12, 13, 14, 16 |
+| IV   | Can it run without you?     | 17, 19–21 |
+| V    | Will it last?               | 23–24, 26–28 |
 
-Each chapter runs four moves:
+Chapters follow a decision through evidence or an explicitly invented worked example to a
+practical review. Section counts and headings are flexible. There is no minimum length; the default
+ceiling is 5,000 body words, with justified longer exceptions recorded before drafting.
 
-1. **The situation** — the decision, stated concretely, in the second person
-2. **What actually happened** — one named company, dated, with real numbers
-3. **The reasoning** — the transferable principle, with its boundaries stated
-4. **Monday** — what to do, and what to read
+The first consolidation merges 10+11 at chapter 10 and 12+15 at chapter 12. Chapter 13 remains a
+separate forecast; 13½ is an optional stock-and-cash example. Main path: 10 → 12 → 13 → 14 → 16.
+Chapters 17+18 now share Taking Work Off Yourself at 17, with 18 redirecting to its handover
+section. Chapter 20 covers the person's assignment and support; 21+22 share Coordinating Work
+and Acting on Signals at 21, with 22 redirecting to its measures section. Main path continues
+16 → 17 → 19 → 20 → 21 → 23. Existing numbers remain during the staged edit.
+Chapter 23 now tests usable cover for a named disruption. Chapters 24+25 share Agreements
+and Protection at 24, with 25 redirecting to #protection. The next step in `merge.md` is
+the full sequence reassessment.
 
 Each chapter aims to carry a **counter-case**: a second, shorter story where the same advice was
 followed correctly and it went badly. This replaces the proof ledger of the sibling volume — the
@@ -123,8 +130,7 @@ always actionable. CI follows the same split, and the weekly claim run writes it
 job summary instead of failing.
 
 `checks/claims.tsv` lists the exact string that must appear in each cited document; `verify.sh`
-fetches the documents and confirms it. The thirteen published chapters currently carry **430 verified
-claims** against forty-two sources. PDF sources are converted with `pdftotext` before matching; if
+fetches the documents and confirms it. The current registrations are in `checks/claims.tsv`; chapter IDs follow the consolidated destinations. PDF sources are converted with `pdftotext` before matching; if
 poppler is not installed those claims are reported as *skipped*, never as passed.
 
 Note what this does and does not prove. It proves every *registered* string is still present in the
@@ -195,6 +201,6 @@ figures whose qualification arrived fifteen blocks later.
 
 ## Status
 
-Parts I and II are complete and verified — chapters 1–10, each part closing with an exit test.
-430 claims across the thirteen; 15 to go. Part III is under way: does the money work?
-See `CONTEXT.md` for the chapter register.
+All core chapters are available. Structural consolidation is in progress: 23 core chapters and one
+optional example, with original numbers retained. `CONTEXT.md` records completed changes and the
+approved next-session merges. Source-string checks verify quotations, not the effectiveness of advice.

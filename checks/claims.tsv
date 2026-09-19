@@ -1,3 +1,7 @@
+# Stage G: former 25 strings now belong to 24. Historical Studio Neat legal opinions remain source-history checks only; they are removed from the argument and are not legal guidance.
+# Stages D/E: former 22 claims moved to 21. Historical strings also cover material shortened or removed from 20/21; retain as source history, not validation of current arguments.
+# Stage F: chapter 23 retains historical source strings for shortened/removed WP Curve material. These matches do not establish reserve capacity or the effectiveness of the invented cover plan.
+# Stage B: former chapter 18 claims moved to 17. Historical registered strings may cover passages shortened in the merged chapter; matching them does not validate its argument.
 # chapter	source_id	exact string that must appear in the filing
 # Whitespace is normalised on both sides before matching, so line breaks in the
 # original filing do not matter. Matching is case-insensitive.
@@ -72,56 +76,56 @@
 02	everpix-paid-acq	ROI is -87% on a 3 year LTV of $147
 02	everpix-paid-acq	conversion from sign-up to paid conversion is about 80% lower for paid traffic vs. organic traffic
 # ch03 — Studio Neat, first-party. The five-campaign record and the rules they draw from it.
-03	sn-howto	raising nearly half a million dollars in total
-03	sn-howto	Launched October 3, 2010 Ended November 2, 2010 Goal: $10,000 $137,417 pledged 5,273 backers
-03	sn-howto	that person is John Gruber
-03	sn-howto	Started shipping to backers in early December, 2010.
-03	sn-howto	Launched February 5th, 2013 Ended March 5th, 2013 Goal: $10,000 $12,442 pledged 1,211 backers
-03	sn-howto	Delivered in time for the March 2013 tournament.
-03	sn-howto	Goal: $50,000 $155,519 pledged 2,274 backers
-03	sn-howto	about idea validation, and mitigating risk
-03	sn-howto	a napkin sketch is not enough
-03	sn-howto	If you are making a physical piece of hardware, a working prototype is a must
-03	sn-howto	important to start conversations with manufacturers beforehand to make sure your design is not impossible (or extremely difficult) to manufacture
-03	sn-howto	projects that are successfully funded but fail to deliver (in timely manner, or at all) are a result of not doing the necessary legwork up front
-03	sn-howto	1 hour and 25 minutes after the post went live, we surpassed our funding goal of $10,000, and finished the day with over $25,000
-03	sn-howto	However long you think the project will take to complete, you may do well to simply double that estimate
-03	sn-howto	stretch goals are a slippery slope that can lead to biting off more than you can chew
+02	sn-howto	raising nearly half a million dollars in total
+02	sn-howto	Launched October 3, 2010 Ended November 2, 2010 Goal: $10,000 $137,417 pledged 5,273 backers
+02	sn-howto	that person is John Gruber
+02	sn-howto	Started shipping to backers in early December, 2010.
+02	sn-howto	Launched February 5th, 2013 Ended March 5th, 2013 Goal: $10,000 $12,442 pledged 1,211 backers
+02	sn-howto	Delivered in time for the March 2013 tournament.
+02	sn-howto	Goal: $50,000 $155,519 pledged 2,274 backers
+02	sn-howto	about idea validation, and mitigating risk
+02	sn-howto	a napkin sketch is not enough
+02	sn-howto	If you are making a physical piece of hardware, a working prototype is a must
+02	sn-howto	important to start conversations with manufacturers beforehand to make sure your design is not impossible (or extremely difficult) to manufacture
+02	sn-howto	projects that are successfully funded but fail to deliver (in timely manner, or at all) are a result of not doing the necessary legwork up front
+02	sn-howto	1 hour and 25 minutes after the post went live, we surpassed our funding goal of $10,000, and finished the day with over $25,000
+02	sn-howto	However long you think the project will take to complete, you may do well to simply double that estimate
+02	sn-howto	stretch goals are a slippery slope that can lead to biting off more than you can chew
 # ch03 — the two campaign pages, contemporaneous platform records via the Internet Archive.
-03	ks-glif-2010	5,273 Backers $137,417 pledged of $10,000 goal
-03	ks-glif-2010	This project successfully raised its funding goal on November 2.
-03	ks-coolest-2014	62,642 Backers $13,285,226 pledged of $50,000 goal
-03	ks-coolest-2014	Pledge $185 or more 50215 backers COOLEST COOLER
-03	ks-coolest-2014	Estimated delivery: Feb 2015
+02	ks-glif-2010	5,273 Backers $137,417 pledged of $10,000 goal
+02	ks-glif-2010	This project successfully raised its funding goal on November 2.
+02	ks-coolest-2014	62,642 Backers $13,285,226 pledged of $50,000 goal
+02	ks-coolest-2014	Pledge $185 or more 50215 backers COOLEST COOLER
+02	ks-coolest-2014	Estimated delivery: Feb 2015
 # ch03 — the collapse. Secondary class, attributed to the journalist in the prose.
-03	elreg-coolest-2019	collapsed earlier this week with 20,000 orders unfulfilled
-03	elreg-coolest-2019	spruiked over 60,000 units costing $185 apiece
-03	elreg-coolest-2019	Coolest asked backers for a further $97 in order for them to receive their product before the July 4 holidays of 2016
-03	elreg-coolest-2019	this obligation cannot be discharged in bankruptcy
+02	elreg-coolest-2019	collapsed earlier this week with 20,000 orders unfulfilled
+02	elreg-coolest-2019	spruiked over 60,000 units costing $185 apiece
+02	elreg-coolest-2019	Coolest asked backers for a further $97 in order for them to receive their product before the July 4 holidays of 2016
+02	elreg-coolest-2019	this obligation cannot be discharged in bankruptcy
 # ch05 On Dutch ground — quoted from the statutes themselves, not from law-firm commentary.
-05	bw7-2026	Een beding waarbij de werkgever verbiedt of beperkt dat de werknemer voor anderen arbeid verricht buiten de tijdstippen waarop de arbeid moet worden verricht bij die werkgever, is nietig, tenzij dit beding kan worden gerechtvaardigd op grond van een objectieve reden.
-05	bw7-2026	de arbeidsovereenkomst voor onbepaalde tijd is aangegaan
-05	bw7-2026	de werkgever dit beding schriftelijk is overeengekomen met een meerderjarige werknemer
-05	bw7-2026	noodzakelijk is vanwege zwaarwegende bedrijfs- of dienstbelangen
-05	ww-2026	de dienstbetrekking is beëindigd door of op verzoek van de werknemer zonder dat aan de voortzetting ervan zodanige bezwaren waren verbonden, dat deze voortzetting redelijkerwijs niet van hem kon worden gevergd
+04	bw7-2026	Een beding waarbij de werkgever verbiedt of beperkt dat de werknemer voor anderen arbeid verricht buiten de tijdstippen waarop de arbeid moet worden verricht bij die werkgever, is nietig, tenzij dit beding kan worden gerechtvaardigd op grond van een objectieve reden.
+04	bw7-2026	de arbeidsovereenkomst voor onbepaalde tijd is aangegaan
+04	bw7-2026	de werkgever dit beding schriftelijk is overeengekomen met een meerderjarige werknemer
+04	bw7-2026	noodzakelijk is vanwege zwaarwegende bedrijfs- of dienstbelangen
+04	ww-2026	de dienstbetrekking is beëindigd door of op verzoek van de werknemer zonder dat aan de voortzetting ervan zodanige bezwaren waren verbonden, dat deze voortzetting redelijkerwijs niet van hem kon worden gevergd
 # ch05 — Bingo Card Creator, contemporaneous. Founder-published, first-party, dated.
-05	km-2009-review	Sales Net of Refunds: $31,156.18
-05	km-2009-review	$18,525.71
-05	km-2009-review	Approximate wage per hour worked: $125 ~ $150
-05	km-5hours-2010	has made it possible to quit my day job at the end of this month
-05	km-5hours-2010	the average over the period is (to my best estimate) about 5 hours
-05	km-5hours-2010	I leave the office at 7:30 PM on a very good day
-05	km-5hours-2010	eventually making perhaps $200 a month
-05	km-2010-review	I quit my day job and went full time on my business as of April 1st of this year
-05	km-2010-review	Sales Net Of Refunds: $42,589.90
-05	km-2010-review	up 33% from $31,855.08
-05	km-2010-review	$25,904.66
+04	km-2009-review	Sales Net of Refunds: $31,156.18
+04	km-2009-review	$18,525.71
+04	km-2009-review	Approximate wage per hour worked: $125 ~ $150
+04	km-5hours-2010	has made it possible to quit my day job at the end of this month
+04	km-5hours-2010	the average over the period is (to my best estimate) about 5 hours
+04	km-5hours-2010	I leave the office at 7:30 PM on a very good day
+04	km-5hours-2010	eventually making perhaps $200 a month
+04	km-2010-review	I quit my day job and went full time on my business as of April 1st of this year
+04	km-2010-review	Sales Net Of Refunds: $42,589.90
+04	km-2010-review	up 33% from $31,855.08
+04	km-2010-review	$25,904.66
 # ch05 — Gymdesk counter-case. Founder retrospective, weaker class, attributed in prose.
-05	galperin-2022	reach enough revenue within the 6 months runway I had built
-05	galperin-2022	I was wrong. In reality it took 3 whole years for the business to grow to the point it could provide for me full time
-05	galperin-2022	I would only be working 4 days a week
-05	galperin-2022	by the end of 2018 we had reached $10k in MRR
-05	galperin-2022	working on Gymdesk full time in June 2019
+04	galperin-2022	reach enough revenue within the 6 months runway I had built
+04	galperin-2022	I was wrong. In reality it took 3 whole years for the business to grow to the point it could provide for me full time
+04	galperin-2022	I would only be working 4 days a week
+04	galperin-2022	by the end of 2018 we had reached $10k in MRR
+04	galperin-2022	working on Gymdesk full time in June 2019
 # ch04 — Cydoc. Founder post-mortem, weaker class, attributed as such in the prose.
 04	draelos-2026	for seven years (April 2018 to August 2025)
 04	draelos-2026	what many consider to be validation milestones: paying customers, patents, and demonstrated clinical impact
@@ -146,11 +150,11 @@
 04	draelos-2026	one customer through a cold call, one through a cold email, one through a very warm intro
 04	draelos-2026	and one via a consulting network
 # ch03 On Dutch ground — quoted from the statute itself. Consumer withdrawal right.
-03	bw6-2026	De consument kan een overeenkomst op afstand of een overeenkomst buiten de verkoopruimte zonder opgave van redenen ontbinden tot een termijn van veertien dagen is verstreken
-03	bw6-2026	De consument heeft geen recht van ontbinding bij
-03	bw6-2026	de levering van volgens specificaties van de consument vervaardigde zaken, die niet geprefabriceerd zijn
-03	bw6-2026	bij een overeenkomst tot het verrichten van diensten: de dag waarop de overeenkomst wordt gesloten
-03	bw6-2026	de dag waarop de consument of een door de consument aangewezen derde, die niet de vervoerder is, de zaak heeft ontvangen
+02	bw6-2026	De consument kan een overeenkomst op afstand of een overeenkomst buiten de verkoopruimte zonder opgave van redenen ontbinden tot een termijn van veertien dagen is verstreken
+02	bw6-2026	De consument heeft geen recht van ontbinding bij
+02	bw6-2026	de levering van volgens specificaties van de consument vervaardigde zaken, die niet geprefabriceerd zijn
+02	bw6-2026	bij een overeenkomst tot het verrichten van diensten: de dag waarop de overeenkomst wordt gesloten
+02	bw6-2026	de dag waarop de consument of een door de consument aangewezen derde, die niet de vervoerder is, de zaak heeft ontvangen
 
 # --- Chapter 6: Who Is This For (Plausible Analytics) ---
 06	plausible-1m	It took us 324 days to reach the first $400 monthly recurring revenue (MRR)
@@ -276,53 +280,53 @@
 07	km-2010-review	up 33% from $31,855.08
 
 # --- Chapter 8: Asking for Money (ConvertKit) ---
-08	nb-convertkit-5k	Growing ConvertKit to $5,020 in Monthly Recurring Revenue
-08	nb-convertkit-5k	to start a brand new SaaS company and grow it to $5,000 in monthly recurring revenue within 6 months
-08	nb-convertkit-5k	I could only make an initial investment of $5,000
-08	nb-convertkit-5k	July 1st, 2013 arrived and ConvertKit was only at $2,480/month
-08	nb-convertkit-5k	$2,480 was the peak month
-08	nb-convertkit-5k	these beginners complained the most about price
-08	nb-convertkit-5k	We were actually driving away our best customers and focusing on those least likely to succeed
-08	nb-convertkit-5k	In October 2014 monthly recurring revenue had slid all the way down to $1,207
-08	nb-convertkit-5k	Either give ConvertKit the attention it deserved or shut it down
-08	nb-convertkit-5k	if your market definition has the word
-08	nb-convertkit-5k	By the end of October MRR had grown 23% to $1,646
-08	nb-convertkit-5k	we continued to execute on the same strategy and grew 27% up to $2,100
-08	nb-convertkit-5k	tracking every conversation in a ConvertKit Sales Trello board
-08	nb-convertkit-5k	been trying to get you to do that for over a year
-08	nb-convertkit-5k	we contacted all the top sellers on LeanPub and Udemy
-08	nb-convertkit-5k	Out of about a hundred personal emails, we picked up 5-7 customers
-08	nb-convertkit-5k	MRR grew 54% to $3,237
-08	nb-convertkit-5k	on January 1st, 2014 I invested $50,000 into ConvertKit
-08	nb-convertkit-5k	From December 15th to January 15th we grew 60% to $4,067
-08	nb-convertkit-5k	Growth stalls out when I go on vacation
-08	nb-convertkit-5k	We still hit 20% growth in January
-08	nb-convertkit-5k	We ended the month with lower MRR than we had on the 15th
-08	nb-convertkit-5k	closed the month growing 17% to $4,561
-08	nb-convertkit-5k	tended to be on the smallest accounts, needed the most help, and were the most likely to cancel
-08	nb-convertkit-5k	Rebrand ConvertKit to be
-08	nb-convertkit-5k	Focus even more on direct sales
-08	nb-direct-sales	Direct Sales for Bootstrapped SaaS Startups: from $1,300 to $725,000 MRR
-08	nb-direct-sales	As the founder my time is too valuable for selling $49/month accounts
-08	nb-direct-sales	they grew from $2,400 MRR in December 2012 to $50,000 MRR a year later
-08	nb-direct-sales	magic lever that you can just pull to get growth
-08	nb-direct-sales	When you sell online you are getting rejected dozens of times without hearing a reason
-08	nb-direct-sales	If someone comes to your blog post or sales page and closes the tab without buying, they rejected you
-08	nb-direct-sales	The basic rules of social interactions require them to give you a reason
-08	nb-direct-sales	You must follow-up
-08	nb-direct-sales	In the very beginning I tracked everything in a Trello board
-08	nb-direct-sales	Is anything frustrating you with MailChimp?
-08	nb-direct-sales	The point is to start a conversation, not to make a sale
-08	nb-direct-sales	Paleo recipe blogs run by women
-08	nb-direct-sales	The smaller the circle you target the more likely your prospects know each other
-08	nb-direct-sales	switching email providers is so much work
-08	nb-direct-sales	and do it all for you. For free.
-08	nb-direct-sales	The prospect placed all their possible objections on a single thing: the cost of switching
-08	nb-direct-sales	the churn on accounts that go through a migration is around 1.5% rather than the more typical 5.5%
-08	nb-direct-sales	Direct sales absolutely scales and anyone who says otherwise is just too lazy to do the work
-08	nb-direct-sales	better at giving this advice than I am at taking it
-08	nb-direct-sales	because that enables the channels that do scale
-08	nb-direct-sales	only 5% of professional bloggers even know we exist
+06	nb-convertkit-5k	Growing ConvertKit to $5,020 in Monthly Recurring Revenue
+06	nb-convertkit-5k	to start a brand new SaaS company and grow it to $5,000 in monthly recurring revenue within 6 months
+06	nb-convertkit-5k	I could only make an initial investment of $5,000
+06	nb-convertkit-5k	July 1st, 2013 arrived and ConvertKit was only at $2,480/month
+06	nb-convertkit-5k	$2,480 was the peak month
+06	nb-convertkit-5k	these beginners complained the most about price
+06	nb-convertkit-5k	We were actually driving away our best customers and focusing on those least likely to succeed
+06	nb-convertkit-5k	In October 2014 monthly recurring revenue had slid all the way down to $1,207
+06	nb-convertkit-5k	Either give ConvertKit the attention it deserved or shut it down
+06	nb-convertkit-5k	if your market definition has the word
+06	nb-convertkit-5k	By the end of October MRR had grown 23% to $1,646
+06	nb-convertkit-5k	we continued to execute on the same strategy and grew 27% up to $2,100
+06	nb-convertkit-5k	tracking every conversation in a ConvertKit Sales Trello board
+06	nb-convertkit-5k	been trying to get you to do that for over a year
+06	nb-convertkit-5k	we contacted all the top sellers on LeanPub and Udemy
+06	nb-convertkit-5k	Out of about a hundred personal emails, we picked up 5-7 customers
+06	nb-convertkit-5k	MRR grew 54% to $3,237
+06	nb-convertkit-5k	on January 1st, 2014 I invested $50,000 into ConvertKit
+06	nb-convertkit-5k	From December 15th to January 15th we grew 60% to $4,067
+06	nb-convertkit-5k	Growth stalls out when I go on vacation
+06	nb-convertkit-5k	We still hit 20% growth in January
+06	nb-convertkit-5k	We ended the month with lower MRR than we had on the 15th
+06	nb-convertkit-5k	closed the month growing 17% to $4,561
+06	nb-convertkit-5k	tended to be on the smallest accounts, needed the most help, and were the most likely to cancel
+06	nb-convertkit-5k	Rebrand ConvertKit to be
+06	nb-convertkit-5k	Focus even more on direct sales
+06	nb-direct-sales	Direct Sales for Bootstrapped SaaS Startups: from $1,300 to $725,000 MRR
+06	nb-direct-sales	As the founder my time is too valuable for selling $49/month accounts
+06	nb-direct-sales	they grew from $2,400 MRR in December 2012 to $50,000 MRR a year later
+06	nb-direct-sales	magic lever that you can just pull to get growth
+06	nb-direct-sales	When you sell online you are getting rejected dozens of times without hearing a reason
+06	nb-direct-sales	If someone comes to your blog post or sales page and closes the tab without buying, they rejected you
+06	nb-direct-sales	The basic rules of social interactions require them to give you a reason
+06	nb-direct-sales	You must follow-up
+06	nb-direct-sales	In the very beginning I tracked everything in a Trello board
+06	nb-direct-sales	Is anything frustrating you with MailChimp?
+06	nb-direct-sales	The point is to start a conversation, not to make a sale
+06	nb-direct-sales	Paleo recipe blogs run by women
+06	nb-direct-sales	The smaller the circle you target the more likely your prospects know each other
+06	nb-direct-sales	switching email providers is so much work
+06	nb-direct-sales	and do it all for you. For free.
+06	nb-direct-sales	The prospect placed all their possible objections on a single thing: the cost of switching
+06	nb-direct-sales	the churn on accounts that go through a migration is around 1.5% rather than the more typical 5.5%
+06	nb-direct-sales	Direct sales absolutely scales and anyone who says otherwise is just too lazy to do the work
+06	nb-direct-sales	better at giving this advice than I am at taking it
+06	nb-direct-sales	because that enables the channels that do scale
+06	nb-direct-sales	only 5% of professional bloggers even know we exist
 
 # --- Chapter 9: What to Charge (Studio Neat / Dutch VAT) ---
 09	sn-howto	The Cosmonaut
@@ -395,30 +399,30 @@
 10	wpc-dec-2013	a 17% increase
 
 # --- Chapter 11: What Happens After the Sale (Turing School CIRR reports) ---
-11	turing-cirr-2016h1	CIRR Schedule of Outcome Data
-11	turing-cirr-2016h1	Enrolled Students 86
-11	turing-cirr-2016h1	How many students graduate within 100% of published program length (on-time)? 67.95%
-11	turing-cirr-2016h1	How many students graduate within 150% of published program length 80.77%
-11	turing-cirr-2016h1	Employed full-time in paid, in-field positions 71.83% 83.10%
-11	turing-cirr-2016h1	C. Hired by school in-field 4.23% 5.63%
-11	turing-cirr-2016h1	Published Course Length (in days, including weekends and holidays) 210
-11	turing-cirr-2019h1be	Turing School Denver - Back End Engineering
-11	turing-cirr-2019h1be	Graduates Included in Report: 67
-11	turing-cirr-2019h1be	How many students graduated on-time? 60.2%
-11	turing-cirr-2019h1be	How many students graduated within 150% of program length? 79.5%
-11	turing-cirr-2019h1be	80.6% Employed In-Field
-11	turing-cirr-2019h1be	9.0% Still Seeking a Job In-Field
-11	turing-cirr-2019h1be	7.5% Could Not Contact
-11	turing-cirr-2019h1be	What median pay rate do graduates earn? $75,000
-11	turing-cirr-2019h1be	73.1% Software Engineer
-11	turing-cirr-2020h1be	Turing School of Software and Design
-11	turing-cirr-2020h1be	How many students graduated on-time? 61.4%
-11	turing-cirr-2020h1be	How many students graduated within 150% of program length? 87.5%
-11	turing-cirr-2020h1be	63.1% Employed In-Field
-11	turing-cirr-2020h1be	26.2% Still Seeking a Job In-Field
-11	turing-cirr-2020h1be	7.7% Could Not Contact
-11	turing-cirr-2020h1be	47.7% Full-Time Employee
-11	turing-cirr-2020h1be	13.8% Full-Time Apprentice / Contractor
+10	turing-cirr-2016h1	CIRR Schedule of Outcome Data
+10	turing-cirr-2016h1	Enrolled Students 86
+10	turing-cirr-2016h1	How many students graduate within 100% of published program length (on-time)? 67.95%
+10	turing-cirr-2016h1	How many students graduate within 150% of published program length 80.77%
+10	turing-cirr-2016h1	Employed full-time in paid, in-field positions 71.83% 83.10%
+10	turing-cirr-2016h1	C. Hired by school in-field 4.23% 5.63%
+10	turing-cirr-2016h1	Published Course Length (in days, including weekends and holidays) 210
+10	turing-cirr-2019h1be	Turing School Denver - Back End Engineering
+10	turing-cirr-2019h1be	Graduates Included in Report: 67
+10	turing-cirr-2019h1be	How many students graduated on-time? 60.2%
+10	turing-cirr-2019h1be	How many students graduated within 150% of program length? 79.5%
+10	turing-cirr-2019h1be	80.6% Employed In-Field
+10	turing-cirr-2019h1be	9.0% Still Seeking a Job In-Field
+10	turing-cirr-2019h1be	7.5% Could Not Contact
+10	turing-cirr-2019h1be	What median pay rate do graduates earn? $75,000
+10	turing-cirr-2019h1be	73.1% Software Engineer
+10	turing-cirr-2020h1be	Turing School of Software and Design
+10	turing-cirr-2020h1be	How many students graduated on-time? 61.4%
+10	turing-cirr-2020h1be	How many students graduated within 150% of program length? 87.5%
+10	turing-cirr-2020h1be	63.1% Employed In-Field
+10	turing-cirr-2020h1be	26.2% Still Seeking a Job In-Field
+10	turing-cirr-2020h1be	7.7% Could Not Contact
+10	turing-cirr-2020h1be	47.7% Full-Time Employee
+10	turing-cirr-2020h1be	13.8% Full-Time Apprentice / Contractor
 
 # --- Chapter 12: Reading Your Own Business (BW2 Titel 9) ---
 12	bw2-jaarrekening	de waarde van de activa volgens de balans met toelichting bedraagt, op de grondslag van verkrijgings- en vervaardigingsprijs, niet meer dan € 350.000
@@ -478,23 +482,23 @@
 14	wpc-dec-2013	The common thread is that all of these customers have been running blogs, rather than businesses
 14	wpc-dec-2013	$69 feels like a big cost
 14	wpc-nov-2013	no virality involved. We have to work for every single customer
-15	lb-12a	Ten aanzien van de werknemer die arbeid verricht ten behoeve van een lichaam waarin hij of zijn partner een aanmerkelijk belang heeft
-15	lb-12a	wordt het in het kalenderjaar van dat lichaam genoten loon ten minste gesteld op het hoogste van de volgende bedragen
-15	lb-12a	het loon uit de meest vergelijkbare dienstbetrekking
-15	lb-12a	het hoogste loon van de werknemers die in dienst zijn van het lichaam
-15	lb-12a	c. € 58.000.
-15	lb-12a	Indien de inhoudingsplichtige aannemelijk maakt dat het hoogste bedrag, bedoeld in het eerste lid, hoger is dan het loon uit de meest vergelijkbare dienstbetrekking
-15	lb-12a	Het eerste en tweede lid zijn niet van toepassing indien het bij toepassing van het eerste tot en met derde lid vast te stellen loon voor de arbeid in het lichaam
-15	lb-12a	niet hoger is dan € 5.000
-15	lb-12a	waarbij een aanmerkelijk belang geen rol speelt
-15	lb-12a	Het in het eerste lid vermelde bedrag wordt bij het begin van het kalenderjaar bij ministeriële regeling vervangen door een ander
-15	bd-gebruikelijk-loon	Bent u werknemer in een vennootschap of coöperatie waarin u een aanmerkelijk belang hebt? Dan geldt voor u de gebruikelijkloonregeling.
-15	bd-gebruikelijk-loon	een aanmerkelijkbelanghouder wordt geacht een loon te krijgen dat normaal is voor het niveau en de duur van zijn arbeid
-15	bd-gebruikelijk-loon	ten minste € 58.000 in 2026 (in 2025 en 2024 was dat € 56.000)
-15	bd-gebruikelijk-loon	De grens van € 5.000 geldt voor het totaal van uw werkzaamheden voor alle vennootschappen of coöperaties waarin u een aanmerkelijk belang hebt.
-15	bd-prive-onttrekkingen	Privéonttrekkingen zijn uitgaven die u uit het ondernemingsvermogen hebt betaald voor uzelf
-15	bd-prive-onttrekkingen	omdat het geen zakelijke kosten zijn, zijn privéonttrekkingen niet aftrekbaar van uw ondernemingswinst
-15	bd-ondernemer-ib	Lang niet iedere ondernemer is ondernemer voor de inkomstenbelasting.
+12	lb-12a	Ten aanzien van de werknemer die arbeid verricht ten behoeve van een lichaam waarin hij of zijn partner een aanmerkelijk belang heeft
+12	lb-12a	wordt het in het kalenderjaar van dat lichaam genoten loon ten minste gesteld op het hoogste van de volgende bedragen
+12	lb-12a	het loon uit de meest vergelijkbare dienstbetrekking
+12	lb-12a	het hoogste loon van de werknemers die in dienst zijn van het lichaam
+12	lb-12a	c. € 58.000.
+12	lb-12a	Indien de inhoudingsplichtige aannemelijk maakt dat het hoogste bedrag, bedoeld in het eerste lid, hoger is dan het loon uit de meest vergelijkbare dienstbetrekking
+12	lb-12a	Het eerste en tweede lid zijn niet van toepassing indien het bij toepassing van het eerste tot en met derde lid vast te stellen loon voor de arbeid in het lichaam
+12	lb-12a	niet hoger is dan € 5.000
+12	lb-12a	waarbij een aanmerkelijk belang geen rol speelt
+12	lb-12a	Het in het eerste lid vermelde bedrag wordt bij het begin van het kalenderjaar bij ministeriële regeling vervangen door een ander
+12	bd-gebruikelijk-loon	Bent u werknemer in een vennootschap of coöperatie waarin u een aanmerkelijk belang hebt? Dan geldt voor u de gebruikelijkloonregeling.
+12	bd-gebruikelijk-loon	een aanmerkelijkbelanghouder wordt geacht een loon te krijgen dat normaal is voor het niveau en de duur van zijn arbeid
+12	bd-gebruikelijk-loon	ten minste € 58.000 in 2026 (in 2025 en 2024 was dat € 56.000)
+12	bd-gebruikelijk-loon	De grens van € 5.000 geldt voor het totaal van uw werkzaamheden voor alle vennootschappen of coöperaties waarin u een aanmerkelijk belang hebt.
+12	bd-prive-onttrekkingen	Privéonttrekkingen zijn uitgaven die u uit het ondernemingsvermogen hebt betaald voor uzelf
+12	bd-prive-onttrekkingen	omdat het geen zakelijke kosten zijn, zijn privéonttrekkingen niet aftrekbaar van uw ondernemingswinst
+12	bd-ondernemer-ib	Lang niet iedere ondernemer is ondernemer voor de inkomstenbelasting.
 16	pb-5	And the site makes roughly the same amount of money (around $200K) every year.
 16	pb-5	the number of active users stays roughly the same
 16	pb-5	actually earning enough money to do that
@@ -528,15 +532,15 @@
 17	pb-11	run a bug-for-bug identical copy of the site on a modern laptop
 
 # ch18 — Gymdesk / Galperin, "How to fire yourself as a founder" (2023). Case hunt in §6i.
-18	galperin-2023-fire	I went through growing Gymdesk from a one-person operation to a company with over 10 FTE at that point in time
-18	galperin-2023-fire	for the first 5 years of the company
-18	galperin-2023-fire	Tasks that would take 15-20 minutes of my day as a side activity, required hours for a dedicated person to complete
-18	galperin-2023-fire	I started also documenting all of the knowledge I accumulated for each function of the business
-18	galperin-2023-fire	Creating an internal customer service knowledge-base / SOPs, containing verification and debugging flows that are repeatable and can be used immediately by new reps. Reps input a new entry every time they encounter a ticket and we collaboratively document the steps to resolve it.
-18	galperin-2023-fire	What I failed to take into consideration was that I can transfer knowledge, but not the intuition and cross functional experience with all aspects of the business that came with years of performing all roles in the company
-18	galperin-2023-fire	would take me a couple of minutes to go through and respond
-18	galperin-2023-fire	can take close to an hour, and require my participation at each one of those decision points
-18	galperin-2023-fire	still a work in progress, and I still feel too embedded in many of the processes
+17	galperin-2023-fire	I went through growing Gymdesk from a one-person operation to a company with over 10 FTE at that point in time
+17	galperin-2023-fire	for the first 5 years of the company
+17	galperin-2023-fire	Tasks that would take 15-20 minutes of my day as a side activity, required hours for a dedicated person to complete
+17	galperin-2023-fire	I started also documenting all of the knowledge I accumulated for each function of the business
+17	galperin-2023-fire	Creating an internal customer service knowledge-base / SOPs, containing verification and debugging flows that are repeatable and can be used immediately by new reps. Reps input a new entry every time they encounter a ticket and we collaboratively document the steps to resolve it.
+17	galperin-2023-fire	What I failed to take into consideration was that I can transfer knowledge, but not the intuition and cross functional experience with all aspects of the business that came with years of performing all roles in the company
+17	galperin-2023-fire	would take me a couple of minutes to go through and respond
+17	galperin-2023-fire	can take close to an hour, and require my participation at each one of those decision points
+17	galperin-2023-fire	still a work in progress, and I still feel too embedded in many of the processes
 
 # ch19 — Gymdesk / Galperin, "Building A Fitness Tech Company During COVID" (2023). Case hunt in §6i.
 19	galperin-2023-covid	We made our first full time hire in June 2021
@@ -559,20 +563,20 @@
 20	bw7-2026	De transitievergoeding bedraagt maximaal € 102.000,00 of een bedrag gelijk aan ten hoogste het loon over twaalf maanden
 
 # ch21 — Groove / Alex Turnbull, "How We've Optimized Remote Team Meetings For Ultimate Efficiency" (2016). Case hunt in §6i.
-21	groove-meetings-2016	It made our 9-person 45-minute meetings look amateur in comparison.
-21	groove-meetings-2016	nearly 20 people participated and shared updates, and the meeting still took less than 7 minutes.
-21	groove-meetings-2016	Lesley owns meetings for our team, and handles scheduling and moderating.
-21	groove-meetings-2016	Monday Recap Meeting — 30 Minutes
-21	groove-meetings-2016	Tuesday–Thursday Daily Standup — 10 Minutes
+20	groove-meetings-2016	It made our 9-person 45-minute meetings look amateur in comparison.
+20	groove-meetings-2016	nearly 20 people participated and shared updates, and the meeting still took less than 7 minutes.
+20	groove-meetings-2016	Lesley owns meetings for our team, and handles scheduling and moderating.
+20	groove-meetings-2016	Monday Recap Meeting — 30 Minutes
+20	groove-meetings-2016	Tuesday–Thursday Daily Standup — 10 Minutes
 
 # ch22 — ConvertKit / Nathan Barry, "Understanding ConvertKit's open metrics" (2019). Case hunt in §6i.
-22	nb-metrics-2019	MRR growth is actually the summary of five metrics: new, expansion, reactivation, contraction, and churn
-22	nb-metrics-2019	Revenue churn is the percentage of your revenue base you lost in a month, whereas user churn is the percentage of customers you lost in a month
-22	nb-metrics-2019	At ConvertKit we are at 2.2% net revenue churn
-22	nb-metrics-2019	At ConvertKit we have a quick ratio of 1.47
-22	nb-metrics-2019	Buffer is at $21 per customer and ConvertKit is at $57 per customer
-22	nb-metrics-2019	we have 20,812 generating $1,188,580 in MRR
-22	nb-metrics-2019	6,994 customers (33% of the total) generating $811,117 in MRR (68% of the total)
+20	nb-metrics-2019	MRR growth is actually the summary of five metrics: new, expansion, reactivation, contraction, and churn
+20	nb-metrics-2019	Revenue churn is the percentage of your revenue base you lost in a month, whereas user churn is the percentage of customers you lost in a month
+20	nb-metrics-2019	At ConvertKit we are at 2.2% net revenue churn
+20	nb-metrics-2019	At ConvertKit we have a quick ratio of 1.47
+20	nb-metrics-2019	Buffer is at $21 per customer and ConvertKit is at $57 per customer
+20	nb-metrics-2019	we have 20,812 generating $1,188,580 in MRR
+20	nb-metrics-2019	6,994 customers (33% of the total) generating $811,117 in MRR (68% of the total)
 
 # ch23 — WP Curve / Dan Norris, "People, Product and Process — June monthly report" (2014). Case hunt in §6i.
 23	wpc-jun-2014	We increased the team to 15 people
@@ -586,11 +590,11 @@
 24	bw6-2026	Een beding in algemene voorwaarden is vernietigbaar a. indien het, gelet op de aard en de overige inhoud van de overeenkomst, de wijze waarop de voorwaarden zijn tot stand gekomen, de wederzijds kenbare belangen van partijen en de overige omstandigheden van het geval, onredelijk bezwarend is voor de wederpartij; of b. indien de gebruiker aan de wederpartij niet een redelijke mogelijkheid heeft geboden om van de algemene voorwaarden kennis te nemen.
 24	bw6-2026	De gebruiker heeft aan de wederpartij de in artikel 233 onder b bedoelde mogelijkheid geboden, indien hij de algemene voorwaarden voor of bij het sluiten van de overeenkomst aan de wederpartij ter hand heeft gesteld
 
-# ch25 — Studio Neat / Gerhardt & Provost, third use of the ch. 03/ch. 09 company, same source, new (never-drawn-on) section and new inference: what patents actually do and do not protect, and what the founders leaned on instead. sn-howto already exists (registered at ch. 03/ch. 09) and is reused here for the "A Word on Patents" section, per §6b. Case hunt in §6i.
-25	sn-howto	Patents do nothing to prevent people from stealing your idea.
-25	sn-howto	we have realized that patents are basically designed to protect large corporations, and the idea of a small company of two people obtaining a patent is fairly ridiculous. We decided to pass.
-25	sn-howto	there have been a few direct imitations that have cropped up, out of Germany and Taiwan.
-25	sn-howto	As long as our brand remains strong, we think enough customers will choose the real deal versus the knockoff.
+# Former ch25: Studio Neat section moved selectively to 24 in stage G; reported choice retained, legal generalisations and causal retention claims removed.
+24	sn-howto	Patents do nothing to prevent people from stealing your idea.
+24	sn-howto	we have realized that patents are basically designed to protect large corporations, and the idea of a small company of two people obtaining a patent is fairly ridiculous. We decided to pass.
+24	sn-howto	there have been a few direct imitations that have cropped up, out of Germany and Taiwan.
+24	sn-howto	As long as our brand remains strong, we think enough customers will choose the real deal versus the knockoff.
 
 # ch26 — Gymdesk / Eran Galperin, fifth appearance, same document already registered at ch. 19 (galperin-2023-covid) but a different, earlier section — the 2020 COVID shock to the fitness industry, not the 2021-22 hiring paragraphs ch. 19 used — and a new inference: a shock external to the business, not capacity or a legal choice. Case hunt in §6i.
 26	galperin-2023-covid	almost all gyms were closed for months
@@ -647,35 +651,35 @@
 20	bw7-2026	is aangegaan voor ten hoogste zes maanden
 20	bw7-2026	wordt telkens met ingang van 1 januari
 20	bw7-2026	al dan niet met behulp van scholing, in een andere passende functie niet mogelijk is of niet in de rede ligt
-21	groove-meetings-2016	Our team is different from your team, and what works for us might be different from what works for you
-21	groove-meetings-2016	we scheduled no meetings, and opted only to meet on demand when things arose. To put it bluntly, it simply didn’t work
-21	groove-meetings-2016	often started in the form of an instant message saying something like “hey can we chat about this?”, they were the remote equivalent of the tap-on-the-shoulder interruption that destroys so much focus and productivity in office environments
-21	groove-meetings-2016	An hour-long meeting can certainly be disruptive
-21	groove-meetings-2016	perhaps the biggest mistake we made was trying to schedule non-work activities during the work day
-21	groove-meetings-2016	We felt guilty doing these calls because we had work we needed to do
-21	groove-meetings-2016	which we had previously only done via Slack posts
-21	groove-meetings-2016	scared me a bit
-21	groove-meetings-2016	But Kris, our business coach, pushed us to try it
-21	groove-meetings-2016	That missing piece is structure
-21	groove-meetings-2016	No more than 60 seconds per person, often less
-21	groove-meetings-2016	Friday Update — 20 Minutes
-21	groove-meetings-2016	after a couple of months of this
-21	groove-meetings-2016	our team has never been operating more efficiently
-22	nb-metrics-2019	people reading the metrics only on the surface level
-22	nb-metrics-2019	the most important metric in the business
-22	nb-metrics-2019	all over the map. From as high as $73,000 net new in March to a couple negative months in the summer
-22	nb-metrics-2019	Monthly is as granular as you need to go
-22	nb-metrics-2019	Because our beginner customers churn more often than our larger customers, user churn at ConvertKit is always higher than revenue churn
-22	nb-metrics-2019	It’s both interesting and depressing to see so many new accounts come in each month and be canceled out by so many customers leaving
-22	nb-metrics-2019	Quick Ratio = (New MRR + Expansion MRR) / (Churned MRR + Contraction MRR)
-22	nb-metrics-2019	1.47, which is fairly low
-22	nb-metrics-2019	Buffer at 1.08 and Hubstaff at 1.38
-22	nb-metrics-2019	Or put another way, 67% of our customers are generating only 32% of our revenue
-22	nb-metrics-2019	as high as $3 million
-22	nb-metrics-2019	the contraction from annual plans is now outside the rolling 30 day window
-22	nb-metrics-2019	I remember reading an S1 from a company with net negative churn and realizing that they didn’t consider any account canceling in the first 90 days as churn. That’s convenient, no wonder they had negative net churn!
-22	nb-metrics-2019	that we are beholden to a few customers
-22	nb-metrics-2019	down to 0%
+20	groove-meetings-2016	Our team is different from your team, and what works for us might be different from what works for you
+20	groove-meetings-2016	we scheduled no meetings, and opted only to meet on demand when things arose. To put it bluntly, it simply didn’t work
+20	groove-meetings-2016	often started in the form of an instant message saying something like “hey can we chat about this?”, they were the remote equivalent of the tap-on-the-shoulder interruption that destroys so much focus and productivity in office environments
+20	groove-meetings-2016	An hour-long meeting can certainly be disruptive
+20	groove-meetings-2016	perhaps the biggest mistake we made was trying to schedule non-work activities during the work day
+20	groove-meetings-2016	We felt guilty doing these calls because we had work we needed to do
+20	groove-meetings-2016	which we had previously only done via Slack posts
+20	groove-meetings-2016	scared me a bit
+20	groove-meetings-2016	But Kris, our business coach, pushed us to try it
+20	groove-meetings-2016	That missing piece is structure
+20	groove-meetings-2016	No more than 60 seconds per person, often less
+20	groove-meetings-2016	Friday Update — 20 Minutes
+20	groove-meetings-2016	after a couple of months of this
+20	groove-meetings-2016	our team has never been operating more efficiently
+20	nb-metrics-2019	people reading the metrics only on the surface level
+20	nb-metrics-2019	the most important metric in the business
+20	nb-metrics-2019	all over the map. From as high as $73,000 net new in March to a couple negative months in the summer
+20	nb-metrics-2019	Monthly is as granular as you need to go
+20	nb-metrics-2019	Because our beginner customers churn more often than our larger customers, user churn at ConvertKit is always higher than revenue churn
+20	nb-metrics-2019	It’s both interesting and depressing to see so many new accounts come in each month and be canceled out by so many customers leaving
+20	nb-metrics-2019	Quick Ratio = (New MRR + Expansion MRR) / (Churned MRR + Contraction MRR)
+20	nb-metrics-2019	1.47, which is fairly low
+20	nb-metrics-2019	Buffer at 1.08 and Hubstaff at 1.38
+20	nb-metrics-2019	Or put another way, 67% of our customers are generating only 32% of our revenue
+20	nb-metrics-2019	as high as $3 million
+20	nb-metrics-2019	the contraction from annual plans is now outside the rolling 30 day window
+20	nb-metrics-2019	I remember reading an S1 from a company with net negative churn and realizing that they didn’t consider any account canceling in the first 90 days as churn. That’s convenient, no wonder they had negative net churn!
+20	nb-metrics-2019	that we are beholden to a few customers
+20	nb-metrics-2019	down to 0%
 20	bw7-2026	als bedoeld in artikel 671a
 20	bw7-2026	op grond van artikel 669, lid 3, onderdeel a of b
 20	bw7-2026	verzoekt hiervoor schriftelijk toestemming aan het Uitvoeringsinstituut werknemersverzekeringen
@@ -704,15 +708,15 @@
 24	auteurswet-2026	Het auteursrecht is het uitsluitend recht van den maker van een werk van letterkunde, wetenschap of kunst, of van diens rechtverkrijgenden, om dit openbaar te maken en te verveelvoudigen, behoudens de beperkingen, bij de wet gesteld.
 24	auteurswet-2026	omvat alleen die bevoegdheden die uitdrukkelijk in de overeenkomst staan vermeld of die uit de aard en de strekking ervan noodzakelijkerwijs voortvloeien
 24	bw6-2026	op verzoek van de wederpartij onverwijld op zijn kosten
-25	sn-howto	I remember when our first project, the Glif, started to blow up, and I was freaked out we didn’t have a patent on the design
-25	sn-howto	make sure you contact an expert rather than relying solely on the advice from two dudes with no legal expertise
-25	sn-howto	a black hole that sucks up money and spits out sadness
-25	sn-howto	Many people seem to have the misconception that patents are magical things that act like a force field around your product, preventing anyone from ever ripping it off
-25	sn-howto	All they do is give you the legal authority to take action if you believe someone is infringing. You would still need to hire a lawyer to take the perp to court.
-25	sn-howto	only protects the visual ornamentation of an object, not its function
-25	sn-howto	Most patents only protect infringement within the United States
-25	sn-howto	There is not much we can do, other than shrug our shoulders and carry on
-25	sn-howto	Let’s imagine for a moment we did have a heavy-duty international utility patent. How would that change things? Would we really be willing to sink the time and money into going after them? Our guess is no. We’d rather just spend that time designing more great products.
+24	sn-howto	I remember when our first project, the Glif, started to blow up, and I was freaked out we didn’t have a patent on the design
+24	sn-howto	make sure you contact an expert rather than relying solely on the advice from two dudes with no legal expertise
+24	sn-howto	a black hole that sucks up money and spits out sadness
+24	sn-howto	Many people seem to have the misconception that patents are magical things that act like a force field around your product, preventing anyone from ever ripping it off
+24	sn-howto	All they do is give you the legal authority to take action if you believe someone is infringing. You would still need to hire a lawyer to take the perp to court.
+24	sn-howto	only protects the visual ornamentation of an object, not its function
+24	sn-howto	Most patents only protect infringement within the United States
+24	sn-howto	There is not much we can do, other than shrug our shoulders and carry on
+24	sn-howto	Let’s imagine for a moment we did have a heavy-duty international utility patent. How would that change things? Would we really be willing to sink the time and money into going after them? Our guess is no. We’d rather just spend that time designing more great products.
 23	wpc-jun-2014	[Alex: I think Dan will come up with something...]
 23	wpc-jun-2014	we are growing so quickly we don’t want to grow faster
 23	wpc-jun-2014	another month of data from Hively
@@ -775,7 +779,6 @@
 26	galperin-2023-covid	a one-man, owner run business
 27	bh-ceo-2023	Hyde joins the company from Yarra Valley Dairy where he spent three years
 27	bh-ceo-2023	General Manager, Cider & Alternative Beverages at Little Creatures
-27	bh-ceo-2023	in hindsight, Black Hops had outgrown him and staying would create confusion
 27	bh-ceo-2023	the company projected it faced a loss of $327,000 for the previous year
 27	bh-ceo-2023	the company has wanted to change it for quite some time
 27	bh-ceo-2023	this would change in discussions with the remaining Black Hops team
@@ -783,6 +786,7 @@
 27	bh-loss-2023	FY21 was a Covid year in Australia
 27	bh-loss-2023	shifted their price points, and we just have not done that
 27	bh-loss-2023	towards the end of last year the company had appointed a new head of finance and new external accountants which had given a clearer insight into the business’ accounts
+27	wpc-jun-2014	still involved at key intervals
 28	eg-binpress-2016	product guys first
 28	eg-binpress-2016	on a whim
 28	eg-binpress-2016	programming for 10-12 hours a day
@@ -837,3 +841,23 @@
 28	kvk-eenmanszaak-2026	De Belastingdienst stuurt je een brief wanneer je je laatste btw-aangifte moet doen.
 12	kvk-small-filing-2026	verkorte balans en de toelichting
 13	kvk-cash-forecast-2026	Een liquiditeitsbegroting is een overzicht van alle verwachte inkomsten en uitgaven in een bepaalde periode
+13b	au-stocktake-2026	identifying what inventory you need to buy
+17	galperin-2023-fire	instead of hiring people to perform specific functions at the company, I started hiring people to be responsible for entire aspects of the company.
+17	pb-11	Past Me, a vindictive, inscrutable nemesis who devoted his life to sabotaging Present Me
+17	galperin-2023-fire	Do I step in and make it better, or let the employee make a mistake and hopefully learn from it
+17	galperin-2023-fire	for the first 5 years of the company’s existence, I was doing everything
+19	bd-assess-working-relationship-2026	Alle feiten en omstandigheden van de arbeidsrelatie zijn van belang
+20	bd-assess-working-relationship-2026	Alle feiten en omstandigheden van de arbeidsrelatie zijn van belang
+24	bd-assess-working-relationship-2026	Alle feiten en omstandigheden van de arbeidsrelatie zijn van belang
+24	wipo-licensing-2026	You can authorize someone else to use your IP, while maintaining your ownership
+24	wipo-licensing-2026	Assignment is the sale of an IP asset.
+24	auteurswet-2026	De levering vereist voor overdracht geschiedt ingevolge artikel 95 van Boek 3 van het Burgerlijk Wetboek bij een daartoe bestemde akte.
+06	nb-convertkit-5k	The segment we chose was email marketing for authors
+06	nb-convertkit-5k	We wouldn’t turn away customers from outside the market, but this would give us a focused audience to pursue
+07	plausible-1m	We got more than 1,000 visitors and 15 trial signups from Product Hunt on the launch day
+07	plausible-1m	only a few days later, we got fewer than 20 visitors from there
+07	plausible-1m	It brings that famous spike of hope after which follows the flat line of nope.
+16	pb-5	It is pleasant to work on something that people draw benefit from.
+16	pb-5	the longer I run the site, the more resistant I become to the idea of ever giving it up, even if I need to take the occasional break
+28	eg-binpress-2016	We didn’t bring it up when we talked
+28	eg-binpress-2016	no one was able to commit

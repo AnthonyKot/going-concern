@@ -26,16 +26,25 @@ import os
 import re
 import sys
 
-CEILING = 3000
-FLOOR = 2000
-# Editorial decision, 2026-09-12 (CONTEXT.md, targeted corrections): this
-# regime-based chapter has no company case. Do not pad it to meet the floor.
-# All other checks, including the ceiling and required sections, still apply.
-FLOOR_EXEMPTIONS = {"24-what-you-signed.html"}
+CEILING = 5000
+# A longer chapter needs an explicit editorial rationale in CONTEXT.md before
+# adding a filename-specific limit here. There is no minimum word count.
+CEILING_EXCEPTIONS = {}
+LEGACY_ROUTES = {
+    "08-asking-for-money.html": "06-who-is-this-for.html#asking",
+    "05-leaving-well.html": "04-deciding-not-to.html#leaving",
+    "03-selling-it-before-it-exists.html": "02-talking-to-people.html#presale",
+    "25-what-protects-you.html": "24-what-you-signed.html#protection",
+    "22-measuring-the-right-three-things.html": "20-managing-people.html#measures",
+    "21-meetings-that-arent-theater.html": "20-managing-people.html#response",
+    "18-writing-it-down.html": "17-you-are-the-bottleneck.html#handover",
+    "11-what-happens-after-the-sale.html": "10-the-first-ten-customers.html#after-sale",
+    "15-paying-yourself.html": "12-reading-your-own-business.html#owner-pay",
+}
 
 REQUIRED = {
     "decision box": r'<div class="decision">',
-    "three moves": r'<section class="move">',
+    "teaching section": r'<section class="move"(?:\s[^>]*)?>',
     "monday": r'<section class="monday">',
     "reading": r'<section class="reading">',
     "chapter nav": r'<nav class="chapter-nav">',
@@ -63,23 +72,36 @@ def body_words(raw):
 
 def check(path):
     """Return a list of complaint strings for one chapter file."""
-    raw = open(path, encoding="utf-8").read()
+    with open(path, encoding="utf-8") as source:
+        raw = source.read()
     out = []
+
+    if os.path.basename(path) in LEGACY_ROUTES:
+        target = LEGACY_ROUTES[os.path.basename(path)]
+        if 'href="%s"' % target not in raw:
+            out.append("legacy route missing visible destination link")
+        if "location.replace(" not in raw:
+            out.append("legacy route missing automatic navigation")
+        target_file, fragment = target.split("#", 1)
+        destination = os.path.join(os.path.dirname(path), target_file)
+        if not os.path.isfile(destination):
+            out.append("legacy destination does not exist")
+        else:
+            with open(destination, encoding="utf-8") as source:
+                if 'id="%s"' % fragment not in source.read():
+                    out.append("legacy destination fragment does not exist")
+        return out
 
     for label, pattern in REQUIRED.items():
         if not re.search(pattern, raw):
             out.append("missing %s" % label)
-
-    moves = len(re.findall(r'<section class="move">', raw))
-    if moves and moves != 3:
-        out.append("%d move sections, expected 3" % moves)
 
     # A <h2><span class="num">Move N</span> heading outside a section.move is
     # the bug that shipped in chapter 6: the badge styling hangs off that class,
     # so the heading renders unstyled and nothing else notices.
     for m in re.finditer(r'<h2><span class="num">', raw):
         before = raw[: m.start()]
-        if not before.rstrip().endswith('<section class="move">'):
+        if not re.search(r'<section class="move"(?:\s[^>]*)?>\s*$', before):
             out.append("Move heading not directly inside section.move")
             break
 
@@ -90,10 +112,9 @@ def check(path):
             out.append("unbalanced <%s>: %d open, %d close" % (tag, opened, closed))
 
     n = body_words(raw)
-    if n > CEILING:
-        out.append("%d words, over the %d ceiling" % (n, CEILING))
-    elif n < FLOOR and os.path.basename(path) not in FLOOR_EXEMPTIONS:
-        out.append("%d words, under the %d floor" % (n, FLOOR))
+    ceiling = CEILING_EXCEPTIONS.get(os.path.basename(path), CEILING)
+    if n > ceiling:
+        out.append("%d words, over the %d ceiling" % (n, ceiling))
 
     return out
 
@@ -120,7 +141,8 @@ def main():
     if problems:
         print("  %d structural problem(s) in %d chapters" % (problems, len(files)))
     else:
-        print("  %d chapters, no structural problems" % len(files))
+        print("  %d chapter/example pages and %d legacy routes, no structural problems" %
+              (len(files) - len(LEGACY_ROUTES), len(LEGACY_ROUTES)))
     print("  (structure only — arguments are checked by reading)")
     return 1 if (problems and strict) else 0
 

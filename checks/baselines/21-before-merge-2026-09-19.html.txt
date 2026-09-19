@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>21 · Coordinating Work and Acting on Signals — The Going Concern</title>
+<meta name="description" content="Connect a shared commitment to useful signals, a decision owner and a timely response. Review delivery, quality and coordination cost before keeping the routine.">
+<link rel="canonical" href="https://anthonykot.github.io/going-concern/chapters/21-meetings-that-arent-theater.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="The Going Concern">
+<meta property="og:title" content="21 · Coordinating Work and Acting on Signals">
+<meta property="og:description" content="Connect a shared commitment to useful signals, a decision owner and a timely response. Review delivery, quality and coordination cost before keeping the routine.">
+<meta property="og:url" content="https://anthonykot.github.io/going-concern/chapters/21-meetings-that-arent-theater.html">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../static/style.css">
+<script src="../static/theme.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html">The Going <span>Concern</span></a>
+    <nav class="site-nav">
+      <a href="../index.html">Chapters</a>
+      <a href="../about.html">Method</a>
+      <button class="theme-toggle" type="button">☾ Dark</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <p class="kicker">Part IV · Can it run without you? · Chapter 21</p>
+  <h1>Coordinating Work and Acting on Signals</h1>
+  <p class="lede">A task can be clear and still stop between two people. Somebody needs an answer,
+  somebody else can give it, and the customer has a deadline. The useful routine gets that decision
+  made in time and makes its consequences visible.</p>
+
+  <div class="decision">
+    <span class="tag">The decision</span>
+    Which information and response arrangement will help the team keep one commitment,
+    who acts on it, and how you will check whether the routine earns the time it takes.
+  </div>
+
+  <section class="move">
+    <h2>Start with the decision holding up the work</h2>
+    <p><a href="20-managing-people.html">Chapter twenty</a> produced an agreed assignment and a
+    shared review. It also left an unanswered question: would Maya and Sam's escalation route
+    work when Maya was busy? They remain an explicitly invented team throughout this chapter.
+    The routine below is this book's proposal; the company accounts later provide narrower
+    evidence about meetings and measures.</p>
+    <p>On the following Tuesday, Sam finds another unfamiliar calculation at 09:20 and sends
+    the agreed direct message. Maya has booked a customer call across the 09:30 check.
+    Sam receives no answer by 10:00, flags the draft as at risk and continues the other sections.
+    Maya sees the message at 11:15. The 11:00 internal draft deadline has passed. This particular
+    customer expects a checked report at noon.</p>
+    <p>Sam followed the new route. Maya did not keep her response commitment. More frequent
+    status reports from Sam would not give him the authority Maya retained. The immediate
+    decision is whether Maya can approve the calculation and finish the check before noon,
+    or must contact the customer to agree a later delivery.</p>
+    <p>She determines that the remaining check will not fit. She contacts the customer, who
+    agrees to 13:00. Maya supplies the calculation rule and checks the completed report before it
+    goes out at 12:40. Record both dates: delivery met the revised agreement but missed the
+    original promise. Quietly replacing noon with 13:00 would hide the cost of the block.</p>
+    <p>For the next report, Maya protects the 09:30 check and the response time through 10:00
+    before accepting calls. Sam keeps the blocked item visible until the decision is received.
+    If Maya cannot provide that availability, she must arrange a capable authorised backup or
+    change the work and customer promise in advance. A meeting invitation alone provides no cover.</p>
+  </section>
+
+  <section class="move" id="measures">
+    <h2>Choose signals that can change a decision</h2>
+    <p>Start with the question you must answer, then choose the observation. Maya needs to know
+    which reports risk missing a promise, which decision would release each one and whether
+    faster delivery is creating correction work. She does not need three universal business
+    numbers read aloud each morning.</p>
+    <p>A current blocked report can require action before any weekly percentage changes. Sam
+    records the customer, original deadline, missing decision, request time, decision owner and
+    latest useful response time in the existing task record. For the report above, the
+    unresolved calculation needed Maya's response by 10:00. Reaching that time without an answer
+    triggers the agreed at-risk message and a decision about the promise.</p>
+
+    <h3>Define the measure before judging the result</h3>
+    <p>For a short trial of the routine, Maya and Sam use the definitions below. These are
+    illustrative choices for their report work, not benchmarks for another business. A small
+    count stays visible beside any percentage.</p>
+    <p><strong>Open decisions.</strong> From each active report's task record, read the request
+    time, decision owner and latest useful response time. At that deadline, seek the decision
+    or change the plan. Show an unknown response time explicitly; a missing decision owner
+    is a coordination gap to resolve, not a zero-length wait.</p>
+    <p><strong>Delivery.</strong> For the next five reports due, count checked reports delivered
+    by the original customer deadline over all reports due, including unfinished ones. Use
+    the task record and sent report as evidence; show unknown delivery times separately.
+    Inspect each miss and unknown. A revised deadline does not erase the original. Decide
+    whether the response route, workload or promise needs changing.</p>
+    <p><strong>Quality.</strong> For the same reports, use correction notes and customer follow-up
+    to count those needing a correction within seven days of delivery. Show reports whose
+    seven days are incomplete and any missing follow-up. Read the corrections before
+    celebrating speed. No reported error is narrower evidence than confirmation that the
+    report was useful.</p>
+    <p>They set a review two weeks from the start. If all five reports and their seven-day
+    follow-ups finish sooner, they can review then. If work or follow-up is incomplete at
+    the review, show the partial observations and set the next check. The live response
+    deadline still applies to each task; the review window is no reason to leave today's
+    blocked customer waiting.</p>
+    <p>For each signal, name the person who maintains it and where the underlying record can
+    be inspected. Date a definition change and explain whether earlier observations can still
+    be compared. Keep a missing timestamp as unknown while you check the sent record; do not
+    replace it with an assumed success. If records cannot support a proposed measure, use a
+    smaller direct check while you collect the missing information.</p>
+
+    <h3>Choose differently when the work asks a different question</h3>
+    <p>A stock seller may need quantities on hand and confirmed arrival dates before promising
+    collection. A consultancy considering another booking may need usable hours by skill and
+    existing commitments. A customer-concentration review needs a defined period and revenue
+    basis, with the named accounts behind the share. Select information for the decision at hand.</p>
+    <p>Use <a href="12-reading-your-own-business.html">chapter twelve's period review</a> for
+    the economics and <a href="13-profit-is-not-cash.html">chapter thirteen's dated forecast</a>
+    for upcoming payments and low balances. A team facing a purchase decision can read the
+    relevant amount and date from those records; it need not reconstruct the accounts in a meeting.</p>
+    <p>If buyers are anonymous, a till total cannot tell you which regulars stopped returning.
+    You can inspect recorded sales, item quantities, returns and direct customer feedback.
+    Leave individual retention unknown unless you have records that support it. Where later
+    purchases can be linked to a customer, keep them separate from the
+    <a href="10-the-first-ten-customers.html#after-sale">evidence of a useful result</a>.
+    A repeat purchase does not establish whether the earlier promise was fulfilled.</p>
+  </section>
+
+  <section class="move">
+    <h2>Read different measures of the same event</h2>
+    <p>In January 2019, ConvertKit founder Nathan Barry explained his company's public metrics.
+    He distinguished monthly recurring revenue, a view of subscription value, from the dashboard's
+    “net revenue,” which he described as money brought in during the month.</p>
+    <p>His annual-plan example makes the distinction concrete. ConvertKit promoted discounted
+    annual plans each November. He reported net revenue reaching about $3 million during the
+    push, while the discount reduced MRR. He also explained that revenue churn included
+    contraction, so discounts could raise that figure without the same change in the number
+    of customers leaving. The contraction subsequently moved outside its rolling thirty-day window.</p>
+    <p>One event therefore required several interpretations: money arriving sooner, lower
+    monthly subscription value and a churn measure affected by the discount. Treating the
+    last figure as a count of lost customers would lead to the wrong diagnosis. These are
+    Barry's account and dashboard definitions, not a fresh audit of ConvertKit's accounts.</p>
+    <p>He also reported that 6,994 customers, about 33% of the total, produced $811,117 in MRR,
+    about 68% of the total. This was his split above the base plan, not a test proving
+    dependence on a few named customers. It illustrates why a revenue share needs a defined
+    group behind it. His account does not establish which signals your team should use.</p>
+
+    <h3>Keep the work visible when a measure becomes a target</h3>
+    <p>A target creates a reason to ask how a number could improve without the work improving.
+    Sam could mark a draft complete before reconciling it. Maya could rewrite the deadline
+    after a delay. A rising completion score would then conceal unfinished work or a broken
+    promise. That is a possible failure to check, not an inevitable effect of having targets.</p>
+    <p>Keep the original deadline, delivery evidence and corrections beside the count. Ask the
+    person doing the work to explain an unexpected movement; inspect a sample together.
+    If the measure rewards the wrong action, change the target or definition openly and
+    retain enough history to explain the break. Do not use a small, incomplete count as a
+    verdict about an individual's performance.</p>
+  </section>
+
+  <section class="move">
+    <h2>Choose a response arrangement that fits the urgency</h2>
+    <p>For a straightforward decision, a written task update can be enough if the decision
+    owner will see it and respond before the deadline. If several people must resolve a
+    trade-off together, use a short conversation with that question stated in advance.
+    If delay would cause immediate harm, use the agreed urgent route. The format follows
+    the time available for a response.</p>
+    <p>Name a coordinator and a decision owner; they may be the same person. Sam maintains
+    the report record and flags missing answers. Maya decides calculation changes and customer
+    commitments. Sam can resolve formatting issues himself. A coordinator who notices a block
+    does not automatically have authority to remove it.</p>
+    <p>Maya and Sam choose a brief written update before each report session and the protected
+    response window, with a call only when the written question cannot be resolved in time.
+    They do not add a daily meeting on days without shared work. Where a recurring meeting is
+    useful, give it a purpose, the necessary participants and a time budget. Make small decisions
+    there when the right people and information are present. Assign larger ones an owner and
+    deadline instead of letting them become unowned follow-up.</p>
+
+    <h3>What Groove changed</h3>
+    <p>In February 2016, Alex Turnbull described several meeting arrangements Groove had tried.
+    He reported that relying on unscheduled calls left the remote team poorly coordinated
+    and interrupted. A weekly Monday call had social and coordination value; a separate
+    Friday social call did not last. Daily standups also needed refinement.</p>
+    <p>The structure he described assigned scheduling and moderation to Lesley, with a
+    thirty-minute Monday recap, ten-minute Tuesday–Thursday standups and a twenty-minute
+    Friday update including customer feedback. After a couple of months he judged the team
+    more efficient. The account supplies formats and his assessment, but no before-and-after
+    delivery results or total coordination cost.</p>
+    <p>Those times belong to Groove's remote team. They do not establish that Maya and Sam
+    need the same cadence, that unscheduled conversations are always wasteful, or that a
+    meeting should exclude decisions. The transferable question is who needs to know or
+    decide what, by when, and whether the chosen arrangement actually gets that done.</p>
+  </section>
+
+  <section class="move">
+    <h2>Check the action and what it cost</h2>
+    <p>The record for Maya and Sam's blocked report now has a decision as well as a status:
+    Maya to contact the customer and supply the rule; Sam to finish the draft; Maya to check
+    before release. It records the agreed 13:00 delivery, actual 12:40 delivery and missed
+    original noon deadline. Their next action is to protect the response window and test it.</p>
+    <p>They review the next five reports using the definitions above. The following figures
+    are invented trial results. They also reconstruct five earlier reports from the available
+    records, retaining the one delivery timestamp they cannot establish.</p>
+    <div class="table-scroll" tabindex="0" role="region" aria-label="Illustrative coordination review">
+      <table>
+        <caption>Two small windows of report work — hypothetical</caption>
+        <thead><tr><th scope="col">Observation</th><th scope="col">Earlier five reports</th><th scope="col">Next five reports</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Checked delivery by original promise</th><td>3 confirmed on time;
+          1 late; 1 unknown</td><td>4 on time; 1 late</td></tr>
+          <tr><th scope="row">Reports needing correction within seven days</th><td>1 of 5</td><td>1 of 5</td></tr>
+          <tr><th scope="row">Coordination time, summed across both people</th><td>75 minutes</td><td>95 minutes</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>For this comparison, all ten reports have completed the seven-day quality follow-up;
+    correction records are available for each. Time includes writing and reading updates,
+    calls and the coordination review, excluding report production and substantive checking.
+    An eight-minute call attended by both people counts as sixteen minutes, not eight.</p>
+    <p>The new window costs twenty more minutes of combined time. It has four confirmed
+    on-time deliveries, but the earlier window might also have had four: one timestamp is
+    unknown. Corrections are unchanged. These small windows do not establish that the new
+    routine caused better delivery. They justify inspecting the late report and asking
+    whether timely decisions are now arriving, rather than declaring a percentage victory.</p>
+    <p>Suppose the remaining delay was missing customer input, with Maya's internal response
+    on time. They retain the response window for another five reports and agree an earlier
+    input check with that customer. If a recurring meeting had added time without helping
+    a decision, they could shorten, replace or remove it while preserving the response route.
+    Fewer interruptions is useful only alongside work that still gets done.</p>
+    <p>No set of signals promises to predict every surprise. Review a missed event by asking
+    whether information was available in time, what it would have changed and what collecting
+    it would cost. Sometimes the issue is a decision nobody took; sometimes the signal
+    genuinely did not exist. <a href="23-slack.html">Chapter twenty-three</a> takes up the
+    capacity needed when work is disrupted.</p>
+  </section>
+
+  <section class="monday">
+    <h2>Monday</h2>
+    <ol>
+      <li><strong>Choose one shared commitment.</strong> Use the assignment from chapter twenty.
+      Name the next dependency, the customer or internal promise, and the latest useful decision
+      time. A solo operator can use a supplier or customer handoff.</li>
+      <li><strong>Define the information needed.</strong> Name each source, period, unit or
+      denominator, missing observations and the action it could trigger. Start with the task
+      record; add a signal only if it answers a decision you need to make.</li>
+      <li><strong>Agree the response route.</strong> Name who keeps the record, who decides, when
+      they respond and how an unanswered or urgent item escalates. Choose a written update or
+      conversation that fits the available time.</li>
+      <li><strong>Run it on real work.</strong> Record the decision, action owner, deadline and
+      result. Preserve original promises alongside revisions. Resolve an available small decision
+      now; give an unresolved one a responsible person and response date.</li>
+      <li><strong>Review after a stated window.</strong> Inspect delivery, quality, unresolved
+      blocks and time spent coordinating. Include unknowns and incomplete follow-up. Continue,
+      revise or remove parts of the routine on that evidence, then set the next check.</li>
+    </ol>
+    <p>Your output is one coordination record linking a commitment to information, a decision
+    and follow-up. A task list or notebook is sufficient. If no shared work is underway,
+    prepare the first dependency and leave the results unfilled.</p>
+  </section>
+
+  <div class="owed">
+    <p class="case-head"><span class="who">What would challenge this advice</span></p>
+    <p>A counter-case is still owed: a small team that chose relevant signals, named decision
+    owners and response times, and reviewed the cost honestly, yet delivered worse because
+    maintaining the routine consumed the attention the work needed or obscured an important
+    unmeasured change. Neither founder account measures that trade-off. The invented trial
+    shows how to inspect it; it cannot establish that the proposed routine is worthwhile.</p>
+  </div>
+
+  <section class="reading">
+    <h2>Reading</h2>
+    <ul>
+      <li><span class="src">Source ·</span> <a href="http://web.archive.org/web/20160305122806/https://www.groovehq.com/blog/how-to-optimize-remote-team-meetings">Alex Turnbull, “How We've Optimized Remote Team Meetings For Ultimate Efficiency”</a>,
+      18 February 2016, archived 5 March 2016. His account of meeting formats, scheduling and
+      moderation, timed agendas and perceived improvement after a couple of months.</li>
+      <li><span class="src">Source ·</span> <a href="https://nathanbarry.com/metrics/">Nathan Barry, “Understanding ConvertKit's open metrics”</a>,
+      14 January 2019. Dashboard definitions, annual-plan effects and the split between
+      customers on the base plan and those paying more.</li>
+      <li><span class="src">Note ·</span> Both are founders' accounts. Groove gives no controlled
+      or quantified test of the combined routine. ConvertKit's dashboard was not independently
+      audited for this book. Maya and Sam's records, deadlines and figures are invented;
+      proposed practices and their limits are the book's reasoning.</li>
+    </ul>
+  </section>
+
+  <nav class="chapter-nav">
+    <a href="20-managing-people.html"><span class="dir">Previous</span>20 · Helping Someone Succeed</a>
+    <a class="next" href="23-slack.html"><span class="dir">Next chapter</span>23 · Capacity for Things Going Wrong</a>
+  </nav>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>The Going Concern · Chapter 21.</p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,1336 @@
+{
+  "date": "2026-09-19",
+  "purpose": "Stage A pre-rework working-tree baseline; not a fresh external source verification",
+  "head": "3ef8ada2472d241406a268855a110ea78da62fe0",
+  "existing_status": [
+    " M .github/workflows/verify.yml",
+    " M CONTEXT.md",
+    " M README.md",
+    " M about.html",
+    " M chapters/01-the-only-question.html",
+    " M chapters/02-talking-to-people.html",
+    " M chapters/03-selling-it-before-it-exists.html",
+    " M chapters/04-deciding-not-to.html",
+    " M chapters/05-leaving-well.html",
+    " M chapters/06-who-is-this-for.html",
+    " M chapters/07-where-they-already-are.html",
+    " M chapters/08-asking-for-money.html",
+    " M chapters/09-what-to-charge.html",
+    " M chapters/10-the-first-ten-customers.html",
+    " M chapters/11-what-happens-after-the-sale.html",
+    " M chapters/12-reading-your-own-business.html",
+    " M chapters/13-profit-is-not-cash.html",
+    " M chapters/13b-the-business-that-does-not-invoice.html",
+    " M chapters/14-what-a-customer-is-worth.html",
+    " M chapters/15-paying-yourself.html",
+    " M chapters/16-enough.html",
+    " M chapters/17-you-are-the-bottleneck.html",
+    " M chapters/18-writing-it-down.html",
+    " M chapters/19-the-first-hire.html",
+    " M chapters/20-managing-people.html",
+    " M chapters/21-meetings-that-arent-theater.html",
+    " M chapters/22-measuring-the-right-three-things.html",
+    " M chapters/23-slack.html",
+    " M chapters/24-what-you-signed.html",
+    " M chapters/25-what-protects-you.html",
+    " M chapters/26-when-the-ground-moves.html",
+    " M chapters/27-built-to-leave.html",
+    " M chapters/28-knowing-when-to-stop.html",
+    " M checks/claims.tsv",
+    " M checks/sources.tsv",
+    " M checks/structure.py",
+    " M index.html",
+    " M resources/business-review.csv",
+    " M resources/first-customers.csv",
+    " M scripts/prompts/review-checklist.md",
+    "?? checks/test_consolidation.py",
+    "?? merge.md",
+    "?? resources/owner-pay-review.csv",
+    "?? resources/stock-session-review.csv"
+  ],
+  "chapters": {
+    "15": {
+      "path": "chapters/15-paying-yourself.html",
+      "sha256": "bd5c41acafdbd02bd04f644d4b263162ff554a9cb953308f3fdb24460ee52e28",
+      "headings": [
+        "Paying Yourself"
+      ],
+      "fragment_ids": [
+        "ground"
+      ],
+      "incoming_links": [
+        {
+          "from": "chapters/28-knowing-when-to-stop.html",
+          "href": "15-paying-yourself.html"
+        }
+      ],
+      "registered_claims": [],
+      "legal_blocks": []
+    },
+    "16": {
+      "path": "chapters/16-enough.html",
+      "sha256": "e67b9957230f0471bc3b6fe997c0775d1e91791f7f331b21d9794c5c7d0a8942",
+      "headings": [
+        "Enough",
+        "When the business is already working",
+        "What Pinboard could afford",
+        "What would make this enough for you?",
+        "Work out what must reach the household",
+        "Describe the work you are agreeing to keep",
+        "Choose what you will review",
+        "Monday",
+        "Closing Part III · Does the money work?",
+        "Reading"
+      ],
+      "fragment_ids": [
+        "household",
+        "responsibility",
+        "review"
+      ],
+      "incoming_links": [
+        {
+          "from": "chapters/17-you-are-the-bottleneck.html",
+          "href": "16-enough.html"
+        },
+        {
+          "from": "chapters/17-you-are-the-bottleneck.html",
+          "href": "16-enough.html"
+        },
+        {
+          "from": "chapters/12-reading-your-own-business.html",
+          "href": "16-enough.html"
+        },
+        {
+          "from": "chapters/26-when-the-ground-moves.html",
+          "href": "16-enough.html#review"
+        },
+        {
+          "from": "chapters/27-built-to-leave.html",
+          "href": "16-enough.html"
+        },
+        {
+          "from": "chapters/27-built-to-leave.html",
+          "href": "16-enough.html"
+        },
+        {
+          "from": "chapters/14-what-a-customer-is-worth.html",
+          "href": "16-enough.html"
+        },
+        {
+          "from": "chapters/23-slack.html",
+          "href": "16-enough.html"
+        },
+        {
+          "from": "chapters/28-knowing-when-to-stop.html",
+          "href": "16-enough.html#household"
+        },
+        {
+          "from": "index.html",
+          "href": "chapters/16-enough.html"
+        },
+        {
+          "from": "index.html",
+          "href": "chapters/16-enough.html"
+        }
+      ],
+      "registered_claims": [
+        {
+          "source_id": "pb-5",
+          "claim": "And the site makes roughly the same amount of money (around $200K) every year."
+        },
+        {
+          "source_id": "pb-5",
+          "claim": "the number of active users stays roughly the same"
+        },
+        {
+          "source_id": "pb-5",
+          "claim": "actually earning enough money to do that"
+        },
+        {
+          "source_id": "pb-5",
+          "claim": "I haven't received a single email from an investor"
+        },
+        {
+          "source_id": "pb-7",
+          "claim": "revenue (K) 117 178 181 175 193 160 234"
+        },
+        {
+          "source_id": "pb-7",
+          "claim": "funding (K) 0 0 0 0 0 0 0"
+        },
+        {
+          "source_id": "pb-7",
+          "claim": "The site costs something like $17K/year to run, so you can make a good living at this artisanal SaaS stuff."
+        },
+        {
+          "source_id": "pb-7",
+          "claim": "no longer afraid of competitors"
+        },
+        {
+          "source_id": "pb-7",
+          "claim": "one- or zero-person business"
+        },
+        {
+          "source_id": "pb-7",
+          "claim": "Revenue dropped a bit in 2015 (as I moved to an annual subscription system)"
+        },
+        {
+          "source_id": "pb-8",
+          "claim": "revenue (K) 117 178 181 175 193 160 234 259"
+        },
+        {
+          "source_id": "pb-8",
+          "claim": "active users (K) 2.8 16 23 23 24 25 24 29"
+        },
+        {
+          "source_id": "pb-8",
+          "claim": "All the travel meant I sometimes ignored support emails for weeks at a time"
+        },
+        {
+          "source_id": "pb-8",
+          "claim": "reverse sabbatical to try to stabilize the site"
+        },
+        {
+          "source_id": "pb-11",
+          "claim": "revenue (K) 117 178 181 175 193 160 234 259 253 222 212"
+        },
+        {
+          "source_id": "pb-11",
+          "claim": "active users (K) 2.8 16 23 23 24 25 24 29 21 19"
+        },
+        {
+          "source_id": "pb-11",
+          "claim": "funding (M) 0 0 0 0 0 0 0 0 0 0 0"
+        },
+        {
+          "source_id": "pb-5",
+          "claim": "So the biggest risk in a project like this remains burnout."
+        },
+        {
+          "source_id": "pb-5",
+          "claim": "What burns you out is the constant strain of being responsible for a lot of other people's stuff."
+        },
+        {
+          "source_id": "pb-5",
+          "claim": "People have been very understanding about my occasional need to flee the Internet."
+        },
+        {
+          "source_id": "pb-11",
+          "claim": "moving Pinboard onto modern versions of PHP and MySQL"
+        },
+        {
+          "source_id": "pb-11",
+          "claim": "the servers themselves were overdue for system upgrades"
+        },
+        {
+          "source_id": "pb-5",
+          "claim": "July 09, 2014"
+        },
+        {
+          "source_id": "pb-5",
+          "claim": "Today marks five years since I launched the website"
+        }
+      ],
+      "legal_blocks": []
+    },
+    "17": {
+      "path": "chapters/17-you-are-the-bottleneck.html",
+      "sha256": "d7c7c2b3a8826eb660e7474691f397c077451cb28361b2f3014efaf346565af6",
+      "headings": [
+        "You Are the Bottleneck",
+        "Move 1 The situation",
+        "Move 2 What actually happened",
+        "Move 3 The reasoning",
+        "Ask what waits, and for how long",
+        "The absence table sets the order, not the categories",
+        "Automation can exchange visible labour for concealed dependence",
+        "Boundaries",
+        "Monday",
+        "Reading"
+      ],
+      "fragment_ids": [],
+      "incoming_links": [
+        {
+          "from": "chapters/19-the-first-hire.html",
+          "href": "17-you-are-the-bottleneck.html"
+        },
+        {
+          "from": "chapters/22-measuring-the-right-three-things.html",
+          "href": "17-you-are-the-bottleneck.html"
+        },
+        {
+          "from": "chapters/27-built-to-leave.html",
+          "href": "17-you-are-the-bottleneck.html"
+        },
+        {
+          "from": "chapters/21-meetings-that-arent-theater.html",
+          "href": "17-you-are-the-bottleneck.html"
+        },
+        {
+          "from": "chapters/16-enough.html",
+          "href": "17-you-are-the-bottleneck.html"
+        },
+        {
+          "from": "chapters/16-enough.html",
+          "href": "17-you-are-the-bottleneck.html"
+        },
+        {
+          "from": "chapters/18-writing-it-down.html",
+          "href": "17-you-are-the-bottleneck.html"
+        },
+        {
+          "from": "index.html",
+          "href": "chapters/17-you-are-the-bottleneck.html"
+        }
+      ],
+      "registered_claims": [
+        {
+          "source_id": "km-5hours-2010",
+          "claim": "the peak was the week I launched (50 hours in 8 days)"
+        },
+        {
+          "source_id": "km-5hours-2010",
+          "claim": "spiked up to as many as 20 hours, and the average over the period is (to my best estimate) about 5 hours"
+        },
+        {
+          "source_id": "km-5hours-2010",
+          "claim": "I leave the office at 7:30 PM on a very good day"
+        },
+        {
+          "source_id": "km-5hours-2010",
+          "claim": "hour and a half of commute both ways"
+        },
+        {
+          "source_id": "km-5hours-2010",
+          "claim": "has made it possible to quit my day job at the end of this month"
+        },
+        {
+          "source_id": "km-5hours-2010",
+          "claim": "build time assets"
+        },
+        {
+          "source_id": "km-5hours-2010",
+          "claim": "time debt is anything that you do which will commit you to doing unavoidable work in the future"
+        },
+        {
+          "source_id": "km-5hours-2010",
+          "claim": "six of Email A, 3 of Email B"
+        },
+        {
+          "source_id": "km-5hours-2010",
+          "claim": "Recurring tasks are a great thing to systemize and outsource"
+        },
+        {
+          "source_id": "km-5hours-2010",
+          "claim": "90% of the results of your business, and somewhere around 90% of the effort, are caused by non-coding activities"
+        },
+        {
+          "source_id": "pb-11",
+          "claim": "moving Pinboard onto modern versions of PHP and MySQL"
+        },
+        {
+          "source_id": "pb-11",
+          "claim": "Much of the core code on the site dated back to 2009-2010"
+        },
+        {
+          "source_id": "pb-11",
+          "claim": "Doing this on a live system is like performing kidney transplants on a playing mariachi band"
+        },
+        {
+          "source_id": "pb-11",
+          "claim": "run a bug-for-bug identical copy of the site on a modern laptop"
+        }
+      ],
+      "legal_blocks": []
+    },
+    "18": {
+      "path": "chapters/18-writing-it-down.html",
+      "sha256": "87138915a2c6a740e0030136f5a636d2bebb772a8acf8bf02a29600752e6fac9",
+      "headings": [
+        "Writing It Down",
+        "Move 1 The situation",
+        "Move 2 What actually happened",
+        "Move 3 The reasoning",
+        "Sort before you write",
+        "Documentation is the comfortable kind of avoidance",
+        "Boundaries",
+        "Monday",
+        "Reading"
+      ],
+      "fragment_ids": [],
+      "incoming_links": [
+        {
+          "from": "chapters/19-the-first-hire.html",
+          "href": "18-writing-it-down.html"
+        },
+        {
+          "from": "chapters/19-the-first-hire.html",
+          "href": "18-writing-it-down.html"
+        },
+        {
+          "from": "chapters/17-you-are-the-bottleneck.html",
+          "href": "18-writing-it-down.html"
+        },
+        {
+          "from": "chapters/20-managing-people.html",
+          "href": "18-writing-it-down.html"
+        },
+        {
+          "from": "index.html",
+          "href": "chapters/18-writing-it-down.html"
+        }
+      ],
+      "registered_claims": [
+        {
+          "source_id": "galperin-2023-fire",
+          "claim": "I went through growing Gymdesk from a one-person operation to a company with over 10 FTE at that point in time"
+        },
+        {
+          "source_id": "galperin-2023-fire",
+          "claim": "for the first 5 years of the company"
+        },
+        {
+          "source_id": "galperin-2023-fire",
+          "claim": "Tasks that would take 15-20 minutes of my day as a side activity, required hours for a dedicated person to complete"
+        },
+        {
+          "source_id": "galperin-2023-fire",
+          "claim": "I started also documenting all of the knowledge I accumulated for each function of the business"
+        },
+        {
+          "source_id": "galperin-2023-fire",
+          "claim": "Creating an internal customer service knowledge-base / SOPs, containing verification and debugging flows that are repeatable and can be used immediately by new reps. Reps input a new entry every time they encounter a ticket and we collaboratively document the steps to resolve it."
+        },
+        {
+          "source_id": "galperin-2023-fire",
+          "claim": "What I failed to take into consideration was that I can transfer knowledge, but not the intuition and cross functional experience with all aspects of the business that came with years of performing all roles in the company"
+        },
+        {
+          "source_id": "galperin-2023-fire",
+          "claim": "would take me a couple of minutes to go through and respond"
+        },
+        {
+          "source_id": "galperin-2023-fire",
+          "claim": "can take close to an hour, and require my participation at each one of those decision points"
+        },
+        {
+          "source_id": "galperin-2023-fire",
+          "claim": "still a work in progress, and I still feel too embedded in many of the processes"
+        }
+      ],
+      "legal_blocks": []
+    },
+    "19": {
+      "path": "chapters/19-the-first-hire.html",
+      "sha256": "80f36c4544782e9e71f8559ad2d0dfc5aa7395127a43e27eb2c4009c3e135881",
+      "headings": [
+        "The First Hire",
+        "Move 1 The situation",
+        "Move 2 What actually happened",
+        "Move 3 The reasoning",
+        "A task ends. A job does not.",
+        "What the first job actually costs",
+        "Convert before you recruit",
+        "Monday",
+        "Reading",
+        "On Dutch ground · who counts as an employee"
+      ],
+      "fragment_ids": [
+        "ground"
+      ],
+      "incoming_links": [
+        {
+          "from": "chapters/24-what-you-signed.html",
+          "href": "19-the-first-hire.html#ground"
+        },
+        {
+          "from": "chapters/26-when-the-ground-moves.html",
+          "href": "19-the-first-hire.html"
+        },
+        {
+          "from": "chapters/20-managing-people.html",
+          "href": "19-the-first-hire.html"
+        },
+        {
+          "from": "chapters/20-managing-people.html",
+          "href": "19-the-first-hire.html#ground"
+        },
+        {
+          "from": "chapters/20-managing-people.html",
+          "href": "19-the-first-hire.html"
+        },
+        {
+          "from": "chapters/23-slack.html",
+          "href": "19-the-first-hire.html"
+        },
+        {
+          "from": "chapters/18-writing-it-down.html",
+          "href": "19-the-first-hire.html"
+        },
+        {
+          "from": "chapters/18-writing-it-down.html",
+          "href": "19-the-first-hire.html"
+        },
+        {
+          "from": "index.html",
+          "href": "chapters/19-the-first-hire.html"
+        }
+      ],
+      "registered_claims": [
+        {
+          "source_id": "galperin-2023-covid",
+          "claim": "We made our first full time hire in June 2021"
+        },
+        {
+          "source_id": "galperin-2023-covid",
+          "claim": "hired my first full time customer service person"
+        },
+        {
+          "source_id": "galperin-2023-covid",
+          "claim": "started to make the transition from a one-man, owner run business to an actual company"
+        },
+        {
+          "source_id": "galperin-2023-covid",
+          "claim": "ending the year with 8 employees and 4 contractors"
+        },
+        {
+          "source_id": "bw7-2026",
+          "claim": "De arbeidsovereenkomst is de overeenkomst waarbij de ene partij, de werknemer, zich verbindt in dienst van de andere partij, de werkgever, tegen loon gedurende zekere tijd arbeid te verrichten."
+        },
+        {
+          "source_id": "bw7-2026",
+          "claim": "Hij die ten behoeve van een ander tegen beloning door die ander gedurende drie opeenvolgende maanden, wekelijks dan wel gedurende ten minste twintig uren per maand arbeid verricht, wordt vermoed deze arbeid te verrichten krachtens arbeidsovereenkomst."
+        },
+        {
+          "source_id": "galperin-2023-covid",
+          "claim": "had reached $12k in MRR in the middle of 2019"
+        },
+        {
+          "source_id": "galperin-2023-covid",
+          "claim": "We had significant churn from March to around August"
+        },
+        {
+          "source_id": "galperin-2023-covid",
+          "claim": "having grown our MRR by 60% to around $19.5k"
+        },
+        {
+          "source_id": "galperin-2023-covid",
+          "claim": "After a few failed experiments engaging “growth” and advertising agencies, I came to the conclusion that outside consultants and agencies were never going to understand our audience like I did"
+        },
+        {
+          "source_id": "galperin-2023-covid",
+          "claim": "used to write for us"
+        },
+        {
+          "source_id": "galperin-2023-covid",
+          "claim": "This was a big decision for me personally – it’s different engaging freelancers for fixed term / cost work, than bringing on someone as a full time employee that you’re now responsible to make sure they are paid every month"
+        },
+        {
+          "source_id": "galperin-2023-covid",
+          "claim": "We have engaged customer service people through Upwork previously as contractors, and it just wasn’t working out"
+        },
+        {
+          "source_id": "galperin-2023-covid",
+          "claim": "I still regret not doing this sooner"
+        },
+        {
+          "source_id": "galperin-2023-covid",
+          "claim": "by around x2.5"
+        },
+        {
+          "source_id": "galperin-2023-covid",
+          "claim": "passed $1M in ARR in mid 2022"
+        },
+        {
+          "source_id": "galperin-2023-covid",
+          "claim": "The more people I hire, the more work I need to do every day getting them “unstuck” when they encounter things outside of their comfort zone"
+        },
+        {
+          "source_id": "rijks-schijnzelfstandigheid-2026",
+          "claim": "De Belastingdienst controleert sinds 1 januari 2025 weer volledig op schijnzelfstandigheid"
+        },
+        {
+          "source_id": "rijks-schijnzelfstandigheid-2026",
+          "claim": "betaalt de werkgever alsnog loonbelasting, premies werknemersverzekeringen, bijdragen Zorgverzekeringswet en soms pensioenpremies"
+        },
+        {
+          "source_id": "rijks-schijnzelfstandigheid-2026",
+          "claim": "Bedrijven en zzp’ers zijn samen verantwoordelijk om schijnzelfstandigheid te voorkomen"
+        },
+        {
+          "source_id": "galperin-2023-covid",
+          "claim": "I contracted a very talented UX designer"
+        },
+        {
+          "source_id": "galperin-2023-covid",
+          "claim": "were never going to understand our audience like I did"
+        },
+        {
+          "source_id": "galperin-2023-fire",
+          "claim": "for the first 5 years of the company’s existence, I was doing everything"
+        },
+        {
+          "source_id": "rijks-arbeidsovereenkomst-2026",
+          "claim": "Is uw werkgever het hier niet mee eens? Dan moet hij bewijzen dat u geen arbeidsovereenkomst heeft."
+        }
+      ],
+      "legal_blocks": [
+        "<div class=\"ground\" id=\"ground\">\n    <h3>On Dutch ground · who counts as an employee</h3>\n\n    <p>This section is for readers hiring in the Netherlands, where the task-or-job question has a statutory version, and it does not wait for your answer.</p>\n\n    <p><strong>The definition.</strong> Article 7:610 of the Civil Code says what an employment\n    contract is: <em lang=\"nl\">\"De arbeidsovereenkomst is de overeenkomst waarbij de ene partij, de\n    werknemer, zich verbindt in dienst van de andere partij, de werkgever, tegen loon gedurende\n    zekere tijd arbeid te verrichten.\"</em> Three elements — work performed <span\n    lang=\"nl\">in dienst van</span> the other party, for pay, over a period of time. The statute\n    defines the relationship by those elements, not by the heading on the contract.</p>\n\n    <p><strong>The presumption.</strong>  Article 7:610a goes further: <em lang=\"nl\">\"Hij die ten behoeve van een ander tegen beloning door die ander\n    gedurende drie opeenvolgende maanden, wekelijks dan wel gedurende ten minste twintig uren per\n    maand arbeid verricht, wordt vermoed deze arbeid te verrichten krachtens\n    arbeidsovereenkomst.\"</em> Someone who works for you, for pay, for three consecutive months,\n    weekly or at least twenty hours a month, is <em>presumed</em> to be doing so under an\n    employment contract.</p>\n\n    <p><strong>What the presumption means.</strong> Rijksoverheid's\n    <a href=\"https://www.rijksoverheid.nl/vraag-en-antwoord/arbeidsovereenkomst-en-cao/wat-staat-er-in-een-arbeidsovereenkomst\">explanation of employment contracts</a>\n    says that an employer who disputes the presumed employment relationship must prove that\n    there is no employment contract. This is an English summary of that guidance; the\n    presumption can be rebutted, and what would rebut it in your arrangement needs legal advice.</p>\n\n    <p><strong>Enforcement.</strong> The government's own page on <span\n    lang=\"nl\">schijnzelfstandigheid</span> — self-employment in name only — states that\n    <em lang=\"nl\">\"De Belastingdienst controleert sinds 1 januari 2025 weer volledig op\n    schijnzelfstandigheid.\"</em> The consequence for the business that got it wrong is that it\n    <em lang=\"nl\">\"betaalt de werkgever alsnog loonbelasting, premies werknemersverzekeringen,\n    bijdragen Zorgverzekeringswet en soms pensioenpremies\"</em>, and the same page notes that\n    responsibility is shared: <em lang=\"nl\">\"Bedrijven en zzp'ers zijn samen verantwoordelijk om\n    schijnzelfstandigheid te voorkomen.\"</em></p>\n\n    <p>None of this is advice. This box quotes the definition, the presumption and the fact of\n    enforcement, and summarises the government's explanation of the presumption; it does not say how the assessment goes in your case, what the criteria weigh, or\n    what a rebuttal would need. Before the first contract of either kind, pay an <span\n    lang=\"nl\">arbeidsrechtadvocaat</span> for an hour with the actual working arrangement  in front of them.</p>\n\n    <span class=\"checked\">Checked 28 August 2026 against Burgerlijk Wetboek Boek 7 art. 610 and\n    610a (consolidated text at 1 January 2026) and the Rijksoverheid page \"Aanpak\n    schijnzelfstandigheid\". The English explanations distinguish the quotations from their\n    meaning. The explanation of the burden of proof was checked on 12 September 2026 against\n    Rijksoverheid's \"Wat staat er in een arbeidsovereenkomst?\" The administrative assessment\n    framework the Belastingdienst applies is not reproduced here and is what the lawyer is for.</span>\n  </div>"
+      ]
+    },
+    "20": {
+      "path": "chapters/20-managing-people.html",
+      "sha256": "be0b13766bcb61e95651af5fbbe5fee077a7e0b0765ba4fe2322d6d53cbd0833",
+      "headings": [
+        "Managing People",
+        "Move 1 The situation",
+        "Move 2 What actually happened",
+        "Move 3 The reasoning",
+        "The date goes in before the doubt",
+        "Feedback during, in writing, from more than one person",
+        "Monday",
+        "Reading",
+        "On Dutch ground · ending an employment"
+      ],
+      "fragment_ids": [
+        "ground"
+      ],
+      "incoming_links": [
+        {
+          "from": "chapters/19-the-first-hire.html",
+          "href": "20-managing-people.html#ground"
+        },
+        {
+          "from": "chapters/19-the-first-hire.html",
+          "href": "20-managing-people.html"
+        },
+        {
+          "from": "chapters/19-the-first-hire.html",
+          "href": "20-managing-people.html"
+        },
+        {
+          "from": "chapters/21-meetings-that-arent-theater.html",
+          "href": "20-managing-people.html"
+        },
+        {
+          "from": "chapters/21-meetings-that-arent-theater.html",
+          "href": "20-managing-people.html"
+        },
+        {
+          "from": "chapters/18-writing-it-down.html",
+          "href": "20-managing-people.html"
+        },
+        {
+          "from": "index.html",
+          "href": "chapters/20-managing-people.html"
+        }
+      ],
+      "registered_claims": [
+        {
+          "source_id": "groove-fire-2015",
+          "claim": "turned over nearly 40% of the team we launched with"
+        },
+        {
+          "source_id": "groove-fire-2015",
+          "claim": "start with a 2-4 week paid trial run where the prospective employee joins the team on a temporary"
+        },
+        {
+          "source_id": "groove-fire-2015",
+          "claim": "giving direct and honest feedback often, even as often as"
+        },
+        {
+          "source_id": "bw7-2026",
+          "claim": "De werkgever kan de arbeidsovereenkomst opzeggen indien daar een redelijke grond voor is en herplaatsing van de werknemer binnen een redelijke termijn"
+        },
+        {
+          "source_id": "bw7-2026",
+          "claim": "hiervan tijdig in kennis heeft gesteld en hem in voldoende mate in de gelegenheid heeft gesteld zijn functioneren te verbeteren"
+        },
+        {
+          "source_id": "bw7-2026",
+          "claim": "De door de werkgever in acht te nemen termijn van opzegging bedraagt bij een arbeidsovereenkomst die op de dag van opzegging:"
+        },
+        {
+          "source_id": "bw7-2026",
+          "claim": "korter dan vijf jaar heeft geduurd: één maand"
+        },
+        {
+          "source_id": "bw7-2026",
+          "claim": "De transitievergoeding is voor elk jaar dat de arbeidsovereenkomst heeft geduurd gelijk aan een derde van het loon per maand"
+        },
+        {
+          "source_id": "bw7-2026",
+          "claim": "De transitievergoeding bedraagt maximaal € 102.000,00 of een bedrag gelijk aan ten hoogste het loon over twaalf maanden"
+        },
+        {
+          "source_id": "groove-fire-2015",
+          "claim": "In our three years, we’ve only let a handful of employees ago. But still, on a small team, a few employees is a lot."
+        },
+        {
+          "source_id": "groove-fire-2015",
+          "claim": "I can confidently say that every single person I’ve hired at Groove has been more than qualified to do the job they were hired for"
+        },
+        {
+          "source_id": "groove-fire-2015",
+          "claim": "my own hesitance to spot poor fits and wait too long has resulted in"
+        },
+        {
+          "source_id": "groove-fire-2015",
+          "claim": "Our team taking longer to hit milestones that we should have because we weren’t collaborating as well as we could have. Our growth slowing because unhappy employees weren’t working at optimal productivity. My own productivity dropping because I was preoccupied with trying to force a fit where there was none."
+        },
+        {
+          "source_id": "groove-fire-2015",
+          "claim": "a trial is not a guaranteed job, but a paid consulting gig to see if there’s interest from both of us in moving forward"
+        },
+        {
+          "source_id": "groove-fire-2015",
+          "claim": "This might lock us out of some very talented people who might be excellent fits for Groove. But it’s a non-negotiable for us"
+        },
+        {
+          "source_id": "groove-fire-2015",
+          "claim": "the end of the trial — where we have to either sign a permanent contract or part ways — acts as a forcing function that makes the difficult conversation inescapable"
+        },
+        {
+          "source_id": "groove-fire-2015",
+          "claim": "doesn’t get any easier. Not the third time, the fifth time or the tenth time"
+        },
+        {
+          "source_id": "groove-fire-2015",
+          "claim": "I used to wait until the trial period was over to give feedback. This helped nobody"
+        },
+        {
+          "source_id": "groove-fire-2015",
+          "claim": "After two weeks, you won’t remember every small thing you said to someone. But if you took notes, you’ll be able to easily spot the trends in your feedback, and separate the true strengths and weaknesses from the anomalies."
+        },
+        {
+          "source_id": "groove-fire-2015",
+          "claim": "I trust my team’s (who works much more closely with the new employee) judgment even more than my own"
+        },
+        {
+          "source_id": "groove-fire-2015",
+          "claim": "I’ve had several people, when I asked them how they felt about their trial, tell me that they didn’t think they were as productive at Groove as they could be elsewhere, or that they simply didn’t think there was a fit"
+        },
+        {
+          "source_id": "bw7-2026",
+          "claim": "De werkgever kan de arbeidsovereenkomst niet rechtsgeldig opzeggen zonder schriftelijke instemming van de werknemer, tenzij"
+        },
+        {
+          "source_id": "bw7-2026",
+          "claim": "De proeftijd wordt schriftelijk overeengekomen"
+        },
+        {
+          "source_id": "bw7-2026",
+          "claim": "een proeftijd worden overeengekomen van ten hoogste twee maanden"
+        },
+        {
+          "source_id": "bw7-2026",
+          "claim": "is aangegaan voor ten hoogste zes maanden"
+        },
+        {
+          "source_id": "bw7-2026",
+          "claim": "wordt telkens met ingang van 1 januari"
+        },
+        {
+          "source_id": "bw7-2026",
+          "claim": "al dan niet met behulp van scholing, in een andere passende functie niet mogelijk is of niet in de rede ligt"
+        },
+        {
+          "source_id": "bw7-2026",
+          "claim": "als bedoeld in artikel 671a"
+        },
+        {
+          "source_id": "bw7-2026",
+          "claim": "op grond van artikel 669, lid 3, onderdeel a of b"
+        },
+        {
+          "source_id": "bw7-2026",
+          "claim": "verzoekt hiervoor schriftelijk toestemming aan het Uitvoeringsinstituut werknemersverzekeringen"
+        },
+        {
+          "source_id": "bw7-2026",
+          "claim": "De kantonrechter kan op verzoek van de werkgever de arbeidsovereenkomst ontbinden: a. op grond van artikel 669, lid 3, onderdelen c tot en met i"
+        },
+        {
+          "source_id": "bw7-2026",
+          "claim": "en de ongeschiktheid niet het gevolg is van onvoldoende zorg van de werkgever voor scholing van de werknemer of voor de arbeidsomstandigheden van de werknemer"
+        },
+        {
+          "source_id": "groove-fire-2015",
+          "claim": "I should’ve been better at spotting the poor fit before I hired them"
+        }
+      ],
+      "legal_blocks": [
+        "<div class=\"ground\" id=\"ground\">\n    <h3>On Dutch ground · ending an employment</h3>\n\n    <p>This section is for readers employing in the Netherlands. Read it before the conversation, not after it, because the date this chapter tells\n    you to set is a date for a decision, not for a dismissal, and here the two are different\n    acts.</p>\n\n    <p><strong>There is no dismissal at will.</strong> Article 7:671 of the Civil Code: <em\n    lang=\"nl\">\"De werkgever kan de arbeidsovereenkomst niet rechtsgeldig opzeggen zonder\n    schriftelijke instemming van de werknemer, tenzij\"</em> — and the exceptions that follow include termination during the trial period and permission\n    <em lang=\"nl\">\"als bedoeld in artikel 671a\"</em>, which that article confines to grounds a and\n    b of article 669: <em lang=\"nl\">\"op grond van artikel 669, lid 3, onderdeel a of b, verzoekt\n    hiervoor schriftelijk toestemming aan het Uitvoeringsinstituut werknemersverzekeringen\"</em>.\n    For the ground this chapter is about, the door is the court, article 7:671b: <em\n    lang=\"nl\">\"De kantonrechter kan op verzoek van de werkgever de arbeidsovereenkomst ontbinden:\n    a. op grond van artikel 669, lid 3, onderdelen c tot en met i\"</em>. Outside those, the\n    employee's written agreement is what article 671 names. Article 7:669 sets\n    what the employer must have first: <em lang=\"nl\">\"De werkgever kan de arbeidsovereenkomst\n    opzeggen indien daar een redelijke grond voor is en herplaatsing van de werknemer binnen een\n    redelijke termijn, al dan niet met behulp van scholing, in een andere passende functie niet\n    mogelijk is of niet in de rede ligt.\"</em> A reasonable ground, <em>and</em> no reasonable\n    redeployment.</p>\n\n    <p><strong>Unsuitability is a ground with conditions.</strong> Among the grounds, lid 3\n    onderdeel d covers the case in this chapter — unsuitability for the agreed work, other than\n    through illness — <em lang=\"nl\">\"mits de werkgever de werknemer hiervan tijdig in kennis heeft gesteld en hem in\n    voldoende mate in de gelegenheid heeft gesteld zijn functioneren te verbeteren en de\n    ongeschiktheid niet het gevolg is van onvoldoende zorg van de werkgever voor scholing van de\n    werknemer of voor de arbeidsomstandigheden van de werknemer\"</em>. Told in good time, given a\n    real chance to improve, and not left untrained. Feedback given as it arises, and a record that\n    it was given, are here close to a precondition of the ground existing; notes kept only for\n    yourself are not notice to the person.</p>\n\n    <p><strong>The trial period is statutory and short.</strong> Article 7:652: <em\n    lang=\"nl\">\"De proeftijd wordt schriftelijk overeengekomen\"</em>; on an indefinite contract\n    <em lang=\"nl\">\"een proeftijd worden overeengekomen van ten hoogste twee maanden\"</em>; and\n    none at all where the contract <em lang=\"nl\">\"is aangegaan voor ten hoogste zes maanden\"</em>.\n    Groove's two-to-four-week paid trial is not this — it is a contract for a task before any job\n    exists, and <a href=\"19-the-first-hire.html#ground\">chapter nineteen</a>'s Dutch-ground section applies to it.</p>\n\n    <p><strong>Notice and severance.</strong> Article 7:672 lid 2: <em lang=\"nl\">\"De door de\n    werkgever in acht te nemen termijn van opzegging bedraagt bij een arbeidsovereenkomst die op\n    de dag van opzegging: a. korter dan vijf jaar heeft geduurd: één maand\"</em>, rising with\n    service. Article 7:673 lid 2: <em lang=\"nl\">\"De transitievergoeding is voor elk jaar dat de\n    arbeidsovereenkomst heeft geduurd gelijk aan een derde van het loon per maand\"</em>, pro rata\n    for part-years, and <em lang=\"nl\">\"bedraagt maximaal € 102.000,00 of een bedrag gelijk aan ten\n    hoogste het loon over twaalf maanden indien dat loon hoger is dan dat bedrag\"</em>. The cap\n    <em lang=\"nl\">\"wordt telkens met ingang van 1 januari\"</em> adjusted, so in a later year the\n    figure above is stale by construction. The transitievergoeding is owed on a dismissal the\n    employer initiates on a valid ground; it is not a fine for doing it wrong, and paying it does\n    not supply the ground.</p>\n\n    <p>None of this is advice. The box covers an employer ending an indefinite contract; a\n    fixed-term contract's expiry, a termination by agreement, illness, and every other ground in\n    article 669 are outside it. Before the first conversation that could be heard as a dismissal,\n    pay an <span lang=\"nl\">arbeidsrechtadvocaat</span> for an hour with the contract and your\n    notes in front of them.</p>\n\n    <span class=\"checked\">Checked 28 August 2026 against Burgerlijk Wetboek Boek 7 articles 652, 669, 671, 671a, 671b, 672\n    and 673, consolidated text at 1 January 2026. Statute quoted, not paraphrased;\n    how the UWV and the courts assess a ground in practice is not covered here.</span>\n  </div>"
+      ]
+    },
+    "21": {
+      "path": "chapters/21-meetings-that-arent-theater.html",
+      "sha256": "c9d22d0ead9f8755721ed70b0f76fae90f82f4d5c60c3b689ca37c4c79dd2b82",
+      "headings": [
+        "Meetings That Aren't Theater",
+        "Move 1 The situation",
+        "Move 2 What actually happened",
+        "Move 3 The reasoning",
+        "The theatre is the unstructured meeting",
+        "Held whether or not anyone feels like it",
+        "Monday",
+        "Reading"
+      ],
+      "fragment_ids": [],
+      "incoming_links": [
+        {
+          "from": "chapters/22-measuring-the-right-three-things.html",
+          "href": "21-meetings-that-arent-theater.html"
+        },
+        {
+          "from": "chapters/22-measuring-the-right-three-things.html",
+          "href": "21-meetings-that-arent-theater.html"
+        },
+        {
+          "from": "chapters/20-managing-people.html",
+          "href": "21-meetings-that-arent-theater.html"
+        },
+        {
+          "from": "index.html",
+          "href": "chapters/21-meetings-that-arent-theater.html"
+        }
+      ],
+      "registered_claims": [
+        {
+          "source_id": "groove-meetings-2016",
+          "claim": "It made our 9-person 45-minute meetings look amateur in comparison."
+        },
+        {
+          "source_id": "groove-meetings-2016",
+          "claim": "nearly 20 people participated and shared updates, and the meeting still took less than 7 minutes."
+        },
+        {
+          "source_id": "groove-meetings-2016",
+          "claim": "Lesley owns meetings for our team, and handles scheduling and moderating."
+        },
+        {
+          "source_id": "groove-meetings-2016",
+          "claim": "Monday Recap Meeting — 30 Minutes"
+        },
+        {
+          "source_id": "groove-meetings-2016",
+          "claim": "Tuesday–Thursday Daily Standup — 10 Minutes"
+        },
+        {
+          "source_id": "groove-meetings-2016",
+          "claim": "Our team is different from your team, and what works for us might be different from what works for you"
+        },
+        {
+          "source_id": "groove-meetings-2016",
+          "claim": "we scheduled no meetings, and opted only to meet on demand when things arose. To put it bluntly, it simply didn’t work"
+        },
+        {
+          "source_id": "groove-meetings-2016",
+          "claim": "often started in the form of an instant message saying something like “hey can we chat about this?”, they were the remote equivalent of the tap-on-the-shoulder interruption that destroys so much focus and productivity in office environments"
+        },
+        {
+          "source_id": "groove-meetings-2016",
+          "claim": "An hour-long meeting can certainly be disruptive"
+        },
+        {
+          "source_id": "groove-meetings-2016",
+          "claim": "perhaps the biggest mistake we made was trying to schedule non-work activities during the work day"
+        },
+        {
+          "source_id": "groove-meetings-2016",
+          "claim": "We felt guilty doing these calls because we had work we needed to do"
+        },
+        {
+          "source_id": "groove-meetings-2016",
+          "claim": "which we had previously only done via Slack posts"
+        },
+        {
+          "source_id": "groove-meetings-2016",
+          "claim": "scared me a bit"
+        },
+        {
+          "source_id": "groove-meetings-2016",
+          "claim": "But Kris, our business coach, pushed us to try it"
+        },
+        {
+          "source_id": "groove-meetings-2016",
+          "claim": "That missing piece is structure"
+        },
+        {
+          "source_id": "groove-meetings-2016",
+          "claim": "No more than 60 seconds per person, often less"
+        },
+        {
+          "source_id": "groove-meetings-2016",
+          "claim": "Friday Update — 20 Minutes"
+        },
+        {
+          "source_id": "groove-meetings-2016",
+          "claim": "after a couple of months of this"
+        },
+        {
+          "source_id": "groove-meetings-2016",
+          "claim": "our team has never been operating more efficiently"
+        }
+      ],
+      "legal_blocks": []
+    },
+    "22": {
+      "path": "chapters/22-measuring-the-right-three-things.html",
+      "sha256": "e79ac833ed6876412d598d464ba550b91e9839a32a45e3acdba2282db6356f66",
+      "headings": [
+        "Measuring the Right Three Things",
+        "Move 1 The situation",
+        "Move 2 What actually happened",
+        "Move 3 The reasoning",
+        "Movement, loss, concentration",
+        "The moment a measure becomes a target",
+        "Monday",
+        "Reading"
+      ],
+      "fragment_ids": [],
+      "incoming_links": [
+        {
+          "from": "chapters/26-when-the-ground-moves.html",
+          "href": "22-measuring-the-right-three-things.html"
+        },
+        {
+          "from": "chapters/27-built-to-leave.html",
+          "href": "22-measuring-the-right-three-things.html"
+        },
+        {
+          "from": "chapters/21-meetings-that-arent-theater.html",
+          "href": "22-measuring-the-right-three-things.html"
+        },
+        {
+          "from": "chapters/21-meetings-that-arent-theater.html",
+          "href": "22-measuring-the-right-three-things.html"
+        },
+        {
+          "from": "chapters/25-what-protects-you.html",
+          "href": "22-measuring-the-right-three-things.html"
+        },
+        {
+          "from": "chapters/23-slack.html",
+          "href": "22-measuring-the-right-three-things.html"
+        },
+        {
+          "from": "chapters/23-slack.html",
+          "href": "22-measuring-the-right-three-things.html"
+        },
+        {
+          "from": "index.html",
+          "href": "chapters/22-measuring-the-right-three-things.html"
+        }
+      ],
+      "registered_claims": [
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "MRR growth is actually the summary of five metrics: new, expansion, reactivation, contraction, and churn"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "Revenue churn is the percentage of your revenue base you lost in a month, whereas user churn is the percentage of customers you lost in a month"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "At ConvertKit we are at 2.2% net revenue churn"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "At ConvertKit we have a quick ratio of 1.47"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "Buffer is at $21 per customer and ConvertKit is at $57 per customer"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "we have 20,812 generating $1,188,580 in MRR"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "6,994 customers (33% of the total) generating $811,117 in MRR (68% of the total)"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "people reading the metrics only on the surface level"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "the most important metric in the business"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "all over the map. From as high as $73,000 net new in March to a couple negative months in the summer"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "Monthly is as granular as you need to go"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "Because our beginner customers churn more often than our larger customers, user churn at ConvertKit is always higher than revenue churn"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "It’s both interesting and depressing to see so many new accounts come in each month and be canceled out by so many customers leaving"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "Quick Ratio = (New MRR + Expansion MRR) / (Churned MRR + Contraction MRR)"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "1.47, which is fairly low"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "Buffer at 1.08 and Hubstaff at 1.38"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "Or put another way, 67% of our customers are generating only 32% of our revenue"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "as high as $3 million"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "the contraction from annual plans is now outside the rolling 30 day window"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "I remember reading an S1 from a company with net negative churn and realizing that they didn’t consider any account canceling in the first 90 days as churn. That’s convenient, no wonder they had negative net churn!"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "that we are beholden to a few customers"
+        },
+        {
+          "source_id": "nb-metrics-2019",
+          "claim": "down to 0%"
+        }
+      ],
+      "legal_blocks": []
+    },
+    "23": {
+      "path": "chapters/23-slack.html",
+      "sha256": "df49dd27a0abd2695e12476d0f47e3d3041f91b3e2a61bd609ea2d8fdeb61850",
+      "headings": [
+        "Slack",
+        "Move 1 The situation",
+        "Move 2 What actually happened",
+        "Move 3 The reasoning",
+        "Reserve is sized, named, and bought in units you can stop",
+        "Reserve is spent silently",
+        "Monday",
+        "Reading"
+      ],
+      "fragment_ids": [],
+      "incoming_links": [
+        {
+          "from": "chapters/24-what-you-signed.html",
+          "href": "23-slack.html"
+        },
+        {
+          "from": "chapters/22-measuring-the-right-three-things.html",
+          "href": "23-slack.html"
+        },
+        {
+          "from": "chapters/26-when-the-ground-moves.html",
+          "href": "23-slack.html"
+        },
+        {
+          "from": "chapters/27-built-to-leave.html",
+          "href": "23-slack.html"
+        },
+        {
+          "from": "chapters/18-writing-it-down.html",
+          "href": "23-slack.html"
+        },
+        {
+          "from": "index.html",
+          "href": "chapters/23-slack.html"
+        }
+      ],
+      "registered_claims": [
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "We increased the team to 15 people"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "In June, our MRR grew by 22% to $23,535"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "we are hiring every 2 weeks"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "we had our first staff employed by another team member, instead of me or Alex"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "24 / 7 unlimited WordPress small fixes for $69 / month"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "$20,833 / month"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "up from $19,274 in May"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "57 net customer increase, just under 2 per day"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "a 20 page process"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "so it’s important to have someone other than me looking after this process"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "still involved at key intervals"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "90% of the Xero bookkeeping"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "This has been such a weight of our shoulders that during our weekly chat, we realized that we don’t have a lot to do"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "4 hour work week, baby!"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "Unlikely. Even when I’m in a hammock I have my computer handy"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "This month our Happy % is down from 96% to 82%. This is not what we want"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "wasn’t quite correct the first time"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "A4 size requests"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "Continue growing"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "Work on client retention"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "Don’t get bogged down doing everything ourselves"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "So far we’ve exceeded 15% in 11 out of our 12 months in business"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "[Alex: I think Dan will come up with something...]"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "we are growing so quickly we don’t want to grow faster"
+        },
+        {
+          "source_id": "wpc-jun-2014",
+          "claim": "another month of data from Hively"
+        }
+      ],
+      "legal_blocks": []
+    },
+    "24": {
+      "path": "chapters/24-what-you-signed.html",
+      "sha256": "e67dcabbbdfb742e7fdc19e9b29fdc8114be297e628ee8cb6931ac01315165f1",
+      "headings": [
+        "What You Signed",
+        "Move 1 The situation",
+        "Move 2 What the rules establish",
+        "Move 3 The reasoning",
+        "An unwritten agreement has terms anyway",
+        "When to pay someone who knows",
+        "Monday",
+        "Reading",
+        "On Dutch ground · who owns the work, and whether your terms bind"
+      ],
+      "fragment_ids": [
+        "ground"
+      ],
+      "incoming_links": [
+        {
+          "from": "chapters/25-what-protects-you.html",
+          "href": "24-what-you-signed.html"
+        },
+        {
+          "from": "chapters/25-what-protects-you.html",
+          "href": "24-what-you-signed.html"
+        },
+        {
+          "from": "chapters/25-what-protects-you.html",
+          "href": "24-what-you-signed.html"
+        },
+        {
+          "from": "chapters/23-slack.html",
+          "href": "24-what-you-signed.html"
+        },
+        {
+          "from": "index.html",
+          "href": "chapters/24-what-you-signed.html"
+        }
+      ],
+      "registered_claims": [
+        {
+          "source_id": "auteurswet-2026",
+          "claim": "Indien de arbeid, in dienst van een ander verricht, bestaat in het vervaardigen van bepaalde werken van letterkunde, wetenschap of kunst, dan wordt, tenzij tusschen partijen anders is overeengekomen, als de maker van die werken aangemerkt degene, in wiens dienst de werken zijn vervaardigd."
+        },
+        {
+          "source_id": "auteurswet-2026",
+          "claim": "De overeenkomst op grond waarvan het auteursrecht geheel of gedeeltelijk wordt overgedragen of waarin een exclusieve licentie wordt verleend, wordt schriftelijk aangegaan."
+        },
+        {
+          "source_id": "bw6-2026",
+          "claim": "Een beding in algemene voorwaarden is vernietigbaar a. indien het, gelet op de aard en de overige inhoud van de overeenkomst, de wijze waarop de voorwaarden zijn tot stand gekomen, de wederzijds kenbare belangen van partijen en de overige omstandigheden van het geval, onredelijk bezwarend is voor de wederpartij; of b. indien de gebruiker aan de wederpartij niet een redelijke mogelijkheid heeft geboden om van de algemene voorwaarden kennis te nemen."
+        },
+        {
+          "source_id": "bw6-2026",
+          "claim": "De gebruiker heeft aan de wederpartij de in artikel 233 onder b bedoelde mogelijkheid geboden, indien hij de algemene voorwaarden voor of bij het sluiten van de overeenkomst aan de wederpartij ter hand heeft gesteld"
+        },
+        {
+          "source_id": "auteurswet-2026",
+          "claim": "Het auteursrecht is het uitsluitend recht van den maker van een werk van letterkunde, wetenschap of kunst, of van diens rechtverkrijgenden, om dit openbaar te maken en te verveelvoudigen, behoudens de beperkingen, bij de wet gesteld."
+        },
+        {
+          "source_id": "auteurswet-2026",
+          "claim": "omvat alleen die bevoegdheden die uitdrukkelijk in de overeenkomst staan vermeld of die uit de aard en de strekking ervan noodzakelijkerwijs voortvloeien"
+        },
+        {
+          "source_id": "bw6-2026",
+          "claim": "op verzoek van de wederpartij onverwijld op zijn kosten"
+        },
+        {
+          "source_id": "auteurswet-2026",
+          "claim": "De overdracht of de verlening van een exclusieve licentie door de maker"
+        },
+        {
+          "source_id": "auteurswet-2026",
+          "claim": "Het derde lid, tweede volzin, en het vierde lid zijn niet van toepassing op een maker als bedoeld in artikel 7 en 8"
+        },
+        {
+          "source_id": "bw6-2026",
+          "claim": "die niet beide in Nederland gevestigd zijn"
+        },
+        {
+          "source_id": "bw6-2026",
+          "claim": "bij haar vijftig of meer personen werkzaam zijn"
+        }
+      ],
+      "legal_blocks": [
+        "<div class=\"ground\" id=\"ground\">\n    <h3>On Dutch ground · who owns the work, and whether your terms bind</h3>\n\n    <p>This section is for readers in the Netherlands; elsewhere the four agreements keep their shape and the defaults differ. Two of the four agreements have statutory answers this section can quote.\n    The other two — what your suppliers' terms say, and what you are liable for and insured\n    against — it cannot, and names the professional instead.</p>\n\n    <p><strong>Who owns the work.</strong> The Auteurswet starts from the maker: <em\n    lang=\"nl\">\"Het auteursrecht is het uitsluitend recht van den maker van een werk van\n    letterkunde, wetenschap of kunst, of van diens rechtverkrijgenden, om dit openbaar te maken\n    en te verveelvoudigen, behoudens de beperkingen, bij de wet gesteld.\"</em> Article 7 moves that default to the employer where making such works is what the employee is\n    employed to do, unless the contract says otherwise: <em lang=\"nl\">\"Indien de arbeid,\n    in dienst van een ander verricht, bestaat in het vervaardigen van bepaalde werken van\n    letterkunde, wetenschap of kunst, dan wordt, tenzij tusschen partijen anders is\n    overeengekomen, als de maker van die werken aangemerkt degene, in wiens dienst de werken\n    zijn vervaardigd.\"</em> Two conditions, then: in another's employ, and employed to make this kind of thing; and a\n    contract can undo the default. <em>In dienst van een ander</em> is the line, and a contractor\n    is not in your employ; <a href=\"19-the-first-hire.html#ground\">chapter nineteen</a>'s Dutch-ground section is where\n    that line is drawn. For everyone who is not an employee, article\n    2 lid 3 governs: <em lang=\"nl\">\"De overeenkomst op grond waarvan het auteursrecht geheel of\n    gedeeltelijk wordt overgedragen of waarin een exclusieve licentie wordt verleend, wordt\n    schriftelijk aangegaan.\"</em> In writing. And when the person transferring is the one who made it — the freelancer, the\n    friend — the transfer reaches only as far as the writing goes: <em lang=\"nl\">\"De overdracht of\n    de verlening van een exclusieve licentie door de maker … omvat alleen die bevoegdheden die\n    uitdrukkelijk in de overeenkomst staan vermeld of die uit de aard en de strekking ervan\n    noodzakelijkerwijs voortvloeien.\"</em> Lid 5 takes that second sentence away where the\n    transferor is itself a maker under articles 7 or 8 — <em lang=\"nl\">\"Het derde lid, tweede\n    volzin, en het vierde lid zijn niet van toepassing op een maker als bedoeld in artikel 7 en\n    8\"</em> — so an agency transferring its employees' work is the jurist's question, not this section's.</p>\n\n    <p><strong>Whether your terms bind.</strong> Book 6 of the Civil Code, article 233: <em\n    lang=\"nl\">\"Een beding in algemene voorwaarden is vernietigbaar a. indien het, gelet op de\n    aard en de overige inhoud van de overeenkomst, de wijze waarop de voorwaarden zijn tot stand\n    gekomen, de wederzijds kenbare belangen van partijen en de overige omstandigheden van het\n    geval, onredelijk bezwarend is voor de wederpartij; of b. indien de gebruiker aan de\n    wederpartij niet een redelijke mogelijkheid heeft geboden om van de algemene voorwaarden\n    kennis te nemen.\"</em> Two grounds: unreasonably onerous, or no reasonable opportunity to\n    read. Article 234 says what the opportunity is: <em lang=\"nl\">\"De gebruiker heeft aan de\n    wederpartij de in artikel 233 onder b bedoelde mogelijkheid geboden, indien hij de algemene\n    voorwaarden voor of bij het sluiten van de overeenkomst aan de wederpartij ter hand heeft\n    gesteld\"</em> — handed over before or at the conclusion of the contract — with the further\n    routes the article lists after that clause, and with the consequence that if they were not\n    handed over then, the terms are also voidable where the user does not send them <em lang=\"nl\">\"op verzoek van de wederpartij onverwijld op zijn kosten\"</em>. Whom this\n    section reaches is its own question: article 247 makes it inapplicable between businesses\n    <em lang=\"nl\">\"die niet beide in Nederland gevestigd zijn\"</em>, and article 235 takes the\n    grounds away from large counterparties — among them a party <em lang=\"nl\">\"bij haar vijftig of\n    meer personen werkzaam zijn\"</em> — which is one of the things to put in front of the jurist\n    with your customer list.</p>\n\n    <p>None of this is advice, and this section stops short of the two agreements it cannot quote.\n    What you are liable for, whether a limit in your terms would hold, and what a professional\n    indemnity or business liability policy would cover in your trade are questions for a <span\n    lang=\"nl\">jurist</span> or <span lang=\"nl\">advocaat</span> and for an insurance adviser,\n    with your actual terms and your largest-loss estimate in front of them. Ask them, in those\n    words, which of your agreements has terms you have not read.</p>\n\n    <span class=\"checked\">Checked 28 August 2026 against the Auteurswet articles 1, 2 and 7\n    (consolidated text at 1 January 2026) and Burgerlijk Wetboek Boek 6 articles 233, 234, 235 and 247 (consolidation valid from 16 July\n    2026, consulted 2 August 2026). Statute quoted, not paraphrased; nothing here on\n    liability, insurance or the enforceability of any particular clause, which is what the\n    professional is for.</span>\n  </div>"
+      ]
+    },
+    "25": {
+      "path": "chapters/25-what-protects-you.html",
+      "sha256": "b8291c240af50a9eee186181f3f70b5fa92853268647a1b062a6bfb7a6db0c30",
+      "headings": [
+        "What Protects You",
+        "Move 1 The situation",
+        "Move 2 What actually happened",
+        "Move 3 The reasoning",
+        "Protection is what changes the outcome on the day",
+        "What protects a business of this size",
+        "Monday",
+        "Reading"
+      ],
+      "fragment_ids": [],
+      "incoming_links": [
+        {
+          "from": "chapters/24-what-you-signed.html",
+          "href": "25-what-protects-you.html"
+        },
+        {
+          "from": "chapters/26-when-the-ground-moves.html",
+          "href": "25-what-protects-you.html"
+        },
+        {
+          "from": "index.html",
+          "href": "chapters/25-what-protects-you.html"
+        }
+      ],
+      "registered_claims": [
+        {
+          "source_id": "sn-howto",
+          "claim": "Patents do nothing to prevent people from stealing your idea."
+        },
+        {
+          "source_id": "sn-howto",
+          "claim": "we have realized that patents are basically designed to protect large corporations, and the idea of a small company of two people obtaining a patent is fairly ridiculous. We decided to pass."
+        },
+        {
+          "source_id": "sn-howto",
+          "claim": "there have been a few direct imitations that have cropped up, out of Germany and Taiwan."
+        },
+        {
+          "source_id": "sn-howto",
+          "claim": "As long as our brand remains strong, we think enough customers will choose the real deal versus the knockoff."
+        },
+        {
+          "source_id": "sn-howto",
+          "claim": "I remember when our first project, the Glif, started to blow up, and I was freaked out we didn’t have a patent on the design"
+        },
+        {
+          "source_id": "sn-howto",
+          "claim": "make sure you contact an expert rather than relying solely on the advice from two dudes with no legal expertise"
+        },
+        {
+          "source_id": "sn-howto",
+          "claim": "a black hole that sucks up money and spits out sadness"
+        },
+        {
+          "source_id": "sn-howto",
+          "claim": "Many people seem to have the misconception that patents are magical things that act like a force field around your product, preventing anyone from ever ripping it off"
+        },
+        {
+          "source_id": "sn-howto",
+          "claim": "All they do is give you the legal authority to take action if you believe someone is infringing. You would still need to hire a lawyer to take the perp to court."
+        },
+        {
+          "source_id": "sn-howto",
+          "claim": "only protects the visual ornamentation of an object, not its function"
+        },
+        {
+          "source_id": "sn-howto",
+          "claim": "Most patents only protect infringement within the United States"
+        },
+        {
+          "source_id": "sn-howto",
+          "claim": "There is not much we can do, other than shrug our shoulders and carry on"
+        },
+        {
+          "source_id": "sn-howto",
+          "claim": "Let’s imagine for a moment we did have a heavy-duty international utility patent. How would that change things? Would we really be willing to sink the time and money into going after them? Our guess is no. We’d rather just spend that time designing more great products."
+        }
+      ],
+      "legal_blocks": []
+    }
+  }
+}

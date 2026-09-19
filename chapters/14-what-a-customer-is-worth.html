@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>14 · What a Customer Is Worth — The Going Concern</title>
-<meta name="description" content="A paying customer and a worthwhile customer are not the same thing. Cydoc had four real ones, and an estimated eleven years to break even on each.">
+<meta name="description" content="Compare customer returns and cash recovery, then set a bounded acquisition test using Lea’s worked jobs.">
 <link rel="canonical" href="https://anthonykot.github.io/going-concern/chapters/14-what-a-customer-is-worth.html">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="The Going Concern">
 <meta property="og:title" content="14 · What a Customer Is Worth">
-<meta property="og:description" content="A paying customer and a worthwhile customer are not the same thing.">
+<meta property="og:description" content="Compare customer returns and cash recovery, then set a bounded acquisition test using Lea’s worked jobs.">
 <meta property="og:url" content="https://anthonykot.github.io/going-concern/chapters/14-what-a-customer-is-worth.html">
 <meta name="twitter:card" content="summary">
 <link rel="stylesheet" href="../static/style.css">
@@ -32,254 +32,174 @@
 
   <p class="kicker">Part III · Does the money work? · Chapter 14</p>
   <h1>What a Customer Is Worth</h1>
-  <p class="lede">Four customers paid Cydoc. The sales were real, the product worked, and the
-  arithmetic underneath them was not survivable. A paying customer and a worthwhile customer are not
-  the same thing, and the gap between them is measurable long before anybody has a lifetime to
-  measure.</p>
+  <p class="lede">Three customers each paid Lea €900. After her time, one left €350, one €100,
+  and one cost her €300. Before she spends anything finding a fourth, she has to decide which of
+  the three she is trying to repeat, and how much a new one is allowed to cost.</p>
 
   <div class="decision">
     <span class="tag">The decision</span>
-    Which customers are worth acquiring again — judged on what has actually remained after acquiring
-    and serving them, and how long that money took to arrive.
+    Which kind of work you will seek again, on what terms, and how much money and time you will
+    risk finding it before you review the result.
   </div>
 
-  <section class="move">
-    <h2><span class="num">Move 1</span> The situation</h2>
+  <section class="move" id="three-jobs">
+    <h2>Same price, three results</h2>
 
-    <p>Somewhere you have already multiplied a monthly payment by a number of months and written
-    the result down as what a customer is worth. <a href="13-profit-is-not-cash.html">The previous
-    chapter</a> asked whether you can afford to finance the gap between the work and the payment;
-    this one asks whether what eventually arrives was worth financing at all.</p>
+    <p><strong>Lea is invented, continued from <a href="10-the-first-ten-customers.html">chapter
+    ten</a>.</strong> D and E from chapter thirteen are a different, larger offer and are not in
+    this comparison. Each job paid €900 and cost €50 in tools. What differs is her time. Price
+    every hour, selling and delivery, at the same €50 she used in
+    <a href="12-reading-your-own-business.html#owner-pay">chapter twelve</a>, count each hour
+    once, and the three jobs stop looking alike.</p>
 
-    <p>That is lifetime value, and in a business this age it is worse than useless. It asks you to multiply a monthly payment by an expected
-    number of months, subtract an acquisition cost, and treat the product as a fact. Two of those
-    three inputs are guesses, and the guess sits in the position with the most leverage: a customer
-    who stays two years is worth four times one who stays six months, so the number you know least
-    determines the answer almost entirely.</p>
-
-    <p>Three different things get called what a customer is worth, as three different things got
-    called cash last chapter, with the same consequence: you end up comparing figures that were
-    never answering the same question.</p>
-
-    <ul>
-      <li><strong>Total revenue.</strong> Everything the customer has paid or is projected to pay.
-      This is the number every business has, and it is the least informative of the three.</li>
-      <li><strong>Contribution.</strong> What remains after the costs of acquiring that customer and
-      serving that customer — not a share of the rent, not a share of your accountant, but the costs
-      that exist because that customer exists.</li>
-      <li><strong>Contribution to date.</strong> The same figure, computed only over the period you
-      have actually observed, with everything after today marked unknown rather than projected.</li>
-    </ul>
-
-    <p>This chapter is about the third one. It is the least flattering and the only one that is
-    evidence.</p>
-  </section>
-
-  <section class="move">
-    <h2><span class="num">Move 2</span> What actually happened</h2>
-
-    <p>Rachel Draelos spent seven years building Cydoc, an AI documentation tool for physicians,
-    <em>"for seven years (April 2018 to August 2025)"</em>. Her post-mortem, published after
-    the shutdown, is unusually exact about the numbers that matter here.</p>
-
-    <p>By the conventional signals the business was working. She reached what she calls
-    <em>"what many consider to be validation milestones: paying customers, patents, and demonstrated
-    clinical impact"</em>. The clinical impact was real and measured — the tool
-    <em>"saved 11 minutes per visit"</em>. Two US patents were granted. And the sales were genuine:
-    <em>"We acquired four paying customers"</em>, producing
-    <em>"four-figure recurring revenue and five-figure custom development revenue"</em>.
-    <a href="04-deciding-not-to.html">Chapter four</a> asked what those milestones did to her
-    stopping rule. This chapter asks what was underneath them.</p>
-
-    <p>The doctors who used it got eleven minutes back on every visit, and they <em>"wanted to pay fewer than $100 per month"</em> per doctor. That was
-    the ceiling, and it was set by the customer. Underneath it, a number she did not set was moving:
-    <em>"the hosting and AI costs for our platform had gone up to about $70 per doctor"</em>. What
-    had once been a margin was now something under thirty dollars a month per doctor, and every
-    practice still had to be connected to its records system first — <em>"a single EHR integration
-    costs around $4,000 to $6,000"</em>. Thirty dollars a month against four thousand up front. Her
-    own arithmetic: <em>"it would take 11 years per practice just to break even"</em>.</p>
-
-    <div class="figures">
-      <div><span class="k">Paying customers</span><span class="v">4</span></div>
-      <div><span class="k">Willing to pay</span><span class="v">&lt;$100/mo</span></div>
-      <div><span class="k">Service cost</span><span class="v">~$70/mo</span></div>
-      <div><span class="k">Integration, per practice</span><span class="v">$4–6k</span></div>
-      <div><span class="k">Break-even, her estimate</span><span class="v">11 years</span></div>
+    <div class="table-scroll" tabindex="0" role="region" aria-label="Lea's customer economics">
+      <table>
+        <caption>Completed jobs, after B's correction; hypothetical figures</caption>
+        <thead><tr><th scope="col">Customer and route</th><th scope="col">Revenue</th><th scope="col">Direct cost</th><th scope="col">Owner hours: sales + delivery</th><th scope="col">Economic remainder</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">A · former colleague</th><td>€900</td><td>€50</td><td>2 + 8 = 10</td><td>€350</td></tr>
+          <tr><th scope="row">B · A's introduction</th><td>€900</td><td>€50</td><td>3 + 12 = 15</td><td>€100</td></tr>
+          <tr><th scope="row">C · direct approach</th><td>€900</td><td>€50</td><td>5 + 18 = 23</td><td>−€300</td></tr>
+        </tbody>
+      </table>
     </div>
 
-    <p>The subtraction is worth doing slowly. Under $100 a month against about $70 of cost specific
-    to that doctor leaves something under $30 — before support, before her own time, before anything
-    else. Against the cheaper integration, $4,000, that comes back in a little over eleven years.
-    Her estimate and the arithmetic agree.</p>
+    <p>A leaves €900 − €50 − (10 × €50) = €350. Together the three leave €150. Then add, once, the
+    six hours of approaches that sold nothing: another €300, and the three customers together are
+    €150 short. Leave out the failed selling and the result reverses sign.</p>
 
-    <p>One more detail, which will matter in a moment. Her four customers arrived by four different
-    routes: <em>"one customer through a cold call, one through a cold email, one through a very warm
-    intro"</em>, and one via a consulting network. Four customers, four channels, no channel used
-    twice. <a href="07-where-they-already-are.html">Chapter seven</a> asked whether a channel repeats;
-    here none was tried a second time — which shows no repeatable mechanism, not that none of them
-    could have repeated. It also means that even perfect records would have given her four prices
-    for four acquisitions, and no price for any channel.</p>
+    <p>Now the tempting conclusion, and why it is wrong. <em>Former colleagues good, cold
+    approaches bad</em> reads three rows as three markets. A was one person, not a stream of
+    buyers. B's lower result came from Lea's unclear preparation instructions, not from being an
+    introduction. C's came from a second source system she agreed to in a call without re-quoting.
+    What she can repeat is not a kind of person but a kind of job: <em>a buyer who can supply one
+    agreed input file, needs the specified output and accepts the handover and correction
+    scope</em>, with any second source quoted separately.</p>
   </section>
 
-  <section class="move">
-    <h2><span class="num">Move 3</span> The reasoning</h2>
+  <section class="move" id="setup">
+    <h2>Cydoc: the setup a monthly price hid</h2>
 
-    <h3>Four subtractions stand between revenue and value</h3>
+    <p>Rachel Draelos, whose company closed in <a href="04-deciding-not-to.html#cydoc">chapter
+    four</a>, reports that the small practices she sold to wanted to pay under $100 a month, that
+    hosting and AI cost about $70 per doctor, and that connecting each practice's record system
+    cost $4,000 to $6,000. Her own estimate: eleven years per practice to break even on the
+    connection alone. Every customer paid. Each one began with a cost the monthly price would take
+    a decade to recover.</p>
 
-    <p>Everything a customer pays you is gross. Four things come out before what is left is worth
-    calling value, and each of them is routinely missed in a different way.</p>
+    <p>That is the other way a customer can look profitable and not be: a setup the price never
+    names. Lea's version is small, C's unpriced second source, but the rule is the same. Price the
+    setup, name who funds it, and check how long the receipts take to recover it. Cash recovery is
+    a separate test from the remainder: on invented dates, C paid on day 42 and recovered its €50
+    outlay despite leaving −€300 after Lea's time. A customer who has paid you back has not
+    necessarily been worth serving.</p>
+  </section>
 
-    <ul>
-      <li><strong>Direct delivery cost.</strong> What it costs to serve that customer, per period,
-      because they are there. Cydoc's $70 per doctor is the cleanest possible example: a variable
-      cost, per customer, that consumed most of the price.</li>
-      <li><strong>Setup cost, charged to the customer who caused it.</strong> Integration,
-      onboarding, migration, the custom work agreed in the last week of the sale. It is spent once,
-      so it feels like a project cost. It belongs to that customer and is recovered from that
-      customer or not at all.</li>
-      <li><strong>Acquisition, including your own time at replacement cost.</strong>
-      <a href="05-leaving-well.html">Chapter five</a> established the rule: your labour has a price
-      even when no money moves. A free channel that consumes two days of founder time per customer is
-      not free, and this is where the businesses that look best on paper hide their costs.</li>
-      <li><strong>Refunds, credits and concessions.</strong> The discount given to close, the month
-      written off after a bad delivery, the invoice quietly never sent. These are reductions in what
-      the customer was worth, and they tend to live in nobody's calculation at all.</li>
-    </ul>
+  <section class="move" id="allowance">
+    <h2>A spending limit from the work, not from a lifetime</h2>
 
-    <h3>Positive is not the same as sufficient</h3>
+    <p>Start with what winning a customer has actually cost. Lea spent ten hours selling to the
+    three who bought and six on people who did not: sixteen hours for three customers, about 5.3
+    hours or €267 each. Count only the buyers and it looks like 3.3 hours, €167. The failed
+    approaches are part of the price of every customer she won, so they stay in.</p>
 
-    <p>Something under $30 a month is a positive contribution. A business could run on it if
-    everything else about the business were free, and nothing about a business is free. The threshold
-    that matters is not zero — it is whether the contribution, across the customers you can actually
-    get, covers everything that is not attributable to any one customer, and pays the owner. Cydoc's
-    per-doctor economics were positive on the monthly line and could not carry the business, and both
-    of those things were true at the same time for years.</p>
+    <p>Now what the next job can afford. Of the repeatable kind: €900 − €50 of tools − (8 delivery
+    hours × €50 = €400) = €450 before selling and shared costs. Lea chooses to keep at least €200
+    of that towards shared costs and surprises, an invented figure for this example. €450 − €200 =
+    €250 is the most that winning the job may cost, failed approaches included: five of her hours
+    with no cash spend (5 × €50), or €100 of cash and three hours (€100 + 3 × €50). Not both.
+    Her record so far, €267, is already just over it. Selling has to get cheaper, or delivery
+    has to, before this offer pays for finding its own customers.</p>
 
-    <p>This is why "are we profitable on each customer?" is the wrong first question. It admits too
-    much. The useful question is how much is left, against how much has to be covered.</p>
+    <p>Then she tests the assumption the allowance rests on. At twelve delivery hours, B's
+    figure, the job leaves €900 − €50 − (12 × €50 = €600) = €250 before selling, and keeping
+    €200 leaves €50: one hour to win it.
+    The allowance depends on delivery staying near eight hours, so the clearer instructions from
+    chapter ten are not a nicety. They are what pays for the next customer.</p>
 
-    <h3>The date the money came back</h3>
+    <p>Her first campaign gets a cap, set before it starts: €100 and three hours, which is one
+    job's €250 allowance, or two weeks, whichever comes first. If it wins one customer, that
+    customer cost €250, exactly the limit. If it wins none, she has spent €250 and acquired
+    nobody. That campaign goes in the record too, even though it has no cost per customer to
+    report. An open proposal stays <em>pending</em>,
+    not a sale. At the review she records wins, losses and pending approaches and decides whether
+    more effort is justified. The cap controls
+    what she can lose; it does not prove the route can deliver a customer in two weeks. A slow
+    sale can be cut off too early, and continuing has a cost too. Which routes deserve her hours
+    over six months is the question of the <a href="07-where-they-already-are.html">optional
+    chapter on channels</a>.</p>
 
-    <p>The second half of the calculation is not a quantity at all. It is a date: the day on which
-    cumulative contribution from a customer finally exceeded what was spent acquiring and starting
-    them.</p>
-
-    <p>Eleven years is that date, for Cydoc, and it disqualifies the customer even though the
-    contribution is positive and even though the product worked. A customer who repays the cost of
-    their own setup after eleven years cannot finance the business that has to serve them for the
-    eleven years. <a href="13-profit-is-not-cash.html">The previous chapter</a> showed that a
-    profitable customer can still be a cash problem; this is the same fact arriving from the other
-    side, and it is why total contribution and the time it takes are not two views of one number.
-    Two customers who each eventually contribute €2,000 are not equally valuable when one pays before
-    delivery and the other repays their setup after a decade.</p>
-
-    <h3>There is no average customer</h3>
-
-    <p>Computing one value for all your customers destroys the information you needed. WP Curve, from
-    <a href="10-the-first-ten-customers.html">chapter ten</a>, shows why with a single price. Every
-    customer paid the same $69, and the ones cancelling inside the first month had something in
-    common: <em>"The common thread is that all of these customers have been running blogs, rather
-    than businesses"</em>, for whom <em>"$69 feels like a big cost"</em>. Same price, same service,
-    two entirely different relationships. Acquisition was not cheap for either —
-    <em>"no virality involved. We have to work for every single customer"</em> — and a human had to
-    perform the work each time.</p>
-
-    <p>Averaging across those two groups produces a number describing nobody, and it hides the only
-    finding worth having: one segment was worth acquiring again and one was not. So the calculation
-    is done per segment, per channel, or per cohort, and never once for the business.</p>
-
-    <p>WP Curve is a contrast, not a calculation: nothing it published can produce a customer
-    value figure.</p>
-
-    <h3>When you do not need a lifetime estimate</h3>
-
-    <p>The obvious objection to everything above is that Cydoc's numbers ignore the future. Perhaps
-    those practices would have expanded, referred others, or bought more. That objection is correct,
-    and it does not rescue the case:</p>
-
-    <p><strong>When the observed economics are already bad, you do not need a lifetime estimate. When
-    they look good, "lifetime" is the part you know least.</strong></p>
-
-    <p>An eleven-year payback does not become acceptable under a more generous forecast; it requires
-    one, which is the tell. And a business whose observed numbers look healthy is precisely where the
-    projection is doing invisible work, because that is where nobody checks it. The asymmetry means
-    the honest calculation is the same in both cases: compute what has actually happened, mark the
-    rest unknown, and notice which conclusions depend on the unknown part.</p>
-
-    <h3>Boundaries</h3>
-
-    <p><strong>Cydoc cannot tell you what acquisition costs.</strong> No cost per customer is
-    published, and four customers arriving through four routes give nothing from which a channel cost
-    could be estimated. The narrower true statement is that Cydoc had no acquisition process to
-    measure, not that its acquisitions had no cost. The acquisition line in the record below is real
-    and this case does not demonstrate it.</p>
-
-    <p><strong>Four customers cannot establish a lifetime, a churn rate, or a cohort.</strong> No
-    retention conclusion is available here, nothing about expansion or referral, and the chapter does
-    not offer one. The eleven-year figure is Draelos's own estimate from her own costs, not audited
-    unit economics, and integration costs in medical software are unusually high — the mechanism
-    transfers, the magnitude does not.</p>
-
-    <p>At a two-partner accounting practice the same four subtractions run on smaller figures, this book's translation rather than Draelos's: a client who pays €150 a month, cost €1,200 of unpaid meetings and setup to win, and costs €40 a month to serve, has earned back its acquisition after eleven months — and a client who leaves in month eight was worth less than nothing, whatever the invoices said.</p>
-
-    <p><strong>Future expansion is unknown, not zero — and it is also not evidence.</strong> This
-    chapter's instrument systematically undervalues relationships whose returns genuinely arrive
-    late, and a business that only ever counts what has already happened will refuse some customers
-    it should have kept. That is a real cost of the method, priced nowhere in it.</p>
-
-    <p><strong>And one cost has been left out of every calculation in this chapter.</strong> The
-    delivery cost, the setup cost, the support burden — all of them assume someone is paid to do the
-    work. You have now charged the customer for everyone's labour except one person's, and the owner
-    is usually the most expensive omission in the record. That is
-    <a href="15-paying-yourself.html">the next chapter</a>.</p>
+    <p>Forecasts of later purchases, referrals and cheaper delivery may change all of this. Keep
+    them in a separate scenario with a review date, and if the scenario is the only reason to take
+    the work, name the most money and time you will risk finding out.</p>
   </section>
 
   <section class="monday">
-    <h2>Monday</h2>
+    <h2>Monday · one line per customer</h2>
+    <p><strong>Do this one thing.</strong> For each customer so far, write one line: price, direct
+    cost, your hours to win and deliver them multiplied by your rate, and what is left. Add, once
+    at the bottom, the hours you spent on people who did not buy, and divide all your selling
+    hours, theirs included, by the number of customers won. Circle the job you would repeat,
+    and write in one sentence what made it that job rather than who the customer was. You now
+    know which work to seek, and roughly what it can afford to cost you to find.</p>
+    <p><strong>Never tracked your hours?</strong> Estimate them per job and mark each
+    <em>estimated</em>; then add an hours column to your customer record so the next job is
+    counted. That counts as finishing.</p>
+    <p>If you have another hour:</p>
     <ol>
-      <li><strong>Add the columns to the record you already have.</strong> The customer rows from <a href="10-the-first-ten-customers.html">chapter ten</a> and <a href="11-what-happens-after-the-sale.html">chapter eleven</a> gain these: cash actually collected; acquisition spend; your own acquisition time valued at replacement cost; onboarding or setup cost; direct delivery and support cost; refunds, credits and concessions. Carry the outcome status from chapter eleven across as well — renewed, lapsed, still here — because a customer whose payback date is distant and who has already left is a different finding from one who is distant and staying. Extend the document; do not start a new one.</li>
-      <li><strong>Compute contribution to date, per customer.</strong> Collected, minus everything in the list above. Only what has happened. Anything you are tempted to project goes in a separate column labelled unknown, and it stays out of the total.</li>
-      <li><strong>Find the payback date for each customer.</strong> The month in which cumulative contribution first exceeded what you spent acquiring and starting them. For customers where that date has not arrived, write "not yet" rather than a forecast — that is the honest entry and it is also the alarming one.</li>
-      <li><strong>Aggregate by segment and by channel, never once for the business.</strong> If two segments average the same and one of them contains both your best customer and your worst, you have two businesses, not one. If a channel produces customers whose payback dates are consistently later, you have found something that no revenue report would have shown you.</li>
-      <li><strong>Then ask the actual question: which of these would you acquire again?</strong> Write the answer down for each segment, with the number that justifies it. That sentence is the output of this chapter, and it is the input to every pricing and channel decision you make next year.</li>
+      <li><strong>Set the allowance.</strong> Price minus direct cost minus delivery hours at your
+      rate, less what you want to keep. Then redo it with delivery 50% over, and see what is left.</li>
+      <li><strong>Cap the next campaign</strong> in money, hours and weeks, whichever comes first,
+      and write the review date.</li>
+      <li><strong>Trace cash recovery</strong> for one customer with a setup cost: the date their
+      payments first covered what you paid out, or <em>not yet</em>. Use the
+      <a href="../resources/first-customers.csv" download>shared customer record</a> (no
+      formulas).</li>
     </ol>
   </section>
 
-  <div class="owed">
-    <p class="case-head"><span class="who">What would prove this chapter wrong</span></p>
+  <details class="owed rests">
+    <summary>What this chapter rests on, and what would prove it wrong</summary>
+    <p>Lea's jobs, hours, the €50 rate, the payment dates and her €200 and campaign cap are
+    invented. The economic remainder is not net profit: shared software, administration and
+    failed selling belong at period level, which is why chapter twelve reconciles them. A
+    projected lifetime is neither an observed fact nor worthless; the question is how much the
+    decision depends on it.</p>
+    <p>Draelos's figures are her own retrospective estimates, not audited accounts, and their
+    units differ: the price is not stated per doctor or per practice, the hosting cost is per
+    doctor and the recovery estimate per practice, so they cannot be combined without
+    assumptions. Her account describes four successful sales routes, not four total attempts, so
+    no channel average can be reconstructed from it.</p>
+    <p>When comparing groups of customers later, keep the ones who left, asked for refunds or
+    needed corrections in their original group, and compare equal lengths of time.</p>
+    <p><strong>Still owed:</strong> a documented business that rejected early work that looked
+    uneconomic and later found it would have repaid its costs. Short observation windows can
+    undervalue slow returns; separating a forecast and capping the test makes that choice
+    visible, it does not remove it. The <a href="../about.html#counter">debt stands</a>.</p>
+  </details>
 
-    <p>It would be a business that computed exactly this — observed contribution, payback date, by
-    segment — refused a segment because both looked poor, and discovered later that the segment's
-    expansion, its referrals, or the fall in its service cost as the work was learned and
-    standardised would have made it the most valuable one. Note the tense: a refused segment is not
-    observed afterwards, so the case has to show what the numbers would have become, which is why it
-    is hard to find rather than merely absent.</p>
-
-    <p>That case would not overturn the method. It would price it, and the price is not in the
-    arithmetic but in the observation window. <strong>Value to date protects you from inventing a
-    future. It can also make a real but delayed future invisible.</strong> This chapter recommends
-    the conservative error without demonstrating what it costs.</p>
-  </div>
+  <p>Back on the main path, <a href="16-enough.html">chapter sixteen</a> asks what all of this
+  must provide for your household, and whether you want to keep doing the work it takes.</p>
 
   <section class="reading">
     <h2>Reading</h2>
     <ul>
-      <li><span class="src">Source ·</span> <a href="https://glassboxmedicine.com/2026/02/21/why-i-shut-down-my-bootstrapped-health-ai-startup-after-7-years-a-founders-postmortem/">Rachel Draelos, "Why I Shut Down My Bootstrapped Health AI Startup After 7 Years"</a>, February 2026 — the four customers and their channels, the sub-$100 willingness to pay, the $70 per-doctor cost, the $4,000–$6,000 integration and the eleven-year break-even estimate. A founder's own post-mortem, which is weaker evidence than a filing and is attributed as such throughout. Used in <a href="04-deciding-not-to.html">chapter four</a> for a different question.</li>
-      <li><span class="src">Source ·</span> <a href="http://web.archive.org/web/20140520015220/http://wpcurve.com/december-monthly-report/">Dan Norris &amp; Alex McClafferty, WP Curve December 2013 monthly report</a> — the customers cancelling inside a month were bloggers rather than businesses, at a $69 price. Used here only for the segment contrast; its figures cannot support a customer-value calculation — its published revenue was company-wide across several businesses, its customer totals were never cleanly isolated, and it never published delivery costs.</li>
-      <li><span class="src">Note ·</span> The under-$30 monthly contribution in Move 2 is a subtraction of two figures Draelos publishes, not a figure she states. It is shown as arithmetic so it can be checked.</li>
+      <li><span class="src">Source ·</span> <a href="https://glassboxmedicine.com/2026/02/21/why-i-shut-down-my-bootstrapped-health-ai-startup-after-7-years-a-founders-postmortem/">Rachel Draelos, “Why I Shut Down My Bootstrapped Health AI Startup After 7 Years”</a>, February 2026. Founder account; checked again 19 September 2026. Supports the short setup-cost case, not Lea's arithmetic or a universal recovery deadline.</li>
+      <li><span class="src">Worked example ·</span> <a href="10-the-first-ten-customers.html">Chapter ten</a> supplies Lea's jobs and unsuccessful sales effort; Its <a href="10-the-first-ten-customers.html#after-sale">follow-up section</a> adds B's correction. This chapter invents payment dates and planning limits explicitly. They are not observations about Cydoc.</li>
+      <li><span class="src">Practice ·</span> The <a href="../resources/first-customers.csv">shared record</a> is a blank CSV without formulas. Keep dated transactions in a linked ledger; <a href="13-profit-is-not-cash.html">chapter thirteen</a> shows how to test the whole business's cash timing. <a href="12-reading-your-own-business.html">Chapter twelve</a> reconciles the period's wider costs.</li>
     </ul>
   </section>
 
   <nav class="chapter-nav">
-    <a href="13b-the-business-that-does-not-invoice.html"><span class="dir">Previous</span>13½ · The Business That Does Not Invoice</a>
-    <a href="15-paying-yourself.html" class="next"><span class="dir">Next chapter</span>15 · Paying Yourself</a>
+    <a href="13-profit-is-not-cash.html"><span class="dir">Previous</span>13 · Profit Is Not Cash</a>
+    <a href="16-enough.html" class="next"><span class="dir">Next chapter</span>16 · Enough</a>
   </nav>
 
 </main>
 
 <footer class="site-footer">
   <div class="wrap">
-    <p>The Going Concern · Chapter 14 of 28.</p>
+    <p>The Going Concern · Chapter 14.</p>
   </div>
 </footer>
 

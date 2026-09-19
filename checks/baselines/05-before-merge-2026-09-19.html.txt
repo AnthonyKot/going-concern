@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>5 · Leaving Well — The Going Concern</title>
+<meta name="description" content="You do not need courage to resign. You need evidence, and a clear idea of which evidence. Patrick McKenzie ran a software business for four years at about five hours a week before he left his job — and Eran Galperin's six-month runway said stop.">
+<link rel="canonical" href="https://anthonykot.github.io/going-concern/chapters/05-leaving-well.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="The Going Concern">
+<meta property="og:title" content="5 · Leaving Well">
+<meta property="og:description" content="You do not need courage to resign. You need evidence, and a clear idea of which evidence.">
+<meta property="og:url" content="https://anthonykot.github.io/going-concern/chapters/05-leaving-well.html">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../static/style.css">
+<script src="../static/theme.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html">The Going <span>Concern</span></a>
+    <nav class="site-nav">
+      <a href="../index.html">Chapters</a>
+      <a href="../about.html">Method</a>
+      <button class="theme-toggle" type="button">☾ Dark</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <p class="kicker">Part I · Is there anything here? · Chapter 5</p>
+  <h1>Leaving Well</h1>
+  <p class="lede">You do not need courage to resign. You need evidence, and a clear idea of which
+  evidence — because the wrong kind is abundant, free, and extremely encouraging.</p>
+
+  <div class="decision">
+    <span class="tag">The decision</span>
+    Whether to keep testing this from inside a salary, or to give up the salary — and what would have
+    to be true to make the second the lower-risk option rather than the braver one.
+  </div>
+
+  <section class="move">
+    <h2><span class="num">Move 1</span> The situation</h2>
+
+    <p>You are forty-ish. You have a mortgage, possibly people who depend on you, and fifteen years
+    of being good at something that pays reliably. You also have a thing you have been building at
+    night, and the gap between those two facts has started to feel like a personal failing.</p>
+
+    <p>The advice available to you is uniformly terrible in one specific way. Every version of it —
+    <em>take the leap</em>, <em>burn the boats</em>, <em>you will never be ready</em> — treats the
+    decision as a test of nerve. It is not. Nerve is what people call the decision afterwards, once
+    they know how it turned out. The actual question is narrower and answerable:</p>
+
+    <blockquote>What would have to be true before leaving is the <em>lower-risk</em> option?</blockquote>
+
+    <p>Note what that question does. It refuses to ask whether you are brave enough, whether you
+    believe in it, or whether you are the kind of person who takes chances. Those are questions about
+    you. This is a question about the business, and unlike the others it has an answer that can be
+    written down in advance and checked later.</p>
+
+    <p>The salary is not the enemy here. It is the cheapest funding you will ever have access to: no
+    equity, no interest, no covenants, and it arrives whether or not the thing worked this month.
+    The only real cost is time, and time is precisely what a forty-year-old has less of than the
+    twenty-four-year-old the rest of this genre is written for. Both halves of that sentence are
+    true, which is why this chapter is difficult.</p>
+  </section>
+
+  <section class="move">
+    <h2><span class="num">Move 2</span> What actually happened</h2>
+
+    <div class="case">
+      <p class="case-head"><span class="who">Bingo Card Creator</span> — Patrick McKenzie, Nagoya, 2006–2010</p>
+
+      <p>In 2006 an American software engineer working at a company in Nagoya started selling a small
+      program that generated bingo cards for primary-school teachers. His stated ambition, in his own
+      words at the time, was <em>"eventually making perhaps $200 a month, so that I could buy more
+      video games without feeling guilty about it."</em></p>
+
+      <p>He kept the job. Not for a few months — for roughly four years. And the job was not a gentle
+      one: he described leaving the office <em>"at 7:30 PM on a very good day"</em> with an hour and a
+      half of commute in each direction.</p>
+
+      <p>The business ran, by his own estimate, on about <strong>five hours a week</strong>. The peak
+      was the week he launched it, at fifty hours across eight days. Everything after that was
+      evenings and weekends around a full-time salaried job in a country famous for not having many
+      spare evenings.</p>
+
+      <p>What makes this case usable rather than merely charming is that he published the numbers
+      while it was happening. At the end of 2009 — still employed — the business had sold 1,049
+      copies, taken <strong>$31,156.18</strong> net of refunds, spent $12,630.47, and returned
+      <strong>$18,525.71</strong> in profit, which he reckoned at an effective
+      <strong>$125–$150 an hour</strong> for the time he put in.</p>
+
+      <p>In March 2010 he wrote that the business <em>"has made it possible to quit my day job at the
+      end of this month."</em> He went full time on 1 April 2010, and the business barely
+      noticed: $42,589.90 net of refunds that year, $25,904.66 returned. He also, by his own account,
+      worked less than before, because the product was mature — a business that works on five hours
+      a week does not automatically work better on fifty, and going full time buys attention, which
+      is only useful if there is something to point it at.</p>
+
+      <div class="figures">
+        <div><span class="k">Time on the business</span><span class="v">~5 h/week</span></div>
+        <div><span class="k">Years before leaving</span><span class="v">~4</span></div>
+        <div><span class="k">2009 net sales</span><span class="v">$31,156</span></div>
+        <div><span class="k">2009 profit</span><span class="v">$18,526</span></div>
+        <div><span class="k">Effective rate</span><span class="v">$125–150/h</span></div>
+        <div><span class="k">Left day job</span><span class="v">1 Apr 2010</span></div>
+      </div>
+    </div>
+
+    <p>The headline is the four years. Two quieter details matter more.</p>
+
+    <p>The first is that he did not leave when the business was exciting. He left when it was
+    <em>boring</em> — a mature product, four years old, with a demonstrated repeat pattern across two
+    published annual cycles and a profit line that had roughly doubled year on year while he was
+    barely touching it. The evidence he acted on was not a good month. It was a shape.</p>
+
+    <p>The second is a detail worth pausing on, because this book is supposed to be about where
+    numbers come from. His 2010 review restates the previous year's figures as $31,855.08 in net
+    sales and $16,369.80 in profit — <em>different numbers for the same year</em> than the ones he
+    published twelve months earlier. Nothing sinister: small businesses re-cut their books, refunds
+    land late, categories move. But this is the best-documented small software business of its era,
+    published in good faith by a meticulous person, and its own figures for a single year do not
+    agree with each other across two posts. And note that the two figures move differently: the revenue restatement is
+    about two per cent, the profit restatement nearly twelve. Treat any single revenue or profit
+    figure from a small business — including your own — as provisional unless you know when the books
+    were closed, which costs were counted, and whether the number was later restated.</p>
+  </section>
+
+  <section class="move">
+    <h2><span class="num">Move 3</span> The reasoning</h2>
+
+    <p>What transfers is not "wait four years." It is that the thing you are testing while
+    employed is not the one you think.</p>
+
+    <p>You think you are testing whether the product works. You are actually testing something more
+    specific and far more predictive: <strong>whether the business grows on the small, degraded,
+    interrupted attention you can give it while employed.</strong> That is a different property, and
+    it is the one that determines whether staying employed is a sensible strategy or a slow way of
+    going nowhere.</p>
+
+    <p>Some businesses compound on five hours a week. A software product with near-zero marginal
+    support cost is the obvious case: McKenzie's January work was still selling
+    in June while he slept at his desk in Nagoya. Others do not compound at all on part-time attention. A consultancy is
+    the clearest example — its revenue is a direct function of hours you are not currently able to
+    give it, and four years of evenings will produce four years of evenings, not a business. So will
+    anything requiring you to answer a phone during working hours, hold stock, or show up.</p>
+
+    <p>So the first question is not <em>when do I leave</em> but <em>does this kind of business
+    accumulate anything while I am employed?</em> If yes, the salary is nearly free funding and you
+    should use a lot of it — nearly, because four years at five hours a week is roughly a thousand
+    hours, and for a forty-year-old it is also four years of a finite career. McKenzie's patience
+    was a strategy, not a virtue, and it was cheap for him partly because he was twenty-six; paying
+    that price at forty-five is a different calculation, and nobody else can do it for you. If no, the part-time period buys much less than it appears to, and the
+    standard below cannot be reached from where you stand. That case gets its own answer further down.</p>
+
+    <h3>What counts as evidence</h3>
+
+    <p>Two published annual cycles is a high bar, and most readers will not wait for it — not out
+    of impatience, which is never what it feels like from the inside, but because the urge to leave
+    arrives as a very good month, a large customer, a bad week at work, or a reorganisation. That is
+    why the threshold has to be written down while you are calm: <a href="04-deciding-not-to.html">chapter
+    four</a>, and the fourth item on Monday's list. The minimum that means anything:</p>
+
+    <ul>
+      <li><strong>Repeat, not launch.</strong> One good month proves you have friends. Twelve months,
+      from more than one buyer and more than one route to them, proves you have a market. The
+      interesting number is what the business does in a month when you
+      do nothing.</li>
+      <li><strong>Paid, not promised.</strong> Money that has cleared, from people you are not
+      related to and did not previously work with.</li>
+      <li><strong>Covering the floor, not the ceiling.</strong> The comparison is not your current
+      salary. It is your <em>floor</em> — the mortgage, the insurance, the food, the minimum the
+      household needs — plus the cost of the benefits your employer currently pays for and you are
+      about to start paying yourself.</li>
+    </ul>
+
+    <h3>When the business cannot accumulate</h3>
+
+    <p>Everything above assumes the business earns while you are at a desk somewhere else. For a
+    consultancy, an agency, or anything needing you to answer a phone at eleven on a Tuesday, it does
+    not. Told to leave on repeat paid revenue covering your floor, you get a bar you can
+    only clear by first doing the thing it is meant to authorise. That is circular, and it wants a
+    different standard.</p>
+
+    <p>Three parts, replacing the three above rather than supplementing them.</p>
+
+    <ul>
+      <li><strong>Signed pipeline instead of revenue.</strong> You cannot bill hours you do not
+      have, so what accumulates is commitments to buy them later — written, dated, from independent
+      buyers who know you are unavailable until you resign. This is
+      <a href="02-talking-to-people.html#presale">chapter two's</a> ladder applied to your own
+      time: rung two at minimum, and a deposit beats a warm letter from someone who will not miss the
+      money. For a shop, a stall or a café — where nobody signs in August for coffee in October —
+      the pipeline is the smallest version that can run on the days you are not employed: a
+      market stall, a weekend pop-up, a standing order for an office's Friday lunch. Its takings
+      are your signed pipeline, and the shape they make over three months is the evidence.</li>
+      <li><strong>Runway counted in months of floor.</strong> Same floor as above; what matters is
+      how many months of it you hold, not what is in the account. Consultancy
+      revenue arrives late even when it arrives: signed in March, worked in May, invoiced in June,
+      paid in August, and only if nobody is slow. Count to the payment, not the signature.</li>
+      <li><strong>A bounded experiment with the consequence written first.</strong> The evidence
+      cannot be gathered while employed, so leaving <em>is</em> the experiment, and an experiment has
+      a duration and an exit. <a href="04-deciding-not-to.html">Chapter four's</a> three components
+      apply exactly: threshold, date, consequence, decided while you are calm. Make the consequence
+      Galperin's — return to salary, not demolition — because a rule you can honour is the only kind
+      that survives the month you need it.</li>
+    </ul>
+
+    <p>Be clear about what this is. The first standard measures — the business has already shown it
+    can pay you. This one is a bet with the odds written down: strictly worse, and choosing it is a
+    fact about which trade you are in rather than a failure of nerve.</p>
+
+    <p><strong>No case in these pages supports this version.</strong> The three parts are reasoning
+    from the rest of Part I; everything checkable here concerns a business that did accumulate while
+    its owner was employed.</p>
+
+    <p>On Dutch ground, whether your employer can forbid the side business, what a non-compete clause is worth, and what resigning does to unemployment entitlement all have statutory answers, commonly got wrong in both directions; <a href="#ground">the section at the end of this chapter</a> quotes them.</p>
+  </section>
+
+
+  <section class="monday">
+    <h2>Monday</h2>
+    <ol>
+      <li><strong>Decide whether your business compounds on part-time attention.</strong> Write one sentence answering: <em>what did this business earn last month from work I did more than sixty days ago?</em> If the honest answer is "nothing," the salary is buying you far less than you think, and your plan needs to change rather than lengthen.</li>
+      <li><strong>Calculate your floor, not your salary.</strong> Mortgage, insurance, food, childcare, and the benefits your employer currently pays that you will pay yourself. One number. It is almost always considerably lower than your gross salary and considerably higher than people guess.</li>
+      <li><strong>Read your employment contract for the two clauses.</strong> Find the side-activities clause and the non-compete, and write down what each actually says rather than what you assume. If either would bite, book the hour with an employment lawyer before you build anything else on top of it.</li>
+      <li><strong>Write the threshold, with a number and a date.</strong> For example: <em>if the business has cleared my floor for six consecutive months by 30 June, I give notice.</em> Then write the second half, which most people skip: what you do if it has not.</li>
+      <li><strong>Count your runway in months and put it next to the threshold.</strong> Savings divided by floor. If the runway is shorter than the time your threshold needs to be satisfied, you do not have a plan yet — you have a hope with a date on it.</li>
+    </ol>
+  </section>
+
+  <div class="counter">
+    <p class="case-head"><span class="who">The counter-case: Gymdesk</span> — when the stopping rule is wrong</p>
+
+    <p>Eran Galperin built a runway and gave the business a defined period in which to prove it could
+    support him — the threshold discipline of Monday item four. By his own later account: <em>"I had hoped
+    that I could focus on Gymdesk full time and hopefully reach enough revenue within the 6 months
+    runway I had built."</em></p>
+
+    <p>What he did not have was the evidence standard set out above: no customers at all on the day
+    he went full time, and no revenue for months after. So this tests the threshold, not the advice
+    to leave only once repeated paid revenue covers your floor.</p>
+
+    <p>The six months came and the answer was no. His account is blunt about it — <em>"I was wrong. In
+    reality it took 3 whole years for the business to grow to the point it could provide for me full
+    time."</em> He went back to paid work and kept part of each week for the business;
+    <a href="04-deciding-not-to.html">chapter four</a> tells that part, because there it is a story
+    about consequences. What matters here is the counterfactual. A threshold of the kind this chapter
+    asks for — a number, a date, and the discipline to honour it while calm — would have closed
+    Gymdesk in 2016. It would have been correct on its own terms and wrong about the business,
+    because what those six months measured was not whether the business could work. It was how long
+    its owner needed to learn marketing.</p>
+
+    <p>That is the boundary of everything in this chapter. Thresholds protect you from your own
+    optimism, and they cannot tell the difference between a business that will not work and one whose
+    owner has not yet learned the part they were missing. Galperin's answer was not to abandon the
+    threshold but to change what failing it meant: not <em>stop</em>, but <em>go back to a salary and
+    keep going</em>. That option is available to you too, and it is worth deciding now — while you can
+    still think clearly — whether your threshold failing means the end or a return.</p>
+  </div>
+
+  <div class="owed">
+    <strong>A counter-case is still owed for the central advice.</strong> It would be someone who
+    left only after repeated paid revenue covered their floor, then failed because leaving itself
+    damaged the business or the evidence did not transfer. Gymdesk tests the threshold instead. No
+    qualifying case has been found; the <a href="../about.html#counter">debt remains</a>.
+  </div>
+
+  <section class="part-close">
+    <h2>Closing Part I · Is there anything here?</h2>
+
+    <p>Four chapters, and they were one ladder. Each rung costs more than the last and is worth more
+    than the last, and the order is not a preference:</p>
+
+    <p class="ladder">observation → conversation → commitment → stopping rule → leaving employment</p>
+
+    <p>Before going on to <em>Will someone pay?</em>, you should be able to point at all six of
+    these. Not feel them. Point at them.</p>
+
+    <ol>
+      <li>A problem you have <strong>observed</strong>, rather than imagined — someone else's, happening whether or not you are watching. <a href="01-the-only-question.html">Chapter one</a>.</li>
+      <li>Accounts of <strong>recent behaviour</strong> and the <strong>workarounds</strong> people already use, gathered in the past tense from people who could comfortably have told you no. <a href="02-talking-to-people.html">Chapter two</a>.</li>
+      <li>A <strong>costly commitment</strong> from at least one of them — money, at a rung you can name. <a href="02-talking-to-people.html#presale">Chapter two</a>.</li>
+      <li>A <strong>separate</strong> answer to whether that commitment can actually be delivered, at that price, by that date. The same chapter, the other axis, and the one people skip.</li>
+      <li>A written <strong>metric, date and consequence</strong> that could stop the project or change its shape — with the consequence chosen from the full menu, not just <em>stop</em>. <a href="04-deciding-not-to.html">Chapter four</a>.</li>
+      <li>The <strong>evidence you require of yourself before resigning</strong>, written down while you are still calm and still paid. This chapter.</li>
+    </ol>
+
+    <p>Now the limitation, because it is larger than the achievement. Everything above concerns
+    <em>one</em> sale, or a handful. You still do not know whether customers can be found
+    <em>repeatedly</em>, what they should be charged, or whether the economics survive doing it a
+    hundred times. A single commitment proves a person exists who wanted this. It says nothing about
+    whether there is a second one, or where you would find them, or what it would cost to.</p>
+
+    <p>Those are the questions of Parts II and III, and they are where most of the businesses that
+    clear Part I still die.</p>
+  </section>
+
+  <section class="reading">
+    <h2>Reading</h2>
+    <ul>
+      <li><span class="src">Source ·</span> Patrick McKenzie, <a href="https://www.kalzumeus.com/2009/12/18/bingo-card-creator-year-in-review-2009/">"Bingo Card Creator Year In Review 2009"</a> — sales, refunds, expenses, profit and effective hourly rate, published while still employed.</li>
+      <li><span class="src">Source ·</span> Patrick McKenzie, <a href="https://www.kalzumeus.com/2010/03/20/running-a-software-business-on-5-hours-a-week/">"Running A Software Business On 5 Hours A Week"</a>, March 2010 — the five-hour average, the Nagoya working day, the $200-a-month original ambition, and the announcement of leaving.</li>
+      <li><span class="src">Source ·</span> Patrick McKenzie, <a href="https://www.kalzumeus.com/2010/12/17/bingo-card-creator-etc-year-in-review-2010/">"Bingo Card Creator (&amp; etc) Year In Review 2010"</a> — the 1 April departure, the 2010 figures, and the restated 2009 figures that do not match the 2009 post.</li>
+      <li><span class="src">Source ·</span> Eran Galperin, <a href="https://erangalperin.com/2022/12/25/bootstrapping-to-profitability-the-story-of-a-b2b-saas-founder/">"Bootstrapping to Profitability"</a>, 2022 — the six-month runway, the return to employment at four days a week, $10k MRR, and the June 2019 departure. A later retelling by the founder, and weaker evidence than the contemporaneous posts above; treated as such here.</li>
+      <li><span class="src">Source ·</span> <a href="https://wetten.overheid.nl/BWBR0005290/2026-01-01">Burgerlijk Wetboek Boek 7</a>, articles 653 and 653a, and <a href="https://wetten.overheid.nl/BWBR0004045/2026-01-01">Werkloosheidswet</a>, article 24 — consolidated texts, wetten.overheid.nl.</li>
+      <li>Jason Fried and David Heinemeier Hansson, <em>Rework</em> (2010) — on building a business inside the hours you actually have.</li>
+    </ul>
+  </section>
+
+  <div class="ground" id="ground">
+    <h3>On Dutch ground · what your employment lets you do</h3>
+
+    <p>This section is for readers employed in the Netherlands. Three questions have statutory answers, and all three are commonly got wrong in both directions — by employers who overstate their rights and by employees who assume
+    they have none.</p>
+
+    <p><strong>Can your employer forbid you from building it?</strong> Article 7:653a of the Civil
+    Code says a clause by which the employer prohibits or restricts the employee from performing work
+    for others outside working hours is <em>void</em> — <span lang="nl">"is nietig"</span> — unless
+    the clause can be justified on the ground of an objective reason. The burden sits with the
+    employer, and it sits there at the moment they invoke it. Note that the statute never uses the
+    word <span lang="nl">nevenwerkzaamheden</span>, which is the term you will meet in every article
+    written about it.</p>
+
+    <p><strong>Can a non-compete stop you afterwards?</strong> Article 7:653 makes such a clause valid
+    only where the contract is for an indefinite term <span lang="nl">("de arbeidsovereenkomst voor
+    onbepaalde tijd is aangegaan")</span> and it was agreed in writing with an adult employee. In a
+    fixed-term contract it is permitted only where the employer's written motivation shows it is
+    necessary on grounds of <span lang="nl">"zwaarwegende bedrijfs- of dienstbelangen"</span>. A court
+    may annul such a clause in whole or in part.</p>
+
+    <p><strong>What does resigning do to unemployment benefit?</strong> Under article 24 of the
+    Werkloosheidswet, an employee is culpably unemployed where the employment ended by or at their own
+    request <span lang="nl">("door of op verzoek van de werknemer")</span> without continuation being
+    something that could not reasonably be expected of them. Resigning to start a business is a
+    choice, and you should plan on the basis that it carries no safety net.</p>
+
+    <p>None of this is advice, and the general rules have exceptions that are exactly the sort that
+    get expensive. Before you hand in notice, pay an <span lang="nl">arbeidsrechtadvocaat</span> for
+    an hour to read your actual contract, and ask your accountant about the structure and the
+    insurances you will be buying for yourself. An hour is cheap relative to the mortgage.</p>
+
+    <span class="checked">Checked 2 August 2026 against the consolidated texts of Burgerlijk Wetboek
+    Boek 7 and the Werkloosheidswet on wetten.overheid.nl. Rules move; the date is there so you know
+    how stale this is.</span>
+  </div>
+
+  <nav class="chapter-nav">
+    <a href="04-deciding-not-to.html"><span class="dir">Previous</span>4 · Deciding Not To</a>
+    <a class="next" href="06-who-is-this-for.html"><span class="dir">Next</span>6 · Who Is This For</a>
+  </nav>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>The Going Concern · Chapter 5.</p>
+  </div>
+</footer>
+
+</body>
+</html>

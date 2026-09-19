@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1 · The Only Question That Matters — The Going Concern</title>
+<meta name="description" content="Demand is not a fact about the world waiting to be found. It is a relationship between what people want, what they will pay, and what it costs you to serve them — and Webvan died inside that gap with the demand it had bet on already in hand.">
+<link rel="canonical" href="https://anthonykot.github.io/going-concern/chapters/01-the-only-question.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="The Going Concern">
+<meta property="og:title" content="1 · The Only Question That Matters">
+<meta property="og:description" content="Demand is not a fact about the world waiting to be found. Webvan died inside that gap with the demand it had bet on already in hand.">
+<meta property="og:url" content="https://anthonykot.github.io/going-concern/chapters/01-the-only-question.html">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../static/style.css">
+<script src="../static/theme.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html">The Going <span>Concern</span></a>
+    <nav class="site-nav">
+      <a href="../index.html">Chapters</a>
+      <a href="../about.html">Method</a>
+      <button class="theme-toggle" type="button">☾ Dark</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <p class="kicker">Part I · Is there anything here? · Chapter 1</p>
+  <h1>The Only Question That Matters</h1>
+  <p class="lede">Every business book eventually says that you cannot create demand, only find it.
+  This is true, and stated that way it is nearly useless — because a business can die of this
+  while holding the very demand it bet on. Webvan did.</p>
+
+  <div class="decision">
+    <span class="tag">The decision</span>
+    Whether to commit money to building the thing, before you know that enough people want it at a
+    price that covers what it costs you to make.
+  </div>
+
+  <section class="move">
+    <h2>Demand is three numbers, not one</h2>
+
+    <p>You have an idea you cannot stop thinking about, and the thinking has reached the stage where
+    it costs money to continue. Not much, at first. A deposit on a unit. A machine. Three months of
+    your own time, which you have stopped counting because counting it is discouraging.</p>
+
+    <p>Everyone you have described it to thinks it is a good idea. This is the least informative
+    sentence in this book; <a href="02-talking-to-people.html">chapter two</a> is about why.</p>
+
+    <p>The advice you will receive at this point, from every direction, is that you should validate
+    demand before you build. It is correct advice. It is also, in the crude form in which it is
+    almost always given, a piece of advice you can follow scrupulously and still lose everything —
+    because it treats demand as a fact about the world, a yes or a no, when it is actually a
+    relationship between three quantities that move independently of one another:</p>
+
+    <ul>
+      <li>how many people want it,</li>
+      <li>what they will pay,</li>
+      <li>and what it costs you to serve them at that volume.</li>
+    </ul>
+
+    <p>Move any one of those and the answer changes. A market that is real at ten thousand customers
+    is imaginary at four hundred. A grocery order people will genuinely place at $81 does not exist
+    at $103, and a building priced on the second number is a building priced on a fiction. The
+    question is never <em>is there demand</em>. The question is whether there is demand <em>in the
+    shape your cost structure requires</em>, and the second question is much harder to ask, because
+    it requires you to know your cost structure before you have built anything.</p>
+
+    <p>What follows is the most expensive illustration available of the difference between the two
+    questions.</p>
+  </section>
+
+  <section class="move">
+    <h2>Webvan: the demand was real</h2>
+
+    <div class="case">
+      <p class="case-head"><span class="who">Webvan</span> — Foster City, California, 1996–2001</p>
+
+      <p>Louis H. Borders, who founded Borders Books in 1971, founded Webvan in December 1996 on a
+      premise that was not stupid and has since been proved correct: people would rather not go to
+      the supermarket.</p>
+
+      <p>Borders' answer was automation. Rather than picking orders off shop shelves, Webvan built
+      purpose-designed distribution centres. Each was sized, in the company's own words, "to process
+      product volumes equivalent to approximately 18 supermarkets" — a designed capacity of
+      <strong>8,000 orders per day</strong>. At that volume, with an average order of $103, Webvan
+      told investors a centre would run at a 12% operating margin and generate $300 million a year.
+      One building, doing the work of eighteen shops.</p>
+
+      <p>The Webstore opened on 2 June 1999. The following month, with the first orders barely
+      counted, Webvan signed an agreement with the engineering firm Bechtel to build up to
+      <strong>26 more</strong> distribution centres over three years — a programme the company
+      estimated at approximately $1.0 billion, each centre costing $30–35 million. One building was
+      taking orders; twenty-six more were on paper.</p>
+
+      <p>The orders were not enough.</p>
+
+      <p>As of 31 December 1999 the Oakland centre — the flagship, the proof of the model — was
+      running at <strong>less than 25% of the capacity for which it was designed</strong>. Nine
+      months later, as of 30 September 2000, it had reached <strong>less than 40%</strong>. Both
+      figures are Webvan's own disclosures to the SEC.</p>
+
+      <p>The order size problem the company could fix, and did. The average order in the fourth
+      quarter of 1999 was <strong>$81.31</strong>, more than $20 short of the $103 the model
+      required; by the fourth quarter of 2000 it had reached $112. What Webvan could not fix was
+      volume. In the third quarter of 2000, after five full quarters of operation, the Oakland
+      prototype still did not break even on a cash-flow basis, and the company estimated that order
+      volume would have to rise <strong>"by a minimum of forty percent"</strong> from September's
+      level to get there. It also disclosed, flatly, that "to date no Webvan facility has become
+      profitable on a cash-flow basis."</p>
+
+      <p>The accumulated deficit ran $159.4 million at the end of 1999, $440 million by September
+      2000, and <strong>$612.7 million</strong> by December 2000 — a net loss of $453.3 million in
+      that year alone. Webvan filed for Chapter 11 in July 2001.</p>
+
+      <div class="figures">
+        <div><span class="k">DC design capacity</span><span class="v">8,000/day</span></div>
+        <div><span class="k">Oakland, Dec 1999</span><span class="v">&lt;25%</span></div>
+        <div><span class="k">Oakland, Sep 2000</span><span class="v">&lt;40%</span></div>
+        <div><span class="k">Still needed to break even</span><span class="v">+40%</span></div>
+        <div><span class="k">Avg order, Q4 1999</span><span class="v">$81.31</span></div>
+        <div><span class="k">Deficit, Dec 2000</span><span class="v">$612.7m</span></div>
+      </div>
+    </div>
+
+    <p>Read those numbers again, because almost every retelling of this story gets the moral
+    wrong.</p>
+
+    <p>Webvan was not off by an order of magnitude. It needed forty per cent more orders. Under 40%
+    of eight thousand is still upwards of three thousand grocery deliveries a day, every day, in one
+    metropolitan area, in the year 2000 — thousands of households doing precisely the thing the
+    company had been founded on the belief that they would do. The demand was <em>there</em>. It was
+    not there in the quantity required by a building sized for eighteen supermarkets, which had been
+    designed before anyone knew what the real number would be.</p>
+
+    <p>And here the popular version of the story needs correcting, because the Bechtel agreement is
+    usually presented as the fatal act — a billion dollars signed away on warehouses nobody wanted.
+    The filings say otherwise. Webvan disclosed that it had <em>"no obligation under the Bechtel
+    agreement to build any distribution centers and, consequently, no capital commitment under the
+    agreement until Webvan determines to proceed"</em> with a particular site. By late 2000 it had
+    no plans to build any more, and said so. The option was real and the company exercised it.</p>
+
+    <p>It died anyway — because optionality on the centres you have not built yet does nothing about
+    the ones already standing. Webvan's error was not the contract for twenty-six warehouses. It was
+    the first one: committing to a facility whose economics required eight thousand orders a day
+    before a single customer had placed one. Everything after that was an attempt to grow demand up
+    to a cost structure that had been fixed in advance — a race run on the cost structure's terms,
+    against a deadline set by the bank balance.</p>
+
+    <p>Put the model the other way round and it is a forecast. A centre that pays only at 8,000
+    orders a day, at $103 an order, at a 12% margin, is a prediction that 8,000 households in one
+    city will order groceries every day — written in concrete before it was written down. That is
+    the arithmetic this chapter ends by asking you to do on Monday, at your own scale. Webvan did
+    it after the building was up.</p>
+
+    <div class="aftermath">
+    <p class="case-head"><span class="who">Aftermath: Instacart</span> — the same idea, a decade later</p>
+
+    <p>The obvious question about Webvan is whether it was simply wrong about people wanting
+    groceries delivered. It was not.</p>
+
+    <p>Instacart, founded in 2012, went after the same appetite and built no warehouses at all. It
+    used the shops that already existed and paid people to walk around them. In 2022 it fulfilled
+    <strong>262.6 million orders</strong> across the United States — up from 223.4 million the year
+    before — on gross transaction value of <strong>$28.8 billion</strong>, and reported its first
+    annual net profit: $428 million, of which $358 million was a tax benefit from releasing a
+    valuation allowance rather than anything that happened in the business.</p>
+
+    <p>Two cautions, because it is easy to take too much from that. Those are national figures set
+    against one Oakland facility, so any ratio between them is arithmetic without meaning. And
+    Instacart's decade was not Webvan's: smartphones, retailer integrations and a labour market that
+    made same-hour delivery affordable all arrived in between. This is not the same business built
+    better. It is a different business serving a demand that had, by then, become servable.</p>
+
+    <p>What the comparison establishes is narrow and sufficient. The appetite Webvan bet on was real,
+    and it was still real long after Webvan was gone. Whatever killed the company, it was not that
+    nobody wanted the product — which leaves the cost structure holding the bill.</p>
+    </div>
+  </section>
+
+  <section class="move">
+    <h2>The rule, in its useful form</h2>
+
+    <p>The principle underneath all of this is usually called the iron law of the market, and it
+    says that no quality of execution will save a business selling something nobody wants. That is
+    true, and it is much narrower than the version you will hear, because demand does not sit in the
+    world as a fixed quantity waiting to be discovered. Repositioning an identical product for a
+    different buyer can turn an indifferent market into an eager one; removing friction — a form
+    that takes two minutes instead of twenty, delivery on Thursday instead of "within three weeks" —
+    routinely converts people who wanted the thing in principle into people who buy it; naming a
+    category can assemble a demand that was real but had no word for itself, and therefore no way
+    to search for you. All of that is execution, and all of it changes the number. What execution
+    cannot do is make people value something they fundamentally do not want. Keep that. It disposes
+    of a large category of doomed ideas at no cost — provided you keep sharp the line between
+    creating awareness of a product people would like if they knew about it, which is an ordinary,
+    winnable job, and manufacturing a preference that is not there, which is not; most businesses
+    that believe themselves to be doing the first are doing the second, and the failure mode looks
+    identical from inside for about eighteen months. If you take nothing else from this book, take
+    the habit of asking the question before rather than after.</p>
+
+    <p>But state it in its useful form, which has a second clause:</p>
+
+    <blockquote>Demand must exist — and it must exist at a volume and price that the cost structure
+    you are about to commit to can survive.</blockquote>
+
+    <p>The first clause protects you from building something nobody wants. The second protects you
+    from a different failure, and a harder one to see coming: building the right thing on a cost base
+    that requires a level of demand you have not yet demonstrated. That failure is the subject of
+    this chapter. It is difficult to recognise from inside because everything except the arithmetic
+    looks like a business that is working — and the second clause is stated in terms of your cost
+    structure rather than the market because demand can be real and simply <em>early</em>. Webvan's
+    market existed in 1999. It did not exist at 1999's cost of labour, smartphone penetration, or
+    consumer habit. Being ten years early is indistinguishable, from inside the business, from being
+    wrong: the spreadsheet looks the same, the bank balance looks the same, and the market research
+    says people want it, which they do. You cannot control when a market arrives. You can control
+    whether you are still solvent when it does.</p>
+
+    <p>Two consequences follow.</p>
+
+    <h3>Your cost structure is a demand forecast in disguise</h3>
+
+    <p>When you sign a five-year lease, hire your second employee, or buy a machine that only pays
+    for itself at a certain throughput, you are not making an operational decision. You are making a
+    quantitative prediction about demand and putting money behind it, usually without noticing that
+    you have done so. Every fixed cost you take on has a number hidden inside it: the volume at
+    which it stops being a mistake.</p>
+
+    <p>Most owners could not state that number for their largest fixed cost, and the principle does
+    not scale even though the number does: a business whose entire footprint is one room on a
+    twelve-month lease has a breakeven exactly as a $35 million building does, and an owner who
+    cannot state it is in Borders' position with fewer zeros — and with less margin for being early.
+    Ten minutes with the one in front of you converts a vague anxiety into an arithmetic problem, and arithmetic problems
+    can be solved.</p>
+
+    <h3>Variable beats fixed until you know the number</h3>
+
+    <p>Before you have real demand data, the correct instinct is to convert as much as possible of
+    your cost base from fixed to variable, even when the variable option is more expensive per
+    unit. Renting is worse than owning at scale and better than owning at uncertainty. Contractors
+    cost more per hour than employees and can be stopped. Where nothing converts — you cannot build
+    a quarter of a steel mill or license half a pharmacy, and there are real markets where the
+    minimum viable physical footprint is large — this advice does not soften; it hardens: there is
+    no small version to build, so the response is to demand far more evidence before committing,
+    and to secure the demand contractually before the capital goes in rather than after, which is
+    <a href="02-talking-to-people.html#presale">chapter two</a>. Before the evidence is in,
+    worse unit economics you can switch off are usually worth the premium over better ones you
+    cannot.</p>
+
+    <p><em>Usually</em>, not <em>always</em>. <em>Worth the premium</em> is a statement about the
+    odds; the counter-case it owes is in the note at the end of this chapter.</p>
+
+    <p>This inverts once you know the number. After demand is demonstrated and stable, the fixed-cost
+    version is often cheaper per unit, and an owner who stays variable long after the volume is
+    proven may be leaving margin for a competitor to take. The trap is not fixed costs. The trap is
+    taking them on in the wrong order.</p>
+
+    <h3>The same arithmetic at the size of one person</h3>
+
+    <p><strong>This is an invented example; Lea returns in chapter ten.</strong> Lea is an
+    employed developer. She wants to sell small consultancies an automated weekly report: €900 a
+    job, about €50 of tools per job and, by her estimate, eight hours of delivery and two of
+    selling. Nobody has paid her yet. Several former colleagues have told her it is a great idea.</p>
+
+    <p>Her warehouse is not a building. It is a day of her salary. She could ask her employer for
+    a four-day week, which would take €800 a month off what reaches her household, and the
+    business would cost about €100 a month in software and bookkeeping whatever she sold. So the
+    four-day week is a forecast in disguise. It says: jobs will replace €900 a month. Her pay is
+    inside that number, because a breakeven that pays you nothing is not a breakeven; it is a
+    hobby with an accountant.</p>
+
+    <p>Each job leaves €850 after its tools. One job a month leaves her €50 short; two clear the
+    line with €800 to spare. <strong>Two jobs a month is her Oakland number</strong>: the volume
+    at which the commitment stops being a mistake. Her time is counted once, as the twenty hours
+    two jobs would take, well inside the day she would free. Her pay is counted once, as the €800
+    the jobs must replace. She does not also charge each job for her own hours at somebody else's
+    rate; that would bill her twice for the same day. Chapter ten prices those hours to answer a
+    different question: whether the work itself is worth doing.</p>
+
+    <p>Now the evidence. Paid customers: zero. Against a forecast of two a month, zero is the
+    whole answer. Asking for the four-day week today would be Webvan's first building: a fixed
+    cost set before a single order.</p>
+
+    <p>The variable version exists. Lea has about thirty-two hours a month outside her job and
+    household — on her own estimate, room for three jobs. It is slower and more tiring, and it
+    commits her to nothing she cannot stop. She also asks her employer one question: if she moves
+    to four days, can she move back, and on what notice? The answer tells her whether this
+    warehouse has a door.</p>
+
+    <p>So she writes the rule while nothing is sunk: <em>if three customers have paid by the end
+    of March, and the jobs took roughly the ten hours each I estimated, I ask for the four-day
+    week; if not, I don't, and I find out why.</em> The second half matters as much as the first:
+    the money works on ten hours a job, and at twice that, two jobs would eat the freed day and
+    more. The rule is not a verdict on
+    the idea. It is the idea's first test, sized so that failing it costs evenings, not a salary.
+    <a href="10-the-first-ten-customers.html">Chapter ten</a> picks her up after three paid jobs
+    and shows what her ten hours turned into.</p>
+
+    <p>Notice what her rule refuses to count: the colleagues who said it was a great idea.
+    Everyone hears that sentence. <a href="02-talking-to-people.html">Chapter two</a> is about why
+    it tells you almost nothing, and what to ask instead.</p>
+  </section>
+
+  <section class="monday">
+    <h2>Monday · one commitment, one number</h2>
+    <p><strong>Do this one thing.</strong> Name your first warehouse: the biggest commitment you
+    are about to make that you cannot cheaply undo — a lease, a hire, a machine, the salary you
+    stop drawing. Write what it adds to each month, including any pay it takes away from your
+    household. Divide that by what one sale leaves after its own cash costs — fees, materials,
+    hosting, not your hours — and round up. That is how many sales a month the commitment is
+    betting on. Beside it, write how many people have actually paid you or signed something
+    binding. Compliments, sign-ups and “I would definitely use that” count as zero. You now hold
+    the commitment's demand forecast and your evidence against it. If the second number is zero,
+    that is not a failure; it is the accurate starting position.</p>
+    <p><strong>Missing a number?</strong> If you have no price yet, or do not know what a sale
+    costs you, write each missing input and where you will get it —
+    <a href="09-what-to-charge.html">chapter nine</a> for the price, <a href="02-talking-to-people.html">chapter two</a>
+    for paid evidence. That list is Monday done, and it is also an answer: a commitment whose
+    number you cannot yet write down can wait until you can.</p>
+    <p>If you have another hour:</p>
+    <ol>
+      <li><strong>Check the hours.</strong> Multiply the sales you need by the hours each takes,
+      selling included, and hold that against the hours you actually have. The money can clear
+      while the week does not.</li>
+      <li><strong>Write the stopping rule, with a date and a number.</strong> Something you cannot
+      argue with later: <em>if fewer than eight customers have paid by 30 September, I do not sign
+      the lease.</em> Write it now, while you are calm and nothing is sunk.</li>
+      <li><strong>Price the cancellable version.</strong> Get the actual quote and the actual notice
+      period for the smaller, stoppable form of the same commitment this week, and see what the
+      option to be wrong costs. <a href="04-deciding-not-to.html">Chapter four</a> is entirely
+      about this.</li>
+    </ol>
+  </section>
+
+  <details class="owed rests">
+    <summary>What this chapter rests on, and what it cannot show</summary>
+    <p>Webvan's figures are its own filings to the SEC; Instacart's are its 2023 registration
+    statement. Lea, her prices, costs and rule are invented to show the arithmetic at a reader's
+    scale. They are not evidence that her rule is the right one.</p>
+    <p><strong>Still owed:</strong> a business that stayed deliberately cheap and variable, then
+    lost its market to a competitor that committed to fixed capacity early and won on scale
+    economics. No checkable case has been found; Instacart is an aftermath, not that case. The
+    <a href="../about.html#counter">method page records the debt</a>.</p>
+  </details>
+
+  <section class="reading">
+    <h2>Reading</h2>
+    <ul>
+      <li><span class="src">Source ·</span> Webvan Group, Inc., <a href="https://www.sec.gov/Archives/edgar/data/1092657/0000891618-00-001877.txt">Form 10-K405 for FY1999</a> (filed 30 March 2000) — the 18-supermarket sizing, the 8,000-orders-per-day designed capacity, the 12% operating margin at $103 per order, the $300 million revenue figure, the $81.31 average order in Q4 1999, the "less than 25% of such designed capacity" disclosure, the Bechtel agreement for up to 26 centres at $30–35 million each, and the $159.4 million accumulated deficit.</li>
+      <li><span class="src">Source ·</span> Webvan Group, Inc., <a href="https://www.sec.gov/Archives/edgar/data/1092657/0000891618-00-005126.txt">Form 10-Q for the quarter ended 30 September 2000</a> — "less than 40% of such designed capacity"; the Oakland centre's failure to reach cash-flow breakeven in its fifth full quarter and the "minimum of forty percent" volume increase required; "no obligation … no capital commitment" under the Bechtel agreement; $440 million accumulated deficit.</li>
+      <li><span class="src">Source ·</span> Webvan Group, Inc., <a href="https://www.sec.gov/Archives/edgar/data/1092657/0001012870-01-001485.txt">Form 10-K for FY2000</a> (filed 2 April 2001) — $612.7 million accumulated deficit, $453.3 million net loss for 2000, average order size $104 for the year and $112 in Q4.</li>
+      <li><span class="src">Source ·</span> Maplebear Inc. (Instacart), <a href="https://www.sec.gov/Archives/edgar/data/1579091/000119312523221345/d55348ds1.htm">Form S-1</a>, 2023 — 262.6 million orders in 2022 against 223.4 million in 2021; GTV of $28,826 million; net income of $428 million "including a $358 million tax benefit from the release of our valuation allowance."</li>
+      <li><span class="src">Worked example ·</span> Lea and every figure attached to her are invented for this chapter; <a href="10-the-first-ten-customers.html">chapter ten</a> continues her after her first three jobs.</li>
+      <li>Josh Kaufman, <em>The Personal MBA</em> (2010) — "Iron Law of the Market," for the principle in its crude and more quotable form.</li>
+      <li>Rob Fitzpatrick, <em>The Mom Test</em> (2013) — what to do with the observation that everybody likes your idea. This is <a href="02-talking-to-people.html">chapter two</a>.</li>
+      <li>Randy Komisar and Jantoon Reigersman, <em>Straight Talk for Startups</em> — on fixed versus variable commitments before product-market fit.</li>
+    </ul>
+  </section>
+
+  <nav class="chapter-nav">
+    <a href="../index.html"><span class="dir">Back to</span>All chapters</a>
+    <a class="next" href="02-talking-to-people.html"><span class="dir">Next</span>2 · What They Say, What They Pay</a>
+  </nav>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>The Going Concern · Chapter 1.</p>
+  </div>
+</footer>
+
+</body>
+</html>

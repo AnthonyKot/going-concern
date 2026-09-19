@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>28 · Knowing When to Stop — The Going Concern</title>
+<meta name="description" content="How to decide whether another attempt is worth funding, and prepare for an exit. Binpress and the conversation its founders postponed.">
+<link rel="canonical" href="https://anthonykot.github.io/going-concern/chapters/28-knowing-when-to-stop.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="The Going Concern">
+<meta property="og:title" content="28 · Knowing When to Stop">
+<meta property="og:description" content="Another attempt, a smaller business, or an exit: making the decision while you still have choices.">
+<meta property="og:url" content="https://anthonykot.github.io/going-concern/chapters/28-knowing-when-to-stop.html">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../static/style.css">
+<script src="../static/theme.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html">The Going <span>Concern</span></a>
+    <nav class="site-nav">
+      <a href="../index.html">Chapters</a>
+      <a href="../about.html">Method</a>
+      <button class="theme-toggle" type="button">☾ Dark</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <p class="kicker">Part V · Will it last? · Chapter 28</p>
+  <h1>Knowing When to Stop</h1>
+  <p class="lede">Customers still pay and there is still work to do. You have tried to change
+  the business, but the changes have not done enough. The difficult conversation is whether
+  another attempt has a reason behind it that the last one did not.</p>
+
+  <div class="decision">
+    <span class="tag">The decision</span>
+    Whether to fund another attempt, change what you expect from the business, or begin closing
+    it while you still have choices about how to leave.
+  </div>
+
+  <section class="move">
+    <h2>The conversation you keep postponing</h2>
+
+    <p><a href="27-built-to-leave.html">Chapter twenty-seven</a> asked whether you are building a
+    practice or an asset. This chapter's three choices apply to both — another attempt, a smaller
+    business, or an exit. A practice measures the next attempt against the income and working life
+    it needs; an asset measures it against whether someone else could take it over.</p>
+
+    <p>It has not failed. That is what makes it hard. Customers still pay, the people still come
+    to work, and the accounts still produce numbers an accountant can sign. But the last big
+    move did not do enough, the one before it did not either, and the weekly conversation
+    with yourself or your partner has had the same item on it for longer than you would admit:
+    what more can we do?</p>
+
+    <p>You can usually find an answer. There is a customer you have not approached, a feature
+    you have not finished, a price you have not tried. An idea is easier to discuss than the
+    possibility that this business will not become what you wanted. It gives tomorrow a task.
+    Closing asks what happens to customers, colleagues and a large part of your own working life.</p>
+
+    <p>Another attempt may be the right decision. The problem is agreeing to it without discussing
+    what would make it worthwhile, or what remains if it fails. Money spent on one more launch
+    is no longer available for the end. Time spent on it is time you cannot put into finding
+    other work. You need to compare those uses while you still have the resources to choose.</p>
+
+    <p>If you own the business with someone else, you may also disagree about what needs saving.
+    One of you may want an income from a smaller operation; the other may only want to continue
+    if it can grow. Have that conversation before debating the next tactic. A revenue target
+    cannot settle a disagreement about the business you are willing to own.</p>
+  </section>
+
+  <section class="move">
+    <h2>Binpress had reasons to try again</h2>
+
+    <p>Before Gymdesk, Eran Galperin co-founded Binpress, a marketplace for developers' code
+    libraries. In his 2016 postmortem, he described a company that had found paying customers
+    and raised almost $1 million in seed funding, but had not found the growth its founders
+    expected. Monthly revenue had reached $30,000 at its peak, by his account. The numbers
+    made it possible to believe there was more to build on.</p>
+
+    <p>The founders tried marketing hires and a succession of sales experiments. Some efforts
+    helped, but none produced the larger change they wanted. By September 2014 they had spent
+    a little over half the money raised. Galperin judged that pace of spending healthy only
+    if the business was growing. They chose to use the remaining opportunity for a different
+    product.</p>
+
+    <p>This was not a direction chosen at random. A feature allowing publishers to sell through
+    an external checkout had shown some success. They would extend it into branded stores for
+    digital products, beyond the original code marketplace: the <em>“Shopify for digital
+    products”</em>. Existing publishers expressed enthusiasm, especially larger ones already
+    making sales. Galperin describes about three months of development, working ten to twelve
+    hours a day. From inside the company, there was work going well and an audience that
+    appeared to want it.</p>
+
+    <p>They launched in January 2015. New users created stores and some made sales, but the
+    activity was small compared with the marketplace. Further marketing did not change the
+    position enough. As the months passed, the founders came to believe they had run out of
+    options. Still, their conversations stayed with <em>“what more can we do?”</em> before
+    they finally discussed ending the company.</p>
+
+    <p>They tried to sell the business. Interest did not turn into a committed buyer, and they
+    eventually sold the site and code base while dissolving the company. Galperin says their
+    immediate aim was to return as much as possible to investors; he gives no recovery amount.
+    The account establishes that finding a buyer for the whole company took time and did not
+    succeed. It does not tell us what another month's delay would have cost or recovered.</p>
+
+    <p>Even after the end, Galperin did not claim to know precisely why they had failed. His
+    explanations included the fit between products and marketplace, difficulty selling code to
+    developers, and the limits of the market they had chosen. He thought the move into other
+    markets had come too late. That is his retrospective judgment, not evidence that the right
+    date to stop was obvious while they were still trying.</p>
+
+    <p>The delay he describes most clearly is the delay in having the conversation. September
+    2014 dates a financial position in his account; it was not a reported stopping deadline.
+    A written review date is a precaution I recommend below, but Binpress does not demonstrate
+    what would have happened if its founders had used one. The case is useful because it shows
+    how plausible work can continue after the larger question has become difficult to discuss.</p>
+  </section>
+
+  <section class="move">
+    <h2>Deciding whether to fund the next attempt</h2>
+
+    <h3 id="next-attempt">Say what would be different</h3>
+
+    <p>Describe the proposed change in terms of the result you need. Finishing a product is
+    within the team's control; getting enough customers to pay for it is the uncertain part.
+    Name both, so that a completed launch cannot quietly replace the commercial result as the
+    definition of success. Binpress completed the new product and attracted users. That was
+    still short of what the founders needed from it.</p>
+
+    <p>Write down the evidence for trying: a paid pilot, an existing customer's commitment,
+    a change in delivery cost, or a sales route you have actually tested. Distinguish it from
+    encouragement and from the work you have already invested. Enthusiastic publishers helped
+    make Binpress's pivot understandable; they did not guarantee that those stores would
+    generate enough business.</p>
+
+    <p>Next name what would justify keeping a smaller operation. If it can support the owner
+    and meet its obligations, stalled growth need not be a reason to close. But that choice
+    needs agreement from the people whose money and work sustain it. <a href="16-enough.html#household">The
+    household calculation in “Enough”</a> helps you say what you need; it does not tell you
+    what investors, partners or staff will accept.</p>
+
+    <p>You may find that the business could continue but you do not want to run it. That deserves
+    a direct conversation too. Selling it, arranging a handover or reducing your role may be
+    possible, as <a href="27-built-to-leave.html">the previous chapter</a> discusses. They
+    require time and other people's willingness. Put the available choices beside each other
+    before treating another growth attempt as the only way to avoid closure.</p>
+
+    <h3 id="review">Give the attempt a budget and a review date</h3>
+
+    <p>Estimate what the attempt will use and what evidence could reasonably arrive before the
+    money runs out. Work from current receipts and commitments, including what the household
+    needs to live on. Money held for tax or needed for existing obligations cannot also fund
+    the experiment. The cost of a possible closure belongs in the discussion now, when you can
+    still adjust the plan.</p>
+
+    <p>Set a review date early enough to act on the result. The useful interval depends on the
+    work: a change to next week's service offer and a product sold through a long purchasing
+    process will not answer at the same speed. If you cannot afford the time the proposal needs,
+    reduce it to a smaller test, find an agreed source of funding, or decline to start. A date
+    cannot make an unaffordable attempt feasible.</p>
+
+    <p>For example, suppose a consultancy wants to replace a lost client by selling a new
+    diagnostic. Its owners could agree a limited budget for reaching a defined group of buyers
+    and a date to review paid bookings. A draft brochure would show progress on the work;
+    bookings would show whether the offer was beginning to pay. If no bookings arrive, the
+    question is what they have learned that would justify spending more. This is a hypothetical
+    example of the review, not a result borrowed from Binpress.</p>
+
+    <p>At the review, read the result against the expectation you wrote down. A missed target
+    is a reason to decide again, not permission to keep going without discussion. Equally, it
+    does not make new evidence irrelevant. A paid contract arriving later than expected is
+    different from another encouraging conversation. Check whether the change is large enough
+    to affect the decision and whether you can afford to wait for its benefit.</p>
+
+    <p>If you extend the attempt, record what changed, what the extra time will cost and what
+    you will examine next. Merely moving the old target into another quarter leaves the
+    original problem unanswered. An extension may be justified, but it needs a reason the
+    owners can explain to each other without counting past effort as future income.</p>
+
+    <h3 id="closing">Find out what closing would require</h3>
+
+    <p>Investigating an exit does not oblige you to take it. It improves the comparison with
+    continuing. Find out whether there is a plausible buyer for the business, what assets could
+    be sold separately and what work or obligations would remain after either transaction.
+    Treat an expression of interest as uncertain until you know what the buyer is offering
+    and what would have to happen for a sale to complete.</p>
+
+    <p>Binpress tried selling the whole before selling its assets. A café cannot simply copy
+    that sequence with a landlord and employees substituted for investors. A lease, wages,
+    customer deposits and supplier bills change what must be planned. The postmortem gives
+    too little detail to tell another owner when to sell assets, whom to pay first or which
+    formal route to use.</p>
+
+    <p>Bring a list of assets, debts, contracts and unfinished customer work to your accountant
+    and a suitably qualified legal adviser before arranging the closure. Ask what choices are
+    available, what requires action now and what each route would cost. <a href="#ground">The
+    Dutch section at the end</a> gives the cited guidance for a sole trader and a legal person;
+    the route depends on the business's actual position.</p>
+
+    <p>There is practical work alongside the formal process. Customers may need their data,
+    deposits or unfinished work accounted for. Someone has to keep records accessible and
+    answer enquiries after trading ends. Include that work when estimating the time and money
+    required to leave. A plan that allocates every remaining euro to the next attempt has made
+    no provision for carrying out the other decision.</p>
+
+    <p>Having that information may make another attempt look affordable, or make an earlier end
+    preferable. Either result is useful. You will be discussing the business you actually have,
+    with some knowledge of what each choice asks of you, rather than arguing about whether
+    stopping makes the years spent on it a waste.</p>
+  </section>
+
+  <section class="monday">
+    <h2>Monday · prepare the conversation</h2>
+    <ol>
+      <li><strong>Book time with the other owners, or someone who will challenge you.</strong> Put three choices on the agenda: another attempt, a smaller business, or an exit. Write which choice you prefer and why before the meeting.</li>
+      <li><strong>Cost the next attempt and the possible end.</strong> Bring current receipts, commitments, available cash and the evidence supporting the proposed change. Get help establishing closure obligations before treating money as available to spend.</li>
+      <li><strong>Record the decision and what would reopen it.</strong> If you continue, name the result, budget and review date. If you begin an exit, agree the next step with your advisers and who is responsible for it. Write down unresolved disagreements rather than disguising them as a shared plan.</li>
+    </ol>
+  </section>
+
+  <div class="owed">
+    <p class="case-head"><span class="who">The risk of stopping too soon</span></p>
+    <p>A deadline can end a business just before work already done begins to pay. The case that
+    would challenge this advice is an owner who used such a review, closed, and had good reason
+    afterwards to believe a little more time would have changed the outcome. I have not found
+    a documented case that establishes that comparison. The missing evidence does not make
+    early closure cheap or a deadline correct. It is why the review must examine new evidence
+    as well as the target. You can make the decision explicit without making it certain.</p>
+  </div>
+
+  <section class="reading">
+    <h2>Reading</h2>
+    <ul>
+      <li><span class="src">Source ·</span> <a href="https://erangalperin.com/2016/02/11/startup-postmortem-binpress/">Eran Galperin, “Startup Postmortem: Binpress”</a>, 11 February 2016 — funding and revenue, the case for the pivot, publisher enthusiasm, the launch, the postponed conversation and the eventual asset sale. His later explanations for failure remain tentative.</li>
+      <li><span class="src">Source ·</span> <a href="https://www.kvk.nl/stoppen-en-uitschrijven/eenmanszaak-uitschrijven/">KVK, “Eenmanszaak uitschrijven”</a> and <a href="https://www.kvk.nl/stoppen-en-uitschrijven/een-rechtspersoon-beeindigen-via-de-turboliquidatie/">“Een rechtspersoon beëindigen via de turboliquidatie”</a>, consulted 6 August 2026 — the dated guidance quoted below.</li>
+      <li><span class="src">Note ·</span> The company account is a founder's retrospective, not an independent reconstruction. It supplies no investor recovery figure or prospective stopping deadline. Galperin appears elsewhere in this book through Gymdesk; Binpress had seed investors and different ambitions. The review proposed here is the author's recommendation, not a procedure tested by the case. The cached page records a later modification date; it has not been compared with the original publication.</li>
+    </ul>
+  </section>
+
+  <section class="part-close">
+    <h2>After the decision</h2>
+    <p>When you began, the question was whether anyone would pay. By now there may be people
+    who rely on what you built. Continuing asks what you can keep providing; leaving asks how
+    you will deal with the commitments that remain. Either deserves the attention you once
+    gave to getting the business started.</p>
+  </section>
+
+  <div class="ground" id="ground">
+    <h3>On Dutch ground · winding up cleanly</h3>
+
+    <p>This section is for readers in the Netherlands, where the formal end has two routes, and which one is yours turns on legal form — the fork <a href="12-reading-your-own-business.html#owner-pay-ground">chapter
+    twelve's owner-pay section</a> met. Read the fork first; the steps below are meaningless attached to the wrong side of it. A
+    partnership is on neither side — <em lang="nl">"De turboliquidatie kun je niet gebruiken voor
+    het beëindigen van een eenmanszaak of vennootschap onder firma (vof)"</em> — and a vof's end is
+    the jurist's question from the start.</p>
+
+    <p><strong>Trading in your own name</strong> — an eenmanszaak — the end is a deregistration
+    from the Handelsregister, done online: <em lang="nl">"Stop je met je eenmanszaak? Dan moet je
+    deze uitschrijven bij KVK. Dit regel je online met je DigiD. Het uitschrijven is
+    gratis."</em> It is final — <em lang="nl">"Een uitschrijving is definitief en heeft
+    gevolgen"</em> — and there is no pause: <em lang="nl">"Tijdelijk uitschrijven kan niet."</em>
+    You choose the date, and by it you must have stopped trading. The Chamber tells the tax
+    authority for you — <em lang="nl">"Wij geven je uitschrijving door aan de
+    Belastingdienst."</em> — but the returns do not stop with the business: <em lang="nl">"Blijf
+    je aangiftes doen zolang deze in Mijn Belastingdienst Zakelijk staan."</em> The Belastingdienst
+    writes to say when the last VAT return is due.</p>
+
+    <p><strong>A bv or other legal person</strong> ends by dissolution, and the fast route is the
+    turboliquidatie — available on one condition: <em lang="nl">"Er mogen geen baten
+    (bezittingen) meer zijn op het moment van ontbinding."</em> <em lang="nl">"Als er geen
+    bezittingen zijn op het moment van ontbinding, dan stop je direct met je bedrijf."</em> The
+    condition is narrower than it sounds, and the Chamber says so: <em lang="nl">"Het begrip
+    baten omvat meer dan je misschien zou denken."</em> Money the business is still owed counts
+    — <em lang="nl">"Daarnaast zijn vorderingen ook baten"</em> — including amounts you could
+    collect if you pursued them. Where there are assets at the moment of dissolution the fast route is closed — <em
+    lang="nl">"Dan is een turboliquidatie niet mogelijk"</em>; <em lang="nl">"Je moet dan de
+    wettelijke vereffeningsprocedure volgen"</em> — and the Chamber describes one way to reach it:
+    sell everything and pay the creditors first, <em lang="nl">"zoveel mogelijk"</em>, and <em
+    lang="nl">"Hierbij houd je rekening met de belangen en rangorde van schuldeisers"</em>, so
+    that no baten remain when the resolution is passed. Where the debts are many, its guidance is
+    to consider bankruptcy instead, with a curator:
+    <em lang="nl">"Zijn er veel schulden? Dan kun je overwegen om geen turboliquidatie te doen,
+    en in plaats daarvan een faillissement aan te vragen."</em> Running contracts — a lease, an
+    employment — are a reason not to use the route at all: <em lang="nl">"Doe je dit wel, dan
+    loop je het risico dat je als bestuurder persoonlijk aansprakelijk wordt."</em> And the route carries a filing duty since the temporary transparency law in force from 15
+    November 2023 — <em lang="nl">"Binnen veertien dagen na het ontbindingsbesluit moet het bestuur
+    verschillende (financiële) documenten indienen bij ons."</em> — after which the creditors are
+    told: <em lang="nl">"Nadat alles is ingediend, stelt het bestuur schuldeisers schriftelijk op
+    de hoogte van de turboliquidatie."</em></p>
+
+    <p><strong>Misuse and later discoveries.</strong> KVK says that if an asset turns up later
+    or the procedure was wrongly applied, creditors can ask the court to reopen liquidation.
+    It describes possible personal liability for a former director who consciously acted unlawfully,
+    for example by paying creditors contrary to their proper ranking or deliberately concealing
+    assets. In specified cases, the Public Prosecution Service can ask the court for a
+    <span lang="nl">bestuursverbod</span>, a prohibition on acting as a director.</p>
+
+    <p>None of this is advice, and the Chamber's own instruction is the one this section repeats:
+    <em lang="nl">"Vraag advies van een (bedrijfs)jurist en accountant voordat er een
+    ontbindingsbesluit volgt."</em> For a sole trader, the accountant, before the date is chosen.
+    For a bv with anything still owed to it or by it, the accountant and a jurist before the
+    resolution to dissolve, and a curator if the debts say so. This box quotes the procedure; it
+    does not say what your baten are, what your creditors' order is, or what you personally
+    answer for if the route is misused.</p>
+
+    <span class="checked">Checked 28 August 2026 against KVK's pages "Eenmanszaak uitschrijven"
+    and "Een rechtspersoon beëindigen via de turboliquidatie" (the latter updated 4 August 2026),
+    both consulted 6 August 2026. The underlying statute — Book 2 of the Civil Code on
+    dissolution and liquidation, and the tijdelijke Wet transparantie turboliquidatie — is not quoted here;
+    the Chamber's guidance is, and the jurist is for the rest.</span>
+  </div>
+
+  <nav class="chapter-nav">
+    <a href="27-built-to-leave.html"><span class="dir">Previous</span>27 · Built to Leave</a>
+    <a class="next" href="../index.html"><span class="dir">The book</span>Back to the sequence</a>
+  </nav>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>The Going Concern · Chapter 28.</p>
+  </div>
+</footer>
+
+</body>
+</html>

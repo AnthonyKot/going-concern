@@ -5,6 +5,379 @@ sounding like one writer.
 
 ---
 
+## Readability rework: plan of record (2026-09-19)
+
+[REWORK-PLAN.md](REWORK-PLAN.md) is the authority for the readability rework: the priority
+(shared, useful, finishable), the chapter shape, the work queue (pilot 19; then chapter 1,
+the 6–8 exercises and chapter 10's unfinished correction), the no-merge position and the
+ready-when list. merge.md stays the consolidation record. Read the plan before editing any chapter.
+
+## Readability pilot: chapter 19 (2026-09-19)
+
+Author's priority for this book: shareable, useful and finishable over reference consistency.
+19 is rewritten as a pilot on the book1/book2 rework pattern — Galperin's hires told as a story,
+Noor carried to a small funded start and a read result, evidence notes folded into
+`details.owed.rests`, one Monday action. Details, checks and open questions are in merge.md's
+log. **Do not roll the pattern out to other chapters until the author has read the pilot.**
+
+## Stage H in progress: first repair to 26–28 continuity (2026-09-19)
+
+The reassessment found 26–27 still referring to material the rework removed. 26's Monday now
+tests reserve and the proposed freeze in 13's dated forecast (floor-crossing date, not months of
+cover) and checks the freeze against 24's exposure record; the freeze is labelled this book's
+proposal. Stale references repaired in 19, 26, 27 and 28, including an unsourced 2016 WP Curve
+acquisition year, now dropped. Details and the open stage-H findings are in merge.md's
+application log. Checks pass; no browser check or publication. Stage H is not complete.
+
+## Stage G complete: agreements and protection (2026-09-19)
+
+24–25 are merged as **Agreements and Protection**, retaining 24's URL and #ground.
+25 redirects to 24#protection with a visible no-JavaScript fallback. Current count:
+23 core chapters, one optional example and five legacy routes; main path 23 → 24 → 26.
+Maya's provisional cover now prompts a tool/data permission review before live activation.
+The output is one prioritised exposure record, document versions, practical response and
+scoped next action; missing answers remain pending. New costs return to the cash forecast.
+23's rehearsal explicitly uses synthetic data; 27 now consumes the exposure record.
+
+Studio Neat's patents section moves from 25 to 24 as an attributed choice and untested belief.
+Removed universal litigation-only and copying/customer-loyalty claims. WIPO supports the
+ownership/licensing distinction, not the fictional agreement's interpretation.
+Corrected the contractor-label inference using current Belastingdienst guidance and added
+the cached Auteurswet delivery/deed sentence. All ten old Dutch quotation spans and the old
+statutory-check date remain. A fresh dated Auteurswet request returned HTTP 429; this is not
+a fresh statutory audit. Historical source strings are labelled rather than offered as
+proof of removed arguments. All 28 registered strings pass without drift or skips.
+
+Five consolidation tests, strict structure, internal links and mobile/desktop browser checks
+pass, including both redirect branches. [Stage G record](checks/reviews/24-25-stage-g.md).
+No publication, independent external review or learner study. Next: stage H, reassess the
+completed sequence. Earlier stage entries below describe their historical state.
+
+## Stage F complete: usable cover in chapter 23 (2026-09-19)
+
+23 is **Capacity for Things Going Wrong**, retaining its URL. It continues fictional Maya/Sam
+with proposed specialist Dana: named absence windows, minimum service, permissions and skills,
+exclusive availability, overlapping requests, revised customer agreement and a dated funding check.
+The successful supervised retest covers only one exception; the full absence plan stays
+provisional. Extra demand, lost availability, skill changes and cash-floor breaches trigger recovery.
+[Stage F audit](checks/reviews/23-stage-f.md).
+
+WP Curve's June 2014 hiring, delegation and Happy % observations remain attributed and separate.
+The chapter no longer infers measured reserve or successful absence coverage. The source register's
+“ahead of being fully booked” gloss was also corrected against the cached primary passage.
+All 25 registered source strings pass; historical strings from shortened material are labelled.
+
+Five consolidation tests, strict structure, links, diff check and browser checks at 390/1440 pass,
+including rendered cash arithmetic, overlapping-decision timing, navigation and metadata.
+Mobile table inspected. Updated 21/24 navigation, contents and affected references in 26/27.
+24 core chapters plus one optional example; no new routes or worksheets.
+No publication, independent external review or real-business test. Next: stage G, selective 24–25
+merge around exposures, agreements/protection and practical response.
+
+## Stages D corrected and E complete (2026-09-19)
+
+The first stage-D review overstated completion. Follow-up reading found no worked recovery,
+an assumed hire despite Noor's deferral, old trial overclaims, a forced-change exercise,
+a counter-case that did not refute the advice and a broken sentence in 21.
+[The corrected review](checks/reviews/20-stage-d.md) records those findings and their repairs.
+
+20 now demonstrates one separate fictional Maya/Sam assignment, missed result, diagnosis,
+shared feedback/action record and limited successful retest. Noor stays deferred; readers without
+a recipient prepare a brief and leave observations pending. Successful work can continue without
+an invented improvement. The routine is the book's proposed practice. Groove supports only
+attributed observations about the founder's feedback and decisions.
+
+Corrected the legal section's classification of Groove's trial after reading current
+Belastingdienst guidance and registering its chapter-20 source string. All 13 Dutch quotation
+spans and the 28 August statutory-check date are retained; the classification explanation has
+its own 19 September correction date. This is not a complete fresh audit of dismissal law.
+
+21+22 are now **Coordinating Work and Acting on Signals** at 21. The fictional team's untested
+response route fails when the owner is unavailable; the chapter follows the decision, customer
+promise, action and next review. Signals have definitions, source records, missing observations,
+response owners and possible actions. The cost comparison retains uncertainty rather than claiming
+causal improvement. Groove/ConvertKit provide bounded evidence, not proof the routine works.
+[Stage E audit](checks/reviews/21-22-stage-e.md).
+
+22 redirects to 21#measures with a no-JavaScript fallback. Main path 19 → 20 → 21 → 23;
+24 core chapters plus one optional example and four legacy routes. Contents, metadata, README/about,
+source ownership, regression expectations and affected references in 23/25/26/27 are updated.
+Those later chapters have not been substantively rebuilt yet.
+
+34 chapter-20 and 41 chapter-21 registered strings pass with zero drift/skips; historical strings
+are labelled as such. Five consolidation tests, strict structure, internal links and browser checks
+at 390/1440 pass. Mobile inspection replaced an over-dense definitions table with prose.
+No publication, independent external review or learner testing. Next: stage F, chapter 23.
+The external-review-before-publication requirement remains in force.
+
+## Sequence review and stage C complete (2026-09-19)
+
+Reviewed 10 → 12 → 13 → 14 → 16 → 17 and optional 13½ for progression, carried figures,
+source support and exercise prerequisites. Tightened 10, moved report guidance beside its use
+in 12, corrected 14's unsupported willingness-to-pay unit and clarified its carried customers,
+and added a provisional-record path in 16. [Full review](checks/reviews/10-18-sequence-2026-09-19.md).
+
+19 is now **Deciding to Add Help**, at its existing URL. It carries 17's requirements into
+alternatives, classification, cash cost, owner support time and a dated funding decision.
+Noor's explicitly invented proposal fails the stated cash floor; a delayed receipt goes negative,
+so she defers before committing. Operational need does not determine employment classification.
+Only the introductory paragraph of the legal box changed; subsequent quotations and checked dates
+are preserved. New Belastingdienst guidance has its own source row and check date.
+[Argument, source and arithmetic audit](checks/reviews/19-stage-c.md).
+
+All 206 registered source strings across the reviewed stretch and 19 pass with zero drift/skips.
+Arithmetic checks, five consolidation tests, strict structure and browser checks at 390/1440 pass;
+mobile table screenshot inspected. Historical source strings are not substitutes for argument review.
+No publication, independent external review or learner test. Next: stage D, chapter 20,
+helping someone succeed at agreed work. The publication review requirement remains in force.
+
+The initial stage-D completion note was premature; the corrective pass and stage E are recorded
+above and in the updated review files. The earlier checks alone did not validate the argument.
+
+## Stage B complete: chapters 17–18 (2026-09-19)
+
+17 is now **Taking Work Off Yourself**: choose dependence by consequence and tolerable delay,
+identify a recipient with time/access/authority, prepare instructions and examples, run a bounded
+test, record interventions and revise. Noor/Ivo is explicitly invented; its two attempts show
+a context gap and a limited retest, not proof of full absence coverage. A solo reader without a
+recipient finishes with a requirement for 19. The former “for free” owner-labour premise is removed.
+
+18 is a compatibility route to 17#handover, with a visible fallback. Main path 16 → 17 → 19;
+25 core chapters plus the optional example. Claim rows moved 18→17, with one added source string
+for Galperin's transfer of responsibility. Historical string rows may cover shortened material.
+McKenzie/Pinboard now provide brief contrasts; Gymdesk remains an account of an unfinished effort.
+Case-use and interpretation decisions are in [the editorial record](checks/reviews/17-handover-stage-b.md).
+
+Five regression checks, strict structural lint, internal links and all 24 chapter-17 cached
+source strings pass (zero drift/skips). Browser checks at 390/1440 cover navigation, redirect,
+no-JavaScript fallback and overflow; mobile screenshot inspected. Existing legal blocks unchanged.
+No publication, external reviewer or learner test at stage B. Stage C is now complete as recorded above.
+
+## Incremental plan for chapters 15–25 (2026-09-19)
+
+Author requested a written plan after the consolidation review. [merge.md](merge.md) records
+the current-text audit and incremental stages A–H: preserve 15's redirect and 16's rework;
+merge 17–18; rewrite 19; rebuild 20–22 as two chapters; rewrite 23; selectively merge 24–25;
+then reassess the full sequence. It includes evidence gaps, migration details and stage checks.
+Stages A–E are complete; the chapter 23 rewrite is next. Stage A checked 15's redirect branches and fallback
+destinations checked, 16 retained, and the pre-rework inventory saved under checks/baselines.
+No chapter HTML changed in stage A. Consolidation, structure and internal-link checks pass.
+Stage B and its “for free” correction are complete; corrected D and merged E are recorded above.
+Update the plan's application log as stages are completed.
+Earlier dated prose below remains
+history where superseded by the current consolidation rules.
+
+## Chapter handoff refinement (2026-09-19)
+
+Author selected review suggestions 3, 4 and 5. Chapter 12 now explicitly reconciles chapter
+10's −150 remainder to −450 by adding 200 shared expenses and 100 administration labour.
+It ends with a proposed further 300 drawing on day 14, distinct from the completed period's
+600 drawing; the exercise leaves affordability and forecast results for chapter 13. Chapter
+13 carries that proposal forward, tests it in its exercise, and connects the separately scoped
+D/E integrations to C's earlier unpriced addition. No example amounts or legal sections changed.
+The five consolidation regression checks pass. Editorial reread: the handoffs are clearer;
+chapter 12's “Ask for the report you need” still interrupts the proposal-to-exercise sequence.
+Chapter 10 tightening and worksheet consolidation remain outside this selected pass.
+
+## Structural consolidation — current direction and next session (2026-09-19)
+
+The author approved merging 10+11 and 12+15, retaining 13 as a separate forecast chapter, and
+making 13½ an optional worked example. They explicitly authorised changing rules and Markdown
+files. This amendment supersedes older chapter boundaries, minimum lengths and fixed templates.
+Earlier dated revisions below are history, not instructions to restore the separated chapters.
+
+### Completed in this session
+
+- 10, **From the First Sale to a Useful Result**: one journey from promise and delivery through
+  actual use, correction, updated economics and the next offer. The initial table retains B's
+  eleven hours; follow-up adds one; the final review uses twelve. Final A/B/C remainders are
+  350/100/-300, total 150; six unsuccessful selling hours reduce it to -150 before overhead.
+  A+B now use 25 hours, exceeding the illustrative 24-hour accepted-work allowance. One Monday
+  review and one reading list replace duplicated endings. WP Curve shortened; Turing retained.
+- 12, **Reading Your Own Business and Paying Yourself**: the financial statements flow into the
+  owner-labour adjustment, replacement estimate, and proposed payment. Repeated tables and
+  numerical recaps removed. The existing business-review.csv now includes blank owner-pay fields.
+  The old owner-pay-review.csv download remains available for existing bookmarks.
+- 13 keeps the dated forward forecast. The owner-payment sensitivity example formerly in 15
+  lives here at #owner-payment: drawings 600/550 imply deposit-scenario minima 450/500.
+- 13½ remains at its existing URL as an optional stock-and-cash application, linked from the
+  financial chapters and a separate contents callout, outside the main Previous/Next sequence.
+- Main path: 09 → 10 → 12 → 13 → 14 → 16. Existing chapter numbers are retained during staged
+  consolidation. There are 26 core chapters plus one optional example. No whole-book renumbering.
+- Old 11 and 15 URLs are short compatibility pages with automatic navigation and visible links.
+  11 → 10#after-sale; 15 → 12#owner-pay; 15#ground → 12#owner-pay-ground. Direct internal links
+  use the new destinations except references inside preserved legal prose. Two Dutch sections
+  now live at 12#ground and 12#owner-pay-ground. Text and checked dates unchanged; only the
+  moved section's anchor changes. This is not a fresh verification of current law.
+- Claim rows travel with their material: old 11 rows now under 10, old 15 rows now under 12;
+  identical rows deduplicated. Historical rows may check text no longer quoted in the chapter.
+  Former chapter-15 legal claims remain gating before publication, now via ./verify.sh 12 --strict.
+  External review before publishing that material is still required. No publish in this pass.
+
+### Verification of this consolidation
+
+Strict source checks: 60 chapter-10 strings and 41 chapter-12 strings pass against existing caches,
+with no drift or skips. All 27 chapter/example pages and two legacy routes pass structural lint.
+Five regression checks cover all local HTML/fragment links, reading order and optional branch,
+source migration, worksheet continuity, and detection of overlong/missing-action/malformed pages
+under the revised rules; included in CI. Worked arithmetic and both retained legal sections checked.
+Browser checks pass at 390px and 1440px: no horizontal page overflow, main-path navigation,
+old-11/default-15/15#ground redirects, visible no-JavaScript fallback and no page errors. Mobile
+chapter-12 screenshot inspected. No external reviewer or learner test run; no publication.
+
+### Authorised next-session work — do not lose this handoff
+
+1. **17 + 18: merge bottlenecks and documentation.** Identify a dependency, transfer the work,
+   and test whether the dependency disappeared. Retain access, judgment and relationship limits.
+2. **20 + 21 + 22: rebuild as one or two management chapters.** Teach a connected routine for
+   expectations, feedback, coordination and measures. Current 20 is largely about poor fit;
+   do not simply concatenate it with meeting and dashboard prescriptions. Inspect before choosing
+   one versus two chapters. Preserve applicable dated employment-law guidance and source checks.
+3. **24 + 25: merge agreements and protection.** Connect a concrete risk to the agreement or
+   protective measure and what using it actually requires. Keep legal scope and sources distinct.
+
+These are approved for the next session, not implemented now. Do not resume the old automatic
+chapter-16-forward rewrite instead. Chapter 16's September rework remains intact apart from
+navigation. Deferred chapters received only cross-reference/footer maintenance, not their proposed merges.
+Cross-references now identify later purchases separately from benefit; the obsolete “second test”
+reference in 19 and “renew-and-reorder” field labels were corrected to match the current record.
+
+### Current authoring rules
+
+- No minimum chapter length. Aim around 2,500–5,000 words when the decision warrants it; do not pad.
+- Default ceiling 5,000 body words. A 6,000–7,000-word exception needs an explicit rationale and
+  filename-specific checker override. Around 10,000 is exceptional and requires a specific
+  decision about why the material should remain one chapter. No such exceptions are used now.
+- Count legal end sections, references and genuine part closes separately as before. Do not hide
+  teaching material in those containers to evade the limit.
+- No required number of moves or fixed headings. Keep a clear decision, coherent teaching
+  sections, an independent action/review, evidence boundaries, sources and useful navigation.
+- Company cases are evidence where they support the decision. Worked examples are explicitly
+  invented and checked arithmetically. Neither a company nor a counter-case must be fabricated or
+  stretched to fill a slot. Missing counter-cases remain explicit; definitions remain unchanged.
+- Merging means one continuous example and action sequence, with repeated framing and calculations
+  cut. Preserve distinctions in the decision, not every paragraph of the old chapters.
+- The sourcing standard and dated Dutch legal safeguards remain in force. Estimated owner labour,
+  accounting expense, actual cash and household needs must not be silently substituted for one another.
+
+## Incremental rework — chapter 15 (2026-09-19)
+
+Author asked to proceed with book4; next chapter after 14 is Paying Yourself. Skill unchanged.
+This amendment supersedes conflicting original §6f portable-prose requirements: the owner was
+already costed in chapters 10–14; statutory pay rules are not evidence of economic viability;
+worked hypothetical amounts may appear in the general argument without pretending to be sourced
+company figures. The legal section remains byte-for-byte unchanged, including its 2 August date.
+No salary, tax or legal-form calculation is introduced. No publication in this pass; the existing
+external-review-before-push requirement remains applicable to any later publication.
+
+Reader job: reconcile cost of owner work, owner remuneration recognised in accounts, and cash
+reaching the household, then choose a payment and an operational change to test. Descriptive
+headings retain the three move sections. The old owner-omission handoff and regime-led argument
+are replaced with Lea's existing period review and cash forecast. Sole-trader model still excludes
+VAT/taxes throughout and has no owner wage. Distinguish hypothetical arithmetic from current rates.
+
+Chapter-12 figures unchanged: revenue 2700, direct costs 150, shared expenses 200, profit 2350;
+56 owner hours at 50 gives 2800 allowance and -450 economic remainder; drawings 600 and closing
+cash 2350 are separate. Chapter-14 reconciliation: 150 customer remainder - 300 unsuccessful sales
+labour - 200 shared expenses - 100 administration labour = -450. No duplicate deduction. Period
+supports 2350/56 = about 41.96 per actual hour with zero economic remainder; at allowance 50,
+47 hours would reach zero, nine below observed 56. These are diagnostics, not market rates or
+proved savings. Replacement scope, available hours, incurred remuneration and cash need separate
+records; an imputed shortfall does not establish a wage liability.
+
+Cash example explicitly reuses chapter 13's D/E scenario, not a repricing of the old offer.
+Base minimum -150 with drawings 300; deferring drawings leaves 150, still 350 below chosen 500
+floor. Received-deposit scenario minimum 750 with drawings 300. Increasing day-14 drawings to
+600 gives minimum 450; to 550 gives 500. Neither is a recommended payment or net household income;
+include real obligations, extend the horizon and test delays. One transfer is not recurring pay.
+
+Adds blank resources/owner-pay-review.csv, 23 fields with source/assumption column and no formulas.
+Index description updated. No other chapter changed in this pass. The example demonstrates arithmetic,
+not learner effectiveness or business success; the real company case remains owed. Hypothesis:
+reconciling the three views gives a more usable owner-payment decision than a statutory analogy.
+No learner test establishes it. Completion means explaining the differences and the next payment's
+conditions, not filling all columns with a desired income. Chapter 16 is next to inspect; respect its
+September 12 rework rather than assuming it needs the same extent of change.
+
+Validation: 2,284 body words; all 29 chapters pass strict structure; 17 registered chapter-15 strings
+pass against cached sources. This is not a fresh legal verification. Internal links, revised HTML
+nesting and fragment targets, blank CSV, worked arithmetic and diff whitespace pass; the dated Dutch
+section matches the pre-edit version exactly. No external reviewer or learner test run in this pass.
+
+## Incremental rework — chapter 14 (2026-09-19)
+
+Author requested chapter 14 next and asked which rework guidance applies. Follow the practical
+chapter-10-forward direction: concrete decision, worked example then independent action, evidence
+separate from proposed practice, descriptive headings, 2,000–3,000 body words. This amendment
+supersedes conflicting §6e requirements, particularly cash/economic contribution conflation,
+universal rejection of forecasts, and the handoff claiming owner labour was entirely omitted.
+
+Observed weaknesses: Cydoc per-doctor amounts used to independently validate a per-practice
+estimate; successful routes treated as total acquisition attempts; unsupported WP Curve segment
+profitability; cash collected minus imputed labour treated as cash payback; existing owner-time
+allowances contradicted at the chapter close. The revised short Cydoc case attributes the estimate
+and keeps its units explicit. Draelos source read live and checked against cache. Historical claim
+rows remain source-string checks, not requirements to restore removed claims or WP Curve prose.
+
+Lea continues A/B/C after chapter 11: sales hours 2/3/5; delivery 8/12/18; each revenue 900 and
+direct cash cost 50; owner allowance 50/hour. Economic remainders 350/100/-300 total 150; six
+unsuccessful/pending selling hours counted once at period level reduce this to -150 before shared
+costs and administration. VAT and taxes excluded throughout the hypothetical model. This is not
+chapter 12's full period result: that chapter also includes shared expenses and administration.
+
+New illustrative dates measured from each job's sales-work start: direct payment 50 on day 3;
+receipts 900 on day 14/28/42; all work complete by day 14; observation day 42 after receipt.
+Each cash path -50 then +850; recovery day 14/28/42. Job-relative dates are not a simultaneous
+business forecast. Unpaid owner-time allowance is not cash. Record later recrossings below zero.
+New planning example: 900 - 50 - 8*50 = 450 before acquisition; chosen retained remainder 200
+leaves acquisition allowance 250. Alternative caps five owner hours or 100 cash plus three hours.
+At twelve delivery hours the allowance falls to 50. Campaign failures stay in costs and zero-win
+results remain visible. Two-week review is proposed, not validated. Forecasts remain separate;
+existing-customer continuation decisions distinguish sunk setup from future costs and obligations.
+
+Shared resources/first-customers.csv retains its original 31 columns and appends 16 review fields;
+no formulas or observations. Dated cash entries live in a linked ledger, not invented summary dates.
+Index updated; chapter 15 and Dutch legal sections unchanged. Counter-case still owed.
+Hypothesis: two worked views and a bounded next test improve the learner's acquisition decision;
+no learner testing establishes this. Completion requires explaining the next scope, budget,
+assumption, overrun result and review limit. Chapter 15 is next in this incremental rework.
+Validation: 2,341 body words; all 29 chapters pass strict structure checks; 13 registered
+chapter-14 source strings pass against cache. Internal links, HTML nesting, CSV column
+compatibility, worked arithmetic and diff whitespace pass. Source checks do not validate advice.
+
+## Incremental rework — interlude 13½ (2026-09-19)
+
+Continues the practical rework after chapter 13, in reading order. This amendment supersedes
+older interlude instructions and its inherited claims about chapters 10–12. Chapter 14 is next.
+The learner's job is to choose a stock order from a completed selling session, current supplier
+costs and dated cash commitments. Completion means explaining the quantity and its assumptions,
+not merely filling a record. Existing title, route, navigation and three move sections remain.
+
+Observed defects: obsolete weekly-number and waiting-period prescriptions; repeat purchasing
+conflated with customer benefit; unsupported claims that small trades cannot publish records,
+have no contracts or accounting periods. Replaced the catalogue with an explicitly invented
+stall example and blank resources/stock-session-review.csv (no formulas). Hypothesis: a worked
+reconciliation followed by an independent buying decision makes the translation more usable.
+This has not been tested with learners. A real business case is still owed, explicitly.
+
+Mira is separate from Lea. All figures hypothetical; model excludes VAT/taxes throughout, debts,
+fees and deposits. Opening cash 500; buy 20 bags at 12; session costs 60; sell 14 at 25 and receive
+350; drawings 100. Profit before owner labour/tax 122; six remaining bags at cost 72; closing
+cash 450. Reconciliation: 122 - 72 - 100 = -50. Eight hours at an assumed 15 leaves economic
+remainder 2, not another cash payment. Next quote 15: buying 20/18/14 then paying session cost
+60 leaves 90/120/180. Chosen floor 120; 18 is an affordability ceiling, not proven demand.
+Buying 14 brings stock to 20. New-cost contribution 10 needs 18 sales to cover 60 session costs
+and 120 owner-time allowance; this replacement-cost calculation is not the mixed-stock profit.
+
+Two government background sources checked and registered. Stocktake source cached; its registered
+string passes strict verification. Business Victoria was read in the browser, but direct download
+returned HTTP403; registered as manually checked without a fabricated cache or automatic claim row.
+Australian tax guidance is not
+transferred to the reader's jurisdiction. Invented numbers are checked by arithmetic, not
+registered as facts about a real seller. No later chapter or Dutch legal end section is revised.
+Validation: all 29 chapters pass strict structural lint; internal links, revised HTML nesting and
+fragment targets, blank CSV shape, worked arithmetic and diff whitespace pass.
+
 ## Incremental rework — chapter 13 (2026-09-18)
 
 Continues the authorised incremental rework/publication. The task is now to find the lowest cash
@@ -237,10 +610,10 @@ These were settled at the outset and should not be relitigated without a reason.
 
 | Question | Decision | Why |
 |---|---|---|
-| Sourcing | **Company cases first.** Each chapter is anchored on a real, named, dated company. Business books appear only in the reading list — as adversarial foils and further reading, never as claim sources (§5c). | The subject has no canon the way quantum mechanics does. Comparing eight business books would inherit their collective blind spots. Companies are checkable; frameworks are not. |
+| Sourcing | **Evidence before claims.** Use a real, named, dated company where it supports the decision; clearly labelled worked examples may carry the teaching. Business books appear only in the reading list — as adversarial foils and further reading, never as claim sources (§5c). | The subject has no canon the way quantum mechanics does. Comparing eight business books would inherit their collective blind spots. Companies are checkable; frameworks are not. |
 | Audience | **The experienced developer going out on their own.** ~40, fifteen-plus years salaried, Netherlands or similar. Self-funded, heading for 1–20 people, still doing the work. | Underserved, and unusually shaped: arrives fluent in systems, constraints, iteration and measurement, illiterate in demand, distribution, selling, pricing and cash. Also old enough to have a mortgage, which changes every risk calculation in the book. |
 | Jurisdiction | **General argument, Dutch specifics quarantined** in `On Dutch ground` sections at the end of the chapter. | Employment law, invoicing, dismissal and side-work rules genuinely change the answer, and a reader who cannot act on a chapter has not been helped. Quarantining keeps the general argument portable and stops law from rotting the prose. |
-| Chapter length | **2,000–3,000 words**, measured on chapter content. Raised from 2,500 after both finished chapters overran (01: 2,958, 05: 2,606). | 2,500 was a guess made before a chapter existed; 2,600–2,950 is where the form actually sits once a case with real figures, a bounded principle and a counter-case are all present. This is now a hard ceiling, not a target — anything over 3,000 gets cut, not excused. Ch. 02 drafted at 3,333 and was cut to 3,000; the ceiling held and the chapter is better for it. **Part-closing passages are counted separately** — they close a part rather than a chapter, appear once per five chapters, and would otherwise force real argument out of whichever chapter happens to sit last. Ch. 05 is 2,804 of chapter plus a 321-word Part I close. Declared rather than quietly absorbed. |
+| Chapter length | **No minimum; 5,000-word default ceiling.** | Form follows the decision. Longer exceptions require a documented rationale and checker override; see the current consolidation amendment. Legal end matter and references remain counted separately. |
 | Honesty mechanism | **The counter-case**, not a ledger. | The sibling volume tracked formal debts because a proof has them. A business book's equivalent failure is advice that works until it doesn't. Show that, don't tally it. |
 
 ## 2. The spine
@@ -268,15 +641,12 @@ true.
 
 ## 3. Chapter template
 
-Filename: `chapters/NN-slug.html`. Four moves, fixed order, fixed headings:
-
-1. **The situation** — the decision stated concretely, second person, present tense. No throat-clearing. Open on the reader's actual position, not on history.
-2. **What actually happened** — one named company. Date it. Give at least two hard figures. This is the load-bearing part of the chapter; if the case is thin the chapter is thin.
-3. **The reasoning** — the transferable principle, *with its boundaries stated in the same breath*. Every principle here has a domain of validity; naming it is what separates this from a LinkedIn post.
-4. **Monday** — three to five numbered actions a reader could take this week. Concrete enough to fail at. No "consider" or "think about."
-
-Then the **counter-case** block: same advice, applied well, bad outcome, ~150–300 words. Then the
-**reading** list.
+Filename: `chapters/NN-slug.html`; retain existing URLs while consolidating. Chapters need a
+clear decision, coherent teaching sections and a practical independent review, followed by sources
+and navigation. Section count and headings are flexible. A case supplies evidence; a hypothetical
+example teaches a relationship without claiming to be observed evidence. Put boundaries where the
+reader needs them, and use one action sequence for a merged chapter. There is no word minimum.
+The current consolidation amendment defines length limits and the exact route changes.
 
 ### Counter-case, aftermath, and the debt register
 
@@ -846,16 +1216,16 @@ with the thinness declared, **not** a famous company drafted in to fill the hole
 | 17 | You Are the Bottleneck | ☑ 13 claims · Bingo Card Creator (2010) + Pinboard (2020) · *owed* · opens Part IV |
 | 18 | Writing It Down | ☑ 6 claims · Gymdesk / Galperin (2023) · *owed* |
 | 19 | The First Hire | ☑ 24 claims · Gymdesk / Galperin (2021–2022), fourth use, new source · BW7 art. 610/610a + Rijksoverheid enforcement page · *owed* 🇳🇱 · drafted 2026-08-28 |
-| 20 | Managing People | ☑ 33 claims · Groove / Turnbull (2015), new company · BW7 arts. 652, 669, 671, 672, 673 · *owed* 🇳🇱 · drafted 2026-08-28 |
-| 21 | Meetings That Aren't Theater | ☑ 19 claims · Groove / Turnbull (2016), second use, new source · *owed* · drafted 2026-08-28 |
-| 22 | Measuring the Right Three Things | ☑ 22 claims · ConvertKit / Barry (2019), second use, new source · the three are the book's compression, said as such · *owed* · drafted 2026-08-28 |
+| 20 | Helping Someone Succeed | ☑ 34 registered strings · Groove / Turnbull (2015), BW7 and Belastingdienst · *owed* 🇳🇱 · corrective rework 2026-09-19 |
+| 21 | Coordinating Work and Acting on Signals | ☑ 41 registered strings including historical rows · Groove / Turnbull (2016), ConvertKit / Barry (2019) · *owed* · merged 2026-09-19 |
+| 22 | Legacy route to 21#measures | Source ownership moved to 21; redirect and visible fallback · 2026-09-19 |
 
 ### Part V — Will it last?
 | # | Title | Status |
 |---|---|---|
-| 23 | Slack | ☑ 22 claims · WP Curve / Norris (June 2014), third use, new source · accumulation only, no shock shown absorbed (Archive offline 2026-08-28; later reports still unfetched) · *owed* · opens Part V · drafted 2026-08-28 |
-| 24 | What You Signed | ☑ 11 claims · *no company case, by finding* (§6i) · Auteurswet arts. 1, 2, 7 + BW6 arts. 233, 234 · four-agreements map is the book's · *case and counter-case owed* 🇳🇱 · drafted 2026-08-28 |
-| 25 | What Protects You | ☑ 13 claims · Studio Neat / Glif patents section (sn-howto), third use, unspent section · bet unmeasured, US law by non-lawyers · *owed* · drafted 2026-08-28 |
+| 23 | Capacity for Things Going Wrong | ☑ 25 registered strings including historical rows · WP Curve / Norris (June 2014), no measured reserve or shock absorption · *owed* · reworked 2026-09-19 |
+| 24 | Agreements and Protection | ☑ 28 registered strings including historical rows · Studio Neat decision/belief, WIPO, dated Auteurswet/BW6 and employment assessment guidance · exposure routine proposed, claim outcome/counter-case owed · stage G, 2026-09-19 |
+| 25 | Legacy redirect | → 24#protection; retained case and source ownership moved to 24, stage G |
 | 26 | When the Ground Moves | ☑ 17 claims · Gymdesk / Galperin 2020 (galperin-2023-covid, the pre-hire paragraphs), fifth use by §6i judgement · survivor account, no causation claimed · *owed* · drafted 2026-08-28 |
 | 27 | Built to Leave | ☑ 32 claims · Black Hops / Norris (Brews News 2023, named journalist, ASIC filing reported) · Norris = WP Curve's Norris confirmed from dannorris.me title · no post-April-2023 events used · *owed* · drafted 2026-08-28 |
 | 28 | Knowing When to Stop | ☑ 61 claims · Binpress / Galperin (2016 postmortem; sixth appearance, named) · KVK eenmanszaak + turboliquidatie pages · book close · *owed* 🇳🇱 · drafted 2026-08-28 |
@@ -1196,7 +1566,7 @@ its chapter actually spent, so a later return has something to test against.
 - **ConvertKit — ch. 22 spent.** `nb-metrics-2019` end to end. Prohibited: never "three" in Barry's
   mouth; never the annual-plan push as "the business not changing"; never a discount as a lever that
   flatters net revenue churn (it raises it); never Barry's 0% goal used against him.
-- **Studio Neat — ch. 25 spent.** "A Word on Patents" from `sn-howto`. Prohibited: never an order
+- **Studio Neat — ch. 24 spent (formerly 25).** "A Word on Patents" from `sn-howto`. Prohibited: never an order
   between the decision and the imitations; never the brand bet as a result; never the US-law
   reading as law anywhere.
 - **Black Hops / Norris — ch. 27 (new company).** Facts: `bh-ceo-2023`, `bh-loss-2023` as

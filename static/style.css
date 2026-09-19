@@ -258,6 +258,18 @@ th { font-weight: 700; color: var(--ink); font-size: .8rem; letter-spacing: .04e
 }
 .owed strong { color: var(--fails); }
 
+/* ---- folded evidence note: what a chapter rests on, out of the main path ---- */
+details.rests > summary { cursor: pointer; font-weight: 600; color: var(--ink); }
+details.rests[open] > summary { margin-bottom: .6rem; }
+details.rests p:last-child { margin-bottom: 0; }
+details.aside {
+  margin: 1.2rem 0; padding: .8rem 1.1rem;
+  border: 1px solid var(--rule); border-radius: 8px;
+}
+details.aside > summary { cursor: pointer; font-family: var(--sans); font-weight: 600; font-size: .92rem; color: var(--ink); }
+details.aside[open] > summary { margin-bottom: .6rem; }
+details.aside p:last-child { margin-bottom: 0; }
+
 /* ---- closing a part: the exit test the reader should be able to pass ---- */
 .part-close {
   margin: 3rem 0 0; padding: 1.3rem 1.4rem;

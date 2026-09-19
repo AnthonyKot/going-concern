@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>20 · Helping Someone Succeed — The Going Concern</title>
+<meta name="description" content="Agree the result, support the work, inspect what happened and revise the arrangement before calling it a person problem.">
+<link rel="canonical" href="https://anthonykot.github.io/going-concern/chapters/20-managing-people.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="The Going Concern">
+<meta property="og:title" content="20 · Helping Someone Succeed">
+<meta property="og:description" content="Agree the work, inspect an attempt together, and decide what to continue or change.">
+<meta property="og:url" content="https://anthonykot.github.io/going-concern/chapters/20-managing-people.html">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../static/style.css">
+<script src="../static/theme.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html">The Going <span>Concern</span></a>
+    <nav class="site-nav">
+      <a href="../index.html">Chapters</a>
+      <a href="../about.html">Method</a>
+      <button class="theme-toggle" type="button">☾ Dark</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <p class="kicker">Part IV · Can it run without you? · Chapter 20</p>
+  <h1>Helping Someone Succeed</h1>
+  <p class="lede">You agreed what someone would take on. Now a result is late, or needs correcting,
+  and you have to decide what to do. Start with the work both of you can inspect: the promise,
+  the attempt, the help available and the next opportunity to get it right.</p>
+
+  <div class="decision">
+    <span class="tag">The decision</span>
+    What to continue or change in one person's assignment and support, based on the work
+    delivered and both people's account of what happened.
+  </div>
+
+  <section class="move">
+    <h2>Start with an assignment both people understand</h2>
+    <p><a href="19-the-first-hire.html">Chapter nineteen</a> ends with a decision about adding help.
+    Noor bought one covered morning from a provider and postponed the hire. She has no employee to manage. If you also deferred,
+    prepare the assignment below for a future start; leave the observations and review result
+    blank. If someone already does the work, use their current assignment.</p>
+    <p>This chapter proposes a management routine, illustrated by an invented business. It is
+    guidance to try and review, not a method whose effectiveness the case evidence establishes.
+    Chapter seventeen's <a href="17-you-are-the-bottleneck.html#handover">handover record</a> supplies
+    the instructions, permissions and limits; here you use that preparation to support ongoing work.</p>
+
+    <h3>A report that should have been ready</h3>
+    <p><strong>Maya and Sam are a separate, fictional team.</strong> Maya runs a small reporting
+    consultancy; Sam is already employed there. For this example, assume the role's funding,
+    hours and terms have been settled. Sam prepares customer reports; Maya approves changes
+    to how the reports are calculated.</p>
+    <p>For Tuesday, they agree that Sam will place a checked draft in the shared folder by 11:00.
+    It must cover the requested dates, reconcile its totals to the supplied export and identify
+    missing inputs. Sam can correct formatting and rerun the approved process. A change to a
+    calculation requires Maya's approval. The draft stays internal until it passes review.</p>
+    <p>They reserve 09:00–11:00 for the task and fifteen minutes afterwards for review. Maya
+    provides a completed example, folder access and the written checks. Sam explains the task
+    back: “A reconciled draft by eleven; if the input is incomplete, flag it rather than fill
+    the gap myself.” This checks understanding of the result, not whether Sam remembers Maya's
+    exact words.</p>
+    <p>There is already a weakness in that agreement: they have not said when Sam must flag a
+    block, or how Maya will respond. Stating a deadline does not by itself make the route to
+    that deadline workable.</p>
+  </section>
+
+  <section class="move">
+    <h2>Inspect the attempt before deciding its cause</h2>
+    <p>At 11:00 the draft is incomplete. Maya first thinks Sam needs more spreadsheet practice.
+    She asks to see the attempt and hears Sam's account. The export contains a new transaction
+    type that the instructions do not explain. At 09:20 Sam left a question in the report
+    comments. Maya did not see it until the review. Sam completed the unaffected sections and
+    did not invent a calculation.</p>
+    <p>Several explanations were possible before they inspected the work: missing skill, an
+    unrealistic workload, incomplete instructions or a blocked decision. In this attempt, the
+    new transaction and unanswered question support the last two. The missing draft does not
+    establish that Sam lacks the skill to prepare the rest of the report.</p>
+    <p>Maya's feedback can now be specific: “The date checks and existing totals are right, and
+    you correctly left the unknown calculation alone. I needed to know the draft was blocked
+    before eleven. We left the escalation route unclear.” Sam explains that a comment seemed
+    sufficient because it was where Maya had asked for review notes. They record both accounts.</p>
+    <p>Maya supplies the missing calculation rule and adds a worked row to the instructions.
+    For the next attempt, Sam will mark any unresolved calculation as blocked and send Maya a
+    direct message as soon as it is found. Maya reserves a 09:30 check and agrees to reply by
+    10:00. If that reply does not arrive, Sam will flag that the 11:00 draft is at risk and
+    continue the unaffected work. Maya owns any change to the customer promise.</p>
+    <p>Notice the division of responsibility. Sam owns checking and signalling. Maya owns the
+    missing rule and the decision she reserved. Asking Sam to “be more proactive” would not
+    supply either of them.</p>
+
+    <h3>A shared record, with a result still to come</h3>
+    <p>Their record fits in the task notes: <em>Tuesday's draft missed 11:00; new transaction
+    rule missing; question posted 09:20 but unseen. Maya adds rule and example. Sam uses direct
+    escalation for unresolved calculations. Maya checks at 09:30 and replies by 10:00. Review
+    Thursday at 11:00 after the next comparable report.</em> Neither signs away a disagreement;
+    if their accounts differ, the difference belongs in the record.</p>
+    <p>On Thursday, Sam completes the comparable draft at 10:45. Maya checks the dates and
+    reconciliation and finds no correction needed. The added example covered the transaction;
+    no escalation was needed. They continue the assignment and keep the new route available.
+    This supports keeping the instructions. It does not yet show that the escalation route
+    works when Maya is busy.</p>
+    <p>If the task had not occurred, they would have no new performance result to review.
+    If it had remained blocked, they would inspect the unresolved dependency. If a comparable
+    error recurred with the needed information, time and support available, they would address
+    that specific gap. A calendar date organises the review; it does not manufacture evidence.</p>
+  </section>
+
+  <section class="move">
+    <h2>What Groove's experience supports</h2>
+    <p>In his January 2015 account, Groove founder Alex Turnbull reported turnover of nearly
+    40% of the team the company launched with. He described the people he had hired as qualified
+    and attributed delayed milestones, slower growth and lost personal productivity to poor
+    collaboration and his own reluctance to act. These are his assessments, not measured effects
+    of a management intervention.</p>
+    <p>Groove used a paid trial lasting two to four weeks, which Turnbull described as a consulting
+    engagement. Its end forced a decision he had previously found easy to postpone. He also
+    acknowledged that insisting on this arrangement could exclude talented candidates.</p>
+    <p>The part most useful here happens before that decision. Turnbull wrote that he had
+    initially waited until the trial ended to give feedback. He changed to frequent feedback,
+    sometimes daily, and kept notes to distinguish patterns from isolated events. He sought
+    the views of colleagues who worked closely with the person and asked the person how the
+    arrangement felt to them.</p>
+    <p>The account supports attributing those practices to Groove. It does not test this
+    chapter's shared assignment record, establish the right review interval for your work or
+    classify a similar trial in your jurisdiction. Keeping a record accessible to both people
+    is this book's proposal; Turnbull described keeping notes for himself.</p>
+  </section>
+
+  <section class="move">
+    <h2>Make the review useful when work succeeds or struggles</h2>
+    <p>When the agreed result is sound, say what made it sound and continue. Do not create an
+    improvement task merely to fill the record. You may agree greater independence, but only
+    for work the evidence covers: Sam's correct draft does not grant authority to change
+    calculations.</p>
+    <p>When a result falls short, describe the gap and its consequence. Hear the person's
+    account before choosing a response. An example or practice may address a skill gap;
+    access may remove a block; fewer simultaneous assignments may make the workload feasible.
+    Name who will supply the change and when there will be comparable work to review. If the
+    owner cannot supply the promised support, revise the plan explicitly.</p>
+    <p>Repeated difficulty also has a cost: customer delays, correction work and time spent
+    supporting the assignment. You need not repeat the same intervention indefinitely.
+    Record what has been tried, what happened and what remains unresolved. “Poor fit” adds
+    little unless you can explain it in terms of the work; resemblance to your own style
+    is not a result standard.</p>
+    <p>Where a persistent problem leads you to consider changing or ending employment, the
+    applicable process is a separate question; readers employing in the Netherlands should
+    read the dated <a href="#ground">legal section below</a> before acting.</p>
+    <p>A shared assignment can still depend on somebody else's decision. The next chapter,
+    <a href="21-meetings-that-arent-theater.html">Coordinating Work and Acting on Signals</a>,
+    picks up Maya and Sam's escalation route and asks how the team gets a response in time.</p>
+  </section>
+
+  <section class="monday">
+    <h2>Monday</h2>
+    <ol>
+      <li><strong>Choose one current assignment.</strong> Write its result, quality checks, date,
+      authority, dependencies, available time and support. Reuse the handover instructions.
+      If you have not brought anyone in, prepare this brief and leave the remaining steps pending.</li>
+      <li><strong>Agree it with the person doing the work.</strong> Ask them to explain the result
+      and flag missing access, examples or time. Name the route for a block, who responds and when.</li>
+      <li><strong>Inspect one real attempt together.</strong> Compare requested and delivered work.
+      Record the person's account alongside yours, including what worked and the consequence of
+      any gap. Mark observations you do not yet have as unknown.</li>
+      <li><strong>Record the next action and support.</strong> Continue successful work without
+      forcing a change. For a gap, agree a specific response with an owner and date. Keep the
+      record accessible to both people.</li>
+      <li><strong>Set and complete a review after a relevant opportunity.</strong> Check whether
+      the result improved, stayed sound or remains unresolved. Continue, revise or address a
+      persistent problem through the applicable process. If there was no opportunity to do the
+      work, record that and set the next review.</li>
+    </ol>
+    <p>Your output is one agreed assignment and a shared review record. A prepared brief is
+    enough for a reader without a recipient; a completed management review requires actual work.</p>
+  </section>
+
+  <div class="owed">
+    <p class="case-head"><span class="who">What would challenge this advice</span></p>
+    <p>The counter-case is still owed: a small business that used clear assignments, adequate
+    support and timely shared reviews, yet found the routine itself caused more harm than it
+    prevented—for example, by consuming scarce working time or narrowing capable people's
+    judgment to the written checks. A comparison would need to show what happened to delivery
+    and initiative as well as time spent reviewing. Groove's account does not supply that
+    evidence. A persistent performance problem alone would not refute this routine; dealing
+    with one is an outcome the routine already allows.</p>
+  </div>
+
+  <section class="reading">
+    <h2>Reading</h2>
+    <ul>
+      <li><span class="src">Source ·</span> <a href="http://web.archive.org/web/20150316193110/https://www.groovehq.com/blog/how-to-fire-an-employee">Alex Turnbull, “Firing: How I Do the Hardest Thing as an Entrepreneur”</a>,
+      29 January 2015, archived 16 March 2015. The reported turnover, costs of delay, paid trial,
+      feedback, note-taking and consultation with colleagues and the person.</li>
+      <li><span class="src">Source ·</span> <a href="https://wetten.overheid.nl/BWBR0005290/2026-01-01">Burgerlijk Wetboek Boek 7</a>,
+      consolidated text at 1 January 2026, articles 652, 669, 671, 671a, 671b, 672 and 673.</li>
+      <li><span class="src">Source ·</span> <a href="https://www.belastingdienst.nl/wps/wcm/connect/nl/arbeidsrelaties/content/wanneer-is-sprake-van-loondienst">Belastingdienst, “Wanneer is er sprake van loondienst?”</a>,
+      read 19 September 2026. Assessment of the actual relationship, used in the trial-classification
+      correction below.</li>
+      <li><span class="src">Note ·</span> Turnbull's account reports his own experience; it contains
+      no comparison establishing this routine's effectiveness. Maya and Sam are invented.
+      Their recovery illustrates a diagnosis and review, not evidence of a successful intervention
+      in a real company.</li>
+    </ul>
+  </section>
+
+  <div class="ground" id="ground">
+    <h3>On Dutch ground · ending an employment</h3>
+
+    <p>This section is for readers employing in the Netherlands. Read it before the conversation, not after it: a review in this chapter decides what
+    to try next with the work, not whether someone stays, and here the two are different
+    acts.</p>
+
+    <p><strong>There is no dismissal at will.</strong> Article 7:671 of the Civil Code: <em
+    lang="nl">"De werkgever kan de arbeidsovereenkomst niet rechtsgeldig opzeggen zonder
+    schriftelijke instemming van de werknemer, tenzij"</em> — and the exceptions that follow include termination during the trial period and permission
+    <em lang="nl">"als bedoeld in artikel 671a"</em>, which that article confines to grounds a and
+    b of article 669: <em lang="nl">"op grond van artikel 669, lid 3, onderdeel a of b, verzoekt
+    hiervoor schriftelijk toestemming aan het Uitvoeringsinstituut werknemersverzekeringen"</em>.
+    For the grounds listed next, the door is the court, article 7:671b: <em
+    lang="nl">"De kantonrechter kan op verzoek van de werkgever de arbeidsovereenkomst ontbinden:
+    a. op grond van artikel 669, lid 3, onderdelen c tot en met i"</em>. Outside those, the
+    employee's written agreement is what article 671 names. Article 7:669 sets
+    what the employer must have first: <em lang="nl">"De werkgever kan de arbeidsovereenkomst
+    opzeggen indien daar een redelijke grond voor is en herplaatsing van de werknemer binnen een
+    redelijke termijn, al dan niet met behulp van scholing, in een andere passende functie niet
+    mogelijk is of niet in de rede ligt."</em> A reasonable ground, <em>and</em> no reasonable
+    redeployment.</p>
+
+    <p><strong>Unsuitability is a ground with conditions.</strong> Among the grounds, lid 3
+    onderdeel d concerns unsuitability for the agreed work, other than
+    through illness — <em lang="nl">"mits de werkgever de werknemer hiervan tijdig in kennis heeft gesteld en hem in
+    voldoende mate in de gelegenheid heeft gesteld zijn functioneren te verbeteren en de
+    ongeschiktheid niet het gevolg is van onvoldoende zorg van de werkgever voor scholing van de
+    werknemer of voor de arbeidsomstandigheden van de werknemer"</em>. Told in good time, given a
+    real chance to improve, and not left untrained. Feedback given as it arises, and a record that
+    it was given, are here close to a precondition of the ground existing; notes kept only for
+    yourself are not notice to the person.</p>
+
+    <p><strong>The trial period is statutory and short.</strong> Article 7:652: <em
+    lang="nl">"De proeftijd wordt schriftelijk overeengekomen"</em>; on an indefinite contract
+    <em lang="nl">"een proeftijd worden overeengekomen van ten hoogste twee maanden"</em>; and
+    none at all where the contract <em lang="nl">"is aangegaan voor ten hoogste zes maanden"</em>.
+    Turnbull calls Groove's arrangement a consulting engagement. That description does not
+    establish how a similar arrangement would be classified here. The Belastingdienst's assessment
+    guidance considers all facts and circumstances of the actual relationship; see also
+    <a href="19-the-first-hire.html#ground">chapter nineteen's Dutch-ground section</a>.</p>
+
+    <p><strong>Notice and severance.</strong> Article 7:672 lid 2: <em lang="nl">"De door de
+    werkgever in acht te nemen termijn van opzegging bedraagt bij een arbeidsovereenkomst die op
+    de dag van opzegging: a. korter dan vijf jaar heeft geduurd: één maand"</em>, rising with
+    service. Article 7:673 lid 2: <em lang="nl">"De transitievergoeding is voor elk jaar dat de
+    arbeidsovereenkomst heeft geduurd gelijk aan een derde van het loon per maand"</em>, pro rata
+    for part-years, and <em lang="nl">"bedraagt maximaal € 102.000,00 of een bedrag gelijk aan ten
+    hoogste het loon over twaalf maanden indien dat loon hoger is dan dat bedrag"</em>. The cap
+    <em lang="nl">"wordt telkens met ingang van 1 januari"</em> adjusted, so in a later year the
+    figure above is stale by construction. The transitievergoeding is owed on a dismissal the
+    employer initiates on a valid ground; it is not a fine for doing it wrong, and paying it does
+    not supply the ground.</p>
+
+    <p>None of this is advice. The box covers an employer ending an indefinite contract; a
+    fixed-term contract's expiry, a termination by agreement, illness, and every other ground in
+    article 669 are outside it. Before the first conversation that could be heard as a dismissal,
+    pay an <span lang="nl">arbeidsrechtadvocaat</span> for an hour with the contract and your
+    notes in front of them.</p>
+
+    <span class="checked">Checked 28 August 2026 against Burgerlijk Wetboek Boek 7 articles 652, 669, 671, 671a, 671b, 672
+    and 673, consolidated text at 1 January 2026. Statute quoted, not paraphrased;
+    how the UWV and the courts assess a ground in practice is not covered here.
+    Trial-classification explanation corrected 19 September 2026 against the Belastingdienst
+    guidance linked above; this does not refresh the earlier statutory check.</span>
+  </div>
+
+  <nav class="chapter-nav">
+    <a href="19-the-first-hire.html"><span class="dir">Previous</span>19 · Deciding to Add Help</a>
+    <a class="next" href="21-meetings-that-arent-theater.html"><span class="dir">Next chapter</span>21 · Coordinating Work and Acting on Signals</a>
+  </nav>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>The Going Concern · Chapter 20.</p>
+  </div>
+</footer>
+
+</body>
+</html>

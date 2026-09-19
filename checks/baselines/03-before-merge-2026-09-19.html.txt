@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3 · Selling It Before It Exists — The Going Concern</title>
+<meta name="description" content="A preorder is evidence and a debt at the same time, and the second scales with the first. Studio Neat's five campaigns, Coolest Cooler's 265-times overshoot, and a ladder of commitment that ranks what the buyer gives up.">
+<link rel="canonical" href="https://anthonykot.github.io/going-concern/chapters/03-selling-it-before-it-exists.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="The Going Concern">
+<meta property="og:title" content="3 · Selling It Before It Exists">
+<meta property="og:description" content="A preorder is evidence and a debt at the same time, and the second scales with the first.">
+<meta property="og:url" content="https://anthonykot.github.io/going-concern/chapters/03-selling-it-before-it-exists.html">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../static/style.css">
+<script src="../static/theme.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html">The Going <span>Concern</span></a>
+    <nav class="site-nav">
+      <a href="../index.html">Chapters</a>
+      <a href="../about.html">Method</a>
+      <button class="theme-toggle" type="button">☾ Dark</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <p class="kicker">Part I · Is there anything here? · Chapter 3</p>
+  <h1>Selling It Before It Exists</h1>
+  <!-- drop: claude-cafe — "opening sounds like a TED talk riddle" -->
+  <p class="lede">Sixty-two thousand strangers paid $185 each for a cooler that did not exist, and
+  the company that took the money shut down owing twenty thousand of them. The test that proves
+  people will pay is the same act that obliges you to deliver, and you cannot run one without
+  signing up for the other.</p>
+
+  <div class="decision">
+    <span class="tag">The decision</span>
+    What you are going to ask people to give up in order to prove they want this — and whether you
+    could actually deliver what they would then have bought.
+  </div>
+
+  <section class="move">
+    <h2>The question that costs them something</h2>
+
+    <p>You have had the conversations. Somebody described a real workaround, gave you a date, named a
+    number they already spend. That was <a href="02-talking-to-people.html">chapter two</a>, and it
+    got you as far as a conversation can go — which is not far, because everything in it was free
+    for the person you were talking to.</p>
+
+    <p>The next question costs them something, and its answer is the first you can bank:
+    <em>will you pay for this now, before it exists?</em></p>
+
+    <p>Two things make this hard, and they pull in opposite directions. The first is that asking
+    feels like a violation — worst if money has always been somebody else's department, but nobody
+    is immune — because the request converts a pleasant conversation into a transaction. It
+    does. That is the point. The discomfort is the price of the information and it is cheap.</p>
+
+    <p>The second is larger. The moment somebody pays you for a thing that does not exist you have
+    sold a promise you may not be able to keep. Not <em>might not want to</em> — <em>may not be able
+    to</em>, because you have never made this thing, do not know what it costs, and have just agreed
+    a price and a date on the basis of a guess.</p>
+
+    <p>So: two questions on two separate axes, and you can pass one while failing the other
+    catastrophically. What will they give up? And could you deliver what they just bought?</p>
+  </section>
+
+  <section class="move">
+    <h2>Studio Neat: five campaigns, five deliveries</h2>
+
+    <div class="case">
+      <p class="case-head"><span class="who">Studio Neat</span> — Tom Gerhardt and Dan Provost, 2010–</p>
+
+      <p>Two people. Their first product was the Glif, a small moulded lump that clamps an iPhone to
+      a tripod. In October 2010 they put it on Kickstarter with a working prototype and a funding
+      goal of <strong>$10,000</strong>.</p>
+
+      <!-- drop: claude-cafe — "Kickstarter mechanics, not my world" -->
+      <p>Kickstarter's mechanics <em>are</em> the argument. Backers pledge; nobody is charged unless
+      the goal is reached; when it is, everyone is charged at once and the money is the maker's.
+      There is no product yet and there may not be a factory. The buyer hands over a non-refundable
+      payment for a thing that does not exist; the maker receives cash and a list of people they now
+      owe.</p>
+
+      <!-- drop: agy-pro-refugee — "Typical American hustle optimism; useless for a local business" -->
+      <!-- drop: agy-refugee — "feels like unrealistic American hustle optimism" -->
+      <!-- drop: grok-lagos — "US blogger money is not my market" -->
+      <p>The campaign opened on 3 October 2010 with nothing pledged. That day they emailed John
+      Gruber of Daring Fireball and offered him a prototype. He linked to them the next morning, in
+      a post of 167 characters. In their words: <em>"1 hour and 25 minutes after the post went live,
+      we surpassed our funding goal of $10,000, and finished the day with over $25,000."</em> By the
+      close on 2 November the archived page recorded <em>"5,273 Backers · $137,417 pledged of
+      $10,000 goal"</em> — just under fourteen times the target, at about twenty-six dollars a
+      head. Fourteen times is the audience of one link, not a fact about tripod clamps; the number
+      to carry is not the multiple but that five thousand strangers paid before a product existed.</p>
+
+      <p>They started shipping <em>"in early December, 2010"</em> — a little over a month after the
+      campaign closed.</p>
+
+      <p>They then did it four more times: a stylus, an ice-making kit, a syrup kit, and one iPhone
+      app. Across all five they raised, by their own account, <em>"nearly half a million dollars in
+      total."</em> All five were delivered.</p>
+
+      <div class="figures">
+        <div><span class="k">Glif goal</span><span class="v">$10,000</span></div>
+        <div><span class="k">Glif raised</span><span class="v">$137,417</span></div>
+        <div><span class="k">Backers</span><span class="v">5,273</span></div>
+        <div><span class="k">Overshoot</span><span class="v">13.7×</span></div>
+        <div><span class="k">Close to first shipment</span><span class="v">~1 month</span></div>
+        <div><span class="k">Campaigns funded</span><span class="v">5 of 5</span></div>
+        <div><span class="k">Raised across all five</span><span class="v">~$500k</span></div>
+      </div>
+
+      <p>One detail from their account matters more than the totals — the rule they give for when a
+      campaign is allowed to launch at all:
+      <em>"a napkin sketch is not enough. If you are making a physical piece of hardware, a working
+      prototype is a must."</em> And beyond the prototype, it is <em>"important to start
+      conversations with manufacturers beforehand to make sure your design is not impossible (or
+      extremely difficult) to manufacture."</em> Their diagnosis of the alternative:
+      <em>"projects that are successfully funded but fail to deliver (in timely manner, or at all)
+      are a result of not doing the necessary legwork up front."</em></p>
+    </div>
+
+    <p>The second axis had already cost them something before any money existed. A working prototype and a
+    conversation with a factory is not a weekend. It is what most people skip, and skipping it is
+    invisible until it is the only thing that matters.</p>
+
+    <p>There is an honest hole here, and they point at it themselves. The Glif was funded inside ninety
+    minutes by one link from one blog. That is a fact about distribution, not about photography
+    accessories, and this chapter would be lying if it offered $137,417 as a clean measurement of
+    demand. It measures demand <em>among the people who saw it</em>, and a favour from a stranger
+    determined who saw it.</p>
+
+    <p>One more number from their table, because nobody ever quotes it. Their February 2013 campaign,
+    an iPhone app, had a goal of <em>"$10,000"</em> and closed at <em>"$12,442 pledged · 1,211
+    backers"</em> — and delivered on time. Against the Glif's 13.7 times, that
+    is 1.24: same makers, same instrument, an answer an order of magnitude quieter. A preorder does
+    not return yes or no. It returns a size, and the size is the finding.</p>
+  </section>
+
+  <section class="move">
+    <h2>Two axes, not one ladder</h2>
+
+    <p>Everything people say about wanting your product is free to say. Evidence begins where saying
+    it starts to cost them. So rank what you might ask for by <strong>what the buyer gives up</strong>
+    — not by what it signals, not by how encouraged you feel afterwards — and rank it only among
+    buyers who are independent of you and are actually your customers. A non-refundable payment
+    from someone who is not your customer is worth less than a refundable deposit from someone who
+    is; independence and fit come first, and the rung is a tiebreak.</p>
+
+    <h3>The five rungs</h3>
+
+    <p><strong>1. Verbal enthusiasm.</strong> Costs nothing, tells you nothing, for all of chapter
+    two's reasons. Not worthless — it says the pitch is intelligible — but not evidence about
+    purchase.</p>
+
+    <p><strong>2. Signed intent.</strong> A letter of intent, a memorandum, a "yes, put us down for
+    ten." Costs a signature and no money. What it measures is whether someone will spend thirty
+    seconds of social capital to be helpful, which is worth knowing and is not demand. In a company
+    it is worth more, and how much more depends on what the signature has already cost: one that
+    has been through procurement, legal and a budget holder is a different object from one a
+    sympathetic director signed alone. Ask which it is. Until money moves, the second kind is a
+    politeness with letterhead.</p>
+
+    <p><strong>3. A refundable deposit.</strong> The first rung with money on it, and a genuine jump:
+    the buyer opens a wallet, chooses an amount, and explains the charge to whoever else sees the
+    statement. But the refund is an escape hatch, and it does more work than it appears to. A
+    refundable deposit is a bet the buyer can unwind — it measures interest at a moment rather than
+    commitment over time.</p>
+
+    <p><strong>4. Non-refundable payment.</strong> The buyer parts with money they cannot get back
+    for a thing that does not exist. The first rung genuinely hard to fake, where the Glif sat, and
+    the rung at which your obligation becomes real. It is also the only rung this case tests:
+    Studio Neat ran one instrument, five times, successfully, and nobody runs a deposit against a
+    payment against a repeat purchase for the same product. So the case shows that a non-refundable
+    payment before existence is obtainable, informative and survivable; the ordering of the ladder
+    around it is an argument from what each rung costs the person paying, not a result.</p>
+
+    <p><strong>5. A full-price repeat purchase.</strong> They bought, received, came back and bought
+    again without a discount. The strongest evidence available anywhere in Part I, and the only rung
+    that tests the product rather than the promise. Also the slowest, which is why it sits at the end
+    of a sequence rather than the start.</p>
+
+    <p>Two rules. <strong>Climb until it hurts to ask, then ask</strong> — the rung you are avoiding
+    is the one carrying the information. And <strong>read the size, not the verdict</strong>, and
+    read it alongside how many people saw it: the difference between fourteen times your target and
+    one-and-a-quarter is the whole message, and both are technically a pass — but the fourteen was
+    one link's audience, and a preorder page shown to two hundred people that sells nothing has told
+    you about two hundred people, not about demand. That is chapter two's sampling problem in
+    different clothes, and a presale read on its own cannot escape it.</p>
+
+    <h3>The other axis, which is not a rung</h3>
+
+    <p>There is a sixth thing, and putting it on the same ladder is the mistake this chapter exists
+    to prevent — because it does not measure the buyer at all. It measures you.</p>
+
+    <p><strong>Can you deliver what they just bought, at that price, in that time?</strong></p>
+
+    <p>You can be at the top of the buyer ladder and off the cliff on this one.
+    Chapter four's case, <a href="04-deciding-not-to.html">Cydoc</a>, had four customers paying
+    full price on recurring revenue — rung five — and an eleven-year payback on each. The demand evidence was
+    real; the business was not deliverable. Climbing does not get you here. Ask this separately, and
+    answer it before you sell.</p>
+
+    <p>Three checks, none optional:</p>
+
+    <ul>
+      <li><strong>Can it be made at all?</strong> Studio Neat's version — a working prototype plus a
+      conversation with whoever would have to manufacture it — is the cheapest form of the question,
+      and it happens before the launch button.</li>
+      <li><strong>At that price?</strong> Not the price you would like: the price you just took money
+      at, including the thing, the shipping, the payment fees, the returns and the hours — and in
+      the money it will actually be paid in, on the day you have to buy the materials, which where
+      prices move is not the day you were paid.</li>
+      <li><strong>By that date?</strong> Their advice is one sentence and you should take it
+      literally: <em>"However long you think the project will take to complete, you may do well to
+      simply double that estimate."</em></li>
+    </ul>
+
+    <p>And one structural point, which the case below makes at length: <strong>success on the
+    first axis makes the second axis harder</strong> — not proportionally, but in kind. Studio Neat's
+    warning against stretch goals names it: <em>"a slippery slope that can lead to biting off more
+    than you can chew."</em></p>
+
+<div class="limit">
+      <p class="case-head"><span class="who">Coolest Cooler</span> — the demand test passed 265 times over</p>
+
+      <!-- drop: agy-pro-refugee — "Another absurd crowdfunding lottery; scale is completely unrelatable" -->
+      <!-- drop: agy-refugee — "thirteen million dollars for a cooler is absurd" -->
+      <!-- drop: grok-lagos — "Thirteen million dollars, closed the tab" -->
+      <p>In the summer of 2014 Ryan Grepper put a cooler on Kickstarter — with a built-in blender, a
+      speaker and a USB charger. Goal: <strong>$50,000</strong>. The archived page records the close:
+      <em>"62,642 Backers · $13,285,226 pledged of $50,000 goal"</em> — two hundred and sixty-five
+      times the target, which is a small maker's forty unexpected yeses with more zeros and the same shape. Just over fifty thousand took the main tier: <em>"Pledge $185 or more · 50215
+      backers · COOLEST COOLER."</em> And the page gave a date: <em>"Estimated delivery: Feb
+      2015."</em></p>
+
+      <p>On the first axis that is an unambiguous pass. Sixty-two
+      thousand strangers made non-refundable payments, at $185, for an object that did not exist.</p>
+
+      <p>Now the second axis. In February 2015 there were no coolers. According to Matthew Hughes in
+      <em>The Register</em>, the company had <em>"spruiked over 60,000 units costing $185 apiece"</em>
+      and, two years after the campaign, <em>"asked backers for a further $97 in order for them to
+      receive their product before the July 4 holidays of 2016."</em> A settlement with the Oregon
+      Department of Justice followed. It shut down in December 2019 — five years past its delivery
+      date — <em>"with 20,000 orders unfulfilled,"</em> owing those backers money that
+      <em>"cannot be discharged in bankruptcy."</em></p>
+
+      <p>Why it collapsed is disputed and this chapter need not settle it; Grepper attributed the end
+      to tariffs on Chinese imports, and there is no document here that would let anyone adjudicate
+      that. The structural point survives whatever the cause. The pledge total was simultaneously the
+      best demand evidence anyone in this book obtained and a contract to manufacture sixty thousand
+      complex objects at a price fixed by someone who had never manufactured one. Both arrived in the
+      same instant, from the same act, and only one of them felt like winning.</p>
+
+      <p>The demand test worked exactly as advertised; the deliverability test was never cleared.
+      That is why making, price and date sit on a separate axis rather than as a sixth rung.</p>
+    </div>
+
+    <p>On Dutch ground, whether "non-refundable" holds depends on whether you sell to a business or to a consumer, and on whether the thing is made to order; <a href="#ground">the section at the end of this chapter</a> quotes the rule and the exceptions.</p>
+
+    <p>Studio Neat asked for money and could deliver. Coolest Cooler asked and could not. There
+    is a third outcome, the one nobody posts about: the deliverability check comes back no — no
+    factory, no price that works, no date you believe — and you do not launch.
+    <a href="04-deciding-not-to.html">Chapter four</a> is about making that decision well.</p>
+
+  </section>
+
+  <section class="monday">
+    <h2>Monday · one ask, or the check that stops it</h2>
+    <p><strong>Do this one thing.</strong> Write the sentence you are avoiding: <em>“It will be X,
+    it will be ready by [date], and I need [amount] up front to start.”</em> Under it, answer the
+    three deliverability checks in one line each: can it be made, at that price, by that date
+    doubled? If all three have answers, send the sentence to one person from
+    <a href="02-talking-to-people.html">chapter two</a>'s conversations today and ask for the
+    money — not “would you buy”. You now hold one ask and its answer, word for word, or the exact
+    check that stops you asking.</p>
+    <p><strong>Cannot fill in the date or the price?</strong> That blank is Monday's finding. It is
+    the deliverability page to write next — what one costs to make, what fifty cost, how many hours
+    the fiftieth takes — and nobody should be asked for money until it is filled.</p>
+    <p>If you have another hour:</p>
+    <ol>
+      <li><strong>Pick your rung and name it.</strong> Deposit, non-refundable payment, or paid
+      discovery — a small fixed-price piece of real work, invoiced first, which is the version of
+      rung four that suits most consultancies. If you sell something nobody preorders — coffee,
+      haircuts, plumbing — rung four is a standing order: the office across the road commits to
+      twenty sandwiches every Tuesday for a month, paid for the first week now. Nobody puts a deposit
+      on a flat white; somebody will on a month of them. Write down which, and why not one rung higher.</li>
+      <li><strong>Ask four more.</strong> Five asks in total. Record each no word for word; the reason
+      that repeats is the thing to fix.</li>
+      <li><strong>Write down what happens if it works too well.</strong> If forty say yes instead of
+      five: who makes them, with what money, by when. Deciding while the number is hypothetical is
+      the only time you will decide it calmly.</li>
+    </ol>
+  </section>
+
+  <details class="owed rests">
+    <summary>What this chapter rests on, and what would prove it wrong</summary>
+    <p>Studio Neat's figures are their own account and the archived Kickstarter pages; Coolest
+    Cooler's are its archived page and <em>The Register</em>'s reporting. Why Coolest Cooler
+    collapsed is disputed and not settled here.</p>
+    <p><strong>Still owed:</strong> someone who cleared both axes — independent buyers committed,
+    making, price and date checked — delivered what they promised, and still had no business; or
+    someone whose presale returned a clear no, who stopped and was wrong. Neither has been found in
+    a checkable record, so the <a href="../about.html#counter">debt stands</a>.</p>
+  </details>
+
+  <section class="reading">
+    <h2>Reading</h2>
+    <ul>
+      <li><span class="src">Source ·</span> Studio Neat, <a href="https://www.studioneat.com/blogs/main/17250808-how-to-kickstarter">"How to Kickstarter"</a> — first-party: the five-campaign table, the $137,417 from 5,273 backers, the December shipping, the $12,442 from 1,211 backers, the eighty-five minutes after the Daring Fireball link, and the prototype and doubling rules. Registered against <a href="http://web.archive.org/web/20150221012659/http://www.studioneat.com/blogs/main/17250808-how-to-kickstarter">the 2015 archive snapshot</a>, because their live shop rate-limits automated requests and the register has to be checkable.</li>
+      <li><span class="src">Source ·</span> The two campaign pages as they stood at close, via the Internet Archive: <a href="http://web.archive.org/web/20110101020908/http://www.kickstarter.com/projects/danprovost/glif-iphone-4-tripod-mount-and-stand">Glif</a> (January 2011) and <a href="http://web.archive.org/web/20140902022604/https://www.kickstarter.com/projects/ryangrepper/coolest-cooler-21st-century-cooler-thats-actually">Coolest Cooler</a> (September 2014). Contemporaneous platform records — the numbers as the buyers saw them.</li>
+      <li><span class="src">Source ·</span> Matthew Hughes, <a href="https://www.theregister.com/2019/12/11/coolest_cooler_fail/">"$13m+ Swiss Army Knife of blenders biz collapses…"</a>, <em>The Register</em>, 11 December 2019 — the unfulfilled orders, the $97 request, the Oregon settlement, the bankruptcy point. Secondary class: named journalist, corrections policy, attributed in the prose rather than absorbed into it.</li>
+      <li><span class="src">Source ·</span> <a href="https://wetten.overheid.nl/BWBR0005289">Burgerlijk Wetboek Boek 6</a>, arts. 6:230o and 6:230p.</li>
+      <li>Rob Fitzpatrick, <em>The Mom Test</em> (2013) — chapter two's book, and its later sections are on advancing a conversation to a commitment. Read the two chapters together.</li>
+    </ul>
+  </section>
+
+  <div class="ground" id="ground">
+    <h3>On Dutch ground · whether "non-refundable" holds</h3>
+
+    <!-- drop: claude-cafe — "Dutch law, article numbers, nothing to do with me" -->
+    <!-- drop: grok-lagos — "Dutch law, I sell clothes in Lagos" -->
+    <p>Whether "non-refundable" holds depends on who is selling to whom, and how — and for most
+    readers of this book the answer is reassuring. If you sell to a business, none of what follows
+    applies; that is a different regime. If you make things to order — goods <em>"vervaardigde
+    zaken, die niet geprefabriceerd zijn"</em>, made to the consumer's specification, not
+    prefabricated — art. 6:230p BW puts you outside the rule too. Bespoke work, custom
+    commissions, a service designed for the client: rung four is what it looks like.</p>
+
+    <p>The rule itself catches one situation: a <strong>trader</strong> selling a stock product to a
+    <strong>consumer</strong> at a distance or away from business premises. There, art. 6:230o BW
+    gives the consumer fourteen days to withdraw <em>"zonder opgave van redenen"</em> — without
+    giving reasons. For goods the clock starts the day the consumer receives them, not the day
+    they pay; for services, the day the contract is concluded. So in an ordinary online consumer
+    preorder, rung four moves back toward rung three, and the wording of what you sell matters.</p>
+
+    <p>Whether a crowdfunding pledge is a contract of this kind depends on whether you are acting
+    as a trader, the backer as a consumer, and the arrangement as a distance sale — a question for
+    someone qualified, not for a book. <strong>If you are selling stock goods to consumers online,
+    ask a lawyer who does consumer contracts before you write the terms, not after somebody asks
+    for their money back.</strong></p>
+
+    <p class="checked">Checked 2 August 2026 against the consolidated text of Burgerlijk Wetboek
+    Boek 6 on wetten.overheid.nl. Rules move; this section does not.</p>
+  </div>
+
+  <nav class="chapter-nav">
+    <a href="02-talking-to-people.html"><span class="dir">Previous</span>2 · Talking to People Who Will Lie to You</a>
+    <a class="next" href="04-deciding-not-to.html"><span class="dir">Next</span>4 · Deciding Not To</a>
+  </nav>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>The Going Concern · Chapter 3.</p>
+  </div>
+</footer>
+
+</body>
+</html>
